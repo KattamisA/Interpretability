@@ -13,7 +13,6 @@ import cv2
 
 from skimage.measure import compare_psnr
 from utils.denoising_utils import *
-from time import sleep
 
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True

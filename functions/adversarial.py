@@ -8,7 +8,7 @@ from utils.denoising_utils import *
 import numpy as np
 import cv2
 import argparse
-from data.imagenet_classes import classes
+from functions.imagenet_classes import classes
 
 
 def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradient Sign Method',eps = 5, alpha = 1,num_iter = None, show=True):
