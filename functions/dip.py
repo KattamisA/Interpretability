@@ -24,8 +24,8 @@ sigma = 25
 sigma_ = sigma/255.
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1/30, INPUT = 'noise', save = False, save_path = '', PLOT = True,input_depth=32):
-	img_np = img_np.transpose(2,0,1)
-	img_torch = np_to_torch(img_np)
+	img_np = img_np.transpose(2,0,1)/255.0
+	img_torch = np_to_torch(img_np).type(dtype)
 	pad = 'reflection' 
 	OPT_OVER = 'net' # 'net,input'
 	OPTIMIZER='adam' # 'LBFGS'

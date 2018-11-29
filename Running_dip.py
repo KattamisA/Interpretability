@@ -9,14 +9,13 @@ from functions.classification import *
 import torch
 
 
-adv, orig, pert = adversarial_examples("data/goldfish.jpg",method = "LLCI",eps=100)
+adv, orig, pert = adversarial_examples("data/goldfish.jpg",method = "LLCI",eps=100, num_iter=125,show=False)
 
-for i in range(7):
-	std = 2^(i)/64
-	out = dip(adv,num_iter=20000,save=True,PLOT=False,reg_noise_std = std,
-				save_path='results/Std_complex_{}-64'.format(std),arch='complex',input_depth=32)
+for i in range(4):
+	std1 = 2**(i+2)
+        std = std1/64
+	out = dip(adv,num_iter=10000,save=True,PLOT=False,reg_noise_std = std1,save_path='results/Adv_DIP/Std_complex_{}-64'.format(std1),arch='complex',input_depth=32)
 	
-for i in range(5):
-	id = 2^(i+1)
-	out = dip(adv,num_iter=20000,save=True,PLOT=False,
-				save_path='results/ID_complex_{}'.format(id),arch='complex',input_depth=id)
+for i in range(6):
+	ids = 2**(i+1)
+	out = dip(adv,num_iter=10000,save=True,PLOT=False,save_path='results/Adv_DIP/ID_complex_{}'.format(ids),arch='complex',input_depth=ids)
