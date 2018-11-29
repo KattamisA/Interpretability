@@ -2,10 +2,10 @@ from __future__ import print_function
 import matplotlib.pyplot as plt
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 import numpy as np
-from .DeepImagePrior.models import *
+from DeepImagePrior.models import *
 
 import torch
 import torch.optim
@@ -74,7 +74,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 	mse = torch.nn.MSELoss().type(dtype)
 	
 	#####
-	global i, out_avg, psrn_noisy_last, last_net, net_input_saved
+	global i, out_avg, psrn_noisy_last, last_net, net_input_saved,net_input
 	net_input_saved = net_input.detach().clone()
 	noise = net_input.detach().clone()
 	out_avg = None
@@ -88,7 +88,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 	
 	def closure():
 		
-		global i, out_avg, psrn_noisy_last, last_net, net_input_saved
+		global i, out_avg, psrn_noisy_last, last_net, net_input_saved,net_input
 		
 		if reg_noise_std > 0:
 			net_input = net_input_saved + (noise.normal_() * reg_noise_std)

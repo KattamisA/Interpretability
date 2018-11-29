@@ -6,6 +6,7 @@ from utils import *
 from functions.adversarial import *
 from functions.dip import dip
 from functions.classification import *
+import torch
 
 
 parser = argparse.ArgumentParser()
@@ -16,7 +17,7 @@ parser.add_argument('--model', type=str, default='resnet18',
 parser.add_argument('--y', type=int, required=False, help='Label')
 
 device = torch.device('cuda' if torch.cuda.device_count() else 'cpu')
-print(device)
+print(torch.cuda.device_count())
 
 args = parser.parse_args()
 image_path = args.img
@@ -34,7 +35,7 @@ img = orig.copy().astype(np.float32)
 img /= 255.0
 
 while True:
-	out = dip(img,num_iter=2000,save=True,PLOT=False,save_path='results/Tests')
+	out = dip(img,num_iter=15000,save=True,PLOT=False,save_path='results/Tests',arch='complex')
 	key = cv2.waitKey(500) & 0xFF
 	if key == 27:
 		break
