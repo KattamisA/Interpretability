@@ -15,6 +15,9 @@ parser.add_argument('--model', type=str, default='resnet18',
                     choices=['resnet18', 'inception_v3', 'resnet50'],
                     required=False, help="Which network?")
 parser.add_argument('--y', type=int, required=False, help='Label')
+parser.add_argument('--save',type=bool,required=False)
+parser.add_argument('--save_path',type=str,required=False, help=')
+parser.add_argument('--PLOT',type=bool, required=False, help='Set true to show')
 
 device = torch.device('cuda' if torch.cuda.device_count() else 'cpu')
 print(torch.cuda.device_count())
