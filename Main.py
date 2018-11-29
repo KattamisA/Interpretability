@@ -1,11 +1,12 @@
-from functions.adversarial import *
-from functions.dip import dip
-from functions.classification import *
 import matplotlib.pyplot as plt
 import cv2
 import argparse
 import numpy as np
 from utils import *
+from functions.adversarial import *
+from functions.dip import dip
+from functions.classification import *
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--img', type=str, default='images/goldfish.jpg', help='path to image')
