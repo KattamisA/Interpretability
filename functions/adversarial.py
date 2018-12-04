@@ -14,7 +14,7 @@ from functions.imagenet_classes import classes
 def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradient Sign Method',eps = 5, alpha = 1, num_iter = None, show=True):
     
     if num_iter == None:
-        num_iter = round(max(eps+4,eps*1.25)).astype(np.uint16)
+        num_iter = int(round(max(eps+4,eps*1.25)))
         
     if method == 'BI':
         method = 'Basic Iterative'
