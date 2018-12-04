@@ -1,0 +1,2 @@
+IterationsTotal Loss      PSNR
+ 100  0.09346169 10.29366388
