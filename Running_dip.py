@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import cv2
 import argparse
 import numpy as np
-from utils import *
+from functions.utils import *
 from functions.adversarial import *
-from functions.dip import dip
+from functions.dip import *
 from functions.classification import *
 import torch
 
@@ -20,8 +20,8 @@ import torch
 #	ids = 2**(i+1)
 #	out = dip(adv,num_iter=10000,save=True,PLOT=False,save_path='results/Adv_DIP/ID_complex_{}'.format(ids),arch='complex',input_depth=ids)
 
-images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png']
+images = ['panda.jpg']    #,'peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png']
 for i in images:
-    adv, orig, pert = adversarial_examples("data/{}".format(i),method = "LLCI",eps=100, num_iter=125,show=False)
-    out = dip(adv,num_iter=10001,save=True,PLOT=False,save_path='results/Adv_DIP/{}'.format(i),arch='complex')
+    adv, orig, pert = adversarial_examples("data/{}".format(i),method = "LLCI",eps=100,show=False)
+    out = dip(adv,num_iter=10001,save=True,PLOT=False,save_path='results/Adv_DIP/{}2'.format(i),arch='complex')
     
