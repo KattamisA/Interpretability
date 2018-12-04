@@ -2,7 +2,7 @@ import torch
 from torch.autograd import Variable
 from torchvision import models
 import torch.nn as nn
-from utils.denoising_utils import *
+from functions.utils.denoising_utils import *
 
 import numpy as np
 import cv2
