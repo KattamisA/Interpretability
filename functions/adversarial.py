@@ -5,6 +5,7 @@ import torch.nn as nn
 from torchvision import transforms
 from functions.utils.denoising_utils import *
 
+import matplotlib.pyplot as plt
 import numpy as np
 import cv2
 import argparse
