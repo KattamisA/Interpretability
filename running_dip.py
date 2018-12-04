@@ -23,4 +23,4 @@ import torch
 images = ['panda.jpg']    #,'peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png']
 for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=1, show=False)
-    out = dip(adv, num_iter=10001, save=False, plot=False, save_path='results/Adv_DIP/{}'.format(i), arch='simple')
+    out = dip(adv, num_iter=10001, save=False, plot=False, save_path='results/Adv_DIP/{}'.format(i), arch='default')

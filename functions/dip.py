@@ -45,7 +45,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.exp = exp_weight
     global_values.noise_std = reg_noise_std
     global_values.PLOT = plot
-    print(global_values.noise_std)
+
     if arch == 'default':
         #input_depth = 3
         net = skip(
@@ -97,7 +97,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if global_values.noise_std > 0.0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
 
-        out = net(net_input)
+        out = net(net_input).type(dtype)
 
         ## Exponential Smoothing
         if global_values.out_avg is None:
@@ -113,18 +113,20 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         print ('DIP Iteration {:>5}    Loss {:>7.6f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), psnr_noisy), end='\r')
+        #print(np.clip(torch_to_np(out), 0, 1).transpose(1, 2, 0).shape)
+        #print(np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1, 2, 0).shape)
+        #print(global_values.img_np.transpose(1, 2, 0).shape)
         if global_values.PLOT == True and iter_value % show_every == 0:
-            out_np = torch_to_np(out)
             fig=plt.figure(figsize=(16, 16))
             fig.add_subplot(1, 3, 1)
-            plt.imshow(np.clip(out_np, 0, 1).transpose(1, 2, 0))
+            plt.imshow(np.clip(torch_to_np(out), 0, 1).transpose(1, 2, 0))
             plt.title('Output')
             fig.add_subplot(1, 3, 2)
             plt.imshow(np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1, 2, 0))
             plt.title('Averaged Output')
             fig.add_subplot(1, 3, 3)
-            plt.title('Original/Target')
             plt.imshow(global_values.img_np.transpose(1, 2, 0))
+            plt.title('Original/Target')
             plt.show()
 
         if  save and iter_value % show_every == 0:
@@ -135,12 +137,12 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         # Backtracking   
         if iter_value % show_every == 0:
-            if (global_values.psnr_noisy_last - psnr_noisy) > 5: 
+            if (global_values.psnr_noisy_last - psnr_noisy) > 5.: 
                 print('Falling back to previous checkpoint.')
 
                 for new_param, net_param in zip(global_values.last_net, net.parameters()):
                     net_param.detach().copy_(new_param)
-                #global_values.noise_std /= 2
+                #global_values.noise_std /= 2.
                 return total_loss*0
             else:
                 last_net = [x.detach().cpu() for x in net.parameters()]
