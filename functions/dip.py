@@ -43,7 +43,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.exp = exp_weight
     global_values.noise_std = reg_noise_std
     global_values.PLOT = plot
-
+    print(global_values.noise_std)
     if arch == 'default':
         input_depth = 3
         net = skip(
@@ -90,7 +90,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     def closure(iter_value):
         show_every = 100
         figsize = 4
-        
+        print(global_values.noise_std)
         ## Initialiaze/ Update variables
         if global_values.noise_std > 0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
