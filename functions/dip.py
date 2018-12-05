@@ -34,6 +34,7 @@ class global_values:
     img_torch = None
     save = False
     #iter_value = 0
+    net = None
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
     
@@ -67,7 +68,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
     elif arch == 'complex':
         #input_depth = 32
-        net = get_net(input_depth,'skip', pad,
+        global_values.net = get_net(input_depth,'skip', pad,
                 skip_n33d=128, 
                 skip_n33u=128, 
                 skip_n11=4, 
@@ -90,7 +91,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.noise = net_input.detach().clone()
     
     # Compute number of parameters
-    s  = sum([np.prod(list(p.size())) for p in net.parameters()]); 
+    s  = sum([np.prod(list(p.size())) for p in global_values.net.parameters()]); 
     print ('Number of params: %d' % s)
 
     # Loss
@@ -108,7 +109,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if global_values.noise_std > 0.0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
 
-        out = net(net_input)
+        out = global_values.net(net_input)
 
         ## Exponential Smoothing
         if global_values.out_avg is None:
@@ -122,7 +123,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
 
-        print ('DIP Iteration {:>11}    Loss {:>11.7f}   PSNR_noisy: {:>5.4f} PSNR_noisy_checkpoint: {:>5.4f}'
+        print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}   PSNR_noisy_checkpoint: {:>5.4f}'
                .format(iter_value, total_loss.item(), psnr_noisy, global_values.psnr_noisy_last), end='\r')
 
         if global_values.PLOT == True and iter_value % show_every == 0:
@@ -151,7 +152,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
-            net.load_state_dict(global_values.last_net)
+            global_values.net.load_state_dict(global_values.last_net)
             global_values.save = False
             optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every + 1)
             print('\n Return back to the original')                        
@@ -159,14 +160,14 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 
         if (iter_value % show_every) == 0: 
                 #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-                global_values.last_net = net.state_dict()
+                global_values.last_net = global_values.net.state_dict()
                 global_values.psnr_noisy_last = psnr_noisy
                 
         return total_loss
     
-    p = get_params(OPT_OVER, net, net_input)    
+    p = get_params(OPT_OVER, global_values.net, net_input)    
     optimize(OPTIMIZER, p, closure, LR, num_iter)
     print('\n')    
-    out = net(net_input)
+    out = global_values.net(net_input)
     global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
     return global_values.out_avg
