@@ -156,8 +156,9 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 #net_param.detach().copy_(new_param)
             net.load_state_dict(global_values.last_net.state_dict())
             global_values.save = False
-            for correction_iter in range(iter_value % show_every):
-                optimizer = torch.optim.Adam(parameters, lr=LR)
+            p = get_params(OPT_OVER, net, net_input)
+            optimizer = torch.optim.Adam(p, lr=LR)
+            for correction_iter in range(iter_value % show_every):                
                 optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + correction_iter+1)
                 optimizer.step()
