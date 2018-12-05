@@ -94,7 +94,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.noise = net_input.detach().clone()
     
     # Compute number of parameters
-    s  = sum([np.prod(list(p.size())) for p in net.parameters()]); 
+    s  = sum([np.prod(list(p.size())) for p in global_values.net.parameters()]); 
     print ('Number of params: %d' % s)
 
     # Loss
@@ -172,6 +172,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     p = get_params(OPT_OVER, net, net_input)    
     optimize(OPTIMIZER, p, closure, LR, num_iter)
     print('\n')    
-    out = net(net_input)
+    out = global_values.net(net_input)
     global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
     return global_values.out_avg
