@@ -147,32 +147,33 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         # Backtracking   
                
-        #if (global_values.psnr_noisy_last - psnr_noisy) > 5: 
+        if (global_values.psnr_noisy_last - psnr_noisy) > 5: 
             print('\n Falling back to previous checkpoint.')
 
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
-            #global_values.save = False
+            global_values.save = False
             #for correction_iter in range(iter_value % show_every):                
-            #    closure(iter_value - (iter_value % show_every) + correction_iter)
-            #global_values.save = True
+                #closure(iter_value - (iter_value % show_every) + correction_iter)
+            optimize(OPTIMIZER, p, closure, LR, iter_value % show_every)   
+            global_values.save = True
                 
-       # if (iter_value % show_every) == 0: 
+        if (iter_value % show_every) == 0: 
                 #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-                #global_values.last_net = get_params(OPT_OVER, net, net_input)
-                #global_values.psnr_noisy_last = psnr_noisy
+                global_values.last_net = get_params(OPT_OVER, net, net_input)
+                global_values.psnr_noisy_last = psnr_noisy
                 
-        if iter_value % show_every:
-            if psnr_noisy - global_values.psnr_noisy_last < -5: 
-                print('Falling back to previous checkpoint.')
-
-                for new_param, net_param in zip(global_values.last_net, net.parameters()):
-                    net_param.detach().copy_(new_param.cuda())
-
-                return total_loss*0
-            else:
-                global_values.last_net = [x.detach().cpu() for x in net.parameters()]
-                global_values.psnr_noisy_last = psnr_noisy                
+        #if iter_value % show_every:
+         #   if psnr_noisy - global_values.psnr_noisy_last < -5: 
+          #      print('Falling back to previous checkpoint.')
+#
+ #               for new_param, net_param in zip(global_values.last_net, net.parameters()):
+  #                  net_param.detach().copy_(new_param.cuda())
+#
+ #               return total_loss*0
+  #          else:
+   #             global_values.last_net = [x.detach().cpu() for x in net.parameters()]
+    #            global_values.psnr_noisy_last = psnr_noisy                
         
         #global_values.iter_value += 1
         return total_loss
