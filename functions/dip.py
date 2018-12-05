@@ -145,7 +145,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             f = open("{}/Stats.txt".format(save_path),"a")
             f.write("{:>5}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, psnr_noisy, global_values.psnr_noisy_last))
             plt.imsave("{}/it_{}.png".format(save_path,iter_value),
-                       #np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
+                       np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
         # Backtracking   
                
