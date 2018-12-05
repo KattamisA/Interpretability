@@ -33,8 +33,6 @@ class global_values:
     img_np = None
     img_torch = None
     save = False
-    net = None
-    net_saved = None
     #iter_value = 0
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
@@ -56,12 +54,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.out_avg = None
     global_values.last_net = None
     global_values.save = save
-    global_values.net_saved = None
     #global_values.iter_value = 0
 
     if arch == 'default':
         #input_depth = 3
-        global_values.net = skip(
+        net = skip(
                 input_depth, 3, 
                 num_channels_down = [8, 16, 32, 64, 128], 
                 num_channels_up   = [8, 16, 32, 64, 128],
@@ -71,7 +68,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
     elif arch == 'complex':
         #input_depth = 32
-        global_values.net = get_net(input_depth,'skip', pad,
+        net = get_net(input_depth,'skip', pad,
                 skip_n33d=128, 
                 skip_n33u=128, 
                 skip_n11=4, 
@@ -80,7 +77,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
     elif arch == 'simple':
         input_depth = 3 
-        global_values.net = get_net(input_depth,'skip', pad,
+        net = get_net(input_depth,'skip', pad,
                 skip_n33d=16, 
                 skip_n33u=16, 
                 skip_n11=0, 
@@ -94,7 +91,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.noise = net_input.detach().clone()
     
     # Compute number of parameters
-    s  = sum([np.prod(list(p.size())) for p in global_values.net.parameters()]); 
+    s  = sum([np.prod(list(p.size())) for p in net.parameters()]); 
     print ('Number of params: %d' % s)
 
     # Loss
@@ -112,7 +109,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if global_values.noise_std > 0.0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
 
-        out = global_values.net(net_input)
+        out = net(net_input)
 
         ## Exponential Smoothing
         if global_values.out_avg is None:
@@ -150,28 +147,39 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         # Backtracking   
                
-        if (global_values.psnr_noisy_last - psnr_noisy) > 5: 
+        #if (global_values.psnr_noisy_last - psnr_noisy) > 5: 
             print('\n Falling back to previous checkpoint.')
 
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
-            global_values.net = copy.deepcopy(global_values.net_saved)
-            global_values.save = False
-            for correction_iter in range(iter_value % show_every):                
-                closure(iter_value - (iter_value % show_every) + correction_iter)
-            global_values.save = True
+            #global_values.save = False
+            #for correction_iter in range(iter_value % show_every):                
+            #    closure(iter_value - (iter_value % show_every) + correction_iter)
+            #global_values.save = True
                 
-        if (iter_value % show_every) == 0: 
+       # if (iter_value % show_every) == 0: 
                 #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-                global_values.net_saved = copy.deepcopy(global_values.net)
-                global_values.psnr_noisy_last = psnr_noisy
+                #global_values.last_net = get_params(OPT_OVER, net, net_input)
+                #global_values.psnr_noisy_last = psnr_noisy
+                
+        if i % show_every:
+            if psrn_noisy - psrn_noisy_last < -5: 
+                print('Falling back to previous checkpoint.')
+
+                for new_param, net_param in zip(last_net, net.parameters()):
+                    net_param.detach().copy_(new_param.cuda())
+
+                return total_loss*0
+            else:
+                last_net = [x.detach().cpu() for x in net.parameters()]
+                psrn_noisy_last = psrn_noisy                
         
         #global_values.iter_value += 1
         return total_loss
     
-    p = get_params(OPT_OVER, global_values.net, net_input)    
+    p = get_params(OPT_OVER, net, net_input)    
     optimize(OPTIMIZER, p, closure, LR, num_iter)
     print('\n')    
-    out = global_values.net(net_input)
+    out = net(net_input)
     global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
     return global_values.out_avg
