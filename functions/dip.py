@@ -16,8 +16,8 @@ from copy import deepcopy
 
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
-#dtype = torch.cuda.FloatTensor
-dtype = torch.FloatTensor
+dtype = torch.cuda.FloatTensor
+#dtype = torch.FloatTensor
 
 imsize =-1
 sigma = 25
