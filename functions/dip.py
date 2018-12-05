@@ -52,7 +52,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.PLOT = plot
     global_values.psnr_noisy_last = 0.0
     global_values.out_avg = None
-    global_values.last_net = None
     global_values.save = save
     #global_values.iter_value = 0
 
@@ -116,6 +115,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             global_values.out_avg = out.detach()
         else:
             global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
+        
+        global_values.last_net = net.detach()
         
         ## Calculate loss
         total_loss = mse(out, global_values.img_torch)
