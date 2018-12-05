@@ -35,7 +35,7 @@ class global_values:
     save = False
     #iter_value = 0
 
-def dip(img_np, arch = 'default', LR = 0.005, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
+def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
     
     global_values.img_np = img_np.copy().astype(np.float32)
     global_values.img_np = global_values.img_np.transpose(2,0,1)/255.0
@@ -154,20 +154,15 @@ def dip(img_np, arch = 'default', LR = 0.005, num_iter = 1000, exp_weight = 0.99
 
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
-            net.load_state_dict(global_values.last_net.state_dict())
+            net.load_state_dict(global_values.last_net)
             global_values.save = False
-            p = get_params(OPT_OVER, net, net_input)
-            optimizer = torch.optim.Adam(p, lr=LR)
-            for correction_iter in range(iter_value % show_every):                
-                optimizer.zero_grad()
-                closure(iter_value - (iter_value % show_every) + correction_iter+1)
-                optimizer.step()
+            optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every + 1)
             print('\n Return back to the original')                        
             global_values.save = True
                 
         if (iter_value % show_every) == 0: 
                 #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-                global_values.last_net.load_state_dict(net.state_dict(),strict=False)
+                global_values.last_net = net.state_dict()
                 global_values.psnr_noisy_last = psnr_noisy.copy()
                 
         return total_loss
