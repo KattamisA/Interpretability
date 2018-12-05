@@ -7,7 +7,7 @@ import torch.optim
 import cv2
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-from IPython.core.debugger import set_trace
+#from IPython.core.debugger import set_trace
 
 from skimage.measure import compare_psnr
 from functions.utils.denoising_utils import *
