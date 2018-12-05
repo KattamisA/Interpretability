@@ -169,7 +169,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         #global_values.iter_value += 1
         return total_loss
     
-    p = get_params(OPT_OVER, net, net_input)    
+    p = get_params(OPT_OVER, global_values.net, net_input)    
     optimize(OPTIMIZER, p, closure, LR, num_iter)
     print('\n')    
     out = global_values.net(net_input)
