@@ -157,7 +157,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             net.load_state_dict(global_values.last_net.state_dict())
             global_values.save = False
             for correction_iter in range(iter_value % show_every):                
-                closure(iter_value - (iter_value % show_every) + correction_iter)
+                closure(iter_value - (iter_value % show_every) + correction_iter+1)
             #optimize(OPTIMIZER, global_values.last_net, closure, LR, iter_value % show_every)   
             global_values.save = True
                 
