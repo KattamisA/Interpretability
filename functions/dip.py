@@ -153,10 +153,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
             global_values.net.load_state_dict(global_values.last_net)
-            global_values.save = False
-            optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every + 1)
-            print('\n Return back to the original')                        
-            global_values.save = True
+            return total_loss*0.0
+            #global_values.save = False
+            #optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every + 1)
+            #print('\n Return back to the original')                        
+            #global_values.save = True
                 
         if (iter_value % show_every) == 0: 
             #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
