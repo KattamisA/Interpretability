@@ -38,6 +38,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.img_np = img_np.copy().astype(np.float32)
     global_values.img_np = global_values.img_np.transpose(2,0,1)/255.0
     global_values.img_torch = np_to_torch(global_values.img_np).type(dtype)
+    
 
     pad = 'zero' 
     OPT_OVER = 'net' # 'net input'
@@ -47,6 +48,9 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.exp = exp_weight
     global_values.noise_std = reg_noise_std
     global_values.PLOT = plot
+    global_values.psnr_noisy_last = 0.0
+    global_values.out_avg = None
+    global_values.last_net = None
 
     if arch == 'default':
         #input_depth = 3

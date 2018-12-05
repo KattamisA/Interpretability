@@ -1,12 +1,14 @@
 #import matplotlib.pyplot as plt
 #import cv2
 #import argparse
+import torch
+device = torch.device('cuda' if torch.cuda.device_count() else 'cpu')
+print(device)
 import numpy as np
 from functions.utils import *
 from functions.adversarial import *
 from functions.dip import *
 #from functions.classification import *
-import torch
 
 
 #adv, orig, pert = adversarial_examples("data/goldfish.jpg",method = "LLCI",eps=100, num_iter=125,show=False)
@@ -22,5 +24,5 @@ import torch
 
 images = ['goldfish.jpg', 'panda.jpg']    #,'peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png']
 for i in images:
-    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
+    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=1, show=False)
     out = dip(adv, num_iter=10001, save=True, plot=False, save_path='results/Adv_DIP/{}2'.format(i), arch='complex')
