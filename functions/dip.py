@@ -152,15 +152,17 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
+            net.load_state_dict(net2.state_dict(global_values.last_net))
             global_values.save = False
-            #for correction_iter in range(iter_value % show_every):                
-                #closure(iter_value - (iter_value % show_every) + correction_iter)
-            optimize(OPTIMIZER, global_values.last_net, closure, LR, iter_value % show_every)   
+            for correction_iter in range(iter_value % show_every):                
+                closure(iter_value - (iter_value % show_every) + correction_iter)
+            #optimize(OPTIMIZER, global_values.last_net, closure, LR, iter_value % show_every)   
             global_values.save = True
                 
         if (iter_value % show_every) == 0: 
                 #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-                global_values.last_net = get_params(OPT_OVER, net, net_input)
+                global_values.last_net.load_state_dict(net.state_dict())
+                #global_values.last_net = get_params(OPT_OVER, net, net_input)
                 global_values.psnr_noisy_last = psnr_noisy
                 
         #if iter_value % show_every:
