@@ -162,7 +162,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 #global_values.last_net = get_params(OPT_OVER, net, net_input)
                 #global_values.psnr_noisy_last = psnr_noisy
                 
-        if i % show_every:
+        if iter_value % show_every:
             if psrn_noisy - psrn_noisy_last < -5: 
                 print('Falling back to previous checkpoint.')
 
