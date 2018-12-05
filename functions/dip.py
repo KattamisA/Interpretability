@@ -35,6 +35,7 @@ class global_values:
     img_np = None
     img_torch = None
     save = False
+    net = None
     #iter_value = 0
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
@@ -68,7 +69,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
     elif arch == 'complex':
         #input_depth = 32
-        net = get_net(input_depth,'skip', pad,
+        global_values.net = get_net(input_depth,'skip', pad,
                 skip_n33d=128, 
                 skip_n33u=128, 
                 skip_n11=4, 
@@ -91,7 +92,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.noise = net_input.detach().clone()
     
     # Compute number of parameters
-    s  = sum([np.prod(list(p.size())) for p in net.parameters()]); 
+    s  = sum([np.prod(list(p.size())) for p in global_values.net.parameters()]); 
     print ('Number of params: %d' % s)
 
     # Loss
@@ -109,7 +110,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if global_values.noise_std > 0.0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
 
-        out = net(net_input)
+        out = global_values.net(net_input)
 
         ## Exponential Smoothing
         if global_values.out_avg is None:
@@ -149,10 +150,10 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if (global_values.psnr_noisy_last - psnr_noisy) > 5:
             
             print('\n Falling back to previous checkpoint.')
-            net.load_state_dict(global_values.last_net.state_dict())
-            out = net(net_input)
+            global_values.net.load_state_dict(global_values.last_net.state_dict())
+            out = global_values.net(net_input)
             psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
-            p = get_params(OPT_OVER, net, net_input)
+            p = get_params(OPT_OVER, global_values.net, net_input)
             optimizer = torch.optim.Adam(p, lr=LR)
             
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
@@ -172,17 +173,17 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             
         if (iter_value % show_every) == 0: 
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-            global_values.last_net = deepcopy(net)
+            global_values.last_net = deepcopy(global_values.net)
             global_values.psnr_noisy_last = psnr_noisy
             
 
         return total_loss
         
-    p = get_params(OPT_OVER, net, net_input)    
+    p = get_params(OPT_OVER, global_values.net, net_input)    
     optimize(OPTIMIZER, p, closure, LR, num_iter)
     
     print('\n')
     
-    out = net(net_input)
+    out = global_values.net(net_input)
     global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
     return global_values.out_avg
