@@ -150,6 +150,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             
             print('\n Falling back to previous checkpoint.')
             net.load_state_dict(global_values.last_net.state_dict())
+            out = net(net_input)
+            psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
             p = get_params(OPT_OVER, net, net_input)
             optimizer = torch.optim.Adam(p, lr=LR)
             
@@ -166,13 +168,12 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
-            return total_loss*0
-        else:
-            global_values.psnr_noisy_last = psnr_noisy
+            return total_loss*0            
             
         if (iter_value % show_every) == 0: 
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
             global_values.last_net = deepcopy(net)
+            global_values.psnr_noisy_last = psnr_noisy
             
 
         return total_loss
