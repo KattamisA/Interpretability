@@ -163,7 +163,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 #global_values.psnr_noisy_last = psnr_noisy
                 
         if iter_value % show_every:
-            if psrn_noisy - global_values.psrn_noisy_last < -5: 
+            if psnr_noisy - global_values.psnr_noisy_last < -5: 
                 print('Falling back to previous checkpoint.')
 
                 for new_param, net_param in zip(global_values.last_net, net.parameters()):
@@ -172,7 +172,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 return total_loss*0
             else:
                 global_values.last_net = [x.detach().cpu() for x in net.parameters()]
-                global_values.psrn_noisy_last = psrn_noisy                
+                global_values.psnr_noisy_last = psnr_noisy                
         
         #global_values.iter_value += 1
         return total_loss
