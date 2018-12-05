@@ -32,6 +32,8 @@ class global_values:
     PLOT = True
     img_np = None
     img_torch = None
+    save = False
+    #iter_value = 0
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
     
@@ -51,6 +53,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.psnr_noisy_last = 0.0
     global_values.out_avg = None
     global_values.last_net = None
+    global_values.save = save
+    #global_values.iter_value = 0
 
     if arch == 'default':
         #input_depth = 3
@@ -135,24 +139,27 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             plt.imshow(global_values.img_np.transpose(1, 2, 0))
             plt.show()
 
-        if  save and iter_value % show_every == 0:
+        if  global_values.save and iter_value % show_every == 0:
             f = open("{}/Stats.txt".format(save_path),"a")
             f.write("{:>5}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, psnr_noisy))
             plt.imsave("{}/it_{}.png".format(save_path,iter_value),
                        np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
         # Backtracking   
-        
+               
         if (global_values.psnr_noisy_last - psnr_noisy) > 5: 
             print('\n Falling back to previous checkpoint.')
 
             for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 net_param.detach().copy_(new_param)
-            closure(iter_value)
-        if iter_value % show_every == 0:
+            for correction_iter in range(iter_value % show_every):
+                closure(iter_value - (iter_value % show_every) + correction_iter)
+                
+        if (iter_value % show_every) == 0: 
                 global_values.last_net = [x.detach().cuda() for x in net.parameters()]
                 global_values.psnr_noisy_last = psnr_noisy
-
+        
+        #global_values.iter_value += 1
         return total_loss
     
     p = get_params(OPT_OVER, net, net_input)    
