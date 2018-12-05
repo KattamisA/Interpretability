@@ -27,14 +27,16 @@ class global_values:
     last_net = None
     psnr_noisy_last = 0
     exp = None
-    noise_std = None
+    noise_std = 0.0
     PLOT = True
+    img_np = None
+    img_torch = None
 
-def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth=32):
+def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth=32):
     
-    img_np = img_np.transpose(2,0,1)/255.0
-    img_torch = np_to_torch(img_np).type(dtype)
-    
+    global_values.img_np = img_np.transpose(2,0,1)/255.0
+    global_values.img_torch = np_to_torch(global_values.img_np).type(dtype)
+
     pad = 'reflection' 
     OPT_OVER = 'net' # 'net,input'
     OPTIMIZER='adam' # 'LBFGS'
@@ -45,7 +47,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.PLOT = plot
 
     if arch == 'default':
-        input_depth = 3
+        #input_depth = 3
         net = skip(
                 input_depth, 3, 
                 num_channels_down = [8, 16, 32, 64, 128], 
@@ -62,7 +64,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 num_scales=5,
                 upsample_mode='bilinear')
     elif arch == 'simple':
-        input_depth = 32 
+        #input_depth = 32 
         net = get_net(input_depth,'skip', pad,
                 skip_n33d=16, 
                 skip_n33u=16, 
@@ -72,7 +74,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     else:
         assert False
 
-    net_input = get_noise(input_depth, INPUT, (img_np.shape[1], img_np.shape[2])).type(dtype).detach()   
+    net_input = get_noise(input_depth, INPUT, (global_values.img_np.shape[1], global_values.img_np.shape[2])).type(dtype).detach()   
     global_values.net_input_saved = net_input.detach().clone()
     global_values.noise = global_values.net_input_saved
     
@@ -92,9 +94,9 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         figsize = 4
         
         ## Initialiaze/ Update variables
-        if global_values.noise_std > 0:
+        if global_values.noise_std > 0.0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
-            
+
         out = net(net_input)
 
         ## Exponential Smoothing
@@ -104,10 +106,10 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
         
         ## Calculate loss
-        total_loss = mse(out, img_torch)
+        total_loss = mse(out, global_values.img_torch)
         total_loss.backward()
 
-        psnr_noisy = compare_psnr(img_np, out.detach().cpu().numpy()[0]) # Peak signal to noise ratio calculation
+        psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]) # Peak signal to noise ratio calculation
 
         print ('DIP Iteration {:>5}    Loss {:>7.6f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), psnr_noisy), end='\r')
@@ -122,7 +124,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             plt.title('Averaged Output')
             fig.add_subplot(1, 3, 3)
             plt.title('Original/Target')
-            plt.imshow(img_np.transpose(1, 2, 0))
+            plt.imshow(global_values.img_np.transpose(1, 2, 0))
             plt.show()
 
         if  save and iter_value % show_every == 0:
