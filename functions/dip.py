@@ -34,7 +34,6 @@ class global_values:
     img_torch = None
     save = False
     #iter_value = 0
-    net = None
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
     
@@ -42,7 +41,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.img_np = global_values.img_np.transpose(2,0,1)/255.0
     global_values.img_torch = np_to_torch(global_values.img_np).type(dtype)
     
-
     pad = 'zero' 
     OPT_OVER = 'net' # 'net input'
     OPTIMIZER='adam' # 'LBFGS'
@@ -68,7 +66,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
     elif arch == 'complex':
         #input_depth = 32
-        global_values.net = get_net(input_depth,'skip', pad,
+        net = get_net(input_depth,'skip', pad,
                 skip_n33d=128, 
                 skip_n33u=128, 
                 skip_n11=4, 
@@ -109,7 +107,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if global_values.noise_std > 0.0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
 
-        out = global_values.net(net_input)
+        out = net(net_input)
 
         ## Exponential Smoothing
         if global_values.out_avg is None:
@@ -142,8 +140,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if  global_values.save and iter_value % show_every == 0:
             f = open("{}/Stats.txt".format(save_path),"a")
             f.write("{:>5}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, psnr_noisy, global_values.psnr_noisy_last))
-            plt.imsave("{}/it_{}.png".format(save_path,iter_value),
-                       np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
+            #plt.imsave("{}/it_{}.png".format(save_path,iter_value),
+                       #np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
         # Backtracking   
                
@@ -152,7 +150,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
-            global_values.net.load_state_dict(global_values.last_net)
+            net.load_state_dict(global_values.last_net)
             return total_loss*0.0
             #global_values.save = False
             #optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every + 1)
@@ -161,14 +159,14 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 
         if (iter_value % show_every) == 0: 
             #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-            global_values.last_net = global_values.net.state_dict()
+            global_values.last_net = net.state_dict().clone()
             global_values.psnr_noisy_last = psnr_noisy
 
         return total_loss
     
-    p = get_params(OPT_OVER, global_values.net, net_input)    
+    p = get_params(OPT_OVER, net, net_input)    
     optimize(OPTIMIZER, p, closure, LR, num_iter)
     print('\n')    
-    out = global_values.net(net_input)
+    out = net(net_input)
     global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
     return global_values.out_avg
