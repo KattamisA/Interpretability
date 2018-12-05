@@ -156,8 +156,13 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 #net_param.detach().copy_(new_param)
             net.load_state_dict(global_values.last_net.state_dict())
             p = get_params(OPT_OVER, net, net_input)
+            optimizer = torch.optim.Adam(p, lr=LR)
             global_values.save = False
-            optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)
+            for j in range(iter_value % show_every):
+                optimizer.zero_grad()
+                closure(iter_value % show_every + j + 1)
+                optimizer.step()
+            #optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
             return total_loss*0    
