@@ -32,7 +32,7 @@ class global_values:
     img_np = None
     img_torch = None
 
-def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth=32):
+def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
     
     global_values.img_np = img_np.transpose(2,0,1)/255.0
     global_values.img_torch = np_to_torch(global_values.img_np).type(dtype)
@@ -55,22 +55,25 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 num_channels_skip = [0, 0, 0, 4, 4], 
                 upsample_mode='bilinear',
                 need_sigmoid=True, need_bias=True, act_fun='LeakyReLU').type(dtype)
+
     elif arch == 'complex':
-        #input_depth = 32 
+        #input_depth = 32
+ 
         net = get_net(input_depth,'skip', pad,
                 skip_n33d=128, 
                 skip_n33u=128, 
                 skip_n11=4, 
                 num_scales=5,
-                upsample_mode='bilinear')
+                upsample_mode='bilinear').type(dtype)
+
     elif arch == 'simple':
-        #input_depth = 32 
+        input_depth = 3 
         net = get_net(input_depth,'skip', pad,
                 skip_n33d=16, 
                 skip_n33u=16, 
-                skip_n11=4, 
-                num_scales=3,
-                upsample_mode='bilinear')
+                skip_n11=0, 
+                num_scales=4,
+                upsample_mode='bilinear').type(dtype)
     else:
         assert False
 
@@ -97,7 +100,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if global_values.noise_std > 0.0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
 
-        out = net(net_input).type(dtype)
+        out = net(net_input)
 
         ## Exponential Smoothing
         if global_values.out_avg is None:
@@ -109,7 +112,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         total_loss = mse(out, global_values.img_torch)
         total_loss.backward()
 
-        psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]) # Peak signal to noise ratio calculation
+        psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32) # Peak signal to noise ratio calculation
 
         print ('DIP Iteration {:>5}    Loss {:>7.6f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), psnr_noisy), end='\r')
