@@ -151,8 +151,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             
             print('\n Falling back to previous checkpoint.')
             global_values.net.load_state_dict(global_values.last_net.state_dict())
-            out = global_values.net(net_input)
-            psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
             p = get_params(OPT_OVER, global_values.net, net_input)
             optimizer = torch.optim.Adam(p, lr=LR)
             
