@@ -99,7 +99,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     
     if save == True:
         f= open("{}/Stats.txt".format(save_path),"w+")
-        f.write("{:>5}{:>10}{:>10}\n".format('Iterations','Total Loss','PSNR'))
+        f.write("{:>11}{:>11}{:>5}\n".format('Iterations','Total_Loss','PSNR'))
     
     def closure(iter_value):
         show_every = 100
@@ -123,7 +123,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
 
-        print ('DIP Iteration {:>5}    Loss {:>7.6f}   PSNR_noisy: {:>5.4f}'
+        print ('DIP Iteration {:>11}    Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), psnr_noisy), end='\r')
 
         if global_values.PLOT == True and iter_value % show_every == 0:
@@ -150,13 +150,17 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if (global_values.psnr_noisy_last - psnr_noisy) > 5: 
             print('\n Falling back to previous checkpoint.')
 
-            for new_param, net_param in zip(global_values.last_net, net.parameters()):
-                net_param.detach().copy_(new_param)
-            for correction_iter in range(iter_value % show_every):
+            #for new_param, net_param in zip(global_values.last_net, net.parameters()):
+                #net_param.detach().copy_(new_param)
+            net = copy.deepcopy(global_values.net_saved)
+            global_values.save = False
+            for correction_iter in range(iter_value % show_every):                
                 closure(iter_value - (iter_value % show_every) + correction_iter)
+            global_values.save = True
                 
         if (iter_value % show_every) == 0: 
-                global_values.last_net = [x.detach().cuda() for x in net.parameters()]
+                #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
+                global_values.net_saved = copy.deepcopy(global_values.net)
                 global_values.psnr_noisy_last = psnr_noisy
         
         #global_values.iter_value += 1
