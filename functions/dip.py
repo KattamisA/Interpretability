@@ -146,29 +146,34 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                        np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
         # Backtracking   
-        if (global_values.psnr_noisy_last - psnr_noisy) > 5: 
+        if (global_values.psnr_noisy_last - psnr_noisy) > 5:
+            
             print('\n Falling back to previous checkpoint.')
-
-            #for new_param, net_param in zip(global_values.last_net, net.parameters()):
-                #net_param.detach().copy_(new_param)
             net.load_state_dict(global_values.last_net.state_dict())
             p = get_params(OPT_OVER, net, net_input)
             optimizer = torch.optim.Adam(p, lr=LR)
+            
+            #for new_param, net_param in zip(global_values.last_net, net.parameters()):
+                #net_param.detach().copy_(new_param)
+                
             global_values.save = False
             for j in range(iter_value % show_every):
                 optimizer.zero_grad()
                 closure(iter_value - iter_value % show_every + j)
-                optimizer.step()
-            set_trace()    
+                optimizer.step()                
+            set_trace()
+            
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
-            #return total_loss*0
-        
+            return total_loss*0
+        else:
+            global_values.psnr_noisy_last = psnr_noisy
+            
         if (iter_value % show_every) == 0: 
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
             global_values.last_net = deepcopy(net)
-            global_values.psnr_noisy_last = psnr_noisy
+            
 
         return total_loss
         
