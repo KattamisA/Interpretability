@@ -35,7 +35,7 @@ class global_values:
     save = False
     #iter_value = 0
 
-def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
+def dip(img_np, arch = 'default', LR = 0.005, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
     
     global_values.img_np = img_np.copy().astype(np.float32)
     global_values.img_np = global_values.img_np.transpose(2,0,1)/255.0
