@@ -11,11 +11,12 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 from skimage.measure import compare_psnr
 from functions.utils.denoising_utils import *
 from functions.models import *
+from copy import deepcopy
 
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
-dtype = torch.cuda.FloatTensor
-#dtype = torch.FloatTensor
+#dtype = torch.cuda.FloatTensor
+dtype = torch.FloatTensor
 
 imsize =-1
 sigma = 25
@@ -100,7 +101,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         f.write("{:>11}{:>11}{:>5}\n".format('Iterations','Total_Loss','PSNR'))
     
     def closure(iter_value):
-        show_every = 100
+        show_every = 1
         figsize = 4
         
         ## Initialiaze/ Update variables
@@ -125,16 +126,19 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                .format(iter_value, total_loss.item(), psnr_noisy, global_values.psnr_noisy_last), end='\r')
 
         if global_values.PLOT == True and iter_value % show_every == 0:
-            fig=plt.figure(figsize=(16, 16))
-            fig.add_subplot(1, 3, 1)
-            plt.imshow(np.clip(torch_to_np(out), 0, 1).transpose(1, 2, 0))
-            plt.title('Output')
-            fig.add_subplot(1, 3, 2)
-            plt.imshow(np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1, 2, 0))
-            plt.title('Averaged Output')
-            fig.add_subplot(1, 3, 3)
-            plt.title('Original/Target')
-            plt.imshow(global_values.img_np.transpose(1, 2, 0))
+            #fig=plt.figure(figsize=(16, 16))
+            #fig.add_subplot(1, 3, 1)
+            #plt.imshow(np.clip(torch_to_np(out), 0, 1).transpose(1, 2, 0))
+            #plt.title('Output')
+            #fig.add_subplot(1, 3, 2)
+            #plt.imshow(np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1, 2, 0))
+            #plt.title('Averaged Output')
+            #fig.add_subplot(1, 3, 3)
+            #plt.title('Original/Target')
+            #plt.imshow(global_values.img_np.transpose(1, 2, 0))
+            #plt.show()
+            
+            plt.imshow(np.clip(torch_to_np(net_input),0,1).transpose(1, 2, 0))
             plt.show()
 
         if  global_values.save and iter_value % show_every == 0:
@@ -150,7 +154,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
-            net.load_state_dict(global_values.last_net)
+            net.load_state_dict(global_values.last_net.state_dict())
             return total_loss*0.0
             #global_values.save = False
             #optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every + 1)
@@ -159,11 +163,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 
         if (iter_value % show_every) == 0: 
             #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-            global_values.last_net = net.state_dict().clone()
+            global_values.last_net = deepcopy(net)
             global_values.psnr_noisy_last = psnr_noisy
 
         return total_loss
-    
+        
     p = get_params(OPT_OVER, net, net_input)    
     optimize(OPTIMIZER, p, closure, LR, num_iter)
     print('\n')    

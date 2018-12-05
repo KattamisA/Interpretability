@@ -262,7 +262,7 @@ def optimize_2(optimizer_type, parameters, closure, LR, num_iter, starting_iter)
         
         for j in range(num_iter):
             optimizer.zero_grad()
-            closure(j+starting_iter)
+            closure(starting_iter+j)
             optimizer.step()
     else:
         assert False
