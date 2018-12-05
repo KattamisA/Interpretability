@@ -160,12 +160,14 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             global_values.save = False
             for j in range(iter_value % show_every):
                 optimizer.zero_grad()
-                closure(iter_value % show_every + j + 1)
+                closure(iter_value - j + 1)
                 optimizer.step()
+                
             #optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
-            return total_loss*0    
+            return total_loss*0
+        
         if (iter_value % show_every) == 0: 
             #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
             global_values.last_net = deepcopy(net)
