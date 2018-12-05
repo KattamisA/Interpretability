@@ -167,7 +167,7 @@ def dip(img_np, arch = 'default', LR = 0.005, num_iter = 1000, exp_weight = 0.99
                 
         if (iter_value % show_every) == 0: 
                 #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-                global_values.last_net.load_state_dict(net.detach.state_dict())
+                global_values.last_net.load_state_dict(net.state_dict(),strict=False)
                 global_values.psnr_noisy_last = psnr_noisy.copy()
                 
         return total_loss
