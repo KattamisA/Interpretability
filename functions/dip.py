@@ -142,17 +142,17 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                        np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
         # Backtracking   
-        #if iter_value % show_every == 0:
-        #    if (global_values.psnr_noisy_last - psnr_noisy) > 5.0: 
-        #        print('Falling back to previous checkpoint.')
+        if iter_value % show_every == 0:
+            if (global_values.psnr_noisy_last - psnr_noisy) > 10.0: 
+                print('\n Falling back to previous checkpoint.')
 
-        #        for new_param, net_param in zip(global_values.last_net, net.parameters()):
-        #           net_param.detach().copy_(new_param)
-        #            #global_values.noise_std /= 2.
-        #        return total_loss*0
-        #    else:
-        #        global_values.last_net = [x.detach().cuda() for x in net.parameters()]
-        #        global_values.psnr_noisy_last = psnr_noisy
+                for new_param, net_param in zip(global_values.last_net, net.parameters()):
+                    net_param.detach().copy_(new_param)
+                    global_values.noise_std /= 2.
+                return total_loss*0
+            else:
+                global_values.last_net = [x.detach().cuda() for x in net.parameters()]
+                global_values.psnr_noisy_last = psnr_noisy
 
         return total_loss
     
