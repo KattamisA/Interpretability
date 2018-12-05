@@ -15,8 +15,8 @@ from copy import deepcopy
 
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
-#dtype = torch.cuda.FloatTensor
-dtype = torch.FloatTensor
+dtype = torch.cuda.FloatTensor
+#dtype = torch.FloatTensor
 
 imsize =-1
 sigma = 25
@@ -101,7 +101,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         f.write("{:>11}{:>11}{:>5}\n".format('Iterations','Total_Loss','PSNR'))
     
     def closure(iter_value):
-        show_every = 1
+        show_every = 100
         figsize = 4
         
         ## Initialiaze/ Update variables
@@ -122,8 +122,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
 
-        print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}   PSNR_noisy_checkpoint: {:>5.4f}'
-               .format(iter_value, total_loss.item(), psnr_noisy, global_values.psnr_noisy_last), end='\r')
+        print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'
+               .format(iter_value, total_loss.item(), psnr_noisy), end='\r')
 
         if global_values.PLOT == True and iter_value % show_every == 0:
             #fig=plt.figure(figsize=(16, 16))
