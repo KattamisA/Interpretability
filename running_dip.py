@@ -25,4 +25,4 @@ from functions.dip import *
 images = ['goldfish.jpg', 'panda.jpg']    #,'peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png']
 for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=1, show=False)
-    out = dip(adv, num_iter=10001, save=True, plot=False, save_path='results/Adv_DIP/{}2'.format(i), arch='complex')
+    out = dip(adv, num_iter=10001, save=True, plot=False, save_path='results/Adv_DIP/{}3'.format(i), arch='complex')
