@@ -99,7 +99,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     
     if save == True:
         f= open("{}/Stats.txt".format(save_path),"w+")
-        f.write("{:>11}{:>11}{:>5}\n".format('Iterations','Total_Loss','PSNR'))
+        f.write("{:>11}{:>12}{:>12}\n".format('Iterations','Total_Loss','PSNR'))
     
     def closure(iter_value):
         show_every = 100
@@ -138,13 +138,10 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             plt.title('Original/Target')
             plt.imshow(global_values.img_np.transpose(1, 2, 0))
             plt.show()
-            
-            plt.imshow(np.clip(torch_to_np(net_input),0,1).transpose(1, 2, 0))
-            plt.show()
 
         if  global_values.save and iter_value % show_every == 0:
             f = open("{}/Stats.txt".format(save_path),"a")
-            f.write("{:>5}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, psnr_noisy, global_values.psnr_noisy_last))
+            f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, psnr_noisy, global_values.psnr_noisy_last))
             plt.imsave("{}/it_{}.png".format(save_path,iter_value),
                        np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
@@ -160,16 +157,16 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             global_values.save = False
             for j in range(iter_value % show_every):
                 optimizer.zero_grad()
-                closure(iter_value - j + 1)
+                closure(iter_value - iter_value % show_every + j)
                 optimizer.step()
                 
-            #optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
+            ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
-            return total_loss*0
+            #return total_loss*0
         
         if (iter_value % show_every) == 0: 
-            #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
+            ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
             global_values.last_net = deepcopy(net)
             global_values.psnr_noisy_last = psnr_noisy
 
@@ -177,7 +174,9 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         
     p = get_params(OPT_OVER, net, net_input)    
     optimize(OPTIMIZER, p, closure, LR, num_iter)
-    print('\n')    
+    
+    print('\n')
+    
     out = net(net_input)
     global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
     return global_values.out_avg
