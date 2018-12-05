@@ -166,12 +166,12 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             if psrn_noisy - psrn_noisy_last < -5: 
                 print('Falling back to previous checkpoint.')
 
-                for new_param, net_param in zip(last_net, net.parameters()):
+                for new_param, net_param in zip(global_values.last_net, net.parameters()):
                     net_param.detach().copy_(new_param.cuda())
 
                 return total_loss*0
             else:
-                last_net = [x.detach().cpu() for x in net.parameters()]
+                global_values.last_net = [x.detach().cpu() for x in net.parameters()]
                 psrn_noisy_last = psrn_noisy                
         
         #global_values.iter_value += 1
