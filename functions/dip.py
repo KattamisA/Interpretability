@@ -33,6 +33,8 @@ class global_values:
     img_np = None
     img_torch = None
     save = False
+    net = None
+    net_saved = None
     #iter_value = 0
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
@@ -54,11 +56,12 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     global_values.out_avg = None
     global_values.last_net = None
     global_values.save = save
+    global_values.net_saved = None
     #global_values.iter_value = 0
 
     if arch == 'default':
         #input_depth = 3
-        net = skip(
+        global_values.net = skip(
                 input_depth, 3, 
                 num_channels_down = [8, 16, 32, 64, 128], 
                 num_channels_up   = [8, 16, 32, 64, 128],
@@ -68,7 +71,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
     elif arch == 'complex':
         #input_depth = 32
-        net = get_net(input_depth,'skip', pad,
+        global_values.net = get_net(input_depth,'skip', pad,
                 skip_n33d=128, 
                 skip_n33u=128, 
                 skip_n11=4, 
@@ -77,7 +80,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
     elif arch == 'simple':
         input_depth = 3 
-        net = get_net(input_depth,'skip', pad,
+        global_values.net = get_net(input_depth,'skip', pad,
                 skip_n33d=16, 
                 skip_n33u=16, 
                 skip_n11=0, 
@@ -109,7 +112,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if global_values.noise_std > 0.0:
             net_input = global_values.net_input_saved + (global_values.noise.normal_() * global_values.noise_std)
 
-        out = net(net_input)
+        out = global_values.net(net_input)
 
         ## Exponential Smoothing
         if global_values.out_avg is None:
@@ -152,7 +155,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
-            net = copy.deepcopy(global_values.net_saved)
+            global_values.net = copy.deepcopy(global_values.net_saved)
             global_values.save = False
             for correction_iter in range(iter_value % show_every):                
                 closure(iter_value - (iter_value % show_every) + correction_iter)
