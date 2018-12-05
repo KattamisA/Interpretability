@@ -116,7 +116,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         else:
             global_values.out_avg = global_values.out_avg * global_values.exp + out.detach() * (1 - global_values.exp)
         
-        global_values.last_net = net.detach()
+        global_values.last_net = copy.deepcopy(net)
+
         
         ## Calculate loss
         total_loss = mse(out, global_values.img_torch)
