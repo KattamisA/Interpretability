@@ -123,7 +123,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         total_loss = mse(out, global_values.img_torch)
         total_loss.backward()
 
-        psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
+        psnr_noisy = compare_psnr(global_values.img_np.copy(), out.detach().cpu().numpy()[0]).astype(np.float32)
 
         print ('DIP Iteration {:>11}    Loss {:>11.7f}   PSNR_noisy: {:>5.4f} PSNR_noisy_checkpoint: {:>5.4f}'
                .format(iter_value, total_loss.item(), psnr_noisy, global_values.psnr_noisy_last), end='\r')
@@ -168,7 +168,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if (iter_value % show_every) == 0: 
                 #global_values.last_net = [x.detach().cuda() for x in net.parameters()]
                 global_values.last_net.load_state_dict(net.state_dict())
-                global_values.psnr_noisy_last = psnr_noisy
+                global_values.psnr_noisy_last = psnr_noisy.copy()
                 
         return total_loss
     
