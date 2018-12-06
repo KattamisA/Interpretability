@@ -195,11 +195,12 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     for j in range(num_iter):
         global_values.optimizer.zero_grad()
         closure(j)
-        #if global_values.interrupts >= 1:
+        if global_values.interrupts >= 1:
          #   global_values.net.load_state_dict(global_values.last_net.state_dict())
           #  global_values.optimizer.load_state_dict(global_values.optimizer_last.state_dict())
            # global_values.interrupts -= 1 
-        set_trace()
+            set_trace()
+            global_values.interrupts -= 1 
         global_values.optimizer.step()
             
     print('\n')
