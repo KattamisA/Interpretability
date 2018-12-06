@@ -123,7 +123,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         total_loss.backward()
 
         psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
-
+        if global_values.save = False:
+            set_Trace()            
         print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), psnr_noisy), end='\r')
 
@@ -139,7 +140,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             plt.title('Original/Target')
             plt.imshow(global_values.img_np.transpose(1, 2, 0))
             plt.show()
-
+            
         if  global_values.save and iter_value % show_every == 0:
             f = open("{}/Stats.txt".format(save_path),"a")
             f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, psnr_noisy, global_values.psnr_noisy_last))
@@ -161,8 +162,9 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             for j in range(iter_value % show_every):
                 optimizer.zero_grad()
                 closure(iter_value - iter_value % show_every + j)
-                optimizer.step()                
-            set_trace()
+                optimizer.step()
+                set_trace()
+            
             
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
