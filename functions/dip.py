@@ -126,9 +126,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         total_loss.backward()
 
         global_values.psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
-        
-        #if global_values.save == False:
-            #set_trace()
             
         print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), global_values.psnr_noisy), end='\r')
@@ -169,7 +166,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             for j in range(iter_value % show_every - 1):
                 global_values.optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + j + 1)
-                #set_trace()
                 global_values.optimizer.step()     
                 
             global_values.optimizer.zero_grad()
@@ -178,7 +174,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
-            global_values.interrupts +=1
             return total_loss           
             
         if (iter_value % show_every) == 0: 
@@ -198,12 +193,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     for j in range(num_iter):
         global_values.optimizer.zero_grad()
         closure(j)
-        if global_values.interrupts >= 1:
-         #   global_values.net.load_state_dict(global_values.last_net.state_dict())
-          #  global_values.optimizer.load_state_dict(global_values.optimizer_last.state_dict())
-           # global_values.interrupts -= 1 
-            set_trace()
-            global_values.interrupts -= 1 
         global_values.optimizer.step()
             
     print('\n')
