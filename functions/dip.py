@@ -148,7 +148,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                        np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
         # Backtracking   
-        if (global_values.psnr_noisy_last - psnr_noisy) > 5:
+        if (global_values.psnr_noisy_last - psnr_noisy) > 5.0:
             
             print('\n Falling back to previous checkpoint.')
             global_values.net.load_state_dict(global_values.last_net.state_dict())
