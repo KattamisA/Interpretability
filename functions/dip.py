@@ -37,6 +37,7 @@ class global_values:
     save = False
     net = None
     psnr_noisy = 0.0
+    optimizer = None
     #iter_value = 0
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
@@ -155,18 +156,18 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             
             print('\n Falling back to previous checkpoint.')
             global_values.net.load_state_dict(global_values.last_net.state_dict())
+            global_values.optimizer.load_state_dict(global_values.optimizer.state_dict())
             
             p = get_params(OPT_OVER, global_values.net, net_input)
-            optimizer = torch.optim.Adam(p, lr=LR)
             
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
                 
             global_values.save = False
             for j in range(iter_value % show_every):
-                optimizer.zero_grad()
+                global_values.optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + j+1)
-                #optimizer.step()
+                global_values.optimizer.step()
                 #set_trace()
             
             
@@ -179,13 +180,19 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
             global_values.last_net = deepcopy(global_values.net)
             global_values.psnr_noisy_last = global_values.psnr_noisy
+            global_values.optimizer_last = deepcopy(global_values.optimizer)
             
-
         return total_loss
         
-    p = get_params(OPT_OVER, global_values.net, net_input)    
-    optimize(OPTIMIZER, p, closure, LR, num_iter)
-    
+    #optimize(OPTIMIZER, p, closure, LR, num_iter)
+
+    p = get_params(OPT_OVER, global_values.net, net_input)
+    global_values.optimizer = torch.optim.Adam(p, lr=LR)    
+    for j in range(num_iter):
+        global_values.optimizer.zero_grad()
+        closure(j)
+        global_values.optimizer.step()
+            
     print('\n')
     
     out = global_values.net(net_input)
