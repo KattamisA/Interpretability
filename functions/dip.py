@@ -123,7 +123,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         total_loss.backward()
 
         psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
-        if global_values.save = False:
+        if global_values.save == False:
             set_Trace()            
         print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), psnr_noisy), end='\r')
