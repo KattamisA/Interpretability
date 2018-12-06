@@ -39,6 +39,7 @@ class global_values:
     psnr_noisy = 0.0
     optimizer = None
     #iter_value = 0
+    interrupts = 0
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
     
@@ -147,7 +148,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             
         if  global_values.save and iter_value % show_every == 0:
             f = open("{}/Stats.txt".format(save_path),"a")
-            f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, global_values.psnr_noisy, global_values.psnr_noisy_last))
+            f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(
+                iter_value, total_loss, global_values.psnr_noisy, global_values.psnr_noisy_last))
             plt.imsave("{}/it_{}.png".format(save_path,iter_value),
                        np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
@@ -166,16 +168,15 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             global_values.save = False
             for j in range(iter_value % show_every):
                 global_values.optimizer.zero_grad()
-                closure(iter_value - (iter_value % show_every) + j+1)
+                closure(iter_value - (iter_value % show_every) + j + 1)
                 #set_trace()
-                global_values.optimizer.step()
-                
-            
+                global_values.optimizer.step()                
             
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
-                        
+            global_values.interrupts +=1
+            
             
         if (iter_value % show_every) == 0: 
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
@@ -186,12 +187,18 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         return total_loss
         
     #optimize(OPTIMIZER, p, closure, LR, num_iter)
-
+    
+    
+        
     p = get_params(OPT_OVER, global_values.net, net_input)
     global_values.optimizer = torch.optim.Adam(p, lr=LR)    
     for j in range(num_iter):
         global_values.optimizer.zero_grad()
         closure(j)
+        if global_values.interrupts > 1:
+            global_values.net.load_state_dict(global_values.last_net.state_dict())
+            global_values.optimizer.load_state_dict(global_values.optimizer_last.state_dict())
+            global_values.interrupts -= 1            
         global_values.optimizer.step()
             
     print('\n')
