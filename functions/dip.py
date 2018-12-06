@@ -160,23 +160,26 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             global_values.net.load_state_dict(global_values.last_net.state_dict())
             global_values.optimizer.load_state_dict(global_values.optimizer_last.state_dict())
             
-            p = get_params(OPT_OVER, global_values.net, net_input)
+            #p = get_params(OPT_OVER, global_values.net, net_input)
             
             #for new_param, net_param in zip(global_values.last_net, net.parameters()):
                 #net_param.detach().copy_(new_param)
                 
             global_values.save = False
-            for j in range(iter_value % show_every):
+            for j in range(iter_value % show_every - 1):
                 global_values.optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + j + 1)
                 #set_trace()
-                global_values.optimizer.step()                
+                global_values.optimizer.step()     
+                
+            global_values.optimizer.zero_grad()
+            closure(iter_value)
             
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
-            #global_values.interrupts +=1
-            return total_loss*0           
+            global_values.interrupts +=1
+            return total_loss           
             
         if (iter_value % show_every) == 0: 
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
