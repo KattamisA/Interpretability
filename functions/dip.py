@@ -125,8 +125,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         global_values.psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
         
-        if global_values.save == False:
-            set_trace()
+        #if global_values.save == False:
+            #set_trace()
             
         print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), global_values.psnr_noisy), end='\r')
@@ -164,10 +164,10 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 
             global_values.save = False
             for j in range(iter_value % show_every):
-                #optimizer.zero_grad()
+                optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + j+1)
                 #optimizer.step()
-                set_trace()
+                #set_trace()
             
             
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
