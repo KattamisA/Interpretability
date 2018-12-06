@@ -176,7 +176,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             print('\n Return back to the original')                        
             global_values.save = True
             #global_values.interrupts +=1
-            return tolal_loss*0           
+            return total_loss*0           
             
         if (iter_value % show_every) == 0: 
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
