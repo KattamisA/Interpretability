@@ -175,11 +175,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
             print('\n Return back to the original')                        
             global_values.save = True
-            global_values.interrupts +=1
-            global_values.last_net = deepcopy(global_values.net)
-            global_values.psnr_noisy_last = global_values.psnr_noisy
-            global_values.optimizer_last = deepcopy(global_values.optimizer)
-            
+            #global_values.interrupts +=1
+            return tolal_loss*0           
             
         if (iter_value % show_every) == 0: 
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
@@ -198,10 +195,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     for j in range(num_iter):
         global_values.optimizer.zero_grad()
         closure(j)
-        if global_values.interrupts >= 1:
-            global_values.net.load_state_dict(global_values.last_net.state_dict())
-            global_values.optimizer.load_state_dict(global_values.optimizer_last.state_dict())
-            global_values.interrupts -= 1            
+        #if global_values.interrupts >= 1:
+         #   global_values.net.load_state_dict(global_values.last_net.state_dict())
+          #  global_values.optimizer.load_state_dict(global_values.optimizer_last.state_dict())
+           # global_values.interrupts -= 1 
+        set_trace()
         global_values.optimizer.step()
             
     print('\n')
