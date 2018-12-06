@@ -167,8 +167,9 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             for j in range(iter_value % show_every):
                 global_values.optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + j+1)
+                set_trace()
                 global_values.optimizer.step()
-                #set_trace()
+                
             
             
             ## optimize_2(OPTIMIZER, p, closure, LR, iter_value % show_every, iter_value - iter_value % show_every)           
