@@ -126,8 +126,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
         global_values.psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
         
-        if global_values.save == False:
-            set_trace()
+        #if global_values.save == False:
+            #set_trace()
             
         print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'
                .format(iter_value, total_loss.item(), global_values.psnr_noisy), end='\r')
@@ -156,7 +156,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             
             print('\n Falling back to previous checkpoint.')
             global_values.net.load_state_dict(global_values.last_net.state_dict())
-            global_values.optimizer.load_state_dict(global_values.optimizer.state_dict())
+            global_values.optimizer.load_state_dict(global_values.optimizer_last.state_dict())
             
             p = get_params(OPT_OVER, global_values.net, net_input)
             
@@ -167,7 +167,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             for j in range(iter_value % show_every):
                 global_values.optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + j+1)
-                set_trace()
+                #set_trace()
                 global_values.optimizer.step()
                 
             
