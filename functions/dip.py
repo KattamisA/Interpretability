@@ -102,7 +102,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     if save == True:
         f= open("{}/Stats.txt".format(save_path),"w+")
         f.write("{:>11}{:>12}{:>12}\n".format('Iterations','Total_Loss','PSNR'))
-    net.train()
+    global_values.net.train()
     def closure(iter_value):
         show_every = 100
         figsize = 4
