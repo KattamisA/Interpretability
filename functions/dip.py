@@ -36,6 +36,7 @@ class global_values:
     img_torch = None
     save = False
     net = None
+    psnr_noisy = 0.0
     #iter_value = 0
 
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = 32):
@@ -122,11 +123,12 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         total_loss = mse(out, global_values.img_torch)
         total_loss.backward()
 
-        psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
+        global_values.psnr_noisy = compare_psnr(global_values.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
+        
         if global_values.save == False:
             set_trace()            
         print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'
-               .format(iter_value, total_loss.item(), psnr_noisy), end='\r')
+               .format(iter_value, total_loss.item(), global_values.psnr_noisy), end='\r')
 
         if global_values.PLOT == True and iter_value % show_every == 0:
             fig=plt.figure(figsize=(16, 16))
@@ -143,15 +145,16 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             
         if  global_values.save and iter_value % show_every == 0:
             f = open("{}/Stats.txt".format(save_path),"a")
-            f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, psnr_noisy, global_values.psnr_noisy_last))
+            f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss, global_values.psnr_noisy, global_values.psnr_noisy_last))
             plt.imsave("{}/it_{}.png".format(save_path,iter_value),
                        np.clip(torch_to_np(global_values.out_avg), 0, 1).transpose(1,2,0), format="png")
 
         # Backtracking   
-        if (global_values.psnr_noisy_last - psnr_noisy) > 5.0:
+        if (global_values.psnr_noisy_last - global_values.psnr_noisy) > 5.0:
             
             print('\n Falling back to previous checkpoint.')
             global_values.net.load_state_dict(global_values.last_net.state_dict())
+            
             p = get_params(OPT_OVER, global_values.net, net_input)
             optimizer = torch.optim.Adam(p, lr=LR)
             
@@ -174,7 +177,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         if (iter_value % show_every) == 0: 
             ## global_values.last_net = [x.detach().cuda() for x in net.parameters()]
             global_values.last_net = deepcopy(global_values.net)
-            global_values.psnr_noisy_last = psnr_noisy
+            global_values.psnr_noisy_last = global_values.psnr_noisy
             
 
         return total_loss
