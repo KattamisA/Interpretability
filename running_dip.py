@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from functions.common_utils import *
+from functions.utils.common_utils import *
 from functions.adversarial import *
 from functions.dip import *
 

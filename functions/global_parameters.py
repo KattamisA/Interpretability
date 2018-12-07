@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from .utils.common_utils import *
+from functions.utils.common_utils import *
 
 
 class global_parameters:
