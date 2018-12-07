@@ -14,6 +14,8 @@ from functions.models import *
 from copy import deepcopy
 from .global_parameters import *
 
+device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
+print(device)
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
 dtype = torch.cuda.FloatTensor
