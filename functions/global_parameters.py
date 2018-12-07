@@ -1,8 +1,6 @@
 import torch
 import numpy as np
 from functions.utils.common_utils import *
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 
 class global_parameters:
@@ -29,7 +27,7 @@ class global_parameters:
         self.PLOT = plot
         self.noise_std = reg_noise_std
         
-    def load_images(self, img_np, dtype):
+    def load_images(self, img_np):
         self.img_np = img_np.copy().astype(np.float32)
         self.img_np = self.img_np.transpose(2,0,1)/255.0
-        self.img_torch = np_to_torch(self.img_np).type(dtype)
+        self.img_torch = np_to_torch(self.img_np).

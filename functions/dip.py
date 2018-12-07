@@ -23,7 +23,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     
     global_values = global_parameters()
     global_values.set_params(save, plot, reg_noise_std, exp_weight)
-    global_values.load_images(img_np, dtype)
+    global_values.load_images(img_np)
+    global_values.img_torch = global_values.img_torch.type(dtype)
     
     pad = 'zero' 
     OPT_OVER = 'net' # 'net input'
