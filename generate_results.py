@@ -18,7 +18,7 @@ def generate_result_files(path, adv, orig, num_iter):
 
     for i in range(num_images):
         loaded_image = cv2.imread('{}/it_{}.png'.format(path,i*100))[..., ::-1]
-        loaded_image = cv2.resize(orig, (256, 256))
+        loaded_image = cv2.resize(loaded_image, (256, 256))
         img = loaded_image.copy().astype(np.float32)
         Probs, Ranks = classification(img, model_name = 'resnet18', sort = False, show = False)
         Probs_np = torch_to_np(Probs)
