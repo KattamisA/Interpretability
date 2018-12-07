@@ -30,4 +30,4 @@ class global_parameters:
     def load_images(self, img_np):
         self.img_np = img_np.copy().astype(np.float32)
         self.img_np = self.img_np.transpose(2,0,1)/255.0
-        self.img_torch = np_to_torch(self.img_np).
+        self.img_torch = np_to_torch(self.img_np)
