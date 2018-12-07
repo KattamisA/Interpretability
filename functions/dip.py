@@ -7,6 +7,8 @@ import torch.optim
 import cv2
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
+print(device)
 
 from skimage.measure import compare_psnr
 from functions.utils.common_utils import *
@@ -14,8 +16,6 @@ from functions.models import *
 from copy import deepcopy
 from .global_parameters import *
 
-device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
-print(device)
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
 dtype = torch.cuda.FloatTensor
