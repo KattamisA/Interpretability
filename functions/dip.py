@@ -3,10 +3,6 @@ from __future__ import print_function
 import torch
 import matplotlib.pyplot as plt
 import numpy as np
-
-device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
-print(device)
-
 import torch.optim
 import cv2
 import os
