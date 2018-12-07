@@ -1,14 +1,16 @@
 from __future__ import print_function
 
+import torch
 import matplotlib.pyplot as plt
 import numpy as np
-import torch
+
+device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
+print(device)
+
 import torch.optim
 import cv2
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
-print(device)
 
 from skimage.measure import compare_psnr
 from functions.utils.common_utils import *
