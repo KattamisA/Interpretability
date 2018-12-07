@@ -1,6 +1,8 @@
 import torch
 import numpy as np
 from functions.utils.common_utils import *
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 
 class global_parameters:
