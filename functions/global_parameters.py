@@ -2,7 +2,6 @@ import torch
 import numpy as np
 from functions.utils.common_utils import *
 
-
 class global_parameters:
     def __init__(self):           
         self.net_input_saved = None

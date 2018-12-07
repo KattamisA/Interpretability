@@ -31,3 +31,5 @@ def generate_result_files(path, adv, orig, num_iter)
 
     np.savetxt('{}/Confidences.txt'.format(path), Confidence)
     np.savetxt('{}/Ranks.txt'.format(path), Ranks_matrix)
+    
+    print('\n Results have been generated and stored in {}'.format(path))
