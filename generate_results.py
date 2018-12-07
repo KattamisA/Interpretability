@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from functions.classification import *
 
-def generate_result_files(path, adv, orig, num_iter)
+def generate_result_files(path, adv, orig, num_iter):
     ## Find original class
     P, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
     original_class = R[0,0]
