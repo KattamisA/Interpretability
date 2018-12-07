@@ -11,15 +11,15 @@ def generate_result_files(path, adv, orig, num_iter):
     P, R = classification(adv, model_name = 'resnet18', sort = True, show=False)
     final_classes = R[0,0:5]
     
-    num_images = int(round((num_iter-1)/100)) + 1
+    num_images = (num_iter-1)/100 + 1
 
     Confidence = np.ones([num_images,6])
     Ranks_matrix = np.ones([num_images,5])
 
     for i in range(num_images):
-        image = cv2.imread('{}/it_{}.png'.format(path,i*100))[..., ::-1]
-        image = cv2.resize(orig, (256, 256))
-        img = orig.copy().astype(np.float32)
+        loaded_image = cv2.imread('{}/it_{}.png'.format(path,i*100))[..., ::-1]
+        loaded_image = cv2.resize(orig, (256, 256))
+        img = loaded_image.copy().astype(np.float32)
         Probs, Ranks = classification(img, model_name = 'resnet18', sort = False, show = False)
         Probs_np = torch_to_np(Probs)
         Confidence[i,0] = Probs_np[original_class]
