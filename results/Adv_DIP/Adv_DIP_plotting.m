@@ -16,12 +16,12 @@ close all
 % 
 % load 'Complex_LLCI_eps100_full.txt'
 
-load 'panda.jpg2/Stats.txt'
+load 'panda.jpg/Stats.txt'
 Stats1 = Stats;
-load 'panda.jpg3/Stats.txt'
+load 'peacock.jpg/Stats.txt'
 Stats2 = Stats;
 
-plot(100:100:7500,[Stats1(1:75,2),Stats2(:,2)])
+plot(100:100:10000,[Stats1(:,2),Stats2(:,2)])
 
 %% Plotting all the LLCI true classes confidences
 

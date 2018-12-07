@@ -230,39 +230,26 @@ def optimize(optimizer_type, parameters, closure, LR, num_iter):
             optimizer.step()
     else:
         assert False
-        
-def optimize_2(optimizer_type, parameters, closure, LR, num_iter, starting_iter):
-    """Runs optimization loop.
 
-    Args:
-        optimizer_type: 'LBFGS' of 'adam'
-        parameters: list of Tensors to optimize over
-        closure: function, that returns loss variable
-        LR: learning rate
-        num_iter: number of iterations 
-    """
-    if optimizer_type == 'LBFGS':
-        # Do several steps with adam first
-        optimizer = torch.optim.Adam(parameters, lr=0.001)
-        for j in range(100):
-            optimizer.zero_grad()
-            closure(j)
-            optimizer.step()
+def save_net_details(save_path, arch, param_number, pad, opt_over, optimizer,
+                     input_depth, loss_fn = 'Mean Squared Error', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
+                     reg_noise_std = 1.0/30, INPUT = 'noise', name = None):
+    f = open("{}/Tests_details.txt".format(save_path),"w+")
+    if name == None:
+        name = "No input name given"
+    margin1 = 50
+    margin2 = 12
+    f.write("\n{:<60}{:<12}".format('Image run through the deep image prior:   ',name))
+    f.write("\n\n{:<60}{:<12}".format('Architecture:   ',arch))
+    f.write("\n{:<60}{:<12}".format('Number of parameters:   ',param_number))
+    f.write("\n{:<60}{:<12}".format('Input depth/feature maps:   ',input_depth))
+    f.write("\n{:<60}{:<12}".format('Padding:   ',pad))
+    f.write("\n\n{:<60}{:<12}".format('Optimize over:   ',opt_over))
+    f.write("\n{:<60}{:<12}".format('Optimizer:   ',optimizer))
+    f.write("\n\n{:<60}{:<12}".format('Learning rate:   ',LR))
+    f.write("\n{:<60}{:<12}".format('Number of iterations:   ',num_iter))
+    f.write("\n\n{:<60}{:<12}".format('Loss function:   ',loss_fn))
+    f.write("\n\n{:<60}{:<12}".format('Input:   ',INPUT))
+    f.write("\n{:<60}{:<12}".format('Standard deviation of noise added in each iteration:   ',reg_noise_std))
+    f.write("\n{:<60}{:<12}".format('Exponential weight on output:   ',exp_weight))
 
-        print('Starting optimization with LBFGS')        
-        def closure2():
-            optimizer.zero_grad()
-            return closure()
-        optimizer = torch.optim.LBFGS(parameters, max_iter=num_iter, lr=LR, tolerance_grad=-1, tolerance_change=-1)
-        optimizer.step(closure2)
-
-    elif optimizer_type == 'adam':
-        print('Starting optimization with ADAM')
-        optimizer = torch.optim.Adam(parameters, lr=LR)
-        
-        for j in range(num_iter):
-            optimizer.zero_grad()
-            closure(starting_iter+j)
-            optimizer.step()
-    else:
-        assert False
