@@ -1,0 +1,19 @@
+
+Image run through the deep image prior:                     No input name given
+
+Architecture:                                               complex     
+Number of parameters:                                       2184307     
+Input depth/feature maps:                                   3           
+Padding:                                                    zero        
+
+Optimize over:                                              net         
+Optimizer:                                                  adam        
+
+Learning rate:                                              0.01        
+Number of iterations:                                       1000        
+
+Loss function:                                              Mean Squared Error
+
+Input:                                                      noise       
+Standard deviation of noise added in each iteration:        0.0333333333333
+Exponential weight on output:                               0.99        
