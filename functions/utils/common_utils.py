@@ -254,5 +254,5 @@ def save_net_details(save_path, arch, param_number, pad, opt_over, optimizer,
     f.write("\n{:<60}{:<12}".format('Standard deviation of noise added in each iteration:   ',reg_noise_std))
     f.write("\n{:<60}{:<12}".format('Exponential weight on output:   ',exp_weight))
     f.write("\n{:<60}".format('Entire Net:'))
-    f.write("\n{:<60}".format(net)
+    f.write("\n{:<60}".format(net))
 
