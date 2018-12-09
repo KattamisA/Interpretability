@@ -78,7 +78,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         f.write("{:>11}{:>12}{:>12}\n".format('Iterations','Total_Loss','PSNR'))
         save_net_details(save_path, arch, param_numbers, pad, OPT_OVER, OPTIMIZER, input_depth,
                  loss_fn = 'Mean Squared Error', LR = LR, num_iter = num_iter, exp_weight = glparam.exp,
-                 reg_noise_std = reg_noise_std, INPUT = 'INPUT', name =  , net = glparam.net)
+                 reg_noise_std = reg_noise_std, INPUT = 'INPUT', net = glparam.net)
                 
     def closure(iter_value):
         show_every = 100
