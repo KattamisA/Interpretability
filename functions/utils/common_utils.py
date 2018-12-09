@@ -233,12 +233,13 @@ def optimize(optimizer_type, parameters, closure, LR, num_iter):
 
 def save_net_details(save_path, arch, param_number, pad, opt_over, optimizer,
                      input_depth, loss_fn = 'Mean Squared Error', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
-                     reg_noise_std = 1.0/30, INPUT = 'noise', name = None):
-    f = open("{}/Tests_details.txt".format(save_path),"w+")
+                     reg_noise_std = 1.0/30, INPUT = 'noise', name = None, net = None):
+    
     if name == None:
         name = "No input name given"
-    margin1 = 50
-    margin2 = 12
+    if net == None:
+        net = "No net given"
+    f = open("{}/Tests_details.txt".format(save_path),"w+")
     f.write("\n{:<60}{:<12}".format('Image run through the deep image prior:   ',name))
     f.write("\n\n{:<60}{:<12}".format('Architecture:   ',arch))
     f.write("\n{:<60}{:<12}".format('Number of parameters:   ',param_number))
@@ -252,4 +253,6 @@ def save_net_details(save_path, arch, param_number, pad, opt_over, optimizer,
     f.write("\n\n{:<60}{:<12}".format('Input:   ',INPUT))
     f.write("\n{:<60}{:<12}".format('Standard deviation of noise added in each iteration:   ',reg_noise_std))
     f.write("\n{:<60}{:<12}".format('Exponential weight on output:   ',exp_weight))
+    f.write("\n{:<60}".format('Entire Net:'))
+    f.write("\n{:<60}".format(net)
 
