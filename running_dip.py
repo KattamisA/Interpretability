@@ -15,8 +15,8 @@ num_iter = 10001
 #              save_path = save_path, arch='complex', input_depth=32)
 #    generate_result_files(save_path, adv, orig, num_iter)
 
-for i in range(7):
-    ids = 2**(i)
+for i in range(6):
+    ids = 2**(i+1)
     save_path = 'results/Adv_DIP/Goldfish/ID_complex_{}'.format(ids)    
     out = dip(adv, num_iter=num_iter, save=True, plot=False,
               save_path = save_path, arch='complex', input_depth=ids)
