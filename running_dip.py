@@ -11,7 +11,7 @@ for i in range(7):
     std1 = 2.0**(i)
     std = std1/64.0
     save_path = 'results/Adv_DIP/Std_complex_{}-64'.format(std1)
-    out = dip(adv, num_iter=num_iter, save=True, PLOT=False, reg_noise_std = std1,
+    out = dip(adv, num_iter=num_iter, save=True, plot=False, reg_noise_std = std1,
               save_path = save_path, arch='complex', input_depth=32)
     generate_result_files(save_path, adv, orig, num_iter)
 
