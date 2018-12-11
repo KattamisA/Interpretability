@@ -105,7 +105,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             iter_value, total_loss.item(), glparam.psnr_noisy), end='\r')
         
         # Backtracking   
-        if (glparam.psnr_noisy_last - glparam.psnr_noisy) > 5.0:            
+        if (glparam.psnr_noisy_last - glparam.psnr_noisy) > 7.0:            
             print('\n Falling back to previous checkpoint.')
             glparam.net.load_state_dict(glparam.last_net.state_dict())
             glparam.optimizer.load_state_dict(glparam.optimizer_last.state_dict())            
