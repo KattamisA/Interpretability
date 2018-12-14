@@ -110,7 +110,6 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             print('\n Falling back to previous checkpoint.')
             if glparam.interrupts > 5:
                 glparam.reg_noise_std=1.0
-                glparam.node = 1
             glparam.net.load_state_dict(glparam.last_net.state_dict())
             glparam.optimizer.load_state_dict(glparam.optimizer_last.state_dict())            
             for j in range(iter_value % show_every - 1):
@@ -118,12 +117,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 closure(iter_value - (iter_value % show_every) + j + 1)
                 glparam.optimizer.step()
             glparam.optimizer.zero_grad()
-            closure(iter_value)
-            glparam.interrupts -= 1
-            if glparam.interrupts == 0 and glparam.node == 1:
-                glparam.reg_noise_std=reg_noise_std
-                glparam.node = 0
-                print("\n Error, was not able to converge so the noise variace was increased")                
+            closure(iter_value)          
             print('\n Return back to the original')                        
             return total_loss           
             
@@ -131,7 +125,10 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.last_net = deepcopy(glparam.net)
             glparam.psnr_noisy_last = glparam.psnr_noisy
             glparam.optimizer_last = deepcopy(glparam.optimizer)
-            
+            if glparam.interrupts > 5 :
+                glparam.reg_noise_std=reg_noise_std
+                print("\n Error, was not able to converge so the noise variace was increased")    
+            glparam.interrupts = 0
             if glparam.PLOT:
                 fig=plt.figure(figsize=(16, 16))
                 fig.add_subplot(1, 3, 1)
