@@ -111,7 +111,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.net.load_state_dict(glparam.last_net.state_dict())
             glparam.optimizer.load_state_dict(glparam.optimizer_last.state_dict())    
             if glparam.interrupts > 3:
-                glparam.reg_noise_std= glparam.reg_noise_std * 2.0**(glparam.interrupts-3)
+                glparam.noise_std= glparam.noise_std * 2.0**(glparam.interrupts-3)
             for j in range(iter_value % show_every - 1):
                 glparam.optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + j + 1)
@@ -126,8 +126,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.psnr_noisy_last = glparam.psnr_noisy
             glparam.optimizer_last = deepcopy(glparam.optimizer)
             if glparam.interrupts > 5 :
-                glparam.reg_noise_std=reg_noise_std
-                print("\n Error, was not able to converge so the noise variace was increased")    
+                print("\n Error, was not able to converge so the noise variace was increased up to {}".format(glparam.noise_std))
+                glparam.noise_std=reg_noise_std
             glparam.interrupts = 0
             if glparam.PLOT:
                 fig=plt.figure(figsize=(16, 16))
