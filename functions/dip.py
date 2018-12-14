@@ -120,9 +120,9 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.optimizer.zero_grad()
             closure(iter_value)
             glparam.interrupts -= 1
-            if glparam.interrupts == 0 and node == 1:
+            if glparam.interrupts == 0 and glparam.node == 1:
                 glparam.reg_noise_std=reg_noise_std
-                node = 0
+                glparam.node = 0
                 print("\n Error, was not able to converge so the noise variace was increased")                
             print('\n Return back to the original')                        
             return total_loss           
