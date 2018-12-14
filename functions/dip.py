@@ -109,7 +109,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.interrupts += 1
             print('\n Falling back to previous checkpoint.')
             if glparam.interrupts > 5:
-                glparam.reg_noise_std=1/2.
+                glparam.reg_noise_std=1.0
                 glparam.node = 1
             glparam.net.load_state_dict(glparam.last_net.state_dict())
             glparam.optimizer.load_state_dict(glparam.optimizer_last.state_dict())            
