@@ -107,6 +107,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         ## Backtracking   
         if (glparam.psnr_noisy_last - glparam.psnr_noisy) > 5.0:
             glparam.interrupts = glparam.interrupts + 1
+            print(glparam.interrupts)
             print('\n Falling back to previous checkpoint.')
             glparam.net.load_state_dict(glparam.last_net.state_dict())
             glparam.optimizer.load_state_dict(glparam.optimizer_last.state_dict())    
@@ -125,6 +126,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.last_net = deepcopy(glparam.net)
             glparam.psnr_noisy_last = glparam.psnr_noisy
             glparam.optimizer_last = deepcopy(glparam.optimizer)
+            
             if glparam.interrupts > 3 :
                 print("\n Error, was not able to converge so the noise variace was increased up to {}".format(glparam.noise_std))
                 glparam.noise_std=reg_noise_std
