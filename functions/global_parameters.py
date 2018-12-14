@@ -19,6 +19,8 @@ class global_parameters:
         self.psnr_noisy = 0.0
         self.optimizer = None
         self.optimizer_last = None
+        self.interrupts = 0
+        self.node = 0
         
     def set_params(self, save, plot, reg_noise_std, exp_weight):
         self.save = save

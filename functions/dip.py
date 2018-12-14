@@ -104,17 +104,26 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy: {:>5.4f}'.format(
             iter_value, total_loss.item(), glparam.psnr_noisy), end='\r')
         
-        # Backtracking   
-        if (glparam.psnr_noisy_last - glparam.psnr_noisy) > 7.0:            
+        ## Backtracking   
+        if (glparam.psnr_noisy_last - glparam.psnr_noisy) > 5.0:
+            glparam.interrupts += 1
             print('\n Falling back to previous checkpoint.')
+            if glparam.interrupts > 5:
+                glparam.reg_noise_std=1/2.
+                glparam.node = 1
             glparam.net.load_state_dict(glparam.last_net.state_dict())
             glparam.optimizer.load_state_dict(glparam.optimizer_last.state_dict())            
             for j in range(iter_value % show_every - 1):
                 glparam.optimizer.zero_grad()
                 closure(iter_value - (iter_value % show_every) + j + 1)
-                glparam.optimizer.step()                     
+                glparam.optimizer.step()
             glparam.optimizer.zero_grad()
             closure(iter_value)
+            glparam.interrupts -= 1
+            if glparam.interrupts == 0 and node == 1:
+                glparam.reg_noise_std=reg_noise_std
+                node = 0
+                print("\n Error, was not able to converge so the noise variace was increased")                
             print('\n Return back to the original')                        
             return total_loss           
             
@@ -141,8 +150,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 f.write("{:>11}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy))
                 plt.imsave("{}/it_{}.png".format(save_path,iter_value),
                        np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1,2,0), format="png")
-                
-            
+                            
         return total_loss
         
     ### Optimize
