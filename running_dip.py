@@ -7,13 +7,13 @@ from generate_results import *
 
 adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
 num_iter = 10001
-for i in range(6):
-    std1 = 2**(i+1)
+for i in range(7):
+    std1 = 2**(i)
     std = std1/64.0
     save_path = 'results/Adv_DIP/Goldfish/Std_complex_{}-64'.format(std1)
-    out = dip(adv, num_iter=num_iter, save=False, plot=False, reg_noise_std = std1,
+    out = dip(adv, num_iter=num_iter, save=True, plot=False, reg_noise_std = std1,
               save_path = save_path, arch='complex', input_depth=32)
-#    generate_result_files(save_path, adv, orig, num_iter)
+    generate_result_files(save_path, adv, orig, num_iter)
 
 #for i in range(6):
 #    ids = 2**(i+1)
