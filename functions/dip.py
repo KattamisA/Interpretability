@@ -110,18 +110,29 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.interrupts = glparam.interrupts + 1
             print('\n Falling back to previous checkpoint.')
             glparam.net.load_state_dict(glparam.last_net.state_dict())
-            glparam.optimizer.load_state_dict(glparam.optimizer_last.state_dict())    
+            glparam.optimizer.load_state_dict(glparam.optimizer_last.state_dict())
+            
             if glparam.interrupts > 3:
                 glparam.psnr_noisy_last = glparam.psnr_noisy
-            for j in range(iter_value % show_every - 1):
+                
+            if OPTIMIZER == "adam":     
+                for j in range(iter_value % show_every - 1):                
+                    glparam.optimizer.zero_grad()
+                    closure(iter_value - (iter_value % show_every) + j + 1)
+                    glparam.optimizer.step()
                 glparam.optimizer.zero_grad()
-                #closure(iter_value - (iter_value % show_every) + j + 1)
-                #glparam.optimizer.step()
-                glparam.optimizer.step(iter_value - (iter_value % show_every) + j + 1, closure, glparam.net, mse)
-            glparam.optimizer.zero_grad()
-            closure(iter_value)          
-            print('\n Return back to the original')                        
-            return total_loss           
+                closure(iter_value)          
+                print('\n Return back to the original')                        
+                return total_loss 
+            
+            if OPTIMIZER == "EntropySGD":
+                    for j in range(iter_value % show_every - 1):
+                        glparam.optimizer.zero_grad()
+                        glparam.optimizer.step(iter_value - (iter_value % show_every) + j + 1, closure, glparam.net, mse)
+                    glparam.optimizer.zero_grad()
+                    closure(iter_value)   
+                print('\n Return back to the original')                        
+                return total_loss                      
             
         if (iter_value % show_every) == 0: 
             glparam.last_net = deepcopy(glparam.net)
@@ -150,17 +161,25 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 f.write("{:>11}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy))
                 plt.imsave("{}/it_{}.png".format(save_path,iter_value),
                        np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1,2,0), format="png")
-                            
+                
         return total_loss
         
     ### Optimize
     glparam.net.train()
     p = get_params(OPT_OVER, glparam.net, net_input)
-    glparam.optimizer = EntropySGD(p)    
-    for j in range(num_iter):
-        glparam.optimizer.zero_grad()
-        #closure(j)
-        glparam.optimizer.step(j, closure, glparam.net, mse)
+    
+    if OPTIMIZER == "adam":
+        glparam.optimizer = torch.optim.adam(p, lr = LR)
+        for j in range(num_iter):
+            glparam.optimizer.zero_grad()
+            closure(j)
+            glparam.optimizer.step()
+            
+    if OPTIMIZER == "EntropySGD":
+        glparam.optimizer = EntropySGD(p)
+        for j in range(num_iter):
+            glparam.optimizer.zero_grad()
+            glparam.optimizer.step(j, closure, glparam.net, mse)    
             
     print('\n')
     

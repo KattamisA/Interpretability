@@ -16,10 +16,11 @@ class EntropySGD(Optimizer):
         super(EntropySGD, self).__init__(params, config)
         self.config = config
 
-    def step(self,iteration, closure=None, model=None, criterion=None):
+    def step(self, iteration, closure=None, model=None, criterion=None):
         assert (closure is not None) and (model is not None) and (criterion is not None), \
                 'attach closure for Entropy-SGD, model and criterion'
-        mf,merr = closure(iteration)
+        
+        mf = closure(iteration)
 
         c = self.config
         lr = c['lr']
@@ -103,4 +104,4 @@ class EntropySGD(Optimizer):
 
             w.data.add_(-lr, dw)
 
-        return mf,merr
+        return mf

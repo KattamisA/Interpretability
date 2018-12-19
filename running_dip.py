@@ -7,12 +7,12 @@ from generate_results import *
 
 adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
 num_iter = 10001
-for i in range(6):
+for i in range(1):
     std1 = 2**(i)
     std = std1/64.0
     save_path = 'results/Adv_DIP/EntropySGD/Std_complex_{}-64'.format(std1)
     out = dip(adv, num_iter=num_iter, save=True, plot=False, reg_noise_std = std1,
-              save_path = save_path, arch='complex', input_depth=32)
+              save_path = save_path, arch='complex', input_depth=32, OPTIMIZER = "EntropySGD")
     generate_result_files(save_path, adv, orig, num_iter)
 
 #for i in range(6):
