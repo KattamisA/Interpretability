@@ -7,7 +7,7 @@ from generate_results import *
 
 adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
 num_iter = 10001
-for i in range(7):
+for i in range(6):
     std1 = 2**(i)
     std = std1/64.0
     save_path = 'results/Adv_DIP/Goldfish/Std_complex_{}-64'.format(std1)
