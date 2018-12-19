@@ -53,66 +53,32 @@ def get_params(opt_over, net, net_input, downsampler=None):
             
     return params
 
-def get_image_grid(images_np, nrow=8):
-    '''Creates a grid from a list of images by concatenating them.'''
-    images_torch = [torch.from_numpy(x) for x in images_np]
-    torch_grid = torchvision.utils.make_grid(images_torch, nrow)
-    
-    return torch_grid.numpy()
+#def load(path):
+#    """Load PIL image."""
+#    img = Image.open(path)
+#    return img
 
-def plot_image_grid(images_np, nrow =8, factor=1, interpolation='lanczos'):
-    """Draws images in a grid
-    
-    Args:
-        images_np: list of images, each image is np.array of size 3xHxW of 1xHxW
-        nrow: how many images will be in one row
-        factor: size if the plt.figure 
-        interpolation: interpolation used in plt.imshow
-    """
-    n_channels = max(x.shape[0] for x in images_np)
-    assert (n_channels == 3) or (n_channels == 1), "images should have 1 or 3 channels"
-    
-    images_np = [x if (x.shape[0] == n_channels) else np.concatenate([x, x, x], axis=0) for x in images_np]
-
-    grid = get_image_grid(images_np, nrow)
-    
-    plt.figure(figsize=(len(images_np) + factor, 12 + factor))
-    
-    if images_np[0].shape[0] == 1:
-        plt.imshow(grid[0], cmap='gray', interpolation=interpolation)
-    else:
-        plt.imshow(grid.transpose(1, 2, 0), interpolation=interpolation)
-    
-    plt.show()
-    
-    return grid
-
-def load(path):
-    """Load PIL image."""
-    img = Image.open(path)
-    return img
-
-def get_image(path, imsize=-1):
-    """Load an image and resize to a cpecific size. 
-
-    Args: 
-        path: path to image
-        imsize: tuple or scalar with dimensions; -1 for `no resize`
-    """
-    img = load(path)
-
-    if isinstance(imsize, int):
-        imsize = (imsize, imsize)
-
-    if imsize[0]!= -1 and img.size != imsize:
-        if imsize[0] > img.size[0]:
-            img = img.resize(imsize, Image.BICUBIC)
-        else:
-            img = img.resize(imsize, Image.ANTIALIAS)
-
-    img_np = pil_to_np(img)
-
-    return img, img_np
+#def get_image(path, imsize=-1):
+#    """Load an image and resize to a cpecific size. 
+#
+#    Args: 
+#        path: path to image
+#        imsize: tuple or scalar with dimensions; -1 for `no resize`
+#    """
+#    img = load(path)
+#
+#    if isinstance(imsize, int):
+#        imsize = (imsize, imsize)
+#
+#    if imsize[0]!= -1 and img.size != imsize:
+#        if imsize[0] > img.size[0]:
+#            img = img.resize(imsize, Image.BICUBIC)
+#        else:
+#            img = img.resize(imsize, Image.ANTIALIAS)
+#
+#    img_np = pil_to_np(img)
+#
+#    return img, img_np
 
 
 
@@ -196,11 +162,11 @@ def torch_to_np(img_var):
     return img_var.detach().cpu().numpy()[0]
 
 
-def optimize(optimizer_type, parameters, closure, LR, num_iter):
+def optimize(glparam, optimizer_type, parameters, closure, LR, num_iter):
     """Runs optimization loop.
 
     Args:
-        optimizer_type: 'LBFGS' of 'adam'
+        optimizer_type: 'LBFGS' or 'adam'
         parameters: list of Tensors to optimize over
         closure: function, that returns loss variable
         LR: learning rate
@@ -257,35 +223,3 @@ def save_net_details(save_path, arch, param_number, pad, opt_over, optimizer,
     f.write("\n{:<60}{:<12}".format('Exponential weight on output:   ',exp_weight))
     f.write("\n\n{:<60}".format('Entire Net:'))
     f.write("\n\n{:<60}".format(net))
-
-class AverageMeter(object):
-    """Computes and stores the average and current value"""
-    def __init__(self):
-        self.reset()
-
-    def reset(self):
-        self.val = 0
-        self.avg = 0
-        self.sum = 0
-        self.count = 0
-
-    def update(self, val, n=1):
-        self.val = val
-        self.sum += val * n
-        self.count += n
-        self.avg = self.sum / self.count
-
-def accuracy(output, target, topk=(1,)):
-    """Computes the precision@k for the specified values of k"""
-    maxk = max(topk)
-    batch_size = target.size(0)
-
-    _, pred = output.topk(maxk, 1, True, True)
-    pred = pred.t()
-    correct = pred.eq(target.view(1, -1).expand_as(pred))
-
-    res = []
-    for k in topk:
-        correct_k = correct[:k].view(-1).float().sum(0)
-        res.append(correct_k.mul_(100.0 / batch_size))
-    return res

@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
 import torch.optim
-import cv2
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 from functions.optim import *
@@ -20,6 +19,7 @@ torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
 dtype = torch.cuda.FloatTensor
 #dtype = torch.FloatTensor
+
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = None, name = None, loss_fn = "MSE", OPTIMIZER = "adam", pad = 'zero',  OPT_OVER = 'net' ):
     
     glparam = global_parameters()
@@ -30,7 +30,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     if arch == 'default':
         if input_depth == None:
             input_depth = 3
-        net = skip(
+        glparam.net = skip(
                 input_depth, 3, 
                 num_channels_down = [8, 16, 32, 64, 128], 
                 num_channels_up   = [8, 16, 32, 64, 128],
@@ -40,7 +40,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
 
     elif arch == 'complex':
         if input_depth == None:
-            input_depth = 3
+            input_depth = 32
         glparam.net = get_net(input_depth,'skip', pad,
                 skip_n33d=128, 
                 skip_n33u=128, 
@@ -67,7 +67,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     glparam.noise = net_input.detach().clone()
     
     # Compute number of parameters
-    param_numbers  = sum([np.prod(list(p.size())) for p in glparam.net.parameters()]); 
+    param_numbers  = sum([np.prod(list(p.size())) for p in glparam.net.parameters()]) 
     print ('Number of params: %d' % param_numbers)
 
     # Loss function
@@ -168,12 +168,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     p = get_params(OPT_OVER, glparam.net, net_input)
     
     if OPTIMIZER == "adam":
-        glparam.optimizer = torch.optim.adam(p, lr = LR)
+        glparam.optimizer = torch.optim.Adam(p, lr = LR)
         for j in range(num_iter):
             glparam.optimizer.zero_grad()
             closure(j)
-            glparam.optimizer.step()
-            
+            glparam.optimizer.step()            
     if OPTIMIZER == "EntropySGD":
         glparam.optimizer = EntropySGD(p,config=dict(lr = LR))
         for j in range(num_iter):
