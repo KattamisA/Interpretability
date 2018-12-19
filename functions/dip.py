@@ -117,7 +117,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 glparam.optimizer.zero_grad()
                 #closure(iter_value - (iter_value % show_every) + j + 1)
                 #glparam.optimizer.step()
-                glparam.optimizer.step(iter_value - (iter_value % show_every) + j + 1, closure = closure, glparam.net, mse)
+                glparam.optimizer.step(iter_value - (iter_value % show_every) + j + 1, closure, glparam.net, mse)
             glparam.optimizer.zero_grad()
             closure(iter_value)          
             print('\n Return back to the original')                        
@@ -160,7 +160,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     for j in range(num_iter):
         glparam.optimizer.zero_grad()
         #closure(j)
-        glparam.optimizer.step(j, closure = closure, glparam.net, mse)
+        glparam.optimizer.step(j, closure, glparam.net, mse)
             
     print('\n')
     
