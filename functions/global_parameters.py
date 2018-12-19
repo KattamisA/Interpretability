@@ -20,7 +20,6 @@ class global_parameters:
         self.optimizer = None
         self.optimizer_last = None
         self.interrupts = 0
-        self.hardreset = 0
         
     def set_params(self, save, plot, reg_noise_std, exp_weight):
         self.save = save
