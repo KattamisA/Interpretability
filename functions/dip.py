@@ -176,7 +176,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.optimizer.step()
             
     if OPTIMIZER == "EntropySGD":
-        glparam.optimizer = EntropySGD(p)
+        glparam.optimizer = EntropySGD(p,config=dict(lr = LR))
         for j in range(num_iter):
             glparam.optimizer.zero_grad()
             glparam.optimizer.step(j, closure, glparam.net, mse)    

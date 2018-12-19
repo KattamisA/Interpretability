@@ -12,7 +12,7 @@ for i in range(1):
     std = std1/64.0
     save_path = 'results/Adv_DIP/EntropySGD/Std_complex_{}-64'.format(std1)
     out = dip(adv, num_iter=num_iter, save=True, plot=False, reg_noise_std = std1,
-              save_path = save_path, arch='complex', input_depth=32, OPTIMIZER = "EntropySGD")
+              save_path = save_path, arch='complex', input_depth=32, OPTIMIZER = "EntropySGD", LR = 0.1)
     generate_result_files(save_path, adv, orig, num_iter)
 
 #for i in range(6):

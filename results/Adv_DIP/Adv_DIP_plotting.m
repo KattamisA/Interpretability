@@ -15,13 +15,16 @@ close all
 % load 'BI_eps5_full.txt'
 % 
 % load 'Complex_LLCI_eps100_full.txt'
+% 
+% load 'panda.jpg/Stats.txt'
+% Stats1 = Stats;
+% load 'peacock.jpg/Stats.txt'
+% Stats2 = Stats;
+% 
+% plot(100:100:10000,[Stats1(:,2),Stats2(:,2)])
 
-load 'panda.jpg/Stats.txt'
-Stats1 = Stats;
-load 'peacock.jpg/Stats.txt'
-Stats2 = Stats;
-
-plot(100:100:10000,[Stats1(:,2),Stats2(:,2)])
+load 'EntropySGD/Std_complex_1-64/Confidences.txt'
+plot(0:100:10000,Confidences(:,1))
 
 %% Plotting all the LLCI true classes confidences
 
