@@ -126,11 +126,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 return total_loss 
             
             if OPTIMIZER == "EntropySGD":
-                    for j in range(iter_value % show_every - 1):
-                        glparam.optimizer.zero_grad()
-                        glparam.optimizer.step(iter_value - (iter_value % show_every) + j + 1, closure, glparam.net, mse)
+                for j in range(iter_value % show_every - 1):
                     glparam.optimizer.zero_grad()
-                    closure(iter_value)   
+                    glparam.optimizer.step(iter_value - (iter_value % show_every) + j + 1, closure, glparam.net, mse)
+                glparam.optimizer.zero_grad()
+                closure(iter_value)   
                 print('\n Return back to the original')                        
                 return total_loss                      
             
