@@ -16,10 +16,10 @@ class EntropySGD(Optimizer):
         super(EntropySGD, self).__init__(params, config)
         self.config = config
 
-    def step(self, closure=None, model=None, criterion=None):
+    def step(self,iteration, closure=None, model=None, criterion=None):
         assert (closure is not None) and (model is not None) and (criterion is not None), \
                 'attach closure for Entropy-SGD, model and criterion'
-        mf,merr = closure()
+        mf,merr = closure(iteration)
 
         c = self.config
         lr = c['lr']
@@ -61,7 +61,7 @@ class EntropySGD(Optimizer):
         g = g0*(1+g1)**state['t']
 
         for i in range(L):
-            f,_ = closure()
+            f,_ = closure(iteration)
             for wc,w,mw,mdw,eta in zip(state['wc'], params, \
                                     lp['mw'], lp['mdw'], lp['eta']):
                 dw = w.grad.data
