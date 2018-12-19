@@ -8,6 +8,7 @@ import torch.optim
 import cv2
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+from functions.optim import *
 
 from skimage.measure import compare_psnr
 from functions.utils.common_utils import *
@@ -154,7 +155,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     ### Optimize
     glparam.net.train()
     p = get_params(OPT_OVER, glparam.net, net_input)
-    glparam.optimizer = torch.optim.Adam(p, lr=LR)    
+    glparam.optimizer = torch.optim.EntropySGD(p, lr=LR)    
     for j in range(num_iter):
         glparam.optimizer.zero_grad()
         closure(j)
