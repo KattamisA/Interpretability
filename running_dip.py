@@ -17,7 +17,7 @@ num_iter = 10001
 
     
 LRs = [0.01,0.05,0.1,0.5,1]
-for i in range(size(LRs)):
+for i in range(5):
     learning_rate = LRs[i]
     print(learning_rate)
     save_path = 'results/Adv_DIP/EntropySGD/LR_complex_{}'.format(i)
