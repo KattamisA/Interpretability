@@ -20,7 +20,6 @@ torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
 dtype = torch.cuda.FloatTensor
 #dtype = torch.FloatTensor
-
 def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = None, name = None, loss_fn = "MSE", OPTIMIZER = "adam", pad = 'zero',  OPT_OVER = 'net' ):
     
     glparam = global_parameters()
