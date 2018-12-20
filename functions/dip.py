@@ -27,7 +27,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     glparam = global_parameters()
     glparam.set_params(save, plot, reg_noise_std, exp_weight)
     glparam.load_images(img_np)
-    glparam.img_torch = glparam.img_torch.type(torch.cuda.LongTensor)
+    glparam.img_torch = glparam.img_torch.type(dtype)
 
     if arch == 'default':
         if input_depth == None:
@@ -76,7 +76,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     if loss_fn == 'MSE':
         criterion = torch.nn.MSELoss().type(dtype)
     if loss_fn == 'CrossEntropy':
-        criterion = torch.nn.CrossEntropyLoss().type(dtype)
+        criterion = torch.nn.KLDivLoss().type(dtype)
         
     if save == True:
         f= open("{}/Stats.txt".format(save_path),"w+")
