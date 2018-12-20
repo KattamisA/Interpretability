@@ -51,10 +51,10 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
 
     #Set mode to evaluation and set criterion
     model.eval()#.cuda()
-    criterion = nn.CrossEntropyLoss()#.cuda()
+    criterion = nn.CrossEntropyLoss().cuda()
 
     # prediction before attack
-    inp = Variable(torch.from_numpy(img).float().unsqueeze(0), requires_grad=True)#.cuda()
+    inp = Variable(torch.from_numpy(img).float().unsqueeze(0), requires_grad=True).cuda()
     out = model(inp)
     sm = torch.nn.Softmax(1)
     Probs,Ranks = sm(out).sort(descending=True)

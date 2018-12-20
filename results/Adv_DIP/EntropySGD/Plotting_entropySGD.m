@@ -20,6 +20,12 @@ load 'LR_complex_6/Confidences.txt'
 plot(0:100:10000,Confidences(:,1))
 load 'LR_complex_7/Confidences.txt'
 plot(0:100:10000,Confidences(:,1))
+load 'LR_complex_8/Confidences.txt'
+plot(0:100:10000,Confidences(:,1))
+load 'LR_complex_9/Confidences.txt'
+plot(0:100:10000,Confidences(:,1))
+load 'LR_complex_10/Confidences.txt'
+plot(0:100:10000,Confidences(:,1))
 legend('show')
 
 % hold on

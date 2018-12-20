@@ -73,8 +73,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     print ('\n Number of params: %d' % param_numbers)
 
     # Loss function
-    mse = torch.nn.MSELoss().type(dtype)
-    
+    if loss_fn == 'MSE':
+        criterion = torch.nn.MSELoss().type(dtype)
+    elif loss_fn == 'CrossEntropy':
+        criterion = torch.nn.CrossEntropyLoss().type(dtype)
+        
     if save == True:
         f= open("{}/Stats.txt".format(save_path),"w+")
         f.write("{:>11}{:>12}{:>12}\n".format('Iterations','Total_Loss','PSNR'))
@@ -98,7 +101,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             glparam.out_avg = glparam.out_avg * glparam.exp + out.detach() * (1 - glparam.exp)
         
         ## Calculate loss
-        total_loss = mse(out, glparam.img_torch)
+        total_loss = criterion(out, glparam.img_torch)
         total_loss.backward()
 
         glparam.psnr_noisy = compare_psnr(glparam.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
@@ -129,7 +132,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             if OPTIMIZER == "EntropySGD":
                 for j in range(iter_value % show_every - 1):
                     glparam.optimizer.zero_grad()
-                    glparam.optimizer.step(iter_value - (iter_value % show_every) + j + 1, closure, glparam.net, mse)
+                    glparam.optimizer.step(iter_value - (iter_value % show_every) + j + 1, closure, glparam.net, criterion)
                 glparam.optimizer.zero_grad()
                 closure(iter_value)   
                 print('\n Return back to the original')                        
@@ -179,7 +182,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         glparam.optimizer = EntropySGD(p,config=dict(lr = LR))
         for j in range(num_iter):
             glparam.optimizer.zero_grad()
-            glparam.optimizer.step(j, closure, glparam.net, mse)    
+            glparam.optimizer.step(j, closure, glparam.net, criterion)    
     print('\n')       
     
     out = glparam.net(net_input)
