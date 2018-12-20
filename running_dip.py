@@ -16,14 +16,14 @@ num_iter = 10001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Varying the learning rate for the entropy SGD method
-#LRs = [0.01,0.05,0.1,0.5,1]
-#for i in range(5):
-#    learning_rate = LRs[i]
-#    print(learning_rate)
-#    save_path = 'results/Adv_DIP/EntropySGD/LR_complex_{}'.format(i)
-#    out = dip(adv, num_iter=num_iter, save=True, plot=False,
-#              save_path = save_path, arch='complex', input_depth=32, OPTIMIZER = "EntropySGD", LR = learning_rate)
-#    generate_result_files(save_path, adv, orig, num_iter)    
+LRs = [2,5,10]
+for i in range(3):    
+    learning_rate = LRs[i]
+    print(learning_rate)
+    save_path = 'results/Adv_DIP/EntropySGD/LR_complex_{}'.format(i+5)
+    out = dip(adv, num_iter=num_iter, save=True, plot=False,
+              save_path = save_path, arch='complex', input_depth=32, OPTIMIZER = "EntropySGD", LR = learning_rate)
+    generate_result_files(save_path, adv, orig, num_iter)    
 
 ### Varying the input depth
 #for i in range(6):
@@ -34,17 +34,17 @@ num_iter = 10001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images
-images = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg']
-for i in images:       
-    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
-    
-    save_path='results/Adv_DIP/Multiple_images/{}'.format(i.split('.')[0]) 
-    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
-    generate_result_files(save_path, adv, orig, num_iter)
-    
-    save_path='results/Adv_DIP/Multiple_images/EntropySGD/{}'.format(i.split('.')[0])
-    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 1)
-    generate_result_files(save_path, adv, orig, num_iter)
+#images = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg']
+#for i in images:       
+#    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
+#   
+#    save_path='results/Adv_DIP/Multiple_images/{}'.format(i.split('.')[0]) 
+#    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
+#    generate_result_files(save_path, adv, orig, num_iter)
+#    
+#    save_path='results/Adv_DIP/Multiple_images/EntropySGD/{}'.format(i.split('.')[0])
+#    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 1)
+#    generate_result_files(save_path, adv, orig, num_iter)
     
     
 
