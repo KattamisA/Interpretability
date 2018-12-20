@@ -7,13 +7,13 @@ from generate_results import *
 
 adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
 num_iter = 10001
-for i in range(6):
-    std1 = 2**(i)
-    std = std1/64.0
-    save_path = 'results/Adv_DIP/EntropySGD/Std_complex_{}-64'.format(std1)
-    out = dip(adv, num_iter=num_iter, save=True, plot=False, reg_noise_std = std1,
-              save_path = save_path, arch='complex', input_depth=32, OPTIMIZER = "EntropySGD", LR = 1)
-    generate_result_files(save_path, adv, orig, num_iter)
+#for i in range(6):
+#    std1 = 2**(i)
+#    std = std1/64.0
+#    save_path = 'results/Adv_DIP/EntropySGD/Std_complex_{}-64'.format(std1)
+#    out = dip(adv, num_iter=num_iter, save=True, plot=False, reg_noise_std = std1,
+#              save_path = save_path, arch='complex', input_depth=32, OPTIMIZER = "EntropySGD", LR = 1)
+#    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Varying the learning rate for the entropy SGD method
 #LRs = [0.01,0.05,0.1,0.5,1]
@@ -34,11 +34,11 @@ for i in range(6):
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images
-#images = ['panda.jpg','peacock.jpg','F16_GT.png', 'monkey.jpg','zebra_GT.png', 'goldfish.jpg']
-#for i in images:
-#    save_path='results/Adv_DIP/{}'.format(i)    
-#    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
-#    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
-#    generate_result_files(save_path, adv, orig, num_iter)
+images = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg']
+for i in images:
+    save_path='results/Adv_DIP/Multiple_images/{}'.format(i.split('.')[0])    
+    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
+    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
+    generate_result_files(save_path, adv, orig, num_iter)
     
 
