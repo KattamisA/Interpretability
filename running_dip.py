@@ -39,12 +39,12 @@ for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
    
     save_path='results/Adv_DIP/CrossEntropy/{}'.format(i.split('.')[0]) 
-    out = dip(adv, num_iter=num_iter, save=True, criterion='CrossEntropy',
+    out = dip(adv, num_iter=num_iter, save=True, loss_fn='CrossEntropy',
               plot=False, save_path = save_path, arch='complex')
     generate_result_files(save_path, adv, orig, num_iter)
     
     save_path='results/Adv_DIP/CrossEntropy/EntropySGD/{}'.format(i.split('.')[0])
-    out = dip(adv, num_iter=num_iter, save=True, criterion='CrossEntropy',
+    out = dip(adv, num_iter=num_iter, save=True, loss_fn='CrossEntropy',
               plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10)
     generate_result_files(save_path, adv, orig, num_iter)    
     
