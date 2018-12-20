@@ -75,7 +75,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     # Loss function
     if loss_fn == 'MSE':
         criterion = torch.nn.MSELoss().type(dtype)
-    elif loss_fn == 'CrossEntropy':
+    if loss_fn == 'CrossEntropy':
         criterion = torch.nn.CrossEntropyLoss().type(dtype)
         
     if save == True:
@@ -92,7 +92,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
         ## Initialiaze/ Update variables
         if glparam.noise_std > 0.0:
             net_input = glparam.net_input_saved + (glparam.noise.normal_() * glparam.noise_std)
-        out = glparam.net(net_input).type(dtype)
+        out = glparam.net(net_input)
 
         ## Exponential Smoothing
         if glparam.out_avg is None:
