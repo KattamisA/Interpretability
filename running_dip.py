@@ -16,11 +16,11 @@ num_iter = 10001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Varying the learning rate for the entropy SGD method
-LRs = [2,5,10]
+LRs = [20,50,100]
 for i in range(3):    
     learning_rate = LRs[i]
     print(learning_rate)
-    save_path = 'results/Adv_DIP/EntropySGD/LR_complex_{}'.format(i+5)
+    save_path = 'results/Adv_DIP/EntropySGD/LR_complex_{}'.format(i+8)
     out = dip(adv, num_iter=num_iter, save=True, plot=False,
               save_path = save_path, arch='complex', input_depth=32, OPTIMIZER = "EntropySGD", LR = learning_rate)
     generate_result_files(save_path, adv, orig, num_iter)    
