@@ -1,9 +1,9 @@
 import torch
 import numpy as np
+import cv2
 from functions.utils.common_utils import *
 from functions.dip import *
 from generate_results import *
-
 
 ### Observing multiple images
 images = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg']
