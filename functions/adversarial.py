@@ -50,7 +50,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
     img = img.transpose(2, 0, 1)
 
     #Set mode to evaluation and set criterion
-    model.eval()#.cuda()
+    model.eval().cuda()
     criterion = nn.CrossEntropyLoss().cuda()
 
     # prediction before attack
