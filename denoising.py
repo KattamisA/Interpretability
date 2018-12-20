@@ -18,11 +18,11 @@ for i in images:
     
     save_path='results/Denoising/Multiple_images/{}'.format(i.split('.')[0]) 
     out = dip(img_noisy, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
-    generate_result_files(save_path, adv, orig, num_iter)
+    generate_result_files(save_path, img_noisy, img, num_iter)
     
     save_path='results/Denoising/Multiple_images/EntropySGD/{}'.format(i.split('.')[0])
     out = dip(img_noisy, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 1)
-    generate_result_files(save_path, adv, orig, num_iter)
+    generate_result_files(save_path, img_noisy, img, num_iter)
     
     
 
