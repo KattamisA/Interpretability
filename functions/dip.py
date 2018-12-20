@@ -75,7 +75,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
     # Loss function
     if loss_fn == 'MSE':
         criterion = torch.nn.MSELoss().type(dtype)
-    if loss_fn == 'CrossEntropy':
+    if loss_fn == 'KLDiv':
         criterion = torch.nn.KLDivLoss().type(dtype)
         
     if save == True:
