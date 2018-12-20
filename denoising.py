@@ -8,7 +8,7 @@ from generate_results import *
 ### Observing multiple images
 images = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg']
 for i in images:
-    orig = cv2.imread(i)[..., ::-1]
+    orig = cv2.imread("data/{}".format(i))[..., ::-1]
     orig = cv2.resize(orig, (224, 224))
     img = orig.copy().astype(np.float32)
     std = 15
