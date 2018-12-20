@@ -40,5 +40,9 @@ for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
     out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
     generate_result_files(save_path, adv, orig, num_iter)
+    save_path='results/Adv_DIP/Multiple_images/EntropySGD/{}'.format(i.split('.')[0])
+    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 1)
+    generate_result_files(save_path, adv, orig, num_iter)
+    
     
 
