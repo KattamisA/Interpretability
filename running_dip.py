@@ -34,17 +34,17 @@ num_iter = 10001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images
-images = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg']
+images = ['whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.jpg', 'canoe.jpg', 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg']
 for i in images:       
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
    
-    #save_path='results/Adv_DIP/CrossEntropy/{}'.format(i.split('.')[0]) 
-    #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
-    #generate_result_files(save_path, adv, orig, num_iter)
+    save_path='results/Adv_DIP/Multiple_images/{}'.format(i.split('.')[0]) 
+    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
+    generate_result_files(save_path, adv, orig, num_iter)
     
-    #save_path='results/Adv_DIP/CrossEntropy/EntropySGD/{}'.format(i.split('.')[0])
-    #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10)
-    #generate_result_files(save_path, adv, orig, num_iter)    
+    save_path='results/Adv_DIP/Multiple_images/EntropySGD/{}'.format(i.split('.')[0])
+    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 1)
+    generate_result_files(save_path, adv, orig, num_iter)    
     
     save_path='results/Adv_DIP/Multiple_images/EntropySGD_LR10/{}'.format(i.split('.')[0])
     out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10)
