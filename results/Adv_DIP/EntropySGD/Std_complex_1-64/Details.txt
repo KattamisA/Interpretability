@@ -9,7 +9,7 @@ Padding:                                                    zero
 Optimize over:                                              net         
 Optimizer:                                                  EntropySGD  
 
-Learning rate:                                              0.1         
+Learning rate:                                              1           
 Number of iterations:                                       10001       
 
 Loss function:                                              Mean Squared Error
