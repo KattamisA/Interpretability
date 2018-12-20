@@ -6,6 +6,7 @@ from functions.dip import *
 from generate_results import *
 
 ### Observing multiple images
+num_iter = 10001
 images = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg']
 for i in images:
     orig = cv2.imread("data/{}".format(i))[..., ::-1]
