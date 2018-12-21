@@ -12,7 +12,7 @@ Optimizer:                                                  adam
 Learning rate:                                              0.01        
 Number of iterations:                                       10001       
 
-Loss function:                                              Mean Squared Error
+Loss function:                                              CrossEntropy
 
 Input:                                                      INPUT       
 Standard deviation of noise added in each iteration:        0.0333333333333
