@@ -7,6 +7,7 @@ def generate_result_files(path, adv, orig, num_iter):
     ## Find original class
     P, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
     original_class = R[0,0]
+    original_confidence = P[0,0]
     ## Find final set of classes
     P, R = classification(adv, model_name = 'resnet18', sort = True, show=False)
     final_classes = R[0,0:5]
@@ -22,14 +23,16 @@ def generate_result_files(path, adv, orig, num_iter):
         img = loaded_image.copy().astype(np.float32)
         Probs, Ranks = classification(img, model_name = 'resnet18', sort = False, show = False)
         Probs_np = torch_to_np(Probs)
-        Confidence[i,0] = Probs_np[original_class]
+        Confidence[i,0] = Probs_np[original_class]        
         P , Ranking = Probs.sort(descending=True)
         Ranking_np = torch_to_np(Ranking)
         for j in range(5):
             Confidence[i,j+1] = Probs_np[final_classes[j]]
             Ranks_matrix[i,j] = Ranking_np[j]
-
+    Normalised_confidence = Confidence[:,0]/original_confidence
     np.savetxt('{}/Confidences.txt'.format(path), Confidence)
     np.savetxt('{}/Ranks.txt'.format(path), Ranks_matrix)
+    np.savetxt('{}/Normalised.txt'.format(path), Normalised_confidence)
+
     
     print('Results have been generated and stored in {}'.format(path))

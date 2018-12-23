@@ -42,7 +42,7 @@ Confidence(:,18) = Confidences(:,1);
 load 'refrigirator/Confidences.txt'
 Confidence(:,6) = Confidences(:,1);
 
-plot(t,mean(Confidence,2))
+% plot(t,mean(Confidence,2))
 
-% plot(t,Confidence)
-% legend('Panda','Peacock','F16 GT','Monkey','Zebra GT','Goldfish')
+plot(t,Confidence)
+legend('Panda','Peacock','F16 GT','Monkey','Zebra GT','Goldfish')
