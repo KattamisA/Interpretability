@@ -33,8 +33,8 @@ num_iter = 10001
 #              save_path = save_path, arch='complex', input_depth=ids)
 #    generate_result_files(save_path, adv, orig, num_iter)
 
-### Observing multiple images
-images = ['whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.jpg', 'canoe.jpg', 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg']
+### Observing multiple images #'whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 
+images = ['flamingo_animal.jpg', 'canoe.jpg', 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg']
 for i in images:       
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
    
