@@ -7,7 +7,7 @@ def generate_result_files(path, adv, orig, num_iter):
     ## Find original class
     P, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
     original_class = R[0,0]
-    original_confidence = P[0,0]
+    original_confidence = P[0,0].detach().numpy()
     ## Find final set of classes
     P, R = classification(adv, model_name = 'resnet18', sort = True, show=False)
     final_classes = R[0,0:5]
