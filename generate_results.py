@@ -12,7 +12,7 @@ def generate_result_files(path, adv, orig, num_iter):
     P, R = classification(adv, model_name = 'resnet18', sort = True, show=False)
     final_classes = R[0,0:5]
     
-    num_images = (num_iter-1)/100 + 1
+    num_images = int((num_iter-1)/100 + 1)
 
     Confidence = np.ones([num_images,6])
     Ranks_matrix = np.ones([num_images,5])
