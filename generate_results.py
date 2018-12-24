@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from functions.classification import *
 
-def generate_result_files(path, adv, orig, num_iter):
+def generate_result_files(path, adv, orig, num_iter, name):
     ## Find original class
     P, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
     original_class = R[0,0]
@@ -30,9 +30,9 @@ def generate_result_files(path, adv, orig, num_iter):
             Confidence[i,j+1] = Probs_np[final_classes[j]]
             Ranks_matrix[i,j] = Ranking_np[j]
     Normalised_confidence = Confidence[:,0]/original_confidence
-    np.savetxt('{}/Confidences.txt'.format(path), Confidence)
-    np.savetxt('{}/Ranks.txt'.format(path), Ranks_matrix)
-    np.savetxt('{}/Normalised.txt'.format(path), Normalised_confidence)
+    np.savetxt('{}/{}_Confidences.txt'.format(path, name), Confidence)
+    np.savetxt('{}/{}_Ranks.txt'.format(path, name), Ranks_matrix)
+    np.savetxt('{}/{}_Normalised.txt'.format(path, name), Normalised_confidence)
 
     
     print('Results have been generated and stored in {}'.format(path))
