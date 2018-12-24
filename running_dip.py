@@ -34,15 +34,15 @@ num_iter = 10001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images #
-images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg']#, 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg']
+images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg']#'whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg']
 #images = ['goldfish.jpg','panda.jpg', 'peacock.jpg']
 
-std1 = [0, 1 ,2 ,8, 32, 1]
-for j in range(6):
-    std = std1[j]/64.
-    print('Standard deviation = {}'.format(std))
-    for i in images:
-        adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)        
+std1 = [1 ,2 ,4, 8, 16, 32, 1]
+for i in images:
+    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False) 
+    for j in range(7):
+        std = std1[j]/64.
+        print('Standard deviation = {}'.format(std))       
         name = '{}_{}'.format(i.split('.')[0],std1[j])
         
         save_path='results/Adv_DIP/Std_investigation/Adam'
