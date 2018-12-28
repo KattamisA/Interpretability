@@ -2,44 +2,35 @@ clear all
 close all
 
 %% Load variables
+t=0:100:10000;
+tests = ['0.01','0.05','0.1','0.5','1','2','5','10','20','50','100'];
 
-hold on
-% load 'LR_complex_0/Confidences.txt' % 0.01
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_1/Confidences.txt' % 0.05
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_2/Confidences.txt' % 0.1
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_3/Confidences.txt' % 0.5
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_4/Confidences.txt' % 1
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_5/Confidences.txt' % 2
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_6/Confidences.txt' % 5
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_7/Confidences.txt' % 10
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_8/Confidences.txt' % 20
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_9/Confidences.txt' % 50
-% plot(0:100:10000,Confidences(:,1))
-% load 'LR_complex_10/Confidences.txt' % 100
-% plot(0:100:10000,Confidences(:,1))
-legend('show')
+common = 'LR_complex_%d/Confidences.txt';
 
-hold on
-load 'EntropySGD/Std_complex_1-64/Confidences.txt'
-plot(0:100:10000,Confidences(:,1))
-load 'EntropySGD/Std_complex_2-64/Confidences.txt'
-plot(0:100:10000,Confidences(:,1))
-load 'EntropySGD/Std_complex_4-64/Confidences.txt'
-plot(0:100:10000,Confidences(:,1))
-load 'EntropySGD/Std_complex_8-64/Confidences.txt'
-plot(0:100:10000,Confidences(:,1))
-load 'EntropySGD/Std_complex_16-64/Confidences.txt'
-plot(0:100:10000,Confidences(:,1))
-load 'EntropySGD/Std_complex_32-64/Confidences.txt'
-plot(0:100:10000,Confidences(:,1))
-legend('show')
+for i=2:8
+    path = sprintf(common,i);
+    load(path)
+    Normalise(:,i+1) = smooth(Confidences(:,1),5);
+%     legend([tests(i+1)])
+end
+plot(t,Normalise)
+legend('0.1','0.5','1','2','5','10','20')
+grid on
+xlabel('DIP iterations')
+ylabel('True Class Confidence')
+
+% hold on
+% load 'EntropySGD/Std_complex_1-64/Confidences.txt'
+% plot(0:100:10000,Confidences(:,1))
+% load 'EntropySGD/Std_complex_2-64/Confidences.txt'
+% plot(0:100:10000,Confidences(:,1))
+% load 'EntropySGD/Std_complex_4-64/Confidences.txt'
+% plot(0:100:10000,Confidences(:,1))
+% load 'EntropySGD/Std_complex_8-64/Confidences.txt'
+% plot(0:100:10000,Confidences(:,1))
+% load 'EntropySGD/Std_complex_16-64/Confidences.txt'
+% plot(0:100:10000,Confidences(:,1))
+% load 'EntropySGD/Std_complex_32-64/Confidences.txt'
+% plot(0:100:10000,Confidences(:,1))
+% legend('show')
 

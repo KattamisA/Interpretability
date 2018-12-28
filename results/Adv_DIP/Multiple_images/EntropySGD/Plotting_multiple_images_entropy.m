@@ -3,26 +3,45 @@
 
 %% Load and plot confidences
 t=0:100:10000;
-Confidence = zeros(101,18);
+img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador','snake','flamingo_animal','canoe','car_wheel','fountain','football_helmet','hourglass','refrigirator'];
+
+Normalise = zeros(101,size(img_names,2));
+Confidence = zeros(101,size(img_names,2));
 hold on
 
 common = '%s/Normalised.txt';
-img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador','snake','flamingo_animal','canoe','car_wheel','fountain','football_helmet','hourglass','refrigirator'];
-for i=1:18
+for i=1:size(img_names,2)
     path = sprintf(common,img_names(i));
     load(path) 
-    Confidence(:,i) = Normalised(:,1);
+    Normalise(:,i) = smooth(Normalised(:,1),5);
 end
-plot(t,mean(Confidence,2))
 
-% common = '%s/Confidences.txt';
-% img_names = ["panda","peacock","F16_GT","monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador','snake','flamingo_animal','canoe','car_wheel','fountain','football_helmet','hourglass','refrigirator'];
-% for i=1:18
-%     path = sprintf(common,img_names(i));
-%     load(path) 
-%     Confidence(:,i) = Confidences(:,1);
-% end
+common = '%s/Confidences.txt';
+for i=1:size(img_names,2)
+    path = sprintf(common,img_names(i));
+    load(path) 
+    Confidence(:,i) = smooth(Confidences(:,1),5);
+end
+
 % plot(t,mean(Confidence,2))
+hold on
+plot(t,mean(Normalise,2))
+xlabel('DIP iterations')
+ylabel('Averaged True Class Confidence')
+% legend('Unnormalized','Normalized')
+grid on
 
+
+
+% figure
+% plot(t,Normalise)
+% xlabel('DIP iterations')
+% ylabel('True Class Confidence')
+% grid on
+% 
+% figure
 % plot(t,Confidence)
-% legend('Panda','Peacock','F16 GT','Monkey','Zebra GT','Goldfish')
+% xlabel('DIP iterations')
+% ylabel('True Class Confidence')
+% grid on
+% ylim([0,1.4])
