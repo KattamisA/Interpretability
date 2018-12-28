@@ -37,7 +37,7 @@ num_iter = 10001
 images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg']
 
 for i in images:
-    print("Working on image: {}".format(i.split('.')[0])
+    print("Working on image: {}".format(i.split('.')[0]))
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
     name = '{}'.format(i.split('.')[0])
 
