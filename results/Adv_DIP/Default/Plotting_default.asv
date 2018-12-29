@@ -3,14 +3,14 @@
 
 %% Load and plot confidences
 t=0:100:10000;
-img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador']%,'snake','flamingo_animal','canoe','car_wheel','fountain','football_helmet','hourglass','refrigirator','knife','rope'];
+img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador','snake','flamingo_animal','canoe','car_wheel','fountain','football_helmet','hourglass','refrigirator','knife','rope'];
 
 Confidence = zeros(101,size(img_names,2));
 Normalise = zeros(101,size(img_names,2));
 hold on
 
 %% Calculating normalised
-common = 'EntropySGD/%s/Normalised.txt';
+common = 'Adam/%s_Normalised.txt';
 for i=1:size(img_names,2)
     path = sprintf(common,img_names(i));
     s = load(path);
@@ -18,7 +18,7 @@ for i=1:size(img_names,2)
 end
 
 %% Calculating Unnormalized
-% common = 'EntropySGD/%s/Confidences.txt';
+% common = 'EntropySGD/%s_Confidences.txt';
 % for i=1:size(img_names,2)
 %     path = sprintf(common,img_names(i));
 %     q = load(path);
@@ -26,18 +26,18 @@ end
 % end
 
 %% Plotting
-% Average = mean(Normalise,2);
+Average = mean(Normalise,2);
 Std = std(Normalise,0,2);
-% % figure
-% % plot(t,mean(Confidence,2))
-% hold on
-% plot(t,Average,'b','LineWidth',1.5)
-% plot(t',[Average+Std, Average-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
-% legend('Adam optimizer - average')
-% xlabel('DIP iterations')
-% ylabel('Averaged Class Confidence')
+% figure
+% plot(t,mean(Confidence,2))
+hold on
+plot(t,Average,'r','LineWidth',1)
+plot(t,[Average+Std, Average-Std],'--r','LineWidth',0.5)
+fill([t',fliplt'],[Average+Std, Average-Std],'r')
+% legend('Unormalised Confidences','Normalised Confidences')
+xlabel('DIP iterations')
+ylabel('Averaged Class Confidence')
 
-plot(t,Std,'LineWidth',1)
 
 %% Plotting all the lines 
 % figure
