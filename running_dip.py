@@ -41,11 +41,10 @@ images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','go
 std1 = [1, 2, 4, 8]
 for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
-    name = '{}_{}_256'.format(i.split('.')[0])
     for j in range(4):
         std = std1[j]/256.0
         print("#############\n\nStd = {}  -  Working on image: {}".format(std,i.split('.')[0]))       
-        
+        name = '{}_{}_256'.format(i.split('.')[0],std)
         #save_path='results/Adv_DIP/Default/Adam'
         #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default')
         #generate_result_files(save_path, adv, orig, num_iter, name)
