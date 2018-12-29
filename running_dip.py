@@ -34,26 +34,30 @@ num_iter = 10001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images #
-#images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg']
+images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg']#, 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
 
-images = ['knife.jpg','rope.jpeg']
+#images = ['knife.jpg','rope.jpeg']
 
+std1 = [1, 2, 4, 8]
 for i in images:
-    print("#############\n\nWorking on image: {}".format(i.split('.')[0]))
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
-    name = '{}'.format(i.split('.')[0])
+    name = '{}_{}_256'.format(i.split('.')[0])
+    for j in range(4):
+        std = std1[j]/256.0
+        print("#############\n\nStd = {}  -  Working on image: {}".format(std,i.split('.')[0]))       
+        
+        #save_path='results/Adv_DIP/Default/Adam'
+        #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default')
+        #generate_result_files(save_path, adv, orig, num_iter, name)
 
-    save_path='results/Adv_DIP/Default/Adam'
-    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default')
-    generate_result_files(save_path, adv, orig, num_iter, name)
+        save_path='results/Adv_DIP/Std_investigation/EntropySGD'
+        out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default', OPTIMIZER = "EntropySGD", LR = 10, reg_noise_std = std)
+        generate_result_files(save_path, adv, orig, num_iter, name)    
 
-    save_path='results/Adv_DIP/Default/EntropySGD'
-    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default', OPTIMIZER = "EntropySGD", LR = 10)
-    generate_result_files(save_path, adv, orig, num_iter, name)    
+        #save_path='results/Adv_DIP/Std_investigation/EntropySGD_LR10/{}'.format(i.split('.')[0])
+        #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10)
+        #generate_result_files(save_path, adv, orig, num_iter)
 
-    #save_path='results/Adv_DIP/Std_investigation/EntropySGD_LR10/{}'.format(i.split('.')[0])
-    #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10)
-    #generate_result_files(save_path, adv, orig, num_iter)
    
     
 

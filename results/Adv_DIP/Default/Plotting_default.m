@@ -9,12 +9,12 @@ Confidence = zeros(101,size(img_names,2));
 Normalise = zeros(101,size(img_names,2));
 hold on
 
-common = 'EntropySGD_LR10/%s/Normalised.txt';
+common = 'EntropySGD/%s_Normalised.txt';
 
 for i=1:size(img_names,2)
     path = sprintf(common,img_names(i));
-    load(path)
-    Normalise(:,i) = Normalised(:,1);
+    s = load(path);
+    Normalise(:,i) = s(:,1);
 end
 % 
 % plot(t,mean(Normalise,2))
@@ -22,11 +22,11 @@ end
 % xlabel('DIP iterations')
 % ylabel('Class Confidence')
 
-common = '%s/Confidences.txt';
+common = 'EntropySGD/%s_Confidences.txt';
 for i=1:size(img_names,2)
     path = sprintf(common,img_names(i));
-    load(path) 
-    Confidence(:,i) = Confidences(:,1);
+    q = load(path);
+    Confidence(:,i) = q(:,1);
 end
 
 % figure
