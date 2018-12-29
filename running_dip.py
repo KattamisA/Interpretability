@@ -45,7 +45,7 @@ for i in images:
         #std = std1[j]/256.0
         print("#############\n\n Epsilon = {}  -  Working on image: {}".format(eps[j],i.split('.')[0]))       
         name = '{}'.format(i.split('.')[0])
-        save_path='results/Adv_DIP/Complex/All_adv_methods/LLCI_eps{}'.format(eps[j])
+        save_path='results/Adv_DIP/All_adv_methods/LLCI_eps{}'.format(eps[j])
         out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
         generate_result_files(save_path, adv, orig, num_iter, name)
 
@@ -63,7 +63,7 @@ for i in images:
         adv, orig, pert = adversarial_examples("data/{}".format(i), method = "BI", eps=eps[j], show=False)
         print("#############\n\n Epsilon = {}  -  Working on image: {}".format(eps[j],i.split('.')[0]))       
         name = '{}'.format(i.split('.')[0])
-        save_path='results/Adv_DIP/Complex/All_adv_methods/BI_eps{}'.format(eps[j])
+        save_path='results/Adv_DIP/All_adv_methods/BI_eps{}'.format(eps[j])
         out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
         generate_result_files(save_path, adv, orig, num_iter, name)   
     
@@ -73,6 +73,6 @@ for i in images:
         adv, orig, pert = adversarial_examples("data/{}".format(i), method = "FGSM", eps=eps[j], show=False)
         print("#############\n\n Epsilon = {}  -  Working on image: {}".format(eps[j],i.split('.')[0]))       
         name = '{}'.format(i.split('.')[0])
-        save_path='results/Adv_DIP/Complex/All_adv_methods/FGSM_eps{}'.format(eps[j])
+        save_path='results/Adv_DIP/All_adv_methods/FGSM_eps{}'.format(eps[j])
         out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
         generate_result_files(save_path, adv, orig, num_iter, name)
