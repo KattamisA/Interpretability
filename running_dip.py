@@ -44,7 +44,7 @@ for i in images:
     for j in range(4):
         std = std1[j]/256.0
         print("#############\n\nStd = {}  -  Working on image: {}".format(std,i.split('.')[0]))       
-        name = '{}_{}_256'.format(i.split('.')[0],std)
+        name = '{}_{}_256'.format(i.split('.')[0],std1[j])
         #save_path='results/Adv_DIP/Default/Adam'
         #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default')
         #generate_result_files(save_path, adv, orig, num_iter, name)
