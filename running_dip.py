@@ -50,7 +50,7 @@ for i in images:
         #generate_result_files(save_path, adv, orig, num_iter, name)
 
         save_path='results/Adv_DIP/Std_investigation/EntropySGD'
-        out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default', OPTIMIZER = "EntropySGD", LR = 10, reg_noise_std = std)
+        out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10, reg_noise_std = std)
         generate_result_files(save_path, adv, orig, num_iter, name)    
 
         #save_path='results/Adv_DIP/Std_investigation/EntropySGD_LR10/{}'.format(i.split('.')[0])
