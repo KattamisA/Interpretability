@@ -38,25 +38,41 @@ images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','go
 
 #images = ['knife.jpg','rope.jpeg']
 
-std1 = [1, 2, 4, 8]
+eps = [1, 5, 25, 100]
 for i in images:
-    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=100, show=False)
     for j in range(4):
-        std = std1[j]/256.0
-        print("#############\n\nStd = {}  -  Working on image: {}".format(std,i.split('.')[0]))       
-        name = '{}_{}_256'.format(i.split('.')[0],std1[j])
-        #save_path='results/Adv_DIP/Default/Adam'
-        #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default')
-        #generate_result_files(save_path, adv, orig, num_iter, name)
+        adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=eps[j], show=False)
+        #std = std1[j]/256.0
+        print("#############\n\n Epsilon = {}  -  Working on image: {}".format(eps[j],i.split('.')[0]))       
+        name = '{}'.format(i.split('.')[0])
+        save_path='results/Adv_DIP/Complex/All_adv_methods/LLCI_eps{}'.format(eps[j])
+        out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
+        generate_result_files(save_path, adv, orig, num_iter, name)
 
-        save_path='results/Adv_DIP/Std_investigation/EntropySGD'
-        out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10, reg_noise_std = std)
-        generate_result_files(save_path, adv, orig, num_iter, name)    
+        #save_path='results/Adv_DIP/Std_investigation/EntropySGD'
+        #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10, reg_noise_std = std)
+        #generate_result_files(save_path, adv, orig, num_iter, name)    
 
         #save_path='results/Adv_DIP/Std_investigation/EntropySGD_LR10/{}'.format(i.split('.')[0])
         #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10)
         #generate_result_files(save_path, adv, orig, num_iter)
 
-   
+eps = [1, 5, 25, 100]
+for i in images:
+    for j in range(4):
+        adv, orig, pert = adversarial_examples("data/{}".format(i), method = "BI", eps=eps[j], show=False)
+        print("#############\n\n Epsilon = {}  -  Working on image: {}".format(eps[j],i.split('.')[0]))       
+        name = '{}'.format(i.split('.')[0])
+        save_path='results/Adv_DIP/Complex/All_adv_methods/BI_eps{}'.format(eps[j])
+        out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
+        generate_result_files(save_path, adv, orig, num_iter, name)   
     
-
+eps = [1, 5, 25, 100]
+for i in images:
+    for j in range(4):
+        adv, orig, pert = adversarial_examples("data/{}".format(i), method = "FGSM", eps=eps[j], show=False)
+        print("#############\n\n Epsilon = {}  -  Working on image: {}".format(eps[j],i.split('.')[0]))       
+        name = '{}'.format(i.split('.')[0])
+        save_path='results/Adv_DIP/Complex/All_adv_methods/FGSM_eps{}'.format(eps[j])
+        out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
+        generate_result_files(save_path, adv, orig, num_iter, name)

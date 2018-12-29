@@ -9,7 +9,7 @@ Confidence = zeros(101,size(img_names,2));
 Normalise = zeros(101,size(img_names,2));
 hold on
 
-common = 'EntropySGD_LR10/%s/Normalised.txt';
+common = 'EntropySGD/%s/Normalised.txt';
 
 for i=1:size(img_names,2)
     path = sprintf(common,img_names(i));
@@ -28,14 +28,17 @@ for i=1:size(img_names,2)
     load(path) 
     Confidence(:,i) = Confidences(:,1);
 end
-
-% figure
-% plot(t,mean(Confidence,2))
-hold on
-plot(t,mean(Normalise,2))
-% legend('Unormalised Confidences','Normalised Confidences')
-xlabel('DIP iterations')
-ylabel('Averaged Class Confidence')
+Std = std(Normalise,0,2);
+Average = mean(Normalise,2);
+% % figure
+% % plot(t,mean(Confidence,2))
+% hold on
+% plot(t,Average)
+% hold on
+% plot(t,[Average-Std, Average+Std],'--')
+% % legend('Unormalised Confidences','Normalised Confidences')
+% xlabel('DIP iterations')
+% ylabel('Averaged Class Confidence')
 % 
 % figure
 % plot(t,Normalise)
@@ -46,5 +49,6 @@ ylabel('Averaged Class Confidence')
 % plot(t,Confidence)
 % xlabel('DIP iterations')
 % ylabel('Class Confidence')
+plot(t,Std)
 
 % legend('Panda','Peacock','F16 GT','Monkey','Zebra GT','Goldfish')
