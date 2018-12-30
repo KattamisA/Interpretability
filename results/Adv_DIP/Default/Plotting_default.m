@@ -10,7 +10,7 @@ Normalise = zeros(101,size(img_names,2));
 hold on
 
 %% Calculating normalised
-common = 'EntropySGD/%s_Normalised.txt';
+common = 'Adam/%s_Normalised.txt';
 for i=1:size(img_names,2)
     path = sprintf(common,img_names(i));
     s = load(path);
@@ -31,9 +31,9 @@ Std = std(Normalise,0,2);
 % figure
 % plot(t,mean(Confidence,2))
 hold on
-plot(t,Average,'r','LineWidth',1.5)
-plot(t',[Average+Std, Average-Std],'--r','LineWidth',0.2,'HandleVisibility','off')
-legend('Adam optimizer - average')
+plot(0:100:5000,Average(1:51,:),'r','LineWidth',1.5)
+plot(0:100:5000,[Average(1:51,:)+Std(1:51,:), Average(1:51,:)-Std(1:51,:)],'--r','LineWidth',0.2,'HandleVisibility','off')
+% legend('Adam optimizer - average')
 xlabel('DIP iterations')
 ylabel('Averaged Class Confidence')
 
