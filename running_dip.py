@@ -55,10 +55,10 @@ eps = [25, 100]
         #save_path='results/Adv_DIP/Std_investigation/EntropySGD_LR10/{}'.format(i.split('.')[0])
         #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 10)
         #generate_result_files(save_path, adv, orig, num_iter)
-images = ['panda.jpg','peacock.jpg']#,'peacock.jpg','labrador.jpg']
-eps = [1, 5, 25, 100]
+images = ['labrador.jpg']#,'peacock.jpg','labrador.jpg']
+eps = [100]
 for i in images:
-    for j in range(4):
+    for j in range(1):
         adv, orig, pert = adversarial_examples("data/{}".format(i), method = "BI", eps=eps[j], show=False)
         print("#############\n\n Epsilon = {}  -  Working on image: {}".format(eps[j],i.split('.')[0]))       
         name = '{}'.format(i.split('.')[0])
