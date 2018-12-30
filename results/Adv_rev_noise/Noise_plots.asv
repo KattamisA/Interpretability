@@ -42,7 +42,7 @@ Average = zeros(128,6);
 Std = zeros(128,6);
 eps = [1,5,10,25,50,100];
 for i = 1:size(eps,2)
-    path = sprintf('data/LLCI_eps%d.txt',eps(i));
+    path = sprintf('data/FGSM_eps%d.txt',eps(i));
     s = load(path);
     Average(:,i) = mean(s,2);
     Std(:,i) = std(s,0,2);
@@ -52,21 +52,20 @@ k = [1,3,6];
 for i = 1:3
     subplot(1,3,i)
     Average1 = smooth(Average(:,k(i)),7);
-    Std1 = smooth(Std(:,k(i)),7);
+    Std1 = smooth(Std(:,i),7);
     hold on
-    plot(t,Average1,'r','LineWidth',1.5)
-    plot(t',[Average1+Std1, Average1-Std1],'--r','LineWidth',0.2)%,'HandleVisibility','off')
+    plot(t,Average1,'b','LineWidth',1.5)
+    plot(t',[Average1+Std1, Average1-Std1],'--b','LineWidth',0.2,'HandleVisibility','off')
     ylabel('True class confidence')
     xlabel('Noise standard deviation')
-    title_name = sprintf('epsilon = %d',eps(k(i)));
-    legend('Average','Margins \pm \sigma')
+    title_name = sprintf('epsilon = %d',eps(i));
     title(title_name)
     grid on
     ylim([0,1])
     xlim([0,128])
-%     if i>2
-%         ylim([0,0.2])
-%     end
+    if i>3
+        ylim([0,0.2])
+    end
 end
 
 for q=1:1

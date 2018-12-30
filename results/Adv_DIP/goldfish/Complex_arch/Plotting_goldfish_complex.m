@@ -3,7 +3,7 @@ close all
 
 %% Create variables
 t=0:100:10000;
-Smoothing_factor = 7;
+Smoothing_factor = 3;
 
 %% Load variables
 
