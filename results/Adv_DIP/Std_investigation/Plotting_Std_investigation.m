@@ -23,6 +23,8 @@ for j=1:size(std1,2)
     Std(:,j) = std(Confidence,0,2);
 end
 
+
+
 %% Plotting
 % plot(t,Averaged,'LineWidth',1)
 % figure

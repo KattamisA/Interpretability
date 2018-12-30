@@ -1,6 +1,18 @@
 clear all;
 close all;
 
+%% Original image noise
+% s = load('data/orig_noisy.txt');
+% Average = smooth(mean(s,2),7);
+% Std = smooth(std(s,0,2),7);
+% hold on
+% plot(1:128,Average,'b','LineWidth',1.5)
+% plot(1:128,[Average+Std, Average-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
+% ylabel('True class confidence')
+% xlabel('Noise standard deviation')
+% grid on
+% ylim([0,1])
+% xlim([0,128])
 %% Plotting for the LCCI
 % load 'LCCI_[50_100].txt'
 % load 'LLCI_[1_5_10_25].txt'
@@ -16,7 +28,7 @@ close all;
 % legend('\epsilon = 1', '\epsilon = 5', '\epsilon = 10', '\epsilon = 25', '\epsilon = 50', '\epsilon = 100')
 
 %% Plotting for the FGSM
-% load FGSM.txt
+% load data/FGSM.txt
 % 
 % plot(1:128,reshape(smooth(FGSM(1:128,:),15),128,6))
 % 
@@ -25,7 +37,37 @@ close all;
 % legend('\epsilon = 1', '\epsilon = 5', '\epsilon = 10', '\epsilon = 25', '\epsilon = 50', '\epsilon = 100')
 
 %% Plotting the samples for FGSM
+% t=1:128;
+% Average = zeros(128,6);
+% Std = zeros(128,6);
+% eps = [1,5,10,25,50,100];
+% for i = 1:size(eps,2)
+%     path = sprintf('data/FGSM_eps%d.txt',eps(i));
+%     s = load(path);
+%     Average(:,i) = mean(s,2);
+%     Std(:,i) = std(s,0,2);
+% end
+% 
+% for i = 1:6
+%     subplot(2,3,i)
+%     Average1 = smooth(Average(:,i),7);
+%     Std1 = smooth(Std(:,i),7);
+%     hold on
+%     plot(t,Average1,'b','LineWidth',1.5)
+%     plot(t',[Average1+Std1, Average1-Std1],'--b','LineWidth',0.2,'HandleVisibility','off')
+%     ylabel('True class confidence')
+%     xlabel('Noise standard deviation')
+%     title_name = sprintf('epsilon = %d',eps(i));
+%     title(title_name)
+%     grid on
+%     ylim([0,1])
+%     xlim([0,128])
+%     if i>3
+%         ylim([0,0.2])
+%     end
+% end
 
+for q=1:1
 % load 'FGSM_eps1.txt'
 % load 'FGSM_eps5.txt'
 % load 'FGSM_eps10.txt'
@@ -63,9 +105,37 @@ close all;
 % ylabel('True class confidence')
 % xlabel('Noise standard deviation')
 % title('\epsilon = 100')
-
+end %% extra code
 %% Plotting the samples for LCCI
+% t=1:128;
+% Average = zeros(128,6);
+% Std = zeros(128,6);
+% eps = [1,5,10,25,50,100];
+% for i = 1:size(eps,2)
+%     path = sprintf('data/LLCI_eps%d.txt',eps(i));
+%     s = load(path);
+%     Average(:,i) = mean(s,2);
+%     Std(:,i) = std(s,0,2);
+% end
+% 
+% for i = 1:6
+%     subplot(2,3,i)
+%     Average1 = smooth(Average(:,i),7);
+%     Std1 = smooth(Std(:,i),7);
+%     hold on
+%     plot(t,Average1,'b','LineWidth',1.5)
+%     plot(t',[Average1+Std1, Average1-Std1],'--b','LineWidth',0.2,'HandleVisibility','off')
+%     ylabel('True class confidence')
+%     xlabel('Noise standard deviation')
+%     title_name = sprintf('epsilon = %d',eps(i));
+%     title(title_name)
+%     grid on
+%     ylim([0,1])
+%     xlim([0,128])
+% end
 
+
+for q=1:1
 % load 'LLCI_eps1.txt'
 % load 'LLCI_eps5.txt'
 % load 'LLCI_eps10.txt'
@@ -103,15 +173,45 @@ close all;
 % ylabel('True class confidence')
 % xlabel('Noise standard deviation')
 % title('\epsilon = 100')
-
+end
 %% Plotting the samples for BI
+% t=1:128;
+% Average = zeros(128,6);
+% Std = zeros(128,6);
+% eps = [1,5,10,25,50,100];
+% for i = 1:size(eps,2)
+%     path = sprintf('data/BI_eps%d.txt',eps(i));
+%     s = load(path);
+%     Average(:,i) = mean(s,2);
+%     Std(:,i) = std(s,0,2);
+% end
+% 
+% for i = 1:6
+%     subplot(2,3,i)
+%     Average1 = smooth(Average(:,i),7);
+%     Std1 = smooth(Std(:,i),7);
+%     hold on
+%     plot(t,Average1,'b','LineWidth',1.5)
+%     plot(t',[Average1+Std1, Average1-Std1],'--b','LineWidth',0.2,'HandleVisibility','off')
+%     ylabel('True class confidence')
+%     xlabel('Noise standard deviation')
+%     title_name = sprintf('epsilon = %d',eps(i));
+%     title(title_name)
+%     grid on
+%     ylim([0,1])
+%     xlim([0,128])
+%     if i>3
+%         ylim([0,0.2])
+%     end
+% end
 
+for q =1:1
 % load 'BI_eps1.txt'
 % load 'BI_eps5.txt'
 % load 'BI_eps10.txt'
 % load 'BI_eps25.txt'
 % load 'BI_eps50.txt'
-load 'BI_eps100.txt'
+% load 'BI_eps100.txt'
 % 
 % subplot(2,3,1)
 % plot(1:128,BI_eps1,'+')
@@ -143,19 +243,4 @@ load 'BI_eps100.txt'
 % ylabel('True class confidence')
 % xlabel('Noise standard deviation')
 % title('\epsilon = 100')
-
-load 'BI2_eps100.txt'
-load 'orig_noisy.txt'
-load 'orig_noisy_RN50.txt'
-plot(1:128,smooth(mean(orig_noisy,2),9))
-ylabel('True class confidence')
-xlabel('Noise standard deviation')
-hold on
-plot(1:128,smooth(mean(BI_eps100,2),9))
-hold on
-plot(1:128,smooth(mean(BI2_eps100,2),9)) 
-ylabel('True class confidence')
-xlabel('Noise standard deviation')
-legend('Original + noise','Adversarial BI + noise','Original + noise (ResNet50)')
-
-% plot(1:128,BI2_eps100,'+')
+end

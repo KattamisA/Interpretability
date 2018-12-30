@@ -34,12 +34,12 @@ num_iter = 10001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images #
-images = ['F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg', 'labrador.jpg']#, 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
+images = [ 'peacock.jpg','labrador.jpg']#, 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
 #'panda.jpg','peacock.jpg',
-
-eps = [1, 5, 25, 100]
+#'F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg',
+eps = [25, 100]
 for i in images:
-    for j in range(4):
+    for j in range(2):
         adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps=eps[j], show=False)
         #std = std1[j]/256.0
         print("#############\n\n Epsilon = {}  -  Working on image: {}".format(eps[j],i.split('.')[0]))       
