@@ -40,7 +40,7 @@ images = [ 'panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','g
 input_depth = [2,4,8,16,32,64]
 for i in images:
     for j in range(6):
-        adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", 100, show=False)
+        adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps = 100, show=False)
         print("#############\n\n Input depth = {}  -  Working on image: {}".format(input_depth[j],i.split('.')[0]))       
         name = '{}_ID{}'.format(i.split('.')[0],input_depth[j])
         save_path='results/Adv_DIP/ID_investigation/Adam'.format(input_depth[j])
