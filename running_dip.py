@@ -34,12 +34,12 @@ num_iter = 10001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images #
-images = ['goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg','labrador.jpg']#, 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
+images = ['peacock.jpg']#,'whale.jpg', 'dolphin.jpg', 'spider.jpg','labrador.jpg']#, 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
 #'panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png',
 #'F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg',
-input_depth = [2,4,8,16,32,64]
+input_depth = [64]
 for i in images:
-    for j in range(6):
+    for j in range(1):
         adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps = 100, show=False)
         print("#############\n\n Input depth = {}  -  Working on image: {}".format(input_depth[j],i.split('.')[0]))       
         name = '{}_ID{}'.format(i.split('.')[0],input_depth[j])

@@ -38,35 +38,55 @@ close all;
 
 %% Plotting the samples for FGSM
 t=1:128;
-Average = zeros(128,6);
+Average1 = zeros(128,6);
+Average2 = zeros(128,6);
+Average3 = zeros(128,6);
 Std = zeros(128,6);
 eps = [1,5,10,25,50,100];
 for i = 1:size(eps,2)
-    path = sprintf('data/LLCI_eps%d.txt',eps(i));
+    path = sprintf('data/FGSM_eps%d.txt',eps(i));
     s = load(path);
-    Average(:,i) = mean(s,2);
+    Average1(:,i) = mean(s,2);
     Std(:,i) = std(s,0,2);
 end
+for i = 1:size(eps,2)
+    path = sprintf('data/BI_eps%d.txt',eps(i));
+    s = load(path);
+    Average2(:,i) = mean(s,2);
+    Std(:,i) = std(s,0,2);
+end
+for i = 1:size(eps,2)
+    path = sprintf('data/LLCI_eps%d.txt',eps(i));
+    s = load(path);
+    Average3(:,i) = mean(s,2);
+    Std(:,i) = std(s,0,2);
+end
+hold on
 
 k = [1,3,6];
+
 for i = 1:3
     subplot(1,3,i)
-    Average1 = smooth(Average(:,k(i)),7);
+    Average4 = smooth(Average1(:,k(i)),7);
+    Average5 = smooth(Average2(:,k(i)),7);
+    Average6 = smooth(Average3(:,k(i)),7);
     Std1 = smooth(Std(:,k(i)),7);
     hold on
-    plot(t,Average1,'r','LineWidth',1.5)
-    plot(t',[Average1+Std1, Average1-Std1],'--r','LineWidth',0.2)%,'HandleVisibility','off')
+    plot(t,Average4,'LineWidth',1.5)
+    plot(t,Average5,'LineWidth',1.5)
+    plot(t,Average6,'LineWidth',1.5)
+%     plot(t',[Average1+Std1, Average1-Std1],'--r','LineWidth',0.2,'HandleVisibility','off')
     ylabel('True class confidence')
     xlabel('Noise standard deviation')
     title_name = sprintf('epsilon = %d',eps(k(i)));
-    legend('Average','Margins \pm \sigma')
+    legend('FGSM','BI','LLCI')
     title(title_name)
     grid on
     ylim([0,1])
     xlim([0,128])
-%     if i>2
-%         ylim([0,0.2])
-%     end
+    if i>2
+        ylim([0,0.5])
+    end
 end
 
 for q=1:1
