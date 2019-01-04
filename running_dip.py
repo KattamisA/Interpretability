@@ -36,7 +36,7 @@ num_iter = 10001
 ### Observing multiple images #
 images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg','labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
 
-for i in image:
+for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "LLCI", eps = 100, show=False)
     print("#############\n\nWorking on image: {}".format(i.split('.')[0]))           
     name = '{}'.format(i.split('.')[0])
