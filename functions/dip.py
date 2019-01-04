@@ -45,8 +45,8 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
             input_depth = 32
         glparam.net = skip(
                 input_depth, 3, 
-                num_channels_down = [32, 64, 64, 128, 256], 
-                num_channels_up   = [32, 64, 64, 128, 256],
+                num_channels_down = [32, 32, 64, 128, 256], 
+                num_channels_up   = [32, 32, 64, 128, 256],
                 num_channels_skip = [4, 4, 4, 4, 4], 
                 upsample_mode='bilinear',
                 need_sigmoid=True, need_bias=True, act_fun='LeakyReLU').type(dtype)
