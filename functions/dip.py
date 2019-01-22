@@ -52,10 +52,10 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
 
     elif arch == 'test2':
         if input_depth == None:
-            input_depth = 32
+            input_depth = 16
         glparam.net = skip(
                 input_depth, 3, 
-                num_channels_down = [32, 32, 64, 64, 128], 
+                num_channels_down = [16, 32, 32, 64, 128], 
                 num_channels_up   = [32, 32, 64, 64, 128], 
                 num_channels_skip = [4, 4, 4, 4, 4], 
                 upsample_mode='bilinear',
@@ -73,11 +73,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
 
     elif arch == 'test4':
         if input_depth == None:
-            input_depth = 16
+            input_depth = 8
         glparam.net = skip(
                 input_depth, 3, 
-                num_channels_down = [16, 16, 32, 32, 64], 
-                num_channels_up   = [16, 16, 32, 32, 64],
+                num_channels_down = [8, 16, 32, 32, 64], 
+                num_channels_up   = [8, 16, 32, 32, 64],
                 num_channels_skip = [4, 4, 4, 4, 4], 
                 upsample_mode='bilinear',
                 need_sigmoid=True, need_bias=True, act_fun='LeakyReLU').type(dtype)
