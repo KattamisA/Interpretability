@@ -8,7 +8,7 @@ from generate_results import *
 num_iter = 100
 image_dataset = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg','labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
 
-for i in range(0,len(image_dataset)-1):
+for i in range(0,len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     save_path_common = 'results/Adv_DIP/Architecture_tests/{}'
@@ -16,7 +16,7 @@ for i in range(0,len(image_dataset)-1):
     print("#############\n\nWorking on image: {}".format(image_name))           
     adv, orig, pert = adversarial_examples("data/{}".format(image_path), method = "LLCI", eps = 100, show=False)
     
-    for j in range(1,4):  
+    for j in range(1,5):  
         print("####\n\nTest {}".format(j))           
 
         save_path=save_path_common.format('Adam/test{}'.format(j))
