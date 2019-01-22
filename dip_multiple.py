@@ -23,9 +23,9 @@ for i in range(0,len(image_dataset)):
         out = dip(adv,'skip{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path = save_path)
         generate_result_files(save_path, adv, orig, num_iter, image_name)
 
-        save_path=save_path_common.format('EntropySGD_std64/test{}'.format(j))
-        out = dip(adv,'skip{}'.format(j), 10, num_iter, 1/64., save=True, plot=False, save_path = save_path, OPTIMIZER = "EntropySGD")
-        generate_result_files(save_path, adv, orig, num_iter, image_name)
+        #save_path=save_path_common.format('EntropySGD_std64/test{}'.format(j))
+        #out = dip(adv,'skip{}'.format(j), 10, num_iter, 1/64., save=True, plot=False, save_path = save_path, OPTIMIZER = "EntropySGD")
+        #generate_result_files(save_path, adv, orig, num_iter, image_name)
         
 for i in range(13,len(image_dataset)):
     image_path = image_dataset[i]
