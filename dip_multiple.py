@@ -8,7 +8,7 @@ from generate_results import *
 num_iter = 100
 image_dataset = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg','labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
 
-for i in range(19,len(image_dataset)-1):
+for i in range(18,len(image_dataset)-1):
     for j in range(1,4):    
         image_path = image_dataset[i]
         image_name = '{}'.format(image_path.split('.')[0])
