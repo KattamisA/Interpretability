@@ -26,13 +26,14 @@ end
 
 
 %% Plotting
-% plot(t,Averaged,'LineWidth',1)
+plot(t,Std,'LineWidth',1)
+legend('show')
 % figure
-hold on
-plot(0:100:5000,Averaged(1:51,3),'b','LineWidth',1.5)
-plot(0:100:5000,[Averaged(1:51,3)-Std(1:51,3), Averaged(1:51,3)+Std(1:51,3)],'--b')
-xlabel('DIP iterations')
-ylabel('True Class Confidence')
+% hold on
+% plot(0:100:5000,Averaged(1:51,3),'b','LineWidth',1.5)
+% plot(0:100:5000,[Averaged(1:51,3)-Std(1:51,3), Averaged(1:51,3)+Std(1:51,3)],'--b','LineWidth',0.2,'HandleVisibility','off')
+% xlabel('DIP iterations')
+% ylabel('True Class Confidence')
 % legend('\sigma_{noise} = 1/64','\sigma_{noise} = 1/32','\sigma_{noise} = 1/16','\sigma_{noise} = 1/8','\sigma_{noise} = 1/4','\sigma_{noise} = 1/2')
 % legend('Std = 1/256','Std = 1/128','Std = 1/64','Std = 1/32');
 grid on

@@ -22,7 +22,7 @@ dtype = torch.cuda.FloatTensor
 
 
 
-def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99, reg_noise_std = 1.0/30, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = None, name = None, loss_fn = "MSE", OPTIMIZER = "adam", pad = 'zero',  OPT_OVER = 'net' ):
+def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.0/30,exp_weight = 0.99, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = None, name = None, loss_fn = "MSE", OPTIMIZER = "adam", pad = 'zero',  OPT_OVER = 'net' ):
     
     glparam = global_parameters()
     glparam.set_params(save, plot, reg_noise_std, exp_weight)
@@ -40,17 +40,48 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, exp_weight = 0.99,
                 upsample_mode='bilinear',
                 need_sigmoid=True, need_bias=True, act_fun='LeakyReLU').type(dtype)
         
-    elif arch == 'test':
+    elif arch == 'test1':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=64, 
+                skip_n33u=64, 
+                skip_n11=4, 
+                num_scales=5,
+                upsample_mode='bilinear').type(dtype)
+				
+    elif arch == 'test2':
         if input_depth == None:
             input_depth = 32
         glparam.net = skip(
                 input_depth, 3, 
-                num_channels_down = [32, 32, 64, 128, 256], 
-                num_channels_up   = [32, 32, 64, 128, 256],
+                num_channels_down = [32, 32, 64, 64, 128], 
+                num_channels_up   = [32, 32, 64, 64, 128], 
                 num_channels_skip = [4, 4, 4, 4, 4], 
                 upsample_mode='bilinear',
                 need_sigmoid=True, need_bias=True, act_fun='LeakyReLU').type(dtype)
-        
+
+    elif arch == 'test3':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=32, 
+                skip_n33u=32, 
+                skip_n11=4, 
+                num_scales=5,
+                upsample_mode='bilinear').type(dtype)
+
+	elif arch == 'test4':
+        if input_depth == None:
+            input_depth = 16
+        glparam.net = skip(
+                input_depth, 3, 
+                num_channels_down = [16, 16, 32, 32, 64], 
+                num_channels_up   = [16, 16, 32, 32, 64],
+                num_channels_skip = [4, 4, 4, 4, 4], 
+                upsample_mode='bilinear',
+                need_sigmoid=True, need_bias=True, act_fun='LeakyReLU').type(dtype)
+				
     elif arch == 'complex':
         if input_depth == None:
             input_depth = 32
