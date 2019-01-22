@@ -49,7 +49,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 skip_n11=4, 
                 num_scales=5,
                 upsample_mode='bilinear').type(dtype)
-				
+
     elif arch == 'test2':
         if input_depth == None:
             input_depth = 32
@@ -71,7 +71,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 num_scales=5,
                 upsample_mode='bilinear').type(dtype)
 
-	elif arch == 'test4':
+    elif arch == 'test4':
         if input_depth == None:
             input_depth = 16
         glparam.net = skip(
@@ -81,7 +81,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 num_channels_skip = [4, 4, 4, 4, 4], 
                 upsample_mode='bilinear',
                 need_sigmoid=True, need_bias=True, act_fun='LeakyReLU').type(dtype)
-				
+
     elif arch == 'complex':
         if input_depth == None:
             input_depth = 32
