@@ -14,7 +14,7 @@ for i in range(19,len(image_dataset)-1):
         image_name = '{}'.format(image_path.split('.')[0])
         save_path_common = 'results/Adv_DIP/Architecture_tests/{}'
                 
-        print("#############\n\nWorking on image: {}".format(image_name)           
+        print("#############\n\nWorking on image: {}".format(image_name))           
         adv, orig, pert = adversarial_examples("data/{}".format(image_path), method = "LLCI", eps = 100, show=False)
       
         save_path=save_path_common.format('Adam/test{}'.format(j))
