@@ -8,15 +8,17 @@ from generate_results import *
 num_iter = 100
 image_dataset = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg','labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
 
-for i in range(18,len(image_dataset)-1):
-    for j in range(1,4):    
-        image_path = image_dataset[i]
-        image_name = '{}'.format(image_path.split('.')[0])
-        save_path_common = 'results/Adv_DIP/Architecture_tests/{}'
+for i in range(0,len(image_dataset)-1):
+    image_path = image_dataset[i]
+    image_name = '{}'.format(image_path.split('.')[0])
+    save_path_common = 'results/Adv_DIP/Architecture_tests/{}'
                 
-        print("#############\n\nWorking on image: {}".format(image_name))           
-        adv, orig, pert = adversarial_examples("data/{}".format(image_path), method = "LLCI", eps = 100, show=False)
-      
+    print("#############\n\nWorking on image: {}".format(image_name))           
+    adv, orig, pert = adversarial_examples("data/{}".format(image_path), method = "LLCI", eps = 100, show=False)
+    
+    for j in range(1,4):  
+        print("####\n\nTest {}".format(j))           
+
         save_path=save_path_common.format('Adam/test{}'.format(j))
         out = dip(adv,'test{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path = save_path)
         generate_result_files(save_path, adv, orig, num_iter, image_name)
