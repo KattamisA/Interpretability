@@ -55,7 +55,7 @@ for i in range(0,len(image_dataset)):
     print("#############\n\nWorking on image: {}".format(image_name))           
     adv, orig, pert = adversarial_examples("data/{}".format(image_path), method = "LLCI", eps = 100, show=False)
     
-    save_path=save_path_common.format('EntropySGD'.format(j))
+    save_path=save_path_common.format('EntropySGD')
     out = dip(adv,'complex', 10, num_iter, 1/64., save=True, plot=False, save_path = save_path, OPTIMIZER = "EntropySGD")
     generate_result_files(save_path, adv, orig, num_iter, image_name)
     
