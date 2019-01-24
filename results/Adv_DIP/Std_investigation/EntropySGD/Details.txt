@@ -15,7 +15,7 @@ Number of iterations:                                       10001
 Loss function:                                              MSE         
 
 Input:                                                      INPUT       
-Standard deviation of noise added in each iteration:        0.03125     
+Standard deviation of noise added in each iteration:        0.015625    
 Exponential weight on output:                               0.99        
 
 Entire Net:                                                 
