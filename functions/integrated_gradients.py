@@ -74,6 +74,7 @@ def integrated_gradients(
 
   # Scale input and compute gradients.
   scaled_inputs = [baseline + (float(i)/steps)*(inp-baseline) for i in range(0, steps+1)]
+  np.asarray(scaled_inputs)
   inp = Variable(torch.from_numpy(scaled_inputs).float().unsqueeze(0), requires_grad=True)
   predictions = predictions_and_gradients(inp)
   criterion =  torch.nn.CrossEntropyLoss()#.cuda()
