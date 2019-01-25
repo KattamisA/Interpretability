@@ -28,7 +28,7 @@ def generate_result_files(path, adv, orig, num_iter, name, saliency = 'False'):
         P , Ranking = Probs.sort(descending=True)
         Ranking_np = torch_to_np(Ranking)
         if saliency:
-            net = getattr(models, model_name)(pretrained=True)
+            net = getattr(models, 'resnet18')(pretrained=True)
             saliency_map, predictions = integrated_gradients(img,original_class,net)
             plt.imsave("{}/sal_it_{}.png".format(path,i*100),
                        saliency_map, format="png")               
