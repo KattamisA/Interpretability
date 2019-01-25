@@ -71,18 +71,23 @@ def integrated_gradients(
   if baseline is None:
     baseline = 0*inp
   assert(baseline.shape == inp.shape)
+  predictions = np.empty([steps+1,1000])
+  grads = np.empty([steps+1,inp.shape])
 
   # Scale input and compute gradients.
-  scaled_inputs = [baseline + (float(i)/steps)*(inp-baseline) for i in range(0, steps+1)]
-  scaled_inputs_np = np.asarray(scaled_inputs)
-  print(scaled_inputs_np.shape)
-  scaled_inputs_np = scaled_inputs_np.transpose(2, 0, 1)
-  inp = Variable(torch.from_numpy(scaled_inputs_np).float().unsqueeze(0), requires_grad=True)
-  predictions = predictions_and_gradients(inp)
-  criterion =  torch.nn.CrossEntropyLoss()#.cuda()
-  loss = criterion(inp, Variable(torch.Tensor([float(target_label_index)]).long()))
-  loss.backward()# shapes: <steps+1>, <steps+1, inp.shape>
-  grads = scaled_inputs.grad.data
+  for i in range(0,steps+1):
+      scaled_inputs = [baseline + (float(i)/steps)*(inp-baseline)]# for i in range(0, steps+1)]
+      scaled_inputs_np = np.asarray(scaled_inputs)
+      print(scaled_inputs_np.shape)
+      scaled_inputs_np = scaled_inputs_np.transpose(2, 0, 1)
+      inp = Variable(torch.from_numpy(scaled_inputs_np).float().unsqueeze(0), requires_grad=True)
+      predictions[i,:] = np.concatenate(predictions,predictions_and_gradients(inp))
+      criterion =  torch.nn.CrossEntropyLoss()#.cuda()
+      loss = criterion(inp, Variable(torch.Tensor([float(target_label_index)]).long()))
+      loss.backward()# shapes: <steps+1>, <steps+1, inp.shape>
+      grads[i,:,:,:] = scaled_inputs.grad.data
+      
+      
   
   avg_grads = np.average(grads[:-1], axis=0)
   integrated_gradients = (inp-baseline)*avg_grads  # shape: <inp.shape>
