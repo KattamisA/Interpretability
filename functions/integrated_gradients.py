@@ -1,4 +1,6 @@
 import numpy as np
+import torch
+from torch.autograd import Variable
 
 def integrated_gradients(
     inp, 
@@ -72,7 +74,11 @@ def integrated_gradients(
 
   # Scale input and compute gradients.
   scaled_inputs = [baseline + (float(i)/steps)*(inp-baseline) for i in range(0, steps+1)]
-  predictions, grads = predictions_and_gradients(scaled_inputs, target_label_index)  # shapes: <steps+1>, <steps+1, inp.shape>
+  predictions = predictions_and_gradients(scaled_inputs)
+  criterion =  torch.nn.CrossEntropyLoss()#.cuda()
+  loss = criterion(scaled_inputs, Variable(torch.Tensor([float(target_label_index)]).long()))
+  loss.backward()# shapes: <steps+1>, <steps+1, inp.shape>
+  grads = scaled_inputs.grad.data
   
   avg_grads = np.average(grads[:-1], axis=0)
   integrated_gradients = (inp-baseline)*avg_grads  # shape: <inp.shape>
