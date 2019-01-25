@@ -74,6 +74,7 @@ def integrated_gradients(
 
   # Scale input and compute gradients.
   scaled_inputs = [baseline + (float(i)/steps)*(inp-baseline) for i in range(0, steps+1)]
+  print(scaled_inputs.shape)
   scaled_inputs_np = np.asarray(scaled_inputs)
   scaled_inputs_np = scaled_inputs_np.transpose(2, 0, 1)
   inp = Variable(torch.from_numpy(scaled_inputs_np).float().unsqueeze(0), requires_grad=True)
