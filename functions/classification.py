@@ -1,8 +1,10 @@
 import torch
 from torch.autograd import Variable
 from torchvision import models
-import torch.nn as nn
-from functions.utils.denoising_utils import *
+from functions.integrated_gradients import *
+
+#import torch.nn as nn
+#from functions.utils.denoising_utils import *
 
 import numpy as np
 import cv2
@@ -51,6 +53,5 @@ def classification(orig, model_name='resnet18', method='Fast Gradient Sign Metho
         sm = torch.nn.Softmax(1)
         Probs = sm(out)
         Ranks = []
-        
-    
+
     return Probs, Ranks

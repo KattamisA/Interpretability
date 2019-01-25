@@ -1,9 +1,10 @@
 import cv2
 import numpy as np
 import torch
-from functions.classification import *
+from torchvision import models
+from functions.classification import classification
 
-def generate_result_files(path, adv, orig, num_iter, name):
+def generate_result_files(path, adv, orig, num_iter, name, saliency = 'False'):
     ## Find original class
     P, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
     original_class = R[0,0]
@@ -26,6 +27,11 @@ def generate_result_files(path, adv, orig, num_iter, name):
         Confidence[i,0] = Probs_np[original_class]        
         P , Ranking = Probs.sort(descending=True)
         Ranking_np = torch_to_np(Ranking)
+        if saliency:
+            net = getattr(models, model_name)(pretrained=True)
+            saliency_map, predictions = integrated_gradients(img,original_class,net)
+            plt.imsave("{}/sal_it_{}.png".format(path,i*100),
+                       saliency_map, format="png")               
         for j in range(5):
             Confidence[i,j+1] = Probs_np[final_classes[j]]
             Ranks_matrix[i,j] = Ranking_np[j]

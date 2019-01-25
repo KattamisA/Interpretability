@@ -8,7 +8,7 @@ img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale
 Confidence = zeros(101,size(img_names,2));
 common = 'Adam/%s/%s_Normalised.txt';
 
-tests = [1, 2, 3, 4, 5];
+tests = [1, 2, 3, 4, 5, 6];
 Averaged= zeros(101,size(tests,2));
 Std = zeros(101,size(tests,2));
 Peak_iterations = zeros(size(tests,2),size(img_names,2));
@@ -26,32 +26,40 @@ for j=1:size(tests,2)
     end
     Averaged(:,j) = smooth(mean(Confidence,2),1);
     Std(:,j) = std(Confidence,0,2);
-    Mean_iteration(j) = round(mean(Peak_iterations(j,:)));
+%     Mean_iteration(j) = round(mean(Peak_iterations(j,:)));
+    [M,Mean_iteration(j)] = max(Averaged(:,j));
     Mean_peak_amplitudes(j,:) = Confidence(Mean_iteration(j),:);    
     peak_mean_amps(j) = mean(Mean_peak_amplitudes(j,:));
     peak_std_amps(j) = std(Mean_peak_amplitudes(j,:));
     
     hold on
+    plot([max(Mean_peak_amplitudes(j,:)),min(Mean_peak_amplitudes(j,:))],[j,j],'k','LineWidth',1,'HandleVisibility','off')
     plot([peak_mean_amps(j)-1*peak_std_amps(j),peak_mean_amps(j) + 1*peak_std_amps(j)],[j,j],'LineWidth',10)
-    plot(Mean_peak_amplitudes(j,:),j,'xk','MarkerSize',8)
+    plot(Mean_peak_amplitudes(j,:),j,'xk','MarkerSize',8,'HandleVisibility','off')
 
-    
+    xlim([0,2])
+%     ylim([0,8])
+    set(gca,'ytick',[])
+    xlabel('Average Class Confidence')
 %     hist(Peak_iterations(j,:),0:2:50)
 end
-ylim([0,size(tests,2)+1])
+ylim([0,size(tests,2)+2])
 grid on
+legend('Skip connections = 0','Skip connections = 4', 'Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
+
 
 %% Plotting
 % plot(t,Std,'LineWidth',1)
 % legend('show')
-% figure
-% hold on
-% plot(t,Averaged,'LineWidth',1.5)
+figure
+hold on
+plot(t,Averaged,'LineWidth',1.5)
 % plot(t,[Averaged+Std, Averaged-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
-% legend('Adam optimizer - average')
-% legend('Skip connections = 0','Skip connections = 4','Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
-% xlabel('DIP iterations')
-% ylabel('Averaged Class Confidence')
-% xlim([0 5000])
-% % plot(t,Std,'LineWidth',1)
-% grid on
+legend('Adam optimizer - average')
+legend('Skip connections = 0','Skip connections = 4','Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
+xlabel('DIP iterations')
+ylabel('Averaged Class Confidence')
+xlim([0 5000])
+% plot(t,Std,'LineWidth',1)
+grid on
+legend('Skip connections = 0','Skip connections = 4', 'Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')

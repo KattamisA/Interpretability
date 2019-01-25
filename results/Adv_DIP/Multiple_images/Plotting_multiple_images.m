@@ -13,9 +13,9 @@ Peak_iterations = zeros(1,size(img_names,2));
 Peak_amplitudes = zeros(1,size(img_names,2));
 Mean_peak_amplitudes = zeros(1,size(img_names,2));
 
-j = 1;
+j = 2;
 %% Calculating normalised
-common = 'EntropySGD_LR10/%s/Normalised.txt';
+common = 'Entropy_baseline/%s_Normalised.txt';
 for i=1:size(img_names,2)
     path = sprintf(common,img_names(i));
     s = load(path);
@@ -23,9 +23,9 @@ for i=1:size(img_names,2)
     [Peak_amplitudes(1,i),Peak_iterations(1,i)]  = max(s(1:101,1));
 end
 Average = mean(Normalise,2);
-Std = std(Normalise,0,2);
-% Mean_iteration = round(mean(Peak_iterations(1,:)));
-[M,Mean_iteration] = max(Average);
+Std = std(Normalise,0,1);
+Mean_iteration = round(mean(Peak_iterations(1,:)));
+% [M,Mean_iteration] = max(Average);
 Mean_peak_amplitudes(1,:) = Normalise(Mean_iteration,:);    
 peak_mean_amps = mean(Mean_peak_amplitudes(1,:));
 peak_std_amps = std(Mean_peak_amplitudes(1,:));
@@ -35,15 +35,15 @@ peak_std_amps = std(Mean_peak_amplitudes(1,:));
 % ylabel('Number of confidence peaks')
 % grid on
 
-% hold on
-% plot([max(Mean_peak_amplitudes),min(Mean_peak_amplitudes)],[j,j],'k','LineWidth',1,'HandleVisibility','off')
-% plot([peak_mean_amps-1*peak_std_amps,peak_mean_amps + 1*peak_std_amps],[j,j],'LineWidth',15)
-% plot(Mean_peak_amplitudes(1,:),j,'xk','MarkerSize',7,'HandleVisibility','off')
-% grid on
-% ylim([0.5,2.5])
-% xlim([0,2])
-% set(gca,'ytick',[])
-% xlabel('Average Class Confidence')
+hold on
+plot([max(Mean_peak_amplitudes),min(Mean_peak_amplitudes)],[j,j],'k','LineWidth',1,'HandleVisibility','off')
+plot([peak_mean_amps-1*peak_std_amps,peak_mean_amps + 1*peak_std_amps],[j,j],'LineWidth',15)
+plot(Mean_peak_amplitudes(1,:),j,'xk','MarkerSize',7,'HandleVisibility','off')
+grid on
+ylim([0.5,2.5])
+xlim([0,2])
+set(gca,'ytick',[])
+xlabel('Average Class Confidence')
 
 %% Calculating Unnormalized
 % common = 'EntropySGD_LR10/%s/Confidences.txt';
@@ -55,20 +55,20 @@ peak_std_amps = std(Mean_peak_amplitudes(1,:));
 % end
 
 %% Plotting
-Average = mean(Normalise,2);
-Std = std(Normalise,0,2);
-% % figure
-% % plot(t,mean(Confidence,2))
-hold on
-plot(t,Average,'r','LineWidth',1.5)
-% plot(t,[Average+Std, Average-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
-% legend('Adam optimizer - average')
-xlabel('DIP iterations')
-ylabel('Averaged Class Confidence')
-% xlim([0 5000])
-% plot(t,Std,'LineWidth',1)
-grid on
-legend('Adam','EntropySGD')
+% Average = mean(Normalise,2);
+% Std = std(Normalise,0,2);
+% 
+% % % plot(t,mean(Confidence,2))
+% hold on
+% plot(t,Average,'r','LineWidth',1.5)
+% plot(t,[Average+Std, Average-Std],'--r','LineWidth',0.2,'HandleVisibility','off')
+% % legend('Adam optimizer - average')
+% xlabel('DIP iterations')
+% ylabel('Averaged Class Confidence')
+% % xlim([0 5000])
+% % plot(t,Std,'LineWidth',1)
+% grid on
+% legend('Adam','EntropySGD')
 %% Plotting all the lines 
 % figure
 % plot(t,Normalise)
