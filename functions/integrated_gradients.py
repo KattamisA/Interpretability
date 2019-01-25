@@ -71,7 +71,7 @@ def integrated_gradients(
   if baseline is None:
     baseline = 0*inp
   assert(baseline.shape == inp.shape)
-  predictions = np.empty([steps+1,1000])
+  predictions = np.empty([1000,steps+1,])
   grads = np.empty([steps+1,3,256,256])
 
   # Scale input and compute gradients.
@@ -81,7 +81,7 @@ def integrated_gradients(
       print(scaled_inputs_np.shape)
       scaled_inputs_np = scaled_inputs_np.transpose(2, 0, 1)
       inp = Variable(torch.from_numpy(scaled_inputs_np).float().unsqueeze(0), requires_grad=True)
-      predictions[i,:] = np.concatenate(predictions,predictions_and_gradients(inp))
+      predictions[:,i] = np.concatenate(predictions,predictions_and_gradients(inp))
       criterion =  torch.nn.CrossEntropyLoss()#.cuda()
       loss = criterion(inp, Variable(torch.Tensor([float(target_label_index)]).long()))
       loss.backward()# shapes: <steps+1>, <steps+1, inp.shape>
