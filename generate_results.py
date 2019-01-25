@@ -4,6 +4,8 @@ import torch
 from torchvision import models
 from functions.classification import classification
 from functions.utils.common_utils import *
+from functions.integrated_gradients import *
+
 def generate_result_files(path, adv, orig, num_iter, name, saliency = 'False'):
     ## Find original class
     P, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
