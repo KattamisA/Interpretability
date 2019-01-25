@@ -72,7 +72,7 @@ def integrated_gradients(
     baseline = 0*inp
   assert(baseline.shape == inp.shape)
   predictions = np.empty([steps+1,1000])
-  grads = np.empty([steps+1,inp.shape])
+  grads = np.empty([steps+1,3,256,256])
 
   # Scale input and compute gradients.
   for i in range(0,steps+1):
