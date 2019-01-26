@@ -37,7 +37,7 @@ def generate_saliency_maps(path, img_path, model_type = 'resnet18', cuda = False
         img = cv2.resize(img, (224, 224))
 
     img = img.astype(np.float32)
-    #img = img[:, :, (2, 1, 0)]
+    img = img[:, :, (2, 1, 0)]
 
     # calculate the gradient and the label index
     gradients, label_index = calculate_outputs_and_gradients([img], model, None, cuda)
