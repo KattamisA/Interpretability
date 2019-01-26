@@ -1,7 +1,6 @@
 import torch
 from torch.autograd import Variable
 from torchvision import models
-from functions.integrated_gradients import *
 
 #import torch.nn as nn
 #from functions.utils.denoising_utils import *

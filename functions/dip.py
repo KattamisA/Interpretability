@@ -91,7 +91,43 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 skip_n11=4, 
                 num_scales=5,
                 upsample_mode='bilinear').type(dtype)
-    
+
+    elif arch == 'kernel1':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=5,
+                filter_size_down=1,
+                filter_size_up=1,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'kernel2':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=5,
+                filter_size_down=3,
+                filter_size_up=3,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'kernel3':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=5,
+                filter_size_down=5,
+                filter_size_up=5,
+                upsample_mode='bilinear').type(dtype)
+
     elif arch == 'skip1':
         if input_depth == None:
             input_depth = 32
