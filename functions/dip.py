@@ -92,6 +92,56 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 num_scales=5,
                 upsample_mode='bilinear').type(dtype)
 
+    elif arch == 'depth1':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=1,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'depth2':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=2,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'depth3':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=3,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'depth4':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=4,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'depth5':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=6,
+                upsample_mode='bilinear').type(dtype)
+
     elif arch == 'kernel1':
         if input_depth == None:
             input_depth = 32

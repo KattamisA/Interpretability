@@ -5,7 +5,7 @@ from functions.adversarial import *
 from functions.dip import *
 from generate_results import *
 
-num_iter = 5001
+num_iter = 10001
 image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
@@ -33,20 +33,20 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 for i in range(0, len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
-    save_path_common = 'results/Adv_DIP/Kernel_size_tests/{}'
+    save_path_common = 'results/Adv_DIP/Depth_tests/{}'
 
     print("#############\n\nWorking on image: {}".format(image_name))
     adv, orig, pert = adversarial_examples("data/{}".format(image_path), method="LLCI", eps=100, show=False)
 
-    for j in range(3,4):
+    for j in range(1,6):
         print("####\n\nTest {}".format(j))
 
-        save_path = save_path_common.format('Adam/kernel{}'.format(j))
-        _ = dip(adv, 'kernel{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path)
+        save_path = save_path_common.format('Adam/depth{}'.format(j))
+        _ = dip(adv, 'depth{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path)
         generate_result_files(save_path, adv, orig, num_iter, image_name)
 
-        save_path = save_path_common.format('EntropySGD_std64/kernel{}'.format(j))
-        _ = dip(adv, 'kernel{}'.format(j), 10, num_iter, 1/64., save=True, plot=False, save_path=save_path, OPTIMIZER="EntropySGD")
+        save_path = save_path_common.format('EntropySGD_std64/depth{}'.format(j))
+        _ = dip(adv, 'depth{}'.format(j), 10, num_iter, 1/64., save=True, plot=False, save_path=save_path, OPTIMIZER="EntropySGD")
         generate_result_files(save_path, adv, orig, num_iter, image_name)
         
 #for i in range(0,len(image_dataset)):
