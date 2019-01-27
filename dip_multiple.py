@@ -38,7 +38,7 @@ for i in range(0, len(image_dataset)):
     print("#############\n\nWorking on image: {}".format(image_name))
     adv, orig, pert = adversarial_examples("data/{}".format(image_path), method="LLCI", eps=100, show=False)
 
-    for j in range(1,3):
+    for j in range(3,4):
         print("####\n\nTest {}".format(j))
 
         save_path = save_path_common.format('Adam/kernel{}'.format(j))
