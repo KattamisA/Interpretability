@@ -48,8 +48,8 @@ def pre_processing(obs, cuda):
 def generate_entrie_images(img_origin, img_grad, img_grad_overlay, img_integrad, img_integrad_overlay):
     blank = np.ones((img_grad.shape[0], 10, 3), dtype=np.uint8) * 255
     blank_hor = np.ones((10, 20 + img_grad.shape[0] * 3, 3), dtype=np.uint8) * 255
-    upper = np.concatenate([img_origin[:, :, (2, 1, 0)], blank, img_grad_overlay, blank, img_grad], 1)
-    down = np.concatenate([img_origin[:, :, (2, 1, 0)], blank, img_integrad_overlay, blank, img_integrad], 1)
+    upper = np.concatenate([img_origin, blank, img_grad_overlay, blank, img_grad], 1)
+    down = np.concatenate([img_origin, blank, img_integrad_overlay, blank, img_integrad], 1)
     total = np.concatenate([upper, blank_hor, down], 0)
     total = cv2.resize(total, (550, 364))
 

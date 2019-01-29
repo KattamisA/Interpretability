@@ -125,7 +125,6 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
     # predict on the adversarial image
     sm = nn.Softmax(1)
     Probs_adv,Ranks_adv = sm(model(inp)).sort(descending=True)
-    pred_adv = np.argmax(model(inp).data.cpu().numpy())
     if show == True:
         print('After attack: eps [%f] alpha [%f]\n'
                     %(eps, alpha))

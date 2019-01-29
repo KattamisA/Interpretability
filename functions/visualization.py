@@ -39,11 +39,11 @@ def polarity_function(attributions, polarity):
         raise NotImplementedError
 
 def overlay_function(attributions, image):
-    return np.clip(0.7 * image + 0.5 * attributions, 0, 255)
+    return np.clip(0.5 * image + 0.7 * attributions, 0, 255)
 
-def visualize(attributions, image, positive_channel=G, negative_channel=R, polarity='positive', \
-                clip_above_percentile=99.9, clip_below_percentile=0, morphological_cleanup=False, \
-                structure=np.ones((3, 3)), outlines=False, outlines_component_percentage=90, overlay=True, \
+def visualize(attributions, image, positive_channel=G, negative_channel=R, polarity='positive',
+                clip_above_percentile=99.9, clip_below_percentile=0, morphological_cleanup=False,
+                structure=np.ones((3, 3)), outlines=False, outlines_component_percentage=90, overlay=True,
                 mask_mode=False, plot_distribution=False):
     if polarity == 'both':
         raise NotImplementedError
@@ -51,7 +51,7 @@ def visualize(attributions, image, positive_channel=G, negative_channel=R, polar
     elif polarity == 'positive':
         attributions = polarity_function(attributions, polarity=polarity)
         channel = positive_channel
-    
+
     # convert the attributions to the gray scale
     attributions = convert_to_gray_scale(attributions)
     attributions = linear_transform(attributions, clip_above_percentile, clip_below_percentile, 0.0, plot_distribution=plot_distribution)
@@ -62,7 +62,7 @@ def visualize(attributions, image, positive_channel=G, negative_channel=R, polar
         raise NotImplementedError
     attributions = np.expand_dims(attributions, 2) * channel
     if overlay:
-        if mask_mode == False:
+        if mask_mode is False:
             attributions = overlay_function(attributions, image)
         else:
             attributions = np.expand_dims(attributions_mask, 2)

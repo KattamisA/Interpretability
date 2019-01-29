@@ -2,9 +2,8 @@ import numpy as np
 import torch
 from torchvision import models
 import cv2
-import torch.nn.functional as F
 from functions.saliency_utils import calculate_outputs_and_gradients, generate_entrie_images
-from functions.integrated_gradients import random_baseline_integrated_gradients
+from functions.integrated_gradients import *
 from functions.visualization import visualize
 import matplotlib.pyplot as plt
 
@@ -37,7 +36,7 @@ def generate_saliency_maps(path, img_path, model_type = 'resnet18', cuda = False
         img = cv2.resize(img, (224, 224))
 
     img = img.astype(np.float32)
-    #img = img[:, :, (2, 1, 0)]
+    img = img[:, :, (2, 1, 0)]
 
     # calculate the gradient and the label index
     gradients, label_index = calculate_outputs_and_gradients([img], model, None, cuda)
@@ -51,10 +50,10 @@ def generate_saliency_maps(path, img_path, model_type = 'resnet18', cuda = False
     img_integrated_gradient_overlay = visualize(attributions, img, clip_above_percentile=99, clip_below_percentile=1,
                                                 overlay=True, mask_mode=True)
     img_integrated_gradient = visualize(attributions, img, clip_above_percentile=99, clip_below_percentile=1, overlay=False)
+
     output_img = generate_entrie_images(img, img_gradient, img_gradient_overlay, img_integrated_gradient,
                                         img_integrated_gradient_overlay)
-    #cv2.imwrite(path + '/test', np.uint8(output_img))
-    plt.imsave(path + '/test.png', np.uint8(output_img),format="png")
+    plt.imsave(path + '/test.png', np.uint8(output_img), format="png")
     plt.imshow(np.uint8(output_img))
     plt.show()
     return

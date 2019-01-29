@@ -2,7 +2,7 @@ import numpy as np
 import torch
 
 # integrated gradients
-def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, baseline, steps=50, cuda=False):
+def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, baseline = None, steps=50, cuda=False):
     if baseline is None:
         baseline = 0 * inputs 
     # scale inputs and compute gradients
@@ -16,7 +16,7 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
 def random_baseline_integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, steps, num_random_trials, cuda):
     all_intgrads = []
     for i in range(num_random_trials):
-        integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, \
+        integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
                                                 baseline=255.0 *np.random.random(inputs.shape), steps=steps, cuda=cuda)
         all_intgrads.append(integrated_grad)
         print('the trial number is: {}'.format(i))

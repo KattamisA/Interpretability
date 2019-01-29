@@ -239,9 +239,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 upsample_mode='bilinear').type(dtype)
     else:
         assert False
-    
-    
-    
+
     net_input = get_noise(input_depth, INPUT, (glparam.img_np.shape[1], glparam.img_np.shape[2])).type(dtype).detach()   
     glparam.net_input_saved = net_input.detach().clone()
     glparam.noise = net_input.detach().clone()

@@ -15,7 +15,7 @@ Mean_peak_amplitudes = zeros(1,size(img_names,2));
 
 j = 2;
 %% Calculating normalised
-common = 'Entropy_baseline/%s_Normalised.txt';
+common = '%s/Normalised.txt';
 for i=1:size(img_names,2)
     path = sprintf(common,img_names(i));
     s = load(path);
@@ -45,6 +45,8 @@ xlim([0,2])
 set(gca,'ytick',[])
 xlabel('Average Class Confidence')
 
+figure
+plot(t,Normalise(:,19))
 %% Calculating Unnormalized
 % common = 'EntropySGD_LR10/%s/Confidences.txt';
 % for i=1:size(img_names,2)

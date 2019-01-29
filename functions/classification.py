@@ -43,12 +43,12 @@ def classification(orig, model_name='resnet18', method='Fast Gradient Sign Metho
     Probs,Ranks = sm(out).sort(descending=True)
 
     if show == True:    
-        print('{:<20}{:>20}\n'.format('Top 5 classes','Confidence'))
+        print('{:<20}{:>20}\n'.format('Top 5 classes', 'Confidence'))
         for i in range(5):
-            print('{:<20}{:>20.{prec}f}'.format(classes[int(Ranks[0,i])].split(',')[0], Probs[0,i],prec=5))
+            print('{:<20}{:>20.{prec}f}'.format(classes[int(Ranks[0,i])].split(',')[0], Probs[0,i], prec=5))
         print('\n')
     
-    if sort == False:
+    if sort is False:
         sm = torch.nn.Softmax(1)
         Probs = sm(out)
         Ranks = []
