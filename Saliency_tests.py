@@ -7,6 +7,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 
 for i in range(len(image_dataset)):
     image = image_dataset[i]
-    generate_saliency_maps('results/Saliency', image, cuda=True, top_percentile=99, bottom_percentile=50)
+    print('\n\n ### Working on image: ' + image.split('.')[0])
+    generate_saliency_maps('results/Saliency', image, cuda=True, top_percentile=99, bottom_percentile=50, mask_mode=False)
 
 
