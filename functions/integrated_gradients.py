@@ -22,6 +22,6 @@ def random_baseline_integrated_gradients(inputs, model, target_label_idx, predic
         integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
                                                 baseline=255.0 *np.random.random(inputs.shape), steps=steps, cuda=cuda)
         all_intgrads.append(integrated_grad)
-        print('the trial number is: [{:>2}/{}]'.format(i, steps), end='\r')
+        print('the trial number is: [{:>2}/{}]'.format(i+1, num_random_trials), end='\r')
     avg_intgrads = np.average(np.array(all_intgrads), axis=0)
     return avg_intgrads

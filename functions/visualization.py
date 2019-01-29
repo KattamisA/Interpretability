@@ -46,7 +46,7 @@ def visualize(attributions, image, positive_channel=G, negative_channel=R, polar
                 structure=np.ones((3, 3)), outlines=False, outlines_component_percentage=90, overlay=True,
                 mask_mode=False, plot_distribution=False):
 
-    image = image[:, :, (1, 2, 0)]
+    #image = image[:, :, (1, 2, 0)]
     if polarity == 'both':
         raise NotImplementedError
 
