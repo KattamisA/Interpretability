@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 
 def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, top_percentile=99, bottom_percentile=1, overlay=True, mask_mode=True):
+    image_name = '{}'.format(img_path.split('.')[0])
 
     # start to create models...
     if model_type == 'inception_v3 ':
@@ -53,7 +54,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
 
     output_img = generate_entrie_images(img, img_gradient, img_gradient_overlay, img_integrated_gradient,
                                         img_integrated_gradient_overlay)
-    plt.imsave(path + '/test.png', np.uint8(output_img), format="png")
+    plt.imsave(path + '/' + image_name + '.png', np.uint8(output_img), format="png")
     #plt.imshow(np.uint8(output_img))
     #plt.show()
     return

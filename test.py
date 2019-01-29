@@ -14,3 +14,4 @@ for i in image_dataset:
     confidence, ranks = classification(img, sort=True, show=False)
     Class = classes[int(ranks[0, 0])].split(',')[0]
     f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
+
