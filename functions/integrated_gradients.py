@@ -1,5 +1,7 @@
 import numpy as np
 import torch
+from __future__ import print_function
+
 
 # integrated gradients
 def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, baseline = None, steps=50, cuda=False):
@@ -19,6 +21,6 @@ def random_baseline_integrated_gradients(inputs, model, target_label_idx, predic
         integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
                                                 baseline=255.0 *np.random.random(inputs.shape), steps=steps, cuda=cuda)
         all_intgrads.append(integrated_grad)
-        print('the trial number is: [{:>2}/{}]'.format(i, steps),end='\r')
+        print('the trial number is: [{:>2}/{}]'.format(i, steps), end='\r')
     avg_intgrads = np.average(np.array(all_intgrads), axis=0)
     return avg_intgrads
