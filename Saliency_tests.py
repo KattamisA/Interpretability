@@ -1,6 +1,6 @@
-from __future__ import print_function
-
 import cv2
+import numpy as np
+import torch
 from functions.saliency import *
 
 image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
