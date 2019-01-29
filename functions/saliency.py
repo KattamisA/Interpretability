@@ -28,7 +28,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     if cuda:
         model.cuda()
     # read the image
-    img = cv2.imread(path + '/' + img_path)
+    img = cv2.imread(path + '/' + img_path)[..., ::-1]
     image_name = '{}'.format(img_path.split('.')[0])
 
     if model_type == 'inception_v3':
@@ -37,7 +37,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
         img = cv2.resize(img, (224, 224))
 
     img = img.astype(np.float32)
-    img = img[:, :, (2, 1, 0)]
+    #img = img[:, :, (2, 1, 0)]
 
     # calculate the gradient and the label index
     gradients, label_index = calculate_outputs_and_gradients([img], model, None, cuda)
