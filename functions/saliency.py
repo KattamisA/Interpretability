@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 
 
 def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, top_percentile=99, bottom_percentile=1, overlay=True, mask_mode=True):
-    image_name = '{}'.format(img_path.split('.')[0])
 
     # start to create models...
     if model_type == 'inception_v3 ':
@@ -30,6 +29,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
         model.cuda()
     # read the image
     img = cv2.imread(path + '/' + img_path)
+    image_name = '{}'.format(img_path.split('.')[0])
 
     if model_type == 'inception_v3':
         img = cv2.resize(img, (300, 300))
