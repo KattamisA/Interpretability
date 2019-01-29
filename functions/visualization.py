@@ -45,6 +45,7 @@ def visualize(attributions, image, positive_channel=G, negative_channel=R, polar
                 clip_above_percentile=99.9, clip_below_percentile=0, morphological_cleanup=False,
                 structure=np.ones((3, 3)), outlines=False, outlines_component_percentage=90, overlay=True,
                 mask_mode=False, plot_distribution=False):
+    image = image[:, :, (1, 2, 0)]
     if polarity == 'both':
         raise NotImplementedError
 
