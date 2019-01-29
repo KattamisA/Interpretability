@@ -8,7 +8,7 @@ from functions.visualization import visualize
 import matplotlib.pyplot as plt
 
 
-def generate_saliency_maps(path, img_path, model_type = 'resnet18', cuda = False):
+def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, top_percentile=99, bottom_percentile=1, overlay=True, mask_mode=True):
 
     # start to create models...
     if model_type == 'inception_v3 ':
@@ -41,19 +41,19 @@ def generate_saliency_maps(path, img_path, model_type = 'resnet18', cuda = False
     # calculate the gradient and the label index
     gradients, label_index = calculate_outputs_and_gradients([img], model, None, cuda)
     gradients = np.transpose(gradients[0], (1, 2, 0))
-    img_gradient_overlay = visualize(gradients, img, clip_above_percentile=99, clip_below_percentile=1, overlay=True, mask_mode=True)
-    img_gradient = visualize(gradients, img, clip_above_percentile=99, clip_below_percentile=1, overlay=False)
+    img_gradient_overlay = visualize(gradients, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile, overlay=overlay, mask_mode=mask_mode)
+    img_gradient = visualize(gradients, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile, overlay=False)
 
     # calculate the integrated gradients
     attributions = random_baseline_integrated_gradients(img, model, label_index, calculate_outputs_and_gradients,
                                                         steps=50, num_random_trials=10, cuda=cuda)
-    img_integrated_gradient_overlay = visualize(attributions, img, clip_above_percentile=99, clip_below_percentile=1,
-                                                overlay=True, mask_mode=True)
-    img_integrated_gradient = visualize(attributions, img, clip_above_percentile=99, clip_below_percentile=1, overlay=False)
+    img_integrated_gradient_overlay = visualize(attributions, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile,
+                                                overlay=overlay, mask_mode=mask_mode)
+    img_integrated_gradient = visualize(attributions, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile, overlay=False)
 
     output_img = generate_entrie_images(img, img_gradient, img_gradient_overlay, img_integrated_gradient,
                                         img_integrated_gradient_overlay)
     plt.imsave(path + '/test.png', np.uint8(output_img), format="png")
-    plt.imshow(np.uint8(output_img))
-    plt.show()
+    #plt.imshow(np.uint8(output_img))
+    #plt.show()
     return
