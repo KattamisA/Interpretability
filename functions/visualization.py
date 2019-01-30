@@ -69,5 +69,5 @@ def visualize(attributions, image, positive_channel=G, negative_channel=R, polar
         else:
             attributions = np.expand_dims(attributions_mask, 2)
             attributions = np.clip(attributions * image, 0, 255)
-        attributions = attributions[:, :, (2, 1, 0)]
+            #attributions = attributions[:, :, (2, 1, 0)]
     return attributions
