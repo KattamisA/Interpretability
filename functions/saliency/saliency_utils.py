@@ -71,6 +71,7 @@ def get_smoothed_gradients(x_value, model, target_label_idx, predict_and_gradien
             total_gradients += grad
     return total_gradients / nsamples
 
+
 # generate the entire images
 def generate_entrie_images(img_origin, img_grad, img_grad_overlay, img_integrad, img_integrad_overlay):
     blank = np.ones((img_grad.shape[0], 10, 3), dtype=np.uint8) * 255

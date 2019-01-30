@@ -38,8 +38,10 @@ def polarity_function(attributions, polarity):
     else:
         raise NotImplementedError
 
+
 def overlay_function(attributions, image):
     return np.clip(0.5 * image + 0.7 * attributions, 0, 255)
+
 
 def visualize(attributions, image, positive_channel=G, negative_channel=R, polarity='positive',
                 clip_above_percentile=99.9, clip_below_percentile=0, morphological_cleanup=False,
