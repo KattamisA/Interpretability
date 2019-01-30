@@ -9,7 +9,7 @@ def calculate_outputs_and_gradients(inputs, model, target_label_idx, cuda = Fals
     gradients = []
     for input in inputs:
         input = pre_processing(input, cuda)
-        output = model(input)
+        output = model(input).cuda()
         output = F.softmax(output, dim=1)
 
         if target_label_idx is None:
