@@ -24,8 +24,8 @@ def calculate_outputs_and_gradients(inputs, model, target_label_idx, cuda = Fals
         # clear grad
         model.zero_grad()
         output.backward()
-        gradient = input.grad.detach().cpu().numpy()[0]
-        gradients.append(gradient)
+        gradient_np = input.grad.detach().cpu().numpy()[0]
+        gradients.append(gradient_np)
     gradients = np.array(gradients)
     return gradients, target_label_idx
 
@@ -46,7 +46,7 @@ def pre_processing(obs, cuda):
     return obs_tensor
 
 
-def GetSmoothedMask(self, x_value, feed_dict={}, stdev_spread=.15, nsamples=25, magnitude=True, **kwargs):
+def get_smoothed_gradients(x_value, model, predict_and_gradients,target_label_idx=None, cuda=False, stdev_spread=.15, nsamples=25, magnitude=True):
     """Returns a mask that is smoothed with the SmoothGrad method.
     Args:
       x_value: Input value, not batched.
@@ -61,14 +61,13 @@ def GetSmoothedMask(self, x_value, feed_dict={}, stdev_spread=.15, nsamples=25, 
 
     total_gradients = np.zeros_like(x_value)
     for i in range(nsamples):
-      noise = np.random.normal(0, stdev, x_value.shape)
-      x_plus_noise = x_value + noise
-      grad = self.GetMask(x_plus_noise, feed_dict, **kwargs)
-      if magnitude:
-        total_gradients += (grad * grad)
-      else:
-        total_gradients += grad
-
+        noise = np.random.normal(0, stdev, x_value.shape)
+        x_plus_noise = x_value + noise
+        grad, _ = predict_and_gradients(x_plus_noise, model, target_label_idx, cuda)
+        if magnitude:
+            total_gradients += (grad * grad)
+        else:
+            total_gradients += grad
     return total_gradients / nsamples
 
 # generate the entire images

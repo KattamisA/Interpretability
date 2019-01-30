@@ -1,7 +1,7 @@
 #import torch
 import cv2
 from torchvision import models
-from functions.saliency.saliency_utils import calculate_outputs_and_gradients, generate_entrie_images, GetSmoothedMask
+from functions.saliency.saliency_utils import calculate_outputs_and_gradients, generate_entrie_images, get_smoothed_gradients
 from functions.saliency.integrated_gradients import *
 from functions.saliency.visualization import visualize
 
@@ -42,7 +42,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     # calculate the gradient and the label index
     gradients, label_index = calculate_outputs_and_gradients([img], model, None, cuda)
     gradients = np.transpose(gradients[0], (1, 2, 0))
-    smoothedgrad_gradients = GetSmoothedMask(gradients)
+    smoothedgrad_gradients = get_smoothed_gradients(img,model,calculate_outputs_and_gradients,label_index, cuda=True)
     img_gradient_overlay = visualize(smoothedgrad_gradients, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile, overlay=False)#, mask_mode=mask_mode)
     img_gradient = visualize(gradients, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile, overlay=False)
 
