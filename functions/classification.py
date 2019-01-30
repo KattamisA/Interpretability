@@ -6,7 +6,6 @@ import numpy as np
 import cv2
 from functions.utils.imagenet_classes import classes
 
-
 def classification(orig, model_name='resnet18', method='Fast Gradient Sign Method', sort = False, show = True):
     
     if show == True:
