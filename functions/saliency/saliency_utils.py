@@ -46,7 +46,7 @@ def pre_processing(obs, cuda):
     return obs_tensor
 
 
-def get_smoothed_gradients(x_value, model, target_label_idx=None, predict_and_gradients, cuda=False, stdev_spread=.15, nsamples=25, magnitude=True):
+def get_smoothed_gradients(x_value, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.15, nsamples=25, magnitude=True):
     """Returns a mask that is smoothed with the SmoothGrad method.
     Args:
       x_value: Input value, not batched.
