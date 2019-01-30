@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/functions/saliency/integrated_gradients.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/saliency/integrated_gradients.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="569">
               <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
               <folding>
                 <element signature="e#14#24#0" expanded="true" />
@@ -37,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/saliency/integrated_gradients.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="118" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
+            <state relative-caret-position="221">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -49,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+            <state relative-caret-position="-68">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -400,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/visualization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -416,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+        <state relative-caret-position="-68">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -426,17 +421,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/integrated_gradients.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="118" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="569">
           <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
           <folding>
             <element signature="e#14#24#0" expanded="true" />

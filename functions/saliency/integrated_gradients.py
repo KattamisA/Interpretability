@@ -11,7 +11,7 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
     if smoothgrad is False:
         grads, _ = predict_and_gradients(scaled_inputs, model, target_label_idx, cuda)
     else:
-        grads, _ = get_smoothed_gradients(scaled_inputs, model, target_label_idx, predict_and_gradients, cuda=cuda)
+        grads = get_smoothed_gradients(scaled_inputs, model, target_label_idx, predict_and_gradients, cuda=cuda)
     avg_grads = np.average(grads[:-1], axis=0)
     avg_grads = np.transpose(avg_grads, (1, 2, 0))
     integrated_grad = (inputs - baseline) * avg_grads
