@@ -47,17 +47,6 @@ def pre_processing(obs, cuda):
 
 
 def get_smoothed_gradients(x_value, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.5, nsamples=25, magnitude=True):
-    """Returns a mask that is smoothed with the SmoothGrad method.
-    Args:
-      x_value: Input value, not batched.
-      feed_dict: (Optional) feed dictionary to pass to the session.run call.
-      stdev_spread: Amount of noise to add to the input, as fraction of the
-                    total spread (x_max - x_min). Defaults to 15%.
-      nsamples: Number of samples to average across to get the smooth gradient.
-      magnitude: If true, computes the sum of squares of gradients instead of
-                 just the sum. Defaults to true.
-    """
-
     stdev = stdev_spread * (np.max(x_value) - np.min(x_value))
     total_gradients = np.zeros_like(x_value)
     for i in range(nsamples):
@@ -69,6 +58,7 @@ def get_smoothed_gradients(x_value, model, target_label_idx, predict_and_gradien
             total_gradients += (grad * grad)
         else:
             total_gradients += grad
+        print(np.shape(total_gradients))
     return total_gradients / nsamples
 
 
