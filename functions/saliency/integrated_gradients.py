@@ -14,8 +14,11 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
         avg_grads = np.average(grads, axis=0)
         avg_grads = np.transpose(avg_grads, (1, 2, 0))
     else:
-        grads = get_smoothed_gradients(scaled_inputs, model, target_label_idx, predict_and_gradients, cuda=cuda)
+        grads = get_smoothed_gradients(scaled_inputs, model, target_label_idx, predict_and_gradients, cuda=cuda,
+                                       magnitude=False)
+        print(np.shape(grads))
         avg_grads = np.average(grads, axis=0)
+        print(np.shape(avg_grads))
     integrated_grad = (inputs - baseline) * avg_grads
     return integrated_grad
 
@@ -25,8 +28,9 @@ def random_baseline_integrated_gradients(inputs, model, target_label_idx, predic
     all_intgrads = []
     for i in range(num_random_trials):
         integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, smoothgrad,
-                                                baseline=255.0 *np.random.random(inputs.shape), steps=steps, cuda=cuda)
+                                               baseline=255.0 * np.random.random(inputs.shape), steps=steps, cuda=cuda)
         all_intgrads.append(integrated_grad)
         print('the trial number is: [{:>2}/{}]'.format(i+1, num_random_trials), end='\r')
+    print(np.shape(all_intgrads))
     avg_intgrads = np.average(np.array(all_intgrads), axis=0)
     return avg_intgrads
