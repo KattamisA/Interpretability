@@ -46,7 +46,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     smoothedgrad_gradients = smoothedgrad_gradients[0]
     img_gradient_overlay = visualize(smoothedgrad_gradients, img, clip_above_percentile=top_percentile,
                                      clip_below_percentile=bottom_percentile, overlay=overlay, mask_mode=mask_mode)
-    img_gradient = visualize(smoothedgrad_gradients, img, clip_above_percentile=top_percentile,
+    img_gradient = visualize(smoothedgrad_gradients, np.empty_like(img), clip_above_percentile=top_percentile,
                              clip_below_percentile=bottom_percentile, overlay=False)
 
     # calculate the integrated gradients
@@ -56,7 +56,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     img_integrated_gradient_overlay = visualize(attributions, img, clip_above_percentile=top_percentile,
                                                 clip_below_percentile=bottom_percentile, overlay=overlay,
                                                 mask_mode=mask_mode)
-    img_integrated_gradient = visualize(attributions, img, clip_above_percentile=top_percentile,
+    img_integrated_gradient = visualize(attributions, np.empty_like(img), clip_above_percentile=top_percentile,
                                         clip_below_percentile=bottom_percentile, overlay=False)
 
     output_img = generate_entrie_images(img, img_gradient, img_gradient_overlay, img_integrated_gradient,
