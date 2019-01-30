@@ -57,13 +57,13 @@ def get_smoothed_gradients(x_value, model, target_label_idx, predict_and_gradien
       magnitude: If true, computes the sum of squares of gradients instead of
                  just the sum. Defaults to true.
     """
-    stdev = stdev_spread * (np.max(x_value) - np.min(x_value))
 
+    stdev = stdev_spread * (np.max(x_value) - np.min(x_value))
     total_gradients = np.zeros_like(x_value)
     for i in range(nsamples):
-        noise = np.random.normal(0, stdev, x_value.shape)
+        noise = np.random.normal(0, stdev, np.shape(x_value))
         x_plus_noise = x_value + noise
-        grad, _ = predict_and_gradients([x_plus_noise], model, target_label_idx, cuda)
+        grad, _ = predict_and_gradients(x_plus_noise, model, target_label_idx, cuda)
         grad = np.transpose(grad[0], (1, 2, 0))
         if magnitude:
             total_gradients += (grad * grad)

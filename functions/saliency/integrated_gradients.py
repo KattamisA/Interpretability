@@ -1,13 +1,17 @@
 from __future__ import print_function
+from functions.saliency.saliency_utils import get_smoothed_gradients
 import numpy as np
 
 # integrated gradients
-def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, baseline = None, steps=50, cuda=False):
+def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, baseline = None, steps=50, cuda=False, smoothgrad=False):
     if baseline is None:
         baseline = 0 * inputs 
     # scale inputs and compute gradients
     scaled_inputs = [baseline + (float(i) / steps) * (inputs - baseline) for i in range(0, steps + 1)]
-    grads, _ = predict_and_gradients(scaled_inputs, model, target_label_idx, cuda)
+    if smoothgrad is False:
+        grads, _ = predict_and_gradients(scaled_inputs, model, target_label_idx, cuda)
+    else:
+        grads, _ = get_smoothed_gradients(scaled_inputs, model, target_label_idx, predict_and_gradients, cuda=cuda)
     avg_grads = np.average(grads[:-1], axis=0)
     avg_grads = np.transpose(avg_grads, (1, 2, 0))
     integrated_grad = (inputs - baseline) * avg_grads
