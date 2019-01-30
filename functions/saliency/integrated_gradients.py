@@ -3,7 +3,7 @@ from functions.saliency.saliency_utils import get_smoothed_gradients
 import numpy as np
 
 # integrated gradients
-def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, baseline = None, steps=50, cuda=False, smoothgrad=False):
+def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, smoothgrad, baseline = None, steps=50, cuda=False):
     if baseline is None:
         baseline = 0 * inputs 
     # scale inputs and compute gradients
@@ -17,10 +17,11 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
     integrated_grad = (inputs - baseline) * avg_grads
     return integrated_grad
 
-def random_baseline_integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, steps, num_random_trials, cuda):
+def random_baseline_integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, steps,
+                                         num_random_trials, cuda, smoothgrad=False):
     all_intgrads = []
     for i in range(num_random_trials):
-        integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
+        integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, smoothgrad,
                                                 baseline=255.0 *np.random.random(inputs.shape), steps=steps, cuda=cuda)
         all_intgrads.append(integrated_grad)
         print('the trial number is: [{:>2}/{}]'.format(i+1, num_random_trials), end='\r')
