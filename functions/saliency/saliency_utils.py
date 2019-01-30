@@ -46,20 +46,23 @@ def pre_processing(obs, cuda):
     return obs_tensor
 
 
-def get_smoothed_gradients(x_value, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.5, nsamples=25, magnitude=True):
-    stdev = stdev_spread * (np.max(x_value) - np.min(x_value))
-    total_gradients = np.zeros_like(x_value)
-    for i in range(nsamples):
-        noise = np.random.normal(0, stdev, np.shape(x_value))
-        x_plus_noise = x_value + noise
-        grad, _ = predict_and_gradients(x_plus_noise, model, target_label_idx, cuda)
-        grad = np.transpose(grad, (0, 2, 3, 1))
-        if magnitude:
-            total_gradients += (grad * grad)
-        else:
-            total_gradients += grad
-        print(np.shape(total_gradients))
-    return total_gradients / nsamples
+def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.5, nsamples=25, magnitude=True):
+    stdev = stdev_spread * (np.max(x_values) - np.min(x_values))
+    smoothgrads = []
+    for x_value in x_values:
+        total_gradients = np.zeros_like(x_value)
+        for i in range(nsamples):
+            noise = np.random.normal(0, stdev, np.shape(x_value))
+            x_plus_noise = x_value + noise
+            grad, _ = predict_and_gradients([x_plus_noise], model, target_label_idx, cuda)
+            grad = np.transpose(grad[0], (1, 2, 0))
+            if magnitude:
+                total_gradients += (grad * grad)
+            else:
+                total_gradients += grad
+        avg_gradients = total_gradients / nsamples
+        smoothgrads.append(avg_gradients)
+    return
 
 
 # generate the entire images
