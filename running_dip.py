@@ -1,9 +1,6 @@
-import torch
-import numpy as np
-from functions.utils.common_utils import *
 from functions.adversarial import *
 from functions.dip import *
-from generate_results import *
+from functions.generate_results import *
 
 #adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
 num_iter = 501

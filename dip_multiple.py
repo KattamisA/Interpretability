@@ -1,9 +1,6 @@
-import torch
-import numpy as np
-from functions.utils.common_utils import *
 from functions.adversarial import *
 from functions.dip import *
-from generate_results import *
+from functions.generate_results import *
 
 num_iter = 10001
 image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',

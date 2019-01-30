@@ -1,7 +1,6 @@
-import numpy
-import cv2
 from functions.classification import *
-from functions.imagenet_classes import classes
+from functions.utils.imagenet_classes import classes
+import cv2
 
 image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',

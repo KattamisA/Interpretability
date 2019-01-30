@@ -1,9 +1,5 @@
-import torch
-import numpy as np
-import cv2
-from functions.utils.common_utils import *
 from functions.dip import *
-from generate_results import *
+from functions.generate_results import *
 
 ### Observing multiple images
 num_iter = 10001

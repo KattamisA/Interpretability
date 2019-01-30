@@ -1,12 +1,12 @@
-import numpy as np
-import torch
-from torchvision import models
+#import torch
 import cv2
-from functions.saliency_utils import calculate_outputs_and_gradients, generate_entrie_images
-from functions.integrated_gradients import *
-from functions.visualization import visualize
-import matplotlib.pyplot as plt
+from torchvision import models
+from functions.saliency.saliency_utils import calculate_outputs_and_gradients, generate_entrie_images
+from functions.saliency.integrated_gradients import *
+from functions.saliency.visualization import visualize
 
+import matplotlib.pyplot as plt
+import numpy as np
 
 def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, top_percentile=99, bottom_percentile=1, overlay=True, mask_mode=True):
 
@@ -54,7 +54,8 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
 
     output_img = generate_entrie_images(img, img_gradient, img_gradient_overlay, img_integrated_gradient,
                                         img_integrated_gradient_overlay)
-    plt.imsave(path + '/' + image_name + '.png', np.uint8(output_img), format="png")
-    #plt.imshow(np.uint8(output_img))
-    #plt.show()
+    # plt.imsave(path + '/' + image_name + '.png', np.uint8(output_img), format="png")
+    plt.imsave(path + '/' + image_name + '.png', np.uint8(img_integrated_gradient), format="png")
+    # plt.imshow(np.uint8(output_img))
+    # plt.show()
     return

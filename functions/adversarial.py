@@ -2,14 +2,13 @@ import torch
 from torch.autograd import Variable
 from torchvision import models
 import torch.nn as nn
-from torchvision import transforms
+#from torchvision import transforms
 from functions.utils.denoising_utils import *
 
 import matplotlib.pyplot as plt
 import numpy as np
 import cv2
-import argparse
-from functions.imagenet_classes import classes
+from functions.utils.imagenet_classes import classes
 
 
 def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradient Sign Method',eps = 5, alpha = 1, num_iter = None, show=True):
@@ -56,7 +55,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
     # prediction before attack
     inp = Variable(torch.from_numpy(img).float().unsqueeze(0), requires_grad=True)#.cuda()
     out = model(inp)
-    sm = torch.nn.Softmax(1)
+    sm = nn.Softmax(1)
     Probs,Ranks = sm(out).sort(descending=True)
 
     pred = np.argmax(out.data.cpu().numpy())

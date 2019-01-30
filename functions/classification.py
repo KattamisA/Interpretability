@@ -2,12 +2,9 @@ import torch
 from torch.autograd import Variable
 from torchvision import models
 
-#import torch.nn as nn
-#from functions.utils.denoising_utils import *
-
 import numpy as np
 import cv2
-from functions.imagenet_classes import classes
+from functions.utils.imagenet_classes import classes
 
 
 def classification(orig, model_name='resnet18', method='Fast Gradient Sign Method', sort = False, show = True):

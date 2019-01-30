@@ -1,19 +1,19 @@
 from __future__ import print_function
-
 import torch
-import matplotlib.pyplot as plt
-import numpy as np
-device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
+#device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
 import torch.optim
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 from functions.optim import *
 
 from skimage.measure import compare_psnr
-from functions.utils.common_utils import *
+from functions.utils.common_utils import torch_to_np
 from functions.models import *
 from copy import deepcopy
-from .global_parameters import *
+from functions.utils.global_parameters import *
+
+import matplotlib.pyplot as plt
+import numpy as np
 
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True

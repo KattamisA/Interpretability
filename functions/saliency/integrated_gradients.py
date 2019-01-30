@@ -1,8 +1,5 @@
 from __future__ import print_function
-
-import cv2
 import numpy as np
-import torch
 
 # integrated gradients
 def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, baseline = None, steps=50, cuda=False):
