@@ -52,7 +52,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     # calculate the integrated gradients
     attributions = random_baseline_integrated_gradients(img, model, label_index, calculate_outputs_and_gradients,
                                                         steps=50, num_random_trials=10, cuda=cuda, smoothgrad=True)
-    plt.imsave(path + '/' + image_name + '3.png',np.uint8(attributions), format="png")
+    plt.imsave(path + '/' + image_name + '3.png',np.uint8(np.clip(attributions,0,1)*255), format="png")
     img_integrated_gradient_overlay = visualize(attributions, img, clip_above_percentile=top_percentile,
                                                 clip_below_percentile=bottom_percentile, overlay=overlay,
                                                 mask_mode=mask_mode)
