@@ -1,7 +1,7 @@
 #import torch
 import cv2
 from torchvision import models
-from functions.saliency.saliency_utils import calculate_outputs_and_gradients, generate_entrie_images
+from functions.saliency.saliency_utils import calculate_outputs_and_gradients, generate_entrie_images, GetSmoothedMask
 from functions.saliency.integrated_gradients import *
 from functions.saliency.visualization import visualize
 

@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/generate_saliency_maps.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_saliency_maps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/saliency/saliency_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/saliency/saliency_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/F16_GT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/canoe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/car_wheel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/dolphin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/flamingo_animal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/football_helmet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/fountain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/goldfish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/hourglass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/init.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/knife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/labrador.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/monkey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/panda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/peacock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/refrigirator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/rope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/snake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/spider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/whale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/zebra_GT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saliency_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/saliency_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-              <folding>
-                <element signature="e#14#24#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="118" selection-start-line="3" selection-start-column="118" selection-end-line="3" selection-end-column="118" />
             </state>
           </provider>
         </entry>
@@ -80,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/saliency_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
+            <state relative-caret-position="119">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -92,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="48" column="19" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="365">
+              <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -163,8 +136,8 @@
         <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/functions/saliency/init.py" />
         <option value="$PROJECT_DIR$/functions/saliency/saliency_utils.py" />
-        <option value="$PROJECT_DIR$/functions/generate_saliency_maps.py" />
         <option value="$PROJECT_DIR$/saliency_tests.py" />
+        <option value="$PROJECT_DIR$/functions/generate_saliency_maps.py" />
       </list>
     </option>
   </component>
@@ -470,10 +443,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="365">
+          <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -482,18 +462,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-          <folding>
-            <element signature="e#14#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
+        <state relative-caret-position="51">
+          <caret line="3" column="118" selection-start-line="3" selection-start-column="118" selection-end-line="3" selection-end-column="118" />
         </state>
       </provider>
     </entry>
