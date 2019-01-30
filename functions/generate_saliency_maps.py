@@ -42,7 +42,8 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     # calculate the gradient and the label index
     gradients, label_index = calculate_outputs_and_gradients([img], model, None, cuda)
     gradients = np.transpose(gradients[0], (1, 2, 0))
-    img_gradient_overlay = visualize(gradients, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile, overlay=overlay, mask_mode=mask_mode)
+    smoothedgrad_gradients = GetSmoothedMask(gradients)
+    img_gradient_overlay = visualize(smoothedgrad_gradients, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile, overlay=False)#, mask_mode=mask_mode)
     img_gradient = visualize(gradients, img, clip_above_percentile=top_percentile, clip_below_percentile=bottom_percentile, overlay=False)
 
     # calculate the integrated gradients
@@ -54,8 +55,8 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
 
     output_img = generate_entrie_images(img, img_gradient, img_gradient_overlay, img_integrated_gradient,
                                         img_integrated_gradient_overlay)
-    # plt.imsave(path + '/' + image_name + '.png', np.uint8(output_img), format="png")
-    plt.imsave(path + '/' + image_name + '.png', np.uint8(img_integrated_gradient), format="png")
+    plt.imsave(path + '/' + image_name + '.png', np.uint8(output_img), format="png")
+    #plt.imsave(path + '/' + image_name + '.png', np.uint8(img_integrated_gradient), format="png")
     # plt.imshow(np.uint8(output_img))
     # plt.show()
     return

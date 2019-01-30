@@ -29,6 +29,7 @@ def calculate_outputs_and_gradients(inputs, model, target_label_idx, cuda = Fals
     gradients = np.array(gradients)
     return gradients, target_label_idx
 
+
 def pre_processing(obs, cuda):
     mean = np.array([0.485, 0.456, 0.406]).reshape([1, 1, 3])
     std = np.array([0.229, 0.224, 0.225]).reshape([1, 1, 3])
@@ -43,6 +44,32 @@ def pre_processing(obs, cuda):
         torch_device = torch.device('cpu')
     obs_tensor = torch.tensor(obs, dtype=torch.float32, device=torch_device, requires_grad=True)
     return obs_tensor
+
+
+def GetSmoothedMask(self, x_value, feed_dict={}, stdev_spread=.15, nsamples=25, magnitude=True, **kwargs):
+    """Returns a mask that is smoothed with the SmoothGrad method.
+    Args:
+      x_value: Input value, not batched.
+      feed_dict: (Optional) feed dictionary to pass to the session.run call.
+      stdev_spread: Amount of noise to add to the input, as fraction of the
+                    total spread (x_max - x_min). Defaults to 15%.
+      nsamples: Number of samples to average across to get the smooth gradient.
+      magnitude: If true, computes the sum of squares of gradients instead of
+                 just the sum. Defaults to true.
+    """
+    stdev = stdev_spread * (np.max(x_value) - np.min(x_value))
+
+    total_gradients = np.zeros_like(x_value)
+    for i in range(nsamples):
+      noise = np.random.normal(0, stdev, x_value.shape)
+      x_plus_noise = x_value + noise
+      grad = self.GetMask(x_plus_noise, feed_dict, **kwargs)
+      if magnitude:
+        total_gradients += (grad * grad)
+      else:
+        total_gradients += grad
+
+    return total_gradients / nsamples
 
 # generate the entire images
 def generate_entrie_images(img_origin, img_grad, img_grad_overlay, img_integrad, img_integrad_overlay):
