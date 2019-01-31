@@ -59,6 +59,7 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
             grad, _ = predict_and_gradients([x_plus_noise], model, target_label_idx, cuda)
             grad = np.transpose(grad[0], (1, 2, 0))
             if magnitude:
+                grad = np.clip(grad,0,1)
                 total_gradients += np.square(grad, dtype=np.float64)
             else:
                 total_gradients += grad
