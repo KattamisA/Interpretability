@@ -91,7 +91,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
                                         img_integrated_gradient, img_integrated_gradient_overlay, img_integrated_smoothgrad,
                                         img_integrated_smoothgrad_overlay, img_integrated_smoothgrad_magn, img_integrated_smoothgrad_magn_overlay)
 
-    plt.imsave(path + '/' + image_name + '_alltests2.png', np.uint8(output_img), format="png")
+    plt.imsave(path + '/Saliency_' + image_name + '.png', np.uint8(output_img), format="png")
     # plt.imsave(path + '/' + image_name + '.png', np.uint8(img_integrated_gradient), format="png")
     # plt.imshow(np.uint8(output_img))
     # plt.show()

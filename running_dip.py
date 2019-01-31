@@ -3,7 +3,7 @@ from functions.dip import *
 from functions.generate_results import *
 
 #adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
-num_iter = 501
+num_iter = 10001
 #for i in range(6):
 #    std1 = 2**(i)
 #    std = std1/64.0
@@ -31,21 +31,21 @@ num_iter = 501
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images #
-images =['knife.jpg']#,'rope.jpeg']
+images =['goldfish.jpg']#,'rope.jpeg']
 #images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg','labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
-#
+
 for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "FGSM", eps = 100, show=False)
-    print("#############\n\nWorking on image: {}".format(i.split('.')[0]))           
+    print("#############\n\nWorking on image: {}".format(i.split('.')[0]))
     name = '{}'.format(i.split('.')[0])
     
-    #save_path='results/Adv_DIP/Architecture/Adam'
-    #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='test')
+    save_path='results/Adv_DIP/Multiple_images
+    _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='test')
     #generate_result_files(save_path, adv, orig, num_iter, name)
     
-    save_path='results/Adv_DIP/Architecture/EntropySGD_std64'
-    out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default', OPTIMIZER = "EntropySGD", LR = 10, reg_noise_std = 1/64.)
-    generate_result_files(save_path, adv, orig, num_iter, name, saliency='True')
+    #save_path='results/Adv_DIP/Multiple_images
+    #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default', OPTIMIZER = "EntropySGD", LR = 10, reg_noise_std = 1/64.)
+    #generate_result_files(save_path, adv, orig, num_iter, name, saliency='True')
     
 #input_depth = [64]
 #for i in images:
