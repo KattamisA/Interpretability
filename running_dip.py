@@ -3,7 +3,7 @@ from functions.dip import *
 from functions.generate_results import *
 
 #adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
-num_iter = 10001
+num_iter = 20001
 #for i in range(6):
 #    std1 = 2**(i)
 #    std = std1/64.0
@@ -41,7 +41,7 @@ for i in images:
     
     save_path='results/Adv_DIP/Multiple_images'
     _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
-    #generate_result_files(save_path, adv, orig, num_iter, name)
+    #generate_result_files(save_path, adv, orig, num_iter, name)git
     
     #save_path='results/Adv_DIP/Multiple_images
     #out = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='default', OPTIMIZER = "EntropySGD", LR = 10, reg_noise_std = 1/64.)
