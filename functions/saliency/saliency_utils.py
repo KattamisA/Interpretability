@@ -46,7 +46,7 @@ def pre_processing(obs, cuda):
     return obs_tensor
 
 
-def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.15,
+def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.25,
                            nsamples=10, magnitude=True):
 
     stdev = stdev_spread * (np.max(x_values) - np.min(x_values))
@@ -59,6 +59,7 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
             grad, _ = predict_and_gradients([x_plus_noise], model, target_label_idx, cuda)
             grad = np.transpose(grad[0], (1, 2, 0))
             if magnitude:
+                grad = np.clip(grad, 0, 1)
                 total_gradients += grad * grad
             else:
                 total_gradients += grad
