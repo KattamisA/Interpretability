@@ -267,7 +267,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
         ## Initialiaze/ Update variables
         if glparam.noise_std > 0.0:
             net_input = glparam.net_input_saved + (glparam.noise.normal_() * glparam.noise_std)
-        net_input = torch.tensor(net_input, dtype=torch.float32, requires_grad=True)
+        net_input = torch.tensor(net_input, dtype=torch.float32, device='cuda:0', requires_grad=True)
         out = glparam.net(net_input)
 
         ## Exponential Smoothing
@@ -283,7 +283,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
         glparam.psnr_noisy = compare_psnr(glparam.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
             
         print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy {:>5.4f} Average Gradient {:>12.8f}'.format(
-            iter_value, total_loss.item(), glparam.psnr_noisy, np.average(net_input.grad.data.numpy())), end='\r')
+            iter_value, total_loss.item(), glparam.psnr_noisy, np.average(net_input.grad.data.cpu().numpy())), end='\r')
         
         ## Backtracking   
         if (glparam.psnr_noisy_last - glparam.psnr_noisy) > 5.0:
@@ -338,9 +338,9 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 
             if glparam.save:
                 f = open("{}/Stats.txt".format(save_path),"a")
-                f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy, np.average(net_input.grad.data.numpy())))
-                plt.imsave("{}/it_{}.png".format(save_path,iter_value),
-                       np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1,2,0), format="png")
+                f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy, np.average(net_input.grad.data.cpu().numpy())))
+                plt.imsave("{}/it_{}.png".format(save_path, iter_value),
+                       np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
                 
         return total_loss
         
