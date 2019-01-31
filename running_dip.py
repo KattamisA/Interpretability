@@ -39,7 +39,7 @@ for i in images:
     print("#############\n\nWorking on image: {}".format(i.split('.')[0]))
     name = '{}'.format(i.split('.')[0])
     
-    save_path='results/Adv_DIP/Multiple_images
+    save_path='results/Adv_DIP/Multiple_images'
     _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='test')
     #generate_result_files(save_path, adv, orig, num_iter, name)
     
