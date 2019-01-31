@@ -4,7 +4,7 @@ import torch
 import torch.optim
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-from functions.optim import *
+from functions.models.optim import *
 
 from skimage.measure import compare_psnr
 from functions.models import *
