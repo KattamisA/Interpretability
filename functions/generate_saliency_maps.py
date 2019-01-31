@@ -34,7 +34,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     if model_type == 'inception_v3':
         img = cv2.resize(img, (300, 300))
     else:
-        img = cv2.resize(img, (224, 224))
+        img = cv2.resize(img, (300, 300))
 
     img = img.astype(np.float32)
     img = img[:, :, (2, 1, 0)]

@@ -78,6 +78,6 @@ def generate_entrie_images(img_origin, img_grad, img_grad_overlay, img_smoothgra
                            img_integrad_overlay, blank, img_intesmoothgrad_overlay, blank,
                            img_integrad_magnitude_overlay], 1)
     total = np.concatenate([upper, blank_hor, down], 0)
-    total = cv2.resize(total, (725, 364))
+    total = cv2.resize(total, (1115, 364))
 
     return total
