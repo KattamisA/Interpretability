@@ -46,8 +46,8 @@ def pre_processing(obs, cuda):
     return obs_tensor
 
 
-def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.25,
-                           nsamples=10, magnitude=True):
+def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.5,
+                           nsamples=25, magnitude=True):
 
     stdev = stdev_spread * (np.max(x_values) - np.min(x_values))
     smoothgrads = []
