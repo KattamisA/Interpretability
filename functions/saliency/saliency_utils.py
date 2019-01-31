@@ -52,19 +52,17 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
     stdev = stdev_spread * (np.max(x_values) - np.min(x_values))
     smoothgrads = []
     for x_value in x_values:
-        total_gradients = np.zeros_like(x_value)
+        total_gradients = np.zeros_like([x_value])
         for i in range(nsamples):
             noise = np.random.normal(0, stdev, np.shape(x_value))
             x_plus_noise = x_value + noise
             grad, _ = predict_and_gradients([x_plus_noise], model, target_label_idx, cuda)
-            grad = np.transpose(grad[0, :, :, :], (1, 2, 0))
-            print(np.shape(total_gradients))
-            print(np.shape(grad))
+            #grad = np.transpose(grad[0, :, :, :], (1, 2, 0))
             if magnitude:
                 total_gradients += grad * grad
             else:
                 total_gradients += grad
-        avg_gradients = total_gradients / nsamples
+        avg_gradients = total_gradients[0] / nsamples
         smoothgrads.append(avg_gradients)
     return np.array(smoothgrads)
 
