@@ -44,6 +44,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     gradients = np.transpose(gradients[0], (1, 2, 0))
     smoothedgrad_gradients = get_smoothed_gradients([img], model, label_index, calculate_outputs_and_gradients, cuda=True)
     smoothedgrad_gradients = smoothedgrad_gradients[0]
+    print(np.shape(smoothedgrad_gradients))
     img_gradient_overlay = visualize(smoothedgrad_gradients, img, clip_above_percentile=top_percentile,
                                      clip_below_percentile=bottom_percentile, overlay=overlay, mask_mode=mask_mode)
     img_gradient = visualize(smoothedgrad_gradients, np.empty_like(img), clip_above_percentile=top_percentile,
