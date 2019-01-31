@@ -24,7 +24,7 @@ def calculate_outputs_and_gradients(inputs, model, target_label_idx, cuda = Fals
         # clear grad
         model.zero_grad()
         output.backward()
-        gradient_np = input.grad.detach().cpu().numpy()[0]
+        gradient_np = input.grad.data.cpu().numpy()[0]
         gradients.append(gradient_np)
     gradients = np.array(gradients)
     return gradients, target_label_idx
@@ -57,11 +57,11 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
             noise = np.random.normal(0, stdev, np.shape(x_value))
             x_plus_noise = x_value + noise
             grad, _ = predict_and_gradients([x_plus_noise], model, target_label_idx, cuda)
-            grad = np.transpose(grad[0], (1, 2, 0))
+            grad = np.transpose(grad[0, :, :, :], (1, 2, 0))
+            print(np.shape(total_gradients))
+            print(np.shape(grad))
             if magnitude:
-                grad = np.clip(grad,0,1)
-                grad_squared = grad * grad
-                total_gradients += grad_squared
+                total_gradients += grad * grad
             else:
                 total_gradients += grad
         avg_gradients = total_gradients / nsamples
