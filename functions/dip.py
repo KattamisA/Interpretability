@@ -1,6 +1,6 @@
 from __future__ import print_function
 import torch
-#device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
+device = torch.device("cuda" if torch.cuda.device_count() else "cpu")
 import torch.optim
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
