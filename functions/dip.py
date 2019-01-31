@@ -282,7 +282,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
 
         glparam.psnr_noisy = compare_psnr(glparam.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
             
-        print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy {:>5.4f} Average Gradient {:>12.8f}'.format(
+        print ('DIP Iteration {:>11}   Loss {:>11.7f}   PSNR_noisy {:>5.4f} Average Gradient {:>25.22f}'.format(
             iter_value, total_loss.item(), glparam.psnr_noisy, np.average(net_input.grad.data.cpu().numpy())), end='\r')
         
         ## Backtracking   
@@ -338,7 +338,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 
             if glparam.save:
                 f = open("{}/Stats.txt".format(save_path),"a")
-                f.write("{:>11}{:>12.8f}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy, np.average(net_input.grad.data.cpu().numpy())))
+                f.write("{:>11}{:>12.8f}{:>12.8f}{:>25.22f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy, np.average(net_input.grad.data.cpu().numpy())))
                 plt.imsave("{}/it_{}.png".format(save_path, iter_value),
                        np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
                 
