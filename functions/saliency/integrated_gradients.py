@@ -16,6 +16,7 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
     else:
         grads = get_smoothed_gradients(scaled_inputs, model, target_label_idx, predict_and_gradients, cuda=cuda,
                                        magnitude=False)
+        print('\n')
         print(np.shape(grads))
         avg_grads = np.average(grads, axis=0)
         print(np.shape(avg_grads))
@@ -32,6 +33,7 @@ def random_baseline_integrated_gradients(inputs, model, target_label_idx, predic
                                                baseline=255.0 * np.random.random(inputs.shape), steps=steps, cuda=cuda)
         all_intgrads.append(integrated_grad)
         print('the trial number is: [{:>2}/{}]'.format(i+1, num_random_trials), end='\r')
+    print('\n')
     print(np.shape(all_intgrads))
     avg_intgrads = np.average(np.array(all_intgrads), axis=0)
-    return avg_intgrads
+    return np.array(all_intgrads[0])
