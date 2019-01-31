@@ -59,7 +59,6 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
             grad, _ = predict_and_gradients([x_plus_noise], model, target_label_idx, cuda)
             grad = np.transpose(grad[0], (1, 2, 0))
             if magnitude:
-                grad = np.clip(grad, 0, 1)
                 total_gradients += grad * grad
             else:
                 total_gradients += grad
@@ -69,12 +68,16 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
 
 
 # generate the entire images
-def generate_entrie_images(img_origin, img_grad, img_grad_overlay, img_integrad, img_integrad_overlay):
+def generate_entrie_images(img_origin, img_grad, img_grad_overlay, img_smoothgrad, img_smoothgrad_overlay, img_integrad, img_integrad_overlay, img_intesmoothgrad, img_intesmoothgrad_overlay, img_integrad_magnitude=None, img_integrad_magnitude_overlay=None):
     blank = np.ones((img_grad.shape[0], 10, 3), dtype=np.uint8) * 255
-    blank_hor = np.ones((10, 20 + img_grad.shape[0] * 3, 3), dtype=np.uint8) * 255
-    upper = np.concatenate([img_origin, blank, img_grad_overlay, blank, img_grad], 1)
-    down = np.concatenate([img_origin, blank, img_integrad_overlay, blank, img_integrad], 1)
+    blank_hor = np.ones((10, 50 + img_grad.shape[0] * 6, 3), dtype=np.uint8) * 255
+
+    upper = np.concatenate([img_origin, blank, img_grad, blank, img_smoothgrad, blank, img_integrad, blank,
+                            img_intesmoothgrad, blank, img_integrad_magnitude], 1)
+    down = np.concatenate([img_origin, blank, img_grad_overlay, blank, img_smoothgrad_overlay, blank,
+                           img_integrad_overlay, blank, img_intesmoothgrad_overlay, blank,
+                           img_integrad_magnitude_overlay], 1)
     total = np.concatenate([upper, blank_hor, down], 0)
-    total = cv2.resize(total, (550, 364))
+    total = cv2.resize(total, (725, 364))
 
     return total
