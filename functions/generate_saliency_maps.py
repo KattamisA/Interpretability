@@ -42,7 +42,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     # calculate the gradient and the label index
     integration_steps = 50
 
-    print('\n#####\nWorking on the GRAD saliency map\n')
+    print('\nWorking on the GRAD saliency map')
     gradients, label_index = calculate_outputs_and_gradients([img], model, None, cuda)
     gradients = np.transpose(gradients[0], (1, 2, 0))
     img_gradient_overlay = visualize(gradients, img, clip_above_percentile=top_percentile,
@@ -50,7 +50,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     img_gradient = visualize(gradients, np.empty_like(img), clip_above_percentile=top_percentile,
                              clip_below_percentile=bottom_percentile, overlay=False)
 
-    print('\n#####\nWorking on the SMOOTHGRAD saliency map\n')
+    print('\nWorking on the SMOOTHGRAD saliency map')
     smoothedgrad_gradients = get_smoothed_gradients([img], model, label_index, calculate_outputs_and_gradients, cuda=True)
     smoothedgrad_gradients = smoothedgrad_gradients[0]
     img_smoothgrad_overlay = visualize(smoothedgrad_gradients, img, clip_above_percentile=top_percentile,
@@ -60,7 +60,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
 
     # calculate the integrated gradients
 
-    print('\n#####\nWorking on the INTEGRATED GRAD saliency map\n')
+    print('\nWorking on the INTEGRATED GRAD saliency map')
     attributions = random_baseline_integrated_gradients(img, model, label_index, calculate_outputs_and_gradients,
                                                         steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=False)
     img_integrated_gradient_overlay = visualize(attributions, img, clip_above_percentile=top_percentile,
@@ -69,7 +69,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     img_integrated_gradient = visualize(attributions, np.empty_like(img), clip_above_percentile=top_percentile,
                                         clip_below_percentile=bottom_percentile, overlay=False)
 
-    print('\n#####\nWorking on the INTEGRATED SMOOTHGRAD saliency map\n')
+    print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map')
     smoothgrad_attributions = random_baseline_integrated_gradients(img, model, label_index, calculate_outputs_and_gradients,
                                                         steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True)
     img_integrated_smoothgrad_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
@@ -78,7 +78,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     img_integrated_smoothgrad = visualize(smoothgrad_attributions, np.empty_like(img), clip_above_percentile=top_percentile,
                                         clip_below_percentile=bottom_percentile, overlay=False)
 
-    print('\n#####\nWorking on the INTEGRATED SMOOTHGRAD saliency map with magnitude = False\n')
+    print('\n\n#####\nWorking on the INTEGRATED SMOOTHGRAD saliency map with magnitude = False\n')
     smoothgrad_attributions = random_baseline_integrated_gradients(img, model, label_index, calculate_outputs_and_gradients,
                              steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True, magnitude=False)
     img_integrated_smoothgrad_magn_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
