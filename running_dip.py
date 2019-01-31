@@ -40,7 +40,7 @@ for i in images:
     name = '{}'.format(i.split('.')[0])
     
     save_path='results/Adv_DIP/Multiple_images'
-    _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='test')
+    _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
     #generate_result_files(save_path, adv, orig, num_iter, name)
     
     #save_path='results/Adv_DIP/Multiple_images
