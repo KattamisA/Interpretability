@@ -48,7 +48,7 @@
 % figure
 % plot(t,Normalise(:,19))
 
-load knife/Confidences.txt
+load football_helmet/Confidences.txt
 
 plot([0:100]', Confidences(:,1:2))
 %% Calculating Unnormalized

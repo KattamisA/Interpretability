@@ -10,6 +10,6 @@ image_dataset = ['it_{}.png'.format(100*i) for i in range(0,101)]
 for i in range(len(image_dataset)):
     image = image_dataset[i]
     print('###### Working on image: ' + image.split('.')[0])
-    generate_saliency_maps('results/Adv_DIP/Multiple_images/zebra_GT', image, model_type='resnet18', cuda=True, top_percentile=99, bottom_percentile=0, mask_mode=True)
+    generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', image, model_type='resnet18', cuda=True, top_percentile=99, bottom_percentile=0, mask_mode=True)
     print('\n')
 
