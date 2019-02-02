@@ -7,560 +7,7 @@
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/generate_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_results.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/generate_saliency_maps.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_saliency_maps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/Details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/Details.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/F16_GT_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/F16_GT_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/F16_GT_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/F16_GT_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/F16_GT_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/F16_GT_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/Stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/Stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/canoe_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/canoe_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/canoe_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/canoe_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/canoe_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/canoe_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/car_wheel_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/car_wheel_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/car_wheel_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/car_wheel_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/car_wheel_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/car_wheel_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/dolphin_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/dolphin_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/dolphin_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/dolphin_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/dolphin_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/dolphin_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/flamingo_animal_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/flamingo_animal_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/flamingo_animal_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/flamingo_animal_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/flamingo_animal_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/flamingo_animal_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/football_helmet_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/football_helmet_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/football_helmet_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/football_helmet_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/football_helmet_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/football_helmet_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/fountain_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/fountain_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/fountain_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/fountain_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/fountain_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/fountain_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/goldfish_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/goldfish_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/goldfish_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/goldfish_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/goldfish_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/goldfish_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/hourglass_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/hourglass_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/hourglass_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/hourglass_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/hourglass_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/hourglass_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_10000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_1900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_2900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_3900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_4900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_5900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_6900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_7900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_8900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/it_9900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/knife_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/knife_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/knife_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/knife_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/knife_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/knife_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/labrador_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/labrador_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/labrador_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/labrador_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/labrador_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/labrador_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/monkey_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/monkey_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/monkey_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/monkey_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/monkey_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/monkey_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/panda_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/panda_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/panda_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/panda_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/panda_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/panda_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/peacock_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/peacock_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/peacock_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/peacock_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/peacock_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/peacock_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/refrigirator_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/refrigirator_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/refrigirator_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/refrigirator_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/refrigirator_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/refrigirator_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/rope_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/rope_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/rope_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/rope_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/rope_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/rope_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/snake_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/snake_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/snake_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/snake_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/snake_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/snake_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/spider_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/spider_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/spider_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/spider_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/spider_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/spider_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/whale_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/whale_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/whale_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/whale_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/whale_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/whale_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/zebra_GT_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/zebra_GT_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/zebra_GT_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/zebra_GT_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/zebra_GT_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/Adam/depth5/zebra_GT_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/Details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/Details.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/F16_GT_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/F16_GT_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/F16_GT_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/F16_GT_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/F16_GT_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/F16_GT_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/Stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/Stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/canoe_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/canoe_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/canoe_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/canoe_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/canoe_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/canoe_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/car_wheel_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/car_wheel_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/car_wheel_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/car_wheel_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/car_wheel_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/car_wheel_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/dolphin_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/dolphin_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/dolphin_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/dolphin_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/dolphin_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/dolphin_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/flamingo_animal_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/flamingo_animal_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/flamingo_animal_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/flamingo_animal_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/flamingo_animal_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/flamingo_animal_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/football_helmet_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/football_helmet_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/football_helmet_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/football_helmet_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/football_helmet_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/football_helmet_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/fountain_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/fountain_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/fountain_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/fountain_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/fountain_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/fountain_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/goldfish_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/goldfish_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/goldfish_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/goldfish_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/goldfish_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/goldfish_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/hourglass_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/hourglass_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/hourglass_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/hourglass_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/hourglass_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/hourglass_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_10000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_1900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_2900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_3900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_4900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_5900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_6900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_7900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_8900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/it_9900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/knife_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/knife_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/knife_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/knife_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/knife_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/knife_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/labrador_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/labrador_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/labrador_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/labrador_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/labrador_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/labrador_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/monkey_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/monkey_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/monkey_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/monkey_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/monkey_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/monkey_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/panda_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/panda_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/panda_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/panda_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/panda_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/panda_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/peacock_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/peacock_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/peacock_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/peacock_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/peacock_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/peacock_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/refrigirator_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/refrigirator_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/refrigirator_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/refrigirator_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/refrigirator_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/refrigirator_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/rope_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/rope_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/rope_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/rope_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/rope_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/rope_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/snake_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/snake_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/snake_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/snake_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/snake_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/snake_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/spider_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/spider_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/spider_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/spider_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/spider_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/spider_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/whale_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/whale_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/whale_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/whale_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/whale_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/whale_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/zebra_GT_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/zebra_GT_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/zebra_GT_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/zebra_GT_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/zebra_GT_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/EntropySGD_std64/depth5/zebra_GT_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Details.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Plotting_multiple_images.asv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_10900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_11900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_12900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_13900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_14900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_15900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_16900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_17900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_18900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_19900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_20000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_5900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_6900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_7900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_8900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/it_9900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/knife/Saliency_it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/knife/Saliency_it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/F16_GT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/canoe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/car_wheel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/dolphin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/flamingo_animal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/football_helmet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/fountain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/goldfish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/hourglass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/init.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/knife.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/labrador.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/monkey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/panda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/peacock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/refrigirator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/rope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/snake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/spider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/whale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Original_images/zebra_GT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saliency_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/saliency_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -573,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/saliency_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="323">
+              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -585,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/running_dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="578">
               <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -597,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4879">
+            <state relative-caret-position="323">
               <caret line="288" column="54" selection-start-line="288" selection-start-column="54" selection-end-line="288" selection-end-column="54" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -607,36 +54,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
+            <state relative-caret-position="841">
               <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
               <folding>
                 <element signature="e#14#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/classification.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" column="53" selection-start-line="8" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -945,66 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running_dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4879">
-          <caret line="288" column="54" selection-start-line="288" selection-start-column="54" selection-end-line="288" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
-          <folding>
-            <element signature="e#14#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="53" selection-start-line="8" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/integrated_gradients.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1029,6 +392,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="288" column="54" selection-start-line="288" selection-start-column="54" selection-end-line="288" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running_dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
