@@ -14,8 +14,8 @@ def generate_result_files(path, adv, orig, num_iter, name):
     
     num_images = int((num_iter-1)/100 + 1)
 
-    Confidence = np.ones([num_images,6])
-    Ranks_matrix = np.ones([num_images,5])
+    Confidence = np.ones([num_images, 6])
+    Ranks_matrix = np.ones([num_images, 5])
 
     for i in range(num_images):
         loaded_image = cv2.imread('{}/it_{}.png'.format(path,i*100))[..., ::-1]
