@@ -12,7 +12,7 @@ image_dataset = ['it_0.png', 'it_100.png']
 image_dataset.append(['it_{}.png'.format(100 * i) for i in range(60, 101)])
 for i in range(len(image_dataset)):
     image = image_dataset[i]
-    orig = cv2.imread('data/knife')
+    orig = cv2.imread('data/knife')[..., ::-1]
 
     _, ranks =classification(orig, model_name='resnet18', sort=True, show=False)
     class_index = ranks[0, 0]
