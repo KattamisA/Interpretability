@@ -8,8 +8,8 @@ from functions.classification import classification
 
 #'panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg','dolphin.jpg', 'spider.jpg',
 #image_dataset = ['it_{}.png'.format(100*i) for i in range(0, 101)]
-image_dataset = ['it_0.png', 'it_100.png']
-image_dataset.append(['it_{}.png'.format(100 * i) for i in range(60, 101)])
+#image_dataset = ['it_0.png', 'it_100.png']
+image_dataset = ['it_{}.png'.format(100 * i) for i in range(60, 101)]
 for i in range(len(image_dataset)):
     image = image_dataset[i]
     orig = cv2.imread('data/knife.jpg')[..., ::-1]
