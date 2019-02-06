@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Plotting_multiple_images.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Plotting_multiple_images.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/running_dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/running_dip.py" afterDir="false" />
-    </list>
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/running_dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -477,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/running_dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

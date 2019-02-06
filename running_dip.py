@@ -3,7 +3,7 @@ from functions.dip import *
 from functions.generate_results import *
 
 #adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
-num_iter = 20001
+num_iter = 10001
 #for i in range(6):
 #    std1 = 2**(i)
 #    std = std1/64.0
