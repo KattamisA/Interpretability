@@ -36,7 +36,7 @@ class Concat(nn.Module):
                 diff3 = (inp.size(3) - target_shape3) // 2 
                 inputs_.append(inp[:, :, diff2: diff2 + target_shape2, diff3:diff3 + target_shape3])
 
-        return torch.cat(inputs_, dim=self.dim)
+        return torch.cat(inputs_, dim=self.dim, requires_grad=True)
 
     def __len__(self):
         return len(self._modules)
@@ -55,7 +55,7 @@ class GenNoise(nn.Module):
         b = torch.zeros(a).type_as(input.data)
         b.normal_()
 
-        x = torch.autograd.Variable(b)
+        x = torch.autograd.Variable(b, requires_grad=True)
 
         return x
 

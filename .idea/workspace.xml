@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/saliency_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/saliency_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Main-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Main-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/models/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/models/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Plotting_multiple_images.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Plotting_multiple_images.m" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/saliency_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -27,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/running_dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+            <state relative-caret-position="697">
+              <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -42,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="288" column="54" selection-start-line="288" selection-start-column="54" selection-end-line="288" selection-end-column="54" />
+            <state relative-caret-position="3513">
+              <caret line="340" column="33" selection-start-line="340" selection-start-column="33" selection-end-line="340" selection-end-column="33" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -54,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
+            <state relative-caret-position="1054">
               <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
               <folding>
                 <element signature="e#14#24#0" expanded="true" />
@@ -153,18 +158,18 @@
         <option value="$PROJECT_DIR$/functions/saliency/init.py" />
         <option value="$PROJECT_DIR$/functions/saliency/visualization.py" />
         <option value="$PROJECT_DIR$/functions/saliency/saliency_utils.py" />
-        <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/running_dip.py" />
         <option value="$PROJECT_DIR$/functions/saliency/integrated_gradients.py" />
         <option value="$PROJECT_DIR$/functions/generate_saliency_maps.py" />
         <option value="$PROJECT_DIR$/functions/generate_results.py" />
         <option value="$PROJECT_DIR$/saliency_tests.py" />
+        <option value="$PROJECT_DIR$/functions/dip.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="2206" />
+    <option name="y" value="-21" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -250,7 +255,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14278187" />
@@ -366,6 +371,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/integrated_gradients.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -393,59 +435,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="288" column="54" selection-start-line="288" selection-start-column="54" selection-end-line="288" selection-end-column="54" />
+        <state relative-caret-position="3513">
+          <caret line="340" column="33" selection-start-line="340" selection-start-column="33" selection-end-line="340" selection-end-column="33" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
-          <folding>
-            <element signature="e#14#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/running_dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+        <state relative-caret-position="697">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

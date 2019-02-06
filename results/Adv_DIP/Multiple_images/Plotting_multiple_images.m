@@ -48,9 +48,9 @@
 % figure
 % plot(t,Normalise(:,19))
 
-load knife/Confidences.txt
+load Stats.txt
 
-plot([0:100]', Confidences(:,1:2))
+plot(100:100:size(Stats,1)*100, abs(Stats(:,4)))
 %% Calculating Unnormalized
 % common = 'EntropySGD_LR10/%s/Confidences.txt';
 % for i=1:size(img_names,2)
