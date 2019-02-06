@@ -31,16 +31,18 @@ num_iter = 20001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images #
-images =['goldfish.jpg']#,'rope.jpeg']
-#images = ['panda.jpg','peacock.jpg','F16_GT.png','monkey.jpg','zebra_GT.png','goldfish.jpg','whale.jpg', 'dolphin.jpg', 'spider.jpg','labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg','fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg','knife.jpg','rope.jpeg']
+#images =['goldfish.jpg']#,'rope.jpeg']
+images = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
+          'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg',
+          'fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg', 'knife.jpg', 'rope.jpeg']
 
 for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "FGSM", eps = 100, show=False)
     print("#############\n\nWorking on image: {}".format(i.split('.')[0]))
     name = '{}'.format(i.split('.')[0])
     
-    save_path='results/Adv_DIP/Multiple_images'
-    _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex')
+    save_path='results/Adv_DIP/Multiple_images/Gradients'
+    _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', name=name)
     #generate_result_files(save_path, adv, orig, num_iter, name)git
     
     #save_path='results/Adv_DIP/Multiple_images

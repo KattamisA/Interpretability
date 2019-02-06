@@ -50,7 +50,8 @@
 
 load Stats.txt
 
-plot(100:100:size(Stats,1)*100, abs(Stats(:,4)))
+plot(100:100:size(Stats,1)*100, abs(smooth(Stats(:,4),51)))
+xlim([0 8000])
 %% Calculating Unnormalized
 % common = 'EntropySGD_LR10/%s/Confidences.txt';
 % for i=1:size(img_names,2)

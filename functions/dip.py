@@ -21,7 +21,7 @@ dtype = torch.cuda.FloatTensor
 # dtype = torch.FloatTensor
 
 
-def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.0/30,exp_weight = 0.99, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = None, name = None, loss_fn = "MSE", OPTIMIZER = "adam", pad = 'zero',  OPT_OVER = 'net' ):
+def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.0/30,exp_weight = 0.99, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = None, name = "", loss_fn = "MSE", OPTIMIZER = "adam", pad = 'zero',  OPT_OVER = 'net' ):
     
     glparam = global_parameters()
     glparam.set_params(save, plot, reg_noise_std, exp_weight)
@@ -254,7 +254,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
         criterion = torch.nn.KLDivLoss().type(dtype)
         
     if save == True:
-        f= open("{}/Stats.txt".format(save_path),"w+")
+        f= open("{}/{}_Stats.txt".format(save_path, name),"w+")
         f.write("{:>11}{:>12}{:>12}{:>20}\n".format('Iterations','Total_Loss','PSNR', 'Average gradient'))
         save_net_details(save_path, arch, param_numbers, pad, OPT_OVER, OPTIMIZER, input_depth,
                  loss_fn = loss_fn, LR = LR, num_iter = num_iter, exp_weight = glparam.exp,
