@@ -337,7 +337,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 plt.show()
                 
             if glparam.save:
-                f = open("{}/Stats.txt".format(save_path),"a")
+                f = open("{}/{}_Stats.txt".format(save_path, name),"a")
                 f.write("{:>11}{:>12.8f}{:>12.8f}{:>30.22f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy,
                                                         np.average(glparam.net[2][0].weight.grad.data.cpu().numpy())))
                 #plt.imsave("{}/it_{}.png".format(save_path, iter_value),
