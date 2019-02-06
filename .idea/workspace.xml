@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Main-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Main-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/models/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/models/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Plotting_multiple_images.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Multiple_images/Plotting_multiple_images.m" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/running_dip.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
               <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/models/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,6 +171,7 @@
         <option value="$PROJECT_DIR$/functions/generate_results.py" />
         <option value="$PROJECT_DIR$/saliency_tests.py" />
         <option value="$PROJECT_DIR$/functions/dip.py" />
+        <option value="$PROJECT_DIR$/functions/models/common.py" />
       </list>
     </option>
   </component>
@@ -189,6 +197,12 @@
               <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -451,6 +465,16 @@
           <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/models/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
