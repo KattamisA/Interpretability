@@ -28,19 +28,19 @@ xlabel('DIP iterations')
 ylabel("Absolute mean gradient")
 figure
 hold on
-plot(100:100:size(Grads,1)*100, Average/Average(1), 'LineWidth',2)
+plot(100:100:size(Grads,1)*100, Average/Average(1), 'LineWidth',1)
 grid on
 xlabel('DIP iterations')
 % ylabel("Averaged absolute mean gradient")
 % figure
 x = diff(Average/100);
-plot(100:100:(size(Grads,1)-1)*100, x./x(1), 'LineWidth',2)
+plot(100:100:(size(Grads,1)-1)*100, x./x(1), 'LineWidth',1)
 grid on
 xlabel('DIP iterations')
 % ylabel("First Derivative of mean gradient")
 % figure
 y = diff(x)/100;
-plot(100:100:(size(Grads,1)-2)*100, y./y(1), 'LineWidth',2)
+plot(100:100:(size(Grads,1)-2)*100, y./y(1), 'LineWidth',1)
 grid on
 xlabel('DIP iterations')
 % ylabel("Second Derivative of mean gradient")
