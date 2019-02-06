@@ -254,7 +254,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
         criterion = torch.nn.KLDivLoss().type(dtype)
         
     if save == True:
-        f= open("{}/{}_Stats.txt".format(save_path, name),"w+")
+        f= open("{}/{}_stats.txt".format(save_path, name),"w+")
         # f.write("{:>11}{:>12}{:>12}{:>20}\n".format('Iterations','Total_Loss','PSNR', 'Average gradient'))
         save_net_details(save_path, arch, param_numbers, pad, OPT_OVER, OPTIMIZER, input_depth,
                  loss_fn = loss_fn, LR = LR, num_iter = num_iter, exp_weight = glparam.exp,
@@ -337,7 +337,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 plt.show()
                 
             if glparam.save:
-                f = open("{}/{}_Stats.txt".format(save_path, name),"a")
+                f = open("{}/{}_stats.txt".format(save_path, name),"a")
                 f.write("{:>11}{:>12.8f}{:>12.8f}{:>30.22f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy,
                                                         np.average(glparam.net[2][0].weight.grad.data.cpu().numpy())))
                 #plt.imsave("{}/it_{}.png".format(save_path, iter_value),
