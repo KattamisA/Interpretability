@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 image_dataset = [1]
 for i in range(len(image_dataset)):
     image = image_dataset[i]
-    adv, orig, pert = adversarial_examples("data/zebra_GT.jpg", method = "LLCI",eps=100, show=False)
+    adv, orig, pert = adversarial_examples("data/zebra_GT.png", method = "LLCI",eps=100, show=False)
     #orig = cv2.imread('data/knife.jpg')[..., ::-1]
     plt.imsave("data/Adversarial_knife.png".format(save_path, iter_value),adv, format="png")
 
