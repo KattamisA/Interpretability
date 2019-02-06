@@ -17,7 +17,7 @@ for i in range(len(image_dataset)):
     image = image_dataset[i]
     adv, orig, pert = adversarial_examples("data/zebra_GT.png", method = "LLCI",eps=100, show=False)
     #orig = cv2.imread('data/knife.jpg')[..., ::-1]
-    plt.imsave("data/Adversarial_knife.png",adv, format="png")
+    plt.imsave("results/Adv_DIP/Multiple_images/zebra_GT/adv_zebra.png", adv, format="png")
 
     _, ranks =classification(orig, model_name='resnet18', sort=True, show=False)
     class_index = ranks[0, 0]
@@ -25,10 +25,7 @@ for i in range(len(image_dataset)):
     #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', image, model_type='resnet18', cuda=True,
     #                       top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
 
-    generate_saliency_maps('results/Adv_DIP/Multiple_images/zebra_GT', "Adversarial_knife.png", model_type='resnet18', cuda=True,
+    generate_saliency_maps('results/Adv_DIP/Multiple_images/zebra_GT', "adv_zebra.png", model_type='resnet18', cuda=True,
                           top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
-
-
-
     print('\n')
 
