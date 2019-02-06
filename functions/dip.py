@@ -255,7 +255,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
         
     if save == True:
         f= open("{}/{}_Stats.txt".format(save_path, name),"w+")
-        f.write("{:>11}{:>12}{:>12}{:>20}\n".format('Iterations','Total_Loss','PSNR', 'Average gradient'))
+        # f.write("{:>11}{:>12}{:>12}{:>20}\n".format('Iterations','Total_Loss','PSNR', 'Average gradient'))
         save_net_details(save_path, arch, param_numbers, pad, OPT_OVER, OPTIMIZER, input_depth,
                  loss_fn = loss_fn, LR = LR, num_iter = num_iter, exp_weight = glparam.exp,
                  reg_noise_std = reg_noise_std, INPUT = 'INPUT', net = glparam.net)
@@ -338,7 +338,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 
             if glparam.save:
                 f = open("{}/Stats.txt".format(save_path),"a")
-                f.write("{:>11}{:>12.8f}{:>12.8f}{:>25.22f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy,
+                f.write("{:>11}{:>12.8f}{:>12.8f}{:>30.22f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy,
                                                         np.average(glparam.net[2][0].weight.grad.data.cpu().numpy())))
                 #plt.imsave("{}/it_{}.png".format(save_path, iter_value),
                 #       np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
