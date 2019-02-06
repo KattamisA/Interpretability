@@ -35,11 +35,11 @@ num_iter = 10001
 
 ### Observing multiple images #
 #images =['goldfish.jpg']#,'rope.jpeg']
-images = ['monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
+images = ['whale.jpg',
           'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg',
           'fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg', 'knife.jpg', 'rope.jpeg']
 
-#'panda.jpg', 'peacock.jpg', 'F16_GT.png', 
+#'panda.jpg', 'peacock.jpg', 'F16_GT.png','monkey.jpg', 'zebra_GT.png', 'goldfish.jpg',
 
 for i in images:
     adv, orig, pert = adversarial_examples("data/{}".format(i), method = "FGSM", eps = 100, show=False)
