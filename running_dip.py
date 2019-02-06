@@ -2,6 +2,9 @@ from functions.adversarial import *
 from functions.dip import *
 from functions.generate_results import *
 
+import cv2
+import numpy as np
+
 #adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
 num_iter = 10001
 #for i in range(6):
@@ -41,8 +44,18 @@ for i in images:
     print("#############\n\nWorking on image: {}".format(i.split('.')[0]))
     name = '{}'.format(i.split('.')[0])
     
-    save_path='results/Adv_DIP/Multiple_images/Gradients'
+    save_path='results/Adv_DIP/Multiple_images/Gradients/Adam'
     _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', name=name)
+
+    save_path='results/Adv_DIP/Multiple_images/Gradients/EntropySGD'
+    _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', name=name,
+            OPTIMIZER="EntropySGD", LR=10, reg_noise_std=1 / 64.)
+
+    save_path='results/Adv_DIP/Multiple_images/Gradients/Denoising'
+    img = cv2.imread("data/{}".format(i))[..., ::-1]
+    _ = dip(img, num_iter=num_iter, save=True, plot=False, save_path=save_path, arch='complex', name=name)
+
+
     #generate_result_files(save_path, adv, orig, num_iter, name)git
     
     #save_path='results/Adv_DIP/Multiple_images
