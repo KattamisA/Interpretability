@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 #'panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg','dolphin.jpg', 'spider.jpg',
 #image_dataset = ['it_{}.png'.format(100*i) for i in range(0, 101)]
 #image_dataset = ['it_0.png', 'it_100.png']
-image_dataset = ['it_{}.png'.format(100 * i) for i in range(50, 60)]
+image_dataset = ['it_{}.png'.format(100 * i) for i in range(57, 60)]
 for i in range(len(image_dataset)):
     image = image_dataset[i]
     orig = cv2.imread('data/knife.jpg')[..., ::-1]
@@ -25,4 +25,3 @@ for i in range(len(image_dataset)):
     #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', "adv_knife.png", model_type='resnet18', cuda=True,
     #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
     print('\n')
-
