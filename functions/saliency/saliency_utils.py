@@ -58,11 +58,11 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
         x_plus_noise = x_values + noise
         grad, _ = predict_and_gradients(x_plus_noise, model, target_label_idx, cuda)
         grad = np.transpose(grad, (0, 2, 3, 1))
-        if magnitude:
-            absolute_grad = np.abs(grad)
-            total_gradients += absolute_grad
-        else:
-            total_gradients += grad
+  #      if magnitude:
+  #          absolute_grad = np.abs(grad)
+  #          total_gradients += absolute_grad
+ #       else:
+        total_gradients += grad
     avg_gradients = total_gradients / nsamples
     return np.array(avg_gradients, dtype=np.float64)
 

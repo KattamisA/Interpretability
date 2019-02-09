@@ -1,6 +1,6 @@
 clear all
-s = load('Saliency_magnitude_true_{}.txt');
-q = load('Saliency_magnitude_false_{}.txt');
+s = load('Saliency_magnitude_true.txt');
+q = load('Saliency_magnitude_false.txt');
 
 a = s/255;
 b = q/255;
