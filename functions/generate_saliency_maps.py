@@ -73,7 +73,12 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map')
     smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label_index, calculate_outputs_and_gradients,
                                                         steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True)
-    plt.imsave(path + '/Saliency_' + image_name + '_magnitude_true.png', np.uint8(smoothgrad_attributions*255.0), format="png")
+
+    avg = np.average(smoothgrad_attributions, 2) * 255.0
+    plt.imsave(path + '/Saliency_' + image_name + '_magnitude_true.png', np.uint8(avg), format="png")
+    f = open(path + '_magnitude_true_{}.txt', "w+")
+    f.write(avg)
+
     img_integrated_smoothgrad_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
                                                 clip_below_percentile=bottom_percentile, overlay=True,
                                                 mask_mode=mask_mode)
@@ -83,7 +88,10 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map with magnitude = False')
     smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label_index, calculate_outputs_and_gradients,
                              steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True, magnitude=False)
-    plt.imsave(path + '/Saliency_' + image_name + '_magnitude_false.png', np.uint8(smoothgrad_attributions*255.0), format="png")
+    avg = np.average(smoothgrad_attributions, 2) * 255.0
+    plt.imsave(path + '/Saliency_' + image_name + '_magnitude_false.png', np.uint8(avg), format="png")
+    f = open(path + '_magnitude_false_{}.txt', "w+")
+    f.write(avg)
     img_integrated_smoothgrad_magn_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
                                                 clip_below_percentile=bottom_percentile, overlay=True,
                                                 mask_mode=mask_mode)
