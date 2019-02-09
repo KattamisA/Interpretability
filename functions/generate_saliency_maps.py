@@ -75,8 +75,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
 
     print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map')
     smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label, calculate_outputs_and_gradients,
-                                                        steps=integration_steps, num_random_trials=10, cuda=cuda,
-                                                        smoothgrad=True, magnitude=True, absolute=True)
+                                            steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True)
 
     avg = np.average(smoothgrad_attributions, 2)
     plt.imsave(path + '/Saliency_' + image_name + 'attributions.png', np.uint8(avg*255.0), format="png")
@@ -88,9 +87,9 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
                                         clip_below_percentile=bottom_percentile, overlay=False)
 
 
-    print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map with absolute = True')
+    print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map with magnitude = True')
     smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label, calculate_outputs_and_gradients,
-                             steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True, absolute=True)
+                             steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True, magnitude=True)
 
     avg = np.average(smoothgrad_attributions, 2)
     plt.imsave(path + '/Saliency_' + image_name + '_attributions_absolute.png', np.uint8(avg*255.0), format="png")

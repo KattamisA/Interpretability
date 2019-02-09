@@ -20,7 +20,7 @@ for i in range(len(image_dataset)):
 
     print('###### Working on image: ' + image.split('.')[0])
     generate_saliency_maps('results/Saliency', image, model_type='resnet18', cuda=True,
-                           top_percentile=99, bottom_percentile=1, mask_mode=True)
+                           top_percentile=99, bottom_percentile=10, mask_mode=True)
 
     #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', "adv_knife.png", model_type='resnet18', cuda=True,
     #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)

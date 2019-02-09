@@ -5,7 +5,7 @@ import numpy as np
 
 # integrated gradients
 def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, smoothgrad, baseline = None, steps=50,
-                         cuda=False, magnitude=False, absolute=False):
+                         cuda=False, magnitude=False):
 
     if baseline is None:
         baseline = 0 * inputs
@@ -22,20 +22,20 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
                                        magnitude=magnitude)
         avg_grads = np.average(grads[:-1], axis=0)
 
-    if absolute:
-        integrated_grad = np.abs(inputs - baseline) * avg_grads
+    if magnitude:
+        integrated_grad = (inputs - baseline + 255.0) * avg_grads
     else:
         integrated_grad = (inputs - baseline) * avg_grads
     return integrated_grad
 
 
 def random_baseline_integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, steps,
-                                         num_random_trials, cuda, smoothgrad=False, magnitude=False, absolute=False):
+                                         num_random_trials, cuda, smoothgrad=False, magnitude=False):
     all_intgrads = []
     for i in range(num_random_trials):
         integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, smoothgrad,
                                                baseline=255.0 * np.random.random(inputs.shape), steps=steps, cuda=cuda,
-                                               magnitude=magnitude, absolute=absolute)
+                                               magnitude=magnitude)
         all_intgrads.append(integrated_grad)
         print('the trial number is: [{:>2}/{}]'.format(i+1, num_random_trials), end='\r')
     avg_intgrads = np.average(all_intgrads, axis=0)
