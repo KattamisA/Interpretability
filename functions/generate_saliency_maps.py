@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, top_percentile=99, bottom_percentile=1,
-                           mask_mode=True, target_label_index = None):
+                           mask_mode=True, target_label=None):
 
     # start to create models...
     if model_type == 'inception_v3 ':
@@ -41,70 +41,71 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     img = img[:, :, (2, 1, 0)]
 
     # calculate the gradient and the label index
-    integration_steps = 10
+    integration_steps = 20
 
     print('\nWorking on the GRAD saliency map')
-    gradients, _ = calculate_outputs_and_gradients([img], model, target_label_index, cuda)
+    gradients, _ = calculate_outputs_and_gradients([img], model, target_label, cuda)
     gradients = np.transpose(gradients[0], (1, 2, 0))
+
     img_gradient_overlay = visualize(gradients, img, clip_above_percentile=top_percentile,
-                                     clip_below_percentile=bottom_percentile, overlay=True, mask_mode=mask_mode)
-    img_gradient = visualize(gradients, np.empty_like(img), clip_above_percentile=top_percentile,
+                                     clip_below_percentile=bottom_percentile, overlay=True)
+    img_gradient = visualize(gradients, img, clip_above_percentile=top_percentile,
                              clip_below_percentile=bottom_percentile, overlay=False)
 
     print('Working on the SMOOTHGRAD saliency map')
-    smoothedgrad_gradients = get_smoothed_gradients([img], model, target_label_index, calculate_outputs_and_gradients, cuda=True)
+    smoothedgrad_gradients = get_smoothed_gradients([img], model, target_label, calculate_outputs_and_gradients,
+                                                    cuda=True, magnitude=True)
     smoothedgrad_gradients = smoothedgrad_gradients[0]
     img_smoothgrad_overlay = visualize(smoothedgrad_gradients, img, clip_above_percentile=top_percentile,
-                                     clip_below_percentile=bottom_percentile, overlay=True, mask_mode=mask_mode)
-    img_smoothgrad = visualize(smoothedgrad_gradients, np.empty_like(img), clip_above_percentile=top_percentile,
+                                     clip_below_percentile=bottom_percentile, overlay=True)
+    img_smoothgrad = visualize(smoothedgrad_gradients, img, clip_above_percentile=top_percentile,
                              clip_below_percentile=bottom_percentile, overlay=False)
 
     # calculate the integrated gradients
 
     print('Working on the INTEGRATED GRAD saliency map')
-    attributions = random_baseline_integrated_gradients(img, model, target_label_index, calculate_outputs_and_gradients,
-                                                        steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=False)
+    attributions = random_baseline_integrated_gradients(img, model, target_label, calculate_outputs_and_gradients,
+                                                        steps=integration_steps, num_random_trials=10, cuda=cuda,
+                                                        smoothgrad=False)
     img_integrated_gradient_overlay = visualize(attributions, img, clip_above_percentile=top_percentile,
-                                                clip_below_percentile=bottom_percentile, overlay=True,
-                                                mask_mode=mask_mode)
-    img_integrated_gradient = visualize(attributions, np.empty_like(img), clip_above_percentile=top_percentile,
+                                                clip_below_percentile=bottom_percentile, overlay=True)
+    img_integrated_gradient = visualize(attributions, img, clip_above_percentile=top_percentile,
                                         clip_below_percentile=bottom_percentile, overlay=False)
+
 
     print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map')
-    smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label_index, calculate_outputs_and_gradients,
-                                                        steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True)
+    smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label, calculate_outputs_and_gradients,
+                                                        steps=integration_steps, num_random_trials=10, cuda=cuda,
+                                                        smoothgrad=True)
 
     avg = np.average(smoothgrad_attributions, 2)
-    plt.imsave(path + '/Saliency_' + image_name + '_magnitude_true.png', np.uint8(avg*255.0), format="png")
-    np.savetxt(path + '_magnitude_true.txt', avg*255.0)
+    plt.imsave(path + '/Saliency_' + image_name + 'attributions.png', np.uint8(avg*255.0), format="png")
+    np.savetxt(path + '/' + image_name + '_attributions.txt', avg*255.0)
 
     img_integrated_smoothgrad_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
-                                                clip_below_percentile=bottom_percentile, overlay=True,
-                                                mask_mode=mask_mode)
-    img_integrated_smoothgrad = visualize(smoothgrad_attributions, np.empty_like(img), clip_above_percentile=top_percentile,
+                                                clip_below_percentile=bottom_percentile, overlay=True)
+    img_integrated_smoothgrad = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
                                         clip_below_percentile=bottom_percentile, overlay=False)
 
-    print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map with magnitude = False')
-    smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label_index, calculate_outputs_and_gradients,
-                             steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True, magnitude=False)
+
+    print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map with absolute = False')
+    smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label, calculate_outputs_and_gradients,
+                             steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True, absolute=True)
 
     avg = np.average(smoothgrad_attributions, 2)
-    plt.imsave(path + '/Saliency_' + image_name + '_magnitude_false.png', np.uint8(avg*255.0), format="png")
-    np.savetxt(path + '_magnitude_false.txt', avg*255.0)
+    plt.imsave(path + '/Saliency_' + image_name + '_attributions_absolute.png', np.uint8(avg*255.0), format="png")
+    np.savetxt(path + '/' + image_name + '_attributions_absolute.txt', avg*255.0)
 
     img_integrated_smoothgrad_magn_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
-                                                clip_below_percentile=bottom_percentile, overlay=True,
-                                                mask_mode=mask_mode)
-    img_integrated_smoothgrad_magn = visualize(smoothgrad_attributions, np.empty_like(img), clip_above_percentile=top_percentile,
+                                                clip_below_percentile=bottom_percentile, overlay=True)
+    img_integrated_smoothgrad_magn = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
                                         clip_below_percentile=bottom_percentile, overlay=False)
 
+    # Generating output image
 
     output_img = generate_entrie_images(img, img_gradient, img_gradient_overlay, img_smoothgrad, img_smoothgrad_overlay,
                                         img_integrated_gradient, img_integrated_gradient_overlay, img_integrated_smoothgrad,
                                         img_integrated_smoothgrad_overlay, img_integrated_smoothgrad_magn, img_integrated_smoothgrad_magn_overlay)
 
     plt.imsave(path + '/Saliency_' + image_name + '_test.png', np.uint8(output_img), format="png")
-    # plt.imsave(path + '/' + image_name + '.png', np.uint8(img_integrated_gradient), format="png")
-    # plt.imshow(np.uint8(output_img))
-    # plt.show()
     return

@@ -1,4 +1,6 @@
 clear all
+close all
+
 s = load('Saliency_magnitude_true.txt');
 q = load('Saliency_magnitude_false.txt');
 
@@ -12,4 +14,5 @@ figure
 imshow(q)
 figure
 imshow(s)
-
+figure
+q = cdfplot(s(:));
