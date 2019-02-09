@@ -41,7 +41,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     img = img[:, :, (2, 1, 0)]
 
     # calculate the gradient and the label index
-    integration_steps = 50
+    integration_steps = 10
 
     print('\nWorking on the GRAD saliency map')
     gradients, _ = calculate_outputs_and_gradients([img], model, target_label_index, cuda)
