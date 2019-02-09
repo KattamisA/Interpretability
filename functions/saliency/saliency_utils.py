@@ -61,7 +61,7 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
             total_gradients += grad
         if magnitude:
             total_gradients = np.absolute(total_gradients)
-        else:
+        #else:
         #    total_gradients += grad
         avg_gradients = total_gradients / nsamples
         smoothgrads.append(avg_gradients)
