@@ -96,9 +96,9 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     np.savetxt(path + '/' + image_name + '_attributions_absolute.txt', avg*255.0)
 
     img_integrated_smoothgrad_magn_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
-                                                clip_below_percentile=bottom_percentile, overlay=True)
+                                                clip_below_percentile=20, overlay=True)
     img_integrated_smoothgrad_magn = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
-                                        clip_below_percentile=bottom_percentile, overlay=False)
+                                        clip_below_percentile=20, overlay=False)
 
     # Generating output image
 
