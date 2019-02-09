@@ -23,7 +23,7 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
         avg_grads = np.average(grads[:-1], axis=0)
 
     if magnitude:
-        integrated_grad = (inputs - baseline + 255.0) * avg_grads
+        integrated_grad = np.abs((inputs - baseline) * avg_grads)
     else:
         integrated_grad = (inputs - baseline) * avg_grads
     return integrated_grad
