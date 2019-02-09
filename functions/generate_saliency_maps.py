@@ -77,7 +77,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     avg = np.average(smoothgrad_attributions, 2) * 255.0
     plt.imsave(path + '/Saliency_' + image_name + '_magnitude_true.png', np.uint8(avg), format="png")
     f = open(path + '_magnitude_true_{}.txt', "w+")
-    f.write(avg)
+    f.write(np.uint8(avg))
 
     img_integrated_smoothgrad_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
                                                 clip_below_percentile=bottom_percentile, overlay=True,
@@ -91,7 +91,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     avg = np.average(smoothgrad_attributions, 2) * 255.0
     plt.imsave(path + '/Saliency_' + image_name + '_magnitude_false.png', np.uint8(avg), format="png")
     f = open(path + '_magnitude_false_{}.txt', "w+")
-    f.write(avg)
+    f.write(np.uint8(avg))
     img_integrated_smoothgrad_magn_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
                                                 clip_below_percentile=bottom_percentile, overlay=True,
                                                 mask_mode=mask_mode)
