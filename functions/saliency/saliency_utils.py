@@ -64,8 +64,7 @@ def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradie
         else:
             total_gradients += grad
     avg_gradients = total_gradients / nsamples
-    smoothgrads.append(avg_gradients)
-    return np.array(smoothgrads, dtype=np.float64)
+    return np.array(avg_gradients, dtype=np.float64)
 
 
 # generate the entire images
