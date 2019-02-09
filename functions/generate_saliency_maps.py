@@ -77,10 +77,6 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label, calculate_outputs_and_gradients,
                                             steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True)
 
-    avg = np.average(smoothgrad_attributions, 2)
-    plt.imsave(path + '/Saliency_' + image_name + 'attributions.png', np.uint8(avg*255.0), format="png")
-    np.savetxt(path + '/' + image_name + '_attributions.txt', avg*255.0)
-
     img_integrated_smoothgrad_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
                                                 clip_below_percentile=bottom_percentile, overlay=True)
     img_integrated_smoothgrad = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
@@ -90,10 +86,6 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map with magnitude = True')
     smoothgrad_attributions = random_baseline_integrated_gradients(img, model, target_label, calculate_outputs_and_gradients,
                              steps=integration_steps, num_random_trials=10, cuda=cuda, smoothgrad=True, magnitude=True)
-
-    avg = np.average(smoothgrad_attributions, 2)
-    plt.imsave(path + '/Saliency_' + image_name + '_attributions_absolute.png', np.uint8(avg*255.0), format="png")
-    np.savetxt(path + '/' + image_name + '_attributions_absolute.txt', avg*255.0)
 
     img_integrated_smoothgrad_magn_overlay = visualize(smoothgrad_attributions, img, clip_above_percentile=top_percentile,
                                                 clip_below_percentile=20, overlay=True)
@@ -106,5 +98,5 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
                                         img_integrated_gradient, img_integrated_gradient_overlay, img_integrated_smoothgrad,
                                         img_integrated_smoothgrad_overlay, img_integrated_smoothgrad_magn, img_integrated_smoothgrad_magn_overlay)
 
-    plt.imsave(path + '/Saliency_' + image_name + '_test.png', np.uint8(output_img), format="png")
+    plt.imsave(path + '/Saliency_' + image_name + '.png', np.uint8(output_img), format="png")
     return
