@@ -20,8 +20,33 @@ for i in range(len(image_dataset)):
 
     print('###### Working on image: ' + image.split('.')[0])
     generate_saliency_maps('results/Saliency', image, model_type='resnet18', cuda=True,
-                           top_percentile=99, bottom_percentile=5, mask_mode=True)
+                           top_percentile=99, bottom_percentile=10, mask_mode=True)
 
     #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', "adv_knife.png", model_type='resnet18', cuda=True,
     #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
     print('\n')
+
+# image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
+# image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
+#
+# for i in range(len(image_dataset2)):
+#     image = image_dataset2[i]
+#
+#     print('###### Working on image: ' + image.split('.')[0])
+#     generate_saliency_maps('Adv_DIP/Multiple_images/knife', image, model_type='resnet18', cuda=True,
+#                            top_percentile=99, bottom_percentile=5, mask_mode=True)
+#
+#     #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', "adv_knife.png", model_type='resnet18', cuda=True,
+#     #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
+#     print('\n')
+#
+# for i in range(len(image_dataset2)):
+#     image = image_dataset2[i]
+#
+#     print('###### Working on image: ' + image.split('.')[0])
+#     generate_saliency_maps('Adv_DIP/Multiple_images/zebra_GT', image, model_type='resnet18', cuda=True,
+#                            top_percentile=99, bottom_percentile=5, mask_mode=True)
+#
+#     #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', "adv_knife.png", model_type='resnet18', cuda=True,
+#     #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
+#     print('\n')
