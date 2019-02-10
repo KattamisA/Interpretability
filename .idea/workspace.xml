@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/generate_saliency_maps.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_saliency_maps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/saliency_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/saliency_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="90" column="72" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="72" />
+            <state relative-caret-position="518">
+              <caret line="89" column="121" selection-start-line="89" selection-start-column="107" selection-end-line="89" selection-end-column="121" />
               <folding>
                 <element signature="e#14#24#0" expanded="true" />
               </folding>
@@ -445,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="90" column="72" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="72" />
+        <state relative-caret-position="518">
+          <caret line="89" column="121" selection-start-line="89" selection-start-column="107" selection-end-line="89" selection-end-column="121" />
           <folding>
             <element signature="e#14#24#0" expanded="true" />
           </folding>
