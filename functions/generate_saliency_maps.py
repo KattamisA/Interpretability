@@ -28,8 +28,8 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     if cuda:
         model.cuda()
     # read the image
-    #img = cv2.imread(path + '/' + img_path)
-    img = cv2.imread('data/' + img_path)
+    img = cv2.imread(path + '/' + img_path)
+    #img = cv2.imread('data/' + img_path)
     image_name = '{}'.format(img_path.split('.')[0])
 
     if model_type == 'inception_v3':
@@ -98,7 +98,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
                                         img_integrated_gradient, img_integrated_gradient_overlay, img_integrated_smoothgrad,
                                         img_integrated_smoothgrad_overlay, img_integrated_smoothgrad_magn, img_integrated_smoothgrad_magn_overlay)
 
-    plt.imsave(path + '/Saliency_' + image_name + '.png', np.uint8(output_img), format="png")
-    #plt.imsave(path + '/Saliency/Saliency_' + image_name + '.png', np.uint8(output_img), format="png")
+    #plt.imsave(path + '/Saliency_' + image_name + '.png', np.uint8(output_img), format="png")
+    plt.imsave(path + '/Saliency/Saliency_' + image_name + '.png', np.uint8(output_img), format="png")
 
     return
