@@ -10,7 +10,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 f = open("data/True_Class_resnet50.txt", "w+")
 for i in image_dataset:
     img = cv2.imread("data/" + i)[..., ::-1]
-    confidence, ranks = classification(img, sort=True, show=False, model_name='inception_v3')
+    confidence, ranks = classification(img, sort=True, show=False, model_name='resnet50')
     Class = classes[int(ranks[0, 0])].split(',')[0]
     f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
 
