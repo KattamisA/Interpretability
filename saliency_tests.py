@@ -36,7 +36,7 @@ image_dataset = ['zebra_GT.png', 'knife.jpg']
 
 for image in image_dataset:
     adv, orig, pert = adversarial_examples("data/{}".format(image), method="LLCI", eps=100, show=False,
-                                           model_name='resnet18', cuda=True)
+                                           model_name='resnet18', cuda=False)
     name = image.split('.')[0]
     plt.imsave('results/Saliency/adersarial/' + name + '_adversarial.png', adv, format='png')
     generate_saliency_maps('results/Saliency/adersarial', name+'_adversarial.png', model_type='resnet18', cuda=True,

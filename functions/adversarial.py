@@ -71,7 +71,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
         for i in range(5):
             print('{:<20}{:>20.{prec}f}'.format(classes[int(Ranks[0,i])].split(',')[0], Probs[0,i],prec=5))
         print('\n')
-    inp = Variable(torch.from_numpy(img).float().unsqueeze(0), requires_grad=True)
+    #inp = Variable(torch.from_numpy(img).float().unsqueeze(0), requires_grad=True)
 
     if method == 'Fast Gradient Sign Method':
 
