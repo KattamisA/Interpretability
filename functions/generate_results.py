@@ -3,13 +3,13 @@ import numpy as np
 from functions.classification import classification
 from functions.utils.common_utils import *
 
-def generate_result_files(path, adv, orig, num_iter, name):
+def generate_result_files(path, adv, orig, num_iter, name, cuda=False):
     ## Find original class
-    P, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
+    _, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
     original_class = R[0,0]
     original_confidence = P[0,0].detach().numpy()
     ## Find final set of classes
-    P, R = classification(adv, model_name = 'resnet18', sort = True, show=False)
+    _, R = classification(adv, model_name = 'resnet18', sort = True, show=False)
     final_classes = R[0,0:5]
     
     num_images = int((num_iter-1)/100 + 1)
@@ -21,11 +21,13 @@ def generate_result_files(path, adv, orig, num_iter, name):
         loaded_image = cv2.imread('{}/it_{}.png'.format(path,i*100))[..., ::-1]
         loaded_image = cv2.resize(loaded_image, (256, 256))
         img = loaded_image.copy().astype(np.float32)
-        Probs, Ranks = classification(img, model_name = 'resnet18', sort = False, show = False)
-        Probs_np = torch_to_np(Probs)
-        Confidence[i,0] = Probs_np[original_class]        
-        P , Ranking = Probs.sort(descending=True)
-        Ranking_np = torch_to_np(Ranking)           
+        Probs, _ = classification(img, model_name = 'resnet18', sort = False, show = False, cuda)
+        #Probs_np = torch_to_np(Probs)
+        Probs_np= Probs
+        Confidence[i,0] = Probs_np[original_class]
+        _ , Ranking = Probs.sort(descending=True)
+        Ranking_np = Ranking
+        #Ranking_np = torch_to_np(Ranking)
         for j in range(5):
             Confidence[i,j+1] = Probs_np[final_classes[j]]
             Ranks_matrix[i,j] = Ranking_np[j]

@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 from functions.utils.imagenet_classes import classes
 
-def classification(orig, model_name='resnet18', method='Fast Gradient Sign Method', sort = False, show = True):
+def classification(orig, model_name='resnet18', method='Fast Gradient Sign Method', sort = False, show = True, cuda=False):
     
     if show == True:
         print('Classification Model: %s \n' %(model_name))
@@ -33,10 +33,12 @@ def classification(orig, model_name='resnet18', method='Fast Gradient Sign Metho
 
     # prediction before attack
     inp = Variable(torch.from_numpy(img).float().unsqueeze(0))#.cuda()
+    if cuda:
+        inp= inp.cuda()
     out = model(inp)
     sm = torch.nn.Softmax(1)
 
-    Probs,Ranks = sm(out).sort(descending=True)
+    Probs,Ranks = sm(out).sort(descending=True).cpu().numpy()
 
     if show == True:    
         print('{:<20}{:>20}\n'.format('Top 5 classes', 'Confidence'))
