@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 #      #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
 #      print('\n')
 
-image_dataset = ['zebgra_GT.png', 'knife.jpg']
+image_dataset = ['zebra_GT.png', 'knife.jpg']
 
 for image in image_dataset:
     adv, orig, pert = adversarial_examples("data/{}".format(image), method="LLCI", eps=100, show=False,
