@@ -38,7 +38,7 @@ def classification(orig, model_name='resnet18', method='Fast Gradient Sign Metho
     out = model(inp)
     sm = torch.nn.Softmax(1)
 
-    Probs,Ranks = sm(out).cpu().numpy().sort(descending=True)
+    Probs,Ranks = sm(out).cpu().detach().numpy().sort(descending=True)
 
     if show == True:    
         print('{:<20}{:>20}\n'.format('Top 5 classes', 'Confidence'))
