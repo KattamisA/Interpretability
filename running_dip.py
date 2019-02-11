@@ -44,7 +44,7 @@ for image in image_dataset:
     print("#############\n\nWorking on image: {}".format(name))
     adv, orig, pert = adversarial_examples("data/{}".format(image), method = "LLCI", eps = 100, show=False)
 
-    save_path = 'results/Adv_DIP/Multiple_images/' + name
+    save_path = 'results/Adv_DIP/Multiple_images/EntropySGD_LR10' + name
     #_ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path=save_path, arch='complex', name=name)
     name = name + '_resnet50'
     generate_result_files(save_path, adv, orig, num_iter, name, cuda=True, model='resnet50')
