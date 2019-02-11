@@ -6,9 +6,9 @@ import cv2
 import numpy as np
 
 image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
-                 'dolphin.jpg', 'spider.jpg', 'labrador.jpg']#, 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
-                 # 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
-                 # 'knife.jpg', 'rope.jpeg']
+                 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
+                 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
+                 'rope.jpeg', 'knife.jpg']
 
 epsilon_values = [1, 5, 25, 100]
 num_iter = 5001
