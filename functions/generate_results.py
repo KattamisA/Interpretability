@@ -29,6 +29,7 @@ def generate_result_files(path, adv, orig, num_iter, name, cuda=False):
         for j in range(5):
             Confidence[i,j+1] = Probs_np[final_classes[j]]
             Ranks_matrix[i,j] = Ranking_np[j]
+            
     normalised_confidence = Confidence[:,0]/original_confidence
     np.savetxt('{}/{}_Confidences.txt'.format(path, name), Confidence)
     np.savetxt('{}/{}_Ranks.txt'.format(path, name), Ranks_matrix)

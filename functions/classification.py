@@ -34,6 +34,7 @@ def classification(orig, model_name='resnet18', method='Fast Gradient Sign Metho
     # prediction before attack
     inp = Variable(torch.from_numpy(img).float().unsqueeze(0))#.cuda()
     if cuda:
+        model.cuda()
         inp= inp.cuda()
     out = model(inp)
     sm = torch.nn.Softmax(1)
