@@ -11,7 +11,8 @@ import cv2
 from functions.utils.imagenet_classes import classes
 
 
-def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradient Sign Method',eps = 5, alpha = 1, num_iter = None, show=True):
+def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradient Sign Method',eps = 5, alpha = 1,
+                         num_iter=None, show=True, cuda=False):
     
     if num_iter == None:
         num_iter = int(round(max(eps+4,eps*1.25)))
@@ -54,11 +55,15 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
 
     # prediction before attack
     inp = Variable(torch.from_numpy(img).float().unsqueeze(0), requires_grad=True)#.cuda()
+    if cuda:
+        model.cuda()
+        criterion.cuda()
+        inp = inp.cuda()
     out = model(inp)
     sm = nn.Softmax(1)
-    Probs,Ranks = sm(out).sort(descending=True)
+    Probs, Ranks = sm(out).cpu().detach().sort(descending=True)
 
-    pred = np.argmax(out.data.cpu().numpy())
+    pred = np.argmax(out.data.cpu().detach().numpy())
 
     if show == True:
         print('Prediction before attack:\n')
