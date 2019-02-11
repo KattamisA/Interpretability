@@ -22,12 +22,10 @@ def generate_result_files(path, adv, orig, num_iter, name, cuda=False):
         loaded_image = cv2.resize(loaded_image, (256, 256))
         img = loaded_image.copy().astype(np.float32)
         Probs, _ = classification(img, model_name = 'resnet18', sort = False, show = False, cuda=cuda)
-        #Probs_np = torch_to_np(Probs)
-        Probs_np= Probs
+        Probs_np = torch_to_np(Probs)
         Confidence[i,0] = Probs_np[original_class]
         _ , Ranking = Probs.sort(descending=True)
-        Ranking_np = Ranking
-        #Ranking_np = torch_to_np(Ranking)
+        Ranking_np = torch_to_np(Ranking)
         for j in range(5):
             Confidence[i,j+1] = Probs_np[final_classes[j]]
             Ranks_matrix[i,j] = Ranking_np[j]
