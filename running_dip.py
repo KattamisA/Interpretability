@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 #adv, orig, pert = adversarial_examples("data/goldfish.jpg", method = "LLCI",eps=100, show=False)
-num_iter = 5001
+num_iter = 10001
 #for i in range(6):
 #    std1 = 2**(i)
 #    std = std1/64.0
@@ -34,21 +34,20 @@ num_iter = 5001
 #    generate_result_files(save_path, adv, orig, num_iter)
 
 ### Observing multiple images #
-images =['goldfish.jpg']#,'rope.jpeg']
-# images = ['whale.jpg',
-#           'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg', 'car_wheel.jpg',
-#           'fountain.jpg', 'football_helmet.jpg','hourglass.jpg', 'refrigirator.jpg', 'knife.jpg', 'rope.jpeg']
+image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
+                 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
+                 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
+                 'knife.jpg', 'rope.jpeg']
 
-#'panda.jpg', 'peacock.jpg', 'F16_GT.png','monkey.jpg', 'zebra_GT.png', 'goldfish.jpg',
+for image in image_dataset:
+    name = '{}'.format(image.split('.')[0])
+    print("#############\n\nWorking on image: {}".format(name))
+    adv, orig, pert = adversarial_examples("data/{}".format(image), method = "LLCI", eps = 100, show=False)
 
-for i in images:
-    adv, orig, pert = adversarial_examples("data/{}".format(i), method = "FGSM", eps = 100, show=False)
-    print("#############\n\nWorking on image: {}".format(i.split('.')[0]))
-    name = '{}'.format(i.split('.')[0])
-
-    save_path='results/Adv_DIP/testing'
+    save_path = 'results/Adv_DIP/Multiple_images/' + name
     #_ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path=save_path, arch='complex', name=name)
-    generate_result_files(save_path, adv, orig, 5001, name, cuda=True)
+    name = name + '_resnet50'
+    generate_result_files(save_path, adv, orig, num_iter, name, cuda=True, model='resnet50')
     #
     # save_path='results/Adv_DIP/Multiple_images/Gradients/EntropySGD'
     # _ = dip(adv, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', name=name,
