@@ -1,20 +1,20 @@
-giant panda                     0.992141
-peacock                         0.999998
-warplane                        0.210911
-guenon                          0.994027
-zebra                           0.997969
-goldfish                        0.999044
-killer whale                    0.996592
-albatross                       0.564875
-wolf spider                     0.780531
-Labrador retriever              0.980170
-Indian cobra                    0.998510
-flamingo                        0.991511
-canoe                           0.845454
-car wheel                       0.869740
-fountain                        0.999845
-football helmet                 0.901011
-hourglass                       1.000000
-refrigerator                    0.997430
-letter opener                   0.525774
-coil                            0.894337
+giant panda                     0.903206
+peacock                         0.953684
+warplane                        0.752743
+guenon                          0.919704
+zebra                           0.950267
+goldfish                        0.984631
+killer whale                    0.976064
+hammerhead                      0.183775
+ant                             0.152571
+Labrador retriever              0.830709
+Indian cobra                    0.985763
+flamingo                        0.930934
+canoe                           0.937640
+car wheel                       0.555636
+fountain                        0.895965
+football helmet                 0.694211
+hourglass                       0.999494
+refrigerator                    0.862633
+cleaver                         0.971356
+coil                            0.443520
