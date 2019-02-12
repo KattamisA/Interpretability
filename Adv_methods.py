@@ -8,7 +8,7 @@ image_dataset = ['panda.jpg']#, 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebr
                  # 'rope.jpeg', 'knife.jpg']
 
 epsilon_values = [1, 5, 25, 100]
-num_iter = 10001
+num_iter = 501
 
 for image in image_dataset:
     name = '{}'.format(image.split('.')[0])

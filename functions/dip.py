@@ -267,7 +267,7 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
         ## Initialiaze/ Update variables
         if glparam.noise_std > 0.0:
             net_input = glparam.net_input_saved + (glparam.noise.normal_() * glparam.noise_std)
-        net_input = torch.tensor(net_input, dtype=torch.float32, device='cuda:0', requires_grad=True)
+        net_input = torch.tensor(net_input, dtype=torch.float32, device='cuda:0')#, requires_grad=True)
         out = glparam.net(net_input)
 
         ## Exponential Smoothing
