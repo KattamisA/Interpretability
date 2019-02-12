@@ -55,7 +55,7 @@ class GenNoise(nn.Module):
         b = torch.zeros(a).type_as(input.data)
         b.normal_()
 
-        x = torch.autograd.Variable(b, requires_grad=True)
+        x = torch.autograd.Variable(b)
 
         return x
 
