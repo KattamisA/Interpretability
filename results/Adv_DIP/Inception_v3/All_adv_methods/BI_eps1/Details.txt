@@ -10,7 +10,7 @@ Optimize over:                                              net
 Optimizer:                                                  adam        
 
 Learning rate:                                              0.01        
-Number of iterations:                                       501         
+Number of iterations:                                       5001        
 
 Loss function:                                              MSE         
 
