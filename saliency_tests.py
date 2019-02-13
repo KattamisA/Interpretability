@@ -2,21 +2,21 @@ from functions.generate_saliency_maps import generate_saliency_maps
 from functions.adversarial import *
 import matplotlib.pyplot as plt
 
-# image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
-#                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
-#                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
-#                  'knife.jpg', 'rope.jpeg']
-#
-# for i in range(len(image_dataset)):
-#     image = image_dataset[i]
-#
-#     print('###### Working on image: ' + image.split('.')[0])
-#     generate_saliency_maps('data', image, model_type='resnet18', cuda=True,
-#                            top_percentile=99, bottom_percentile=10, mask_mode=True)
-#
-#     #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', "adv_knife.png", model_type='resnet18', cuda=True,
-#     #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
-#     print('\n')
+image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
+                 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
+                 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
+                 'knife.jpg', 'rope.jpeg']
+
+for i in range(len(image_dataset)):
+    image = image_dataset[i]
+
+    print('###### Working on image: ' + image.split('.')[0])
+    generate_saliency_maps('data', image, model_type='inception_v3', cuda=True,
+                           top_percentile=99, bottom_percentile=10, mask_mode=True)
+
+    #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', "adv_knife.png", model_type='resnet18', cuda=True,
+    #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
+    print('\n')
 
 # image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
 # image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
@@ -32,13 +32,13 @@ import matplotlib.pyplot as plt
 #      #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
 #      print('\n')
 
-image_dataset = ['zebra_GT.png', 'knife.jpg']
-
-for image in image_dataset:
-    adv, orig, pert = adversarial_examples("data/{}".format(image), method="LLCI", eps=100, show=False,
-                                           model_name='resnet18', cuda=False)
-    name = image.split('.')[0]
-    plt.imsave('results/Saliency/adversarial/' + name + '_adversarial.png', adv, format='png')
-    generate_saliency_maps('results/Saliency/adversarial', name+'_adversarial.png', model_type='resnet18', cuda=True,
-                           top_percentile=99, bottom_percentile=10, mask_mode=True)
-    print('\n')
+# image_dataset = ['zebra_GT.png', 'knife.jpg']
+#
+# for image in image_dataset:
+#     adv, orig, pert = adversarial_examples("data/{}".format(image), method="LLCI", eps=100, show=False,
+#                                            model_name='resnet18', cuda=False)
+#     name = image.split('.')[0]
+#     plt.imsave('results/Saliency/adversarial/' + name + '_adversarial.png', adv, format='png')
+#     generate_saliency_maps('results/Saliency/adversarial', name+'_adversarial.png', model_type='resnet18', cuda=True,
+#                            top_percentile=99, bottom_percentile=10, mask_mode=True)
+#     print('\n')
