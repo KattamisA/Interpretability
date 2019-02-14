@@ -16,7 +16,7 @@ for i in range(len(image_dataset)):
     save_path = 'results/Saliency/adversarial'
     image = name + '.png'
 
-    img = cv2.imread(save_path + image)[..., ::-1]
+    img = cv2.imread(save_path + '/' + image)[..., ::-1]
     confidence, ranks = classification(img, sort=True, show=False, model_name='resnet18', cuda=True)
     Class = classes[int(ranks[0, 0])].split(',')[0]
     f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
@@ -24,7 +24,7 @@ for i in range(len(image_dataset)):
     # generate_saliency_maps('results/Saliency/adversarial', image, model_type='resnet18', cuda=True,
     #                       top_percentile=99, bottom_percentile=10, mask_mode=True)
     image = name + '_inception_v3.png'
-    img = cv2.imread(save_path + image)[..., ::-1]
+    img = cv2.imread(save_path + '/' + image)[..., ::-1]
     confidence, ranks = classification(img, sort=True, show=False, model_name='inception_v3', cuda=True)
     Class = classes[int(ranks[0, 0])].split(',')[0]
     q.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
