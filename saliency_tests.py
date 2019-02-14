@@ -12,10 +12,10 @@ for i in range(len(image_dataset)):
     print('###### Working on image: ' + image.split('.')[0])
     name = image.split('.')[0]
     save_path = 'results/Saliency/adversarial'
-    image = image + '.png'
+    image = name + '.png'
     generate_saliency_maps('results/Saliency/adversarial', image, model_type='resnet18', cuda=True,
                           top_percentile=99, bottom_percentile=10, mask_mode=True)
-    image = image + '_inception_v3.png'
+    image = name + '_inception_v3.png'
     generate_saliency_maps('results/Saliency/adversarial', image, model_type='resnet18', cuda=True,
                          top_percentile=99, bottom_percentile=10, mask_mode=True)
     print('\n')
