@@ -14,9 +14,9 @@ Peak_amplitudes = zeros(1,size(img_names,2));
 Mean_peak_amplitudes = zeros(1,size(img_names,2));
 
 %% Calculating normalised
-common = '%s/%s_resnet50_Normalised.txt';
+common = '%s/Normalised.txt';
 for i=1:size(img_names,2)
-    path = sprintf(common,img_names(i),img_names(i));
+    path = sprintf(common,img_names(i));
     s = load(path);
     Normalise(:,i) = s(:,1);
     [Peak_amplitudes(1,i),Peak_iterations(1,i)]  = max(s(1:101,1));
@@ -67,7 +67,7 @@ plot(t,[Average+Std, Average-Std],'--r','LineWidth',0.2,'HandleVisibility','off'
 % legend('Adam optimizer - average')
 xlabel('DIP iterations')
 ylabel('Averaged Class Confidence')
-% xlim([0 5000])
+xlim([0 5000])
 % plot(t,Std,'LineWidth',1)
 grid on
 % legend('Adam','EntropySGD')

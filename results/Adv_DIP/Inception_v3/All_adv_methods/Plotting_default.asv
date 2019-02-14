@@ -1,0 +1,53 @@
+clear all
+% close all
+
+%% Load and plot confidences
+t=0:100:5000;
+img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador','snake','flamingo_animal','canoe','car_wheel','fountain','football_helmet','hourglass','refrigirator','knife','rope'];
+             
+Confidence = zeros(51,size(img_names,2));
+Normalise = zeros(51,size(img_names,2));
+hold on
+
+%% Calculating normalised
+
+common = 'GSM_eps%d/%s_Normalised.txt';
+eps =[1, 5, 25, 100];
+for j = 1:4
+    for i=1:size(img_names,2)
+        path = sprintf(common,eps(j),img_names(i));
+        s = load(path);
+        Normalise(:,i) = s(:,1);
+        Average(:,j) = mean(Normalise,2);
+    end
+end
+%% Calculating Unnormalized
+% common = 'EntropySGD/%s_Confidences.txt';
+% for i=1:size(img_names,2)
+%     path = sprintf(common,img_names(i));
+%     q = load(path);
+%     Confidence(:,i) = q(:,1);
+% end
+
+%% Plotting
+Std = std(Normalise,0,2);
+% figure
+% plot(t,mean(Confidence,2))
+hold on
+plot(t,Average(1:51,:),'LineWidth',1.5)
+% plot(t',[Average+Std, Average-Std],'--r','LineWidth',0.2,'HandleVisibility','off')
+% legend('Adam optimizer - average')
+xlabel('DIP iterations')
+ylabel('Averaged Class Confidence')
+
+%% Plotting all the lines 
+% figure
+% plot(t,Normalise)
+% xlabel('DIP iterations')
+% ylabel('Class Confidence')
+%
+% figure
+% plot(t,Confidence)
+% xlabel('DIP iterations')
+% ylabel('Class Confidence')
+% legend('Panda','Peacock','F16 GT','Monkey','Zebra GT','Goldfish')

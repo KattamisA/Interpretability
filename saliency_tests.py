@@ -9,11 +9,14 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 
 for i in range(len(image_dataset)):
     image = image_dataset[i]
-
     print('###### Working on image: ' + image.split('.')[0])
-    generate_saliency_maps('data', image, model_type='inception_v3', cuda=True,
-                           top_percentile=99, bottom_percentile=10, mask_mode=True)
-
+    save_path = 'results/Saliency/adversarial'
+    adv, orig, pert = adversarial_examples("data/{}".format(image), method = "FGSM", eps = 100, show=False)
+    plt.imsave(save_path + '/{}.png', adv, format='png')
+    #generate_saliency_maps('data', image, model_type='resnet18', cuda=True,
+    #                       top_percentile=99, bottom_percentile=10, mask_mode=True)
+    adv, orig, pert = adversarial_examples("data/{}".format(image), method = "FGSM", eps = 100, show=False, model_name='inception_v3')
+    plt.imsave(save_path + '/{}_inception_v3.png', adv, format='png')
     #generate_saliency_maps('results/Adv_DIP/Multiple_images/knife', "adv_knife.png", model_type='resnet18', cuda=True,
     #                      top_percentile=99, bottom_percentile=0, mask_mode=True, target_label_index=class_index)
     print('\n')
