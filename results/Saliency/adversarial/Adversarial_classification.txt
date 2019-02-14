@@ -1,0 +1,20 @@
+giant panda                     0.401210
+peacock                         0.172686
+pillow                          0.206569
+jigsaw puzzle                   0.275346
+gazelle                         0.151061
+starfish                        0.936476
+great white shark               0.521028
+peacock                         0.069082
+chainlink fence                 0.656198
+American Staffordshire terrier  0.106078
+water snake                     0.192028
+armadillo                       0.160051
+common iguana                   0.395744
+car wheel                       0.442542
+sundial                         0.978599
+mask                            0.174623
+hourglass                       0.999885
+coffeepot                       0.119742
+fountain pen                    0.732880
+knot                            0.832202

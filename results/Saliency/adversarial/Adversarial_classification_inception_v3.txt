@@ -1,0 +1,20 @@
+giant panda                     0.979857
+peacock                         0.437992
+wing                            0.417175
+patas                           0.805544
+zebra                           0.853136
+goldfish                        0.262360
+killer whale                    0.589632
+tiger shark                     0.172875
+tarantula                       0.411485
+bull mastiff                    0.377885
+water snake                     0.245912
+flamingo                        0.692632
+paddle                          0.619346
+moped                           0.793276
+fountain                        0.159968
+soccer ball                     0.986086
+hourglass                       0.995094
+pencil sharpener                0.430475
+letter opener                   0.213119
+knot                            0.759137
