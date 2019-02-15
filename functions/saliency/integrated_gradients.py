@@ -5,7 +5,7 @@ import numpy as np
 
 # integrated gradients
 def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, smoothgrad, baseline = None, steps=50,
-                         cuda=False, magnitude=False):
+                         cuda=False, magnitude=False, stdev_spread=.15):
 
     if baseline is None:
         baseline = 0 * inputs
@@ -19,7 +19,7 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
         avg_grads = np.transpose(avg_grads, (1, 2, 0))
     else:
         grads = get_smoothed_gradients(scaled_inputs, model, target_label_idx, predict_and_gradients, cuda=cuda,
-                                       magnitude=magnitude)
+                                       magnitude=magnitude, stdev_spread=stdev_spread)
         avg_grads = np.average(grads[:-1], axis=0)
 
     if magnitude:
@@ -30,12 +30,12 @@ def integrated_gradients(inputs, model, target_label_idx, predict_and_gradients,
 
 
 def random_baseline_integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, steps,
-                                         num_random_trials, cuda, smoothgrad=False, magnitude=False):
+                                         num_random_trials, cuda, smoothgrad=False, magnitude=False, stdev_spread=.15):
     all_intgrads = []
     for i in range(num_random_trials):
         integrated_grad = integrated_gradients(inputs, model, target_label_idx, predict_and_gradients, smoothgrad,
                                                baseline=255.0 * np.random.random(inputs.shape), steps=steps, cuda=cuda,
-                                               magnitude=magnitude)
+                                               magnitude=magnitude, stdev_spread=stdev_spread)
         all_intgrads.append(integrated_grad)
         print('the trial number is: [{:>2}/{}]'.format(i+1, num_random_trials), end='\r')
     avg_intgrads = np.average(all_intgrads, axis=0)
