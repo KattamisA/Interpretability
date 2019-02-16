@@ -8,7 +8,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
                  'knife.jpg', 'rope.jpeg']
 f = open('results/Saliency/adversarial/llci/LLCI_classification.txt', "w+")
-q = open('results/Saliency/adversarial/llci/LLCI_classification_inception_v3.txt', "w+")
+#q = open('results/Saliency/adversarial/llci/LLCI_classification_inception_v3.txt', "w+")
 for i in range(len(image_dataset)):
     image = image_dataset[i]
     print('###### Working on image: ' + image.split('.')[0])
@@ -16,11 +16,12 @@ for i in range(len(image_dataset)):
     name = image.split('.')[0]
     image = name + '_llci_adversarial.png'
     save_path = 'results/Saliency/adversarial/llci'
-    # confidence, ranks = classification(adv, sort=True, show=False, model_name='resnet18', cuda=True)
-    # Class = classes[int(ranks[0, 0])].split(',')[0]
-    # f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
-    generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
-                         top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
+    img = cv2.imread(save_path + '/' + image)[..., ::-1]
+    confidence, ranks = classification(img, sort=True, show=False, model_name='resnet18', cuda=True)
+    Class = classes[int(ranks[0, 0])].split(',')[0]
+    f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
+    #generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
+    #                     top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
 
     # generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
     #                      top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.01)
