@@ -123,7 +123,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
         smoothgrad_attributions_false = random_baseline_integrated_gradients(img, model, target_label,
                                                                        calculate_outputs_and_gradients,
                                                                        steps=integration_steps, num_random_trials=10,
-                                                                       cuda=cuda, smoothgrad=True, magnitude=True,
+                                                                       cuda=cuda, smoothgrad=True, magnitude=False,
                                                                        stdev_spread=stdev_spread, absolute=False)
         img_integrated_smoothgrad_false_overlay = visualize(smoothgrad_attributions_false, img,
                                                            clip_above_percentile=top_percentile,
@@ -142,7 +142,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
                                             img_integrated_smoothgrad_false, img_integrated_smoothgrad_false_overlay,
                                             img_integrated_smoothgrad_false_neg, img_integrated_smoothgrad_false_neg_overlay)
 
-        plt.imsave(path + '/Saliency_' + image_name + '_test.png', np.uint8(output_img), format="png")
+        plt.imsave(path + '/Saliency_' + image_name + '_test2.png', np.uint8(output_img), format="png")
 
 
     return
