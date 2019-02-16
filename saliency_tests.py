@@ -3,35 +3,35 @@ from functions.adversarial import *
 from functions.classification import *
 import matplotlib.pyplot as plt
 
-image_dataset = ['panda.jpg']#, 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
-                 # 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
-                 # 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
-                 # 'knife.jpg', 'rope.jpeg']
-# f = open('results/Saliency/adversarial/Adversarial_classification.txt', "w+")
-# q = open('results/Saliency/adversarial/Adversarial_classification_inception_v3.txt', "w+")
+image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
+                 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
+                 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
+                 'knife.jpg', 'rope.jpeg']
+f = open('results/Saliency/adversarial/llci/LLCI_classification.txt', "w+")
+q = open('results/Saliency/adversarial/llci/LLCI_classification_inception_v3.txt', "w+")
 for i in range(len(image_dataset)):
     image = image_dataset[i]
     print('###### Working on image: ' + image.split('.')[0])
+    adv, orig, pert = adversarial_examples("data/{}".format(image), method = "LLCI", eps = 100, alpha=50, show=False)
     name = image.split('.')[0]
-    # save_path = 'results/Saliency/adversarial'
     image = name + '.png'
+    save_path = 'results/Saliency/adversarial/llci'
+    confidence, ranks = classification(adv, sort=True, show=False, model_name='resnet18', cuda=True)
+    Class = classes[int(ranks[0, 0])].split(',')[0]
+    f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
+    plt.imsave(save_path + '/' + name + '_llci_adversarial.png', adv, format='png')
+    #generate_saliency_maps('results/Saliency/adversarial', image, model_type='resnet18', cuda=True,
+     #                     top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
 
-    # img = cv2.imread(save_path + '/' + image)[..., ::-1]
-    # confidence, ranks = classification(img, sort=True, show=False, model_name='resnet18', cuda=True)
-    # Class = classes[int(ranks[0, 0])].split(',')[0]
-    # f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
+    # image = name + '_inception_v3.png'
 
-    generate_saliency_maps('results/Saliency/adversarial', image, model_type='resnet18', cuda=True,
-                          top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
-
-    image = name + '_inception_v3.png'
     #img = cv2.imread(save_path + '/' + image)[..., ::-1]
     #confidence, ranks = classification(img, sort=True, show=False, model_name='inception_v3', cuda=True)
     #Class = classes[int(ranks[0, 0])].split(',')[0]
     #q.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
 
-    generate_saliency_maps('results/Saliency/adversarial', image, model_type='inception_v3', cuda=True,
-                          top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
+    #generate_saliency_maps('results/Saliency/adversarial', image, model_type='inception_v3', cuda=True,
+    #                      top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
     print('\n')
 
 # image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
