@@ -22,8 +22,8 @@ for i in range(len(image_dataset)):
     generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
                          top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
 
-    generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
-                         top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.01)
+    # generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
+    #                      top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.01)
 
     # image = name + '_inception_v3.png'
 
