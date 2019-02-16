@@ -34,7 +34,7 @@ def polarity_function(attributions, polarity):
     if polarity == 'positive':
         return np.clip(attributions, 0, 1)
     elif polarity == 'negative':
-        return np.clip(attributions, -1, 0)
+        return np.abs(np.clip(attributions, -1, 0))
     else:
         raise NotImplementedError
 
