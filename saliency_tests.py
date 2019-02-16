@@ -21,7 +21,7 @@ for i in range(len(image_dataset)):
     # Class = classes[int(ranks[0, 0])].split(',')[0]
     # f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
     generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
-                        top_percentile=99, bottom_percentile=58, mask_mode=True, stdev_spread=0.05)
+                        top_percentile=95, bottom_percentile=58, mask_mode=True, stdev_spread=0.05)
 
     # generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
     #                      top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.01)
