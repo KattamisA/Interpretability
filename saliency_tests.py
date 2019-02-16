@@ -12,16 +12,18 @@ q = open('results/Saliency/adversarial/llci/LLCI_classification_inception_v3.txt
 for i in range(len(image_dataset)):
     image = image_dataset[i]
     print('###### Working on image: ' + image.split('.')[0])
-    adv, orig, pert = adversarial_examples("data/{}".format(image), method = "LLCI", eps = 100, alpha=50, show=False)
+    #adv, orig, pert = adversarial_examples("data/{}".format(image), method = "LLCI", eps = 100, alpha=50, show=False)
     name = image.split('.')[0]
-    image = name + '.png'
+    image = name + '_llci_adversarial.png'
     save_path = 'results/Saliency/adversarial/llci'
-    confidence, ranks = classification(adv, sort=True, show=False, model_name='resnet18', cuda=True)
-    Class = classes[int(ranks[0, 0])].split(',')[0]
-    f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
-    plt.imsave(save_path + '/' + name + '_llci_adversarial.png', adv, format='png')
-    #generate_saliency_maps('results/Saliency/adversarial', image, model_type='resnet18', cuda=True,
-     #                     top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
+    # confidence, ranks = classification(adv, sort=True, show=False, model_name='resnet18', cuda=True)
+    # Class = classes[int(ranks[0, 0])].split(',')[0]
+    # f.write("{:<30}{:>10.6f}\n".format(Class, confidence[0, 0]))
+    generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
+                         top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.05)
+
+    generate_saliency_maps('results/Saliency/adversarial/llci', image, model_type='resnet18', cuda=True,
+                         top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.01)
 
     # image = name + '_inception_v3.png'
 
