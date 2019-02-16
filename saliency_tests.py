@@ -13,9 +13,9 @@ for i in range(len(image_dataset)):
     image = image_dataset[i]
     print('###### Working on image: ' + image.split('.')[0])
     #adv, orig, pert = adversarial_examples("data/{}".format(image), method = "LLCI", eps = 100, alpha=50, show=False)
-    # name = image.split('.')[0]
-    # image = name + '_llci_adversarial.png'
-    save_path = 'data/Saliency'
+    name = image.split('.')[0]
+    image = name + '_llci_adversarial.png'
+    save_path = 'results/Saliency/adversarial/llci'
     # img = cv2.imread(save_path + '/' + image)[..., ::-1]
     # confidence, ranks = classification(img, sort=True, show=False, model_name='resnet18', cuda=True)
     # Class = classes[int(ranks[0, 0])].split(',')[0]
