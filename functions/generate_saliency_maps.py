@@ -8,7 +8,7 @@ from functions.saliency.visualization import visualize
 import matplotlib.pyplot as plt
 import numpy as np
 
-def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, top_percentile=99, bottom_percentile=1,
+def generate_saliency_maps(path, img_path, name, model_type='resnet18', cuda=False, top_percentile=99, bottom_percentile=1,
                            mask_mode=True, target_label=None, stdev_spread=.15, dual=False):
 
     # start to create models...
@@ -30,7 +30,7 @@ def generate_saliency_maps(path, img_path, model_type='resnet18', cuda=False, to
     # read the image
     img = cv2.imread(img_path)
     # img = cv2.imread('data/' + img_path)
-    image_name = '{}'.format(img_path.split('.')[0])
+    image_name = name
 
     if model_type == 'inception_v3':
         img = cv2.resize(img, (300, 300))

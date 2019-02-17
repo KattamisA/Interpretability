@@ -21,31 +21,31 @@ for i in range(len(image_dataset)):
     image = name + '_llci_adversarial.png'
     save_path = 'results/Saliency/adversarial/llci/Dual_polarity_tests'
     img_path = 'results/Saliency/adversarial/llci/' + image
-    generate_saliency_maps(save_path, img_path, model_type='resnet18', cuda=True, target_label=target_class,
+    generate_saliency_maps(save_path, img_path, name, model_type='resnet18', cuda=True, target_label=target_class,
                         top_percentile=95, bottom_percentile=50, mask_mode=True, stdev_spread=0.01, dual=True)
 
     print('## Smoothgrad with std = 0.05 ##')
     save_path = 'results/Saliency/adversarial/llci/Smoothgrad_std005'
-    generate_saliency_maps(save_path, img_path, model_type='resnet18', cuda=True, target_label=target_class,
+    generate_saliency_maps(save_path, img_path, name, model_type='resnet18', cuda=True, target_label=target_class,
                         top_percentile=95, bottom_percentile=50, mask_mode=True, stdev_spread=0.05, dual=False)
 
     print('## Smoothgrad with std = 0.01 ##')
     save_path = 'results/Saliency/adversarial/llci/Smoothgrad_std001'
-    generate_saliency_maps(save_path, img_path, model_type='resnet18', cuda=True, target_label=target_class,
+    generate_saliency_maps(save_path, img_path, name, model_type='resnet18', cuda=True, target_label=target_class,
                         top_percentile=95, bottom_percentile=50, mask_mode=True, stdev_spread=0.01, dual=False)
 
     print('## Inception v3 ##')
     image = name + '_inception_v3.png'
     save_path = 'results/Saliency/adversarial/fgsm/Inception_v3'
     img_path = 'results/Saliency/adversarial/fgsm/Inception_v3/' + image
-    generate_saliency_maps(save_path, img_path, model_type='resnet18', cuda=True, target_label=target_class,
+    generate_saliency_maps(save_path, img_path, name, model_type='resnet18', cuda=True, target_label=target_class,
                         top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.15, dual=False)
 
     print('## Resnet 18 ##')
     image = name + '.png'
     save_path = 'results/Saliency/adversarial/fgsm/Resnet18'
     img_path = 'results/Saliency/adversarial/fgsm/Resnet18/' + image
-    generate_saliency_maps(save_path, img_path, model_type='resnet18', cuda=True, target_label=target_class,
+    generate_saliency_maps(save_path, img_path, name, model_type='resnet18', cuda=True, target_label=target_class,
                         top_percentile=99, bottom_percentile=10, mask_mode=True, stdev_spread=0.15, dual=False)
     print('\n')
 
