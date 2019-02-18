@@ -227,6 +227,26 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 num_scales=5,
                 upsample_mode='bilinear').type(dtype)
 
+    elif arch == 'skip6':
+        if input_depth is None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=2,
+                num_scales=5,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'skip7':
+        if input_depth is None:
+            input_depth = 32
+        glparam.net = get_net(input_depth, 'skip', pad,
+                              skip_n33d=128,
+                              skip_n33u=128,
+                              skip_n11=1,
+                              num_scales=5,
+                              upsample_mode='bilinear').type(dtype)
+
     elif arch == 'simple':
         if input_depth == None:
             input_depth = 3 

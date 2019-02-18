@@ -30,20 +30,20 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 for i in range(0, len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
-    save_path_common = 'results/Adv_DIP/Depth_tests/{}'
+    save_path_common = 'results/Adv_DIP/Skip_connections/{}'
 
     print("#############\n\nWorking on image: {}".format(image_name))
     adv, orig, pert = adversarial_examples("data/{}".format(image_path), method="LLCI", eps=100, show=False)
 
-    for j in range(1,6):
+    for j in range(6, 8):
         print("####\n\nTest {}".format(j))
 
-        save_path = save_path_common.format('Adam/depth{}'.format(j))
-        _ = dip(adv, 'depth{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path)
+        save_path = save_path_common.format('Adam/skip{}'.format(j))
+        _ = dip(adv, 'skip{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path)
         generate_result_files(save_path, adv, orig, num_iter, image_name)
 
-        save_path = save_path_common.format('EntropySGD_std64/depth{}'.format(j))
-        _ = dip(adv, 'depth{}'.format(j), 10, num_iter, 1/64., save=True, plot=False, save_path=save_path, OPTIMIZER="EntropySGD")
+        save_path = save_path_common.format('EntropySGD_std64/skip{}'.format(j))
+        _ = dip(adv, 'skip{}'.format(j), 10, num_iter, 1/64., save=True, plot=False, save_path=save_path, OPTIMIZER="EntropySGD")
         generate_result_files(save_path, adv, orig, num_iter, image_name)
         
 #for i in range(0,len(image_dataset)):
