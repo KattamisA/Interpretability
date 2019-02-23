@@ -20,7 +20,7 @@ for i in range(len(image_dataset)):
     for j in range(3):
         print("####\n\nTest {}".format(j))
 
-        save_path = save_path_common.format('Adam/lr{}'.format(j))
+        save_path = save_path_common.format('Adam/lr{}'.format(j+1))
         _ = dip(adv, 'complex', LR[j], num_iter, save=True, plot=False, save_path=save_path, name=image_name)
         generate_result_files(save_path, adv, orig, num_iter, image_name)
 
