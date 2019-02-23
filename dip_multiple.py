@@ -8,7 +8,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
                  'rope.jpeg', 'knife.jpg']
         
-for i in range(len(image_dataset)):
+for i in range(1,len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     save_path_common = 'results/Adv_DIP/Learning_rates/{}'
@@ -18,7 +18,7 @@ for i in range(len(image_dataset)):
 
     LR = [0.001, 0.1, 1]
     for j in range(3):
-        print("####\n\nTest {}".format(j))
+        print("####\n\nTest {}".format(j+1))
 
         save_path = save_path_common.format('Adam/lr{}'.format(j+1))
         _ = dip(adv, 'complex', LR[j], num_iter, save=True, plot=False, save_path=save_path, name=image_name)
