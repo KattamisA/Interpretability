@@ -8,7 +8,7 @@ img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale
 Confidence = zeros(101,size(img_names,2));
 common = 'Adam/%s/%s_Normalised.txt';
 
-tests = [1, 2, 3, 4, 5, 6];
+tests = [1, 2, 3, 4, 5, 6, 7, 8];
 Averaged= zeros(101,size(tests,2));
 Std = zeros(101,size(tests,2));
 Peak_iterations = zeros(size(tests,2),size(img_names,2));
@@ -45,7 +45,7 @@ for j=1:size(tests,2)
 end
 ylim([0,size(tests,2)+2])
 grid on
-legend('Skip connections = 0','Skip connections = 4', 'Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
+legend('Skip connections = 0','Skip connections = 1','Skip connections = 2','Skip connections = 4','Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
 
 
 %% Plotting
@@ -56,10 +56,10 @@ hold on
 plot(t,Averaged,'LineWidth',1.5)
 % plot(t,[Averaged+Std, Averaged-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
 legend('Adam optimizer - average')
-legend('Skip connections = 0','Skip connections = 4','Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
+legend('Skip connections = 0','Skip connections = 1','Skip connections = 2','Skip connections = 4','Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
 xlabel('DIP iterations')
 ylabel('Averaged Class Confidence')
 xlim([0 5000])
 % plot(t,Std,'LineWidth',1)
 grid on
-legend('Skip connections = 0','Skip connections = 4', 'Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
+% legend('Skip connections = 0','Skip connections = 4', 'Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')

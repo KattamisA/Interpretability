@@ -361,7 +361,11 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 f.write("{:>11}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy))
                 plt.imsave("{}/it_{}.png".format(save_path, iter_value),
                        np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
-                
+
+        if (iter_value % 1000) == 0 and glparam.save:
+            plt.imsave("{}/{}_{}it.png".format(save_path, name, iter_value),
+                       np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
+
         return total_loss
         
     ### Optimize
