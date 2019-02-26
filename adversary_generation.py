@@ -11,7 +11,7 @@ for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
 
-    save_path_common = 'results/Adversarial_examples/{}'
+    save_path_common = 'results/adversarial_examples/{}'
 
     print("#############\n\nWorking on image: {}".format(image_name))
 
