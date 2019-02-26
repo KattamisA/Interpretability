@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 from functions.classification import *
 import numpy as np
 import cv2
