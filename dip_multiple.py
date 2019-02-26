@@ -19,7 +19,7 @@ for i in range(len(image_dataset)):
     for j in range(4, 7):
         print("####\n\nTest {}".format(j))
 
-        save_path = save_path_common.format('Adam/test{}'.format(j))
+        save_path = save_path_common.format('Adam/kernel{}'.format(j))
         _ = dip(adv, 'kernel{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
         generate_result_files(save_path, adv, orig, num_iter, image_name)
 
