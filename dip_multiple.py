@@ -8,20 +8,19 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
                  'rope.jpeg', 'knife.jpg']
         
-for i in range(11,len(image_dataset)):
+for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
-    save_path_common = 'results/Adv_DIP/Std_investigation/{}'
+    save_path_common = 'results/Adv_DIP/Kernel/{}'
 
     print("#############\n\nWorking on image: {}".format(image_name))
     adv, orig, pert = adversarial_examples("data/{}".format(image_path), method="LLCI", eps=100, show=False)
 
-    STD = [1/128., 1/64., 4/64., 8/64., 16/64., 32/64., 64/64.]
-    for j in range(7):
-        print("####\n\nTest {}".format(j+1))
+    for j in range(4, 7):
+        print("####\n\nTest {}".format(j))
 
-        save_path = save_path_common.format('Adam/test{}'.format(j+1))
-        _ = dip(adv, 'complex', 0.01, num_iter, STD[j], save=True, plot=False, save_path=save_path, name=image_name)
+        save_path = save_path_common.format('Adam/test{}'.format(j))
+        _ = dip(adv, 'kernel{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
         generate_result_files(save_path, adv, orig, num_iter, image_name)
 
         # save_path = save_path_common.format('EntropySGD/test{}'.format(j+1))

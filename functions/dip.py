@@ -21,7 +21,9 @@ dtype = torch.cuda.FloatTensor
 # dtype = torch.FloatTensor
 
 
-def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.0/30,exp_weight = 0.99, INPUT = 'noise', save = False, save_path = '', plot = True, input_depth = None, name = "", loss_fn = "MSE", OPTIMIZER = "adam", pad = 'zero',  OPT_OVER = 'net' ):
+def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, exp_weight=0.99, INPUT='noise',
+        save=False, save_path='', plot=True, input_depth=None, name="", loss_fn="MSE", OPTIMIZER="adam", pad='zero',
+        OPT_OVER='net'):
     
     glparam = global_parameters()
     glparam.set_params(save, plot, reg_noise_std, exp_weight)
@@ -175,6 +177,42 @@ def dip(img_np, arch = 'default', LR = 0.01, num_iter = 1000, reg_noise_std = 1.
                 num_scales=5,
                 filter_size_down=5,
                 filter_size_up=5,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'kernel4':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=5,
+                filter_size_down=7,
+                filter_size_up=7,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'kernel5':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=5,
+                filter_size_down=9,
+                filter_size_up=9,
+                upsample_mode='bilinear').type(dtype)
+
+    elif arch == 'kernel6':
+        if input_depth == None:
+            input_depth = 32
+        glparam.net = get_net(input_depth,'skip', pad,
+                skip_n33d=128,
+                skip_n33u=128,
+                skip_n11=4,
+                num_scales=5,
+                filter_size_down=11,
+                filter_size_up=11,
                 upsample_mode='bilinear').type(dtype)
 
     elif arch == 'skip1':
