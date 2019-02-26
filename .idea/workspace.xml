@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/denoising.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -102,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/denoising.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="357">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -201,9 +203,9 @@
         <option value="$PROJECT_DIR$/saliency_tests.py" />
         <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/dip_multiple.py" />
-        <option value="$PROJECT_DIR$/denoising.py" />
         <option value="$PROJECT_DIR$/adversary_generation.py" />
         <option value="$PROJECT_DIR$/noise_adv_recovery.py" />
+        <option value="$PROJECT_DIR$/denoising.py" />
       </list>
     </option>
   </component>
@@ -568,16 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/denoising.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -641,6 +633,16 @@
           <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/denoising.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>

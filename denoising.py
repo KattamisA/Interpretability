@@ -19,7 +19,7 @@ for i in range(len(image_dataset)):
     img_noisy = img + std*np.random.randn(224,224,3)
     img_noisy = np.clip(img_noisy,0,255).astype(np.uint8)
     
-    save_path = 'results/Denoising/Baseline'.format(image_name)[0]
+    save_path = 'results/Denoising/Baseline'
     _ = dip(img_noisy, 'complex', 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
     generate_result_files(save_path, img_noisy, img, num_iter)
     
