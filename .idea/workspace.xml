@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/dip_multiple.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+              <caret line="15" column="17" selection-start-line="15" selection-end-line="16" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="343" column="54" lean-forward="true" selection-start-line="342" selection-start-column="8" selection-end-line="343" selection-end-column="54" />
+              <caret line="343" column="54" selection-start-line="342" selection-start-column="8" selection-end-line="343" selection-end-column="54" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#1104#1513#0" />
@@ -95,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="544">
+              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
               <folding>
                 <element signature="e#1#39#0" expanded="true" />
               </folding>
@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/denoising.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -584,7 +584,7 @@
     <entry file="file://$PROJECT_DIR$/denoising.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -594,7 +594,7 @@
     <entry file="file://$PROJECT_DIR$/dip_multiple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-end-line="16" />
+          <caret line="15" column="17" selection-start-line="15" selection-end-line="16" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -604,7 +604,7 @@
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="343" column="54" lean-forward="true" selection-start-line="342" selection-start-column="8" selection-end-line="343" selection-end-column="54" />
+          <caret line="343" column="54" selection-start-line="342" selection-start-column="8" selection-end-line="343" selection-end-column="54" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#1104#1513#0" />
@@ -633,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="544">
+          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
           <folding>
             <element signature="e#1#39#0" expanded="true" />
           </folding>

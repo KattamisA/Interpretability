@@ -32,4 +32,4 @@ for i in range(len(image_dataset)):
 
         f = open("{}/{}_stats.txt".format(save_path, image_name), "a")
         f.write("{:>8}{:>16.10f}\n".format(std[s], Average_confidence))
-    print('Noise standard deviation {:>11}'.format(s), end='\r')
+        print('Noise standard deviation [{:>4}/128]'.format(s+1), end='\r')
