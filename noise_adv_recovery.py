@@ -11,14 +11,15 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 
 for i in range(len(image_dataset)):
     orig_path = image_dataset[i]
-    orig = cv2.imread("data/{}".format(orig_path))[..., ::-1]
-    _, ranks = classification(orig, sort=True, cuda=True)
-    original_class = ranks[0, 0]
-
-    image_path = '{}_LLCI_eps100.png'.format(orig_path.split('.')[0])
     image_name = '{}'.format(orig_path.split('.')[0])
 
-    adversary = cv2.imread("results/adversarial_examples/{}".format(image_path))[..., ::-1]
+    orig = cv2.imread("data/{}".format(orig_path))[..., ::-1]
+    _, ranks = classification(orig, sort=True, show=False, cuda=True)
+    original_class = ranks[0, 0]
+
+    image_path = '{}_LLCI_eps100.png'.format(image_name)
+
+    adversary = cv2.imread("results/adversarial_examples/LLCI_eps100/{}".format(image_path))[..., ::-1]
     save_path_common = 'results/Adv_rev_noise/{}'
     save_path = save_path_common.format('LLCI_eps100')
     f = open("{}/{}_stats.txt".format(save_path, image_name), "w+")
@@ -29,7 +30,7 @@ for i in range(len(image_dataset)):
         Average_confidence = 0
         for j in range(0, 5):
             adversary_noisy = adversary + std * np.random.randn(224, 224, 3)
-            confidence, _ = classification(orig, sort=False, cuda=True)
+            confidence, _ = classification(orig, sort=False, show=False, cuda=True)
             Average_confidence += confidence[0, original_class]/5
 
         f = open("{}/{}_stats.txt".format(save_path, image_name), "a")
