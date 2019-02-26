@@ -21,8 +21,8 @@ for i in range(len(image_dataset)):
     
     save_path = 'results/Denoising/Baseline'
     _ = dip(img_noisy, 'complex', 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
-    generate_result_files(save_path, img_noisy, img, num_iter)
-    
+    generate_result_files(save_path, img_noisy, img, num_iter, image_name)
+
     # save_path='results/Denoising/Multiple_images/EntropySGD/{}'.format(image_name)[0])
     # out = dip(img_noisy, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 1)
     # generate_result_files(save_path, img_noisy, img, num_iter)
