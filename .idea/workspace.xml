@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/noise_adv_recovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/noise_adv_recovery.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="343" column="54" selection-start-line="342" selection-start-column="8" selection-end-line="343" selection-end-column="54" />
+            <state relative-caret-position="127">
+              <caret line="342" column="13" lean-forward="true" selection-start-line="342" selection-start-column="13" selection-end-line="342" selection-end-column="13" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#1104#1513#0" />
@@ -95,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+            <state relative-caret-position="561">
+              <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
               <folding>
                 <element signature="e#1#39#0" expanded="true" />
               </folding>
@@ -198,10 +199,10 @@
         <option value="$PROJECT_DIR$/functions/saliency/visualization.py" />
         <option value="$PROJECT_DIR$/functions/generate_saliency_maps.py" />
         <option value="$PROJECT_DIR$/saliency_tests.py" />
-        <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/dip_multiple.py" />
         <option value="$PROJECT_DIR$/adversary_generation.py" />
         <option value="$PROJECT_DIR$/denoising.py" />
+        <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/noise_adv_recovery.py" />
       </list>
     </option>
@@ -603,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="343" column="54" selection-start-line="342" selection-start-column="8" selection-end-line="343" selection-end-column="54" />
+        <state relative-caret-position="127">
+          <caret line="342" column="13" lean-forward="true" selection-start-line="342" selection-start-column="13" selection-end-line="342" selection-end-column="13" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#1104#1513#0" />
@@ -633,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+        <state relative-caret-position="561">
+          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
           <folding>
             <element signature="e#1#39#0" expanded="true" />
           </folding>

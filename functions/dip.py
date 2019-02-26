@@ -340,7 +340,7 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
 
         glparam.psnr_noisy = compare_psnr(glparam.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
             
-        print ('DIP Iteration {:>11}   PSNR_noisy {:>5.4f} '.format(
+        print('DIP Iteration {:>11}   PSNR_noisy {:>5.4f} '.format(
             iter_value, glparam.psnr_noisy), end='\r')
         
         ## Backtracking   

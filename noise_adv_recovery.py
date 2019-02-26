@@ -21,15 +21,14 @@ for i in range(len(image_dataset)):
     save_path = save_path_common.format('LLCI_eps100')
     f = open("{}/{}_stats.txt".format(save_path, image_name), "w+")
 
-    std = [i for i in range(1, 129)]
     print("#############\n\nWorking on image: {}".format(image_name))
-    for s in range(128):
+    for std in range(1, 129):
+        print('Noise standard deviation [{:>4}/128]'.format(std), end='\r')
         Average_confidence = 0
         for j in range(0, 5):
-            adversary_noisy = adversary + std[s] * np.random.randn(224, 224, 3)
+            adversary_noisy = adversary + std * np.random.randn(224, 224, 3)
             confidence, _ = classification(orig, sort=False, cuda=True)
             Average_confidence += confidence[0, original_class]/5
 
         f = open("{}/{}_stats.txt".format(save_path, image_name), "a")
-        f.write("{:>8}{:>16.10f}\n".format(std[s], Average_confidence))
-        print('Noise standard deviation [{:>4}/128]'.format(s+1), end='\r')
+        f.write("{:>8}{:>16.10f}\n".format(std, Average_confidence))
