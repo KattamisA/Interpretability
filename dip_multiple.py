@@ -11,7 +11,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
-    save_path_common = 'results/Adv_DIP/Kernel/{}'
+    save_path_common = 'results/Adv_DIP/Kernel_size_tests/{}'
 
     print("#############\n\nWorking on image: {}".format(image_name))
     adv, orig, pert = adversarial_examples("data/{}".format(image_path), method="LLCI", eps=100, show=False)
