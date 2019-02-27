@@ -35,7 +35,7 @@ for meth in methods:
             Average_confidence = 0
             for j in range(0, 5):
                 adversary_noisy = adversary + std * np.random.randn(224, 224, 3)
-                confidence, _ = classification(orig, sort=False, show=False, cuda=True)
+                confidence, _ = classification(adversary_noisy, sort=False, show=False, cuda=True)
                 Average_confidence += confidence[0, original_class]/5
 
             f = open("{}/{}_stats.txt".format(save_path, image_name), "a")
