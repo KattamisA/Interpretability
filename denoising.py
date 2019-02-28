@@ -3,12 +3,14 @@ from functions.generate_results import *
 
 ### Observing multiple images
 num_iter = 5001
-image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
-                 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
-                 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
-                 'rope.jpeg', 'knife.jpg']
+# image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
+#                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
+#                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
+#                  'rope.jpeg', 'knife.jpg']
 
-for i in range(6, len(image_dataset)):
+image_dataset =['goldfish.jpg']
+
+for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
 
