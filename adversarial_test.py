@@ -9,13 +9,13 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
                  'rope.jpeg', 'knife.jpg']
 
-epsilons = [i for i in range(1, 5)]
+epsilons = [2*i + 1 for i in range(65)]
 
 for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
 
-    print('##### Working on image [{} , {}]'.format(i+1, image_name))
+    print('##### Working on image [{} , {}]'.format(i+1, image_name), end='\r')
 
     orig = cv2.imread("data/{}".format(image_path))[..., ::-1]
     _, ranks = classification(orig, sort=True, show=False, cuda=True)
@@ -24,7 +24,7 @@ for i in range(len(image_dataset)):
 
     save_path = 'results/adversarial_examples'
     for eps in epsilons:
-        print('Epsilon = [{:>4}/128]'.format(eps), end='\r\r')
+        print('Epsilon = [{:>4}/128]'.format(eps), end='\r')
 
         adv, _, _ = adversarial_examples("data/{}".format(image_path), method="FGSM", eps=eps, show=False, cuda=True)
 
