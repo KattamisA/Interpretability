@@ -26,15 +26,15 @@ for i in range(len(image_dataset)):
     for eps in epsilons:
         print('Epsilon = [{:>4}/129]'.format(eps), end='\r')
 
-        adv, _, _ = adversarial_examples("data/{}".format(image_path), method="FGSM", eps=eps, show=False, cuda=True)
+        adv, _, _ = adversarial_examples("data/{}".format(image_path), method="LLCI", eps=eps, show=False, cuda=True)
 
         confs, _ = classification(adv, sort=False, show=False, cuda=True)
 
         orig_conf = confs[0, original_class]
         ll_conf = confs[0, ll_class]
 
-        f = open("{}/{}_fgsm.txt".format(save_path, image_name), "a")
-        f.write("{:>8} {:>8} {:>16.10f}\n".format(eps, orig_conf, ll_conf))
+        f = open("{}/{}_llci.txt".format(save_path, image_name), "a")
+        f.write("{:>8} {:>15} {:>16.10f}\n".format(eps, orig_conf, ll_conf))
 
 
 # plt.imsave("data/{}_JSMA.png".format(image_path.split('.')[0]), adv, format='png')
