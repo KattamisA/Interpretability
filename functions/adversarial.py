@@ -142,8 +142,8 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
         orig = orig
         y_target = Ranks_adv[0, -1]
         original_target = Ranks_adv[0, 0]
-        alpha /= 0.228
-        eps /= 0.228
+        alpha *= 0.228
+        eps *= 0.228
         for i in range(num_iter):
 
             saliency_original = get_smoothed_gradients([jsma_img], model, original_target, calculate_outputs_and_gradients,
