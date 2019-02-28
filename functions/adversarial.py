@@ -147,13 +147,13 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
         for i in range(num_iter):
 
             saliency_original = get_smoothed_gradients([jsma_img], model, original_target, calculate_outputs_and_gradients,
-                                                            cuda=cuda, magnitude=False, stdev_spread=.15)
+                                                            cuda=cuda, magnitude=False, stdev_spread=.01)
             saliency_original = -np.clip(saliency_original[0], -255, 0)
             for channel in range(3):
                 saliency_original[:, :, channel] = linear_transform(saliency_original[:, :, channel], 99.9, 0, 0.0)
 
             saliency_target = get_smoothed_gradients([jsma_img], model, y_target, calculate_outputs_and_gradients,
-                                                            cuda=cuda, magnitude=False, stdev_spread=.15)
+                                                            cuda=cuda, magnitude=False, stdev_spread=.01)
             saliency_target = np.clip(saliency_target[0], 0, 255)
             for channel in range(3):
                 saliency_target[:, :, channel] = linear_transform(saliency_target[:, :, channel], 99.9, 0, 0.0)
