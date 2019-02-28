@@ -9,7 +9,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
                  'rope.jpeg', 'knife.jpg']
 
-epsilons = [i for i in range(1, 129)]
+epsilons = [i for i in range(1, 5)]
 
 for i in range(len(image_dataset)):
     image_path = image_dataset[i]
@@ -24,7 +24,7 @@ for i in range(len(image_dataset)):
 
     save_path = 'results/adversarial_examples'
     for eps in epsilons:
-        print('Epsilon = [{:>4}/128]'.format(eps), end='\r')
+        print('Epsilon = [{:>4}/128]'.format(eps), end='\r\r'')
 
         adv, _, _ = adversarial_examples("data/{}".format(image_path), method="FGSM", eps=eps, show=False, cuda=True)
 

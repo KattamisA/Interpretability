@@ -5,60 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adversarial_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/adversarial_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/denoising.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Baseline/it_900.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="408">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -683,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="408">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
