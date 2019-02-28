@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/adversarial_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/adversarial_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/denoising.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Goldfish_bi_eps100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Goldfish_fgsm_eps100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Goldfish_llci_eps100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_beacon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_dumbbell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_giant panda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_goldfish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_peacock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/perturbation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/perturbation_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/perturbation_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/perturbation_yellow.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="408">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -643,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="408">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

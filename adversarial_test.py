@@ -25,7 +25,7 @@ for i in range(len(image_dataset)):
     for eps in epsilons:
         print('Epsilon = [{:>4}/128]'.format(eps), end='\r')
 
-        adv, _, _ = adversarial_examples("data/{}".format(image_path), method="FGSM", eps=eps, show=True, cuda=True)
+        adv, _, _ = adversarial_examples("data/{}".format(image_path), method="FGSM", eps=eps, show=False, cuda=True)
 
         confs, _ = classification(orig, sort=False, show=False, cuda=True)
 
