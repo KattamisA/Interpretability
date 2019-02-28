@@ -4,6 +4,10 @@ from torchvision import models
 import torch.nn as nn
 #from torchvision import transforms
 from functions.utils.denoising_utils import *
+from functions.saliency.saliency_utils import calculate_outputs_and_gradients, get_smoothed_gradients, pre_processing
+from functions.saliency.visualization import convert_to_gray_scale, linear_transform
+
+
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -11,22 +15,24 @@ import cv2
 from functions.utils.imagenet_classes import classes
 
 
-def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradient Sign Method',eps = 5, alpha = 1,
+def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradient Sign Method', eps=5, alpha=1,
                          num_iter=None, show=True, cuda=False):
     
-    if num_iter == None:
-        num_iter = int(round(max(eps+4,eps*1.25)))
+    if num_iter is None:
+        num_iter = int(round(max(eps+4, eps*1.25)))
         
     if method == 'BI':
         method = 'Basic Iterative'
     elif method == 'LLCI':
-        method ='Least Likely Class Iterative'
+        method = 'Least Likely Class Iterative'
+    elif method == 'JSMA':
+        method = 'JSMA'
     else:
         method = 'Fast Gradient Sign Method'
     
-    if show == True:
-        print('Method: %s' %(method))
-        print('Model: %s \n' %(model_name))
+    if show is True:
+        print('Method: %s' % method)
+        print('Model: %s \n' % model_name)
 
     model = getattr(models, model_name)(pretrained=True)
 
@@ -91,12 +97,13 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
         
         orig_data = Variable(torch.from_numpy(img).float().unsqueeze(0), requires_grad=True)
         sm = nn.Softmax(1)
-        Probs_adv,Ranks_adv = sm(model(inp)).sort(descending=True)
+        _, Ranks_adv = sm(model(inp)).sort(descending=True)
+
         for i in range(num_iter):
                 out = model(inp)
 
                 if method == 'Least Likely Class Iterative':
-                    y_target = Ranks_adv[0,-1]
+                    y_target = Ranks_adv[0, -1]
                 else:
                     y_target = pred
                    
@@ -120,11 +127,50 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
                 pred_adv = np.argmax(model(inp).data.cpu().numpy())
                 sm = nn.Softmax(1)
                 Confidence = sm(model(inp))
-                #print("Iter [%3d/%3d]:  Prediction: %s  Confidence: %f"
-                #      %(i+1, num_iter, classes[pred_adv].split(',')[0],Confidence[0,pred_adv]))
-                if show == True:
+
+                if show is True:
                     print("Iter [{:>3}/{:>3}]:  Prediction: {:<20}  Confidence: {:<10.3f}"
                       .format(i+1, num_iter, classes[pred_adv].split(',')[0],Confidence[0,pred_adv]))
+
+    if method == 'JSMA':
+        sm = nn.Softmax(1)
+        _, Ranks_adv = sm(model(inp)).sort(descending=True)
+
+        jsma_img = orig.astype(np.float32)
+        orig = orig/std
+        y_target = Ranks_adv[0, -1]
+        original_target = Ranks_adv[0, 0]
+
+        for i in range(num_iter):
+
+            saliency_original = get_smoothed_gradients([jsma_img], model, original_target, calculate_outputs_and_gradients,
+                                                            cuda=False, magnitude=False, stdev_spread=.05)
+            saliency_original = -np.clip(saliency_original[0], -255, 0)
+            for channel in range(3):
+                saliency_original[:, :, channel] = linear_transform(saliency_original[:, :, channel], 99.9, 1, 0.0)
+
+            saliency_target = get_smoothed_gradients([jsma_img], model, y_target, calculate_outputs_and_gradients,
+                                                            cuda=False, magnitude=False, stdev_spread=.05)
+            saliency_target = np.clip(saliency_target[0], 0, 255)
+            for channel in range(3):
+                saliency_target[:, :, channel] = linear_transform(saliency_target[:, :, channel], 99.9, 1, 0.0)
+
+            adversarial_saliency = saliency_original * saliency_target
+
+            perturbation = alpha * adversarial_saliency * 255.0
+            perturbation_sum = np.clip((jsma_img + perturbation)-orig, 0, eps)
+            jsma_img = perturbation_sum + orig
+
+            inp = pre_processing(jsma_img, cuda=False)
+            pred_adv = np.argmax(model(inp).data.cpu().numpy())
+            sm = nn.Softmax(1)
+            Confidence = sm(model(inp))
+
+            if show is True:
+                print("Iter [{:>3}/{:>3}]:  Prediction: {:<20}  Confidence: {:<10.3f}"
+                      .format(i + 1, num_iter, classes[pred_adv].split(',')[0], Confidence[0, pred_adv]))
+
+
 
     # predict on the adversarial image
     sm = nn.Softmax(1)
@@ -149,19 +195,19 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
     pert = adv - orig
     adv = np.clip(adv, 0, 255).astype(np.uint8)
     
-    if show == True:
-        fig=plt.figure(figsize=(16, 16))
-        fig.add_subplot(1, 3, 1)
-        plt.subplots_adjust(wspace=0.5)
-        plt.imshow(orig)
-        plt.title('Original')
-        fig.add_subplot(1, 3, 2)
-        plt.imshow(np.sign(pert).astype(np.uint8))
-        plt.title('Perturbation')
-        fig.add_subplot(1, 3, 3)
-        plt.title('Adversarial example')
-        plt.imshow(adv)
-        plt.show()
-        fig.savefig('adv_example_{}.png'.format(classes[pred].split(',')[0]), bbox_inches='tight')
+    # if show == True:
+    #     fig=plt.figure(figsize=(16, 16))
+    #     fig.add_subplot(1, 3, 1)
+    #     plt.subplots_adjust(wspace=0.5)
+    #     plt.imshow(orig)
+    #     plt.title('Original')
+    #     fig.add_subplot(1, 3, 2)
+    #     plt.imshow(np.sign(pert).astype(np.uint8))
+    #     plt.title('Perturbation')
+    #     fig.add_subplot(1, 3, 3)
+    #     plt.title('Adversarial example')
+    #     plt.imshow(adv)
+    #     plt.show()
+    #     fig.savefig('adv_example_{}.png'.format(classes[pred].split(',')[0]), bbox_inches='tight')
 
     return adv, orig, pert
