@@ -11,7 +11,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 
 epsilons = [2*i + 1 for i in range(51)]
 
-for i in range(16, len(image_dataset)):
+for i in range(15, len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
 
