@@ -24,7 +24,7 @@ for i in range(len(image_dataset)):
 
     save_path = 'results/adversarial_examples'
     for eps in epsilons:
-        print('Epsilon = [{:>4}/128]'.format(eps), end='\r\r'')
+        print('Epsilon = [{:>4}/128]'.format(eps), end='\r\r')
 
         adv, _, _ = adversarial_examples("data/{}".format(image_path), method="FGSM", eps=eps, show=False, cuda=True)
 
