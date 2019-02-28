@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 image_path = 'panda.jpg'
 
-adv, _, pert = adversarial_examples("data/{}".format(image_path), method="FGSM", eps=100, show=True, cuda=False)
+adv, _, pert = adversarial_examples("data/{}".format(image_path), method="JSMA", eps=1, show=True, cuda=False)
 print(pert)
 
 adv, _, pert = adversarial_examples("data/{}".format(image_path), method="JSMA", eps=100, show=True, num_iter=125, cuda=True)
