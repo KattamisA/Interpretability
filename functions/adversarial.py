@@ -9,8 +9,6 @@ from functions.utils.denoising_utils import *
 from functions.saliency.saliency_utils import calculate_outputs_and_gradients, get_smoothed_gradients, pre_processing
 from functions.saliency.visualization import convert_to_gray_scale, linear_transform
 
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 import cv2
