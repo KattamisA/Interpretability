@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/functions/adversarial.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/adversarial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/saliency/saliency_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/saliency/saliency_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adversarial_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/adversarial_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/denoising.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Goldfish_bi_eps100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Goldfish_fgsm_eps100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Goldfish_llci_eps100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_beacon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_dumbbell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_giant panda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_goldfish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/adv_example_peacock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/perturbation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/perturbation_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/perturbation_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/perturbation_yellow.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/denoising.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="425">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -32,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/Adv_methods.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -41,12 +53,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/adversary_generation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="72" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="374">
+              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="297">
+              <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#2211#2474#0" />
@@ -69,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="697">
+              <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -99,7 +132,6 @@
       <find>np</find>
       <find>np.</find>
       <find>plt.</find>
-      <find>cv2</find>
       <find>classes</find>
       <find>torch_to_np</find>
       <find>torch</find>
@@ -122,6 +154,7 @@
       <find>pre</find>
       <find>pre_process</find>
       <find>pre_proc</find>
+      <find>cv2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,13 +188,13 @@
         <option value="$PROJECT_DIR$/dip_multiple.py" />
         <option value="$PROJECT_DIR$/adversary_generation.py" />
         <option value="$PROJECT_DIR$/functions/dip.py" />
-        <option value="$PROJECT_DIR$/denoising.py" />
         <option value="$PROJECT_DIR$/noise_adv_recovery.py" />
         <option value="$PROJECT_DIR$/functions/saliency/visualization.py" />
         <option value="$PROJECT_DIR$/Adv_methods.py" />
-        <option value="$PROJECT_DIR$/adversarial_test.py" />
         <option value="$PROJECT_DIR$/functions/adversarial.py" />
         <option value="$PROJECT_DIR$/functions/saliency/saliency_utils.py" />
+        <option value="$PROJECT_DIR$/denoising.py" />
+        <option value="$PROJECT_DIR$/adversarial_test.py" />
       </list>
     </option>
   </component>
@@ -546,57 +579,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adversary_generation.py">
+    <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="697">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Adv_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/denoising.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adversarial_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="297">
+          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#2211#2474#0" />
@@ -608,12 +604,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
+    <entry file="file://$PROJECT_DIR$/denoising.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="425">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adv_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adversary_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="72" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adversarial_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

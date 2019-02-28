@@ -16,8 +16,8 @@ for i in range(6, len(image_dataset)):
     orig = cv2.resize(orig, (224, 224))
     img = orig.copy().astype(np.float32)
     std = 15
-    img_noisy = img + std*np.random.randn(224,224,3)
-    img_noisy = np.clip(img_noisy,0,255).astype(np.uint8)
+    img_noisy = img + std*np.random.randn(224, 224, 3)
+    img_noisy = np.clip(img_noisy, 0, 255).astype(np.uint8)
     
     save_path = 'results/Denoising/Baseline'
     _ = dip(img_noisy, 'complex', 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
