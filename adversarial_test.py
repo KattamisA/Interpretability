@@ -16,5 +16,6 @@ orig = orig.astype(np.float32)
 diff = np.absolute(adv-orig)
 plt.imsave("data/{}_JSMA_pert.png".format(image_path), diff.astype(np.int8)*20, format='png')
 print(np.count_nonzero(diff))
+print(diff.astype(np.int8)*20)
 
 
