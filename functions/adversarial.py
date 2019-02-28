@@ -170,7 +170,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
 
             if show is True:
                 print("Iter [{:>3}/{:>3}]:  Prediction: {:<20}  Confidence: {:<10.3f}"
-                      .format(i + 1, num_iter, classes[pred_adv].split(',')[0], Confidence[0, pred_adv]), end'\r)
+                      .format(i + 1, num_iter, classes[pred_adv].split(',')[0], Confidence[0, pred_adv]), end'\r')
 
 
 
