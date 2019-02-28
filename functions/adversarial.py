@@ -45,13 +45,12 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
     
     img = orig.copy().astype(np.float32)
     perturbation = np.empty_like(orig)
-    # mean = [0.485, 0.456, 0.406]
-    # std = [0.229, 0.224, 0.225]
-    # img /= 255.0
-    # img = (img - mean)/std
-    # img = img.transpose(2, 0, 1)
 
-    _, img = pre_processing(img)
+    mean = [0.485, 0.456, 0.406]
+    std = [0.229, 0.224, 0.225]
+    img /= 255.0
+    img = (img - mean)/std
+    img = img.transpose(2, 0, 1)
 
     #Set mode to evaluation and set criterion
     model.eval()

@@ -8,7 +8,7 @@ def calculate_outputs_and_gradients(inputs, model, target_label_idx, cuda = Fals
     predict_idx = None
     gradients = []
     for input in inputs:
-        input, _ = pre_processing(input, cuda)
+        input = pre_processing(input, cuda)
         output = model(input)
         output = F.softmax(output, dim=1)
 
@@ -35,15 +35,15 @@ def pre_processing(obs, cuda=False):
     std = np.array([0.229, 0.224, 0.225]).reshape([1, 1, 3])
     obs = obs / 255
     obs = (obs - mean) / std
-    obs_out = np.transpose(obs, (2, 0, 1))
-    obs = np.expand_dims(obs_out, 0)
+    obs = np.transpose(obs, (2, 0, 1))
+    obs = np.expand_dims(obs, 0)
     obs = np.array(obs)
     if cuda:
         torch_device = torch.device('cuda:0')
     else:
         torch_device = torch.device('cpu')
     obs_tensor = torch.tensor(obs, dtype=torch.float32, device=torch_device, requires_grad=True)
-    return obs_tensor, obs_out
+    return obs_tensor
 
 
 def get_smoothed_gradients(x_values, model, target_label_idx, predict_and_gradients, cuda=False, stdev_spread=.15,
