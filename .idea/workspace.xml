@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/functions/adversarial.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/adversarial.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="18" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -61,27 +60,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="153" column="65" lean-forward="true" selection-start-line="153" selection-start-column="65" selection-end-line="153" selection-end-column="65" />
+            <state relative-caret-position="612">
+              <caret line="161" column="71" selection-start-line="161" selection-start-column="71" selection-end-line="161" selection-end-column="71" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#3127#4717#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="111" selection-start-line="6" selection-start-column="111" selection-end-line="6" selection-end-column="111" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -206,9 +202,9 @@
         <option value="$PROJECT_DIR$/denoising.py" />
         <option value="$PROJECT_DIR$/noise_adv_recovery.py" />
         <option value="$PROJECT_DIR$/functions/saliency/visualization.py" />
-        <option value="$PROJECT_DIR$/functions/adversarial.py" />
         <option value="$PROJECT_DIR$/Adv_methods.py" />
         <option value="$PROJECT_DIR$/adversarial_test.py" />
+        <option value="$PROJECT_DIR$/functions/adversarial.py" />
       </list>
     </option>
   </component>
@@ -623,24 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
+    <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="153" column="65" lean-forward="true" selection-start-line="153" selection-start-column="65" selection-end-line="153" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <element signature="e#3127#4717#0" />
-          </folding>
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -654,12 +636,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adversarial_test.py">
+    <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="111" selection-start-line="6" selection-start-column="111" selection-end-line="6" selection-end-column="111" />
+        <state>
+          <caret column="18" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="161" column="71" selection-start-line="161" selection-start-column="71" selection-end-line="161" selection-end-column="71" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#3127#4717#0" />
           </folding>
         </state>
       </provider>

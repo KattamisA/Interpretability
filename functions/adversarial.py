@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 import torch
 from torch.autograd import Variable
 from torchvision import models
@@ -157,7 +159,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
 
             adversarial_saliency = saliency_original * saliency_target
 
-            perturbation = alpha * adversarial_saliency * 255.0
+            perturbation = alpha * adversarial_saliency * 255.0 * 0.226
             perturbation_sum = np.clip((jsma_img + perturbation)-orig, 0, eps)
             jsma_img = perturbation_sum + orig
 
@@ -168,7 +170,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
 
             if show is True:
                 print("Iter [{:>3}/{:>3}]:  Prediction: {:<20}  Confidence: {:<10.3f}"
-                      .format(i + 1, num_iter, classes[pred_adv].split(',')[0], Confidence[0, pred_adv]))
+                      .format(i + 1, num_iter, classes[pred_adv].split(',')[0], Confidence[0, pred_adv]), end'\r)
 
 
 
