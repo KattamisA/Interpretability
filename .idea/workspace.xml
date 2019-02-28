@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -653,7 +653,7 @@
     <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
