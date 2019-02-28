@@ -9,9 +9,9 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
                  'rope.jpeg', 'knife.jpg']
 
-epsilons = [2*i + 1 for i in range(65)]
+epsilons = [2*i + 1 for i in range(56)]
 
-for i in range(len(image_dataset)):
+for i in range(1, len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
 
