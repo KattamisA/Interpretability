@@ -140,7 +140,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
         orig = orig
         y_target = Ranks_adv[0, -1]
         original_target = Ranks_adv[0, 0]
-        alpha = alpha / std
+        alpha = alpha / 0.228
         for i in range(num_iter):
 
             saliency_original = get_smoothed_gradients([jsma_img], model, original_target, calculate_outputs_and_gradients,
@@ -161,7 +161,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
             perturbation_sum = np.clip((jsma_img + perturbation)-orig, 0, eps)
             jsma_img = perturbation_sum + orig
 
-            inp = pre_processing(jsma_img, cuda=True)
+            inp = pre_processing(jsma_img, cuda=cuda)
             pred_adv = np.argmax(model(inp).data.cpu().numpy())
             sm = nn.Softmax(1)
             Confidence = sm(model(inp))
