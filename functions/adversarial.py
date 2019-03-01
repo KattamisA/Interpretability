@@ -137,7 +137,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
             jsma_img = perturbation_sum + orig
 
             if show is True:
-                inp, _ = pre_processing(jsma_img, cuda=cuda)
+                inp = pre_processing(jsma_img, cuda=cuda)
                 pred_adv = np.argmax(model(inp).data.cpu().numpy())
                 sm = nn.Softmax(1)
                 Confidence = sm(model(inp))
