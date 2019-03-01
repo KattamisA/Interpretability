@@ -5,886 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/denoising.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dip_multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/dip_multiple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_10000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_5900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_6900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_7900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_8900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr1/it_9900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/Details.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/F16_GT_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/canoe_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/car_wheel_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/dolphin_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/flamingo_animal_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/football_helmet_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/fountain_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/goldfish_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/hourglass_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_10000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_5900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_6900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_7900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_8900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/it_9900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/knife_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/labrador_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/monkey_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/panda_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/peacock_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/refrigirator_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/rope_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/snake_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/spider_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/whale_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_0it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_10000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_1000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_2000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_3000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_4000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_6000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_8000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_9000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr2/zebra_GT_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/Details.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/Details.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/F16_GT_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/canoe_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/car_wheel_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/flamingo_animal_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/football_helmet_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/fountain_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/goldfish_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/hourglass_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_10000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_10000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_1900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_2900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_3900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_4900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_5900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_6900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_7900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_8900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9000.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9100.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9200.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9300.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9400.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9500.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9600.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9700.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9800.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9900.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/it_9900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/knife_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/labrador_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/monkey_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/panda_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/peacock_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/refrigirator_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/rope_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/snake_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/spider_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/whale_stats.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_0it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_0it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_10000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_10000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_1000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_1000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_2000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_2000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_3000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_3000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_4000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_4000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_5000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_5000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_6000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_6000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_7000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_7000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_8000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_8000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_9000it.png" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_9000it.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_Confidences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_Confidences.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_Normalised.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_Normalised.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_Ranks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_Ranks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/zebra_GT_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adversary_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/adversary_generation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -906,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dip_multiple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="748">
+              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -979,11 +100,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adversary_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-end-line="3" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1003,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-end-line="18" />
+            <state relative-caret-position="255">
+              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -1111,7 +235,6 @@
         <option value="$PROJECT_DIR$/functions/saliency/integrated_gradients.py" />
         <option value="$PROJECT_DIR$/functions/generate_saliency_maps.py" />
         <option value="$PROJECT_DIR$/saliency_tests.py" />
-        <option value="$PROJECT_DIR$/adversary_generation.py" />
         <option value="$PROJECT_DIR$/noise_adv_recovery.py" />
         <option value="$PROJECT_DIR$/functions/saliency/visualization.py" />
         <option value="$PROJECT_DIR$/Adv_methods.py" />
@@ -1123,12 +246,13 @@
         <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/denoising.py" />
         <option value="$PROJECT_DIR$/dip_multiple.py" />
+        <option value="$PROJECT_DIR$/adversary_generation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="193" />
-    <option name="y" value="-12" />
+    <option name="x" value="194" />
+    <option name="y" value="-21" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
   </component>
@@ -1539,19 +663,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adversary_generation.py">
+    <entry file="file://$PROJECT_DIR$/denoising.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-end-line="3" />
+        <state relative-caret-position="340">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adversarial_test.py">
+    <entry file="file://$PROJECT_DIR$/dip_multiple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-end-line="18" />
+        <state relative-caret-position="748">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1571,20 +698,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/denoising.py">
+    <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dip_multiple.py">
+    <entry file="file://$PROJECT_DIR$/adversary_generation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
