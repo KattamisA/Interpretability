@@ -21,8 +21,8 @@ def generate_result_files(path, adv, orig, num_iter, name, cuda=False, model = '
     PSNR = np.ones([num_images, 1])
 
     for i in range(num_images):
-        loaded_image = cv2.imread('{}/it_{}.png'.format(path,i*100))[..., ::-1]
-        loaded_image = cv2.resize(loaded_image, (256, 256))
+        loaded_image = cv2.imread('{}/it_{}.png'.format(path,i *100))[..., ::-1]
+        loaded_image = cv2.resize(loaded_image, (224, 224))
         img = loaded_image.copy().astype(np.float32)
         Probs, _ = classification(img, model_name=model, sort=False, show=False, cuda=cuda)
         Probs_np = torch_to_np(Probs)
