@@ -303,7 +303,7 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
     
     # Compute number of parameters
     param_numbers  = sum([np.prod(list(p.size())) for p in glparam.net.parameters()]) 
-    print ('\n Number of params: %d' % param_numbers)
+    print ('Number of params: %d' % param_numbers)
 
     # Loss function
     if loss_fn == 'MSE':
@@ -411,7 +411,7 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
     p = get_params(OPT_OVER, glparam.net, net_input)
     
     if OPTIMIZER == "adam":
-        glparam.optimizer = torch.optim.Adam(p, lr = LR)
+        glparam.optimizer = torch.optim.Adam(p, lr=LR)
         for j in range(num_iter):
             glparam.optimizer.zero_grad()
             closure(j)
@@ -421,7 +421,7 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
         for j in range(num_iter):
             glparam.optimizer.zero_grad()
             glparam.optimizer.step(j, closure, glparam.net, criterion)    
-    print('\n')       
+    # print('\n')
     
     out = glparam.net(net_input)
     glparam.out_avg = glparam.out_avg * glparam.exp + out.detach() * (1 - glparam.exp)

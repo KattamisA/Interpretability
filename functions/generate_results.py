@@ -35,4 +35,4 @@ def generate_result_files(path, adv, orig, num_iter, name, cuda=False, model = '
     np.savetxt('{}/{}_Ranks.txt'.format(path, name), Ranks_matrix)
     np.savetxt('{}/{}_Normalised.txt'.format(path, name), normalised_confidence)
 
-    print('Results have been generated and stored in {}'.format(path))
+    print('\nResults have been generated and stored in {}'.format(path))
