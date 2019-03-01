@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/denoising.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/generate_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_results.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/denoising.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -40,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="544">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -52,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-end-line="9" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#1089#1498#0" />
@@ -89,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adv_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -98,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adversary_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="23" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -200,9 +203,9 @@
       <find>pre</find>
       <find>pre_process</find>
       <find>cv2</find>
-      <find>print</find>
       <find>pre_proc</find>
       <find>pre_</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,12 +241,12 @@
         <option value="$PROJECT_DIR$/functions/saliency/saliency_utils.py" />
         <option value="$PROJECT_DIR$/normalizing.py" />
         <option value="$PROJECT_DIR$/adversarial_test.py" />
-        <option value="$PROJECT_DIR$/functions/generate_results.py" />
         <option value="$PROJECT_DIR$/functions/dip.py" />
-        <option value="$PROJECT_DIR$/denoising.py" />
         <option value="$PROJECT_DIR$/dip_multiple.py" />
         <option value="$PROJECT_DIR$/functions/adversarial.py" />
         <option value="$PROJECT_DIR$/adversary_generation.py" />
+        <option value="$PROJECT_DIR$/functions/generate_results.py" />
+        <option value="$PROJECT_DIR$/denoising.py" />
       </list>
     </option>
   </component>
@@ -595,71 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Adv_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#1089#1498#0" />
-            <element signature="e#1542#1824#0" />
-            <element signature="e#1860#2273#0" />
-            <element signature="e#2309#2591#0" />
-            <element signature="e#2627#3034#0" />
-            <element signature="e#3072#3356#0" />
-            <element signature="e#3393#3674#0" />
-            <element signature="e#3711#3992#0" />
-            <element signature="e#4029#4310#0" />
-            <element signature="e#4347#4628#0" />
-            <element signature="e#4665#4946#0" />
-            <element signature="e#4984#5335#0" />
-            <element signature="e#5373#5724#0" />
-            <element signature="e#5762#6113#0" />
-            <element signature="e#6151#6502#0" />
-            <element signature="e#6540#6891#0" />
-            <element signature="e#6929#7282#0" />
-            <element signature="e#7318#7602#0" />
-            <element signature="e#7642#7926#0" />
-            <element signature="e#7962#8247#0" />
-            <element signature="e#8283#8568#0" />
-            <element signature="e#8604#8889#0" />
-            <element signature="e#8925#9206#0" />
-            <element signature="e#9242#9594#0" />
-            <element signature="e#9631#9913#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/denoising.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dip_multiple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -706,10 +644,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adversary_generation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="23" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adv_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#1089#1498#0" />
+            <element signature="e#1542#1824#0" />
+            <element signature="e#1860#2273#0" />
+            <element signature="e#2309#2591#0" />
+            <element signature="e#2627#3034#0" />
+            <element signature="e#3072#3356#0" />
+            <element signature="e#3393#3674#0" />
+            <element signature="e#3711#3992#0" />
+            <element signature="e#4029#4310#0" />
+            <element signature="e#4347#4628#0" />
+            <element signature="e#4665#4946#0" />
+            <element signature="e#4984#5335#0" />
+            <element signature="e#5373#5724#0" />
+            <element signature="e#5762#6113#0" />
+            <element signature="e#6151#6502#0" />
+            <element signature="e#6540#6891#0" />
+            <element signature="e#6929#7282#0" />
+            <element signature="e#7318#7602#0" />
+            <element signature="e#7642#7926#0" />
+            <element signature="e#7962#8247#0" />
+            <element signature="e#8283#8568#0" />
+            <element signature="e#8604#8889#0" />
+            <element signature="e#8925#9206#0" />
+            <element signature="e#9242#9594#0" />
+            <element signature="e#9631#9913#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/denoising.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
