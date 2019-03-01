@@ -29,7 +29,6 @@ def generate_result_files(path, adv, orig, num_iter, name, cuda=False, model = '
         Confidence[i, 0] = Probs_np[original_class]
         _, Ranking = Probs.sort(descending=True)
         Ranking_np = torch_to_np(Ranking)
-        print(np.shape(img))
         PSNR[i, 0] = compare_psnr(orig, img)
         for j in range(5):
             Confidence[i, j+1] = Probs_np[final_classes[j]]
