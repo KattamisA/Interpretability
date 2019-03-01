@@ -98,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adversary_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="289">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -134,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="757">
               <caret line="139" column="19" lean-forward="true" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -173,7 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cleaver</find>
       <find>merge</find>
       <find>torch.nn</find>
       <find>np</find>
@@ -203,6 +202,7 @@
       <find>cv2</find>
       <find>print</find>
       <find>pre_proc</find>
+      <find>pre_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -242,8 +242,8 @@
         <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/denoising.py" />
         <option value="$PROJECT_DIR$/dip_multiple.py" />
-        <option value="$PROJECT_DIR$/adversary_generation.py" />
         <option value="$PROJECT_DIR$/functions/adversarial.py" />
+        <option value="$PROJECT_DIR$/adversary_generation.py" />
       </list>
     </option>
   </component>
@@ -690,19 +690,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adversary_generation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="757">
           <caret line="139" column="19" lean-forward="true" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -710,6 +700,16 @@
             <element signature="e#2547#2790#0" />
             <element signature="e#2960#4552#0" />
             <element signature="e#6224#6590#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adversary_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
