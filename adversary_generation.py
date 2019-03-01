@@ -16,7 +16,7 @@ for i in range(len(image_dataset)):
     print("#############\n\nWorking on image: {}".format(image_name))
 
     for eps in [1, 5, 25]:
-        adv, _, _ = adversarial_examples("data/{}".format(image_path), method="JSMA", eps=eps, show=False)
+        adv, _, _ = adversarial_examples("data/{}".format(image_path), method="JSMA", eps=eps, show=True, cuda=True)
         plt.imsave(save_path_common.format('JSMA_eps{}/{}_JSMA_eps{}.png'.format(eps, image_name, eps)), adv, format='png')
 
         # adv, _, _ = adversarial_examples("data/{}".format(image_path), method="BI", eps=eps, show=False)
