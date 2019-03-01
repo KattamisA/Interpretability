@@ -16,6 +16,8 @@ for i in range(len(image_dataset)):
     img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))
     orig = cv2.resize(orig, (224, 224))
     save_path = 'results/Denoising/Baseline'
+    print(np.shape(orig))
+    print(np.shape(img_noisy))
     _ = dip(img_noisy, 'complex', 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
     generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
 
