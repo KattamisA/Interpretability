@@ -19,7 +19,7 @@ def generate_result_files(path, adv, orig, num_iter, name, cuda=False, model = '
     Confidence = np.ones([num_images, 6])
     Ranks_matrix = np.ones([num_images, 5])
     PSNR = np.ones([num_images, 1])
-
+    orig = cv2.resize(orig, (224, 224)).astype(np.float32)
     for i in range(num_images):
         loaded_image = cv2.imread('{}/it_{}.png'.format(path,i *100))[..., ::-1]
         loaded_image = cv2.resize(loaded_image, (224, 224))
@@ -29,7 +29,7 @@ def generate_result_files(path, adv, orig, num_iter, name, cuda=False, model = '
         Confidence[i, 0] = Probs_np[original_class]
         _, Ranking = Probs.sort(descending=True)
         Ranking_np = torch_to_np(Ranking)
-        orig = orig.astype(np.float32)
+
         PSNR[i, 0] = compare_psnr(orig/255.0, img/255.0).astype(np.float32)
         for j in range(5):
             Confidence[i, j+1] = Probs_np[final_classes[j]]
