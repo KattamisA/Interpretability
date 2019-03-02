@@ -20,21 +20,6 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 #     _ = dip(img_noisy, 'complex', 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
 #     generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
 
-LR = [0.001, 0.1, 1]
-for i in range(18, len(image_dataset)):
-    image_path = image_dataset[i]
-    image_name = '{}'.format(image_path.split('.')[0])
-    orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
-    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
-    save_path_common = 'results/Denoising/lr_tests/{}'
-    print('\n##### Working on image [{} , {}]'.format(i+1, image_name))
-
-    for j in range(3):
-        print('LR = {}'.format(LR[j]))
-        save_path = save_path_common.format('lr{}'.format(j+1))
-        _ = dip(img_noisy, 'complex', LR[j], num_iter, save=True, plot=False, save_path=save_path, name=image_name)
-        generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
-
 for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
@@ -56,4 +41,17 @@ for i in range(len(image_dataset)):
     # generate_result_files(save_path, img_noisy, img, num_iter)
     
     
+LR = [0.001, 0.1, 1]
+for i in range(18, len(image_dataset)):
+    image_path = image_dataset[i]
+    image_name = '{}'.format(image_path.split('.')[0])
+    orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
+    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
+    save_path_common = 'results/Denoising/lr_tests/{}'
+    print('\n##### Working on image [{} , {}]'.format(i+1, image_name))
 
+    for j in range(3):
+        print('LR = {}'.format(LR[j]))
+        save_path = save_path_common.format('lr{}'.format(j+1))
+        _ = dip(img_noisy, 'complex', LR[j], num_iter, save=True, plot=False, save_path=save_path, name=image_name)
+        generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
