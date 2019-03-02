@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/denoising.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/denoising.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="1139">
+              <caret line="79" column="45" lean-forward="true" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="155" column="53" lean-forward="true" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
+            <state relative-caret-position="391">
+              <caret line="23" column="69" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="69" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
                 <element signature="e#1089#1498#0" />
@@ -62,13 +63,13 @@
                 <element signature="e#6151#6502#0" />
                 <element signature="e#6151#6502#0" />
                 <element signature="e#6540#6893#0" />
-                <element signature="e#7318#7602#0" />
-                <element signature="e#7642#7926#0" />
-                <element signature="e#7962#8247#0" />
-                <element signature="e#8283#8568#0" />
-                <element signature="e#8604#8889#0" />
-                <element signature="e#8925#9206#0" />
-                <element signature="e#9242#9594#0" />
+                <element signature="e#6929#7213#0" />
+                <element signature="e#7249#7601#0" />
+                <element signature="e#7641#7922#0" />
+                <element signature="e#7641#7925#0" />
+                <element signature="e#7961#8246#0" />
+                <element signature="e#8282#8567#0" />
+                <element signature="e#8603#8888#0" />
                 <element signature="e#9631#9913#0" />
               </folding>
             </state>
@@ -233,8 +234,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="194" />
-    <option name="y" value="-21" />
+    <option name="x" value="2450" />
+    <option name="y" value="-16" />
     <option name="width" value="1932" />
     <option name="height" value="1047" />
   </component>
@@ -329,7 +330,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14436248" />
@@ -592,16 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -634,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="155" column="53" lean-forward="true" selection-start-line="155" selection-start-column="53" selection-end-line="155" selection-end-column="53" />
+        <state relative-caret-position="391">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="69" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
             <element signature="e#1089#1498#0" />
@@ -654,22 +645,32 @@
             <element signature="e#6151#6502#0" />
             <element signature="e#6151#6502#0" />
             <element signature="e#6540#6893#0" />
-            <element signature="e#7318#7602#0" />
-            <element signature="e#7642#7926#0" />
-            <element signature="e#7962#8247#0" />
-            <element signature="e#8283#8568#0" />
-            <element signature="e#8604#8889#0" />
-            <element signature="e#8925#9206#0" />
-            <element signature="e#9242#9594#0" />
+            <element signature="e#6929#7213#0" />
+            <element signature="e#7249#7601#0" />
+            <element signature="e#7641#7922#0" />
+            <element signature="e#7641#7925#0" />
+            <element signature="e#7961#8246#0" />
+            <element signature="e#8282#8567#0" />
+            <element signature="e#8603#8888#0" />
             <element signature="e#9631#9913#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/denoising.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="1139">
+          <caret line="79" column="45" lean-forward="true" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>

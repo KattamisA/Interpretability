@@ -20,27 +20,39 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
 #     _ = dip(img_noisy, 'complex', 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
 #     generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
 
+print('\n##################### SKIP CONNECTIONS INVESTIGATION')
 for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
     img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
-    save_path_common = 'results/Denoising/kernel_size_tests/{}'
+    save_path_common = 'results/Denoising/skip_connections/{}'
     print('\n##### Working on image [{} , {}]'.format(i + 1, image_name))
-    for j in range(3):
-        print('Kernel size = {}'.format(j+1))
-        save_path = save_path_common.format('kernel{}'.format(j+1))
-        _ = dip(img_noisy, 'kernel{}'.format(j+1), 0.01, num_iter, save=True, plot=False, save_path=save_path,
+    for j in range(6):
+        print('Skip_connections test: {}'.format(j+1))
+        save_path = save_path_common.format('skip{}'.format(j+1))
+        _ = dip(img_noisy, 'skip{}'.format(j+1), 0.01, num_iter, save=True, plot=False, save_path=save_path,
                 name=image_name)
         generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
 
+print('\n##################### ITERATION NOISE INVESTIGATION')
 
+STD = [1./128.0, 1./64.0, 1./32.0, 1./16.0, 1./8.0, 1./4.0, 1./2.0]
+for i in range(len(image_dataset)):
+    image_path = image_dataset[i]
+    image_name = '{}'.format(image_path.split('.')[0])
+    orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
+    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
+    save_path_common = 'results/Denoising/std_investigation/{}'
+    print('\n##### Working on image [{} , {}]'.format(i + 1, image_name))
+    for j in range(7):
+        print('Iteration noise test: {}'.format(j+1))
+        save_path = save_path_common.format('std{}'.format(j+1))
+        _ = dip(img_noisy, 'complex', 0.01, num_iter, save=True, plot=False, save_path=save_path, reg_noise_std=STD[j],
+                name=image_name)
+        generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
 
-    # save_path='results/Denoising/Multiple_images/EntropySGD/{}'.format(image_name)[0])
-    # out = dip(img_noisy, num_iter=num_iter, save=True, plot=False, save_path = save_path, arch='complex', OPTIMIZER = "EntropySGD", LR = 1)
-    # generate_result_files(save_path, img_noisy, img, num_iter)
-    
-    
+print('\n##################### LEARNING RATE INVESTIGATION')
 LR = [0.001, 0.1, 1]
 for i in range(18, len(image_dataset)):
     image_path = image_dataset[i]
@@ -55,3 +67,20 @@ for i in range(18, len(image_dataset)):
         save_path = save_path_common.format('lr{}'.format(j+1))
         _ = dip(img_noisy, 'complex', LR[j], num_iter, save=True, plot=False, save_path=save_path, name=image_name)
         generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
+
+print('\n##################### KERNEL SIZE INVESTIGATION')
+for i in range(11, len(image_dataset)):
+    image_path = image_dataset[i]
+    image_name = '{}'.format(image_path.split('.')[0])
+    orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
+    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
+    save_path_common = 'results/Denoising/kernel_size_tests/{}'
+    print('\n##### Working on image [{} , {}]'.format(i + 1, image_name))
+    for j in range(3):
+        print('Kernel size = {}'.format(j+1))
+        save_path = save_path_common.format('kernel{}'.format(j+1))
+        _ = dip(img_noisy, 'kernel{}'.format(j+1), 0.01, num_iter, save=True, plot=False, save_path=save_path,
+                name=image_name)
+        generate_result_files(save_path, img_noisy, orig, num_iter, image_name)
+
+
