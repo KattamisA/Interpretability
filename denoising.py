@@ -14,7 +14,7 @@ for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
-    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))
+    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
     save_path = 'results/Denoising/Baseline'
     print('\n\n##### Working on image [{} , {}]'.format(i+1, image_name))
     _ = dip(img_noisy, 'complex', 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
@@ -24,7 +24,7 @@ for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
-    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))
+    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
     save_path = 'results/Denoising/EntropySGD'
     print('\n\n##### Working on image [{} , {}]'.format(i+1, image_name))
     _ = dip(img_noisy, 'complex', 1, num_iter, save=True, plot=False, save_path=save_path, name=image_name, OPTIMIZER="EntropySGD")
@@ -34,7 +34,7 @@ for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
-    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))
+    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
     save_path_common = 'results/Denoising/depth_tests/{}'
     print('\n\n##### Working on image [{} , {}]'.format(i+1, image_name))
     for j in range(1, 6):
@@ -46,7 +46,7 @@ for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
-    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))
+    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
     save_path_common = 'results/Denoising/Architecture/{}'
     print('\n\n##### Working on image [{} , {}]'.format(i + 1, image_name))
     for j in range(1, 5):
