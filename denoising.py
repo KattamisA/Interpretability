@@ -13,7 +13,7 @@ for i in range(len(image_dataset)):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
-    orig = orig.astype(np.float32)
+    orig = orig
     img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))
     orig = cv2.resize(orig, (224, 224))
     save_path = 'results/Denoising/Baseline'
