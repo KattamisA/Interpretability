@@ -7,6 +7,7 @@ import torch.nn as nn
 from functions.utils.denoising_utils import *
 from functions.saliency.saliency_utils import calculate_outputs_and_gradients, get_smoothed_gradients, pre_processing
 from functions.saliency.visualization import linear_transform
+from functions.classification import *
 
 import matplotlib.pyplot as plt
 import numpy as np
