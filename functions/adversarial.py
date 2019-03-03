@@ -15,7 +15,7 @@ from functions.utils.imagenet_classes import classes
 
 
 def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradient Sign Method', eps=5.0, alpha=1.0,
-                         num_iter=None, show=True, cuda=False):
+                         num_iter=None, show=True, cuda=False, image_name=''):
     
     if num_iter is None:
         num_iter = int(round(max(eps+4, eps*1.25)))
@@ -136,8 +136,22 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
             perturbation_sum = np.clip((jsma_img + perturbation)-orig, 0, eps*0.226)
             jsma_img = perturbation_sum + orig
 
+            inp = pre_processing(jsma_img, cuda=cuda)
+            adv = inp.data.cpu().numpy()[0]
+            adv = adv.transpose(1, 2, 0)
+            adv = (adv * std) + mean
+            adv = adv * 255.0
+            # adv = adv[..., ::-1] # RGB to BGR
+            adv = np.clip(adv, 0, 255).astype(np.uint8)
+            confs, _ = classification(adv, sort=False, show=False, cuda=True)
+
+            orig_conf = confs[0, original_target]
+            ll_conf = confs[0, y_target]
+
+            f = open("results/adversarial_examples/JSMA/{}.txt".format(image_name), "a")
+            f.write("{:>8} {:>15} {:>16.10f}\n".format(eps, orig_conf, ll_conf))
+
             if show is True:
-                inp = pre_processing(jsma_img, cuda=cuda)
                 pred_adv = np.argmax(model(inp).data.cpu().numpy())
                 sm = nn.Softmax(1)
                 Confidence = sm(model(inp))
