@@ -149,7 +149,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
             orig_conf = confs[0, original_target]
             ll_conf = confs[0, y_target]
 
-            f = open("results/adversarial_examples/JSMA/{}.txt".format(image_name), "a")
+            f = open("results/adversarial_examples/jsma/{}.txt".format(image_name), "a")
             f.write("{:>8} {:>15} {:>16.10f}\n".format(eps, orig_conf, ll_conf))
 
             if show is True:
