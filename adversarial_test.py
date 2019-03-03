@@ -12,9 +12,8 @@ for i in range(len(image_dataset)):
 
     print('\n##### Working on image [{} , {}]'.format(i+1, image_name))
 
-    adv, orig, _ = adversarial_examples("data/{}".format(image_path), method="JSMA", eps=100, show=True, cuda=True,
+    adv, orig, _ = adversarial_examples("data/{}".format(image_path), method="LLCI", eps=100, show=True, cuda=True,
                                         image_name=image_name)
-
 
 
 # print('\n############## Finished LLCI - Now working on the BI method')

@@ -102,6 +102,20 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
                 inp.data = orig_data.data + perturbation_sum
                 inp.grad.data.zero_()
 
+                adv = inp.data.cpu().numpy()[0]
+                adv = adv.transpose(1, 2, 0)
+                adv = (adv * std) + mean
+                adv = adv * 255.0
+                # adv = adv[..., ::-1] # RGB to BGR
+                adv = np.clip(adv, 0, 255).astype(np.uint8)
+                confs, _ = classification(adv, sort=False, show=False, cuda=True)
+
+                orig_conf = confs[0, pred]
+                ll_conf = confs[0, ranks[0, -1]]
+
+                f = open("results/adversarial_examples/Adversarial_test/llci/{}.txt".format(image_name), "a")
+                f.write("{:>8} {:>15} {:>16.10f}\n".format(eps, orig_conf, ll_conf))
+
                 if show is True:
                     pred_adv = np.argmax(model(inp).data.cpu().numpy())
                     sm = nn.Softmax(1)
