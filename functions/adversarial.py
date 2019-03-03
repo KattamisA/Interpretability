@@ -85,7 +85,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
             y_target = ranks[0, -1]
         else:
             y_target = pred
-
+        f = open("results/adversarial_examples/Adversarial_test/bi/{}.txt".format(image_name), "w+")
         for i in range(num_iter):
                 out = model(inp)
                    
@@ -102,6 +102,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
                 inp.data = orig_data.data + perturbation_sum
                 inp.grad.data.zero_()
 
+                ## Used for adversarial strength tests
                 adv = inp.data.cpu().numpy()[0]
                 adv = adv.transpose(1, 2, 0)
                 adv = (adv * std) + mean
@@ -113,7 +114,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
                 orig_conf = confs[0, pred]
                 ll_conf = confs[0, ranks[0, -1]]
 
-                f = open("results/adversarial_examples/Adversarial_test/llci/{}.txt".format(image_name), "a")
+                f = open("results/adversarial_examples/Adversarial_test/bi/{}.txt".format(image_name), "a")
                 f.write("{:>8} {:>15} {:>16.10f}\n".format(eps, orig_conf, ll_conf))
 
                 if show is True:
@@ -152,19 +153,21 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
             jsma_img = perturbation_sum + orig
 
             inp = pre_processing(jsma_img, cuda=cuda)
-            adv = inp.data.cpu().numpy()[0]
-            adv = adv.transpose(1, 2, 0)
-            adv = (adv * std) + mean
-            adv = adv * 255.0
-            # adv = adv[..., ::-1] # RGB to BGR
-            adv = np.clip(adv, 0, 255).astype(np.uint8)
-            confs, _ = classification(adv, sort=False, show=False, cuda=True)
 
-            orig_conf = confs[0, original_target]
-            ll_conf = confs[0, y_target]
-
-            f = open("results/adversarial_examples/jsma/{}.txt".format(image_name), "a")
-            f.write("{:>8} {:>15} {:>16.10f}\n".format(eps, orig_conf, ll_conf))
+            ## Used for adversarial strength tests
+            # adv = inp.data.cpu().numpy()[0]
+            # adv = adv.transpose(1, 2, 0)
+            # adv = (adv * std) + mean
+            # adv = adv * 255.0
+            # # adv = adv[..., ::-1] # RGB to BGR
+            # adv = np.clip(adv, 0, 255).astype(np.uint8)
+            # confs, _ = classification(adv, sort=False, show=False, cuda=True)
+            #
+            # orig_conf = confs[0, original_target]
+            # ll_conf = confs[0, y_target]
+            #
+            # f = open("results/adversarial_examples/jsma/{}.txt".format(image_name), "a")
+            # f.write("{:>8} {:>15} {:>16.10f}\n".format(eps, orig_conf, ll_conf))
 
             if show is True:
                 pred_adv = np.argmax(model(inp).data.cpu().numpy())

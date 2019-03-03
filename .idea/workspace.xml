@@ -5,91 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adversarial_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/adversarial_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/adversarial.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/adversarial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/F16_GT_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/F16_GT_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/F16_GT_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/canoe_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/canoe_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/canoe_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/car_wheel_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/car_wheel_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/car_wheel_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/dolphin_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/dolphin_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/dolphin_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/flamingo_animal_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/flamingo_animal_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/flamingo_animal_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/football_helmet_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/football_helmet_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/football_helmet_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/fountain_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/fountain_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/fountain_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/goldfish_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/goldfish_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/goldfish_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/hourglass_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/hourglass_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/hourglass_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/knife_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/knife_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/knife_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/labrador_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/labrador_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/labrador_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/monkey_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/monkey_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/monkey_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/panda_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/panda_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/panda_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/peacock_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/peacock_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/peacock_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/refrigirator_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/refrigirator_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/refrigirator_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/rope_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/rope_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/rope_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/snake_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/snake_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/snake_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/spider_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/spider_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/spider_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/whale_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/whale_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/whale_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/zebra_GT_bi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/zebra_GT_fgsm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Epsilon test/zebra_GT_llci.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/F16_GT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/canoe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/car_wheel.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/dolphin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/flamingo_animal.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/football_helmet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/fountain.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/goldfish.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/hourglass.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/init.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/knife.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/labrador.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/monkey.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/panda.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/peacock.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/refrigirator.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/rope.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/snake.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/spider.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/whale.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/jsma/zebra_GT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/plotting_adversarial_confidences.m" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -193,8 +110,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="306">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,11 +122,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="122" column="63" lean-forward="true" selection-start-line="122" selection-start-column="63" selection-end-line="122" selection-end-column="63" />
+            <state relative-caret-position="236">
+              <caret line="116" selection-start-line="116" selection-end-line="117" selection-end-column="84" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
-                <element signature="e#4145#6617#0" />
               </folding>
             </state>
           </provider>
@@ -730,19 +649,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="122" column="63" lean-forward="true" selection-start-line="122" selection-start-column="63" selection-end-line="122" selection-end-column="63" />
+        <state relative-caret-position="236">
+          <caret line="116" selection-start-line="116" selection-end-line="117" selection-end-column="84" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#4145#6617#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
