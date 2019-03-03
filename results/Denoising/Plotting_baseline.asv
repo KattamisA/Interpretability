@@ -26,14 +26,11 @@ Average(:,2) = mean(Value,2);
 standard_deviation(:,2) = std(Value,0,2);
 
 figure
-hold on
-% plot(0:100:5000, Average, 'linewidth', 1)
-plot(0:100:5000,Average(:,1),'b','LineWidth',1.5)
-plot(0:100:5000,[Average(:,1)+standard_deviation(:,1), Average(:,1)-standard_deviation(:,1)],'--b','LineWidth',0.2,'HandleVisibility','off')
+plot(0:100:5000, Average, 'linewidth', 1)
 xlabel('DIP iterations')
 ylabel('True Class Confidence')
 grid on
-% legend('optimizer = Adam', 'optimizer = EntropySGD')
+legend('optimizer = Adam', 'optimizer = EntropySGD')
 
 figure
 plot(0:100:5000, standard_deviation, 'linewidth', 1)

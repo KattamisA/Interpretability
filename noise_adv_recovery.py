@@ -9,8 +9,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
                  'rope.jpeg', 'knife.jpg']
 
-methods = ['LLCI_eps1', 'LLCI_eps5', 'LLCI_eps25', 'LLCI_eps100', 'BI_eps1', 'BI_eps5', 'BI_eps25', 'BI_eps100',
-           'FGSM_eps1', 'FGSM_eps5', 'FGSM_eps25', 'FGSM_eps100']
+methods = ['JSMA_eps1', 'JSMA_eps5', 'JSMA_eps25', 'JSMA_eps100']
 
 for meth in methods:
     print("#######################\n\nMethod: {}".format(meth))
@@ -24,7 +23,7 @@ for meth in methods:
 
         image_path = '{}_{}.png'.format(image_name, meth)
 
-        adversary = cv2.imread("results/adversarial_examples/{}/{}".format(meth, image_path))[..., ::-1]
+        adversary = cv2.imread("results/adversarial_examples/Examples/{}/{}".format(meth, image_path))[..., ::-1]
         save_path_common = 'results/Adv_rev_noise/{}'
         save_path = save_path_common.format(meth)
         f = open("{}/{}_stats.txt".format(save_path, image_name), "w+")

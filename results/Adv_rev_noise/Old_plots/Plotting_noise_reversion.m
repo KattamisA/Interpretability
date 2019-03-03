@@ -12,7 +12,7 @@ for j=1:4
         s = load(path);
         confidences(:,i) = s(:,2)./confs(1,i);
     end
-    Average(j,:) = smooth(mean(confidences,2),3);
+    Average(j,:) = mean(confidences,2);
 end
 figure
 plot(1:128,Average, 'LineWidth', 1.5)
@@ -30,7 +30,7 @@ for j=1:4
         s = load(path);
         confidences(:,i) = s(:,2)./confs(1,i);
     end
-    Average(j,:) = smooth(mean(confidences,2),3);
+    Average(j,:) = mean(confidences,2);
 end
 figure
 plot(1:128,Average, 'LineWidth', 1.5)
@@ -48,7 +48,7 @@ for j=1:4
         s = load(path);
         confidences(:,i) = s(:,2)./confs(1,i);
     end
-    Average(j,:) = smooth(mean(confidences,2),3);
+    Average(j,:) = mean(confidences,2);
 end
 figure
 plot(1:128,Average, 'LineWidth', 1.5)
