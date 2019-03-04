@@ -17,7 +17,7 @@ for meth in methods:
         orig_path = image_dataset[i]
         image_name = '{}'.format(orig_path.split('.')[0])
 
-        orig = cv2.imread("data/knife.jpg")[..., ::-1]
+        orig = cv2.imread("data/{}".format(orig_path))[..., ::-1]
         _, ranks = classification(orig, sort=True, show=False, cuda=True)
         original_class = ranks[0, 0]
 

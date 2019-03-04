@@ -18,7 +18,7 @@ for i in range(len(image_dataset2)):
     image = image_dataset2[i]
     print('###### Working on image: ' + image.split('.')[0])
 
-    img = cv2.imread('data/' + image)[..., ::-1]
+    img = cv2.imread('data/knife.jpg')[..., ::-1]
     _, ranks = classification(img, sort=True, cuda=True)
     target_class = ranks[0, 0]
 
