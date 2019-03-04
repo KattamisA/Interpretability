@@ -103,7 +103,7 @@ def generate_saliency_maps(path, img_path, name, model_type='resnet18', cuda=Fal
         # if stdev_spread == 0.01:
         #     plt.imsave(path + '/Saliency_' + image_name + '_std.png', np.uint8(output_img), format="png")
         # else:
-        plt.imsave(path + '/Saliency_' + image_name + '_original_class.png', np.uint8(output_img), format="png")
+        plt.imsave(path + '/Saliency_' + image_name + '.png', np.uint8(output_img), format="png")
 
     else:
         print('\nWorking on the INTEGRATED SMOOTHGRAD saliency map with magnitude = True')
@@ -142,7 +142,7 @@ def generate_saliency_maps(path, img_path, name, model_type='resnet18', cuda=Fal
                                             img_integrated_smoothgrad_false, img_integrated_smoothgrad_false_overlay,
                                             img_integrated_smoothgrad_false_neg, img_integrated_smoothgrad_false_neg_overlay)
 
-        plt.imsave(path + '/Saliency_' + image_name+ '_original_class.png', np.uint8(output_img), format="png")
+        plt.imsave(path + '/Saliency_' + image_name + '.png', np.uint8(output_img), format="png")
 
 
     return

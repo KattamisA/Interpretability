@@ -31,7 +31,7 @@ hold on
 plot(0:100:5000,Average(:,1),'b','LineWidth',1.5)
 plot(0:100:5000,[Average(:,1)+standard_deviation(:,1), Average(:,1)-standard_deviation(:,1)],'--b','LineWidth',0.2,'HandleVisibility','off')
 xlabel('DIP iterations')
-ylabel('True Class Confidence')
+ylabel('PSNR')
 grid on
 % legend('optimizer = Adam', 'optimizer = EntropySGD')
 
