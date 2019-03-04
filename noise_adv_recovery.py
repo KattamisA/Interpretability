@@ -9,7 +9,7 @@ image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
                  'rope.jpeg', 'knife.jpg']
 
-methods = ['JSMA_eps1', 'JSMA_eps5', 'JSMA_eps25', 'JSMA_eps100']
+methods = ['JSMA_eps5', 'JSMA_eps25', 'JSMA_eps100']
 
 for meth in methods:
     print("#######################\n\nMethod: {}".format(meth))
@@ -17,7 +17,7 @@ for meth in methods:
         orig_path = image_dataset[i]
         image_name = '{}'.format(orig_path.split('.')[0])
 
-        orig = cv2.imread("data/{}".format(orig_path))[..., ::-1]
+        orig = cv2.imread("data/knife.jpg")[..., ::-1]
         _, ranks = classification(orig, sort=True, show=False, cuda=True)
         original_class = ranks[0, 0]
 
