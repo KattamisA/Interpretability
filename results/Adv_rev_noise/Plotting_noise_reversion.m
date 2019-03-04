@@ -12,14 +12,14 @@ for j=1:4
         s = load(path);
         confidences(:,i) = s(:,2)./confs(1,i);
     end
-    Average(j,:) = smooth(mean(confidences,2),3);
+    Average(j,:) = smooth(mean(confidences,2),1);
 end
 figure
 plot(1:128,Average, 'LineWidth', 1.5)
 grid on
 ylim([0 1])
 xlabel('Noise standard deviation')
-ylabel('Average True Class Confidence')
+ylabel('True Class Confidence')
 legend('Epsilon=1','Epsilon=5','Epsilon=25','Epsilon=100')
 
 
@@ -30,14 +30,14 @@ for j=1:4
         s = load(path);
         confidences(:,i) = s(:,2)./confs(1,i);
     end
-    Average(j,:) = smooth(mean(confidences,2),3);
+    Average(j,:) = smooth(mean(confidences,2),1);
 end
 figure
 plot(1:128,Average, 'LineWidth', 1.5)
 grid on
 ylim([0 1])
 xlabel('Noise standard deviation')
-ylabel('Average True Class Confidence')
+ylabel('True Class Confidence')
 legend('Epsilon=1','Epsilon=5','Epsilon=25','Epsilon=100')
 
 
@@ -48,12 +48,30 @@ for j=1:4
         s = load(path);
         confidences(:,i) = s(:,2)./confs(1,i);
     end
-    Average(j,:) = smooth(mean(confidences,2),3);
+    Average(j,:) = smooth(mean(confidences,2),1);
 end
 figure
 plot(1:128,Average, 'LineWidth', 1.5)
 grid on
 ylim([0 1])
 xlabel('Noise standard deviation')
-ylabel('Average True Class Confidence')
+ylabel('True Class Confidence')
+legend('Epsilon=1','Epsilon=5','Epsilon=25','Epsilon=100')
+
+common = 'JSMA_eps%d/%s_stats.txt';
+for j=1:4
+    for i=1:size(img_names,2)
+        path = sprintf(common,eps(j),img_names(i));
+        s = load(path);
+        confidences(:,i) = s(:,2)./confs(1,i);
+    end
+    Average(j,:) = smooth(mean(confidences,2),1);
+    Std(j,:) = std(confidences,0,2);
+end
+figure
+plot(1:128,Average, 'LineWidth', 1.5)
+grid on
+ylim([0 1])
+xlabel('Noise standard deviation')
+ylabel('True Class Confidence')
 legend('Epsilon=1','Epsilon=5','Epsilon=25','Epsilon=100')

@@ -14,17 +14,10 @@ for image in image_dataset:
     name = '{}'.format(image.split('.')[0])
     print("#############\n\nWorking on image: {} --- Method = LLCI".format(name))
     for epsilon in epsilon_values:
-        adv, orig, _ = adversarial_examples("data/{}".format(image), method="LLCI", eps=epsilon, show=False, model_name='inception_v3')
-        save_path = 'results/Adv_DIP/Inception_v3/All_adv_methods/LLCI_eps{}'.format(epsilon)
-        _ = dip(adv, 'complex', 0.01, num_iter, save=True, save_path=save_path, plot=False, name=name)
-        generate_result_files(save_path, adv, orig, num_iter, name, cuda=True, model='inception_v3')
-
-for image in image_dataset:
-    name = '{}'.format(image.split('.')[0])
-    print("#############\n\nWorking on image: {} --- Method = LLCI".format(name))
-    for epsilon in epsilon_values:
-        adv, orig, _ = adversarial_examples("data/{}".format(image), method="LLCI", eps=epsilon, show=False, model_name='resnet18')
-        save_path = 'results/Adv_DIP/All_adv_methods/LLCI_eps{}'.format(epsilon)
+        img_path = 'results/adversarial_examples/Examples/JSMA_eps{}/{}_JSMA_eps{}.png'.format(epsilon, name, epsilon)
+        adv = cv2.imread(img_path)[..., ::-1]
+        orig = cv2.imread('data/' + image)[..., ::-1]
+        save_path = 'results/Adv_DIP/All_adv_methods/JSMA_eps{}'.format(epsilon)
         _ = dip(adv, 'complex', 0.01, num_iter, save=True, save_path=save_path, plot=False, name=name)
         generate_result_files(save_path, adv, orig, num_iter, name, cuda=True, model='resnet18')
 
