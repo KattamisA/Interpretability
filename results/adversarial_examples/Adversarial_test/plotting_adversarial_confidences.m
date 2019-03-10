@@ -43,7 +43,7 @@ q = 1:100;
 qs = round(max(1.25*q,q+4));
 
 figure
-common = 'jsma/%s.txt';
+common = 'jsma_simple/%s.txt';
 Average = zeros(126,20);
 Least = zeros(126,20);
 for i=1:size(img_names,2)

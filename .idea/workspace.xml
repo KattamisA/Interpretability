@@ -5,69 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adversarial_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/adversarial_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/adversarial.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/adversarial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/All_adv_methods/Plotting_default.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/All_adv_methods/Plotting_default.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_rev_noise/Plotting_noise_reversion.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_rev_noise/Plotting_noise_reversion.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Plotting_baseline.asv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_10000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saliency_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/saliency_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/adversarial_examples/Adversarial_test/plotting_adversarial_confidences.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/adversarial_examples/Adversarial_test/plotting_adversarial_confidences.m" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -182,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="170" column="27" lean-forward="true" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
+            <state relative-caret-position="238">
+              <caret line="156" column="36" lean-forward="true" selection-start-line="156" selection-start-column="36" selection-end-line="156" selection-end-column="36" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -289,10 +228,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="461" />
-    <option name="y" value="-19" />
-    <option name="width" value="1932" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -705,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="170" column="27" lean-forward="true" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
+        <state relative-caret-position="238">
+          <caret line="156" column="36" lean-forward="true" selection-start-line="156" selection-start-column="36" selection-end-line="156" selection-end-column="36" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -715,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

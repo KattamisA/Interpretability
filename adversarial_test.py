@@ -15,7 +15,7 @@ for i in range(len(image_dataset)):
     # ll_class = ranks[0, -1]
     print('\n##### Working on image [{} , {}]'.format(i+1, image_name))
 
-    adv, _, _ = adversarial_examples("data/{}".format(image_path), method="BI", eps=100, show=True, cuda=True,
+    adv, _, _ = adversarial_examples("data/{}".format(image_path), method="JSMA", eps=100, show=True, cuda=True,
                                         image_name=image_name)
 
     # for eps in range(1, 101):
