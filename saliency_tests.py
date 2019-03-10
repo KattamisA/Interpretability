@@ -8,22 +8,6 @@ import matplotlib.pyplot as plt
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'knife.jpg', 'rope.jpeg']
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
 image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
 

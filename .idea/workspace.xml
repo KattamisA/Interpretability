@@ -6,8 +6,68 @@
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adv_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adv_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adversarial_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/adversarial_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/adversarial.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/adversarial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/All_adv_methods/Plotting_default.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/All_adv_methods/Plotting_default.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/Adv_rev_noise/Plotting_noise_reversion.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_rev_noise/Plotting_noise_reversion.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Denoising/Plotting_baseline.asv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_10000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_1800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_2800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_3800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_4800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_5800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_6800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_7800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_8800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Saliency/adversarial/Knife_DIP/Saliency_it_9800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saliency_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/saliency_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,21 +78,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/denoising.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="20" column="30" selection-start-line="20" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="323">
               <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="80" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -44,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="646">
               <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -54,25 +102,6 @@
                 <element signature="e#2309#2591#0" />
                 <element signature="e#2627#3034#0" />
                 <element signature="e#3072#3356#0" />
-                <element signature="e#3402#3686#0" />
-                <element signature="e#3393#3674#0" />
-                <element signature="e#3711#3992#0" />
-                <element signature="e#4029#4310#0" />
-                <element signature="e#4347#4628#0" />
-                <element signature="e#4665#4946#0" />
-                <element signature="e#4984#5335#0" />
-                <element signature="e#5762#6113#0" />
-                <element signature="e#6151#6502#0" />
-                <element signature="e#6151#6502#0" />
-                <element signature="e#6540#6893#0" />
-                <element signature="e#6929#7213#0" />
-                <element signature="e#7249#7601#0" />
-                <element signature="e#7641#7922#0" />
-                <element signature="e#7641#7925#0" />
-                <element signature="e#7961#8246#0" />
-                <element signature="e#8282#8567#0" />
-                <element signature="e#8603#8888#0" />
-                <element signature="e#9631#9913#0" />
               </folding>
             </state>
           </provider>
@@ -81,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/saliency_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+            <state relative-caret-position="357">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -90,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Adv_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="374">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -105,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="1020">
               <caret line="67" column="105" selection-start-line="67" selection-start-column="103" selection-end-line="67" selection-end-column="105" />
               <folding>
                 <element signature="e#14#24#0" expanded="true" />
@@ -129,7 +158,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
+            <state relative-caret-position="578">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -138,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/adversarial_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="68" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="221">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -153,10 +182,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+            <state relative-caret-position="527">
+              <caret line="170" column="27" lean-forward="true" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,12 +279,12 @@
         <option value="$PROJECT_DIR$/functions/generate_results.py" />
         <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/denoising.py" />
-        <option value="$PROJECT_DIR$/functions/adversarial.py" />
-        <option value="$PROJECT_DIR$/adversarial_test.py" />
         <option value="$PROJECT_DIR$/functions/generate_saliency_maps.py" />
         <option value="$PROJECT_DIR$/noise_adv_recovery.py" />
-        <option value="$PROJECT_DIR$/saliency_tests.py" />
         <option value="$PROJECT_DIR$/Adv_methods.py" />
+        <option value="$PROJECT_DIR$/saliency_tests.py" />
+        <option value="$PROJECT_DIR$/functions/adversarial.py" />
+        <option value="$PROJECT_DIR$/adversarial_test.py" />
       </list>
     </option>
   </component>
@@ -279,6 +320,12 @@
               <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="saliency" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -530,16 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adversary_generation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -572,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/denoising.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="306">
           <caret line="20" column="30" selection-start-line="20" selection-end-line="21" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
@@ -580,19 +617,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adversarial_test.py">
+    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="68" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="68" />
+        <state relative-caret-position="323">
+          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="80" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="646">
           <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
@@ -602,32 +639,33 @@
             <element signature="e#2309#2591#0" />
             <element signature="e#2627#3034#0" />
             <element signature="e#3072#3356#0" />
-            <element signature="e#3402#3686#0" />
-            <element signature="e#3393#3674#0" />
-            <element signature="e#3711#3992#0" />
-            <element signature="e#4029#4310#0" />
-            <element signature="e#4347#4628#0" />
-            <element signature="e#4665#4946#0" />
-            <element signature="e#4984#5335#0" />
-            <element signature="e#5762#6113#0" />
-            <element signature="e#6151#6502#0" />
-            <element signature="e#6151#6502#0" />
-            <element signature="e#6540#6893#0" />
-            <element signature="e#6929#7213#0" />
-            <element signature="e#7249#7601#0" />
-            <element signature="e#7641#7922#0" />
-            <element signature="e#7641#7925#0" />
-            <element signature="e#7961#8246#0" />
-            <element signature="e#8282#8567#0" />
-            <element signature="e#8603#8888#0" />
-            <element signature="e#9631#9913#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Adv_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/generate_saliency_maps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
+        <state relative-caret-position="1020">
           <caret line="67" column="105" selection-start-line="67" selection-start-column="103" selection-end-line="67" selection-end-column="105" />
           <folding>
             <element signature="e#14#24#0" expanded="true" />
@@ -635,10 +673,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/adversary_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/saliency_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="765">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -647,48 +705,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        <state relative-caret-position="527">
+          <caret line="170" column="27" lean-forward="true" selection-start-line="170" selection-start-column="27" selection-end-line="170" selection-end-column="27" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
+    <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Adv_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

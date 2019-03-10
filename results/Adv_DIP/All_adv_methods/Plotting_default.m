@@ -1,11 +1,12 @@
 clear all
-% close all
+close all
 
 %% Load and plot confidences
-t=0:100:10000;
-img_names = [ "F16_GT", "monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador'];
-Confidence = zeros(101,size(img_names,2));
-Normalise = zeros(101,size(img_names,2));
+t=0:100:5000;
+img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador','snake','flamingo_animal','canoe','car_wheel','fountain','football_helmet','hourglass','refrigirator','knife','rope'];
+
+Confidence = zeros(51,size(img_names,2));
+Normalise = zeros(51,size(img_names,2));
 hold on
 
 %% Calculating normalised
