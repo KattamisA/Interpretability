@@ -145,7 +145,7 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
         #     saliency_target = np.clip(saliency_target[0], 0, 255)   # only positive components
         #     for channel in range(3):
         #         saliency_target[:, :, channel] = linear_transform(saliency_target[:, :, channel], 99.9, 0, 0.0)
-
+        f = open("results/adversarial_examples/jsma_simple/{}.txt".format(image_name), "w+")
         for i in range(num_iter):
             saliency_original, _ = calculate_outputs_and_gradients([jsma_img], model, original_target, cuda=cuda)
             saliency_original = -np.clip(saliency_original[0], -255, 0)  # only negative components
