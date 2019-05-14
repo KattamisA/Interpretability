@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'knife.jpg', 'rope.jpeg']
 
-image_dataset = ['labrador.jpg']
+image_dataset = ['panda.jpg']
 # image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
 # image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
 
@@ -17,7 +17,7 @@ for i in range(len(image_dataset)):
     image = image_dataset[i]
     print('###### Working on image: ' + image.split('.')[0])
 
-    img = cv2.imread('data/labrador.jpg')[..., ::-1]
+    img = cv2.imread('data/panda.jpg')[..., ::-1]
     _, ranks = classification(img, sort=True, cuda=True)
     target_class = ranks[0, 0]
 
