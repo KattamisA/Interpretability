@@ -26,7 +26,7 @@ for i in range(len(image_dataset)):
     image_name = image.split('.')[0]
     img_path = 'data/' + name + '.jpg'
 
-    save_path = 'results/Saliency/adversarial/Dataset'
+    save_path = 'results/Saliency/Dataset'
     # generate_saliency_maps(save_path, img_path, image, model_type='resnet18', cuda=True, target_label=target_class,
     #                     top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.01, dual=False)
 
