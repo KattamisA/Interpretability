@@ -32,4 +32,4 @@ for i in range(len(image_dataset)):
     #                     top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.01, dual=False)
 
     generate_saliency_maps(save_path, img_path, name, model_type='resnet18', cuda=True, target_label=target_class,
-                        top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.03, dual=False)
+                        top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.02, dual=False)
