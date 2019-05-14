@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 #                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'knife.jpg', 'rope.jpeg']
-image_dataset = ['panda.jpg']
+image_dataset = ['panda.jpg', 'knife.jpg']
 # image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
 # image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
 
@@ -31,4 +31,4 @@ for i in range(len(image_dataset)):
     #                     top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.01, dual=False)
 
     generate_saliency_maps(save_path, img_path, name, model_type='resnet18', cuda=True, target_label=target_class,
-                        top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.01, dual=False)
+                        top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.05, dual=False)

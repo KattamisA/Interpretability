@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'rope.jpeg', 'knife.jpg']
 
-image_dataset = ['knife']
+image_dataset2 = ['panda']
 path = "results/Saliency/adversarial/Knife_DIP/"
 for i in range(len(image_dataset2)):
     im = image_dataset2[i]
