@@ -10,12 +10,12 @@ import matplotlib.pyplot as plt
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'rope.jpeg', 'knife.jpg']
 
-image_dataset2 = ['panda']
+image_dataset2 = ['panda', 'knife', 'labrador']
 path = "results/Saliency/adversarial/Knife_DIP/"
 for i in range(len(image_dataset2)):
     im = image_dataset2[i]
     image_name = '{}'.format(im.split('.')[0])
-    image_path = "Saliency_" + image_name + "_original_class.png.png"
+    image_path = "Saliency_" + image_name + ".png"
     orig = cv2.imread(path + "{}".format(image_path))[..., ::-1]
 
     g = cv2.resize(orig[0:178, 187:366], (178, 178))
