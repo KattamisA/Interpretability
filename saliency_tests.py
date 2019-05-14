@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 #                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'knife.jpg', 'rope.jpeg']
-image_dataset = ['knife.jpg']
+image_dataset = ['panda.jpg']
 # image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
 # image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
 

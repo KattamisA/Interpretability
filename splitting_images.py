@@ -2,14 +2,15 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
-image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
+# image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
+# image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
 
 # image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
 #                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'rope.jpeg', 'knife.jpg']
 
+image_dataset = ['knife']
 path = "results/Saliency/adversarial/Knife_DIP/"
 for i in range(len(image_dataset2)):
     im = image_dataset2[i]
