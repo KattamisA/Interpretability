@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'knife.jpg', 'rope.jpeg']
 
-image_dataset = ['knife_LLCI_eps100.png']
+image_dataset = ['knife_FGSM_eps100.png']
 # image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
 # image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
 
@@ -21,14 +21,14 @@ for i in range(len(image_dataset)):
     _, ranks = classification(img, sort=True, cuda=True)
     original_class = ranks[0, 0]
 
-    img2 = cv2.imread('results/adversarial_examples/Examples/LLCI_eps100/' + image)[..., ::-1]
+    img2 = cv2.imread('results/adversarial_examples/Examples/FGSM_eps100/' + image)[..., ::-1]
     _, ranks = classification(img, sort=True, cuda=True)
     target_class = ranks[0, 0]
 
     name = image.split('.')[0]
 
     # image = name + '_original_class.png'
-    img_path = 'results/adversarial_examples/Examples/LLCI_eps100/' + image
+    img_path = 'results/adversarial_examples/Examples/FGSM_eps100/' + image
 
     save_path = 'results/Saliency/Dataset'
     generate_saliency_maps(save_path, img_path, name + 'oc', model_type='resnet18', cuda=True, target_label=original_class,
