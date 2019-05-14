@@ -21,7 +21,7 @@ for j=1:size(tests,2)
         test = sprintf('test%d',tests(j));
         path = sprintf(common,test,img_names(i));
         s = load(path);
-        Confidence(:,i) = s(:,1);
+        Confidence(:,i) = smooth(s(:,1),3);
         [Peak_amplitudes(j,i),Peak_iterations(j,i)]  = max(s(1:51,1));
     end
     Averaged(:,j) = smooth(mean(Confidence,2),1);
@@ -45,20 +45,22 @@ for j=1:size(tests,2)
 end
 ylim([0,size(tests,2)+2])
 grid on
-legend('Constant Feature Maps - # parameters ~150k','Changing Feature Maps - # parameters ~150k', 'Constant Feature Maps - # parameters ~600k', 'Changing Feature Maps - # parameters ~600k','Constant Feature Maps - # parameters ~2200k(Baseline)','Changing Feature Maps - # parameters ~2200k')
+% legend('Constant Feature Maps - # parameters ~150k','Changing Feature Maps - # parameters ~150k', 'Constant Feature Maps - # parameters ~600k', 'Changing Feature Maps - # parameters ~600k','Constant Feature Maps - # parameters ~2200k(Baseline)','Changing Feature Maps - # parameters ~2200k')
+legend('Scenario 1','Scenario 2', 'Scenario 3', 'Scenario 4','Scenario 5 - Baseline','Scenario 6')
 
 %% Plotting
-% plot(t,Std,'LineWidth',1)
-% legend('show')
-% figure
-% hold on
-% plot(t,Averaged,'LineWidth',1.5)
-% % plot(t,[Averaged+Std, Averaged-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
+figure
+plot(t,Std,'LineWidth',1)
+legend('show')
+figure
+hold on
+plot(t,Averaged,'LineWidth',1.3)
+% plot(t,[Averaged+Std, Averaged-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
 % legend('Adam optimizer - average')
 % legend('Skip connections = 0','Skip connections = 4','Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
-% xlabel('DIP iterations')
-% ylabel('Averaged Class Confidence')
-% xlim([0 5000])
-% % plot(t,Std,'LineWidth',1)
-% grid on
-% legend('Constant Feature Maps - # parameters ~150k','Changing Feature Maps - # parameters ~150k', 'Constant Feature Maps - # parameters ~600k', 'Changing Feature Maps - # parameters ~600k','Constant Feature Maps - # parameters ~2200k(Baseline)','Changing Feature Maps - # parameters ~2200k')
+xlabel('DIP iterations')
+ylabel('True Class Confidence')
+xlim([0 5000])
+% plot(t,Std,'LineWidth',1)
+grid on
+legend('Scenario 1','Scenario 2', 'Scenario 3', 'Scenario 4','Scenario 5 - Baseline','Scenario 6')

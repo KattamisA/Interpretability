@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 #                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'knife.jpg', 'rope.jpeg']
+image_dataset = ['knife.jpg']
+# image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
+# image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
 
-image_dataset2 = ['it_{}.png'.format(100*i) for i in range(0, 11)]
-image_dataset2.extend(['it_{}.png'.format(200*i) for i in range(6, 51)])
 
-
-for i in range(len(image_dataset2)):
-    image = image_dataset2[i]
+for i in range(len(image_dataset)):
+    image = image_dataset[i]
     print('###### Working on image: ' + image.split('.')[0])
 
     img = cv2.imread('data/knife.jpg')[..., ::-1]
@@ -22,13 +22,13 @@ for i in range(len(image_dataset2)):
 
     name = image.split('.')[0]
 
-    image = name + '_original_class.png'
+    # image = name + '_original_class.png'
     image_name = image.split('.')[0]
-    img_path = 'results/Adv_DIP/Multiple_images/knife/' + name + '.png'
+    img_path = 'data/' + name + '.jpg'
 
-    save_path = 'results/Saliency/adversarial/Knife_DIP'
-    generate_saliency_maps(save_path, img_path, image, model_type='resnet18', cuda=True, target_label=target_class,
-                        top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.01, dual=False)
+    save_path = 'results/Saliency/adversarial/Dataset'
+    # generate_saliency_maps(save_path, img_path, image, model_type='resnet18', cuda=True, target_label=target_class,
+    #                     top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.01, dual=False)
 
     generate_saliency_maps(save_path, img_path, name, model_type='resnet18', cuda=True, target_label=target_class,
                         top_percentile=95, bottom_percentile=10, mask_mode=True, stdev_spread=0.01, dual=False)

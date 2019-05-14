@@ -16,7 +16,7 @@ for j=1:4
     for i=1:size(img_names,2)
         path = sprintf(common,j,img_names(i));
         s = load(path);
-        Confidence(:,i) = s(:,1);
+        Confidence(:,i) = smooth(s(:,1),3);
         [Peak_amplitudes(j,i),Peak_iterations(j,i)]  = max(s(1:51,1));
     end
     Average(:,j) = mean(Confidence,2);
@@ -42,10 +42,10 @@ end
 
 figure
 hold on
-plot(0:100:5000,Average(1:51,:),'LineWidth',1.5)
+plot(0:100:5000,Average(1:51,:),'LineWidth',1.3)
 % plot(0:100:5000,[Average(1:51,:)+Std(1:51,:), Average(1:51,:)-Std(1:51,:)],'--r','LineWidth',0.2,'HandleVisibility','off')
 xlabel('DIP iterations')
-ylabel('Averaged Class Confidence')
+ylabel('True Class Confidence')
 legend('LR=0.001','LR=0.01','LR=0.1','LR=1')
 grid on
 % plot(t,Std,'LineWidth',1)

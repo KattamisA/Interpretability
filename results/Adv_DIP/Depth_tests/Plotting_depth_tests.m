@@ -21,7 +21,7 @@ for j=1:size(tests,2)
         test = sprintf('depth%d',tests(j));
         path = sprintf(common,test,img_names(i));
         s = load(path);
-        Confidence(:,i) = s(:,1);
+        Confidence(:,i) = smooth(s(:,1),3);
         [Peak_amplitudes(j,i),Peak_iterations(j,i)]  = max(s(1:51,1));
     end
     Averaged(:,j) = smooth(mean(Confidence,2),1);
@@ -54,12 +54,12 @@ figure
 hold on
 % Averaged = Averaged(:,2);
 % Std = Std(:,2);
-plot(t,Averaged,'LineWidth',1.5)
+plot(t,Averaged,'LineWidth',1.3)
 % plot(t,[Averaged+Std, Averaged-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
 % legend('Adam optimizer - average')
-legend('Depths = 1','Depths = 2', 'Depths = 3', 'Depths = 4','Depths = 5 (Baseline)','Depths = 6')
+legend('1-layer encoder','2-layer encoder', '3-layer encoder', '4-layer encoder','5-layer encoder (Baseline)','6-layer encoder')
 xlabel('DIP iterations')
-ylabel('Averaged Class Confidence')
+ylabel('True Class Confidence')
 xlim([0 10000])
 % % plot(t,Std,'LineWidth',1)
 grid on

@@ -58,18 +58,36 @@ for j = 1:size(methods,2)
     Averaged(1,j) = sum(confs)/20;
 end
 
-plot(0:100, Averaged([1,index],:), 'linewidth', 1.5)
+methods = ["ssllci"];
+Averaged2 = zeros(101,2);
+for j = 1:size(methods,2)
+    Average = zeros(101,20);
+    Least = zeros(101,20);
+    for i=1:size(img_names,2)
+        path = sprintf(common, methods(j), img_names(i));
+        s = load(path);
+        Average(2:end,i) = s(:,2);
+        Least(2:end,i) = s(:,3);
+    end
+    Averaged2(:,1) = smooth(mean(Average,2),7);
+    Averaged2(:,2) = mean(Least,2);
+    Averaged(1,j) = sum(confs)/20;
+end
+
+plot(0:100, [Averaged([1,index],:), Averaged2(:,1)], 'linewidth', 1.5)
 grid on
 xlabel('Adversarial strength, \epsilon')
 ylabel('Classification confidence')
-legend('Fast Gradient Sign Method, FGSM', 'Basic Iterative Method, BI', 'Least Likely Class Iterative Method, LLCI', ' Jacobian-based Saliency Map Approach, JSMA')
+legend('Fast Gradient Sign Method, (FGSM)', 'Basic Iterative Method, (BI)', 'Least Likely Class Iterative Method, (LLCI)', "Modified Jacobian-based Saliency Map Approach" + newline + " with Smoothgrad, (JSMA-SG)")
 xlim([0 105])
+ylim([0 1.1])
 
 figure
-plot(0:100, [Leasts2 , Leasts([1,index],:)], 'linewidth', 1.5)
+plot(0:100, [Leasts([1,index],[2,3]), Averaged2(:,2)], 'linewidth', 1.5)
 grid on
 xlabel('Adversarial strength, \epsilon')
 ylabel('Classification confidence')
 xlim([0 105])
-legend('Fast Gradient Sign Method, FGSM', 'Basic Iterative Method, BI', 'Least Likely Class Iterative Method, LLCI', ' Jacobian-based Saliency Map Approach, JSMA')
+ylim([0 1.1])
+legend('Least Likely Class Iterative Method, (LLCI)', "Modified Jacobian-based Saliency Map Approach" + newline + " with Smoothgrad, (JSMA-SG)")
 

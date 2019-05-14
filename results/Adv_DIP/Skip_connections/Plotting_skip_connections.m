@@ -21,7 +21,7 @@ for j=1:size(tests,2)
         test = sprintf('test%d',tests(j));
         path = sprintf(common,test,img_names(i));
         s = load(path);
-        Confidence(:,i) = s(:,1);
+        Confidence(:,i) = smooth(s(:,1),3);
         [Peak_amplitudes(j,i),Peak_iterations(j,i)]  = max(s(1:51,1));
     end
     Averaged(:,j) = smooth(mean(Confidence,2),1);
@@ -53,13 +53,13 @@ legend('Skip connections = 0','Skip connections = 1','Skip connections = 2','Ski
 % legend('show')
 figure
 hold on
-plot(t,Averaged,'LineWidth',1.5)
+plot(t,Averaged(:,1:7),'LineWidth',1.3)
 % plot(t,[Averaged+Std, Averaged-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
 legend('Adam optimizer - average')
 legend('Skip connections = 0','Skip connections = 1','Skip connections = 2','Skip connections = 4','Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')
 xlabel('DIP iterations')
-ylabel('Averaged Class Confidence')
-xlim([0 5000])
+ylabel('True Class Confidence')
+xlim([0 10000])
 % plot(t,Std,'LineWidth',1)
 grid on
 % legend('Skip connections = 0','Skip connections = 4', 'Skip connections = 8','Skip connections = 16','Skip connections = 32','Skip connections = 64')

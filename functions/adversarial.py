@@ -77,6 +77,17 @@ def adversarial_examples(image_path, model_name='resnet18', method='Fast Gradien
         loss.backward()                                                         # compute gradients
         inp.data = inp.data + ((eps/255.0) * torch.sign(inp.grad.data))         # compute adversary
 
+    if method == 'SSLLCI':
+        y_target = ranks[0, -1]
+        out = model(inp)
+
+        # compute loss
+        loss = criterion(out, Variable(torch.Tensor([float(y_target)]).long()))
+        loss.backward()
+
+        inp.data = inp.data - ((eps/255.0) * torch.sign(inp.grad.data))         # compute adversary
+
+
     if method == 'Basic Iterative' or method == 'Least Likely Class Iterative':
         
         orig_data = Variable(torch.from_numpy(img).float().unsqueeze(0))#, requires_grad=True)

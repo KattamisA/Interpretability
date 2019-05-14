@@ -20,7 +20,7 @@ for j=1:size(tests,2)
         test = sprintf('kernel%d',tests(j));
         path = sprintf(common,test,img_names(i));
         s = load(path);
-        Confidence(:,i) = s(1:51,1);
+        Confidence(:,i) = smooth(s(:,1),3);
         [Peak_amplitudes(j,i),Peak_iterations(j,i)]  = max(s(1:51,1));
     end
     Averaged(:,j) = smooth(mean(Confidence,2),1);
@@ -51,12 +51,12 @@ legend('Kernel size - 1x1','Kernel size - 3x3', 'Kernel size - 5x5')
 % legend('show')
 figure
 hold on
-plot(t,Averaged,'LineWidth',1.5)
+plot(t,Averaged,'LineWidth',1.3)
 % plot(t,[Averaged+Std, Averaged-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
 % legend('Adam optimizer - average')
-legend('Kernel size - 1x1','Kernel size - 3x3', 'Kernel size - 5x5')
+legend('Kernel size - 1-by-1','Kernel size - 3-by-3 (Baseline)', 'Kernel size - 5-by-5')
 xlabel('DIP iterations')
-ylabel('Averaged Class Confidence')
+ylabel('True Class Confidence')
 xlim([0 5000])
 % plot(t,Std,'LineWidth',1)
 grid on

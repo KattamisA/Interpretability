@@ -14,7 +14,7 @@ Peak_amplitudes = zeros(1,size(img_names,2));
 Mean_peak_amplitudes = zeros(1,size(img_names,2));
 
 %% Calculating normalised
-common = '%s/%s_resnet50_Normalised.txt';
+common = 'xlim%s/%s_resnet50_Normalised.txt';
 for i=1:size(img_names,2)
     path = sprintf(common,img_names(i),img_names(i));
     s = load(path);
