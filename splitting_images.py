@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'rope.jpeg', 'knife.jpg']
 
-image_dataset2 = ['panda', 'knife', 'labrador']
+image_dataset2 = ['panda', 'knife', 'labrador', 'labrador_llc', 'labrador_original_class']
 path = "results/Saliency/Dataset/"
 for i in range(len(image_dataset2)):
     im = image_dataset2[i]
@@ -35,11 +35,11 @@ for i in range(len(image_dataset2)):
 
     # img_path = 'results/Adv_DIP/Multiple_images/knife/' + name + '.png'
 
-    output = cv2.imread('results/Adv_DIP/Multiple_images/knife/' + image_name + '.png')[..., ::-1]
-    output = cv2.resize(output, (178, 178))
-    blank_hor = np.ones((8, 178, 3), dtype=np.uint8) * 255
-    total = np.concatenate([output, blank_hor, migsg], 0)
-    total = cv2.resize(total, (178, 550))
+    # output = cv2.imread('results/Adv_DIP/Multiple_images/knife/' + image_name + '.png')[..., ::-1]
+    # output = cv2.resize(output, (178, 178))
+    # blank_hor = np.ones((8, 178, 3), dtype=np.uint8) * 255
+    # total = np.concatenate([output, blank_hor, migsg], 0)
+    # total = cv2.resize(total, (178, 550))
 
     image_name = path + image_name
     plt.imsave(image_name + "_g.png", np.uint8(g), format="png")
