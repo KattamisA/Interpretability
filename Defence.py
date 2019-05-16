@@ -18,7 +18,7 @@ for i in range(len(image_dataset)):
     _, ranks = classification(orig, sort=True, show=False, model_name='resnet18', cuda=True)
     orig_rank = ranks[0,0]
     adv = cv2.imread("results/adversarial_examples/Examples/FGSM_eps100/" + image_name + "_FGSM_eps100.png")[..., ::-1]
-    output = dip(adv, 'complex', 0.01, 300, save=False, plot=False, save_path=save_path, name=image_name)
+    output = dip(adv, 'complex', 0.01, 300, save=False, plot=False, name=image_name)
     _, ranks = classification(output, sort=True, show=False, model_name='resnet18', cuda=True)
     if ranks[0,0] == orig_rank:
         q += 1
