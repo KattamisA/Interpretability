@@ -2,9 +2,10 @@ from functions.adversarial import *
 from functions.dip import *
 from functions.generate_results import *
 # from functions.adversarial import *
-import cv2
 from functions.classification import *
-import numpy as np
+import matplotlib.pyplot as plt
+import cv2
+
 
 image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
@@ -20,8 +21,7 @@ for i in range(len(image_dataset)):
     orig_rank = ranks[0,0]
     adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
     output = dip(adv, 'complex', 0.01, 501, save=False, plot=False, name=image_name)
-    plt.imsave('image_name.png', output, format='png')
-    _, ranks = classification(output, sort=True, show=True, model_name='resnet18', cuda=True)
+    _, ranks = classification(output * 255, sort=True, show=True, model_name='resnet18', cuda=True)
     if ranks[0,0] == orig_rank:
         print('\nGood')
         q = q + 1
