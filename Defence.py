@@ -16,12 +16,12 @@ for i in range(len(image_dataset)):
     image_name = '{}'.format(image_path.split('.')[0])
     print(image_name)
     orig = cv2.imread("data/" + image_path)[..., ::-1]
-    _, ranks = classification(orig, sort=True, show=False, model_name='resnet18', cuda=True)
+    _, ranks = classification(orig, sort=True, show=True, model_name='resnet18', cuda=True)
     orig_rank = ranks[0,0]
     adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
     output = dip(adv, 'complex', 0.01, 500, save=False, plot=False, name=image_name)
     output = output.transpose(1, 2, 0)
-    _, ranks = classification(output, sort=True, show=False, model_name='resnet18', cuda=True)
+    _, ranks = classification(output, sort=True, show=True, model_name='resnet18', cuda=True)
     if ranks[0,0] == orig_rank:
         print('\nGood')
         q = q + 1
