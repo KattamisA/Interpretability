@@ -420,6 +420,6 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
             glparam.optimizer.step(j, closure, glparam.net, criterion)    
     # print('\n')
     
-    out = glparam.net(net_input)
-    glparam.out_avg = glparam.out_avg * glparam.exp + out.detach() * (1 - glparam.exp)
-    return torch_to_np(glparam.out_avg)
+    # out = glparam.net(net_input)
+    # glparam.out_avg = glparam.out_avg * glparam.exp + out.detach() * (1 - glparam.exp)
+    return np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0)
