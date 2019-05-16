@@ -20,7 +20,6 @@ for i in range(len(image_dataset)):
     orig_rank = ranks[0,0]
     adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
     output = dip(adv, 'complex', 0.01, 501, save=False, plot=False, name=image_name)
-    output = output.transpose(1, 2, 0)
     _, ranks = classification(output, sort=True, show=True, model_name='resnet18', cuda=True)
     if ranks[0,0] == orig_rank:
         print('\nGood')
