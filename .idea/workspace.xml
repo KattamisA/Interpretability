@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Defence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="391">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -31,12 +31,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="387" column="21" selection-start-line="387" selection-start-column="21" selection-end-line="387" selection-end-column="21" />
+            <state relative-caret-position="351">
+              <caret line="402" column="72" selection-start-line="402" selection-start-column="67" selection-end-line="402" selection-end-column="72" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#1089#1498#0" />
                 <element signature="e#3072#3356#0" />
                 <element signature="e#3843#4124#0" />
                 <element signature="e#4161#4442#0" />
@@ -117,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>classes</find>
       <find>torch_to_np</find>
       <find>torch</find>
       <find>self</find>
@@ -147,6 +159,7 @@
       <find>im</find>
       <find>alpha</find>
       <find>as</find>
+      <find>trans</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -338,16 +351,6 @@
     <entry file="file://$PROJECT_DIR$/Classification of DIP results.ipynb" />
     <entry file="file://$PROJECT_DIR$/functions/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/models/optim.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -648,12 +651,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="387" column="21" selection-start-line="387" selection-start-column="21" selection-end-line="387" selection-end-column="21" />
+        <state relative-caret-position="351">
+          <caret line="402" column="72" selection-start-line="402" selection-start-column="67" selection-end-line="402" selection-end-column="72" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#1089#1498#0" />
             <element signature="e#3072#3356#0" />
             <element signature="e#3843#4124#0" />
             <element signature="e#4161#4442#0" />
@@ -679,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Defence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="391">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
