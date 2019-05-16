@@ -422,4 +422,4 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
     
     out = glparam.net(net_input)
     glparam.out_avg = glparam.out_avg * glparam.exp + out.detach() * (1 - glparam.exp)
-    return glparam.out_avg
+    return torch_to_np(glparam.out_avg)
