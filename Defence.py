@@ -4,6 +4,7 @@ from functions.generate_results import *
 # from functions.adversarial import *
 import cv2
 from functions.classification import *
+import numpy as np
 
 image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
@@ -19,6 +20,7 @@ for i in range(len(image_dataset)):
     orig_rank = ranks[0,0]
     adv = cv2.imread("results/adversarial_examples/Examples/FGSM_eps100/" + image_name + "_FGSM_eps100.png")[..., ::-1]
     output = dip(adv, 'complex', 0.01, 300, save=False, plot=False, name=image_name)
+    np.shape(output)
     _, ranks = classification(output, sort=True, show=False, model_name='resnet18', cuda=True)
     if ranks[0,0] == orig_rank:
         q += 1
