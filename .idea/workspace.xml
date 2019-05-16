@@ -4,42 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_5000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/Adam/lr3/dolphin_7000it.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_ig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_igsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_ig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_igsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_migsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_ov_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_ov_ig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_ov_igsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_ov_migsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_ov_sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_llc_sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_migsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_ig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_igsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_migsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_ov_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_ov_ig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_ov_igsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_ov_migsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_ov_sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_original_class_sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_ov_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_ov_ig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_ov_igsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_ov_migsg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_ov_sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Saliency/Dataset/labrador_sg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/splitting_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/splitting_images.py" afterDir="false" />
-    </list>
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Defence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="323">
+              <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -714,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Defence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="323">
+          <caret line="19" column="91" selection-start-line="19" selection-start-column="91" selection-end-line="19" selection-end-column="91" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
