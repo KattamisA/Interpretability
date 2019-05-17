@@ -1,7 +1,7 @@
 
 Image run through the deep image prior:                     No input name given
 
-Architecture:                                               test4       
+Architecture:                                               test2       
 Number of parameters:                                       154751      
 Input depth/feature maps:                                   8           
 Padding:                                                    zero        
@@ -10,7 +10,7 @@ Optimize over:                                              net
 Optimizer:                                                  adam        
 
 Learning rate:                                              0.01        
-Number of iterations:                                       10001       
+Number of iterations:                                       5001        
 
 Loss function:                                              MSE         
 
