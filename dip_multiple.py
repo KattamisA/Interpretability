@@ -88,7 +88,7 @@ for i in range(len(image_dataset2)):
     orig = cv2.imread('data/'+image_path)[..., ::-1]
     adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
 
-    for j in range(7, 9):
+    for j in range(7, 8):
         print("####\n\nDepth {}".format(j))
         save_path = save_path_common.format('Adam/depth{}'.format(j))
         _ = dip(adv, 'depth{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
