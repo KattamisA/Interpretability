@@ -11,50 +11,50 @@ image_dataset2 = ['goldfish.jpg', 'whale.jpg',
 # 'panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png',
 image_dataset = ['panda.jpg', 'monkey.jpg', 'goldfish.jpg', 'whale.jpg', 'knife.jpg']
         
-for i in range(4,5):
-    image_path = image_dataset[i]
-    image_name = '{}'.format(image_path.split('.')[0])
-    save_path_common = 'results/Adv_DIP/Architecture_tests/{}'
-
-    print("#############\n\nWorking on image: {}".format(image_name))
-    orig = cv2.imread('data/'+image_path)[..., ::-1]
-    adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
-
-    for j in range(2,3):
-        print("####\n\nTest {}".format(j))
-        save_path = save_path_common.format('Adam/test{}'.format(j))
-        _ = dip(adv, 'test{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
-        generate_result_files(save_path, adv, orig, num_iter, image_name)
-
-for i in range(len(image_dataset)):
-    image_path = image_dataset[i]
-    image_name = '{}'.format(image_path.split('.')[0])
-    save_path_common = 'results/Adv_DIP/Depth_tests/{}'
-
-    print("#############\n\nWorking on image: {}".format(image_name))
-    orig = cv2.imread('data/'+image_path)[..., ::-1]
-    adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
-
-    for j in range(2,3):
-        print("####\n\nDepth {}".format(j))
-        save_path = save_path_common.format('Adam/depth{}'.format(j))
-        _ = dip(adv, 'depth{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
-        generate_result_files(save_path, adv, orig, num_iter, image_name)
-
-for i in range(len(image_dataset)):
-    image_path = image_dataset[i]
-    image_name = '{}'.format(image_path.split('.')[0])
-    save_path_common = 'results/Adv_DIP/Skip_connections/{}'
-
-    print("#############\n\nWorking on image: {}".format(image_name))
-    orig = cv2.imread('data/'+image_path)[..., ::-1]
-    adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
-
-    for j in range(2,3):
-        print("####\n\nSkip {}".format(j))
-        save_path = save_path_common.format('Adam/test{}'.format(j))
-        _ = dip(adv, 'skip{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
-        generate_result_files(save_path, adv, orig, num_iter, image_name)
+# for i in range(4,5):
+#     image_path = image_dataset[i]
+#     image_name = '{}'.format(image_path.split('.')[0])
+#     save_path_common = 'results/Adv_DIP/Architecture_tests/{}'
+#
+#     print("#############\n\nWorking on image: {}".format(image_name))
+#     orig = cv2.imread('data/'+image_path)[..., ::-1]
+#     adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
+#
+#     for j in range(2,3):
+#         print("####\n\nTest {}".format(j))
+#         save_path = save_path_common.format('Adam/test{}'.format(j))
+#         _ = dip(adv, 'test{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
+#         generate_result_files(save_path, adv, orig, num_iter, image_name)
+#
+# for i in range(len(image_dataset)):
+#     image_path = image_dataset[i]
+#     image_name = '{}'.format(image_path.split('.')[0])
+#     save_path_common = 'results/Adv_DIP/Depth_tests/{}'
+#
+#     print("#############\n\nWorking on image: {}".format(image_name))
+#     orig = cv2.imread('data/'+image_path)[..., ::-1]
+#     adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
+#
+#     for j in range(2,3):
+#         print("####\n\nDepth {}".format(j))
+#         save_path = save_path_common.format('Adam/depth{}'.format(j))
+#         _ = dip(adv, 'depth{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
+#         generate_result_files(save_path, adv, orig, num_iter, image_name)
+#
+# for i in range(len(image_dataset)):
+#     image_path = image_dataset[i]
+#     image_name = '{}'.format(image_path.split('.')[0])
+#     save_path_common = 'results/Adv_DIP/Skip_connections/{}'
+#
+#     print("#############\n\nWorking on image: {}".format(image_name))
+#     orig = cv2.imread('data/'+image_path)[..., ::-1]
+#     adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
+#
+#     for j in range(2,3):
+#         print("####\n\nSkip {}".format(j))
+#         save_path = save_path_common.format('Adam/test{}'.format(j))
+#         _ = dip(adv, 'skip{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
+#         generate_result_files(save_path, adv, orig, num_iter, image_name)
 
 for i in range(len(image_dataset2)):
     image_path = image_dataset2[i]
