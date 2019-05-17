@@ -10,28 +10,28 @@ import matplotlib.pyplot as plt
 #                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
 #                  'rope.jpeg', 'knife.jpg']
 
-image_dataset2 = ['knife_FGSM_eps100', 'knife_FGSM_eps100oc']
-path = "results/Saliency/Dataset/"
-for i in range(len(image_dataset2)):
-    im = image_dataset2[i]
-    image_name = '{}'.format(im.split('.')[0])
-    image_path = "Saliency_" + image_name + ".png"
-    orig = cv2.imread(path + "{}".format(image_path))[..., ::-1]
-
-    g = cv2.resize(orig[0:178, 187:366], (178, 178))
-    ov_g = cv2.resize(orig[186:363, 187:366], (178, 178))
-
-    sg = cv2.resize(orig[0:178, 375:553], (178, 178))
-    ov_sg = cv2.resize(orig[186:363, 375:553], (178, 178))
-
-    ig = cv2.resize(orig[0:178, 562:740], (178, 178))
-    ov_ig = cv2.resize(orig[186:363, 562:740], (178, 178))
-
-    igsg = cv2.resize(orig[0:178, 749:928], (178, 178))
-    ov_igsg = cv2.resize(orig[186:363, 749:928], (178, 178))
-
-    migsg = cv2.resize(orig[0:178, 936:1115], (178, 178))
-    ov_migsg = cv2.resize(orig[186:363, 936:1115], (178, 178))
+# image_dataset2 = ['knife_FGSM_eps100', 'knife_FGSM_eps100oc']
+# path = "results/Saliency/Dataset/"
+# for i in range(len(image_dataset2)):
+#     im = image_dataset2[i]
+#     image_name = '{}'.format(im.split('.')[0])
+#     image_path = "Saliency_" + image_name + ".png"
+#     orig = cv2.imread(path + "{}".format(image_path))[..., ::-1]
+#
+#     g = cv2.resize(orig[0:178, 187:366], (178, 178))
+#     ov_g = cv2.resize(orig[186:363, 187:366], (178, 178))
+#
+#     sg = cv2.resize(orig[0:178, 375:553], (178, 178))
+#     ov_sg = cv2.resize(orig[186:363, 375:553], (178, 178))
+#
+#     ig = cv2.resize(orig[0:178, 562:740], (178, 178))
+#     ov_ig = cv2.resize(orig[186:363, 562:740], (178, 178))
+#
+#     igsg = cv2.resize(orig[0:178, 749:928], (178, 178))
+#     ov_igsg = cv2.resize(orig[186:363, 749:928], (178, 178))
+#
+#     migsg = cv2.resize(orig[0:178, 936:1115], (178, 178))
+#     ov_migsg = cv2.resize(orig[186:363, 936:1115], (178, 178))
 
     # img_path = 'results/Adv_DIP/Multiple_images/knife/' + name + '.png'
 
@@ -41,7 +41,7 @@ for i in range(len(image_dataset2)):
     # total = np.concatenate([output, blank_hor, migsg], 0)
     # total = cv2.resize(total, (178, 550))
 
-    image_name = path + image_name
+    # image_name = path + image_name
     # plt.imsave(image_name + "_g.png", np.uint8(g), format="png")
     # plt.imsave(image_name + "_ov_g.png", np.uint8(ov_g), format="png")
     #
@@ -76,4 +76,17 @@ for i in range(len(image_dataset2)):
 # plt.imsave("results/Saliency/Dataset/sal_knife_ig.png", np.uint8(np.concatenate([ig, blank_hor, ig2], 0)), format="png")
 # plt.imsave("results/Saliency/Dataset/sal_knife_migsg.png", np.uint8(np.concatenate([migsg, blank_hor, migsg2], 0)), format="png")
 
-up1 = cv2.imread('results/')
+save_path = 'results/Adv_DIP/Depth_tests/Adam/'
+
+up1 = cv2.imread(save_path + 'depth1/goldfish_1000it.png')[..., ::-1]
+up2 = cv2.imread(save_path + 'depth1/goldfish_3000it.png')[..., ::-1]
+up3 = cv2.imread(save_path + 'depth1/goldfish_5000it.png')[..., ::-1]
+
+down1 = cv2.imread(save_path + 'depth2/goldfish_1000it.png')[..., ::-1]
+down2 = cv2.imread(save_path + 'depth2/goldfish_3000it.png')[..., ::-1]
+down3 = cv2.imread(save_path + 'depth2/goldfish_5000it.png')[..., ::-1]
+
+blank_hor = np.ones((8, 224, 3), dtype=np.uint8) * 255
+plt.imsave(save_path + "depth1-2_1000it_goldfish.png", np.uint8(np.concatenate([up1, blank_hor, down1], 0)), format="png")
+plt.imsave(save_path + "depth1-2_3000it_goldfish.png", np.uint8(np.concatenate([up2, blank_hor, down2], 0)), format="png")
+plt.imsave(save_path + "depth1-2_5000it_goldfish.png", np.uint8(np.concatenate([up3, blank_hor, down3], 0)), format="png")
