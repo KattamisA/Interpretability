@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dip_multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/dip_multiple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/splitting_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/splitting_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Architecture_tests/Plotting_architecture_tests.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Architecture_tests/Plotting_architecture_tests.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Architecture_tests/arch_adv_confs.fig" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Architecture_tests/arch_adv_confs.fig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Architecture_tests/arch_adv_confs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Architecture_tests/arch_adv_confs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/depth_adv_confs.fig" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/depth_adv_confs.fig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/depth_adv_confs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Depth_tests/depth_adv_confs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/ID_investigation/id_adv_confs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/ID_investigation/id_adv_confs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Kernel_size_tests/kernel_adv_confs.fig" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Kernel_size_tests/kernel_adv_confs.fig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Kernel_size_tests/kernel_adv_confs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Kernel_size_tests/kernel_adv_confs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/lr_adv_confs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Learning_rates/lr_adv_confs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/skip_adv_confs.fig" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/skip_adv_confs.fig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/skip_adv_confs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/skip_adv_confs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Std_investigation/std_adv_confs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/Adv_DIP/Std_investigation/std_adv_confs.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="476">
               <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -47,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dip_multiple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="289">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -59,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splitting_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="272">
+              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -202,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -578,12 +590,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/utils/global_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/utils/common_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/classification.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#1089#1498#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitting_images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -625,61 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/utils/global_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/utils/common_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#1089#1498#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/splitting_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dip_multiple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="289">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
