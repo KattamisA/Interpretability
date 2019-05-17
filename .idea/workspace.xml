@@ -7,261 +7,6 @@
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dip_multiple.py" beforeDir="false" afterPath="$PROJECT_DIR$/dip_multiple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr1/it_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/EntropySGD_lr10/it_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Baselines/Original/it_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_10000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_5900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_6900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_7900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_8900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Adv_DIP/Skip_connections/Adam/test1/it_9900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -277,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Defence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="306">
               <caret line="24" column="83" selection-start-line="24" selection-end-line="25" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -290,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/classification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="442">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -302,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
+            <state relative-caret-position="1887">
               <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
@@ -315,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dip_multiple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -327,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="238">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -471,8 +216,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2311" />
-    <option name="y" value="-13" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -576,7 +321,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.1459431" />
@@ -856,6 +601,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Defence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="83" selection-start-line="24" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#2569#3347#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#1089#1498#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/running_dip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -893,52 +680,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="120" column="31" selection-start-line="120" selection-start-column="31" selection-end-line="120" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#1089#1498#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Defence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="83" selection-start-line="24" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#2569#3347#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dip_multiple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

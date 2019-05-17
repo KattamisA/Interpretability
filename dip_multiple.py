@@ -11,7 +11,7 @@ image_dataset2 = ['goldfish.jpg', 'whale.jpg',
 # 'panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png',
 image_dataset = ['panda.jpg', 'monkey.jpg', 'goldfish.jpg', 'whale.jpg', 'knife.jpg']
         
-for i in range(len(image_dataset)):
+for i in range(4,5):
     image_path = image_dataset[i]
     image_name = '{}'.format(image_path.split('.')[0])
     save_path_common = 'results/Adv_DIP/Architecture_tests/{}'
