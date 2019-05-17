@@ -57,22 +57,23 @@ for i in range(len(image_dataset2)):
     # plt.imsave(image_name + "_migsg.png", np.uint8(migsg), format="png")
     # plt.imsave(image_name + "_ov_migsg.png", np.uint8(ov_migsg), format="png")
 
-image_name = "results/Saliency/Dataset/knife"
-g = cv2.imread(image_name + '_g.png')[..., ::-1]
-sg = cv2.imread(image_name + "_sg.png")[..., ::-1]
-ig = cv2.imread(image_name + "_ig.png")[..., ::-1]
-migsg = cv2.imread(image_name + "_migsg.png")[..., ::-1]
+# image_name = "results/Saliency/Dataset/knife"
+# g = cv2.imread(image_name + '_g.png')[..., ::-1]
+# sg = cv2.imread(image_name + "_sg.png")[..., ::-1]
+# ig = cv2.imread(image_name + "_ig.png")[..., ::-1]
+# migsg = cv2.imread(image_name + "_migsg.png")[..., ::-1]
+#
+# image_name2 = "results/Saliency/Dataset/knife_FGSM_eps100"
+# g2 = cv2.imread(image_name2 + '_g.png')[..., ::-1]
+# sg2 = cv2.imread(image_name2 + "_sg.png")[..., ::-1]
+# ig2 = cv2.imread(image_name2 + "_ig.png")[..., ::-1]
+# migsg2 = cv2.imread(image_name2 + "_migsg.png")[..., ::-1]
+#
+# blank_hor = np.ones((8, 178, 3), dtype=np.uint8) * 255
+#
+# plt.imsave("results/Saliency/Dataset/sal_knife_g.png", np.uint8(np.concatenate([g, blank_hor, g2], 0)), format="png")
+# plt.imsave("results/Saliency/Dataset/sal_knife_sg.png", np.uint8(np.concatenate([sg, blank_hor, sg2], 0)), format="png")
+# plt.imsave("results/Saliency/Dataset/sal_knife_ig.png", np.uint8(np.concatenate([ig, blank_hor, ig2], 0)), format="png")
+# plt.imsave("results/Saliency/Dataset/sal_knife_migsg.png", np.uint8(np.concatenate([migsg, blank_hor, migsg2], 0)), format="png")
 
-image_name2 = "results/Saliency/Dataset/knife_FGSM_eps100"
-g2 = cv2.imread(image_name2 + '_g.png')[..., ::-1]
-sg2 = cv2.imread(image_name2 + "_sg.png")[..., ::-1]
-ig2 = cv2.imread(image_name2 + "_ig.png")[..., ::-1]
-migsg2 = cv2.imread(image_name2 + "_migsg.png")[..., ::-1]
-
-blank_hor = np.ones((8, 178, 3), dtype=np.uint8) * 255
-
-plt.imsave("results/Saliency/Dataset/sal_knife_g.png", np.uint8(np.concatenate([g, blank_hor, g2], 0)), format="png")
-plt.imsave("results/Saliency/Dataset/sal_knife_sg.png", np.uint8(np.concatenate([sg, blank_hor, sg2], 0)), format="png")
-plt.imsave("results/Saliency/Dataset/sal_knife_ig.png", np.uint8(np.concatenate([ig, blank_hor, ig2], 0)), format="png")
-plt.imsave("results/Saliency/Dataset/sal_knife_migsg.png", np.uint8(np.concatenate([migsg, blank_hor, migsg2], 0)), format="png")
-
+up1 = cv2.imread('results/')
