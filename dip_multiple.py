@@ -80,22 +80,22 @@ image_dataset2 = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra
 #     _ = dip(adv, 'complex', 10, num_iter, save=True, plot=False, save_path=save_path3, name=image_name,  OPTIMIZER = "EntropySGD")
 #     generate_result_files(save_path3, adv, orig, num_iter, image_name)
 
-for i in range(10, len(image_dataset2)):
-    image_path = image_dataset2[i]
-    image_name = '{}'.format(image_path.split('.')[0])
-    save_path_common = 'results/Adv_DIP/Depth_tests/{}'
+# for i in range(10, len(image_dataset2)):
+#     image_path = image_dataset2[i]
+#     image_name = '{}'.format(image_path.split('.')[0])
+#     save_path_common = 'results/Adv_DIP/Depth_tests/{}'
+#
+#     print("#############\n\nWorking on image: {}".format(image_name))
+#     orig = cv2.imread('data/'+image_path)[..., ::-1]
+#     adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
+# 
+#     for j in range(7, 8):
+#         print("####\n\nDepth {}".format(j))
+#         save_path = save_path_common.format('Adam/depth{}'.format(j))
+#         _ = dip(adv, 'depth{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
+#         generate_result_files(save_path, adv, orig, num_iter, image_name)
 
-    print("#############\n\nWorking on image: {}".format(image_name))
-    orig = cv2.imread('data/'+image_path)[..., ::-1]
-    adv = cv2.imread("results/adversarial_examples/Examples/LLCI_eps100/" + image_name + "_LLCI_eps100.png")[..., ::-1]
-
-    for j in range(7, 8):
-        print("####\n\nDepth {}".format(j))
-        save_path = save_path_common.format('Adam/depth{}'.format(j))
-        _ = dip(adv, 'depth{}'.format(j), 0.01, num_iter, save=True, plot=False, save_path=save_path, name=image_name)
-        generate_result_files(save_path, adv, orig, num_iter, image_name)
-
-for i in range(len(image_dataset2)):
+for i in range(17, len(image_dataset2)):
     image_path = image_dataset2[i]
     image_name = '{}'.format(image_path.split('.')[0])
     save_path_common = 'results/Adv_DIP/Kernel_size_tests/{}'
