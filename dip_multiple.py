@@ -4,6 +4,7 @@ from functions.generate_results import *
 import cv2
 
 num_iter = 5001
+
 image_dataset2 = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
                  'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
                  'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
@@ -79,7 +80,7 @@ image_dataset2 = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra
 #     _ = dip(adv, 'complex', 10, num_iter, save=True, plot=False, save_path=save_path3, name=image_name,  OPTIMIZER = "EntropySGD")
 #     generate_result_files(save_path3, adv, orig, num_iter, image_name)
 
-for i in range(len(image_dataset2)):
+for i in range(10, len(image_dataset2)):
     image_path = image_dataset2[i]
     image_name = '{}'.format(image_path.split('.')[0])
     save_path_common = 'results/Adv_DIP/Depth_tests/{}'
