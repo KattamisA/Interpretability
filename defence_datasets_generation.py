@@ -3,7 +3,7 @@ from __future__ import print_function
 from functions.adversarial import *
 from functions.dip import *
 
-f = open("Class_labels.txt",'r')
+f = open("Class_labels.txt", 'r')
 classids = f.read()
 classids= classids.split()
 
@@ -19,6 +19,7 @@ for i in range(0, len(classids), 2):
     # plt.imsave("data/adversarial_defence_datasets/FGSM2/adv_Image_{}.png".format(i), adv, format='png')
     output = dip(adv, 'complex', 0.01, 501, save=False, plot=False)
     _, ranks_rec = classification(output, sort=True, show=False, model_name='resnet18', cuda=True)
+    print("{} {} {}".format(int(classids[i]), ranks_adv[0,0], ranks_rec[0,0]))
     if ranks_adv[0,0] == int(classids[i]):
         no_defence_rec = no_defence_rec + 1
     if ranks_rec[0,0] == int(classids[i]):
