@@ -14,7 +14,7 @@ defence_rec = 0
 num = 0
 for i in range(0, len(classids), 100):
     num = num + 1
-    adv, _, _ = adversarial_examples("correctly_classified_dataset/Image_{}.png".format(i), eps=2/0.226, show=False)
+    adv, _, _ = adversarial_examples("correctly_classified_dataset/Image_{}.png".format(i), eps=2, show=False)
     _, ranks_adv = classification(adv, sort=True, show=False, model_name='resnet18', cuda=True)
     # plt.imsave("data/adversarial_defence_datasets/FGSM2/adv_Image_{}.png".format(i), adv, format='png')
     output = dip(adv, 'complex', 0.01, 501, save=False, plot=False)
@@ -23,9 +23,9 @@ for i in range(0, len(classids), 100):
         no_defence_rec = no_defence_rec + 1
     if ranks_rec[0,0] == int(classids[i]):
         defence_rec = defence_rec + 1
-    print("Results after {}: Defence: {} --- No defence: {}".format(num, float(defence_rec)/num, float(no_defence_rec)/num), '\r')
+    print("Results after {}: Defence: {} --- No defence: {}".format(num, float(defence_rec)/num, float(no_defence_rec)/num), end='\r')
 
-w.write("FGSM2: {} {}\n".format(100.0*float(defence_rec)/len(classids), 100.0*float(no_defence_rec)/len(classids)))
+w.write("FGSM2: {} {}\n".format(float(defence_rec)/num, float(defence_rec)/num))
 
 
 
