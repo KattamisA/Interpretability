@@ -12,7 +12,7 @@ w = open("Results.txt",'w+')
 no_defence_rec = 0
 defence_rec = 0
 num = 0
-for i in range(0, len(classids, 2)):
+for i in range(0, len(classids), 2):
     num = num + 1
     adv, _, _ = adversarial_examples("correctly_classified_dataset/Image_{}.png".format(i), eps=2/0.226, show=False)
     _, ranks_adv = classification(adv, sort=True, show=False, model_name='resnet18', cuda=True)
