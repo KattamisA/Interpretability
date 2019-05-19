@@ -19,9 +19,9 @@ for i in range(0, len(classids), 2):
     # plt.imsave("data/adversarial_defence_datasets/FGSM2/adv_Image_{}.png".format(i), adv, format='png')
     output = dip(adv, 'complex', 0.01, 501, save=False, plot=False)
     _, ranks_rec = classification(output, sort=True, show=False, model_name='resnet18', cuda=True)
-    if ranks_adv[0,0] == classids[i]:
+    if ranks_adv[0,0] == int(classids[i]):
         no_defence_rec = no_defence_rec + 1
-    if ranks_rec[0,0] == classids[i]:
+    if ranks_rec[0,0] == int(classids[i]):
         defence_rec = defence_rec + 1
     print("Results after {}: Defence: {} --- No defence: {}"
           .format(num, float(defence_rec)/num, float(no_defence_rec)/num), end='\r')
