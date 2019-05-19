@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/defence_datasets_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/defence_datasets_generation.py" afterDir="false" />
-    </list>
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +49,54 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/defence_datasets_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+            <state relative-caret-position="306">
+              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions/dip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="377" column="35" selection-start-line="377" selection-start-column="35" selection-end-line="377" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#1089#1498#0" />
+                <element signature="e#1542#1824#0" />
+                <element signature="e#1860#2273#0" />
+                <element signature="e#2309#2591#0" />
+                <element signature="e#2627#3034#0" />
+                <element signature="e#3072#3356#0" />
+                <element signature="e#3395#3806#0" />
+                <element signature="e#3842#4123#0" />
+                <element signature="e#4159#4572#0" />
+                <element signature="e#4609#4890#0" />
+                <element signature="e#4927#5208#0" />
+                <element signature="e#5245#5526#0" />
+                <element signature="e#5563#5844#0" />
+                <element signature="e#5881#6162#0" />
+                <element signature="e#6199#6480#0" />
+                <element signature="e#6517#6798#0" />
+                <element signature="e#6836#7187#0" />
+                <element signature="e#7225#7576#0" />
+                <element signature="e#7614#7965#0" />
+                <element signature="e#8003#8354#0" />
+                <element signature="e#8392#8745#0" />
+                <element signature="e#8781#9065#0" />
+                <element signature="e#9101#9453#0" />
+                <element signature="e#9489#9770#0" />
+                <element signature="e#9806#10090#0" />
+                <element signature="e#10126#10411#0" />
+                <element signature="e#10447#10732#0" />
+                <element signature="e#10768#11053#0" />
+                <element signature="e#11090#11372#0" />
               </folding>
             </state>
           </provider>
@@ -87,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="-1394">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="55" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -104,15 +143,6 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adversary_generation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -222,9 +252,9 @@
         <option value="$PROJECT_DIR$/downloadutils.py" />
         <option value="$PROJECT_DIR$/Defence.py" />
         <option value="$PROJECT_DIR$/correctly_classified_images.py" />
-        <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/testing.py" />
         <option value="$PROJECT_DIR$/defence_datasets_generation.py" />
+        <option value="$PROJECT_DIR$/functions/dip.py" />
       </list>
     </option>
   </component>
@@ -685,59 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="347" column="19" selection-start-line="347" selection-start-column="19" selection-end-line="347" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#1089#1498#0" />
-            <element signature="e#1542#1824#0" />
-            <element signature="e#1860#2273#0" />
-            <element signature="e#2309#2591#0" />
-            <element signature="e#2627#3034#0" />
-            <element signature="e#3072#3356#0" />
-            <element signature="e#3395#3806#0" />
-            <element signature="e#3842#4123#0" />
-            <element signature="e#4159#4572#0" />
-            <element signature="e#4609#4890#0" />
-            <element signature="e#4927#5208#0" />
-            <element signature="e#5245#5526#0" />
-            <element signature="e#5563#5844#0" />
-            <element signature="e#5881#6162#0" />
-            <element signature="e#6199#6480#0" />
-            <element signature="e#6517#6798#0" />
-            <element signature="e#6836#7187#0" />
-            <element signature="e#7225#7576#0" />
-            <element signature="e#7614#7965#0" />
-            <element signature="e#8003#8354#0" />
-            <element signature="e#8392#8745#0" />
-            <element signature="e#8781#9065#0" />
-            <element signature="e#9101#9453#0" />
-            <element signature="e#9489#9770#0" />
-            <element signature="e#9806#10090#0" />
-            <element signature="e#10126#10411#0" />
-            <element signature="e#10447#10732#0" />
-            <element signature="e#10768#11053#0" />
-            <element signature="e#11090#11372#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adversary_generation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/correctly_classified_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#1#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adversarial_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -797,20 +768,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="-1394">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="55" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/correctly_classified_images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#1#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/defence_datasets_generation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+        <state relative-caret-position="306">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="377" column="35" selection-start-line="377" selection-start-column="35" selection-end-line="377" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#1089#1498#0" />
+            <element signature="e#1542#1824#0" />
+            <element signature="e#1860#2273#0" />
+            <element signature="e#2309#2591#0" />
+            <element signature="e#2627#3034#0" />
+            <element signature="e#3072#3356#0" />
+            <element signature="e#3395#3806#0" />
+            <element signature="e#3842#4123#0" />
+            <element signature="e#4159#4572#0" />
+            <element signature="e#4609#4890#0" />
+            <element signature="e#4927#5208#0" />
+            <element signature="e#5245#5526#0" />
+            <element signature="e#5563#5844#0" />
+            <element signature="e#5881#6162#0" />
+            <element signature="e#6199#6480#0" />
+            <element signature="e#6517#6798#0" />
+            <element signature="e#6836#7187#0" />
+            <element signature="e#7225#7576#0" />
+            <element signature="e#7614#7965#0" />
+            <element signature="e#8003#8354#0" />
+            <element signature="e#8392#8745#0" />
+            <element signature="e#8781#9065#0" />
+            <element signature="e#9101#9453#0" />
+            <element signature="e#9489#9770#0" />
+            <element signature="e#9806#10090#0" />
+            <element signature="e#10126#10411#0" />
+            <element signature="e#10447#10732#0" />
+            <element signature="e#10768#11053#0" />
+            <element signature="e#11090#11372#0" />
           </folding>
         </state>
       </provider>
