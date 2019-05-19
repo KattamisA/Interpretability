@@ -6,7 +6,7 @@ import cv2
 # f = open('Wnid_convertion.txt', 'r')
 # contents = f.read()
 # contents = contents.split()
-# 
+#
 # wnid = [contents[i] for i in range(0,400,2)]
 # classid = [contents[i] for i in range(1,400,2)]
 #
