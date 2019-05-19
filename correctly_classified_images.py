@@ -16,7 +16,7 @@ for i in range(1, 200):
         try:
             image = cv2.imread('ImageNet_dataset/' + wnid[i] + '/Image_{}.png'.format(j))[..., ::-1]
             image = cv2.resize(image, (299, 299))
-            _, ranks = classification(image, sort=True, show=False, model_name='InceptionV3', cuda=False)
+            _, ranks = classification(image, sort=True, show=False, model_name='inception_v3', cuda=True)
             if ranks[0, 0] == int(classid[i]):
                 plt.imsave('correctly_classified_dataset2/Image_{}.png'.format(counter), image, format ='png')
                 counter = counter + 1
