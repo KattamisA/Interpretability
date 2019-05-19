@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <!-- For use in JS files -->
+    <script type="text/javascript">
+        var template_dir = "https://www.lincoln.edu.ar/wp-content/themes/invent";
+        
+        (function() {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+        }
+        _fbq.push(['addPixelId', '295215884017359']);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+        
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-102658325-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+
+    <link rel="pingback" href="https://www.lincoln.edu.ar/xmlrpc.php"/>
+
+    <script type="text/javascript">var mo_options = mo_options || {};mo_options.disable_back_to_top = false;mo_options.sticky_menu = true;mo_options.theme_skin = "#2a9dd6";mo_options.theme_directory_url = "https://www.lincoln.edu.ar/wp-content/themes/invent";mo_options.slider_chosen="Revolution";mo_options.disable_smooth_page_load=true;mo_options.disable_animations_on_page=false;</script>
+    <title>Asociación Escuelas Lincoln | Top International School in Argentina</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v11.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Lincoln is the Top International School in Argentina. We offer an education focused on academic excellence in a multicultural environment."/>
+<link rel="canonical" href="https://www.lincoln.edu.ar/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Asociación Escuelas Lincoln | Top International School in Argentina" />
+<meta property="og:description" content="Lincoln is the Top International School in Argentina. We offer an education focused on academic excellence in a multicultural environment." />
+<meta property="og:url" content="https://www.lincoln.edu.ar/" />
+<meta property="og:site_name" content="Lincoln" />
+<meta property="og:image" content="http://www.lincoln.edu.ar/demo/wp-content/uploads/2016/04/lincoln_branding_horizontal_background_blue_CMYK_300_dpi-2.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Lincoln is the Top International School in Argentina. We offer an education focused on academic excellence in a multicultural environment." />
+<meta name="twitter:title" content="Asociación Escuelas Lincoln | Top International School in Argentina" />
+<meta name="twitter:site" content="@lincolnael" />
+<meta name="twitter:image" content="http://www.lincoln.edu.ar/demo/wp-content/uploads/2016/04/lincoln_branding_horizontal_background_blue_CMYK_300_dpi-2.jpg" />
+<meta name="twitter:creator" content="@lincolnael" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.lincoln.edu.ar/#organization","name":"Lincoln International School","url":"https://www.lincoln.edu.ar/","sameAs":["https://www.facebook.com/Lincoln-International-School-101257336892215/timeline/","https://instagram.com/aelincoln/","https://www.youtube.com/channel/UCaN7sM-tV3C1b44tIfPwz4Q","https://twitter.com/lincolnael"],"logo":{"@type":"ImageObject","@id":"https://www.lincoln.edu.ar/#logo","url":"https://www.lincoln.edu.ar/wp-content/uploads/2015/09/pop-up-logo1-e1447765089649.jpg","width":745,"height":1024,"caption":"Lincoln International School"},"image":{"@id":"https://www.lincoln.edu.ar/#logo"}},{"@type":"WebSite","@id":"https://www.lincoln.edu.ar/#website","url":"https://www.lincoln.edu.ar/","name":"Lincoln","publisher":{"@id":"https://www.lincoln.edu.ar/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.lincoln.edu.ar/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.lincoln.edu.ar/#webpage","url":"https://www.lincoln.edu.ar/","inLanguage":"en-US","name":"Asociaci\u00f3n Escuelas Lincoln | Top International School in Argentina","isPartOf":{"@id":"https://www.lincoln.edu.ar/#website"},"about":{"@id":"https://www.lincoln.edu.ar/#organization"},"datePublished":"2014-05-26T11:51:44+00:00","dateModified":"2018-12-03T19:27:52+00:00","description":"Lincoln is the Top International School in Argentina. We offer an education focused on academic excellence in a multicultural environment."}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//html5shiv.googlecode.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Lincoln &raquo; Feed" href="https://www.lincoln.edu.ar/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Lincoln &raquo; Comments Feed" href="https://www.lincoln.edu.ar/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Lincoln &raquo; iCal Feed" href="https://www.lincoln.edu.ar/events/?ical=1" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.lincoln.edu.ar\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" href="https://www.lincoln.edu.ar/wp-content/cache/minify/52e9d.css" media="all" />
+
+
+
+
+
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}.largebluebutton{display:block; font-size:14px; color:#FFFFFF !important; background-color:#005a8f; text-decoration:none}
+</style>
+<link rel="stylesheet" href="https://www.lincoln.edu.ar/wp-content/cache/minify/23747.css" media="all" />
+
+
+
+
+
+
+
+<style id='style-custom-inline-css' type='text/css'>
+@import url("//fonts.googleapis.com/css?family=Roboto+Condensed|Roboto|Roboto+Condensed");
+
+h1,h2,h3,h4,h5,h6, .slogan1, #slider-area .flex-caption a, ul.tab-list li a, ul.member-list li a, .number-stats .number-stat .number, #mobile-menu .menu-header, .heading2 .subtitle span, .video-section .video-header .header-content .text, .ytp-video-section .video-header .header-content .text, .single .number-stats .number-stat .number, #content .marketing-banner ol.simple-list a, #content .marketing-banner ol.events-list a, .course-details .header, .staff-details .header, .department-details .header, .department-details .contact-person .name, .post-snippets .hentry .entry-title, .post-snippets .type-course .img-wrap .type-info .post-title, .post-snippets .type-news .img-wrap .type-info .post-title, .post-snippets .type-staff .img-wrap .type-info .post-title, .post-snippets .type-department .img-wrap .type-info .post-title, .single-event .heading-title, .single-location .heading-title, .css-events-list .events-table td a, table.em-calendar thead .month_name, .tribe-events-venue-widget .tribe-venue-widget-venue .tribe-venue-widget-venue-name a, .tribe-events-countdown-widget div.tribe-countdown-text, .tribe-events-countdown-widget .tribe-countdown-number, .heading2 .title, .number-stats .number-stat .stats-title, .image-info .post-title, ul.post-list .entry-title a, #learndash_next_prev_link, #learndash_back_to_lesson {font-family:"Roboto Condensed";}
+#learndash_lessons, #learndash_quizzes, .expand_collapse, .notavailable_message, #learndash_lesson_topics_list div > strong, #learndash_lesson_topics_list div ul > li .sn, .learndash_profile_heading, #learndash_profile a, #learndash_profile div {font-family:"Roboto Condensed" !important;}
+h1,h2,h3,h4,h5,h6, .slogan1, .heading2 .title {letter-spacing:0px;}
+body, button, .button, input[type=button], input[type="submit"], input[type="reset"], .timeline-footer .event-date, .timeline-footer .event-category, .subtitle, .client-testimonials2 .header cite, .page-links a, .page-links a:visited, .pagination a, .pagination a:visited, .pagination span.current, .post-snippets .type-course .course-id, .course-details .course-information .label, .dropdown-menu-wrap ul li a, blockquote .author, blockquote em, blockquote i, blockquote cite, #top-header-area ul.contact-info li, #top-header-area ul.contact-info li a, .comment-reply-link, .comment-edit-link, .comment-reply-link:visited, .comment-edit-link:visited, #course_navigation .learndash_nevigation_lesson_topics_list .lesson a, .widget_course_return, #course_navigation .widget_course_return a, #course_navigation .learndash_topic_widget_list a > span, #course_navigation .learndash_nevigation_lesson_topics_list .lesson, .widget_ldcourseinfo #ld_course_info #course_progress_details > strong, .widget_course_return, #course_navigation .widget_course_return a, .wpProQuiz_forms table td label, .wpProQuiz_maxtrixSortText, .wpProQuiz_sortable, .wpProQuiz_sortStringItem {font-family:"Roboto";}
+#learndash_lessons a, #learndash_quizzes a, .expand_collapse a, .learndash_topic_dots a, .learndash_topic_dots a > span, #learndash_lesson_topics_list span a, #learndash_profile a, #learndash_profile a span, .wpProQuiz_questionListItem input[type="radio"], .wpProQuiz_questionListItem input[type="checkbox"], .wpProQuiz_questionListItem span {font-family:"Roboto" !important;}
+cite, em, i, #author-widget .author-name, blockquote, .pullquote, .rss-block, ul.post-list .published, ul.post-list .byline, ul.post-list .entry-meta, .entry-meta span, .entry-meta span a, .comment-author cite, .comment-byline, #services-icon-list .sub, .post-snippets .byline {font-family:"Roboto Condensed";}
+body{font-size:16px;}
+.dropdown-menu-wrap ul.sub-menu li:hover, .dropdown-menu-wrap ul.sub-menu li.sfHover { background-color: #4fb7ea}
+/* ============== START - Skin Styles ============= */
+
+th { background: #2a9dd6; }
+
+/* ------- The links --------- */
+a, a:active, a:visited { color: #2a9dd6; }
+a:hover { color: #888; }
+.dark-bg a { color: #2a9dd6 !important; }
+
+blockquote .author, blockquote em, blockquote i, blockquote cite { color: #2a9dd6; }
+
+.dropdown-menu-wrap ul.sub-menu li:hover, .dropdown-menu-wrap ul.sub-menu li.sfHover { background: #2a9dd6; }
+#primary-menu > ul.menu > li:hover > ul.sub-menu { border-color: #2a9dd6; }
+#primary-menu .hover-bg { border-color: #2a9dd6;}
+#title-area { background: #2a9dd6; }
+#custom-title-area { background: #2a9dd6; }
+
+.post-list .entry-title a:hover, .post-list .entry-title a:visited { color: #2a9dd6; }
+.sticky .entry-snippet { border-color: #2a9dd6;}
+.entry-terms.multi-color .news_category, .entry-terms.multi-color .category { background-color: #2a9dd6; }
+a.more-link:hover { color: #2a9dd6; }
+a.comment-reply-link, a.comment-edit-link { background-color: #2a9dd6; }
+a.comment-reply-link:visited, a.comment-edit-link:visited { background-color: #2a9dd6; }
+button, .button, input[type=button], input[type="submit"], input[type="reset"] { background-color: #2a9dd6; border-color: #2a9dd6;}
+.button.theme:hover { background: #2a9dd6 !important; }
+.button.theme { border-color: #2a9dd6 !important; }
+
+
+.segment .flex-control-nav li a:hover, .segment .flex-control-nav li a.flex-active { background-color: #2a9dd6; }
+
+#flickr-widget .flickr_badge_image img:hover { border-color: #2a9dd6; }
+ul#recentcomments li.recentcomments a { color: #2a9dd6; }
+.tagcloud a:hover { background-color: #2a9dd6; }
+input#mc_signup_submit { background-color: #2a9dd6 !important; }
+
+.header-fancy span { background-color: #2a9dd6; }
+h3.fancy-header { background-color: #2a9dd6;}
+
+.skill-bar-content { background: #2a9dd6; }
+.slogan1 .highlight, .slogan1 .highlight h2 { color: #2a9dd6; }
+.heading2 .subtitle span { color: #2a9dd6; }
+.heading1.separator .title:after, .heading2.separator .title:after { background: #2a9dd6; }
+h4.subheading:after, h3.subheading:after { border-color: #2a9dd6; }
+
+.segment.slogan blockquote .footer cite { color: #2a9dd6; }
+.portfolio-label { color: #2a9dd6; }
+.portfolio-index i:hover { color: #2a9dd6; }
+#showcase-filter a:hover, #showcase-filter a.active, #showcase-links a:hover, #showcase-links a.active { background: #2a9dd6; border-color: #2a9dd6; }
+
+.stats-bar-content { background: #2a9dd6; }
+.number-stats .number-stat .number { color: #2a9dd6;}
+.number-stats .number-stat .icon-wrap { background: #2a9dd6; }
+
+.pricing-table .pricing-plan.highlight .top-header { background-color: #2a9dd6; }
+.pricing-table .plan-details ul li i { color: #2a9dd6; }
+
+.testimonials2-slider-container blockquote cite i { background-color: #2a9dd6; }
+.client-testimonials2 .header cite { color: #2a9dd6;}
+#services-icon-list div.icon { color: #2a9dd6;}
+#services-icon-list .sub { color: #2a9dd6;}
+.features-list-alternate i { color: #2a9dd6; }
+ul.member-list { border-color: #2a9dd6; }
+ul.member-list li a.visible, ul.member-list li a.flex-active { border-color: #2a9dd6; }
+ul.member-list li a:hover { color: #2a9dd6; }
+#showcase-filter a:hover { background: #2a9dd6; border-color: #2a9dd6; }
+
+.timeline-item:before { background: #2a9dd6; }
+.timeline-footer .event-category i { color: #2a9dd6; }
+
+.course-details .header, .staff-details .header, .department-details .header { background: #2a9dd6; }
+.post-snippets .type-course .course-id { background: #2a9dd6; }
+
+
+
+#column-shortcode-section p { background: #2a9dd6; }
+
+.top-of-page a:hover, .post-list .byline a, .post-list .byline a:active, .post-list .byline a:visited,
+#content .hentry h2.entry-title a:hover, .entry-meta span i, .read-more a, .loop-nav a:hover,
+.sidebar li > a:hover, .sidebar li:hover > a, #sidebars-footer .widget_text a.small, #sidebars-footer .widget_text a.small:visited,
+#home-intro h2 span, .team-member:hover h3 a, .post-snippets .hentry .entry-title a:hover { color: #2a9dd6; }
+
+.widget.widget_nav_menu ul li.current_page_item > a { background: #2a9dd6; }
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active,
+.page-links a, .page-links a:visited, .pagination a, .pagination a:visited,
+.profile-header img:hover { background: #2a9dd6; }
+
+#styleswitcher-button i { color: #2a9dd6 !important; }
+
+.profile-header .socials { background: rgba(42, 157 , 214, 0.7);}
+input:focus, textarea:focus, #content .contact-form input:focus, #content .contact-form textarea:focus,
+#footer .contact-form input:focus, #footer .contact-form textarea:focus { border-color: rgba(42, 157 , 214, 0.8); }
+#home2-heading .heading2 h2, #home3-heading .heading2 h2, .team-member .team-member-hover { background: rgba(42, 157 , 214, 0.7); }
+
+#footer .button:hover, #footer button:hover, #footer input[type="button"]:hover, #footer input[type="submit"]:hover, #footer input[type="reset"]:hover {
+background-color: #2a9dd6 !important;
+border-color: #2a9dd6 !important;
+}
+
+.tabs .current, .tabs .current:hover, .tabs li.current a { border-top-color: #2a9dd6; }
+.toggle-label:hover, .active-toggle .toggle-label:hover { background-color: #2a9dd6; }
+
+ul.tab-list, ul.member-list { border-bottom: 1px solid #2a9dd6; }
+ul.tab-list li a.visible, ul.tab-list li a.flex-active, ul.member-list li a.visible, ul.member-list li a.flex-active { border-bottom: 3px solid #2a9dd6; }
+ul.tab-list li a:hover, ul.member-list li a:hover { color: #2a9dd6; }
+
+.sidebar .text-content a, #footer .text-content a { color: #2a9dd6; }
+
+.gallery-carousel .carousel-container .owl-carousel.owl-theme .owl-prev, .gallery-carousel .carousel-container .owl-carousel.owl-theme .owl-next { background: #2a9dd6; }
+
+/* Plugins Skins Styles */
+
+/*---------- Events Manager ------------- */
+
+table.em-calendar thead { background: #2a9dd6; }
+table.em-calendar td.eventful-today a , table.em-calendar td.eventful a { color: #2a9dd6; }
+
+#tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val, .single-tribe_events a.tribe-events-ical,
+.single-tribe_events a.tribe-events-gcal {
+  color: #2a9dd6;
+  }
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a,
+#tribe_events_filters_wrapper input[type=submit], .tribe-events-button, #tribe-events .tribe-events-button, .tribe-events-button.tribe-inactive,
+#tribe-events .tribe-events-button:hover, .tribe-events-button:hover, .tribe-events-button.tribe-active:hover {
+  background: #2a9dd6;
+  }
+
+/* ------------ LearnDash LMS --------------*/
+
+#learndash_lessons a, #learndash_quizzes a, .expand_collapse a, .learndash_topic_dots a, .learndash_topic_dots a > span, #learndash_lesson_topics_list span a, #learndash_profile a, #learndash_profile a span {
+  color: #2a9dd6 !important;
+  }
+.wpProQuiz_content h2:after { border-color: #2a9dd6; }
+.wpProQuiz_button, .wpProQuiz_button:hover { background-color: #2a9dd6 !important; border-color: #2a9dd6 !important; }
+
+/*------- WooCommerce ---------*/
+
+.woocommerce-site .cart-contents .cart-count {
+  background: #2a9dd6;
+}
+
+.woocommerce input[name="update_cart"], .woocommerce input[name="proceed"], .woocommerce input[name="woocommerce_checkout_place_order"],
+ .woocommerce-page input[name="update_cart"], .woocommerce-page input[name="proceed"], .woocommerce-page input[name="woocommerce_checkout_place_order"] {
+  color: #ffffff;
+  background-color: #2a9dd6;
+  }
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce a.button.alt,
+.woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt,
+.woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit,
+.woocommerce-page #content input.button, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt,
+.woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt {
+background: #2a9dd6;
+border-color: #2a9dd6;
+}
+
+.woocommerce a.add_to_cart_button, .woocommerce-page a.add_to_cart_button { background: transparent; border-color: #aaa;}
+
+.woocommerce .quantity .plus, .woocommerce #content .quantity .plus, .woocommerce .quantity .minus, .woocommerce #content .quantity .minus, .woocommerce-page .quantity .plus,
+.woocommerce-page #content .quantity .plus, .woocommerce-page .quantity .minus, .woocommerce-page #content .quantity .minus {
+background: #2a9dd6;
+}
+
+.woocommerce .woocommerce-message, .woocommerce .woocommerce-info, .woocommerce .woocommerce-error {
+border-color: rgba(42, 157 , 214, 0.3);
+background: rgba(42, 157 , 214, 0.1);
+}
+
+.woocommerce span.onsale, .woocommerce-page span.onsale { background: #2a9dd6; }
+
+.woocommerce-site .cart-contents .cart-count { background: #2a9dd6; }
+
+.woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before {
+  color: #2a9dd6;
+  }
+.woocommerce span.onsale, .woocommerce-page span.onsale {
+  background: #2a9dd6;
+  text-shadow: none;
+  box-shadow: none;
+  }
+.woocommerce-message,  .woocommerce-info,  .woocommerce-error {
+    border: 1px solid rgba(42, 157 , 214, 0.3);
+    background: rgba(42, 157 , 214, 0.2);
+}
+.cart-contents .cart-count {
+    background: #2a9dd6;
+}
+ul.products li.product h3:hover {
+    color: #2a9dd6;
+}
+
+.tp_recent_tweets li a { color: #2a9dd6 !important; }
+
+.instagram-pics img:hover { border-color: #2a9dd6 !important; }
+
+.tp-caption.medium_bg_austin { background-color: #2a9dd6 !important; }
+.tp-caption.medium_bg_orange { background-color: rgba(42, 157 , 214, 0.75) !important; }
+
+/* =============== END - Skin Styles ============= */
+
+.comments-closed.pings-open {
+display: none;
+}
+
+.post-snippets .type-post .image-info .terms { display: none; }
+
+#primary-menu > ul > li:nth-child(n+5)
+> ul.sub-menu li > ul.sub-menu{
+    right: 251px;
+    left: auto;
+}
+</style>
+<link rel="stylesheet" href="https://www.lincoln.edu.ar/wp-content/cache/minify/f9c4c.css" media="all" />
+
+<link rel='stylesheet' id='load-fa-css'  href='https://use.fontawesome.com/releases/v5.5.0/css/all.css?ver=5.2' type='text/css' media='all' />
+<!--[if IE 8]>
+<link rel='stylesheet' id='style-ie8-css'  href='https://www.lincoln.edu.ar/wp-content/themes/invent/css/ie8.css?ver=5.2' type='text/css' media='screen' />
+<![endif]-->
+<!--[if IE 9]>
+<link rel='stylesheet' id='style-ie9-css'  href='https://www.lincoln.edu.ar/wp-content/themes/invent/css/ie9.css?ver=5.2' type='text/css' media='screen' />
+<![endif]-->
+<link rel="stylesheet" href="https://www.lincoln.edu.ar/wp-content/cache/minify/803c9.css" media="all" />
+
+<script src="https://www.lincoln.edu.ar/wp-content/cache/minify/df983.js"></script>
+
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[]};
+var log_object = {"ajax_url":"https:\/\/www.lincoln.edu.ar\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script src="https://www.lincoln.edu.ar/wp-content/cache/minify/70318.js"></script>
+
+
+
+<link rel='https://api.w.org/' href='https://www.lincoln.edu.ar/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.lincoln.edu.ar/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.lincoln.edu.ar/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2" />
+<link rel='shortlink' href='https://www.lincoln.edu.ar/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.lincoln.edu.ar/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.lincoln.edu.ar%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.lincoln.edu.ar/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.lincoln.edu.ar%2F&#038;format=xml" />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.lincoln.edu.ar"><link rel="https://theeventscalendar.com/" href="https://www.lincoln.edu.ar/wp-json/tribe/events/v1/" />		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<script type="text/javascript">
+			var cli_flush_cache=1;
+		</script>
+		<meta name="generator" content="Powered by Slider Revolution 5.4.7.4 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/cropped-Favicon-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/cropped-Favicon-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/cropped-Favicon-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/cropped-Favicon-270x270.jpg" />
+<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<style type="text/css">/** Mega Menu CSS: fs **/</style>
+
+</head>
+
+<body class="home page-template page-template-template-composite-page page-template-template-composite-page-php page page-id-11342 tribe-no-js mega-menu-header mega-menu-primary layout-1c  fluid-width-page composite-page">
+
+
+
+<a id="mobile-menu-toggle" href="#"><i class="icon-reorder"></i>&nbsp;</a>
+<nav id="mobile-menu" class="menu-container clearfix"><div class="menu-header">Lincoln</div><ul id="menu-main-menu-2018" class="menu inner"><li id="menu-item-26781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26781"><a href="https://www.lincoln.edu.ar/why-lincoln/">WHY LINCOLN?</a>
+<ul class="sub-menu">
+	<li id="menu-item-26799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26799"><a href="https://www.lincoln.edu.ar/why-lincoln/welcome/">Welcome</a></li>
+	<li id="menu-item-26800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26800"><a href="https://www.lincoln.edu.ar/?page_id=26676">Our Story</a></li>
+	<li id="menu-item-26801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26801"><a href="https://www.lincoln.edu.ar/why-lincoln/our-team/">Our Team</a></li>
+	<li id="menu-item-26802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26802"><a href="https://www.lincoln.edu.ar/why-lincoln/mission-vision-and-core-values/">Mission, Vision and Core Values</a></li>
+	<li id="menu-item-26803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26803"><a href="https://www.lincoln.edu.ar/why-lincoln/board/">Board</a></li>
+	<li id="menu-item-26804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26804"><a href="https://www.lincoln.edu.ar/why-lincoln/lincoln-school-accreditation/">Accreditation</a></li>
+	<li id="menu-item-26805" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26805"><a href="https://www.lincoln.edu.ar/why-lincoln/master-facilities-plan/">Master Facilities Plan</a></li>
+</ul>
+</li>
+<li id="menu-item-26785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26785"><a href="https://www.lincoln.edu.ar/join-us/">JOIN US</a>
+<ul class="sub-menu">
+	<li id="menu-item-26877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26877"><a href="https://www.lincoln.edu.ar/admissions/">Admissions</a></li>
+	<li id="menu-item-26878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26878"><a href="https://www.lincoln.edu.ar/admissions/forms-fees/">Forms &#038; Fees</a></li>
+	<li id="menu-item-26879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26879"><a href="https://www.lincoln.edu.ar/admissions/admissions-process/">Submit Application</a></li>
+	<li id="menu-item-28190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28190"><a href="https://www.lincoln.edu.ar/contact-admissions/">Contact Admissions</a></li>
+	<li id="menu-item-26885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26885"><a href="https://www.lincoln.edu.ar/join-us/life-in-buenos-aires/">Life in Buenos Aires</a></li>
+	<li id="menu-item-26881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26881"><a href="https://www.lincoln.edu.ar/join-us/pals/">PAL</a></li>
+	<li id="menu-item-26880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26880"><a href="https://www.lincoln.edu.ar/join-us/employment/">Employment</a></li>
+	<li id="menu-item-26888" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26888"><a href="https://www.lincoln.edu.ar/alumni/">Alumni</a></li>
+</ul>
+</li>
+<li id="menu-item-26787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26787"><a href="https://www.lincoln.edu.ar/our-schools/">OUR SCHOOLS</a>
+<ul class="sub-menu">
+	<li id="menu-item-26890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26890"><a href="https://www.lincoln.edu.ar/our-schools/elementary-welcome/">Elementary</a></li>
+	<li id="menu-item-26889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26889"><a href="https://www.lincoln.edu.ar/our-schools/middle-school-welcome/">Middle</a></li>
+	<li id="menu-item-26891" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26891"><a href="https://www.lincoln.edu.ar/our-schools/high-school-welcome/">High</a></li>
+	<li id="menu-item-27342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27342"><a href="https://www.lincoln.edu.ar/our-schools/programas-nacionales/">Programas Nacionales</a></li>
+</ul>
+</li>
+<li id="menu-item-26796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26796"><a href="https://www.lincoln.edu.ar/learning/">LEARNING</a>
+<ul class="sub-menu">
+	<li id="menu-item-27343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27343"><a href="https://www.lincoln.edu.ar/learning/guided-inquiry/">Guided Inquiry</a></li>
+	<li id="menu-item-27344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27344"><a href="https://www.lincoln.edu.ar/learning/teaching-learning/">Teaching &#038; Learning</a></li>
+	<li id="menu-item-27345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27345"><a href="https://www.lincoln.edu.ar/learning/language/">Language</a></li>
+	<li id="menu-item-30400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30400"><a href="https://www.lincoln.edu.ar/learning/international-exams/">International Exams</a></li>
+</ul>
+</li>
+<li id="menu-item-26797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26797"><a href="https://www.lincoln.edu.ar/arts-athletics-activities/">ARTS, ATHLETICS &#038; ACTIVITIES</a>
+<ul class="sub-menu">
+	<li id="menu-item-27348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27348"><a href="https://www.lincoln.edu.ar/arts-athletics-activities/arts-2/">Arts</a></li>
+	<li id="menu-item-27347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27347"><a href="https://www.lincoln.edu.ar/arts-athletics-activities/athletics/">Athletics</a></li>
+	<li id="menu-item-27349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27349"><a href="https://www.lincoln.edu.ar/arts-athletics-activities/after-school-activities/">After School Activities</a></li>
+	<li id="menu-item-27351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27351"><a href="https://www.lincoln.edu.ar/arts-athletics-activities/camps-2/">Recreational Camps</a></li>
+</ul>
+</li>
+<li id="menu-item-26798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-26798"><a href="https://www.lincoln.edu.ar/life-at-lincoln/">LIFE AT LINCOLN</a>
+<ul class="sub-menu">
+	<li id="menu-item-26917" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26917"><a href="https://www.lincoln.edu.ar/events/">School Calendar</a></li>
+	<li id="menu-item-28476" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28476"><a href="https://www.lincoln.edu.ar/news/">Lincoln News</a></li>
+	<li id="menu-item-28066" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28066"><a href="https://www.lincoln.edu.ar/blog/">Friday Flash</a></li>
+	<li id="menu-item-26913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26913"><a href="https://www.lincoln.edu.ar/life-at-lincoln/our-campus/">Our Campus</a></li>
+	<li id="menu-item-27295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27295"><a href="https://www.lincoln.edu.ar/life-at-lincoln/health-wellness/">Health &#038; Wellness</a></li>
+	<li id="menu-item-26915" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26915"><a href="https://www.lincoln.edu.ar/life-at-lincoln/services/">Services</a></li>
+</ul>
+</li>
+<li id="menu-item-30506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30506"><a href="https://www.lincoln.edu.ar/live-streaming/">Live Streaming</a></li>
+</ul></nav><!-- #mobile-menu -->                 
+<div id="container">
+
+    
+    
+    <header id="header" >
+
+        
+
+        <div class="inner clearfix">
+
+            <div class="wrap">
+                <div id="top-header-area"><div class="inner clearfix"><ul class="contact-info"></ul>
+    <nav id="header-menu" class="dropdown-menu-wrap">
+
+        <div id="mega-menu-wrap-header" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>MENU</span><span class='mega-toggle-label-open'>MENU</span></span></div></div></div><ul id="mega-menu-header" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="600" data-unbind="false"><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14333' id='mega-menu-item-14333'><a target="_blank" class="mega-menu-link" href="https://plusportals.com/lincolnais" tabindex="0">PLUS PORTAL</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13032' id='mega-menu-item-13032'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">STAFF<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-27866' id='mega-menu-item-27866'><a class="mega-menu-link" href="http://pd.lincoln.edu.ar:85/index/index.html">PD Requests</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-16841' id='mega-menu-item-16841'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/?page_id=16835">Empowered Use Policy (Staff)</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-13029' id='mega-menu-item-13029'><a target="_blank" class="mega-menu-link" href="https://lincolnalumni.wordpress.com" tabindex="0">ALUMNI</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-13326' id='mega-menu-item-13326'><a class="mega-menu-link" href="#" tabindex="0"><i class="fas fa-phone"></i> +54 11 4851 1700</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-14346' id='mega-menu-item-14346'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/contact/" tabindex="0"><i class="fas fa-envelope"></i></a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-15994' id='mega-menu-item-15994'><a class="mega-menu-link" href="https://www.facebook.com/Lincoln-International-School-101257336892215/timeline/" tabindex="0"><i class="fab fa-facebook-f"></i></a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-15995' id='mega-menu-item-15995'><a class="mega-menu-link" href="https://twitter.com/lincolnael" tabindex="0"><i class="fab fa-twitter"></i></a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-15996' id='mega-menu-item-15996'><a class="mega-menu-link" href="https://instagram.com/aelincoln/" tabindex="0"><i class="fab fa-instagram"></i></a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-20023' id='mega-menu-item-20023'><a class="mega-menu-link" href="https://www.youtube.com/channel/UCaN7sM-tV3C1b44tIfPwz4Q" tabindex="0"><i class="fab fa-youtube"></i></a></li></ul></div>
+    </nav> <!-- #header-menu -->
+
+</div></div>                <h1 id="site-logo"><a href="https://www.lincoln.edu.ar/" title="Lincoln" rel="home"><img class="standard-logo" src="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/lincoln_logo_white.svg" alt="Lincoln"/></a></h1>
+            </div>
+        </div>
+        <div id="nav-container">
+            <div class="inner clearfix">
+                <nav id="primary-menu" class="dropdown-menu-wrap clearfix"><div id="mega-menu-wrap-primary" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>MENU</span><span class='mega-toggle-label-open'>MENU</span></span></div></div></div><ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="200" data-panel-width="#nav-container" data-panel-inner-width="#nav-container" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="1024" data-unbind="false"><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-right mega-menu-grid mega-menu-item-26781' id='mega-menu-item-26781'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/why-lincoln/" aria-haspopup="true" aria-expanded="false" tabindex="0">WHY LINCOLN?<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-26781-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26781-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-13' id='mega-menu-item-media_image-13'><img width="420" height="280" src="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/our_mision_home-e1445986401847-1.jpg" class="image wp-image-28970  attachment-420x280 size-420x280" alt="" style="max-width: 100%; height: auto;" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/our_mision_home-e1445986401847-1.jpg 560w, https://www.lincoln.edu.ar/wp-content/uploads/2015/07/our_mision_home-e1445986401847-1-300x200.jpg 300w, https://www.lincoln.edu.ar/wp-content/uploads/2015/07/our_mision_home-e1445986401847-1-272x182.jpg 272w" sizes="(max-width: 420px) 100vw, 420px" /></li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26781-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-2' id='mega-menu-item-custom_html-2'><div class="textwidget custom-html-widget"><div style="padding: 4px 60px 0	30px">
+	<h5 style="font-family: Montserrat, sans-serif; font-size: 14px; line-height: 36px; text-transform:uppercase; font-weight:800; color: #00001c; text-align: left;">
+Asociación Escuelas Lincoln	
+</h5>
+<p style="font-family: Merriweather, sans-serif; font-size: 14px; line-height: 18px; font-weight:400; color: #666; text-align: left;">
+We offer an education to the highest standards, focused on academic excellence and developing confident, ethical world citizens. Our program integrates argentine, american and IB curriculums.
+</p>
+</div></div></li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26781-0-2'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26799' id='mega-menu-item-26799'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/why-lincoln/welcome/">Welcome</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26800' id='mega-menu-item-26800'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/?page_id=26676">Our Story</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26801' id='mega-menu-item-26801'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/why-lincoln/our-team/">Our Team</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26802' id='mega-menu-item-26802'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/why-lincoln/mission-vision-and-core-values/">Mission, Vision and Core Values</a></li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26781-0-3'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26803' id='mega-menu-item-26803'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/why-lincoln/board/">Board</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26804' id='mega-menu-item-26804'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/why-lincoln/lincoln-school-accreditation/">Accreditation</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26805' id='mega-menu-item-26805'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/why-lincoln/master-facilities-plan/">Master Facilities Plan</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-26785' id='mega-menu-item-26785'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/join-us/" aria-haspopup="true" aria-expanded="false" tabindex="0">JOIN US<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-26785-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26785-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-14' id='mega-menu-item-media_image-14'><img width="480" height="320" src="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/Es-1024x683-768x512-768x512.jpg" class="image wp-image-28971  attachment-480x320 size-480x320" alt="" style="max-width: 100%; height: auto;" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/Es-1024x683-768x512.jpg 768w, https://www.lincoln.edu.ar/wp-content/uploads/2015/07/Es-1024x683-768x512-300x200.jpg 300w, https://www.lincoln.edu.ar/wp-content/uploads/2015/07/Es-1024x683-768x512-272x182.jpg 272w" sizes="(max-width: 480px) 100vw, 480px" /></li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26785-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-3' id='mega-menu-item-custom_html-3'><div class="textwidget custom-html-widget"><div style="padding: 4px 60px 0	30px">
+	<h5 style="font-family: Montserrat, sans-serif; font-size: 14px; line-height: 36px; text-transform:uppercase; font-weight:800; color: #00001c; text-align: left;">
+Join Us	
+</h5>
+<p style="font-family: Merriweather, sans-serif; font-size: 14px; line-height: 18px; font-weight:400; color: #666; text-align: left;">
+Be part of this amazing community. Whether you are thinking about your children’s education, or have an interest in joining our team, we look forward to welcoming you on our campus to give you a warm welcome.
+</p>
+</div></div></li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26785-0-2'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26877' id='mega-menu-item-26877'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/admissions/">Admissions</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26878' id='mega-menu-item-26878'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/admissions/forms-fees/">Forms &#038; Fees</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26879' id='mega-menu-item-26879'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/admissions/admissions-process/">Submit Application</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-28190' id='mega-menu-item-28190'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/contact-admissions/">Contact Admissions</a></li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26785-0-3'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26885' id='mega-menu-item-26885'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/join-us/life-in-buenos-aires/">Life in Buenos Aires</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26881' id='mega-menu-item-26881'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/join-us/pals/">PAL</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26880' id='mega-menu-item-26880'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/join-us/employment/">Employment</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26888' id='mega-menu-item-26888'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/alumni/">Alumni</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-26787' id='mega-menu-item-26787'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/our-schools/" aria-haspopup="true" aria-expanded="false" tabindex="0">OUR SCHOOLS<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-26787-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26787-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-item-media_image-15' id='mega-menu-item-media_image-15'><img width="480" height="320" src="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/MIke-1-1024x682-768x512-768x512.jpg" class="image wp-image-28972  attachment-480x320 size-480x320" alt="" style="max-width: 100%; height: auto;" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/MIke-1-1024x682-768x512.jpg 768w, https://www.lincoln.edu.ar/wp-content/uploads/2015/07/MIke-1-1024x682-768x512-300x200.jpg 300w, https://www.lincoln.edu.ar/wp-content/uploads/2015/07/MIke-1-1024x682-768x512-272x182.jpg 272w" sizes="(max-width: 480px) 100vw, 480px" /></li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26787-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_custom_html mega-menu-item-custom_html-4' id='mega-menu-item-custom_html-4'><div class="textwidget custom-html-widget"><div style="padding: 4px 60px 0	30px">
+	<h5 style="font-family: Montserrat, sans-serif; font-size: 14px; line-height: 36px; text-transform:uppercase; font-weight:800; color: #00001c; text-align: left;">
+Our Schools	
+</h5>
+<p style="font-family: Merriweather, sans-serif; font-size: 14px; line-height: 18px; font-weight:400; color: #666; text-align: left;">
+Lincoln is known for a distinctive culture of academic excellence, caring environment and challenging possibilities across three divisions.
+</p>
+</div></div></li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-3-of-12' id='mega-menu-26787-0-2'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26890' id='mega-menu-item-26890'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/our-schools/elementary-welcome/">Elementary</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26889' id='mega-menu-item-26889'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/our-schools/middle-school-welcome/">Middle</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26891' id='mega-menu-item-26891'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/our-schools/high-school-welcome/">High</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27342' id='mega-menu-item-27342'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/our-schools/programas-nacionales/">Programas Nacionales</a></li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-26796' id='mega-menu-item-26796'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/learning/" aria-haspopup="true" aria-expanded="false" tabindex="0">LEARNING<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27343' id='mega-menu-item-27343'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/learning/guided-inquiry/">Guided Inquiry</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27344' id='mega-menu-item-27344'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/learning/teaching-learning/">Teaching &#038; Learning</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27345' id='mega-menu-item-27345'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/learning/language/">Language</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-30400' id='mega-menu-item-30400'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/learning/international-exams/">International Exams</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-26797' id='mega-menu-item-26797'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/arts-athletics-activities/" aria-haspopup="true" aria-expanded="false" tabindex="0">ARTS, ATHLETICS & ACTIVITIES<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27348' id='mega-menu-item-27348'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/arts-athletics-activities/arts-2/">Arts</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27347' id='mega-menu-item-27347'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/arts-athletics-activities/athletics/">Athletics</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27349' id='mega-menu-item-27349'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/arts-athletics-activities/after-school-activities/">After School Activities</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27351' id='mega-menu-item-27351'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/arts-athletics-activities/camps-2/">Recreational Camps</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-26798' id='mega-menu-item-26798'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/life-at-lincoln/" aria-haspopup="true" aria-expanded="false" tabindex="0">LIFE AT LINCOLN<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-has-icon mega-icon-left mega-menu-item-26917' id='mega-menu-item-26917'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/events/">School Calendar</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-has-icon mega-icon-left mega-menu-item-28476' id='mega-menu-item-28476'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/news/">Lincoln News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-has-icon mega-icon-left mega-menu-item-28066' id='mega-menu-item-28066'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/blog/">Friday Flash</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26913' id='mega-menu-item-26913'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/life-at-lincoln/our-campus/">Our Campus</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-27295' id='mega-menu-item-27295'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/life-at-lincoln/health-wellness/">Health &#038; Wellness</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-has-icon mega-icon-left mega-menu-item-26915' id='mega-menu-item-26915'><a class="dashicons-arrow-right-alt mega-menu-link" href="https://www.lincoln.edu.ar/life-at-lincoln/services/">Services</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-30506' id='mega-menu-item-30506'><a class="mega-menu-link" href="https://www.lincoln.edu.ar/live-streaming/" tabindex="0">Live Streaming</a></li></ul></div></nav><!-- #primary-menu -->            </div>
+        </div>
+
+    </header>
+    <!-- #header -->
+
+    
+    <div id="slider-area" class="clearfix"><link href="https://fonts.googleapis.com/css?family=Montserrat:800%2C300%2C700%7CMerriweather:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+<div id="rev_slider_32_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.4.7.4 fullwidth mode -->
+	<div id="rev_slider_32_1" class="rev_slider fullwidthabanner tp-overflow-hidden" style="display:none;" data-version="5.4.7.4">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-447" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero01-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="International" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero01.jpg"  alt="" title="Asociación Escuelas Lincoln"  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-447-layer-5" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['500','390','320','190']" 
+						data-fontsize="['14','14','12','11']"
+			data-lineheight="['14','14','12','11']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="button" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/www.lincoln.edu.ar\/admissions\/","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(117,170,218);bc:rgb(168,220,255);bw:0 0 2px 0px;"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[10,10,8,8]"
+			data-paddingright="[20,20,14,12]"
+			data-paddingbottom="[10,10,8,8]"
+			data-paddingleft="[20,20,14,12]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 800; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Montserrat;background-color:rgb(168,220,255);border-color:rgb(117,170,218);border-style:solid;border-width:0px 0px 2px 0px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">LEARN MORE </div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-447-layer-1" 
+			 data-x="['left','left','left','left']" data-hoffset="['121','97','96','60']" 
+			 data-y="['top','top','top','top']" data-voffset="['240','180','120','50']" 
+						data-fontsize="['60','48','48','30']"
+			data-lineheight="['60','48','48','30']"
+			data-letterspacing="['0','-1','0','0']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">are </div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-447-layer-2" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['300','230','170','80']" 
+						data-fontsize="['60','48','48','30']"
+			data-lineheight="['60','48','48','30']"
+			data-fontweight="['800','700','700','700']"
+			data-letterspacing="['0','-1','-1','-1']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 7; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 800; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">International </div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-447-layer-3" 
+			 data-x="['center','left','left','left']" data-hoffset="['-100','1','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['380','290','230','120']" 
+						data-fontsize="['24','20','18','14']"
+			data-lineheight="['30','24','22','18']"
+			data-width="['941','none','none','312']"
+			data-height="['92','none','none','62']"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 8; min-width: 941px; max-width: 941px; max-width: 92px; max-width: 92px; white-space: nowrap; font-size: 24px; line-height: 30px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Merriweather;">Proud to welcome families from nearly<br />
+50 countries to our global community.<br />
+Immersing together en la vida Argentina </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-448" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero02-1-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Diverse" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero02-1.jpg"  alt="" title="Asociación Escuelas Lincoln"  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-448-layer-1" 
+			 data-x="['left','left','left','left']" data-hoffset="['121','97','97','60']" 
+			 data-y="['top','top','top','top']" data-voffset="['240','180','120','50']" 
+						data-fontsize="['60','48','48','30']"
+			data-lineheight="['60','48','48','30']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">are </div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-448-layer-2" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['300','230','170','80']" 
+						data-fontsize="['60','48','48','30']"
+			data-lineheight="['60','48','48','30']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 800; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">DIVERSE </div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-448-layer-3" 
+			 data-x="['center','left','left','left']" data-hoffset="['-100','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['380','290','230','120']" 
+						data-fontsize="['24','20','18','14']"
+			data-lineheight="['30','24','22','18']"
+			data-width="['941','none','none','none']"
+			data-height="['92','none','none','none']"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 7; min-width: 941px; max-width: 941px; max-width: 92px; max-width: 92px; white-space: nowrap; font-size: 24px; line-height: 30px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Merriweather;">Realizing every student is an individual,<br />
+we celebrate what is different. </div>
+
+		<!-- LAYER NR. 8 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-448-layer-5" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['500','390','320','190']" 
+						data-fontsize="['14','14','12','11']"
+			data-lineheight="['14','14','12','11']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="button" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/www.lincoln.edu.ar\/learning\/language\/","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(117,170,218);bc:rgb(168,220,255);bw:0 0 2px 0px;"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[10,10,8,8]"
+			data-paddingright="[20,20,12,12]"
+			data-paddingbottom="[10,10,8,8]"
+			data-paddingleft="[20,20,12,12]"
+
+			style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 800; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Montserrat;text-transform:uppercase;background-color:rgb(168,220,255);border-color:rgb(117,170,218);border-style:solid;border-width:0px 0px 2px 0px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Learn More </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-449" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero03-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Inspire" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero03.jpg"  alt="" title="Asociación Escuelas Lincoln"  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 9 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-449-layer-2" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','1']" 
+			 data-y="['top','top','top','top']" data-voffset="['300','230','170','80']" 
+						data-fontsize="['60','48','48','30']"
+			data-lineheight="['60','48','48','30']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 800; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">inspire </div>
+
+		<!-- LAYER NR. 10 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-449-layer-3" 
+			 data-x="['center','left','left','left']" data-hoffset="['-100','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['380','290','230','120']" 
+						data-fontsize="['24','20','18','14']"
+			data-lineheight="['30','24','22','18']"
+			data-width="['941','none','none','none']"
+			data-height="['92','none','none','none']"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 941px; max-width: 941px; max-width: 92px; max-width: 92px; white-space: nowrap; font-size: 24px; line-height: 30px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Merriweather;">The next generation of creative,<br />
+critical and independent thinkers. </div>
+
+		<!-- LAYER NR. 11 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-449-layer-4" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['500','390','320','190']" 
+						data-fontsize="['14','14','12','11']"
+			data-lineheight="['14','14','12','11']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="button" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/www.lincoln.edu.ar\/join-us\/","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(117,170,218);bc:rgb(168,220,255);bw:0 0 2px 0px;"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[10,10,8,8]"
+			data-paddingright="[20,20,12,12]"
+			data-paddingbottom="[10,10,8,8]"
+			data-paddingleft="[20,20,12,12]"
+
+			style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 800; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Montserrat;text-transform:uppercase;background-color:rgb(168,220,255);border-color:rgb(117,170,218);border-style:solid;border-width:0px 0px 2px 0px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Learn More </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-450" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero04-2-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Inquire" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero04-2.jpg"  alt="" title="Asociación Escuelas Lincoln"  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 12 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-450-layer-2" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['300','230','170','80']" 
+						data-fontsize="['60','48','48','30']"
+			data-lineheight="['60','48','48','30']"
+			data-fontweight="['800','700','700','700']"
+			data-letterspacing="['0','-1','-1','-1']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 800; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">inquire </div>
+
+		<!-- LAYER NR. 13 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-450-layer-3" 
+			 data-x="['center','left','left','left']" data-hoffset="['-100','0','0','-1']" 
+			 data-y="['top','top','top','top']" data-voffset="['380','290','230','120']" 
+						data-fontsize="['24','20','18','14']"
+			data-lineheight="['30','24','22','18']"
+			data-width="['941','none','none','none']"
+			data-height="['92','none','none','none']"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 941px; max-width: 941px; max-width: 92px; max-width: 92px; white-space: nowrap; font-size: 24px; line-height: 30px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Merriweather;">Where innovation and curiosity<br />
+are at the core of our learning. </div>
+
+		<!-- LAYER NR. 14 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-450-layer-4" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['500','390','320','190']" 
+						data-fontsize="['14','14','12','11']"
+			data-lineheight="['14','14','12','11']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="button" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/www.lincoln.edu.ar\/learning\/guided-inquiry\/","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(117,170,218);bc:rgb(168,220,255);bw:0 0 2px 0px;"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[10,10,8,8]"
+			data-paddingright="[20,20,12,12]"
+			data-paddingbottom="[10,10,8,8]"
+			data-paddingleft="[20,20,12,12]"
+
+			style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 800; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Montserrat;text-transform:uppercase;background-color:rgb(168,220,255);border-color:rgb(117,170,218);border-style:solid;border-width:0px 0px 2px 0px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Learn More </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-451" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero05-2-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Empower" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.lincoln.edu.ar/wp-content/uploads/revslider/mtg-home-slider/hero05-2.jpg"  alt="" title="Asociación Escuelas Lincoln"  data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 15 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-451-layer-2" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['300','230','170','80']" 
+						data-fontsize="['60','48','48','30']"
+			data-lineheight="['60','48','48','30']"
+			data-fontweight="['800','700','700','700']"
+			data-letterspacing="['0','-1','-1','-1']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 800; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;text-transform:uppercase;">empower </div>
+
+		<!-- LAYER NR. 16 -->
+		<div class="tp-caption   tp-resizeme  sombrita" 
+			 id="slide-451-layer-3" 
+			 data-x="['center','left','left','left']" data-hoffset="['-98','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['371','290','230','120']" 
+						data-fontsize="['24','20','18','14']"
+			data-lineheight="['30','24','22','18']"
+			data-width="['941','none','none','none']"
+			data-height="['92','none','none','none']"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6; min-width: 941px; max-width: 941px; max-width: 92px; max-width: 92px; white-space: nowrap; font-size: 24px; line-height: 30px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Merriweather;">Nurturing and challenging students<br />
+to realize their full potential. </div>
+
+		<!-- LAYER NR. 17 -->
+		<div class="tp-caption rev-btn " 
+			 id="slide-451-layer-4" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['500','390','320','190']" 
+						data-fontsize="['14','14','12','11']"
+			data-lineheight="['14','14','12','11']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="button" 
+			data-actions='[{"event":"click","action":"simplelink","target":"_self","url":"https:\/\/www.lincoln.edu.ar\/arts-athletics-activities\/after-school-activities\/","delay":""}]'
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":10,"speed":2000,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:rgb(117,170,218);bc:rgb(168,220,255);bw:0 0 2px 0px;"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[10,10,8,8]"
+			data-paddingright="[20,20,12,12]"
+			data-paddingbottom="[10,10,8,8]"
+			data-paddingleft="[20,20,12,12]"
+
+			style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 800; color: rgba(255,255,255,1); letter-spacing: 2px;font-family:Montserrat;text-transform:uppercase;background-color:rgb(168,220,255);border-color:rgb(117,170,218);border-style:solid;border-width:0px 0px 2px 0px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Learn More </div>
+	</li>
+</ul>
+<div style="" class="tp-static-layers">
+
+		<!-- LAYER NR. 18 -->
+		<div class="tp-caption   tp-resizeme  sombrita tp-static-layer" 
+			 id="slider-32-layer-18" 
+			 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['240','180','120','50']" 
+						data-fontsize="['60','48','48','30']"
+			data-lineheight="['60','48','48','30']"
+			data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-startslide="0" 
+			data-endslide="4" 
+			data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 22; white-space: nowrap; font-size: 60px; line-height: 60px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Montserrat;">WE </div>
+</div>
+<div class="tp-bannertimer" style="height: 2px; background: rgba(168,220,255,0.8);"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+if (setREVStartSize!==undefined) setREVStartSize(
+	{c: '#rev_slider_32_1', responsiveLevels: [1240,1024,778,480], gridwidth: [1140,940,636,320], gridheight: [600,480,400,260], sliderLayout: 'fullwidth'});
+			
+var revapi32,
+	tpj;	
+(function() {			
+	if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();	
+	function onLoad() {				
+		if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
+	if(tpj("#rev_slider_32_1").revolution == undefined){
+		revslider_showDoubleJqueryError("#rev_slider_32_1");
+	}else{
+		revapi32 = tpj("#rev_slider_32_1").show().revolution({
+			sliderType:"standard",
+			jsFileLocation:"//www.lincoln.edu.ar/wp-content/plugins/revslider2/public/assets/js/",
+			sliderLayout:"fullwidth",
+			dottedOverlay:"none",
+			delay:9000,
+			navigation: {
+				onHoverStop:"off",
+			},
+			responsiveLevels:[1240,1024,778,480],
+			visibilityLevels:[1240,1024,778,480],
+			gridwidth:[1140,940,636,320],
+			gridheight:[600,480,400,260],
+			lazyType:"none",
+			parallax: {
+				type:"mouse",
+				origo:"enterpoint",
+				speed:400,
+				speedbg:0,
+				speedls:0,
+				levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
+				disable_onmobile:"on"
+			},
+			shadow:0,
+			spinner:"spinner2",
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+			shuffle:"off",
+			autoHeight:"off",
+			hideThumbsOnMobile:"off",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"off",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
+		});
+	}; /* END OF revapi call */
+	
+ }; /* END OF ON LOAD FUNCTION */
+}()); /* END OF WRAPPING FUNCTION */
+</script>
+		<script>
+					var htmlDivCss = ' #rev_slider_32_1_wrapper .tp-loader.spinner2{ background-color: #FFFFFF !important; } ';
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+					</script>
+					<script>
+					var htmlDivCss = unescape(".sombrita%20%7B%0A%09text-shadow%3A%20-1px%20-1px%201px%20rgba%28255%2C255%2C255%2C.1%29%2C%201px%201px%201px%20rgba%280%2C0%2C0%2C.7%29%20%21important%3B%0A%7D");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				  </script></div><!-- END REVOLUTION SLIDER --></div> <!-- #slider-area -->
+    <div id="main" class="clearfix">
+
+        
+        <div class="inner clearfix">
+<div id="content" class="twelvecol ">
+
+    <div class="hfeed">
+
+        
+                <article id="services-with-slider" class="post-12294 page_section type-page_section status-publish hentry first">
+
+                    <div id="college-intro" class="segment clearfix "  style="padding: 70px 0 40px;"><div class="segment-content">
+<h3>Welcome to Lincoln</h3>
+<script type="text/javascript">
+jQuery(document).ready(function($) {jQuery('#tab-slider5ce18f9d7cdcd .flexslider').flexslider({animation: "slide",slideshowSpeed: 5000,animationSpeed: 600,namespace: "flex-",controlNav: true,directionNav: false,smoothHeight: false,animationLoop: false,slideshow: false,easing: "swing",manualControls: "#tab-slider-nav5ce18f9d7cdcd.tab-list li a",controlsContainer: "#tab-slider-nav5ce18f9d7cdcd.tab-list"})});
+</script>
+<ul id="tab-slider-nav5ce18f9d7cdcd" class="tab-list"><li><a href="#services1">01 About</a></li><li><a href="#services2">02 Academics</a></li><li><a href="#services3">03 Admissions</a></li><li><a href="#services4">04 Activities</a></li></ul><div id="tab-slider5ce18f9d7cdcd" class="tab-slider-container"><div class="flexslider"></p>
+
+<ul class="slides">
+<li id="services1" data-name="01 About"><div class="sixcol"> <iframe src="https://www.youtube.com/embed/6r44wGq0SGo?rel=0" width="540" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe> <img class="alignnone wp-image-16416 size-large" alt="" /></div><div class="sixcol last">
+<h4>Our Mission</h4>
+<p>An education to the highest US accreditation standards, focused on academic excellence and developing confident, ethical world citizens.</p>
+<p><strong>Our Vision</strong></p>
+<p>At Lincoln, we inspire the next generation of creative and critical thinkers, dedicated to a life of integrity, nurtured in an environment where young people enter to learn and leave to serve.</p>
+<a class= "button  theme" href="https://www.lincoln.edu.ar/life-at-lincoln/our-campus/" target="_self">Visit Our Campus</a>
+</div><div class="clear"></div></li>
+<li id="services2" data-name="02 Academics"><div class="sixcol"><img class="aligncenter wp-image-23596 size-full" src="https://www.lincoln.edu.ar/wp-content/uploads/2017/09/hschool.jpg" alt="" width="1140" height="855" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2017/09/hschool.jpg 1140w, https://www.lincoln.edu.ar/wp-content/uploads/2017/09/hschool-300x225.jpg 300w, https://www.lincoln.edu.ar/wp-content/uploads/2017/09/hschool-768x576.jpg 768w, https://www.lincoln.edu.ar/wp-content/uploads/2017/09/hschool-1024x768.jpg 1024w, https://www.lincoln.edu.ar/wp-content/uploads/2017/09/hschool-295x220.jpg 295w, https://www.lincoln.edu.ar/wp-content/uploads/2017/09/hschool-580x435.jpg 580w" sizes="(max-width: 1140px) 100vw, 1140px" /></div><div class="sixcol last">
+<h4>Programs</h4>
+<p>The focus of our educational program is U.S.-based, but includes opportunities to pursue IB courses for certificate and the full IB Diploma. We are fully accredited in the United States through the New England Association of Schools and Colleges as well as locally by the Argentine Dirección Provincial de Educación de Gestión Privada Escuela Primaria y Escuela Secundaria. Our students typically gain entrance to top universities located in North and South America, as well as Europe. We are truly international at Lincoln, with more than forty nationalities represented among our high school population of approximately two hundred and fifty students.</p>
+<p><!--&#091;button size="large" color="theme" href="#" &#093;Apply To Invent&#091;/button&#093;--></p>
+</div><div class="clear"></div></li>
+<li id="services3" data-name="03 Admissions"><div class="sixcol"><a href="http://200.85.152.184/~lincoln/wp-content/uploads/2014/01/t3.jpg" data-gal="prettyPhoto[12294]"><img class="alignnone wp-image-13749 size-full" src="http://200.85.152.184/~lincoln/wp-content/uploads/2014/01/t3.jpg" alt="" width="471" height="330" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2014/01/t3.jpg 471w, https://www.lincoln.edu.ar/wp-content/uploads/2014/01/t3-300x210.jpg 300w" sizes="(max-width: 471px) 100vw, 471px" /></a></div><div class="sixcol last">
+<strong>A warm Welcome from Asociacion Escuelas Lincoln!<br />
+</strong>Thank you for your interest in our school, we are pleased that you are considering Lincoln for your child’s education.Choosing a school for your children is one of the most difficult decisions, we as parents have to make. With over 80 years’ experience of guiding expat families through making the transition to life in Argentina, we are here to help!<a class= "button  theme" href="https://www.lincoln.edu.ar/admissions/" target="_self">Contact Admissions</a></div><div class="clear"></div></li>
+<li id="services4" data-name="04 Activities"><div class="sixcol"><img class="aligncenter wp-image-27560 size-full" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/08/IMG_2803.jpg" alt="Students part of the cheerleaders dancing." width="1140" height="760" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2018/08/IMG_2803.jpg 1140w, https://www.lincoln.edu.ar/wp-content/uploads/2018/08/IMG_2803-300x200.jpg 300w, https://www.lincoln.edu.ar/wp-content/uploads/2018/08/IMG_2803-768x512.jpg 768w, https://www.lincoln.edu.ar/wp-content/uploads/2018/08/IMG_2803-1024x683.jpg 1024w" sizes="(max-width: 1140px) 100vw, 1140px" /></div><div class="sixcol last">
+<h4>Activities</h4>
+<p>We believe that the opportunity for participation in a variety of activities is a vital part of a student’s educational experience.  The athletics and activities programs stress commitment and discipline from all participants. Such participation is a privilege that carries with it responsibilities to the school, to the activity, to the student body, to the community and to the students themselves.</p>
+<p>For further information or to get involved, you can visit the Activities Page.</p>
+<p><a class= "button  theme" href="https://www.lincoln.edu.ar/arts-athletics-activities/athletics/" target="_self">View Athletics &amp; Activities</a></div><div class="clear"></div></li>
+</ul>
+<p></div><!-- flexslider --></div><!-- tab-slider-container -->
+</div></div><!-- .segment-->
+
+                    
+                </article>
+                <!-- .hentry -->
+
+                
+                <article id="our-schools" class="post-26573 page_section type-page_section status-publish hentry first">
+
+                    <div id="our-schools-inner" class="segment clearfix "  style="background-color:#00345B;"><div class="segment-content">
+<div class="inner clearfix" style="padding-top: 0px;">
+<div class="heading2 separator">
+<h2 class="title" style="color: white">Our Schools</h2>
+</div>
+<p><div class="fourcol">
+<a href="https://www.lincoln.edu.ar/our-schools/elementary-welcome/" style="background-image: url(https://www.lincoln.edu.ar/wp-content/uploads/2018/06/OurSchoolsES.jpg); background-size: cover;"><span>Elementary</span></a><br />
+</div><div class="fourcol">
+<a href="https://www.lincoln.edu.ar/our-schools/middle-school-welcome/" style="background-image: url(https://www.lincoln.edu.ar/wp-content/uploads/2018/06/OurSchoolsMS.jpg); background-size: cover;"><span>Middle</span></a><br />
+</div><div class="fourcol last">
+<a href="https://www.lincoln.edu.ar/our-schools/high-school-welcome/" style="background-image: url(https://www.lincoln.edu.ar/wp-content/uploads/2018/06/OurSchoolsHS.jpg); background-size: cover;"><span>High</span></a><br />
+</div><div class="clear"></div>
+</div>
+</div></div><!-- .segment-->
+
+                    
+                </article>
+                <!-- .hentry -->
+
+                
+                <article id="key-facts" class="post-5446 page_section type-page_section status-publish hentry first">
+
+                    <div id="stats-section" class="segment clearfix "><div class="segment-content">
+<div class="heading2 separator"><h2 class="title">Key Facts</h2><div class="pitch">Lincoln at a glance. All these facts are taken from our annual school reports.</div></div>
+<div class="number-stats">
+<script type="text/javascript">
+jQuery(window).load(function($) {jQuery('#stats-carousel .slides').owlCarousel({navigation: false,navigationText: ["<i class=\"icon-uniF489\"></i>","<i class=\"icon-uniF488\"></i>"],scrollPerPage: false,items: 3,itemsDesktop: [1199,3],itemsDesktopSmall: [979,3],itemsTablet: [768,2],itemsTabletSmall: [640,1],autoPlay: false,stopOnHover: true,pagination: true,rewindSpeed: 1000,slideSpeed: 200,paginationSpeed: "800"})});
+</script>
+<div class="carousel-wrap "><div id ="stats-carousel" class="carousel-container"><div class="slides image-grid  owl-carousel">
+<div class="number-stat"><div class="icon-wrap"><i class="icon-study"></i></div><div class="number">700</div><div class="text-wrap"><div class="stats-title">Students across three schools</div></div></div>
+<div class="number-stat"><div class="icon-wrap"><i class="icon-flag3"></i></div><div class="number">46</div><div class="text-wrap"><div class="stats-title">Nationalities represented</div></div></div>
+<div class="number-stat"><div class="icon-wrap"><i class="icon-world"></i></div><div class="number">24</div><div class="text-wrap"><div class="stats-title">Languages spoken</div></div></div>
+<div class="number-stat"><div class="icon-wrap"><i class="icon-stopwatch"></i></div><div class="number">80%</div><div class="text-wrap"><div class="stats-title">Kids taking after school activities</div></div></div>
+<div class="number-stat"><div class="icon-wrap"><i class="icon-users"></i></div><div class="number">18</div><div class="text-wrap"><div class="stats-title">Average class size</div></div></div>
+<div class="number-stat"><div class="icon-wrap"><i class="icon-study"></i></div><div class="number">6:1</div><div class="text-wrap"><div class="stats-title">Students to teacher ratio</div></div></div>
+<div class="number-stat"><div class="icon-wrap"><i class="icon-flag3"></i></div><div class="number">20</div><div class="text-wrap"><div class="stats-title">Faculty staff nationalities</div></div></div>
+<div class="number-stat"><div class="icon-wrap"><i class="icon-checkmark2"></i></div><div class="number">88%</div><div class="text-wrap"><div class="stats-title">Average IB pass rate</div></div></div>
+<div class="number-stat"><div class="icon-wrap"><i class="icon-file"></i></div><div class="number">30</div><div class="text-wrap"><div class="stats-title">After School Activities offered</div></div></div>
+</div><!-- .slides --></div><!-- carousel-container --></div><!-- carousel-wrap -->
+</div>
+</div></div><!-- .segment-->
+
+                    
+                </article>
+                <!-- .hentry -->
+
+                
+                <article id="events" class="post-12528 page_section type-page_section status-publish hentry first">
+
+                    <div  class="segment clearfix "  style="background-color:#eeeeee;"><div class="segment-content">
+<div class="heading2 separator"><h2 class="title">Calendar of events</h2><div class="pitch">Don't miss anything! These are the main upcoming school events. You can also add them to your personal calendar.</div></div>
+<script type="text/javascript">
+jQuery(document).ready(function($) {jQuery('#events-carousel .slides').owlCarousel({navigation: true,navigationText: ["<i class=\"icon-uniF489\"></i>","<i class=\"icon-uniF488\"></i>"],scrollPerPage: true,items: 3,itemsDesktop: [1199,3],itemsDesktopSmall: [979,2],itemsTablet: [768,2],itemsTabletSmall: [640,1],itemsMobile: [479,1],autoPlay: false,stopOnHover: true,pagination: false,rewindSpeed: 1000,slideSpeed: 200,paginationSpeed: "800"})});
+</script>
+<div class="carousel-wrap"><div id ="events-carousel" class="carousel-container"><div class="slides image-grid post-snippets  owl-carousel"><article class="post-30879 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe_events_cat-high cat_high"><div class="image-area"><a title="HS IB Exams" href="https://www.lincoln.edu.ar/event/hs-ib-exams/ "><img width="550" height="352" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/04/ib-exams-550x352.png" class="thumbnail wp-post-image" alt="IB Exams" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="HS IB Exams" href="https://www.lincoln.edu.ar/event/hs-ib-exams/ ">HS IB Exams</a></h4><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="HS IB Exams" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/04/ib-exams.png ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/event/hs-ib-exams/" title="HS IB Exams">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/event/hs-ib-exams/" title="HS IB Exams" rel="bookmark">HS IB Exams</a></h3><div class="entry-summary"></div><!-- .entry-summary --></div><!-- .entry-text-wrap --></article><!-- .hentry --><article class="post-30842 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe_events_cat-elementary cat_elementary"><div class="image-area"><a title="Acto por la Revolución de Mayo" href="https://www.lincoln.edu.ar/event/acto-por-la-revolucion-de-mayo/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/04/IMG_1859-550x400.jpg" class="thumbnail wp-post-image" alt="acto de primaria por el 25 de mayo" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="Acto por la Revolución de Mayo" href="https://www.lincoln.edu.ar/event/acto-por-la-revolucion-de-mayo/ ">Acto por la Revolución de Mayo</a></h4><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="Acto por la Revolución de Mayo" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/04/IMG_1859.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/event/acto-por-la-revolucion-de-mayo/" title="Acto por la Revolución de Mayo">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/event/acto-por-la-revolucion-de-mayo/" title="Acto por la Revolución de Mayo" rel="bookmark">Acto por la Revolución de Mayo</a></h3><div class="entry-summary">Lincoln celebrates the May Revolution. K4 to Gr 6. &nbsp;</div><!-- .entry-summary --></div><!-- .entry-text-wrap --></article><!-- .hentry --><article class="post-30846 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe_events_cat-middle tribe_events_cat-high cat_middle cat_high"><div class="image-area"><a title="Acto por la Revolución de Mayo" href="https://www.lincoln.edu.ar/event/acto-por-la-revolucion-de-mayo-2/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/04/IMG_0136-550x400.jpg" class="thumbnail wp-post-image" alt="25 de mayo" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="Acto por la Revolución de Mayo" href="https://www.lincoln.edu.ar/event/acto-por-la-revolucion-de-mayo-2/ ">Acto por la Revolución de Mayo</a></h4><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="Acto por la Revolución de Mayo" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/04/IMG_0136.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/event/acto-por-la-revolucion-de-mayo-2/" title="Acto por la Revolución de Mayo">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/event/acto-por-la-revolucion-de-mayo-2/" title="Acto por la Revolución de Mayo" rel="bookmark">Acto por la Revolución de Mayo</a></h3><div class="entry-summary">Lincoln celebrates the May Revolution. Gr 7 &#8211; 12.</div><!-- .entry-summary --></div><!-- .entry-text-wrap --></article><!-- .hentry --><article class="post-29476 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe_events_cat-athletics-activities cat_athletics-activities"><div class="image-area"><a title="Last Day of ES After School Activities" href="https://www.lincoln.edu.ar/event/last-day-of-es-after-school-activities/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/02/IMG_9766-550x400.jpg" class="thumbnail wp-post-image" alt="Girls in the gymnastics show." /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="Last Day of ES After School Activities" href="https://www.lincoln.edu.ar/event/last-day-of-es-after-school-activities/ ">Last Day of ES After School Activities</a></h4><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="Last Day of ES After School Activities" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/02/IMG_9766.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/event/last-day-of-es-after-school-activities/" title="Last Day of ES After School Activities">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/event/last-day-of-es-after-school-activities/" title="Last Day of ES After School Activities" rel="bookmark">Last Day of ES After School Activities</a></h3><div class="entry-summary">Last day of Elementary student´s after school activities. &nbsp; &nbsp;</div><!-- .entry-summary --></div><!-- .entry-text-wrap --></article><!-- .hentry --><article class="post-29481 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe_events_cat-athletics-activities cat_athletics-activities"><div class="image-area"><a title="ES After School Activities Rehearsal" href="https://www.lincoln.edu.ar/event/es-after-school-activity-rehearsal/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/02/IMG_9886-550x400.jpg" class="thumbnail wp-post-image" alt="Elementary students practice taekwondo." /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="ES After School Activities Rehearsal" href="https://www.lincoln.edu.ar/event/es-after-school-activity-rehearsal/ ">ES After School Activities Rehearsal</a></h4><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="ES After School Activities Rehearsal" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/02/IMG_9886.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/event/es-after-school-activity-rehearsal/" title="ES After School Activities Rehearsal">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/event/es-after-school-activity-rehearsal/" title="ES After School Activities Rehearsal" rel="bookmark">ES After School Activities Rehearsal</a></h3><div class="entry-summary">All Elementary students rehearse for the ASA Show.</div><!-- .entry-summary --></div><!-- .entry-text-wrap --></article><!-- .hentry --><article class="post-29748 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe_events_cat-elementary cat_elementary"><div class="image-area"><a title="ES Concert" href="https://www.lincoln.edu.ar/event/es-concert-2/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/02/IMG_2918-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="ES Concert" href="https://www.lincoln.edu.ar/event/es-concert-2/ ">ES Concert</a></h4><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="ES Concert" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/02/IMG_2918.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/event/es-concert-2/" title="ES Concert">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/event/es-concert-2/" title="ES Concert" rel="bookmark">ES Concert</a></h3><div class="entry-summary">Enjoy the ES music recital</div><!-- .entry-summary --></div><!-- .entry-text-wrap --></article><!-- .hentry --></div></div><!-- carousel-container --></div><!-- carousel-wrap -->
+</div></div><!-- .segment-->
+
+                    
+                </article>
+                <!-- .hentry -->
+
+                
+                <article id="gallery-2" class="post-5438 page_section type-page_section status-publish hentry first">
+
+                    <div  class="segment clearfix heading"><div class="segment-content">
+<p><div class="heading2 separator"><h2 class="title">Take a campus tour</h2><div class="pitch">Our beautiful and green campus has more to offer than education and facilities only. Feel free to contact us and book a visit.</div></div></div></div><!-- .segment-->
+<div id="showcase-full-width"><div class="hfeed"><ul id="showcase-filter"><li class="segment-0"><a class="showcase-filter" data-value="*" href="#">All</a></li><li class="segment-1"><a class="" href="#" data-value=".term-103" title="View all items filed under Home">Home</a></li></ul><ul id="showcase-items" class="image-grid fitRows js-isotope" data-isotope-options='{ "itemSelector": ".showcase-item", "layoutMode": "fitRows" }'><li data-id="id-26996" class="threecol zero-margin showcase-item clearfix"><article id="post-26996" class="post-26996 gallery_item type-gallery_item status-publish has-post-thumbnail hentry"><div class="image-area"><a title="Life at Lincoln" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/2.jpg "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/2-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title">Life at Lincoln</h4><div class="image-info-buttons"><a class="button transparent" title="Life at Lincoln" href="https://www.lincoln.edu.ar/life-at-lincoln/ ">Expand</a></div></div></div></article><!-- .hentry --></li> <!--isotope element --><li data-id="id-27007" class="threecol zero-margin showcase-item clearfix"><article id="post-27007" class="post-27007 gallery_item type-gallery_item status-publish has-post-thumbnail hentry"><div class="image-area"><a title="Accreditation" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/1.jpg "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/1-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title">Accreditation</h4><div class="image-info-buttons"><a class="button transparent" title="Accreditation" href="https://www.lincoln.edu.ar/why-lincoln/lincoln-school-accreditation/ ">Expand</a></div></div></div></article><!-- .hentry --></li> <!--isotope element --><li data-id="id-27010" class="threecol zero-margin showcase-item clearfix"><article id="post-27010" class="post-27010 gallery_item type-gallery_item status-publish has-post-thumbnail hentry"><div class="image-area"><a title="Student Projects" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/3.jpg "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/3-550x400.jpg" class="thumbnail wp-post-image" alt="Charla TEDx en Lincoln International School" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title">Student Projects</h4><div class="image-info-buttons"><a class="button transparent" title="Student Projects" href="https://www.lincoln.edu.ar/life-at-lincoln/student-projects/ ">Expand</a></div></div></div></article><!-- .hentry --></li> <!--isotope element --><li data-id="id-27008" class="threecol zero-margin showcase-item clearfix"><article id="post-27008" class="post-27008 gallery_item type-gallery_item status-publish has-post-thumbnail hentry"><div class="image-area"><a title="Health &#038; Wellness" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/08/Nurses2.jpg "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/08/Nurses2-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title">Health &#038; Wellness</h4><div class="image-info-buttons"><a class="button transparent" title="Health &#038; Wellness" href="https://www.lincoln.edu.ar/life-at-lincoln/health-wellness/ ">Expand</a></div></div></div></article><!-- .hentry --></li> <!--isotope element --><li data-id="id-27014" class="threecol zero-margin showcase-item clearfix"><article id="post-27014" class="post-27014 gallery_item type-gallery_item status-publish has-post-thumbnail hentry"><div class="image-area"><a title="Parents at Lincoln" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/08/PAL.jpg "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/08/PAL-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title">Parents at Lincoln</h4><div class="image-info-buttons"><a class="button transparent" title="Parents at Lincoln" href="https://www.lincoln.edu.ar/join-us/pals/ ">Expand</a></div></div></div></article><!-- .hentry --></li> <!--isotope element --><li data-id="id-27009" class="threecol zero-margin showcase-item clearfix"><article id="post-27009" class="post-27009 gallery_item type-gallery_item status-publish has-post-thumbnail hentry"><div class="image-area"><a title="Libraries" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/LIbraries.jpg "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/LIbraries-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title">Libraries</h4><div class="image-info-buttons"><a class="button transparent" title="Libraries" href="https://www.lincoln.edu.ar ">Expand</a></div></div></div></article><!-- .hentry --></li> <!--isotope element --><li data-id="id-27011" class="threecol zero-margin showcase-item clearfix"><article id="post-27011" class="post-27011 gallery_item type-gallery_item status-publish has-post-thumbnail hentry"><div class="image-area"><a title="Athletics" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/5.jpg "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/5-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title">Athletics</h4><div class="image-info-buttons"><a class="button transparent" title="Athletics" href="https://www.lincoln.edu.ar/arts-athletics-activities/athletics/ ">Expand</a></div></div></div></article><!-- .hentry --></li> <!--isotope element --><li data-id="id-27013" class="threecol zero-margin showcase-item clearfix term-103"><article id="post-27013" class="post-27013 gallery_item type-gallery_item status-publish has-post-thumbnail hentry gallery_category-home"><div class="image-area"><a title="Fine Arts" href="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/8.jpg "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/07/8-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title">Fine Arts</h4><div class="terms"><a href="https://www.lincoln.edu.ar/gallery_category/home/">Home</a></div><div class="image-info-buttons"><a class="button transparent" title="Fine Arts" href="https://www.lincoln.edu.ar/arts-athletics-activities/arts-2/ ">Expand</a></div></div></div></article><!-- .hentry --></li> <!--isotope element --></ul> <!-- Isotope items --></div> <!-- .hfeed --></div>
+<p>&nbsp;</p>
+
+                    
+                </article>
+                <!-- .hentry -->
+
+                
+                <article id="blog-posts" class="post-5231 page_section type-page_section status-publish hentry first">
+
+                    <div id="blog" class="segment clearfix "  style="background-color:#eeeeee;"><div class="segment-content">
+<div class="heading2 separator"><h2 class="title">FRIDAY FLASH</h2></div>
+<script type="text/javascript">
+jQuery(document).ready(function($) {jQuery('#blog-carousel .slides').owlCarousel({navigation: true,navigationText: ["<i class=\"icon-uniF489\"></i>","<i class=\"icon-uniF488\"></i>"],scrollPerPage: true,items: 3,itemsDesktop: [1199,3],itemsDesktopSmall: [979,2],itemsTablet: [768,2],itemsTabletSmall: [640,1],itemsMobile: [479,1],autoPlay: false,stopOnHover: true,pagination: false,rewindSpeed: 1000,slideSpeed: 200,paginationSpeed: "800"})});
+</script>
+<div class="carousel-wrap"><div id ="blog-carousel" class="carousel-container"><div class="slides image-grid post-snippets  owl-carousel"><article class="post-31122 post type-post status-publish format-standard has-post-thumbnail hentry category-elems"><div class="image-area"><a title="Show Time!" href="https://www.lincoln.edu.ar/elems/show-time/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_9141-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="Show Time!" href="https://www.lincoln.edu.ar/elems/show-time/ ">Show Time!</a></h4><div class="terms"><a href="https://www.lincoln.edu.ar/category/elems/">Elementary School</a></div><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="Show Time!" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_9141.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/elems/show-time/" title="Show Time!">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"><span  style="background-color:#;" class="taxonomy category"><i class="icon-tag"></i> <a href="https://www.lincoln.edu.ar/category/elems/" rel="tag">Elementary School</a> </span></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/elems/show-time/" title="Show Time!" rel="bookmark">Show Time!</a></h3><div class="entry-summary">A Few Words from Our ES Principal Good Day everyone, welcome to this week’s Elementary...</div><!-- .entry-summary --></div><!-- .entry-text-wrap --><div class="byline"><span class="published"><i class="icon-calendar6"></i><a href="https://www.lincoln.edu.ar/2019/05/17/" title="Friday, May, 2019, 9:54 am">May 17, 2019</a></span><span class="comments-number"><i class="icon-chat4"></i></span></div></article><!-- .hentry --><article class="post-31118 post type-post status-publish format-standard has-post-thumbnail hentry category-ms"><div class="image-area"><a title="Upcoming in MS" href="https://www.lincoln.edu.ar/ms/upcoming-in-ms-2/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/6th-grade-2-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="Upcoming in MS" href="https://www.lincoln.edu.ar/ms/upcoming-in-ms-2/ ">Upcoming in MS</a></h4><div class="terms"><a href="https://www.lincoln.edu.ar/category/ms/">Middle School</a></div><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="Upcoming in MS" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/6th-grade-2.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/ms/upcoming-in-ms-2/" title="Upcoming in MS">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"><span  style="background-color:#;" class="taxonomy category"><i class="icon-tag"></i> <a href="https://www.lincoln.edu.ar/category/ms/" rel="tag">Middle School</a> </span></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/ms/upcoming-in-ms-2/" title="Upcoming in MS" rel="bookmark">Upcoming in MS</a></h3><div class="entry-summary">Message from the MS Principal:   &nbsp; Thorpe and Mathias Track and Field The Middle...</div><!-- .entry-summary --></div><!-- .entry-text-wrap --><div class="byline"><span class="published"><i class="icon-calendar6"></i><a href="https://www.lincoln.edu.ar/2019/05/17/" title="Friday, May, 2019, 9:21 am">May 17, 2019</a></span><span class="comments-number"><i class="icon-chat4"></i></span></div></article><!-- .hentry --><article class="post-31116 post type-post status-publish format-standard has-post-thumbnail hentry category-hs"><div class="image-area"><a title="End-of-Year Activities" href="https://www.lincoln.edu.ar/hs/end-of-year-activities/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_0494-1-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="End-of-Year Activities" href="https://www.lincoln.edu.ar/hs/end-of-year-activities/ ">End-of-Year Activities</a></h4><div class="terms"><a href="https://www.lincoln.edu.ar/category/hs/">High School</a></div><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="End-of-Year Activities" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_0494-1.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/hs/end-of-year-activities/" title="End-of-Year Activities">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"><span  style="background-color:#;" class="taxonomy category"><i class="icon-tag"></i> <a href="https://www.lincoln.edu.ar/category/hs/" rel="tag">High School</a> </span></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/hs/end-of-year-activities/" title="End-of-Year Activities" rel="bookmark">End-of-Year Activities</a></h3><div class="entry-summary">HIGH SCHOOL FRIDAY FLASH (Translation into the Spanish Language, below) &nbsp; High School...</div><!-- .entry-summary --></div><!-- .entry-text-wrap --><div class="byline"><span class="published"><i class="icon-calendar6"></i><a href="https://www.lincoln.edu.ar/2019/05/17/" title="Friday, May, 2019, 9:00 am">May 17, 2019</a></span><span class="comments-number"><i class="icon-chat4"></i></span></div></article><!-- .hentry --><article class="post-31103 post type-post status-publish format-standard has-post-thumbnail hentry category-athletics"><div class="image-area"><a title="Check Your Schedules!" href="https://www.lincoln.edu.ar/athletics/check-your-schedules/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_4754-550x400.jpg" class="thumbnail wp-post-image" alt="Swimmers jumping into the pool." /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="Check Your Schedules!" href="https://www.lincoln.edu.ar/athletics/check-your-schedules/ ">Check Your Schedules!</a></h4><div class="terms"><a href="https://www.lincoln.edu.ar/category/athletics/">Athletics &amp; Activities</a></div><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="Check Your Schedules!" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_4754.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/athletics/check-your-schedules/" title="Check Your Schedules!">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"><span  style="background-color:#;" class="taxonomy category"><i class="icon-tag"></i> <a href="https://www.lincoln.edu.ar/category/athletics/" rel="tag">Athletics &amp; Activities</a> </span></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/athletics/check-your-schedules/" title="Check Your Schedules!" rel="bookmark">Check Your Schedules!</a></h3><div class="entry-summary">Hello Condor Fans! &nbsp; The month of May is packed full of activities and competitions!...</div><!-- .entry-summary --></div><!-- .entry-text-wrap --><div class="byline"><span class="published"><i class="icon-calendar6"></i><a href="https://www.lincoln.edu.ar/2019/05/17/" title="Friday, May, 2019, 8:50 am">May 17, 2019</a></span><span class="comments-number"><i class="icon-chat4"></i></span></div></article><!-- .hentry --><article class="post-31078 post type-post status-publish format-standard has-post-thumbnail hentry category-hs"><div class="image-area"><a title="The Latest from HS" href="https://www.lincoln.edu.ar/hs/the-latest-from-hs-2/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_7482-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="The Latest from HS" href="https://www.lincoln.edu.ar/hs/the-latest-from-hs-2/ ">The Latest from HS</a></h4><div class="terms"><a href="https://www.lincoln.edu.ar/category/hs/">High School</a></div><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="The Latest from HS" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_7482.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/hs/the-latest-from-hs-2/" title="The Latest from HS">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"><span  style="background-color:#;" class="taxonomy category"><i class="icon-tag"></i> <a href="https://www.lincoln.edu.ar/category/hs/" rel="tag">High School</a> </span></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/hs/the-latest-from-hs-2/" title="The Latest from HS" rel="bookmark">The Latest from HS</a></h3><div class="entry-summary">HIGH SCHOOL FRIDAY FLASH (Translation into the Spanish Language, below) &nbsp; High School...</div><!-- .entry-summary --></div><!-- .entry-text-wrap --><div class="byline"><span class="published"><i class="icon-calendar6"></i><a href="https://www.lincoln.edu.ar/2019/05/10/" title="Friday, May, 2019, 11:31 am">May 10, 2019</a></span><span class="comments-number"><i class="icon-chat4"></i></span></div></article><!-- .hentry --><article class="post-31067 post type-post status-publish format-standard has-post-thumbnail hentry category-counseling"><div class="image-area"><a title="News from Counseling" href="https://www.lincoln.edu.ar/hs/counseling/news-from-counseling/ "><img width="550" height="400" src="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_6562-550x400.jpg" class="thumbnail wp-post-image" alt="" /></a><div class="image-overlay"></div><div class="image-info"><h4 class="post-title"><a title="News from Counseling" href="https://www.lincoln.edu.ar/hs/counseling/news-from-counseling/ ">News from Counseling</a></h4><div class="terms"><a href="https://www.lincoln.edu.ar/category/hs/counseling/">Counseling</a></div><div class="image-info-buttons"><a class="lightbox-link button transparent" data-gal="prettyPhoto[]" title="News from Counseling" href="https://www.lincoln.edu.ar/wp-content/uploads/2019/05/IMG_6562.jpg ">Expand</a><a class="post-link button transparent" href="https://www.lincoln.edu.ar/hs/counseling/news-from-counseling/" title="News from Counseling">Details</a></div></div></div>
+<div class="entry-text-wrap "><div class="entry-terms multi-color"><span  class="taxonomy category"><i class="icon-tag"></i> <a href="https://www.lincoln.edu.ar/category/hs/counseling/" rel="tag">Counseling</a> </span></div>
+<h3 class="entry-title"><a href="https://www.lincoln.edu.ar/hs/counseling/news-from-counseling/" title="News from Counseling" rel="bookmark">News from Counseling</a></h3><div class="entry-summary">This Week from The Counseling Office Follow Up to Angst This week the counselors from...</div><!-- .entry-summary --></div><!-- .entry-text-wrap --><div class="byline"><span class="published"><i class="icon-calendar6"></i><a href="https://www.lincoln.edu.ar/2019/05/10/" title="Friday, May, 2019, 11:30 am">May 10, 2019</a></span><span class="comments-number"><i class="icon-chat4"></i></span></div></article><!-- .hentry --></div></div><!-- carousel-container --></div><!-- carousel-wrap -->
+</div></div><!-- .segment-->
+
+                    
+                </article>
+                <!-- .hentry -->
+
+                
+                <article id="our-mission" class="post-5436 page_section type-page_section status-publish hentry first">
+
+                    <div  data-parallax-speed="0.4" class="segment clearfix quote-banner parallax-background parallax-banner"  style="background-image:url(https://www.lincoln.edu.ar/wp-content/uploads/2018/08/Fondo-cyan.jpg); background-color:#2A9DD6;background-attachment:fixed;"><div class="segment-content">
+<h2>Our Vision</h2>
+<div class="text">
+<p>At Lincoln, we inspire the next generation of creative and critical thinkers, dedicated to a life of integrity, nurtured in an environment where young people enter to learn and leave to serve.</p>
+</div>
+</div></div><!-- .segment-->
+
+                    
+                </article>
+                <!-- .hentry -->
+
+                
+                <article id="featured-in" class="post-5187 page_section type-page_section status-publish hentry first">
+
+                    <div class="inner clearfix" style="padding-top: 60px;"><div class="threecol">
+<a href="https://www.neasc.org/" target="_blank" rel="noopener"><img class="aligncenter wp-image-20285" src="https://www.lincoln.edu.ar/wp-content/uploads/2016/10/neasc-logo-accred-red-150x150.jpg" alt="" width="120" height="120" /></a><br />
+</div><div class="threecol">
+<a href="https://www.thecgcproject.org/" target="_blank" rel="noopener"><img class="wp-image-24975 aligncenter" src="https://www.lincoln.edu.ar/wp-content/uploads/2014/01/CGC-logo-1-150x150.jpg" alt="" width="120" height="107" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2014/01/CGC-logo-1-300x267.jpg 300w, https://www.lincoln.edu.ar/wp-content/uploads/2014/01/CGC-logo-1-768x685.jpg 768w, https://www.lincoln.edu.ar/wp-content/uploads/2014/01/CGC-logo-1-580x517.jpg 580w, https://www.lincoln.edu.ar/wp-content/uploads/2014/01/CGC-logo-1.jpg 921w" sizes="(max-width: 120px) 100vw, 120px" /></a><br />
+</div><div class="threecol">
+<a href="https://www.aassa.com/" target="_blank" rel="noopener"><img class="alignnone wp-image-15274" src="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/AASSA-logo-300x72.jpg" alt="AASSA logo" width="120" height="29" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2015/07/AASSA-logo-300x72.jpg 300w, https://www.lincoln.edu.ar/wp-content/uploads/2015/07/AASSA-logo-580x139.jpg 580w, https://www.lincoln.edu.ar/wp-content/uploads/2015/07/AASSA-logo.jpg 625w" sizes="(max-width: 120px) 100vw, 120px" /></a><br />
+<span style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><a href="http://www.theptc.org/" target="_blank" rel="noopener"><img class="alignnone wp-image-27357" src="https://www.lincoln.edu.ar/wp-content/uploads/2018/08/B0B340A0-F910-4434-93A2-9249EC256C34-300x200.jpeg" alt="" width="120" height="80" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2018/08/B0B340A0-F910-4434-93A2-9249EC256C34-300x200.jpeg 300w, https://www.lincoln.edu.ar/wp-content/uploads/2018/08/B0B340A0-F910-4434-93A2-9249EC256C34-768x512.jpeg 768w, https://www.lincoln.edu.ar/wp-content/uploads/2018/08/B0B340A0-F910-4434-93A2-9249EC256C34-1024x683.jpeg 1024w, https://www.lincoln.edu.ar/wp-content/uploads/2018/08/B0B340A0-F910-4434-93A2-9249EC256C34.jpeg 1140w" sizes="(max-width: 120px) 100vw, 120px" /></a></span><br />
+</div><div class="threecol last">
+<a href="https://www.aaie.org/" rel="attachment wp-att-20088"><img class="alignnone wp-image-20088" src="https://www.lincoln.edu.ar/wp-content/uploads/2014/01/AAIE-Member-School-Badge_250x250.png" alt="aaie-member-school-badge_250x250" width="120" height="120" srcset="https://www.lincoln.edu.ar/wp-content/uploads/2014/01/AAIE-Member-School-Badge_250x250.png 252w, https://www.lincoln.edu.ar/wp-content/uploads/2014/01/AAIE-Member-School-Badge_250x250-150x150.png 150w" sizes="(max-width: 120px) 100vw, 120px" /></a><br />
+</div><div class="clear"></div></div>
+
+                    
+                </article>
+                <!-- .hentry -->
+
+                
+    </div>
+    <!-- .hfeed -->
+
+</div><!-- #content -->
+
+
+
+</div><!-- #main .inner -->
+
+
+</div><!-- #main -->
+
+    
+    <footer id="footer">
+
+        <div class="inner">
+
+            
+            <div id="sidebars-footer" class="clearfix">
+
+                <div id="sidebar-footer1" class="sidebar clearfix fourcol"><aside id="tp_widget_recent_tweets-2" class="widget widget_tp_widget_recent_tweets widget-widget_tp_widget_recent_tweets"><div class="widget-wrap widget-inside"><h3 class="widget-title"><span>Twitter Feed</span></h3>
+						<div class="tp_recent_tweets">
+							<ul><li><span>What a great end to our week with our three elementary school concerts! Congratulations to our performers of all so… <a href="https://t.co/BeGxeYa5Ti" target="_blank">https://t.co/BeGxeYa5Ti</a></span><a class="twitter_time" target="_blank" href="http://twitter.com/@lincolnael/statuses/1129445847152943105">yesterday</a></li><li><span>Did you know that Lincoln shares sports meets with Colegio República de Italia, from the city of Concepción del Uru… <a href="https://t.co/Voz8yq1EpB" target="_blank">https://t.co/Voz8yq1EpB</a></span><a class="twitter_time" target="_blank" href="http://twitter.com/@lincolnael/statuses/1128726126736625664">3 days ago</a></li>
+							</ul></div></div></aside></div><div id="sidebar-footer2" class="sidebar clearfix fourcol"><aside id="text-2" class="widget widget_text widget-widget_text"><div class="widget-wrap widget-inside"><h3 class="widget-title"><span>Asociación Escuelas Lincoln</span></h3>			<div class="textwidget"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d977.6649082555153!2d-58.48241913039114!3d-34.49122914902231!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb174799fa777%3A0x56db614d21c093ac!2sAndr%C3%A9s+Ferreyra+4073%2C+B1637AOS+La+Lucila%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1437599840297  frameborder="0" style="border:0;width:100%" allowfullscreen></iframe></div>
+		</div></aside><aside id="text-3" class="widget widget_text widget-widget_text"><div class="widget-wrap widget-inside">			<div class="textwidget">Andrés Ferreyra 4073 - B1637 AOS La Lucila - Argentina<br>
+Tel:  +54 11 4851 1700</div>
+		</div></aside></div><div id="sidebar-footer3" class="sidebar clearfix fourcol last"><aside id="null-instagram-feed-2" class="widget null-instagram-feed widget-null-instagram-feed"><div class="widget-wrap widget-inside"><h3 class="widget-title"><span>Instagram feed</span></h3><ul class="instagram-pics instagram-size-thumbnail"><li class=""><a href="//instagram.com/p/BxkkrbyleBr/" target="_self"  class=""><img src="//scontent-atl3-1.cdninstagram.com/vp/2b665b54039c234b05836ad2590a3f0e/5D60334D/t51.2885-15/e35/c142.0.568.568a/s150x150/59337484_146815766371221_1602498634433787196_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com"  alt="What a great end to our week with our three elementary school concerts! Congratulations to our performers of all sorts: pets, mighty minds and Broadway stars. You were all amazing!" title="What a great end to our week with our three elementary school concerts! Congratulations to our performers of all sorts: pets, mighty minds and Broadway stars. You were all amazing!"  class=""/></a></li><li class=""><a href="//instagram.com/p/BxfhHR5H0gQ/" target="_self"  class=""><img src="//scontent-atl3-1.cdninstagram.com/vp/8e714fedeb80ef31afcc14b669759ea0/5D79B7AE/t51.2885-15/e35/s150x150/60675541_348704759003797_8972689842272805160_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com"  alt="Did you know that since 2010 Lincoln shares sports meets with Colegio República de Italia, from the city of Concepción del Uruguay? This is a one of a kind experience where our students get to meet and play different sports with students from another province. We focus on teamwork, sportsmanship and leadership skills while we make new friends! What a great tradition!" title="Did you know that since 2010 Lincoln shares sports meets with Colegio República de Italia, from the city of Concepción del Uruguay? This is a one of a kind experience where our students get to meet and play different sports with students from another province. We focus on teamwork, sportsmanship and leadership skills while we make new friends! What a great tradition!"  class=""/></a></li><li class=""><a href="//instagram.com/p/BxZ4aSglEjR/" target="_self"  class=""><img src="//scontent-atl3-1.cdninstagram.com/vp/a90df1ca1faa8de47021c50caf4f8f65/5D6F3464/t51.2885-15/e35/s150x150/58639177_420316895456561_7510475772749628289_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com"  alt="Yesterday was Mother’s Day in the USA, so K4 decided to invite their mothers for a treat to celebrate! We hope you all had a great day! // Ayer fue el Día de la Madre en los Estados Unidos, así que los chicos de K4 decidieron invitar a sus madres para festejar. Esperamos que todas hayan tenido un gran día!" title="Yesterday was Mother’s Day in the USA, so K4 decided to invite their mothers for a treat to celebrate! We hope you all had a great day! // Ayer fue el Día de la Madre en los Estados Unidos, así que los chicos de K4 decidieron invitar a sus madres para festejar. Esperamos que todas hayan tenido un gran día!"  class=""/></a></li><li class=""><a href="//instagram.com/p/BxVGJUnFnp6/" target="_self"  class=""><img src="//scontent-atl3-1.cdninstagram.com/vp/836b51c76f08e80a9427d940d900f530/5D5B51D8/t51.2885-15/e35/s150x150/60423335_340532666650760_2785391646476819661_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com"  alt="Shrek is all about not going by the book and writing our own story: the one that makes each of us happy. It&#039;s about embracing what makes us unique, letting go of prejudice and joining forces in our differences. We are overwhelmed with pride of how hard these middle schoolers have worked. All we can say is: the show is truly excellent from beginning to end. Join us today at 4pm and let these incredibly talented performers remind you to love yourselves for what you are! Creatures of all sorts are welcome in our swamp! “Shrek, The Musical Jr.”, Tickets for sale at the door. #AELincoln" title="Shrek is all about not going by the book and writing our own story: the one that makes each of us happy. It&#039;s about embracing what makes us unique, letting go of prejudice and joining forces in our differences. We are overwhelmed with pride of how hard these middle schoolers have worked. All we can say is: the show is truly excellent from beginning to end. Join us today at 4pm and let these incredibly talented performers remind you to love yourselves for what you are! Creatures of all sorts are welcome in our swamp! “Shrek, The Musical Jr.”, Tickets for sale at the door. #AELincoln"  class=""/></a></li><li class=""><a href="//instagram.com/p/BxKzM6-lSrn/" target="_self"  class=""><img src="//scontent-atl3-1.cdninstagram.com/vp/d918d727717eb9665c219a086b1c5d36/5D7A6FCC/t51.2885-15/e35/c142.0.568.568a/s150x150/57602922_2315890108654087_3756409431725145322_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com"  alt="🎨🎨 Middle school bursts with creativity in Ms Leila’s art class. 🎨🎨" title="🎨🎨 Middle school bursts with creativity in Ms Leila’s art class. 🎨🎨"  class=""/></a></li><li class=""><a href="//instagram.com/p/BxA3KFLlasG/" target="_self"  class=""><img src="//scontent-atl3-1.cdninstagram.com/vp/63117ffa1bbea4e796e5f8aa92d5b172/5D5A555D/t51.2885-15/e35/c0.0.1079.1079a/s150x150/57447343_398324914353787_2659307133204461412_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com"  alt="Nuestros alumnos de primer grado celebraron hoy Café Literario para homenajear a la reconocida escritora argentina María Elena Walsh. Entre cafeteras y pastelería casera, los niños compartieron con las familias lo que aprendieron sobre su vida y su obra. Al final leyeron un poema colaborativo, lleno de rimas y disparates, al mejor estilo Walsh. ¡Mirá la sorpresa en nuestras historias!
+.
+.
+.
+
+Our 1st graders celebrated today their Café Literario honoring the renowned Argentine writer, María Elena Walsh. Between coffee pots and homemade bakery, the kids shared with their families what they learned about Walsh&#039;s life and work. Finally, they read a Walsh-style collaborative poem, with plenty of rhymes and &quot;disparates&quot;.
+Check the bonus on our stories!
+
+#AELincoln #Poesia #Poetry #MariaElenaWalsh #EscritoresArgentinos #Libro #Book #argentinewriters" title="Nuestros alumnos de primer grado celebraron hoy Café Literario para homenajear a la reconocida escritora argentina María Elena Walsh. Entre cafeteras y pastelería casera, los niños compartieron con las familias lo que aprendieron sobre su vida y su obra. Al final leyeron un poema colaborativo, lleno de rimas y disparates, al mejor estilo Walsh. ¡Mirá la sorpresa en nuestras historias!
+.
+.
+.
+
+Our 1st graders celebrated today their Café Literario honoring the renowned Argentine writer, María Elena Walsh. Between coffee pots and homemade bakery, the kids shared with their families what they learned about Walsh&#039;s life and work. Finally, they read a Walsh-style collaborative poem, with plenty of rhymes and &quot;disparates&quot;.
+Check the bonus on our stories!
+
+#AELincoln #Poesia #Poetry #MariaElenaWalsh #EscritoresArgentinos #Libro #Book #argentinewriters"  class=""/></a></li><li class=""><a href="//instagram.com/p/Bw5BIh1lqed/" target="_self"  class=""><img src="//scontent-atl3-1.cdninstagram.com/vp/00e1af233e379646298971b32aef50b8/5D66B072/t51.2885-15/e35/c142.0.568.568a/s150x150/57622432_457413498363077_3475041344981532688_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com"  alt="Middle school students experimenting... can you guess what they were up to?" title="Middle school students experimenting... can you guess what they were up to?"  class=""/></a></li><li class=""><a href="//instagram.com/p/BwsHrDslVQQ/" target="_self"  class=""><img src="//scontent-atl3-1.cdninstagram.com/vp/3f6811e25b0f4888159286f567a20674/5D9AC591/t51.2885-15/e35/c0.0.1079.1079a/s150x150/57289620_878593502475773_6941563510210469798_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com"  alt="A week packed with exciting sports events. 
+Today we celebrated the Thorpe &amp; Mathias Track and Field ES Tournament. Just look at what these kids can do! We had two new school records in High Jump: congratulations to Julia and Silvio! 🏃 🏃‍♀️ 🏃 🏃‍♀️ Yesterday we hosted two huge and fun events: the Opening Swim Meet of the Liga Escolar where 200 students competed. Our swimmers left home with quite a few medals... good job! 🏊‍♂️🏊‍♀️🏊‍♂️🏊‍♀️
+Last but not at all least, we hosted a Mini Volleyball Meet with the Circulo Italiano school for over 100 players from ES and MS! 
+What a week for our Condors!
+🏐 🏐 🏐 🏐" title="A week packed with exciting sports events. 
+Today we celebrated the Thorpe &amp; Mathias Track and Field ES Tournament. Just look at what these kids can do! We had two new school records in High Jump: congratulations to Julia and Silvio! 🏃 🏃‍♀️ 🏃 🏃‍♀️ Yesterday we hosted two huge and fun events: the Opening Swim Meet of the Liga Escolar where 200 students competed. Our swimmers left home with quite a few medals... good job! 🏊‍♂️🏊‍♀️🏊‍♂️🏊‍♀️
+Last but not at all least, we hosted a Mini Volleyball Meet with the Circulo Italiano school for over 100 players from ES and MS! 
+What a week for our Condors!
+🏐 🏐 🏐 🏐"  class=""/></a></li></ul><p class="clear"><a href="//instagram.com/aelincoln/" rel="me" target="_self" class="">Follow Us</a></p></div></aside></div>
+            </div>
+            <!-- #sidebars-footer -->
+
+            
+        </div>
+
+    </footer> <!-- #footer -->
+
+    
+
+<footer id="footer-bottom">
+
+    <div class="inner">
+
+        
+    <nav id="menu-footer" class="single-depth-menu">
+
+        <div class="menu"><ul id="menu-footer-items" class=""><li id="menu-item-26566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26566"><a href="https://www.lincoln.edu.ar/?page_id=26560">Terms of Use</a></li>
+<li id="menu-item-26565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26565"><a href="https://www.lincoln.edu.ar/privacy-and-cookies-policy/">Privacy and Cookies Policy</a></li>
+<li id="menu-item-13035" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13035"><a href="https://www.lincoln.edu.ar/contact/">Contact Us</a></li>
+<li id="menu-item-26559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26559"><a href="https://www.lincoln.edu.ar/sitemap/">Sitemap</a></li>
+</ul></div>
+    </nav><!-- #menu-footer -->
+
+
+        <div id="footer-bottom-text">Copyright © 2018, Asociación Escuelas Lincoln</div>
+        <a id="go-to-top" href="#" title="Back to top">Go Top</a>
+    </div>
+
+</footer><!-- #footer-bottom -->
+
+</div><!-- #container -->
+
+
+<div id="cookie-law-info-bar"><span>This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish.<a  data-cli_action="accept" id="cookie_action_close_header"  class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button" style="display:inline-block; ">Accept</a> <a href='http://www.lincoln.edu.ar/privacy-and-cookies-policy/' id="CONSTANT_OPEN_URL" target="_blank"  class="cli-plugin-main-link"  style="display:inline-block;" >Read More</a></span></div><div id="cookie-law-info-again" style="display:none;"><span id="cookie_hdr_showagain">Privacy and Cookies Policy</span></div><div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<script type="text/javascript">
+  /* <![CDATA[ */
+  cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"#fff","border":"#2a9dd6","border_on":false,"button_1_button_colour":"#2a9dd6","button_1_button_hover":"#227eab","button_1_link_colour":"#ffffff","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#2a9dd6","button_2_as_button":false,"button_2_hidebar":true,"button_3_button_colour":"#000","button_3_button_hover":"#000000","button_3_link_colour":"#fff","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"#000","button_4_button_hover":"#000000","button_4_link_colour":"#fff","button_4_as_button":true,"font_family":"inherit","header_fix":false,"notify_animate_hide":true,"notify_animate_show":false,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"reject_close_reload":false,"showagain_tab":true,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000","logging_on":false,"as_popup":false,"popup_overlay":true,"bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"}';
+  /* ]]> */
+</script>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<div class="hidden"><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NRR3C3R');</script>
+<!-- End Google Tag Manager --></div><script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};var tribe_system_info = {"sysinfo_optin_nonce":"527bdefa9d","clipboard_btn_text":"Copy to clipboard","clipboard_copied_text":"System info copied","clipboard_fail_text":"Press \"Cmd + C\" to copy"};/* ]]> */ </script>			<script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://www.lincoln.edu.ar/wp-content/cache/minify/3680b.js"></script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mo_theme = {"name_required":"Please provide your name","name_format":"Your name must consist of at least 5 characters","email_required":"Please provide a valid email address","url_required":"Please provide a valid URL","phone_required":"Minimum 5 characters required","message_required":"Please input the message","message_format":"Your message must be at least 15 characters long","success_message":"Your message has been sent. Thanks!","blog_url":"https:\/\/www.lincoln.edu.ar","loading_portfolio":"Loading the next set of posts...","finished_loading":"No more items to load..."};
+/* ]]> */
+</script>
+
+<script src="https://www.lincoln.edu.ar/wp-content/cache/minify/6986c.js"></script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+
+
+<script src="https://www.lincoln.edu.ar/wp-content/cache/minify/d5990.js"></script>
+
+
+</body>
+</html>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced 
+Minified using disk
+
+Served from: www.lincoln.edu.ar @ 2019-05-19 14:17:17 by W3 Total Cache
+-->

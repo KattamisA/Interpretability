@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://theginblog.com/xmlrpc.php">
+<title>The Gin Malta Hygiene Business Blog | How about cleaning the Web from all this non relevant financial information.</title>
+
+<!-- All in One SEO Pack 2.4.6.1 by Michael Torbert of Semper Fi Web Design[248,375] -->
+<link rel="canonical" href="http://theginblog.com/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The Gin Malta Hygiene Business Blog &raquo; Feed" href="http://theginblog.com/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/theginblog.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.9"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://theginblog.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ufbl-custom-select-css-css'  href='http://theginblog.com/wp-content/plugins/ultimate-form-builder-lite/css/jquery.selectbox.css?ver=1.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ufbl-front-css-css'  href='http://theginblog.com/wp-content/plugins/ultimate-form-builder-lite/css/frontend.css?ver=1.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='point-style-css'  href='http://theginblog.com/wp-content/themes/point/style.css?ver=4.8.9' type='text/css' media='all' />
+<style id='point-style-inline-css' type='text/css'>
+
+        a:hover, .menu .current-menu-item > a, .menu .current-menu-item, .current-menu-ancestor > a.sf-with-ul, .current-menu-ancestor, footer .textwidget a, .single_post a, #commentform a, .copyrights a:hover, a, footer .widget li a:hover, .menu > li:hover > a, .single_post .post-info a, .post-info a, .readMore a, .reply a, .fn a, .carousel a:hover, .single_post .related-posts a:hover, .sidebar.c-4-12 .textwidget a, footer .textwidget a, .sidebar.c-4-12 a:hover, .title a:hover, .trending-articles li a:hover { color: #38B7EE; }
+        .nav-previous a, .nav-next a, .sub-menu, #commentform input#submit, .tagcloud a, #tabber ul.tabs li a.selected, .featured-cat, .mts-subscribe input[type='submit'], .pagination a, .widget .wpt_widget_content #tags-tab-content ul li a, .latestPost-review-wrapper, .pagination .dots, .primary-navigation #wpmm-megamenu .wpmm-posts .wpmm-pagination a, #wpmm-megamenu .review-total-only { background: #38B7EE; color: #fff; } .header-button { background: #38B7EE; } #logo a { color: #blank; }
+			
+</style>
+<link rel='stylesheet' id='theme-slug-fonts-css'  href='//fonts.googleapis.com/css?family=Droid+Sans%3A400%2C700' type='text/css' media='all' />
+<script type='text/javascript' src='http://theginblog.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://theginblog.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://theginblog.com/wp-content/plugins/ultimate-form-builder-lite/js/jquery.selectbox-0.2.min.js?ver=1.3.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var frontend_js_obj = {"default_error_message":"This field is required","ajax_url":"http:\/\/theginblog.com\/wp-admin\/admin-ajax.php","ajax_nonce":"98b1fcb7f9"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theginblog.com/wp-content/plugins/ultimate-form-builder-lite/js/frontend.js?ver=1.3.7'></script>
+<link rel='https://api.w.org/' href='http://theginblog.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://theginblog.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://theginblog.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.9" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//theginblog.com/?wordfence_lh=1&hid=163F15C17FCA0D37868E0107A8BA9DA2');
+</script><!--[if IE 7]>
+<link rel="stylesheet" href="http://theginblog.com/wp-content/plugins/wp-review/assets/css/wp-review-ie7.css">
+<![endif]-->
+	<style type="text/css">
+					.site-title, .site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+				</style>
+	<link rel="icon" href="http://theginblog.com/wp-content/uploads/2016/11/favcon.png" sizes="32x32" />
+<link rel="icon" href="http://theginblog.com/wp-content/uploads/2016/11/favcon.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://theginblog.com/wp-content/uploads/2016/11/favcon.png" />
+<meta name="msapplication-TileImage" content="http://theginblog.com/wp-content/uploads/2016/11/favcon.png" />
+</head>
+
+<body id="blog" class="home blog">
+<div class="main-container">
+
+			<div class="trending-articles">
+			<ul>
+				<li class="firstlink">Now Trending:</li>
+									<li class="trendingPost ">
+						<a href="http://theginblog.com/2016/11/17/the-incredible-solar-impulse-2/" title="The Incredible Solar Impulse 2" rel="bookmark">The Incredible Solar Imp...</a>
+					</li>                   
+									<li class="trendingPost ">
+						<a href="http://theginblog.com/2016/11/16/choose-the-right-massage-for-you-in-malta/" title="Choose the Right Massage For You in Malta" rel="bookmark">Choose the Right Massage...</a>
+					</li>                   
+									<li class="trendingPost ">
+						<a href="http://theginblog.com/2016/11/02/the-gin-blog-is-reborn/" title="The Gin Blog Is Reborn" rel="bookmark">The Gin Blog Is Reborn</a>
+					</li>                   
+							</ul>
+		</div>
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+												<h1 id="logo" class="image-logo" itemprop="headline">
+						<a href="http://theginblog.com"><img src="http://theginblog.com/wp-content/uploads/2016/11/new-logo1.png" alt="The Gin Malta Hygiene Business Blog"></a>
+					</h1><!-- END #logo -->
+										
+			<a href="#" id="pull" class="toggle-mobile-menu">Menu</a>
+			<div class="primary-navigation">
+				<nav id="navigation" class="mobile-menu-wrapper" role="navigation">
+											<ul id="menu-main" class="menu clearfix"><li id="menu-item-18" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://theginblog.com/category/fashion/">Fashion<br /><span class="sub"></span></a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://theginblog.com/category/finance/">Finance<br /><span class="sub"></span></a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://theginblog.com/category/health/">Health<br /><span class="sub"></span></a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://theginblog.com/category/politics/">Politics<br /><span class="sub"></span></a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://theginblog.com/category/videos/">Videos<br /><span class="sub"></span></a></li>
+</ul>									</nav><!-- #navigation -->
+			</div><!-- .primary-navigation -->
+		</div><!-- .site-branding -->
+
+	</header><!-- #masthead -->
+
+			<div class="header-bottom-second">
+			<div id="header-widget-container">
+				<div class="widget-header">
+					<img src="http://theginblog.com/wp-content/uploads/2016/11/banner-2.jpg">				</div>
+				<div class="widget-header-bottom-right">
+					<div class="textwidget">
+						<div class="topad">
+							<a href="#" class="header-button">Download!</a>Download our Guide book to get more information 						</div>
+					</div>
+				</div><!-- .widget-header-bottom-right -->
+			</div><!-- #header-widget-container -->	
+		</div><!-- .header-bottom-second -->
+		
+				<div class="featuredBox">
+									 
+						<div class="firstpost excerpt">
+							<a href="http://theginblog.com/2016/11/17/the-incredible-solar-impulse-2/" title="The Incredible Solar Impulse 2" rel="nofollow" id="first-thumbnail">
+								 
+									<img width="620" height="315" src="http://theginblog.com/wp-content/uploads/2016/11/1309075_630x354-620x315.jpg" class="attachment-bigthumb size-bigthumb wp-post-image" alt="" title="" />																<p class="featured-excerpt">
+									<span class="featured-title">The Incredible Solar Impulse 2</span>
+									<span class="f-excerpt">If you&#8217;re at all interested in experimental aircraft, you&#8217;ll</span>
+								</p>
+							</a>
+						</div><!--.post excerpt-->
+					                   
+															<div class="secondpost excerpt">
+							<a href="http://theginblog.com/2016/11/16/choose-the-right-massage-for-you-in-malta/" title="Choose the Right Massage For You in Malta" rel="nofollow" id="second-thumbnail">
+								 
+									<img width="300" height="200" src="http://theginblog.com/wp-content/uploads/2016/11/Choose-the-Right-Massage-For-You-in-Malta2-300x200.jpg" class="attachment-mediumthumb size-mediumthumb wp-post-image" alt="" title="" />																<p class="featured-excerpt">
+									<span class="featured-title">Choose the Right Massage For You in Malta</span>
+								</p>
+							</a>
+						</div><!--.post excerpt-->
+					                   
+															<div class="thirdpost excerpt">
+							<a href="http://theginblog.com/2016/11/02/the-gin-blog-is-reborn/" title="The Gin Blog Is Reborn" rel="nofollow" id="third-thumbnail">
+								 
+									<img width="140" height="76" src="http://theginblog.com/wp-content/uploads/2016/11/theginblog.png" class="attachment-smallthumb size-smallthumb wp-post-image" alt="" title="" srcset="http://theginblog.com/wp-content/uploads/2016/11/theginblog.png 1095w, http://theginblog.com/wp-content/uploads/2016/11/theginblog-300x164.png 300w, http://theginblog.com/wp-content/uploads/2016/11/theginblog-768x419.png 768w, http://theginblog.com/wp-content/uploads/2016/11/theginblog-1024x558.png 1024w" sizes="(max-width: 140px) 100vw, 140px" />																<p class="featured-excerpt">
+									<span class="featured-title">The Gin Blog Is Reborn</span>
+								</p>
+							</a>
+						</div><!--.post excerpt-->
+					                   
+				 
+			</div>
+			
+<div id="page" class="home-page">
+	<div class="content">
+		<div class="article">
+			
+			<h3 class="frontTitle"><div class="latest">Latest</div></h3>
+			
+			
+					<article class="pexcerpt0 post excerpt ">
+												<header>						
+							<h2 class="title">
+								<a href="http://theginblog.com/2018/04/13/traveling-in-malta-different-ways-to-go-around-the-island/" title="Traveling In Malta: Different Ways To Go Around The Island" rel="bookmark">Traveling In Malta: Different Ways To Go Around The Island</a>
+							</h2>
+							<div class="post-info"><span class="theauthor"><a href="http://theginblog.com/author/fkisojncuso/" title="Posts by Russel M. Diaz" rel="author">Russel M. Diaz</a></span> | <span class="thetime">April 13, 2018</span></div>
+						</header><!--.header-->
+											        <div class="post-content image-caption-format-1 full-post">
+					            <p>Malta is a really great place to visit as there are tons of wonderful sites to see especially if you’re into beaches and historical locations. However, before you visit this amazing island, you first need to plan out your trip especially the means of transportation that you’re going to use to go to the different locations that you want to visit with your family or friends.</p>
+<p>&nbsp;</p>
+<p><strong>Malta Shore Excursions</strong></p>
+<p>There are a lot of companies in Malta that offer great bus tours. If you booked your<a href="http://thefairytaletraveler.com/2014/11/14/malta-gozo/"> trip to Malta</a> through the help of a travel agency, you might already have been booked for a bus tour. If not, then you don’t have to worry because you’ll find tons of booklets that promote these tours. They include Malta by day tours; one day tours in Gozo and its historical sites; cultural tours; and local Maltese feasts.</p>
+<p>&nbsp;</p>
+<p><strong>Malta’s Public Transportation</strong></p>
+<p>If you want to really bask into the Maltese experience and be like one of the locals, it would be best to use public transportation. You don’t have to worry because Malta has a great bus service for both Malta and Gozo.</p>
+<p><a href="https://www.publictransport.com.mt/">Malta’s public transportation</a> also serves as a great alternative if you don’t have the budget to rent a car because it’s very affordable. On top of that, it also covers most of the best locations in Malta and Gozo that most tourists want to visit including beaches, restaurants, hotels, entertainment places, and the <a href="http://www.gozochannel.com/en/schedules.htm">Gozo ferry service</a>.</p>
+<p>&nbsp;</p>
+<p><strong>Go For Car Rental</strong></p>
+<p>If you don’t want to have to go through the trouble of public transport, you can book a car rental service for your trip from <a href="http://www.carhiremaltagroup.com/">www.carhiremaltagroup.com</a>. There are a lot of great car hire companies in Malta that you can choose from and they offer a wide variety of car rental packages so you won’t have any problems choosing one that’s going to work best for you.</p>
+<p>If you’d like to get a huge discount on your car rental service, you should do your booking ahead of time. Booking car rentals can now be done online so you don’t have to worry about finding one when you get to Malta. A lot of car rental companies offer great discounts to people who book their cars in advance so that’s something that you might want to consider doing. In addition to that, booking in advance will allow you to do some research so that you can get the best deal possible.</p>
+<p><strong>Transportation In Gozo</strong></p>
+<p>If you’d like to drop by Gozo as well, it’s very similar to Malta when it comes to transportation because it also has the same public transport buses that you can use to see its main attractions and to go to its wonderful beaches.</p>
+<p>There are also taxis available near the Gozo ferry. However, you’d probably get to Gozo through a rented car; a bus tour; or with the use of public transport, which are in themselves very efficient and offer a nice service.</p>
+<p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d347817.272058411!2d14.26856511893108!3d35.91125916928624!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdaffc20cc2ae8c7b!2sCar+Hire+Malta+Group!5e0!3m2!1sen!2smt!4v1523614202070" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Gozo also has a hop on hop off service, which you can choose as an alternative to going around the small island.</p>
+					        </div>
+					        					    					</article>
+
+				
+					<article class="pexcerpt1 post excerpt last">
+												<header>						
+							<h2 class="title">
+								<a href="http://theginblog.com/2017/03/28/blue-tungsten-wedding-rings-buying-guide/" title="Blue Tungsten Wedding Rings Buying Guide" rel="bookmark">Blue Tungsten Wedding Rings Buying Guide</a>
+							</h2>
+							<div class="post-info"><span class="theauthor"><a href="http://theginblog.com/author/fkisojncuso/" title="Posts by Russel M. Diaz" rel="author">Russel M. Diaz</a></span> | <span class="thetime">March 28, 2017</span></div>
+						</header><!--.header-->
+											        <div class="post-content image-caption-format-1 full-post">
+					            <h1>Four Reasons To Buy A Blue Tugsten Men&#8217;s Wedding Band</h1>
+<p>When it comes to jewelry, men don&#8217;t have access to all of the choices that women do. That said, there are some very great options when it comes to wedding bands. If you&#8217;re trying to decide what to pick up next, you should take a closer look at <a href="https://www.americantungsten.com/color-ring.html">blue tungsten carbide wedding bands for men</a>.</p>
+<h2>1. Blue Rings They Stand Out</h2>
+<p>There aren&#8217;t any other wedding bands that look like this! These bands make a big impression. If someone sees one of these bands on your finger, they&#8217;re going to be very impressed.</p>
+<p>A lot of men don&#8217;t want an ordinary wedding band that no one will notice. They want something that will command attention. If you want something that will get a lot of compliments, you should definitely consider buying a band made from blue tungsten.</p>
+<h2>2. They&#8217;re Designed To Last</h2>
+<p><a href="http://www.etf.com/sections/features-and-news/4264-tungsten-one-of-the-heaviest-metals-a-a-hard-act-to-follow">Tungsten is one of the best metals</a> for something like a wedding band. While some metals used for jewelry are very soft, like platinum, tungsten is more durable than that. Once you&#8217;ve purchased your band, you&#8217;ll be able to keep wearing it for decades into the future.</p>
+<p>It&#8217;s great to have the kind of wedding band that will really last. You don&#8217;t want to have to replace your wedding band. It should be a piece of jewelry that you can wear and enjoy for the rest of your life.<br />
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.1380851010053!2d-117.7461840844181!3d34.01466632715602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c32d648f93ba2b%3A0xb2f9cce0f93d56cb!2sAmerican+Tungsten!5e0!3m2!1sen!2sus!4v1490706808014" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<h2>3. Blue Is A Fantastic Color</h2>
+<p>A lot of jewelry is silver or gold in color. These colors aren&#8217;t appealing to everyone. If you want your wedding band to have a more attractive color, buying a blue tungsten band is a wonderful option.</p>
+<p>The shade of blue used on these rings is absolutely stunning. It&#8217;s one of the most beautiful blues that you&#8217;ve ever seen.</p>
+<p>If you&#8217;re a fan of the color blue, you owe it to yourself to check out these rings. Once you see how great they look, you&#8217;ll want to try one on so that you can see how it looks on your finger.</p>
+<h2>4. Blue Tungsten are Durable and Offer A Lot Of Value</h2>
+<p>Are you trying to stay within a budget? If you want to avoid spending too much on your wedding band, you should make a point of looking at tungsten rings. These bands aren&#8217;t the cheapest option on the market, but their pricing is fairly reasonable.</p>
+<p>It&#8217;s clear that bands like this offer plenty of value to consumers. If you want a premium ring, but you don&#8217;t want to go outside of your budget, a men&#8217;s tungsten ring may be worth considering. A lot of people are pleasantly surprised when they see how these rings are priced.</p>
+<p>Update: check out our new article about<a href="http://theginblog.com/the-best-wedding-planners-in-croatia/"> wedding planners</a> in Croatia</p>
+<p>There are more than four reasons to buy a blue <a href="http://www.wampit.com/American-Tungsten-6464869.html">tungsten wedding rings for him</a>. That said, all of the reasons that are listed above are fairly compelling. Take a closer look at these rings and what they offer. See if there is anything impressive about them. If you look at them, you&#8217;ll probably like what you see.</p>
+					        </div>
+					        					    					</article>
+
+				
+					<article class="pexcerpt2 post excerpt ">
+												<header>						
+							<h2 class="title">
+								<a href="http://theginblog.com/2016/12/07/tips-for-finding-a-personal-injury-attorney/" title="Tips For Finding A Personal Injury Attorney" rel="bookmark">Tips For Finding A Personal Injury Attorney</a>
+							</h2>
+							<div class="post-info"><span class="theauthor"><a href="http://theginblog.com/author/fkisojncuso/" title="Posts by Russel M. Diaz" rel="author">Russel M. Diaz</a></span> | <span class="thetime">December 7, 2016</span></div>
+						</header><!--.header-->
+											        <div class="post-content image-caption-format-1 full-post">
+					            <blockquote class="imgur-embed-pub" lang="en" data-id="9Elkh2p"><p><a href="//imgur.com/9Elkh2p">This toddler loves the ads for a local personal injury lawyer so much, his mom made it his birthday party theme.</a></p></blockquote>
+<p><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<p>Being injured is always a problem, but when it is not your fault, it becomes even more of a problem because you will want to have some <a href="https://topclassactions.com/lawsuit-settlements/open-lawsuit-settlements/">settlement</a> to help you get better and provide you with money from the injury. This is when you may think about suing the individual or company that caused your injury. This could be a mistake, though, and often if you are not properly represented end up with you losing your case. To avoid this, you should use some tips to help you in finding the <a href="https://www.youtube.com/watch?v=KKAn_FQFl1g">best personal injury attorney</a> to represent you in your case. <strong>Look For A Lawyer For Your Specific Claim</strong> Yes, there are lawyers out there who have a specialty in almost every type of case imaginable. Since this is the case, people need to make sure they are looking for a lawyer who is specific to their claim. For example, if the claim is involving <a href="http://www.wcb.ny.gov/">Workers Compensation</a>, then people will want to make sure they look for a lawyer who can properly represent them in this case. This way they can get the proper help for the case because the lawyer is familiar with the type of laws that can apply to the case they have.</p>
+<p>&nbsp;</p>
+<p><script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/815_RC05/embed_loader.js"></script><br />
+<script type="text/javascript">
+    trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"personal injury lawyer","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"q=personal%20injury%20lawyer"});
+  </script></p>
+<p>&nbsp;</p>
+<p><strong>Ask To See Past Winnings</strong> While the client&#8217;s names cannot be provided because of legal and confidentiality reasons, people will want to know if the lawyer has won major cases in the past or not. The lawyers if they have won some bigger cases are more likely to provide the information that you requested compared to a lawyer who has not won any of the major cases in the past. When looking at these case winnings if possible find out what kind of injuries the case was stemming from and this can allow you to get a good idea on if the lawyer would be able to handle your court case properly or not.</p>
+<p><strong>Research The Internet</strong> Just like when you go out to buy a new car, you should do some <a href="http://research.lawyers.com/how-to-hire-the-right-lawyer.html">research on the lawyer you are hiring</a>. The Internet is very unforgiving when it comes to criticism, and this can be a major problem for a lot of people. So you need to make sure you are looking at the Internet to make sure you know about the lawyer and see what they have done in the past. This can be the good and the bad as some people will have great experiences with the lawyer&#8217;s offices, but other people will have some problems with the lawyer. By reading all the reviews and doing the proper research, it will make it easier for you to know if the lawyer will be able to handle your case or not.</p>
+<p><strong>Meet With The Lawyer Face To Face</strong> Some of the lawyers will just skim the <a href="http://www.crashdocs.org/nj-cranford">accident reports</a> and send out representation questions for people to answer. This can be a major issue for a lot of people because they never actually meet with the lawyer face to face. By getting the chance to meet with the lawyer face to face, though, it will make it easier for people to know more about the lawyer and see his face. This way people can start to form their personal judgment about the lawyer and if they are going to be a good fit for the job or if they want to have a different lawyer representing them in the case they are getting ready to have issued.</p>
+<p>When people are hurt on the job, at someone&#8217;s house, or even in an auto accident, it is often considered a personal injury or <a href="http://lwd.dol.state.nj.us/labor/wc/workers/workers_index.html">workers compensation claim</a>. Either way, people need to realize they are going to need to have some help in getting their case before a judge to help them get any settlement. To avoid these problems, you should know some tips to help you in finding a personal injury attorney. By using these tips, it will be easy for you to find a lawyer to represent you in your case and know that you will have a chance of getting a settlement from the court case, instead of losing the case. Visit us for the best <a href="http://lordandkobrin.com">Personal Injury Attorney New Jersey &#8211; Lord, Kobrin, Alvarez, and Fattell, LLC</a><a href="http://lordandkobrin.com/elizabeth-nj">Elizabeth NJ &#8211; Personal Injury Attorney</a></p>
+<p>&nbsp;</p>
+<p><iframe src="https://www.youtube.com/embed/KKAn_FQFl1g" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+					        </div>
+					        					    					</article>
+
+				
+					<article class="pexcerpt3 post excerpt last">
+												<header>						
+							<h2 class="title">
+								<a href="http://theginblog.com/2016/11/24/affordable-real-estate-for-sale-in-valletta/" title="Affordable Real Estate For Sale In Valletta" rel="bookmark">Affordable Real Estate For Sale In Valletta</a>
+							</h2>
+							<div class="post-info"><span class="theauthor"><a href="http://theginblog.com/author/fkisojncuso/" title="Posts by Russel M. Diaz" rel="author">Russel M. Diaz</a></span> | <span class="thetime">November 24, 2016</span></div>
+						</header><!--.header-->
+											        <div class="post-content image-caption-format-1 full-post">
+					            <p><strong>How To Find Affordable Property In Valletta Malta</strong></p>
+<p>If you are looking to purchase <a href="http://www.maltasothebysrealty.com/eng/sales/valletta-ma-mlt">property in Valletta</a> Malta, you will want to make sure you know about all your options and get the best deal possible. Here you will learn where to look and who to ask in order to get a great deal and learn about the properties for sale in this area.</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p dir="ltr" lang="en">Marsamxett Harbour and Valletta&#8217;s skyline from a different angle. Hands up those who can&#8217;t get enough of this view! <a href="https://t.co/ZnwfastoMB">pic.twitter.com/ZnwfastoMB</a></p>
+<p>— VisitMalta (@VisitMalta) <a href="https://twitter.com/VisitMalta/status/800639911615266817">November 21, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Ask local people that live there. Sometimes they are in the know and will know about a property that is going to be for sale before it even hits the market. This is a great way to learn about what is going to be for sale and what the asking price will be. You will be able to make arrangements to be the first one to view the property this way too.</p>
+<p>Ask on social media. This is a great way to learn about all the properties for sale in the area. You may see more properties that are for sale by the owner and you may be able to get the best price when you buy a home this way. Ask around and be sure you have all the information you need before you purchase a home this way.</p>
+<p>Look for properties for sale in Valletta Malta on real estate websites. These websites will have lots of listings that are with realtors currently. You can view the pictures of the homes, find out where they are exactly and contact a real estate agent so you can set up an appointment to look at them. This is one of the first places that people look when they are searching for properties for sale and it&#8217;s a great place to start.</p>
+<p>Once you find real estate for sale and you want to purchase it, find out the terms of the loan and the sale. Make sure it is reasonable to you and make an offer on the selling price of the home if you think you can get it cheaper. This is important in making sure you get the best price on the property you want to purchase. And Malta has now become one of the best countries in the <a href="http://www.lawyerdirectory.legal/articles/20-The-Preliminary-Ruling-on-Issues-Relating-to-International-Taxation--EU-Law.html">EU.</a></p>
+<p>There are many places you can find property in Valletta Malta for sale. Look around and see what you can find. If you find something that you like, call and make an appointment to look at it. You will be able to find the property you want in no time at all. Malta is now the mecca of investors due to the growth in recent years, so buying <a href="http://www.maltatoday.com.mt/business/business_news/31085/malta-sotheby-s-international-realty-launches-luxury-outlet-office-in-sliema-20131030#.WDc0KtUrKUk">real estate in Malta</a> is a safe investment for sure</p>
+					        </div>
+					        					    					</article>
+
+				
+					<article class="pexcerpt4 post excerpt ">
+												<header>						
+							<h2 class="title">
+								<a href="http://theginblog.com/2016/11/17/the-incredible-solar-impulse-2/" title="The Incredible Solar Impulse 2" rel="bookmark">The Incredible Solar Impulse 2</a>
+							</h2>
+							<div class="post-info"><span class="theauthor"><a href="http://theginblog.com/author/fkisojncuso/" title="Posts by Russel M. Diaz" rel="author">Russel M. Diaz</a></span> | <span class="thetime">November 17, 2016</span></div>
+						</header><!--.header-->
+											        <div class="post-content image-caption-format-1 full-post">
+					            <p>If you&#8217;re at all interested in experimental aircraft, you&#8217;ll want to take a closer look at the Solar Impulse 2. This amazing ship has managed to fly across the ocean, and it was able to do so because of <a href="http://www.solarimpulse.com/adventure">Solar Impulse 2</a>.</p>
+<p>Here are the answers to some of the questions that people have about the Solar Impulse 2.</p>
+<p>Where Did It Come From?</p>
+<p>This incredible plane was created as an experiment by people in Sweden. It was manufactured by a company called École Polytechnique.</p>
+<p>How Does It Work?<br />
+<img class="alignnone wp-image-50" src="http://theginblog.com/wp-content/uploads/2016/11/3004b1be692f92927f5cfadbfc69e9ec-300x169.jpg" alt="3004b1be692f92927f5cfadbfc69e9ec" width="521" height="293" srcset="http://theginblog.com/wp-content/uploads/2016/11/3004b1be692f92927f5cfadbfc69e9ec-300x169.jpg 300w, http://theginblog.com/wp-content/uploads/2016/11/3004b1be692f92927f5cfadbfc69e9ec.jpg 600w" sizes="(max-width: 521px) 100vw, 521px" /><br />
+The plane has an electric motor. It receives power from solar panels, which are powered by the sun.</p>
+<p>How Far Has It Managed To Fly?</p>
+<p>This amazing aircraft has made it all around the world. While it took a great deal of time and a lot of stops, the Solar Impulse 2 was able to complete the first circumnavigation of the <a href="https://www.theguardian.com/environment/2016/jul/26/solar-impulse-plane-makes-history-completing-round-the-world-trip">Earth with a solar powered plane</a>.</p>
+<p>How Big Is It?</p>
+<p>The Solar Impulse 2 has a massive wingspan. However, the plane itself isn&#8217;t that large or heavy, especially when it is compared to other commercial planes. The plane&#8217;s large wings are so large because they need to accommodate solar panels. This isn&#8217;t a passenger plane; it was flown by own pilot alone.</p>
+<p><iframe src="https://www.youtube.com/embed/dRqSkR4ENAg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>How Fast Can It Go?</p>
+<p>The maximum speed that the plane can reach is 87 mph. However, its normal speed is a bit slower than that. When it is cruising, it travels at speeds of about 56 mph.</p>
+<p>How Long Did The Trip Around The World Take?</p>
+<p>As you can imagine, it took a long time for a plane like this to make it across the world. The total trip took about 16 months. It is possible that a future model of this plane would be able to complete a trip like that in a much shorter period of time.</p>
+<p>What&#8217;s Next?</p>
+<p>Now that the plane powered by sun power panels from <a href="http://renergy.com.mt/sunpower/">http://renergy.com.mt/sunpower/ </a>has completed its journey, engineers are hard at work on new solar powered projects. People want to test the limits and see what solar power is really able to do. In the future, we might come to rely on the power of the sun.</p>
+<p>As you can see, the Solar Impulse 2 is fairly incredible. If you have ever doubted what solar power is capable of, then you should take a closer look at this plan. You&#8217;ll be stunned when you see it in action.</p>
+<p>Sunpower is a truly remarkable solar company, one of the top pv panels company in the world. Their cutting edge technology and the non stop effort to become world leaders is the envy of other cheaper products especially from China, where quantity over quality wins. It should be the other way round really!</p>
+					        </div>
+					        					    					</article>
+
+				
+					<article class="pexcerpt5 post excerpt last">
+												<header>						
+							<h2 class="title">
+								<a href="http://theginblog.com/2016/11/16/choose-the-right-massage-for-you-in-malta/" title="Choose the Right Massage For You in Malta" rel="bookmark">Choose the Right Massage For You in Malta</a>
+							</h2>
+							<div class="post-info"><span class="theauthor"><a href="http://theginblog.com/author/fkisojncuso/" title="Posts by Russel M. Diaz" rel="author">Russel M. Diaz</a></span> | <span class="thetime">November 16, 2016</span></div>
+						</header><!--.header-->
+											        <div class="post-content image-caption-format-1 full-post">
+					            <p>A massage will make you feel good and rejuvenated.  Regular massages help with stress levels, calm your mind, improve sleep, and increase your energy levels.  They generally take 60-90 minutes, so allow yourself plenty of time for whatever style you choose.  You don’t have to stick with one type.  As your body needs change, you can choose the massage method that works <a href="http://www.health.com/health/gallery/0,,20307001,00.html">best for you</a>.</p>
+<p><strong>Full Body Massage</strong></p>
+<p>This method is what we typically think of when it comes to massage. Professional therapeutic massage practice for sports injuries.  The long, smooth strokes by the therapist help relieve tension by massaging your entire body.  Deep pressure loosens up the tenseness you’ve been carrying around with you and lets your body breath. The therapist applies medium to deep pressure to break up those ‘knots’ and increase circulation. This will help soothe and relax sore or stiff muscles. They can even help lower your blood pressure and improve your posture.  The deep stimulation of the muscle helps put it back in its normal state, making you, and your <a href="https://elementsmassage.com/north-seattle/blog/what-are-the-benefits-of-getting-a-full-body-massage-">body feel better</a>.</p>
+<p><strong>Back, Neck and Shoulder Massage</strong></p>
+<p>Does your job keep you sitting most of the time?  If so, this type of massage could be just the thing you need to bring your body back to life.  By focusing solely on the torso of the body, a back, neck and shoulder massage eases those tight areas that come from a sedentary job or lifestyle. This type of massage requires less time than a full body massage so it can be easily fit into a lunch hour during work or for anyone’s busy life.</p>
+<p><strong>Relaxation Massage</strong></p>
+<p><img class="alignnone wp-image-42" src="http://theginblog.com/wp-content/uploads/2016/11/Relaxation-Massage-300x200.jpg" alt="relaxation-massage" width="463" height="308" srcset="http://theginblog.com/wp-content/uploads/2016/11/Relaxation-Massage-300x200.jpg 300w, http://theginblog.com/wp-content/uploads/2016/11/Relaxation-Massage.jpg 620w" sizes="(max-width: 463px) 100vw, 463px" /></p>
+<p>If you’re new to massage or just want to unwind, this is the massage for you.  Relaxation massage is performed with soft pressure to help relax on a gentler level. The therapist gently glides their hands over your body, softly soothing you. No deep tissue pressure here.  These types of massage are strictly for helping you unwind and forget the day’s worries. This great introduction to massage will leave you feeling relaxed and pampered.</p>
+<p><strong>Thai Massage</strong><br />
+<iframe src="https://www.youtube.com/embed/cz3NNVSuzu0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>For a break from the traditional massage and to get some deep muscle stimulation, a Thai massage from <a href="http://hubmalta.com/massage-malta/">hub Malta massage therapists</a> may be what you’re looking for.  This ancient form of massage is done fully clothed and is usually performed on a mat or a futon.  The therapist will use their hands, knees, legs, and feet to apply muscle compression while moving you through a series of yoga-like stretches.  Joint mobilization and acupressure can also be used. This invigorating massage can be painful but can leave you feeling more flexible with increased mobility.  A Thai massage is great for tension headaches, muscle spasms, and chronic nonspecific back pain.</p>
+<p><strong>Foot Massage</strong></p>
+<p><img class="alignnone wp-image-46" src="http://theginblog.com/wp-content/uploads/2016/11/Foot-Massage-Chart-300x198.jpg" alt="foot-massage-chart" width="456" height="301" srcset="http://theginblog.com/wp-content/uploads/2016/11/Foot-Massage-Chart-300x198.jpg 300w, http://theginblog.com/wp-content/uploads/2016/11/Foot-Massage-Chart-768x508.jpg 768w, http://theginblog.com/wp-content/uploads/2016/11/Foot-Massage-Chart.jpg 800w" sizes="(max-width: 456px) 100vw, 456px" /></p>
+<p>Are you on your feet most of the day?  Then pampering yourself with a foot massage is just the thing for you.  Therapists gently knead and rub your feet bringing stimulation of blood vessels and relaxation of tired muscles.  A foot massage will help relieve the daily aches and soreness from prolonged standing and help increase circulation.  A great way to give your tootsies some tender attention they so deserve.</p>
+<p><strong>Sports Massage for Stiff Muscles</strong></p>
+<p>Do you do a lot of running or play a vigorous sport like tennis?  What about golf?  These activities can leave you with sore or stiff muscles.  A Sports Massage is just the thing to help alleviate those aches of over doing it.  <a href="http://www.sportsinjuryclinic.net/sport-injuries/ankle-achilles-shin-pain/tight-calf-muscles/sports-massage-tight-calves">Sports Massages</a> target specific areas with deep tissue pressure to help you get back in the game faster and feeling better.  The deep pressure loosens up those tight muscles and allows them to fall back into their original spots.  So, go out and enjoy yourself.  Then treat yourself to this targeted massage and feel like a kid again.</p>
+<p><strong>Hot Stone Massage</strong></p>
+<p>Relax in this warm massage as therapist release your muscle tension with hot stones.  These smooth stones are heated with hot water then placed on various parts of your body to help increase circulation to those areas. Deep muscle relief is achieved quicker because the stones carry heat to the deep tissue. The therapist will use the stones to help knead the muscles.   These types of massages are great for relieving overall tenseness and muscle aches.</p>
+<p>Once you’ve chosen the massage that fits your needs, contact us in our professional offices in Malta, relax and revitalize your body and your mind.</p>
+<p>Click here for a great <a href="http://theginblog.com/wedding-planner-fairytale/">wedding planning tips </a></p>
+					        </div>
+					        					    					</article>
+
+				
+					<article class="pexcerpt6 post excerpt ">
+												<header>						
+							<h2 class="title">
+								<a href="http://theginblog.com/2016/11/02/the-gin-blog-is-reborn/" title="The Gin Blog Is Reborn" rel="bookmark">The Gin Blog Is Reborn</a>
+							</h2>
+							<div class="post-info"><span class="theauthor"><a href="http://theginblog.com/author/fkisojncuso/" title="Posts by Russel M. Diaz" rel="author">Russel M. Diaz</a></span> | <span class="thetime">November 2, 2016</span></div>
+						</header><!--.header-->
+											        <div class="post-content image-caption-format-1 full-post">
+					            <p>Are you looking for the latest, craziest news from the world right now!</p>
+<p>If your answer is yes, then subscribe to this blog and follow us every day as we bring you the latest crazy news from around the globe. All in one place</p>
+<p>You can also leave a comment and what not. The great thing about this new born site is that unlike bring news like <a href="http://edition.cnn.com/">CNN</a> and <a href="http://www.bloomberg.com/">Bloomberg  </a>our news is ever green and you can watch it over and over again without getting bored.</p>
+<p>Join us into the journey of fun, love and light. Happy reading to you all.</p>
+<p>Here are some crazy clips that we found today. We hope you are having a blast wherever you are right now in the world. Take care guys and dolls xxx.</p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/AWTEZ92Wi2Q?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/2MM0fWZHaXI?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/2vVOv0Oy-K8?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/R8E3AZZpcGs?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>Funny right??</p>
+					        </div>
+					        					    					</article>
+
+					<nav class="navigation posts-navigation" role="navigation">
+		<!--Start Pagination-->
+        			<h2 class="screen-reader-text">Posts navigation</h2>
+			<div class="pagination nav-links">
+				
+							</div>
+			</nav><!--End Pagination-->
+	
+			
+		</div><!-- .article -->
+		
+<aside class="sidebar c-4-12">
+	<div id="sidebars" class="sidebar">
+		<div class="sidebar_list">
+			<aside id="mts_ad_300_widget-3" class="widget mts_ad_300_widget"><div class="ad-300"><img src="http://theginblog.com/wp-content/uploads/2016/11/hot-news.jpg" width="300" height="250" alt="" /></div></aside><aside id="social-profile-icons-3" class="widget social-profile-icons"><h3 class="widget-title">Social Media update</h3><div class="social-profile-icons"><ul class=""><li class="social-facebook"><a title="Facebook" href="#" ><i class="point-icon icon-facebook"></i></a></li><li class="social-behance"><a title="Behance" href="#" ><i class="point-icon icon-behance"></i></a></li><li class="social-flickr"><a title="Flickr" href="#" ><i class="point-icon icon-flickr"></i></a></li><li class="social-gplus"><a title="Google+" href="#" ><i class="point-icon icon-gplus"></i></a></li><li class="social-pinterest"><a title="Pinterest" href="#" ><i class="point-icon icon-pinterest-circled"></i></a></li><li class="social-instagram"><a title="Instagram" href="#" ><i class="point-icon icon-instagram"></i></a></li><li class="social-dribbble"><a title="Dribbble" href="#" ><i class="point-icon icon-dribbble"></i></a></li><li class="social-linkedin"><a title="LinkedIn" href="#" ><i class="point-icon icon-linkedin"></i></a></li><li class="social-soundcloud"><a title="LinkedIn" href="#" ><i class="point-icon icon-soundcloud"></i></a></li><li class="social-twitter"><a title="Twitter" href="#" ><i class="point-icon icon-twitter"></i></a></li><li class="social-vimeo"><a title="Vimeo" href="#" ><i class="point-icon icon-vimeo-squared"></i></a></li><li class="social-stumbleupon"><a title="StumbleUpon" href="#" ><i class="point-icon icon-stumbleupon"></i></a></li><li class="social-tumblr"><a title="Tumblr" href="#" ><i class="point-icon icon-tumblr"></i></a></li><li class="social-github"><a title="GitHub" href="#" ><i class="point-icon icon-github"></i></a></li><li class="social-youtube"><a title="YouTube" href="#" ><i class="point-icon icon-youtube"></i></a></li><li class="social-foursquare"><a title="FourSquare" href="#" ><i class="point-icon icon-foursquare"></i></a></li><li class="social-reddit"><a title="Reddit" href="#" ><i class="point-icon icon-reddit"></i></a></li><li class="social-dropbox"><a title="GitHub" href="#" ><i class="point-icon icon-dropbox"></i></a></li><li class="social-skype"><a title="LinkedIn" href="#" ><i class="point-icon icon-skype"></i></a></li><li class="social-email"><a title="Email" href="#" ><i class="point-icon icon-mail"></i></a></li><li class="social-rss"><a title="RSS" href="#" ><i class="point-icon icon-rss"></i></a></li></ul></div></aside><aside id="search-6" class="widget widget_search"><form method="get" id="searchform" class="search-form" action="http://theginblog.com" _lpchecked="1">
+	<fieldset>
+		<input type="text" name="s" id="s" value="Search the site" onblur="if (this.value == '') {this.value = 'Search the site';}" onfocus="if (this.value == 'Search the site') {this.value = '';}" >
+		<button id="search-image" class="sbutton" type="submit" value="">
+    		<i class="point-icon icon-search"></i>
+    	</button>
+		<!-- <input id="search-image" class="sbutton" type="submit" style="border:0; vertical-align: top;" value=""> -->
+	</fieldset>
+</form></aside>	
+			<aside id="wpt_widget-3" class="widget widget_wpt">	
+			<div class="wpt_widget_content" id="wpt_widget-3_content" data-widget-number="3">	
+				<ul class="wpt-tabs has-2-tabs">
+	                	                    	                        <li class="tab_title"><a href="#" id="popular-tab">Popular</a></li>	
+	                    	                	                    	                        <li class="tab_title"><a href="#" id="recent-tab">Recent</a></li>	
+	                    	                	                    	                	                    	                 
+				</ul> <!--end .tabs-->	
+				<div class="clear"></div>  
+				<div class="inside">        
+						
+						<div id="popular-tab-content" class="tab-content">				
+						</div> <!--end #popular-tab-content-->       
+					       
+						
+						<div id="recent-tab-content" class="tab-content"> 		 
+						</div> <!--end #recent-tab-content-->		
+					                     
+					            
+										<div class="clear"></div>
+				</div> <!--end .inside -->
+								<div class="clear"></div>
+			</div><!--end #tabber -->
+			  
+			<script type="text/javascript">  
+				jQuery(function($) {    
+					$('#wpt_widget-3_content').data('args', {"allow_pagination":"1","post_num":"5","title_length":"15","comment_num":"5","show_thumb":"1","thumb_size":"large","show_date":"1","show_excerpt":"1","excerpt_length":"30","show_comment_num":null,"show_avatar":"1","show_love":null});  
+				});  
+			</script>  
+			</aside>			<aside id="pages-2" class="widget widget_pages"><h3 class="widget-title">New Pages</h3>		<ul>
+			<li class="page_item page-item-33"><a href="http://theginblog.com/about-us/">About Us</a></li>
+<li class="page_item page-item-35"><a href="http://theginblog.com/contact-us/">Contact Us</a></li>
+<li class="page_item page-item-56"><a href="http://theginblog.com/dog-animal-abuse/">Dog Animal Abuse</a></li>
+<li class="page_item page-item-126"><a href="http://theginblog.com/how-an-seo-expert-can-help-your-business/">How an SEO Expert Can Help Your Business</a></li>
+<li class="page_item page-item-123"><a href="http://theginblog.com/important-things-to-look-for-in-a-wedding-planner/">Important Things To Look For In A Wedding Planner</a></li>
+<li class="page_item page-item-82"><a href="http://theginblog.com/wedding-planner-fairytale/">Letters To Juliet &#8211;  a Wedding Organizer Fairytale</a></li>
+<li class="page_item page-item-62"><a href="http://theginblog.com/loyalty-in-the-streets-standing-by-your-best-friend-through-life-and-death/">loyalty in the streets standing by your best friend through life and death</a></li>
+<li class="page_item page-item-64"><a href="http://theginblog.com/the-worst-roommate/">The worst roommate</a></li>
+<li class="page_item page-item-58"><a href="http://theginblog.com/wallmart-wedding-custom-cakes/">wallmart wedding custom cakes</a></li>
+<li class="page_item page-item-120"><a href="http://theginblog.com/wedding-rings/">Wedding Rings</a></li>
+<li class="page_item page-item-60"><a href="http://theginblog.com/worst-tattoos/">Worst Tattoos</a></li>
+		</ul>
+		</aside><aside id="calendar-3" class="widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>May 2019</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://theginblog.com/2018/04/">&laquo; Apr</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="2" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+	</tr>
+	<tr>
+		<td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+	</tr>
+	<tr>
+		<td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td id="today">19</td>
+	</tr>
+	<tr>
+		<td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td>
+	</tr>
+	<tr>
+		<td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="2">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></aside>		</div>
+	</div><!--sidebars-->
+</aside>
+			</div><!-- .content -->
+</div><!-- #page -->
+<footer>
+			<div class="carousel">
+			<h3 class="frontTitle"><div class="latest">environment</div></h3>
+								<div class="excerpt">
+						<a href="http://theginblog.com/2016/11/17/the-incredible-solar-impulse-2/" title="The Incredible Solar Impulse 2" rel="nofollow" id="footer-thumbnail">
+							<div>
+								<div class="hover"><i class="point-icon icon-zoom-in"></i></div>
+								 
+									<img width="140" height="130" src="http://theginblog.com/wp-content/uploads/2016/11/1309075_630x354-140x130.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" srcset="http://theginblog.com/wp-content/uploads/2016/11/1309075_630x354-140x130.jpg 140w, http://theginblog.com/wp-content/uploads/2016/11/1309075_630x354-60x57.jpg 60w" sizes="(max-width: 140px) 100vw, 140px" />															</div>
+							<p class="footer-title">
+								<span class="featured-title">The Incredible Solar Impulse 2</span>
+							</p>
+						</a>
+					</div><!--.post excerpt-->                
+								<div class="excerpt">
+						<a href="http://theginblog.com/2016/11/16/choose-the-right-massage-for-you-in-malta/" title="Choose the Right Massage For You in Malta" rel="nofollow" id="footer-thumbnail">
+							<div>
+								<div class="hover"><i class="point-icon icon-zoom-in"></i></div>
+								 
+									<img width="140" height="130" src="http://theginblog.com/wp-content/uploads/2016/11/Choose-the-Right-Massage-For-You-in-Malta2-140x130.jpg" class="attachment-carousel size-carousel wp-post-image" alt="" title="" srcset="http://theginblog.com/wp-content/uploads/2016/11/Choose-the-Right-Massage-For-You-in-Malta2-140x130.jpg 140w, http://theginblog.com/wp-content/uploads/2016/11/Choose-the-Right-Massage-For-You-in-Malta2-60x57.jpg 60w" sizes="(max-width: 140px) 100vw, 140px" />															</div>
+							<p class="footer-title">
+								<span class="featured-title">Choose the Right Massage For You in Malta</span>
+							</p>
+						</a>
+					</div><!--.post excerpt-->                
+								<div class="excerpt">
+						<a href="http://theginblog.com/2016/11/02/the-gin-blog-is-reborn/" title="The Gin Blog Is Reborn" rel="nofollow" id="footer-thumbnail">
+							<div>
+								<div class="hover"><i class="point-icon icon-zoom-in"></i></div>
+								 
+									<img width="140" height="76" src="http://theginblog.com/wp-content/uploads/2016/11/theginblog.png" class="attachment-carousel size-carousel wp-post-image" alt="" title="" srcset="http://theginblog.com/wp-content/uploads/2016/11/theginblog.png 1095w, http://theginblog.com/wp-content/uploads/2016/11/theginblog-300x164.png 300w, http://theginblog.com/wp-content/uploads/2016/11/theginblog-768x419.png 768w, http://theginblog.com/wp-content/uploads/2016/11/theginblog-1024x558.png 1024w" sizes="(max-width: 140px) 100vw, 140px" />															</div>
+							<p class="footer-title">
+								<span class="featured-title">The Gin Blog Is Reborn</span>
+							</p>
+						</a>
+					</div><!--.post excerpt-->                
+			 
+		</div>
+	</footer><!--footer-->
+<!--start copyrights-->
+<div class="copyrights">
+	<div class="row" id="copyright-note">
+					<div class="foot-logo">
+				<a href="http://theginblog.com" rel="nofollow"><img src="http://theginblog.com/wp-content/uploads/2016/11/new-logo1.png" alt="The Gin Malta Hygiene Business Blog" ></a>
+			</div>
+				<div class="copyright-left-text">Copyright &copy; 2019 <a href="http://theginblog.com" title="How about cleaning the Web from all this non relevant financial information." rel="nofollow">The Gin Malta Hygiene Business Blog</a>.</div>
+		<div class="copyright-text">
+					</div>
+		<div class="footer-navigation">
+							<ul id="menu-footer" class="menu"><li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="http://theginblog.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://theginblog.com/about-us/">About Us</a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-39"><a href="http://theginblog.com">Home</a></li>
+</ul>					</div>
+		<div class="top"><a href="#top" class="toplink"><i class="point-icon icon-up-dir"></i></a></div>
+	</div>
+</div>
+<!--end copyrights-->
+<link rel='stylesheet' id='wpt_widget-css'  href='http://theginblog.com/wp-content/plugins/wp-tab-widget/css/wp-tab-widget.css?ver=4.8.9' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/theginblog.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theginblog.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.1'></script>
+<script type='text/javascript' src='http://theginblog.com/wp-content/themes/point/js/customscripts.js?ver=20120212'></script>
+<script type='text/javascript' src='http://theginblog.com/wp-includes/js/wp-embed.min.js?ver=4.8.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpt = {"ajax_url":"http:\/\/theginblog.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://theginblog.com/wp-content/plugins/wp-tab-widget/js/wp-tab-widget.js?ver=4.8.9'></script>
+</div><!-- main-container -->
+
+</body>
+</html>

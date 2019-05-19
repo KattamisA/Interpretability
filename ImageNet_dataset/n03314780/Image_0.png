@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Paraben Free Cosmetics | Coastal Classic Creations</title>
+<meta name="description" content="Join us in a transparent cosmetic experience in well-being where consumers can capture the essence of beauty without toxic ingredients." />
+<meta name="keywords" content="Organic Cosmetics, Natural Makeup" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="icon" href="https://www.coastalclassiccreations.com/media/favicon/default/CCC_Favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="https://www.coastalclassiccreations.com/media/favicon/default/CCC_Favicon.png" type="image/x-icon" />
+<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'https://www.coastalclassiccreations.com/js/blank.html';
+    var BLANK_IMG = 'https://www.coastalclassiccreations.com/js/spacer.gif';
+	var SKIN_URL = 'https://www.coastalclassiccreations.com/skin/frontend/ccc/default/';
+//]]>
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://www.coastalclassiccreations.com/media/css_secure/66a2ac66ea9a613c87a7e6d7fcd88359.css?q=111" />
+<link rel="stylesheet" type="text/css" href="https://www.coastalclassiccreations.com/media/css_secure/358f5a015be06cbc2336fd9bd27ff11f.css?q=111" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.coastalclassiccreations.com/media/css_secure/9b8a64827bb21b32ff338eada12a2ee8.css?q=111" media="print" />
+<script type="text/javascript" src="https://www.coastalclassiccreations.com/media/js/f43f3150c479c4532e09c4a8e7795757.js?q=111"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="https://www.coastalclassiccreations.com/media/css_secure/c589fa64d9f02362b82c30f20bbebf29.css?q=111" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="https://www.coastalclassiccreations.com/media/js/009218f7ceddfeee92ca31f18b00be66.js?q=111"></script>
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/';
+Mage.Cookies.domain   = '.www.coastalclassiccreations.com';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = ["HK","IE","MO","PA"];
+//]]>
+</script>
+<!-- BEGIN GOOGLE ANALYTICS CODEs -->
+<script type="text/javascript">
+//<![CDATA[
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-33084577-1', 'auto');
+    ga('send', 'pageview');
+    ga('require', 'ecommerce');
+//]]>
+</script>
+<!-- END GOOGLE ANALYTICS CODE -->
+<script type="text/javascript">
+    //<!--
+    jQuery(document).ready(function(){
+	    MW.CartAjax.ajaxRequestString = "mw_cartajax_is_ajax";
+	    MW.CartAjax.addToCartUrl = "https://www.coastalclassiccreations.com/checkout/cart/add/";
+	    MW.CartAjax.formKey = "zS4m4DQGWHemqUC2";
+    });
+    //-->
+</script><script type="text/javascript">
+    //<!--
+    MW.CartPopup.ajaxRequestKey = "mw_cartpopup_is_ajax";
+    MW.CartPopup.cartPopupUrl = "https://www.coastalclassiccreations.com/checkout/cart/index/";
+    MW.CartPopup.elePopupWapper = "#cartpopup_wapper";
+    MW.CartPopup.contentContainer = ".content";
+    //Caculator popup position ---------------------------
+    MW.CartPopup.addBeforeShowEvent(function (object) {
+        jQuery(object.elePopupWapper).css("top", jQuery("li .top-link-cart").position().top + 20);
+        jQuery(object.elePopupWapper).css("left", jQuery("li .top-link-cart").position().left);
+    });
+
+    MW.CartPopup.addClosePopupEvent(function (ob) {
+
+    })
+
+    MW.CartAjax.addAfterSentEvent(function (ob) {
+
+        MW.CartPopup.showCartPopup(
+            function () {
+
+            },
+            function () {
+
+            },
+            function () {
+
+                jQuery('#mw_cartpopup_loading').hide();
+
+                if (ob.cart_total_qty > 0) {
+                    jQuery('#cartHeader span').html(ob.cart_total_qty);
+                }
+                Enterprise.TopCart.showCart(5);
+            }
+        );
+
+
+    });
+
+    function closeafter5second() {
+        MW.CartPopup.closePopup(function (ob) {
+
+        });
+    }
+    //-->
+</script><script type="text/javascript">//<![CDATA[
+        var Translator = new Translate([]);
+        //]]></script><script type="text/javascript">	
+	
+	function setGridItemsEqualHeight($)
+	{	
+		var $list = $('.products-grid');
+		var $listItems = $list.find('.item-inner');
+		var gridItemMaxHeight = 0;
+		$listItems.each(function() {
+			
+			$(this).css("height", "auto"); 			
+				
+			gridItemMaxHeight = Math.max(gridItemMaxHeight, $(this).height());
+		});
+
+		//Apply max height
+		$listItems.css("height", gridItemMaxHeight + "px");
+	}
+	
+	jQuery(window).load(function(){
+		
+		setGridItemsEqualHeight(jQuery);
+		
+	}); /* end: jQuery(window).load(){...} */
+
+	var winWidth = jQuery(window).width();
+	var winHeight = jQuery(window).height();
+	var windowResize_t;
+	jQuery(window).resize(function() {
+		var winNewWidth = jQuery(window).width();
+		var winNewHeight = jQuery(window).height();
+		if (winWidth != winNewWidth || winHeight != winNewHeight)
+		{
+			clearTimeout(windowResize_t);
+			windowResize_t = setTimeout(function() {					
+				setGridItemsEqualHeight(jQuery);												
+			}, 100); //TODO: choose default value
+
+		} //end: if
+		//Update window size variables
+		winWidth = winNewWidth;
+		winHeight = winNewHeight;
+	}); //end: on resize
+</script>
+<script type="text/javascript">	
+jQuery(document).ready(function($) {
+    jQuery(function(){
+        var $menu = $("#nav ul.level0");     
+       
+        $menu.menuAim({
+            activate: activateSubmenu,
+            deactivate: deactivateSubmenu,
+            exitMenu: leaveMenu
+        });		
+        
+        function activateSubmenu(row) {
+            var $row = $(row);           
+            var $submenu = $row.find('ul.level1');   
+            if($submenu){
+                // Show the submenu
+                $submenu.css({
+                    display: "block",
+                    top: 0,
+                    left: '100%'
+                });
+            }
+			
+        }
+
+        function deactivateSubmenu(row) {           
+            var $row = $(row);            
+            var $submenu = $row.find('ul.level1');
+            // Hide the submenu and remove the row's highlighted look
+            if($submenu){
+                $submenu.css({ left: '-999em' });
+            } 			
+        }
+
+        function leaveMenu() {            
+            return true;
+        }      
+    });
+	
+	
+	jQuery(function(){
+        var $menu = $("#nav ul.level1");     
+       
+        $menu.menuAim({
+            activate: activateSubmenu,
+            deactivate: deactivateSubmenu,
+            exitMenu: leaveMenu
+        });		
+        
+        function activateSubmenu(row) {
+            var $row = $(row);           
+            var $submenu = $row.find('ul.level2');   
+            if($submenu){
+                // Show the submenu
+                $submenu.css({
+                    display: "block",
+                    top: 0,
+                    left: '100%'
+                });
+            }
+			
+        }
+
+        function deactivateSubmenu(row) {           
+            var $row = $(row);            
+            var $submenu = $row.find('ul.level2');           
+            // Hide the submenu and remove the row's highlighted look
+            if($submenu){
+                $submenu.css({ left: '-999em' });
+            } 			
+        }
+
+        function leaveMenu() {            
+            return true;
+        }      
+    });
+	
+});
+</script></head>
+<body class=" cms-index-index cms-home">
+<div class="wrapper container">
+        <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
+                    You must have JavaScript enabled in your browser to utilize the functionality of this website.                </p>
+            </div>
+        </div>
+    </noscript>
+    <div class="page">
+        <div class="header-notification-bar">Free USPS Domestic Shipping on Orders $150 or more!</div><div class="header-container">
+<div class="header">
+<div class="branding">
+            <h1 class="logo"><strong>CoastalClassicCreations</strong><a
+                href="https://www.coastalclassiccreations.com/" title="CoastalClassicCreations"
+                class="logo"><img class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/logo.jpg"
+                                  alt="CoastalClassicCreations"/></a></h1>
+        <div class="giftcard-mb">
+		<button onclick="setLocation('https://www.coastalclassiccreations.com/gift-card.html/')" type="button" class="form-button button"><span>E-Gift Card</span></button>
+				<span class="free-shipping-message"><span style="font-family: helvetica; margin-right: 30px; color: #ff0000;">Click <a href="https://www.coastalclassiccreations.com/ingredients/">Here</a> to view our Expanded Ingredients Page!</span></span>
+			</div>
+    </div>
+<div class="quick-access">
+    <ul class="skip-links">
+        <li><a class="skip-search" href="#header-search">Skip to search</a></li>
+        <li><a class="skip-account" href="#header-account">Skip to account links</a></li>
+        <!--li><a class="skip-cart" href="#header-cart">Skip to cart links</a></li-->
+    </ul>
+    <div id="header-search" class="skip-content"><form id="search_mini_form" action="https://www.coastalclassiccreations.com/catalogsearch/result/" method="get">
+<div class="form-search">
+    <label for="search">Search site:</label><input id="search" type="text" name="q" value="" class="input-text" maxlength="50"/>&nbsp;<button type="submit" title="Go" class="button"><span><span>Go</span></span></button><a href="https://www.coastalclassiccreations.com/catalogsearch/advanced/">Advanced Search</a>
+    <div id="search_autocomplete" class="search-autocomplete"></div>
+    <script type="text/javascript">
+    //<![CDATA[
+        var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Enter search keyword');
+        searchForm.initAutocomplete('https://www.coastalclassiccreations.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+    //]]>
+    </script>
+</div>
+</form>
+</div>
+    <div id="header-cart" class="">
+<div class="top-cart">
+        <div class="block-title no-items">
+        <strong id="cartHeader"><span>0</span></strong>
+    </div>
+    <div id="topCartContent" class="block-content" style="display:none">
+        <div class="inner-wrapper">                            <p class="block-subtitle">
+                <span onclick="Enterprise.TopCart.hideCart()" class="close-btn">Close</span>
+                Recently added item(s)            </p>
+            <p class="cart-empty">
+                You have no items in your shopping cart.            </p>
+                                    </div>
+    </div>
+<script type="text/javascript">
+    Enterprise.TopCart.initialize('topCartContent');
+    // Below can be used to show minicart after item added
+     //Enterprise.TopCart.showCart(3);
+    var mouseOut = false;
+    jQuery('#header-cart').hover(function() {
+            mouseOut = false;
+        },
+        function () {
+            mouseOut = true;
+
+        });
+    jQuery('#topCartContent').hover(function() {
+            mouseOut = false;
+        },
+        function () {
+            mouseOut = true;
+
+        });
+    jQuery('html').click(function(){
+        if(mouseOut == true){
+            Enterprise.TopCart.hideCart();
+        }
+    });
+
+</script>
+</div>
+</div>
+    <div id="header-account" class="skip-content"><ul class="links">
+                        <li class="first" ><a href="https://www.coastalclassiccreations.com/customer/account/create/" title="Create an Account" >Create an Account</a></li>
+                                <li ><a href="https://www.coastalclassiccreations.com/customer/account/login/referer/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/" title="Login" >Login</a></li>
+                                <li class=" last" ><a href="https://www.coastalclassiccreations.com/contacts/" title="Contact Us" >Contact Us</a></li>
+            </ul>
+</div>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            var container1 = $("#header-account");
+            //var container2 = $("#header-cart");
+            var container3 = $("#header-search");
+            jQuery(".skip-account").click(
+                function (event) {
+                    event.preventDefault();
+                    if (container1.is(":visible")) {
+                        container1.slideUp('fast');
+                    } else {
+                        container1.slideDown('fast');
+                        container3.css("display", "none");
+                    }
+                }
+            );
+            //jQuery(".skip-cart").click(
+             //function (event) {
+             //event.preventDefault();
+             //if (container2.is(":visible")) {
+             //container2.slideUp('fast');
+
+             //} else {
+             //container2.slideDown('fast');
+             //container1.css("display", "none");
+             //container3.css("display", "none");
+             //}
+             //}
+             //);
+            jQuery(".skip-search").click(
+                function (event) {
+                    event.preventDefault();
+                    if (container3.is(":visible")) {
+                        container3.slideUp('fast');
+                    } else {
+                        container3.slideDown('fast');
+                        container1.css("display", "none");
+                    }
+                }
+            );
+        });
+    </script>
+</div>
+<div class="giftcard-pc">
+		<span class="free-shipping-message"><span style="font-family: helvetica; margin-right: 30px; color: #ff0000;">Click <a href="https://www.coastalclassiccreations.com/ingredients/">Here</a> to view our Expanded Ingredients Page!</span></span>
+		<button onclick="setLocation('https://www.coastalclassiccreations.com/gift-card.html/')" class="form-button button" type="button"><span>E-Gift Card</span></button>
+</div>
+<!--MENU-->
+<script type="text/javascript">
+    jQuery(function ($) {
+        var container = $("#toggleTextMenu");
+        jQuery("#displayTextMenu").click(
+            function (event) {
+                event.preventDefault();
+                if (container.is(":visible")) {
+                    container.slideUp('1000');
+                    jQuery("#displayTextMenu").removeClass('hidden-arrow');
+                    jQuery("#displayTextMenu").attr('title', 'show menu');
+
+                } else {
+                    container.slideDown('1000');
+                    jQuery("#displayTextMenu").toggleClass('hidden-arrow');
+                    jQuery("#displayTextMenu").attr('title', 'hide menu');
+                }
+                jQuery("#hidden-menu").toggleClass("active");
+            }
+        );
+    });
+</script>
+<div id="hidden-menu" class="menu-hidden-desktop">
+    <a class="option" id="displayTextMenu" href="#" title="show menu" style="">Navigation</a>
+
+    <div id="toggleTextMenu" style="display: none;">
+        <div class="menu-resize-inner">
+            <div class="menu-resize-inner-content">
+                    <div class="nav-container-resize">
+                                    <ul id="nav_resize" class="menu-resize">
+                                                        <li class="level0 nav-1 level-top ">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/shop-the-look/"><span>Color Match</span></a>
+                                            </li>
+                                                            <li class="level0 nav-2 level-top parent">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/makeup.html"><span>Makeup</span></a>
+                                                                                <ul class="level0">
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/catalogsearch/colorassistance"><span>Shade Finder</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 parent">
+                                        <a href="https://www.coastalclassiccreations.com/makeup/face.html"><span>Face</span></a>
+                                                                                                                                <ul class="level1">
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/face/primer-finishing-powder.html">Primer | Finishing Powder</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/face/foundation.html">Foundation </a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/face/concealers.html">Concealers</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/face/blush.html">Blushes | All Over Glow</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/face/pressed-classic-blush.html">Pressed Blushes</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/face/bronzers.html">Bronzers | Highlighters</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                        <li class="level1 parent">
+                                        <a href="https://www.coastalclassiccreations.com/makeup/eyes.html"><span>Eyes</span></a>
+                                                                                                                                <ul class="level1">
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/eyes/mascara-gift.html">Mascara </a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/eyes/brows.html">Brow Definers</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/eyes/eye-crayons.html">Eyeliners | Eye Crayons</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/eyes/eye-shadow.html">Loose Eyeshadows </a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/eyes/pressed-classic-eye-shadow.html">Pressed Eyeshadows</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                        <li class="level1 parent">
+                                        <a href="https://www.coastalclassiccreations.com/makeup/lips.html"><span>Lips</span></a>
+                                                                                                                                <ul class="level1">
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/lips/lip-crayons.html">Lip Crayons</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/lips/pure-classic-lipstick.html">Lipstick</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/lips/lip-tints.html">Lip Tint | Metallic Lip Stains</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/makeup/lips/lip-balm.html">Lip Balm</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/makeup/classic-palettes.html"><span>Classic Palettes</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/makeup/brushes.html"><span>Brushes | Tools</span></a>
+                                                                            </li>
+                                                            </ul>
+                                            </li>
+                                                            <li class="level0 nav-3 level-top ">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/trial-sizes.html"><span>Mini Sizes</span></a>
+                                            </li>
+                                                            <li class="level0 nav-4 level-top ">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/exclusive-offers.html"><span>Offers</span></a>
+                                            </li>
+                                                            <li class="level0 nav-5 level-top parent">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/skin-care.html"><span>Skincare</span></a>
+                                                                                <ul class="level0">
+                                                                                                        <li class="level1 parent">
+                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-category.html"><span>Shop by Category</span></a>
+                                                                                                                                <ul class="level1">
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-category/cleanse.html">Cleanse</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-category/moisturize.html">Moisturize</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-category/tone-exfoliate.html">Tone/Exfoliate </a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                        <li class="level1 parent">
+                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-concern.html"><span>Shop by Concern</span></a>
+                                                                                                                                <ul class="level1">
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-concern/manage-acne.html">Manage Acne</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-concern/soften-wrinkles.html">Soften Wrinkles</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-concern/soothe-inflammation.html">Soothe Inflammation</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                                                                        <li class="level1 parent">
+                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type.html"><span>Shop by Skin Type</span></a>
+                                                                                                                                <ul class="level1">
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type/dry.html">Dry | Mature</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type/normal.html">Normal | Combination</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type/oily.html">Oily</a>
+                                                                                                            </li>
+                                                                                                                                                        <li class="level2 ">
+                                                        <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type/sensitive.html">Sensitive</a>
+                                                                                                            </li>
+                                                                                            </ul>
+                                                                            </li>
+                                                            </ul>
+                                            </li>
+                                                            <li class="level0 nav-6 level-top parent">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/hair-care.html"><span>Hair Care</span></a>
+                                                                                <ul class="level0">
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/hair-care/henna.html"><span>Henna Organic Herbal Hair Color</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/hair-care/shampoo.html"><span>Shampoo</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/hair-care/styling-conditioners.html"><span>Styling | Conditioners</span></a>
+                                                                            </li>
+                                                            </ul>
+                                            </li>
+                                                            <li class="level0 nav-7 level-top parent">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/bath-body.html"><span>Bath | Body</span></a>
+                                                                                <ul class="level0">
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/bath-body/deodorant-powder.html"><span>Deodorant</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/organic-washcloth.html"><span>Organic Cotton Washcloth</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/bath-body/oatmeal-soap.html"><span>Oatmeal Children's Soap </span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/bath-body/body-moisturizers.html"><span>Bath Soap | Moisturizers</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/bath-body/pet-care.html"><span>Pet Care</span></a>
+                                                                            </li>
+                                                            </ul>
+                                            </li>
+                                                            <li class="level0 nav-8 level-top parent">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/perfume.html"><span>Perfume</span></a>
+                                                                                <ul class="level0">
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/perfume/aquatic.html"><span>Aquatic</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/perfume/bright-floral.html"><span>Bright Floral</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/perfume/citrus.html"><span>Citrus</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/perfume/fruity.html"><span>Fruity</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/perfume/gourmand.html"><span>Gourmand/Sweet</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/perfume/green.html"><span>Herbal/Green</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/perfume/mind-body.html"><span>Mind/Body</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/perfume/zodiac.html"><span>Zodiac</span></a>
+                                                                            </li>
+                                                            </ul>
+                                            </li>
+                                                            <li class="level0 nav-9 level-top parent">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/artisan.html"><span>Artisan Soap</span></a>
+                                                                                <ul class="level0">
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/music.html"><span>Art | Music</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/awareness.html"><span>Awareness</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/dogs-and-cats.html"><span>Dogs | Cats</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/garden.html"><span>Garden | Floral</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/judaic.html"><span>Judaic</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/ocean.html"><span>Ocean</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/monogrammed.html"><span>Monogrammed</span></a>
+                                                                            </li>
+                                                                                                        <li class="level1 ">
+                                        <a href="https://www.coastalclassiccreations.com/artisan/soap-dishes.html"><span>Soap Dish and Sachet</span></a>
+                                                                            </li>
+                                                            </ul>
+                                            </li>
+                                                            <li class="level0 nav-10 level-top ">
+                        <a class="level-top"
+                           href="https://www.coastalclassiccreations.com/what-new.html"><span>What's New</span></a>
+                                            </li>
+                                </ul>
+            </div>
+
+<script type="text/javascript"> 
+	var lis=$$('#nav_resize li.parent');
+	lis.each(function(li) {
+
+	 var dt = new Element('dt');
+	 var dd = new Element('dd');
+	 var a = li.down(0);
+	 var ul = li.down(2);
+	 dt.insert(a);
+	 dd.insert(ul);
+	 dt.insert("<span class='nav'></span>");
+	 li.insert(dt,{position:top});
+	 li.insert(dd);
+	});
+	jQuery('#nav_resize li.parent dd ul ').hide();	
+	
+	jQuery('#nav_resize dt span.nav').click(function()  {
+		//jQuery(this).toggleClass("active");
+        jQuery('.td_active').removeClass('td_active');
+		
+        var node = jQuery(this).parent().next().find('ul').first();
+        
+        var i = (node.css('display')=="block");// ul ben duoi dang dong (i=false) hay mo (i=true)// false
+
+		var string = jQuery(this).parent().parent().parent().parent().parent().attr('class');
+			
+		if(string.indexOf('parent')!=-1)// neu dang o cap 2,3,4
+		{
+			jQuery(this).parent().parent().parent().parent().parent().addClass('td_active');//add td_active vao li cap 1			
+			jQuery(this).parent().parent().parent().css("display","block");// cap 1 luon luon mo
+			jQuery(this).parent().parent().find('ul').slideUp('1000');			
+			jQuery(this).parent().parent().siblings().find('ul').slideUp('1000');			
+		}
+		else // neu dang o cap 1
+		{
+			jQuery('#nav_resize li.parent dd ul:visible').slideUp('1000');//dong nhung thang cap 1 khac
+		}
+        jQuery(this).parent().parent().addClass('td_active');// add td_active cho thang ben tren no    
+        jQuery(this).parent().parent().parent().parent().parent().parent().parent().parent().addClass('td_active');// add td_active cho thang ben tren no    
+        if (i != true)//neu ul dang dong	
+        {
+        	jQuery(this).parent().next().find('ul').first().slideDown('1000');        	
+        }
+		else
+		{
+			jQuery(this).parent().parent().removeClass('td_active');
+		}
+        return false;
+    });	
+	
+</script>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="menu-default" class="nav-container">
+
+                <ul id="nav">
+                                            <li class="level0 nav-1 level-top ">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/shop-the-look/">Color Match</a>
+                                    </li>
+                                            <li class="level0 nav-2 level-top parent">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/makeup.html">Makeup</a>
+                                                            <ul class="level0">
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/catalogsearch/colorassistance">Shade Finder</a>
+                                                            </li>
+                                                                                <li class="level1 parent">
+                                <a href="https://www.coastalclassiccreations.com/makeup/face.html">Face</a>
+                                                                                                        <ul class="level1">
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/face/primer-finishing-powder.html">Primer | Finishing Powder</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/face/foundation.html">Foundation </a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/face/concealers.html">Concealers</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/face/blush.html">Blushes | All Over Glow</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/face/pressed-classic-blush.html">Pressed Blushes</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/face/bronzers.html">Bronzers | Highlighters</a>
+                                                                                        </li>
+                                                                            </ul>
+                                                            </li>
+                                                                                <li class="level1 parent">
+                                <a href="https://www.coastalclassiccreations.com/makeup/eyes.html">Eyes</a>
+                                                                                                        <ul class="level1">
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/eyes/mascara-gift.html">Mascara </a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/eyes/brows.html">Brow Definers</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/eyes/eye-crayons.html">Eyeliners | Eye Crayons</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/eyes/eye-shadow.html">Loose Eyeshadows </a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/eyes/pressed-classic-eye-shadow.html">Pressed Eyeshadows</a>
+                                                                                        </li>
+                                                                            </ul>
+                                                            </li>
+                                                                                <li class="level1 parent">
+                                <a href="https://www.coastalclassiccreations.com/makeup/lips.html">Lips</a>
+                                                                                                        <ul class="level1">
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/lips/lip-crayons.html">Lip Crayons</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/lips/pure-classic-lipstick.html">Lipstick</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/lips/lip-tints.html">Lip Tint | Metallic Lip Stains</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/makeup/lips/lip-balm.html">Lip Balm</a>
+                                                                                        </li>
+                                                                            </ul>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/makeup/classic-palettes.html">Classic Palettes</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/makeup/brushes.html">Brushes | Tools</a>
+                                                            </li>
+                                                 </ul>
+                                        </li>
+                                            <li class="level0 nav-3 level-top ">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/trial-sizes.html">Mini Sizes</a>
+                                    </li>
+                                            <li class="level0 nav-4 level-top ">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/exclusive-offers.html">Offers</a>
+                                    </li>
+                                            <li class="level0 nav-5 level-top parent">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/skin-care.html">Skincare</a>
+                                                            <ul class="level0">
+                                                                                <li class="level1 parent">
+                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-category.html">Shop by Category</a>
+                                                                                                        <ul class="level1">
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-category/cleanse.html">Cleanse</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-category/moisturize.html">Moisturize</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-category/tone-exfoliate.html">Tone/Exfoliate </a>
+                                                                                        </li>
+                                                                            </ul>
+                                                            </li>
+                                                                                <li class="level1 parent">
+                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-concern.html">Shop by Concern</a>
+                                                                                                        <ul class="level1">
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-concern/manage-acne.html">Manage Acne</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-concern/soften-wrinkles.html">Soften Wrinkles</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-concern/soothe-inflammation.html">Soothe Inflammation</a>
+                                                                                        </li>
+                                                                            </ul>
+                                                            </li>
+                                                                                <li class="level1 parent">
+                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type.html">Shop by Skin Type</a>
+                                                                                                        <ul class="level1">
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type/dry.html">Dry | Mature</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type/normal.html">Normal | Combination</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type/oily.html">Oily</a>
+                                                                                        </li>
+                                                                                                                                <li class="level2 ">
+                                                <a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type/sensitive.html">Sensitive</a>
+                                                                                        </li>
+                                                                            </ul>
+                                                            </li>
+                                                 </ul>
+                                        </li>
+                                            <li class="level0 nav-6 level-top parent">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/hair-care.html">Hair Care</a>
+                                                            <ul class="level0">
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/hair-care/henna.html">Henna Organic Herbal Hair Color</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/hair-care/shampoo.html">Shampoo</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/hair-care/styling-conditioners.html">Styling | Conditioners</a>
+                                                            </li>
+                                                 </ul>
+                                        </li>
+                                            <li class="level0 nav-7 level-top parent">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/bath-body.html">Bath | Body</a>
+                                                            <ul class="level0">
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/bath-body/deodorant-powder.html">Deodorant</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/organic-washcloth.html">Organic Cotton Washcloth</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/bath-body/oatmeal-soap.html">Oatmeal Children's Soap </a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/bath-body/body-moisturizers.html">Bath Soap | Moisturizers</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/bath-body/pet-care.html">Pet Care</a>
+                                                            </li>
+                                                 </ul>
+                                        </li>
+                                            <li class="level0 nav-8 level-top parent">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/perfume.html">Perfume</a>
+                                                            <ul class="level0">
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/perfume/aquatic.html">Aquatic</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/perfume/bright-floral.html">Bright Floral</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/perfume/citrus.html">Citrus</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/perfume/fruity.html">Fruity</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/perfume/gourmand.html">Gourmand/Sweet</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/perfume/green.html">Herbal/Green</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/perfume/mind-body.html">Mind/Body</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/perfume/zodiac.html">Zodiac</a>
+                                                            </li>
+                                                 </ul>
+                                        </li>
+                                            <li class="level0 nav-9 level-top parent">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/artisan.html">Artisan Soap</a>
+                                                            <ul class="level0">
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/music.html">Art | Music</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/awareness.html">Awareness</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/dogs-and-cats.html">Dogs | Cats</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/garden.html">Garden | Floral</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/judaic.html">Judaic</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/ocean.html">Ocean</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/artisan-soap/monogrammed.html">Monogrammed</a>
+                                                            </li>
+                                                                                <li class="level1 ">
+                                <a href="https://www.coastalclassiccreations.com/artisan/soap-dishes.html">Soap Dish and Sachet</a>
+                                                            </li>
+                                                 </ul>
+                                        </li>
+                                            <li class="level0 nav-10 level-top ">
+                    <a class="level-top"
+                       href="https://www.coastalclassiccreations.com/what-new.html">What's New</a>
+                                    </li>
+            
+        </ul>
+        <script type="text/javascript">		
+        jQuery(function ($) {
+            jQuery("#nav li.level0:has(ul),#nav li.parent").doubleTapToGo();
+        });
+
+        onResize = function ()
+        {
+            var width = 0;
+            jQuery('#nav > li').each(function(){
+                width += jQuery(this).width();
+            });
+            var isSafari = (Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0);
+            var tt = 2;
+            if(isSafari)
+            {
+                tt = 3;
+            }
+            jQuery('#nav > li:last-child').width(jQuery('#nav > li:last-child').width() + jQuery('#nav').width() - width - tt);
+        }
+        jQuery( window ).load(onResize);
+        jQuery( window ).resize(onResize);
+
+		/*jQuery(function($) {
+			jQuery("#nav li").hover(function() {
+			var el = jQuery(this).find("ul").first();
+			el.hide();			
+			el.stop(true, true).delay(300).fadeIn(300, "easeOutCubic");
+			}, function() {
+			jQuery(this).find("ul").first().stop(true, true).delay(300).fadeOut(300, "easeInCubic");
+			});
+		}); */
+    </script>
+</div>
+</div>
+</div>                
+        <div class="main col1-layout">
+			            <div class="col-main">
+                <div class="std"><div class="col2-set">
+<div class="col-1">
+
+    <section class="slider">
+        <div class="flexslider" id="slider_home_main">
+            <ul class="slides">
+                                            <li>
+                                  <a href="/makeup/lips/pure-classic-lipstick.html">                                      <img src="https://www.coastalclassiccreations.com/media/custom/banners/File-1538501838.jpg"/>
+                                     </a>                                 <div class="description" style="display: none">
+                                                                                                                <a class="shop-now" href="/makeup/lips/pure-classic-lipstick.html"
+                                           target="_blank"><span><span>Shop Now</span></span></a>
+                                                                    </div>
+                            </li>
+                                                    <li>
+                                  <a href="/makeup/eyes/eye-crayons/liquid-eye-liner.html">                                      <img src="https://www.coastalclassiccreations.com/media/custom/banners/File-1553884481.jpg"/>
+                                     </a>                                 <div class="description" style="display: none">
+                                                                                                                <a class="shop-now" href="/makeup/eyes/eye-crayons/liquid-eye-liner.html"
+                                           target="_blank"><span><span>Shop Now</span></span></a>
+                                                                    </div>
+                            </li>
+                                                    <li>
+                                  <a href="/makeup/lips/lip-crayons.html">                                      <img src="https://www.coastalclassiccreations.com/media/custom/banners/File-1553885019.jpg"/>
+                                     </a>                                 <div class="description" style="display: none">
+                                                                                                                <a class="shop-now" href="/makeup/lips/lip-crayons.html"
+                                           target="_blank"><span><span>Shop Now</span></span></a>
+                                                                    </div>
+                            </li>
+                                                    <li>
+                                  <a href="/trial-sizes.html">                                      <img src="https://www.coastalclassiccreations.com/media/custom/banners/File-1553884524.jpg"/>
+                                     </a>                                 <div class="description" style="display: none">
+                                                                                                                <a class="shop-now" href="/trial-sizes.html"
+                                           target="_blank"><span><span>Shop Now</span></span></a>
+                                                                    </div>
+                            </li>
+                                    </ul>
+
+        </div>
+    </section>
+        <script type="text/javascript">
+        jQuery(function () {
+            jQuery(window).load(function () {
+                jQuery('#slider_home_main').flexslider({
+                    animation: "slide",
+					itemWidth: 804,
+                    slideshow: true,
+                    slideshowSpeed: 5000,
+                    slideToStart: 0,
+                    pauseOnAction: false,
+					controlNav: true
+                });
+            });
+
+        });
+		
+		//Window size - resetup slider on the site.
+		var winWidth = jQuery(window).width();
+		var winHeight = jQuery(window).height();
+		var windowResize_t;
+		jQuery(window).resize(function() {
+			var winNewWidth = jQuery(window).width();
+			var winNewHeight = jQuery(window).height();
+			if (winWidth != winNewWidth || winHeight != winNewHeight)
+			{
+
+				clearTimeout(windowResize_t);
+				windowResize_t = setTimeout(function() {					
+                    
+					var slideshow = jQuery('#slider_home_main').data('flexslider');
+					if (slideshow != null)
+					{
+						slideshow.resize();
+					}
+				
+				}, 200); //TODO: choose default value
+
+			} //end: if
+			//Update window size variables
+			winWidth = winNewWidth;
+			winHeight = winNewHeight;
+
+		}); //end: on resize
+    </script>
+
+
+</div>
+<div class="col-2">
+<div class="widget widget-static-block"><ul>
+<li class="banner-1">
+<p><a href="https://www.coastalclassiccreations.com/ingredients/">We raise the bar on cosmetic safety and purity.</a></p>
+<p><a href="https://www.coastalclassiccreations.com/ingredients/"><span>Learn More&gt;</span></a></p>
+</li>
+<li class="banner-2">
+<p><a href="https://www.coastalclassiccreations.com/education-research/"><span>Education & Research</span></a></p>
+<p><a href="https://www.coastalclassiccreations.com/education-research/">No Parabens. No Phthalates. No Chemicals of Concern. Learn more about our commitment to science and good health.</a></p>
+</li>
+<li class="banner-3">
+<p><a href="https://www.coastalclassiccreations.com/cruelty-free-commitment/"><span>Cruelty-Free Commitment</span></a></p>
+</li>
+<li class="banner-4">
+<p><a href="https://www.coastalclassiccreations.com/responsible-packaging/"><span>Eco-Friendly Pledge</span></a></p>
+<p><a href="https://www.coastalclassiccreations.com/responsible-packaging/">We are passionate about sustainable packaging and zero waste.</a></p>
+</li>
+</ul></div>
+
+</div>
+</div>
+<div class="mission-statement"><div class="widget widget-static-block"><h2 class="featured-title" style="text-align: center;">Intelligently-natural cosmetics</h2>
+<p style="text-align: center;"><span style="font-size: medium;">Paraben-free, phthalate-free, safe ingredients you can trust.</span></p>
+<p style="text-align: center;"><span style="font-size: medium;">At Coastal Classic Creations&reg;, we have spent our years in business compiling evidence-based research and select ingredients that won't cause harm to health and the environment. <a href="https://www.coastalclassiccreations.com/company-overview/">Learn More&gt;</a></span></p></div>
+</div>
+<div class="sub-banner"><div class="widget widget-static-block"><ul>
+<li><a href="https://www.coastalclassiccreations.com/catalogsearch/colorassistance/"></a><a href="https://www.coastalclassiccreations.com/catalogsearch/colorassistance/"><img alt="" class="img-responsive" src="https://www.coastalclassiccreations.com/media/wysiwyg/skin_rock_banner.jpg" /></a>
+<div class="div_sub_text">
+<p class="sub_text">Shade Finder<img alt="" src="https://www.coastalclassiccreations.com/media/wysiwyg/icon-1.png" /></p>
+</div>
+</li>
+<li><a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type.html/"></a><a href="https://www.coastalclassiccreations.com/skin-care/shop-by-skin-type.html/"><img alt="" class="img-responsive" src="https://www.coastalclassiccreations.com/media/wysiwyg/lotus_banner.jpg" /></a>
+<div class="div_sub_text">
+<p class="sub_text">Skincare Help<img alt="" src="https://www.coastalclassiccreations.com/media/wysiwyg/icon-2.png" /></p>
+</div>
+</li>
+<li><a href="https://www.coastalclassiccreations.com/hair-care.html/"></a><a href="https://www.coastalclassiccreations.com/hair-care/henna/henna-natural-hair-color.html/"><img alt="" class="img-responsive" src="https://www.coastalclassiccreations.com/media/wysiwyg/plumeria_banner.jpg" /></a>
+<div class="div_sub_text">
+<p class="sub_text">Hair Dye<img alt="" src="https://www.coastalclassiccreations.com/media/wysiwyg/icon-3.png" /></p>
+</div>
+</li>
+</ul></div>
+</div></div>    <div id="block-featured-product">
+        <h2 class="featured-title"><span>Featured Products</span></h2>
+
+        <div class="featured-content">
+            <ul class="products-grid featured-products">
+                                    <li class="item">
+                        <a href="https://www.coastalclassiccreations.com/oatmeal-facial-bar.html"
+                           title="Oatmeal Facial Bar"
+                           class="product-image"><img class="img-responsive"
+                                                      src="https://www.coastalclassiccreations.com/media/catalog/product/cache/1/small_image/310x/9df78eab33525d08d6e5fb8d27136e95/o/a/oatmeal_plain.jpg"
+                                                      alt="Oatmeal Facial Bar"/></a>
+
+                        <div class="item-inner">
+                            <h2 class="product-name"><a href="https://www.coastalclassiccreations.com/oatmeal-facial-bar.html"
+                                                        title="Oatmeal Facial Bar">Oatmeal Facial Bar</a>
+                            </h2>
+                            <div class="product-description">
+                                <div><p>Gentle oatmeal for all skin types</p></div>
+                            </div>
+                            <div class="rating-list">
+                                                            </div>
+                            <p class="product-detail-link"><a href="https://www.coastalclassiccreations.com/oatmeal-facial-bar.html">product
+                                    details</a></p>
+                            
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-484">
+                                            <span class="price">$10.00</span>                                    </span>
+                        
+        </div>
+
+                        </div>
+                        <div class="actions">
+                            <ul class="add-to-links">
+                                                                    <li class="link-cart">
+                                        <a title="Buy Now"
+                                           href="https://www.coastalclassiccreations.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/product/484/form_key/zS4m4DQGWHemqUC2/"
+                                            >
+                                            <!--img alt="buy now" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_buy-now.gif"/-->
+                                            Buy now
+                                        </a></li>
+                                                                                                    <li class="link-compare">
+                                        <a title="Add to Compare" href="https://www.coastalclassiccreations.com/catalog/product_compare/add/product/484/uenc/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/form_key/zS4m4DQGWHemqUC2/">
+                                            <!--img alt="add to compare" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_compare.gif"/-->
+                                            Add to Compare
+                                        </a>
+                                    </li>
+                                                                                                    <li class="link-wishlist">
+                                        <a title="Add to Wishlist"
+                                           href="https://www.coastalclassiccreations.com/wishlist/index/add/product/484/form_key/zS4m4DQGWHemqUC2/">
+                                            <!--img alt="add to wishlist" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_wishlist.gif"/!-->
+                                            Add to wishlist
+                                        </a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                                    <li class="item">
+                        <a href="https://www.coastalclassiccreations.com/refreshing-mist-powder-foundation-golden-tan.html"
+                           title="Refreshing Mist Powder Foundation Golden Tan"
+                           class="product-image"><img class="img-responsive"
+                                                      src="https://www.coastalclassiccreations.com/media/catalog/product/cache/1/small_image/310x/9df78eab33525d08d6e5fb8d27136e95/f/o/foundation_goldentan.jpg"
+                                                      alt="Refreshing Mist Powder Foundation Golden Tan"/></a>
+
+                        <div class="item-inner">
+                            <h2 class="product-name"><a href="https://www.coastalclassiccreations.com/refreshing-mist-powder-foundation-golden-tan.html"
+                                                        title="Refreshing Mist Powder Foundation Golden Tan ">Refreshing Mist Powder Foundation Golden Tan </a>
+                            </h2>
+                            <div class="product-description">
+                                <div><p>Dark golden tan skin with olive undertones
+</p></div>
+                            </div>
+                            <div class="rating-list">
+                                                            </div>
+                            <p class="product-detail-link"><a href="https://www.coastalclassiccreations.com/refreshing-mist-powder-foundation-golden-tan.html">product
+                                    details</a></p>
+                            
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-273">
+                                            <span class="price">$30.00</span>                                    </span>
+                        
+        </div>
+
+                        </div>
+                        <div class="actions">
+                            <ul class="add-to-links">
+                                                                    <li class="link-cart">
+                                        <a title="Buy Now"
+                                           href="https://www.coastalclassiccreations.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/product/273/form_key/zS4m4DQGWHemqUC2/"
+                                             onclick="return MW.CartAjax.addToCart(273)" >
+                                            <!--img alt="buy now" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_buy-now.gif"/-->
+                                            Buy now
+                                        </a></li>
+                                                                                                    <li class="link-compare">
+                                        <a title="Add to Compare" href="https://www.coastalclassiccreations.com/catalog/product_compare/add/product/273/uenc/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/form_key/zS4m4DQGWHemqUC2/">
+                                            <!--img alt="add to compare" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_compare.gif"/-->
+                                            Add to Compare
+                                        </a>
+                                    </li>
+                                                                                                    <li class="link-wishlist">
+                                        <a title="Add to Wishlist"
+                                           href="https://www.coastalclassiccreations.com/wishlist/index/add/product/273/form_key/zS4m4DQGWHemqUC2/">
+                                            <!--img alt="add to wishlist" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_wishlist.gif"/!-->
+                                            Add to wishlist
+                                        </a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                                    <li class="item">
+                        <a href="https://www.coastalclassiccreations.com/professional-oblong-blending-sponge.html"
+                           title="Professional Oblong Blending Sponge"
+                           class="product-image"><img class="img-responsive"
+                                                      src="https://www.coastalclassiccreations.com/media/catalog/product/cache/1/small_image/310x/9df78eab33525d08d6e5fb8d27136e95/o/b/oblong_sponge_1.jpg"
+                                                      alt="Professional Oblong Blending Sponge"/></a>
+
+                        <div class="item-inner">
+                            <h2 class="product-name"><a href="https://www.coastalclassiccreations.com/professional-oblong-blending-sponge.html"
+                                                        title="Professional Oblong Blending Sponge">Professional Oblong Blending Sponge</a>
+                            </h2>
+                            <div class="product-description">
+                                <div><p>Blend, blur, and create a flawless finish!</p></div>
+                            </div>
+                            <div class="rating-list">
+                                                            </div>
+                            <p class="product-detail-link"><a href="https://www.coastalclassiccreations.com/professional-oblong-blending-sponge.html">product
+                                    details</a></p>
+                            
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-1183">
+                                            <span class="price">$20.00</span>                                    </span>
+                        
+        </div>
+
+                        </div>
+                        <div class="actions">
+                            <ul class="add-to-links">
+                                                                    <li class="link-cart">
+                                        <a title="Buy Now"
+                                           href="https://www.coastalclassiccreations.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/product/1183/form_key/zS4m4DQGWHemqUC2/"
+                                             onclick="return MW.CartAjax.addToCart(1183)" >
+                                            <!--img alt="buy now" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_buy-now.gif"/-->
+                                            Buy now
+                                        </a></li>
+                                                                                                    <li class="link-compare">
+                                        <a title="Add to Compare" href="https://www.coastalclassiccreations.com/catalog/product_compare/add/product/1183/uenc/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/form_key/zS4m4DQGWHemqUC2/">
+                                            <!--img alt="add to compare" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_compare.gif"/-->
+                                            Add to Compare
+                                        </a>
+                                    </li>
+                                                                                                    <li class="link-wishlist">
+                                        <a title="Add to Wishlist"
+                                           href="https://www.coastalclassiccreations.com/wishlist/index/add/product/1183/form_key/zS4m4DQGWHemqUC2/">
+                                            <!--img alt="add to wishlist" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_wishlist.gif"/!-->
+                                            Add to wishlist
+                                        </a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                                    <li class="item">
+                        <a href="https://www.coastalclassiccreations.com/seacoast-lip-tint.html"
+                           title="Seacoast Lip Tint"
+                           class="product-image"><img class="img-responsive"
+                                                      src="https://www.coastalclassiccreations.com/media/catalog/product/cache/1/small_image/310x/9df78eab33525d08d6e5fb8d27136e95/s/e/seacoast_lip_tint_2_1.jpg"
+                                                      alt="Seacoast Lip Tint"/></a>
+
+                        <div class="item-inner">
+                            <h2 class="product-name"><a href="https://www.coastalclassiccreations.com/seacoast-lip-tint.html"
+                                                        title="Seacoast Lip Tint">Seacoast Lip Tint</a>
+                            </h2>
+                            <div class="product-description">
+                                <div><p>Poppy red</p></div>
+                            </div>
+                            <div class="rating-list">
+                                                            </div>
+                            <p class="product-detail-link"><a href="https://www.coastalclassiccreations.com/seacoast-lip-tint.html">product
+                                    details</a></p>
+                            
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-1036">
+                                            <span class="price">$16.00</span>                                    </span>
+                        
+        </div>
+
+                        </div>
+                        <div class="actions">
+                            <ul class="add-to-links">
+                                                                    <li class="link-cart">
+                                        <a title="Buy Now"
+                                           href="https://www.coastalclassiccreations.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/product/1036/form_key/zS4m4DQGWHemqUC2/"
+                                             onclick="return MW.CartAjax.addToCart(1036)" >
+                                            <!--img alt="buy now" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_buy-now.gif"/-->
+                                            Buy now
+                                        </a></li>
+                                                                                                    <li class="link-compare">
+                                        <a title="Add to Compare" href="https://www.coastalclassiccreations.com/catalog/product_compare/add/product/1036/uenc/aHR0cHM6Ly93d3cuY29hc3RhbGNsYXNzaWNjcmVhdGlvbnMuY29tLw,,/form_key/zS4m4DQGWHemqUC2/">
+                                            <!--img alt="add to compare" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_compare.gif"/-->
+                                            Add to Compare
+                                        </a>
+                                    </li>
+                                                                                                    <li class="link-wishlist">
+                                        <a title="Add to Wishlist"
+                                           href="https://www.coastalclassiccreations.com/wishlist/index/add/product/1036/form_key/zS4m4DQGWHemqUC2/">
+                                            <!--img alt="add to wishlist" class="img-responsive" src="https://www.coastalclassiccreations.com/skin/frontend/ccc/default/images/btn_wishlist.gif"/!-->
+                                            Add to wishlist
+                                        </a></li>
+                                                            </ul>
+                        </div>
+                    </li>
+                            </ul>
+        </div>
+    </div>
+            </div>
+        </div>
+        <div class="footer-before-container"><div class="footer-customize"><div class="banner-1"><a href="https://www.coastalclassiccreations.com/trial-sizes.html/"><img class="img-responsive" src="https://www.coastalclassiccreations.com/media/wysiwyg/customize-banner.jpg" alt="" /></a></div>
+<div class="banner-2"><a href="https://www.coastalclassiccreations.com/trial-sizes.html/"><img class="img-responsive" src="https://www.coastalclassiccreations.com/media/wysiwyg/for-mobile/customize-banner.jpg" alt="" /></a></div></div></div>        
+<div class="footer-container">
+    <div class="footer">
+        <div class="blocks">
+            <h2>SHOP<span class="toggle"></span></h2>
+                                <ul class="level0">
+                                            <li><a href="https://www.coastalclassiccreations.com/trial-sizes.html">Mini Sizes</a></li>
+                                            <li><a href="https://www.coastalclassiccreations.com/makeup.html">Makeup</a></li>
+                                            <li><a href="https://www.coastalclassiccreations.com/skin-care.html">Skincare</a></li>
+                                            <li><a href="https://www.coastalclassiccreations.com/hair-care.html">Hair Care</a></li>
+                                            <li><a href="https://www.coastalclassiccreations.com/bath-body.html">Bath | Body</a></li>
+                                            <li><a href="https://www.coastalclassiccreations.com/perfume.html">Fragrance</a></li>
+                                            <li><a href="https://www.coastalclassiccreations.com/artisan.html">Artisan Soap</a></li>
+                                            <li><a href="https://www.coastalclassiccreations.com/offers.html">Offers</a></li>
+                                            <li><a href="https://www.coastalclassiccreations.com/what-new.html">What's New</a></li>
+                    
+                </ul>
+        </div>
+        <div class="blocks">
+            <h2>ABOUT US<span class="toggle"></span></h2>
+            <ul>
+                <li><a href="https://www.coastalclassiccreations.com/company-overview/">Company Overview</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/corporate-giving/">Corporate Giving</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/cruelty-free-commitment/">Cruelty-Free Commitment</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/responsible-packaging/">Responsible Packaging</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/memberships-accreditations/">Memberships & Accreditations</a>
+                </li>
+            </ul>
+        </div>
+        <div class="blocks">
+            <h2>RESEARCH & EDUCATION<span class="toggle"></span></h2>
+            <ul>
+                <li><a href="https://www.coastalclassiccreations.com/ingredients/">Ingredients</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/education-research/">Research</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/science-resources/">Resources</a></li>
+		<li><a href="https://www.coastalclassiccreations.com/press/">Press</a></li>
+            </ul>
+        </div>
+        <div class="blocks last">
+            <h2>CUSTOMER SERVICE<span class="toggle"></span></h2>
+            <ul>
+                <li><a href="https://www.coastalclassiccreations.com/contacts/">Contact Us</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/catalogsearch/colorassistance/">Color Assistance</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/faq/">FAQ's</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/ordering-assistance/">Ordering Assistance</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/retail-wholesale/">Retail-Wholesale</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/privacy-statement/">Privacy Statement</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/terms-and-conditions/">Terms and Conditions</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/shipping-information/">Shipping Information</a></li>
+                <li><a href="https://www.coastalclassiccreations.com/return-policy/">Return Policy</a></li>
+            </ul>
+                        <div class="follow_us_wraper">
+            	<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+            	<div class="addthis_inline_follow_toolbox"></div>
+            </div>
+                    </div>
+        <script type="text/javascript">
+            jQuery(function ($) {
+                jQuery('.footer .blocks .toggle').each(function (index) {
+                    var container = jQuery(this).parent().parent().find('ul').first();
+                    jQuery(this).click(function () {
+                        if (container.is(":visible")) {
+                            container.slideUp('1000');
+                            jQuery(this).removeClass('open');
+
+                        } else {
+                            container.slideDown('1000');
+                            jQuery(this).addClass('open');
+                        }
+                    });
+                });
+            });
+        </script>
+
+    </div>
+    <!--<div class="footer-banner">
+            </div>-->	
+	<div class="footer-banner">
+        <ul>
+			<li><a href="http://www.bbb.org/greater-san-francisco/business-reviews/beauty-supplies-and-equipment/coastal-classic-creations-in-montara-ca-295357#bbbseal" target="_blank" rel="nofollow"><img alt="" src="/media/wysiwyg/footer-banner-1.jpg" class="img-responsive"></a></li>
+			<!--<li><a id="bbblink" class="ruvtbum" href="http://www.bbb.org/greater-san-francisco/business-reviews/beauty-supplies-and-equipment/coastal-classic-creations-in-montara-ca-295357#bbbseal" title="Coastal Classic Creations, Beauty Supplies & Equipment, Montara, CA" style="position: relative; width: auto; height: auto; margin: 0px; padding: 0px;"><img class="img-responsive" style="padding: 0px; border: none;" id="bbblinkimg" src="/media/wysiwyg/seal-for-295357.png" width="74" height="67" alt="Coastal Classic Creations, Beauty Supplies & Equipment, Montara, CA" /></a><script type="text/javascript">var bbbprotocol = ( ("https:" == document.location.protocol) ? "https://" : "http://" ); document.write(unescape("%3Cscript src='" + bbbprotocol + 'seal-goldengate.bbb.org' + unescape('%2Flogo%2Fcoastal-classic-creations-295357.js') + "' type='text/javascript'%3E%3C/script%3E"));</script></li>-->
+			<li><a href="javascript:void(0);"><img alt="" src="/media/wysiwyg/footer-banner-2.jpg" class="img-responsive"></a></li>
+			<li><a href="javascript:void(0);"><img alt="" src="/media/wysiwyg/footer-banner-3.jpg" class="img-responsive"></a></li>
+			<li><a href="javascript:void(0);"><img alt="" src="/media/wysiwyg/footer-banner-4.jpg" class="img-responsive"></a></li>
+			<li><!-- � 2005, 2014. Authorize.Net is a registered trademark of CyberSource Corporation --> 
+				<div class="AuthorizeNetSeal">
+					<style type="text/css">
+						div.AuthorizeNetSeal{text-align:center;margin:0;padding:0;width:90px;font:normal 9px arial,helvetica,san-serif;line-height:10px;}
+						div.AuthorizeNetSeal a{text-decoration:none;color:black;}
+						div.AuthorizeNetSeal a:visited{color:black;}
+						div.AuthorizeNetSeal a:active{color:black;}
+						div.AuthorizeNetSeal a:hover{text-decoration:underline;color:black;}
+						div.AuthorizeNetSeal a img{border:0px;margin:0px;text-decoration:none;}
+						#bbblinkimg { position: relative !important; margin: 0 !important;}
+						#bbblink { height: auto !important; width: auto !important; text-align: left !important; }
+					</style>
+					<a target="_blank" onclick="window.open('https://verify.authorize.net/anetseal/?pid=f2a81466-047b-44d4-bca8-f98b96399d8e&amp;rurl=https%3A//www.coastalclassiccreations.com/','AuthorizeNetVerification','width=600,height=430,dependent=yes,resizable=yes,scrollbars=yes,menubar=no,toolbar=no,status=no,directories=no,location=yes'); return false;" href="https://verify.authorize.net/anetseal/?pid=f2a81466-047b-44d4-bca8-f98b96399d8e&amp;rurl=https%3A//www.coastalclassiccreations.com/">
+					<img width="90" border="0" height="72" alt="Authorize.Net Merchant - Click to Verify" src="/media/secure90x72.gif"  class="img-responsive" />
+					</a>
+				</div>				
+			</li>
+			<li><a target="_blank" href="https://secure.sitelock.com/verify.php?site=coastalclassiccreations.com" rel="nofollow"><img alt="" src="/media/wysiwyg/footer-banner-6.jpg" class="img-responsive"></a></li>
+			<li><a target="_blank" href="https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.coastalclassiccreations.com&amp;lang=en" rel="nofollow"><img alt="" src="/media/wysiwyg/footer-banner-7.jpg" class="img-responsive"></a>
+						</li>
+		</ul>   
+	</div>	
+</div>
+<address class="copyright">&copy; 2019 Coastal Classic Creations&reg;, A California Corporation. PO Box 370613, Montara, CA 94037-0613. Made in USA. All Rights Reserved. Established 2003<span class="disclaimer"> All information within this website is for educational purposes only. It is not intended to treat, cure, prevent, or diagnose any disease or condition. Information within this website is not a means of prescribing, nor should it be meant to replace, the advice of a Medical Doctor. The products sold by Coastal Classic Creations&reg; are not intended to diagnose, treat, cure, or prevent any disease. All of the products of Coastal Classic Creations&reg;, A California Corporation, are for external use only. All information and content available on the Site, including but not limited to trademarks, logos, service marks, text, graphics, logos, button icons, images, data compilations and software, and the compilation and organization thereof (collectively, the "Content") is the property of Coastal Classic Creations&reg; Online, our affiliates, partners or licensors, and is protected by United States and international laws, including laws governing copyrights and trademarks. Use of the information within this site without the expressed written consent of Coastal Classic Creations&reg; is prohibited.</span></address>        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5aaf5229d4571fb5"></script><!--Start of Zopim Live Chat Script by Diglin GmbH-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?2rSuesJZ4dDpwabWJDQxN9rhqNl4vNPV';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script><!--End of Zopim Live Chat Script by Diglin GmbH-->
+<!--Zopim Options by Diglin GmbH--><script>$zopim(function(){
+$zopim.livechat.setLanguage('en');
+});
+</script><!--EOF Zopim Options by Diglin GmbH-->
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+		beginNewsletterForm();
+    });
+ 
+    function beginNewsletterForm () {
+        jQuery.fancybox.open({
+            'width': '450',
+            'height': '390',
+            'padding': '0px',
+            'autoDimensions': false,
+            'autoScale': false,
+            'autoSize': false,
+            'transitionIn': 'fade',
+            'transitionOut': 'fade',
+            'showCloseButton': true,
+            'type': 'inline',
+            'src': '#newsletter-popup'
+        });
+    }
+</script>
+<div style="display:none;">
+      <div id="newsletter-popup" class="container" style="background: #ffffff url('https://www.coastalclassiccreations.com/media/newsletterpopup/default/new_resized_image_subscribe_1_.jpg') no-repeat right top;">
+            <div class="sub-container">
+                  <div class="content">
+                  		<h3 dir="ltr"><span id="docs-internal-guid-43ac73a1-4062-eab0-48e5-d881e920c114">Sign Up &amp; Save 10% off your first order!</span><span id="docs-internal-guid-951e8361-fdbf-7104-0643-5a78e86e552c"></span></h3>
+<p dir="ltr"><span id="docs-internal-guid-43ac73a1-4063-3b8b-fa41-bdc06ece9d91">Join our E-List Newsletter Subscription</span></p>
+<p dir="ltr"><span id="docs-internal-guid-43ac73a1-4063-8b4d-5ccb-74d8024fd42b">Receive updates on all the latest products, offers, and more.</span></p> 
+                        <div class="register-form">
+                               <form id="newsletter-refistration-form-popup" action="https://www.coastalclassiccreations.com/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+                                    <div class="form-fields-middle">
+                                          <div class="input-wrapper">
+                                                <input type="text" name="email" id="newsletter" placeholder="Enter Your Email" title="Sign up for our newsletter" class="input-text required-entry validate-email" />
+                                          </div>
+                                    </div>
+                                    <div class="subscriber_response"></div>
+                                    <div class="btn-sign-up-now">
+                                          <button type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+                                    </div>
+                              </form>
+                              
+                        </div>
+                        <div class="agree-items">
+                        By submitting your email address, you agree to our <a onclick="window.open('https://www.coastalclassiccreations.com/terms-and-conditions','termsandconditions','scrollbars=1,status=1,width=500,height=500');" style="cursor:pointer;">Terms & Conditions</a> and <a onclick="window.open('https://www.coastalclassiccreations.com/privacy-statement','privacystatement','scrollbars=1,status=1,width=500,height=500');" style="cursor:pointer;">Privacy Policy</a>.
+                        </div>
+                        
+                  </div>
+            </div>
+      </div>
+</div>
+ 
+<script type="text/javascript">
+      var newsletterSubscriberFormDetailPopup = new VarienForm('newsletter-refistration-form-popup', true);
+</script>
+<div id="cartpopup_wapper">
+    <a class="close-pop" href="javascript:void(0)" onclick="MW.CartPopup.closePopup()">Close</a>
+    <div class="content">
+    </div>
+</div>
+<div id="mw_cartpopup_loading"><span class="icon"></span></div>    </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=951600952';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

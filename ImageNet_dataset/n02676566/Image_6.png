@@ -1,0 +1,833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta name="globalsign-domain-verification" content="I33AP6hDocJz8vdbRNGvPaqb-F-VMYke8h0ALe_xK2" /> 
+<meta name="description" content="Accent Music, Delaware's Music Store, Guitars, Keyboards, drums, band instruments, orchestra instruments, rentals, lessons, school of contemporary music and musical instrument repairs." />
+<meta name="keywords" content="Accent Music, Delaware's Music Store, Guitars, Keyboards, drums, band instruments, orchestra instruments, rentals, lessons, school of contemporary music, musical instrument repairs," />
+<title>Accent Music, Delaware's Music Store, Musical Instruments, Rentals, Repairs, lessons, Contemporary School Of Music.</title>
+<meta name="robots" content="index, follow" />
+<meta name="GOOGLEBOT" content="INDEX, FOLLOW" />
+
+<link rel="canonical" href="https://www.accentmusic.com/default.asp" />
+		
+<link type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/themes/base/jquery-ui.css" rel="stylesheet" />
+<link type="text/css" href="/a/c/default.css" rel="stylesheet" />
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"></script>
+
+
+
+<script type="text/javascript">
+	var Config_VCompare_MaxProducts = '3';
+	var PageText_783 = "Compare";
+	var PageText_784 = "Change Selections";
+	var PageText_785 = "You've attempted to select more than {0} items. Click {1} to continue with your initial {0} items or {2} to change your selections.";
+	var PageText_819 = "Product Comparison";
+    var PageText_822 = "Compare";
+    var PageText_840 = "Create Password";
+    var PageText_841 = "Retype Password";
+    var PageText_842 = "Added to cart";
+    var PageText_843 = "Subtotal";
+    var PageText_844 = "items in cart";
+</script>
+<script type="text/javascript" src="/a/j/volusion.js?7.109.0.3775"></script>
+<script type="text/javascript">
+    (function ($) {
+        volusion.ready(function () {
+            if (volusion.cart.isObservingCount()) {
+                var ts = new Date().getTime();
+                $.getJSON('/ajaxcart.asp?cachebust=' + ts, function (data) {
+                    var quantityTotal = 0;
+                    $.each(data.Products, function (key, val) {
+                        if (val.IsProduct === 'Y') {
+                            quantityTotal += parseInt(val.Quantity);
+                        } else if (val.IsAccessory === 'Y') {
+                            quantityTotal += parseInt(val.Quantity);
+                        }
+                    });
+                    quantityTotal = quantityTotal || '0';
+                    volusion.cart.itemCount(quantityTotal);
+                });
+            }
+        });
+    } (jQuery));
+</script>
+<link type="text/css" rel="stylesheet" href="/a/contentbuilder/assets/default/content.css" />
+<script type="text/javascript" src="../../a/j/paypal-rest-default-buttons.js"></script>
+
+
+<script type="text/javascript" src="/a/j/soft_add.js"></script>
+<link type="text/css" rel="stylesheet" href="/a/c/soft_add.css" />
+<script type="text/javascript">
+	var global_Config_EnableDisplayOptionProducts = 'False';
+	var global_Config_ForceSecureShoppingCartPage = false;
+	var global_PageText_OtherItemsAdded = '(All other items have been added to the cart)';
+	var Config_EnableSoftAddToCart = true;
+</script>
+
+<script type="text/javascript" src="/a/j/soft_add_mult.js"></script>
+<script type="text/javascript" src="/a/j/javascripts.js?6_5_7.109.0.3775"></script>
+
+<script type="text/javascript">
+	var Config_Search_Auto_Complete = true;
+</script>
+
+<script>
+    var reCaptchaPreloaded = false;
+    var reCaptchaInit;
+</script>
+
+
+<!-- DYNAMIC PAGE-SPECIFIC META TAGS WILL BE PLACED HERE
+DO NOT ADD YOUR OWN META TAGS, ONLY PUT CSS/JAVSCRIPT INCLUDES IN YOUR HEAD TAG -->
+<link href="/v/vspfiles/templates/AB/css/Imports.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+		<style type="text/css">
+			#content_area {padding:10px 9px 10px 10px;}
+		</style>
+		<![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript"></script>
+<meta name="google-site-verification" content="34sPw2YyYpQ0_26Q-RNVCNAAQ5gUGMUkuRc-8HE2y1I" />
+<!-- BEGIN GOOGLE ANALYTICS GENERAL TRACKING SCRIPT (INSERT IN HEAD SECTION) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18558239-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- END -->
+</head>
+<!-- #################### FILE INFO #################### --
+Company Name:
+Designer: 
+Coder: SPD
+URL: 
+Date: 03 2010
+-- #################### END INFO #################### -->
+<body id="body" style="background-color: #595959">
+<!-- #################### SHOPPING CART DISPLAY JS
+<body id="body" onload="updateHeaderCartSummary();" >
+#################### -->
+<div id="page_wrapper"> 
+    <!-- #################### HEADER #################### -->
+    <div id="header">
+        <div id="display_homepage_title"><span class="vol-logo vol-logo--graphic" itemscope itemtype='http://schema.org/MusicStore'><meta itemprop='name' content='AccentMusic.com'><a class="vol-logo__link" href="https://www.accentmusic.com/default.asp" title="AccentMusic.com">AccentMusic.com</a></span></div>
+        <div class="top-midle"><img src="/v/vspfiles/templates/AB/images/template/top-midle.png" alt="call" /></div>
+        <div id="site_tools"> <a href="/"  class="first">Home</a> <a href="/aboutus.asp">About Us</a> <a href="/myaccount.asp">My Account</a> <a href="/contact-us-s/10014.htm">Contact</a> <a href="/help.asp">Help</a> <a href = "/ShoppingCart.asp"> View Cart </a> </div>
+        <!-- #################### SHOPPING CART DISPLAY v5
+    <div id="cart_wrapper">
+    	My Cart (<div id="view_cart_text_right"></div>)          
+		<div id="display_cart_summary"><div class="cartsummary_empty">(Your shopping cart is empty)</div></div>
+    </div> #################### --> 
+        <!-- #################### SHOPPING CART DISPLAY winter09
+    <div id="cart_wrapper">       
+		<div id="display_cart_summary"><div class="cartsummary_empty">(Your shopping cart is empty)</div></div>
+    </div> #################### --> 
+        <!-- #################### SEARCH BOX #################### -->
+        <div id="display_search_wrapper">
+            <div id="display_search">
+                <form action="/SearchResults.asp" method="get" name="SearchBoxForm">
+                    <input type="text" name="Search" class="empty" value="Search..." onfocus="check_searchbox_focus(this);" onblur="check_searchbox_blur(this);"/>
+                    <input type="submit" value="Search" class="but"/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- #################### CONTENT #################### -->
+    <div id="content">
+        <div id="left_nav">
+            <div id="Menu2_Title" class="menu_title">Categories</div>
+            <div id="display_menu_2" class="menu">
+<script type="text/javascript">var breadCrumb="||";</script>
+<script type="text/javascript">
+function mOvr2(src)
+{ if (src.className != 'nav nav_hover nav_selected') src.className = 'nav nav_hover'; }
+function mOut2(src)
+{ if (src.className != 'nav nav_hover nav_selected') src.className = 'nav'; }
+function mClk2(src, popup) 
+{ if (!popup) {window.location=src.getElementsByTagName('A')[0].getAttribute('href');} else {window.open(src);} }
+</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/category-s/10383.htm" title="">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/category-s/10383.htm" title="">Books and Sheet Music</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/School-of-Contemporary-Music-lessons-s/10353.htm" title="School of Contemporary Music, lessons">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/School-of-Contemporary-Music-lessons-s/10353.htm" title="School of Contemporary Music, lessons">Lessons</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/Band-Orchestra-Instrument-Rental-Accent-Music-Delaware-s/10382.htm" title="Band & Orchestra Instrument Rental Accent Music Delaware">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/Band-Orchestra-Instrument-Rental-Accent-Music-Delaware-s/10382.htm" title="Band & Orchestra Instrument Rental Accent Music Delaware">Rentals Band Instrument</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/category-s/11727.htm" title="">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/category-s/11727.htm" title="">Make Mobile Payment</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/category-s/11581.htm" title="">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/category-s/11581.htm" title="">Events</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/Accent-Music-Gift-Card-s/11580.htm" title="Accent Music Gift Card">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/Accent-Music-Gift-Card-s/11580.htm" title="Accent Music Gift Card">Gift Card</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/Instrument-Repairs-s/10375.htm" title="Instrument Repairs">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/Instrument-Repairs-s/10375.htm" title="Instrument Repairs">Repairs</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/Accessories-Parts-s/51.htm" title="Accessories & Parts">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/Accessories-Parts-s/51.htm" title="Accessories & Parts">Accessories</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/Rock-School-Accent-Music-Delaware-s/10370.htm" title="Rock School Accent Music Delaware">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/Rock-School-Accent-Music-Delaware-s/10370.htm" title="Rock School Accent Music Delaware">Rock School</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/World-Instruments-s/10354.htm" title="World Instruments">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/World-Instruments-s/10354.htm" title="World Instruments">World Instruments</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/Band-Orchestra-s/29.htm" title="Band & Orchestra">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/Band-Orchestra-s/29.htm" title="Band & Orchestra">Band & Orchestra</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/drums-and-percussion-s/14.htm" title="drums and percussion">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/drums-and-percussion-s/14.htm" title="drums and percussion">Drums & Percussion</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/guitar-s/1.htm" title="guitar">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/guitar-s/1.htm" title="guitar">Guitars</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/keyboards-s/21.htm" title="keyboards">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/keyboards-s/21.htm" title="keyboards">Keyboards</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/Pro-Audio-s/35.htm" title="Pro Audio">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/Pro-Audio-s/35.htm" title="Pro Audio">Pro Audio</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/category-s/11582.htm" title="">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/category-s/11582.htm" title="">Employment Opportunities</a>
+		</td>
+	</tr>
+<tr>
+	<td colspan="2" class="colors_lines"><img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="1" height="1"></td>
+</tr>
+	<tr class="nav" onmouseover="mOvr2(this);" onmouseout="mOut2(this);"> 
+		<td onclick="mClk2(this);" width="1%" valign="top">
+			<a href="https://www.accentmusic.com/category-s/11739.htm" title="">
+			<img src="/v/vspfiles/templates/AB/images/Template/Menu2_Bullet.gif" border="0" align="absmiddle"></a></td>
+		<td onclick="mClk2(this);" width="100%" valign="middle">
+			<a href="https://www.accentmusic.com/category-s/11739.htm" title="">Resources</a>
+		</td>
+	</tr>
+</table>
+</div>
+            <div class="elist">
+                <div class="elist__title">Join our Mailing List</div>
+                <form name="MailingList" method="post" action="/mailinglist_subscribe.asp">
+                    <input type="text" class="form-control elist__input" name="emailaddress" value="" placeholder="Email Address..." />
+                    <button type="submit" name="Submit" class="elist__submit" value="Subscribe"> Submit </button>
+                </form>
+<style type="text/css">
+#volusion_ssl_seal { behavior: url(/a/iepngfix.htc); }
+</style>
+<br/><a href="javascript:void(0);" onclick="window.open('https://www.volusion.com/ssl.asp?url=www.accentmusic.com', 'VolusionSSL', 'top=10,left=10,menubar=0,resizable=0,scrollbars=0,width=467,height=467')"><img id="volusion_ssl_seal" src="/a/i/seal_volusion1.png" border="0" height="113" width="100"/></a><br/>
+            </div>
+        </div>
+        <div id="content_area">
+	<img src="v/vspfiles/templates/AB/images/clear1x1.gif" width="5" height="5">
+	
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+		
+		<td width="100%" valign="top"> 
+		<link rel='stylesheet' href='/a/j/slider/owl.carousel.css'>
+<link rel='stylesheet' href='/a/j/slider/volusion-owl.css'>
+<div class='owl-carousel owl-theme' id='vSlider'>
+ <div class='item'>
+        <img class='owl-lazy' data-src='/v/vspfiles/photos/homepage/1511534941636.jpg' alt=''/>
+</div>
+</div>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type='text/javascript'>
+    var jq211 = jQuery.noConflict(true);
+</script>
+<script src='/a/j/slider/owl.carousel.js'></script>
+<script type='text/javascript'>
+var vSliderOptions = { 
+    loop: false, 
+    items: 1, 
+    dots: false, 
+    lazyLoad: true, 
+autoplaySpeed: 600,
+navSpeed: 600,
+dotsSpeed: 600,
+onTranslate: onTranslateCallback,
+onTranslated: onTranslatedCallback
+}; 
+function onTranslateCallback(){jq211('#vSlider .owl-stage').addClass('owl-translating');}
+function onTranslatedCallback(){jq211('#vSlider .owl-stage').removeClass('owl-translating');}
+var isIe = window.navigator.userAgent.indexOf('MSIE '); if( isIe > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./) ){vSliderOptions.lazyLoad = false; jq211('#vSlider .item img').each(function(){ var $this = jq211(this); $this.removeClass('owl-lazy'); $this.attr('src', $this.attr('data-src')); })}
+if (document.addEventListener != undefined) {
+jq211(document).ready(function() {
+    jq211('.owl-carousel').closest('table').css('table-layout', 'fixed');
+    jq211('#vSlider').owlCarousel(vSliderOptions);
+});
+}
+else{
+console.log('This websites slideshow is not supported');
+jq211('#vSlider').css('display', 'block');
+var firstImg = jq211('#vSlider .item:first-child img'); firstImg.attr('src', firstImg.attr('data-src')).attr('width', '100%');
+}
+
+		jq211("#vSlider a.item").bind("click", function (event) {
+			var $this = jq211(this),
+				thisSlidesHref = $this.attr("href") || $this.attr("data-href");
+
+			if (thisSlidesHref !== "javascript:void(0)") {
+				window.location.href = thisSlidesHref;
+			}
+		});
+	</script>
+
+			<img src="v/vspfiles/templates/AB/images/clear1x1.gif" width="7" height="7"><br><b>Welcome.</b>
+			<br>
+			<br>
+			<div id="div_articleid_2">
+<table>
+<tbody>
+<tr>
+	<td>
+	</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+	<td>
+		<a href="http://www.accentmusic.com/School-of-Contemporary-Music-lessons-s/10353.htm" title="Music Lesson Banner"><img src="http://www.accentmusic.com/v/vspfiles/assets/images/lessons.jpg" style="width: 283px; float: left; margin: 0px 10px 10px 0px;" alt="Music Lesson Banner" /></a>
+	</td>
+	<td>
+		<a href="http://www.accentmusic.com/Band-Orchestra-Instrument-Rental-Accent-Music-Delaware-s/10382.htm" title="School rental Banner"></a><a href="http://www.accentmusic.com/Band-Orchestra-Instrument-Rental-Accent-Music-Delaware-s/10382.htm"><img src="http://www.accentmusic.com/v/vspfiles/templates/AB/images/template/small-banner-5.jpg" alt="School rental Banner" style="width: 299px; float: left; margin: 0px 10px 10px 0px;" /></a>
+	</td>
+	<td>
+		<a href="http://www.accentmusic.com/Instrument-Repairs-s/10375.htm" title="Repair banner"><img src="http://www.accentmusic.com/v/vspfiles/templates/AB/images/template/small-banner-6.jpg" alt="Repair banner" style="width: 295px; float: left; margin: 0px 10px 10px 0px;" /></a>
+	</td>
+</tr>
+<tr>
+	<td>
+		<a href="http://www.accentmusic.com/Rock-School-Accent-Music-Delaware-s/10370.htm" title="RockSchool Banner"></a>
+	</td>
+	<td>
+		<a href="https://www.accentmusic.com/Articles.asp?ID=247" title="Rehearsal Studio Banner"></a>
+	</td>
+	<td>
+		<a href="https://www.accentmusic.com/Articles.asp?ID=247" title="AccentLive Banner"></a>
+	</td>
+</tr>
+<tr>
+	<td>
+	</td>
+	<td>
+	</td>
+	<td>
+	</td>
+</tr>
+</tbody>
+</table>
+<br /><p><img src="https://cdn.lessons.com/assets/images/tmp/lessons.com-2016.png" width="150" alt="" /></p><br /><p><a href="https://www.alignable.com/wilmington-de/accent-music"><img src="https://www.alignable.com/assets/badge/alignable-r3.png" title="Recommended by Locals On Alignable" /></a></p><br /><br /><div><br /></div><br /><div><br /></div><br /><br /><font style="background-color: initial;"><u><a href="http://www.accentmusic.com/Ludwig-LC175-Accent-Drive-Complete-Drum-Kit-p/lc1759.htm">.<br /></a></u></font>
+<div class="small-banner">
+	<br />
+</div>
+<div class="small-banner-r">
+</div>
+<div class="small-banner">
+</div>
+<div class="small-banner">
+</div>
+<div class="small-banner-r">
+</div>
+<p></p><br />
+</div><!-- .vcb-article -->
+<textarea style="display:none;" id="articleBody_2" readonly="true"></textarea>
+
+			<br />
+			<br />
+
+            <img src="v/vspfiles/templates/AB/images/HomePage/FeaturedProducts.gif" style="margin-left:5px"><br>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td background="/v/vspfiles/templates/AB/images/Divider_Horizontal.gif" colspan="-1">
+				<img src="v/vspfiles/templates/AB/images/clear1x1.gif" width="3" height="9"></td>
+              </tr>
+            </table>
+			<table width="96%" border="0" cellspacing="0" cellpadding="2" align="center"><tr><td>
+<table width="100%" border="0" cellspacing="10" cellpadding="10" class="v65-productDisplay"> 
+<tr><td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="v65-productDisplay"> 
+<tr> 
+<td valign="top" width="50%" align="center"> 
+<a href="https://www.accentmusic.com/product-p/do-not-use-cart.htm" title="Customers with Existing Rental Contracts ** MOBILE PAYMENT OPTION" alt="Customers with Existing Rental Contracts ** MOBILE PAYMENT OPTION">
+<img src="//cdn3.volusion.com/zwejl.pxlad/v/vspfiles/photos/DO-NOT-USE-CART-1.jpg?1467134539" style="BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid"  border=0 alt="Customers with Existing Rental Contracts ** MOBILE PAYMENT OPTION" title="Customers with Existing Rental Contracts ** MOBILE PAYMENT OPTION"></a>
+<script type="text/javascript">if(window.VCompare){VCompare('DO-NOT-USE-CART', 5);}</script>
+</td> 
+<td rowspan="4" background="/v/vspfiles/templates/AB/images/Grid_Divider_Vertical.gif"> 
+<img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="25" height="25"> 
+</td> 
+<td valign="top" width="50%" align="center"> 
+<a href="https://www.accentmusic.com/Ibanez-JamPack-IJV50-Quickstart-Dreadnought-Acoust-p/72220.htm" title="Ibanez JamPack IJV50 Quickstart Dreadnought Acoustic Guitar Pack (Natural)" alt="Ibanez JamPack IJV50 Quickstart Dreadnought Acoustic Guitar Pack (Natural)">
+<img src="//cdn3.volusion.com/zwejl.pxlad/v/vspfiles/photos/72220-1.jpg?1399270361" style="BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid"  border=0 alt="Ibanez JamPack IJV50 Quickstart Dreadnought Acoustic Guitar Pack (Natural)" title="Ibanez JamPack IJV50 Quickstart Dreadnought Acoustic Guitar Pack (Natural)"></a>
+<script type="text/javascript">if(window.VCompare){VCompare('72220', 5);}</script>
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+<div>
+
+<a href="https://www.accentmusic.com/product-p/do-not-use-cart.htm" class="productnamecolor colors_productname" title="Customers with Existing Rental Contracts ** MOBILE PAYMENT OPTION, DO-NOT-USE-CART"> 
+<span itemprop='name'>
+Customers with Existing Rental Contracts ** MOBILE PAYMENT OPTION
+</span>
+</a>
+<br />
+<div>
+
+<div>
+<b><font class="pricecolor colors_productprice"><div class="product_subtext">Make your online payment</div></font></b>
+</div>
+</div>
+</td>
+</td> 
+<td valign="top" width="50%"> 
+<div>
+<meta itemprop='productID' content='606559536139'>
+<a href="https://www.accentmusic.com/Ibanez-JamPack-IJV50-Quickstart-Dreadnought-Acoust-p/72220.htm" class="productnamecolor colors_productname" title="Ibanez JamPack IJV50 Quickstart Dreadnought Acoustic Guitar Pack (Natural), 72220"> 
+<span itemprop='name'>
+Ibanez JamPack IJV50 Quickstart Dreadnought Acoustic Guitar Pack (Natural)
+</span>
+</a>
+<br />
+Available
+<div>
+<meta itemprop='productID' content='606559536139'>
+<div>
+<font class="text colors_text">    <div class="product_listprice"> <b>List Price: $249.99</b>     </div></font><font class="pricecolor colors_productprice">    <div class="product_productprice">        <b> <font class="text colors_text">Our Price:</font> $137.49 </b>    </div></font><font class="productnamecolor colors_productname"><i><b>    <div class="product_yousave"><i><b>You save $112.50!</b></i>    </div></b></i></font>
+</div>
+</div>
+</td>
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+</td> 
+<td valign="top" width="50%"> 
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+<font class="text colors_text">
+<b>DO NOT 'ADD TO CART'  - PAYMENT WON'T APPLY !  USE "Make Rental Payment" LINK BELOW to ensure you account is properly credited.  Your six digit customer ID number is required.<br />****************************************************************************************<br /></b>
+<div style="margin-left: 80px;"><b style="background-color: initial;">MOBILE PAYMENTS ONLY - EXISTING RENTAL CONTRACTS</b></div><div><b>Need to make an online payment from your desktop?  Click "Rentals Band Instrument" in main menu instead.<br /><br />CLICK THIS LINK FROM YOUR MOBILE DEVICE:<br /></b><b><br /></b><span style="color: rgb(12, 12, 12); font-family: Arial; font-size: 18px;">
+	<form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx" >
+		<input type="hidden" name="LinkId" value="02ff7184-83b0-40a8-a6ee-da8e49b806bc" /> <input type="submit" value="Make Rental Payment" />
+	</form>
+	</span><br /><b>This one-time payment will be credited to your account on the date submitted.  You are not charged a fee to use this service. Above link functions for mobile payments only.  Desktop online payments must enter through "Rentals Band Instrument" menu link.  Payments made via phone incur an additional $5.00 charge  SAVE TIME and AVOID LATE FEES - Sign up for automatic recurring payments, call 302-999-9187<br /><br />********************************************************************************<br /><br /></b></div>
+</font>
+</td> 
+<td valign="top" width="50%"> 
+<font class="text colors_text">
+Ibanez JamPack IJV50 Quickstart Dreadnought Acoustic Guitar Pack (Natural)
+</font>
+</td> 
+</tr> 
+<tr> 
+<td background="/v/vspfiles/templates/AB/images/Grid_Divider_Horizontal.gif" colspan="3"> 
+<img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="3" height="9"> 
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%" align="center"> 
+<a href="https://www.accentmusic.com/Accent-Music-Gift-Card-p/gft.htm" title="Accent Music Gift Card" alt="Accent Music Gift Card">
+<img src="//cdn3.volusion.com/zwejl.pxlad/v/vspfiles/photos/GFT-1.jpg" style="BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid"  border=0 alt="Accent Music Gift Card" title="Accent Music Gift Card"></a>
+<script type="text/javascript">if(window.VCompare){VCompare('GFT', 5);}</script>
+</td> 
+<td rowspan="4" background="/v/vspfiles/templates/AB/images/Grid_Divider_Vertical.gif"> 
+<img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="25" height="25"> 
+</td> 
+<td valign="top" width="50%" align="center"> 
+<a href="https://www.accentmusic.com/Yamaha-DGX650B-Portable-Grand-Keyboard-p/dgx650b.htm" title="Yamaha DGX650B Portable Grand Keyboard" alt="Yamaha DGX650B Portable Grand Keyboard">
+<img src="//cdn3.volusion.com/zwejl.pxlad/v/vspfiles/photos/DGX650B-1.jpg" style="BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid"  border=0 alt="Yamaha DGX650B Portable Grand Keyboard" title="Yamaha DGX650B Portable Grand Keyboard"></a>
+<script type="text/javascript">if(window.VCompare){VCompare('DGX650B', 5);}</script>
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+<div>
+
+<a href="https://www.accentmusic.com/Accent-Music-Gift-Card-p/gft.htm" class="productnamecolor colors_productname" title="Accent Music Gift Card, GFT"> 
+<span itemprop='name'>
+Accent Music Gift Card
+</span>
+</a>
+<br />
+Available for download now
+<div>
+
+<div>
+<b><font class="pricecolor colors_productprice"><div class="product_subtext"></div></font></b>
+</div>
+</div>
+</td>
+</td> 
+<td valign="top" width="50%"> 
+<div>
+
+<a href="https://www.accentmusic.com/Yamaha-DGX650B-Portable-Grand-Keyboard-p/dgx650b.htm" class="productnamecolor colors_productname" title="Yamaha DGX650B Portable Grand Keyboard, DGX650B"> 
+<span itemprop='name'>
+Yamaha DGX650B Portable Grand Keyboard
+</span>
+</a>
+<br />
+Usually Ships in 24 to 48 Hours
+<div>
+
+<div>
+<font class="text colors_text">    <div class="product_listprice"> <b>List Price: $1,299.00</b>     </div></font><font class="pricecolor colors_productprice">    <div class="product_productprice">        <b> <font class="text colors_text">Our Price:</font> $799.00 </b>    </div></font><font class="productnamecolor colors_productname"><i><b>    <div class="product_yousave"><i><b>You save $500.00!</b></i>    </div></b></i></font>
+</div>
+</div>
+</td>
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+</td> 
+<td valign="top" width="50%"> 
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+<font class="text colors_text">
+Accent Music Gift Card. &nbsp;Any amount you want!
+</font>
+</td> 
+<td valign="top" width="50%"> 
+<font class="text colors_text">
+Yamaha DGX640C Portable Grand Keyboard
+</font>
+</td> 
+</tr> 
+<tr> 
+<td background="/v/vspfiles/templates/AB/images/Grid_Divider_Horizontal.gif" colspan="3"> 
+<img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="3" height="9"> 
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%" align="center"> 
+<a href="https://www.accentmusic.com/Ibanez-Electric-Guitar-Pack-IJRG220Z-p/ijrg220z.htm" title="Ibanez Electric Guitar Pack IJRG220Z" alt="Ibanez Electric Guitar Pack IJRG220Z">
+<img src="//cdn3.volusion.com/zwejl.pxlad/v/vspfiles/photos/IJRG220Z-1.jpg" style="BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid"  border=0 alt="Ibanez Electric Guitar Pack IJRG220Z" title="Ibanez Electric Guitar Pack IJRG220Z"></a>
+<script type="text/javascript">if(window.VCompare){VCompare('IJRG220Z', 5);}</script>
+</td> 
+<td rowspan="4" background="/v/vspfiles/templates/AB/images/Grid_Divider_Vertical.gif"> 
+<img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="25" height="25"> 
+</td> 
+<td valign="top" width="50%" align="center"> 
+<a href="https://www.accentmusic.com/Ludwig-LC175-Accent-Drive-Complete-Drum-Kit-p/lc1759.htm" title="Ludwig LC175 Accent Drive Complete Drum Kit (5-Piece) Blue" alt="Ludwig LC175 Accent Drive Complete Drum Kit (5-Piece) Blue">
+<img src="//cdn3.volusion.com/zwejl.pxlad/v/vspfiles/photos/LC1759-1.jpg?1399270361" style="BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid"  border=0 alt="Ludwig LC175 Accent Drive Complete Drum Kit (5-Piece) Blue" title="Ludwig LC175 Accent Drive Complete Drum Kit (5-Piece) Blue"></a>
+<script type="text/javascript">if(window.VCompare){VCompare('LC1759', 5);}</script>
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+<div>
+
+<a href="https://www.accentmusic.com/Ibanez-Electric-Guitar-Pack-IJRG220Z-p/ijrg220z.htm" class="productnamecolor colors_productname" title="Ibanez Electric Guitar Pack IJRG220Z, IJRG220Z"> 
+<span itemprop='name'>
+Ibanez Electric Guitar Pack IJRG220Z
+</span>
+</a>
+<br />
+Usually Ships in 24 Hours
+<div>
+
+<div>
+<font class="text colors_text">    <div class="product_listprice"> <b>List Price: $406.00</b>     </div></font><font class="pricecolor colors_productprice">    <div class="product_productprice">        <b> <font class="text colors_text">Our Price:</font> $249.00 </b>    </div></font><font class="productnamecolor colors_productname"><i><b>    <div class="product_yousave"><i><b>You save $157.00!</b></i>    </div></b></i></font>
+</div>
+</div>
+</td>
+</td> 
+<td valign="top" width="50%"> 
+<div>
+<meta itemprop='productID' content='038081272849'>
+<a href="https://www.accentmusic.com/Ludwig-LC175-Accent-Drive-Complete-Drum-Kit-p/lc1759.htm" class="productnamecolor colors_productname" title="Ludwig LC175 Accent Drive Complete Drum Kit (5-Piece) Blue, LC1759"> 
+<span itemprop='name'>
+Ludwig LC175 Accent Drive Complete Drum Kit (5-Piece) Blue
+</span>
+</a>
+<br />
+Available
+<div>
+<meta itemprop='productID' content='038081272849'>
+<div>
+<font class="text colors_text">    <div class="product_listprice"> <b>List Price: $690.00</b>     </div></font><font class="pricecolor colors_productprice">    <div class="product_productprice">        <b> <font class="text colors_text">Our Price:</font> $449.00 </b>    </div></font><font class="productnamecolor colors_productname"><i><b>    <div class="product_yousave"><i><b>You save $241.00!</b></i>    </div></b></i></font>
+</div>
+</div>
+</td>
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+</td> 
+<td valign="top" width="50%"> 
+</td> 
+</tr> 
+<tr> 
+<td valign="top" width="50%"> 
+<font class="text colors_text">
+Ibanez Electric Guitar Pack IJRG220Z<br />
+</font>
+</td> 
+<td valign="top" width="50%"> 
+<font class="text colors_text">
+Ludwig LC175 Accent Drive Complete Drum Kit (5-Piece) Blue
+</font>
+</td> 
+</tr> 
+<tr> 
+<td background="/v/vspfiles/templates/AB/images/Grid_Divider_Horizontal.gif" colspan="3"> 
+<img src="/v/vspfiles/templates/AB/images/clear1x1.gif" width="3" height="9"> 
+</td> 
+</tr> 
+</table> 
+</td></tr></table>
+<div id="div_articleid_71">
+</div><!-- .vcb-article -->
+<textarea style="display:none;" id="articleBody_71" readonly="true"></textarea>
+</td></tr></table><br><br>
+</td><td valign="top">
+<div id="div_articleid_72">
+<br>
+</div><!-- .vcb-article -->
+<textarea style="display:none;" id="articleBody_72" readonly="true"></textarea>
+</td></tr></table>
+</div>
+        <div class="clear"></div>
+    </div>
+    <!-- #################### FOOTER #################### --> 
+</div>
+
+	<style>
+		#content_area br{display:none;}
+	</style>
+    <div class="greay-bg">
+        <a href="http://www.njmea.org/"><img src="/v/vspfiles/templates/AB/images/template/logo-1.jpg" alt="logo" /></a>
+        <a href="http://www.pmea.net/"><img src="/v/vspfiles/templates/AB/images/template/logo-2.jpg" alt="logo" /></a>
+        <a href="http://www.mmea-maryland.org/"><img src="/v/vspfiles/templates/AB/images/template/logo-3.jpg" alt="logo" /></a>
+        <a href="#"><img src="/v/vspfiles/templates/AB/images/template/logo-4.jpg" alt="logo" /></a>
+        <a href="http://delawaremea.org/all-state-ensembles/" target="_blank"><img src="/v/vspfiles/templates/AB/images/template/logo-5.jpg" alt="logo" /></a>
+    </div>
+
+<div id="footer">
+	<div class="footer-top-main">Stay Connected   <a href="https://twitter.com/accentmusic"><img src="/v/vspfiles/templates/AB/images/template/t-icon.jpg" /></a> 
+    <a href="https://www.facebook.com/accentmusic"><img src="/v/vspfiles/templates/AB/images/template/f-icon.jpg" /></a></div>
+    <div id="footer_top">
+        <ul>
+            <li><a href="/aboutus.asp">About Us</a></li>
+            <li><a href="/affiliate_info.asp">Become an Affiliate</a></li>
+            <li><a href="/terms_privacy.asp">Privacy Policy</a></li>
+            <li><a href="mailto:steve@accentmusic.com?subject=Customer Feedback for Accent Music, Inc.">Send Us Feedback</a></li>
+            <li><a href="javascript:addbookmark()">Bookmark Us</a></li>
+            <li><a href="/pindex.asp">Product Index</a></li>
+            <li><a href="/cindex.asp">Category Index</a></li>
+            <li><a href="/help.asp">Help</a></li>
+            <li><a href="/terms.asp" class="end">Terms of Use</a></li>
+        </ul>
+    </div>
+    <div id="footer_bottom">
+        <div style="text-align:left; float:left;">Accent Music. Copyright 2015 Delaware's #1 Music Store 5810-A Kirkwood Hwy &bull; Wilmington, Delaware 19808<br /> <a class="tf_upfront_badge" href="http://www.thefind.com/store/about-accentmusic" title="TheFind Upfront" style="text-decoration:none;"><b>AccentMusic</b> is <u>Upfront</u></a> | Designed by <a href="http://avidbrio.com/ecommerce-solutions.html" target="_blank" title="Ecommerce Website Design">Ecommerce Website Design</a> Company
+        <script type="text/javascript">
+    (function() {
+      var upfront = document.createElement('SCRIPT'); upfront.type = "text/javascript"; upfront.async = true;
+      upfront.src = document.location.protocol + "//upfront.thefind.com/scripts/main/utils-init-ajaxlib/upfront-badgeinit.js";
+      upfront.text = "thefind.upfront.init('tf_upfront_badge', '6d19dac06f042a62321e1bf9c1710187')";
+      document.getElementsByTagName('HEAD')[0].appendChild(upfront);
+    })();
+  </script> 
+        <!--<p><a href="/terms.asp">Copyright &copy; <script type="text/javascript">document.write((new Date()).getFullYear());</script>  &nbsp;Accent Music, Inc.. All Rights Reserved.</a></p>--> 
+        <!-- ==========================================================================================
+				VOLUSION LINK - BEGIN
+===============================================================================================
+Customer has agreed per Volusion's Terms of Service (http://www.volusion.com/agreement_monthtomonth.asp) to maintain a text hyperlink to "http://www.volusion.com" in the footer of the website. The link must be standard html, contain no javascript, and be approved by Volusion. Removing this link breaches the Volusion agreement. -->
+        <p>Built with <a href="http://www.volusion.com" target="_blank" rel="nofollow">Volusion</a>.</p>
+        <!-- ==========================================================================================
+				VOLUSION LINK - END
+=========================================================================================== --> 
+    </div>
+    <div style="float:right;"><img src="/v/vspfiles/templates/AB/images/template/card-icon.jpg" alt="Card" /> <a href="javascript:void(0);" onclick="window.open('https://www.volusion.com/ssl.asp?url=www.accentmusic.com', 'VolusionSSL', 'top=10,left=10,menubar=0,resizable=0,scrollbars=0,width=467,height=467')" ><img src="/v/vspfiles/templates/AB/images/template/volusion-logo.jpg" alt=""></a></div>
+</div>
+<!-- #################### SHOPPING CART DISPLAY JS FILE
+<script src="/v/vspfiles/templates/AB/js/shopping_cart_summary.js" type="text/javascript"></script>
+<script src="/v/vspfiles/templates/AB/js/header_cart_summary.js" type="text/javascript"></script> 
+#################### --> 
+<!-- #################### REMOVE BREAD CRUMB
+<script src="/v/vspfiles/templates/AB/js/removebreadcrumb.js" type="text/javascript"></script> 
+#################### --> 
+<!-- #################### SEARCH TEXT CHANGE #################### --> 
+<script src="/v/vspfiles/templates/AB/js/search_text_change.js" type="text/javascript"></script> 
+<!-- #################### BOOKMARK JS FILE#################### --> 
+<script src="/v/vspfiles/templates/AB/js/bookmark.js" type="text/javascript"></script>
+</div>
+
+
+
+<script type="text/javascript">function store_init(event){} AttachEvent(window, 'load', store_init);</script>
+
+<script type="text/javascript">
+    if (!/\/shoppingcart\.asp/i.test(window.location.pathname)) {
+        jQuery(document).ready(function() {
+            jQuery('a').each(AddCartLink)
+        });
+    }
+</script>
+
+  <script>
+     if (document.getElementsByName("MailingList")[0]) {
+        var emailSubscribeForm = document.getElementsByName("MailingList")[0];
+        disableSubscribeSubmit = function() {
+          emailSubscribeButton.removeAttribute("type");
+        }
+        forwardToMailingList = function(e) {
+            var subscribeEmail = emailSubscribeForm.querySelector("input").value;
+          sessionStorage.setItem("subEmailAddress", subscribeEmail);
+          emailSubscribeForm.submit();
+        }
+
+        if (emailSubscribeForm.querySelector("button")) {
+            var emailSubscribeButton = emailSubscribeForm.querySelector("button");
+            emailSubscribeButton.addEventListener("click", forwardToMailingList);
+        }
+    }
+  </script>
+
+</body>
+</html>

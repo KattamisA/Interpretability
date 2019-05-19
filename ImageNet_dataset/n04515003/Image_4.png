@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"/>
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="pingback" href="https://countrywidepianos.com/xmlrpc.php">
+		<title>Countrywide Piano Centre &#8211; Quite simply the best discounted pianos in the UK</title>
+<link rel='dns-prefetch' href='//www.google.com' />
+<link href='https://fonts.gstatic.com' crossorigin='anonymous' rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Countrywide Piano Centre &raquo; Feed" href="https://countrywidepianos.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Countrywide Piano Centre &raquo; Comments Feed" href="https://countrywidepianos.com/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.6.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+<!-- No UA code set -->
+<!-- / Google Analytics by MonsterInsights -->
+<link rel='stylesheet' id='wp-block-library-css'  href='https://countrywidepianos.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpda_countdown_gutenberg_css-css'  href='https://countrywidepianos.com/wp-content/plugins/widget-countdown/includes/gutenberg/style.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://countrywidepianos.com/wp-content/plugins/woo-gutenberg-products-block/build/style.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://countrywidepianos.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='openswatch-css'  href='https://countrywidepianos.com/wp-content/plugins/openswatch/assets/css/openswatch.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tooltipster-css'  href='https://countrywidepianos.com/wp-content/plugins/openswatch/assets/css/tooltipster.css?ver=5.2' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='megamenu-css'  href='https://countrywidepianos.com/wp-content/uploads/maxmegamenu/style.css?ver=32c7c7' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://countrywidepianos.com/wp-includes/css/dashicons.min.css?ver=5.2' type='text/css' media='all' />
+<style id='dashicons-inline-css' type='text/css'>
+[data-font="Dashicons"]:before {font-family: 'Dashicons' !important;content: attr(data-icon) !important;speak: none !important;font-weight: normal !important;font-variant: normal !important;text-transform: none !important;line-height: 1 !important;font-style: normal !important;-webkit-font-smoothing: antialiased !important;-moz-osx-font-smoothing: grayscale !important;}
+</style>
+<link rel='stylesheet' id='yit-icon-retinaicon-font-css'  href='https://countrywidepianos.com/wp-content/plugins/yith-woocommerce-popup/assets/fonts/retinaicon-font/style.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ypop_frontend-css'  href='https://countrywidepianos.com/wp-content/plugins/yith-woocommerce-popup/assets/css/frontend.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jas-gecko-parent-style-css'  href='https://countrywidepianos.com/wp-content/themes/gecko/style.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jas-font-google-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CLato%3A400%2C300%2C700%7CLibre+Baskerville%3A400italic&#038;subset=latin%2Clatin-ext&#038;ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://countrywidepianos.com/wp-content/themes/gecko/assets/vendors/font-awesome/css/font-awesome.min.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-stroke-css'  href='https://countrywidepianos.com/wp-content/themes/gecko/assets/vendors/font-stroke/css/font-stroke.min.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='https://countrywidepianos.com/wp-content/themes/gecko/assets/vendors/slick/slick.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jas-gecko-animated-css'  href='https://countrywidepianos.com/wp-content/themes/gecko/assets/css/animate.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jas-gecko-style-css'  href='https://countrywidepianos.com/wp-content/themes/gecko-child/style.css?ver=5.2' type='text/css' media='all' />
+<style id='jas-gecko-style-inline-css' type='text/css'>
+.jas-branding {max-width: 650px;margin: auto;}.header-6 .header__mid, .header-7 {background-image:  url(http://janstudio.net/gecko/handmade/wp-content/uploads/2016/04/header-7.jpg);background-size:       cover;background-repeat:     no-repeat;background-position:   center top;background-attachment: scroll;}.header-6 .header__mid:before {content: "";position: absolute;background: rgba(255, 255, 255, .85);left: 0;top: 0;width: 100%;height: 100%;z-index: 0;}.header-6 .header__mid .jas-branding, .header-7 .jas-branding {position: relative;}.jas-portfolio .page-head {background-image:  url(http://janstudio.net/gecko/organic/wp-content/uploads/2016/05/cosmetic.jpg);background-size:       cover;background-repeat:     no-repeat;background-position:   center center;background-attachment: scroll;}body {font-family: "Lato";font-weight: 400;font-size:15px;background-color: #fff;color:#111111;}h1, h2, h3, h4, h5, h6, .f__mont {font-family: "Montserrat";font-weight: 400;}h1, h2, h3, h4, h5, h6 {color:#000}h1 { font-size:48px; }h2 { font-size:36px; }h3 { font-size:28px; }h4 { font-size:20px; }h5 { font-size:16px; }h6 { font-size:12px; }a, a:hover, a:active,a.button-o,input.button-o,button.button-o,.cp, .chp:hover,.header-7 .jas-socials a,.header__top .jas-action a:hover,.woocommerce-MyAccount-navigation ul li:hover a,.woocommerce-MyAccount-navigation ul li.is-active a,.jas-menu li a:hover,.jas-menu li.current-menu-ancestor > a,.jas-menu li.current-menu-item > a,#jas-mobile-menu ul > li:hover > a, #jas-mobile-menu ul > li.current-menu-item > a, #jas-mobile-menu ul > li.current-menu-parent > a, #jas-mobile-menu ul > li.current-menu-ancestor > a,#jas-mobile-menu ul > li:hover > .holder, #jas-mobile-menu ul > li.current-menu-item > .holder,#jas-mobile-menu ul > li.current-menu-parent  > .holder,#jas-mobile-menu ul > li.current-menu-ancestor > .holder,#jas-footer a:hover,.inside-thumb a:hover,.jas-blog-slider .post-thumbnail > div a:hover,.page-numbers li a:hover,.page-numbers.current,.jas-filter a.selected,.sidebar .widget a:hover,.widget a:hover,.widget.widget_price_filter .price_slider_amount,.widget ul.product-categories li:hover > a,.widget ul.product-categories li.current-cat > a,.widget ul.product_list_widget li a:hover span.product-title,.product-button a.button,.p-video a i,.quantity .qty a:hover,.product_meta a:hover,.wc-tabs li.active a,.product-extra .product-button:not(.flex) > .yith-wcwl-add-to-wishlist .tooltip,.page-head a:hover,.vc_tta-tab.vc_active > a,.woocommerce .widget_layered_nav ul li a:hover,.woocommerce-page .widget_layered_nav ul li a:hover,.woocommerce .widget_layered_nav ul li.chosen a,.woocommerce-page .widget_layered_nav ul li.chosen a,.woocommerce .widget_layered_nav ul li span:hover,.woocommerce-page .widget_layered_nav ul li span:hover,.woocommerce .widget_layered_nav ul li.chosen span,.woocommerce-page .widget_layered_nav ul li.chosen span {color: #62493b;}input:not([type="submit"]):not([type="checkbox"]):focus,textarea:focus,a.button-o,input.button-o,button.button-o,a.button-o:hover,input.button-o:hover,button.button-o:hover,a.button-o-w:hover,.header-7 .jas-socials a,#jas-backtop,.more-link,.product-button a.button,.product-button > *,.single-btn .btn-quickview,.p-video a,.btn-atc .yith-wcwl-add-to-wishlist a,.header-7 #jas-mobile-menu > ul > li,.header-7 #jas-mobile-menu ul ul {border-color: #62493b;}input[type="submit"]:not(.button-o),button,a.button,a.button-o:hover,input.button-o:hover,button.button-o:hover,a.button-o-w:hover,.bgp, .bghp:hover,#jas-backtop span:before,.more-link:hover,.widget .tagcloud a:hover,.jas-mini-cart .button.checkout,.woocommerce-pagination-ajax a:hover,.woocommerce-pagination-ajax a.disabled,.jas-ajax-load a:hover,.jas-ajax-load a.disabled,.widget.widget_price_filter .ui-slider-range,.widget.widget_price_filter .ui-state-default,.product-image:hover .product-button a:hover,.yith-wcwl-add-to-wishlist i.ajax-loading,.btn-atc .yith-wcwl-add-to-wishlist a:hover,.entry-summary .single_add_to_cart_button,.entry-summary .external_single_add_to_cart_button,.jas-service[class*="icon-"] .icon:before,.metaslider .flexslider .flex-prev, .metaslider .flexslider .flex-next,.slick-prev, .slick-next {background-color: #62493b;}h1, h2, h3, h4, h5, h6,.cd,.wp-caption-text,.woocommerce-MyAccount-navigation ul li a,.jas-menu > li > a,#jas-mobile-menu ul li a,.holder,.page-numbers li,.page-numbers li a,.jas-portfolio-single .portfolio-meta span,.sidebar .widget a,.sidebar .widget ul li:before,.jas-mini-cart .mini_cart_item a:nth-child(2),.widget a,.product-category h3 .count,.widget ul.product-categories li a,.widget ul.product_list_widget li a span.product-title,.widget ul.product_list_widget li ins,.price,.product-image .product-attr,.product_meta > span,.shop_table th,.order-total,.order-total td,.jas-sc-blog .post-info h4 a {color: #274039;}.error-404.not-found a,.jas-pagination,.woocommerce-pagination,.woocommerce .widget_layered_nav ul.yith-wcan-label li a:hover,.woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover,.woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a,.woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a {border-color: #274039;}mark,.bgd,.error-404.not-found a:hover,#wp-calendar caption,.widget .tagcloud a,.woocommerce .widget_layered_nav ul.yith-wcan-label li a:hover,.woocommerce-page .widget_layered_nav ul.yith-wcan-label li a:hover,.woocommerce .widget_layered_nav ul.yith-wcan-label li.chosen a,.woocommerce-page .widget_layered_nav ul.yith-wcan-label li.chosen a,.jas-mini-cart .button,.sidebar .widget_shopping_cart .button,.actions .button.apply-cupon,.actions .button.update-cart,.button.continue-button {background-color: #274039;}.jas-socials a,.header-text,.header__top .jas-action a {color: #fff;}.jas-socials a {border-color: #fff;}.jas-action > a, .jas-icon-cart a, .jas-my-account a {color: #000;}.jas-menu > li > a,#jas-mobile-menu ul > li:hover > a, #jas-mobile-menu ul > li.current-menu-item > a, #jas-mobile-menu ul > li.current-menu-parent > a, #jas-mobile-menu ul > li.current-menu-ancestor > a,#jas-mobile-menu ul > li:hover > .holder, #jas-mobile-menu ul > li.current-menu-item > .holder,#jas-mobile-menu ul > li.current-menu-parent  > .holder,#jas-mobile-menu ul > li.current-menu-ancestor > .holder {color: #4d5959;}.jas-menu li > a:hover,.jas-menu li.current-menu-ancestor > a,.jas-menu li.current-menu-item > a,.jas-account-menu a:hover {color: #b59677;}.jas-menu ul a, .jas-account-menu ul a {color: #fff;}.jas-menu ul li a:hover {color: #b59677;}.jas-menu ul, .jas-account-menu ul {background: #3e3e3e;}.header__transparent .jas-menu > li > a {color: #4d5959;}.header__transparent .jas-menu > li > a:hover {color: #b59677;}.header-sticky .header__mid { background-color: #fff}.header-sticky .jas-menu > li > a {color: #4d5959;}.header-sticky .jas-menu li > a:hover,.header-sticky .jas-menu li.current-menu-ancestor > a,.header-sticky .jas-menu li.current-menu-item > a,.header-sticky .jas-account-menu a:hover {color: #b59677;}.header-sticky .jas-menu ul a, .header-sticky .jas-account-menu ul a {color: #fff;}.header-sticky .jas-menu ul li a:hover {color: #b59677;}.header-sticky .jas-menu ul, .header-sticky .jas-account-menu ul {background: #3e3e3e;}.header-sticky .jas-action > a, .header-sticky .jas-icon-cart a, .header-sticky .jas-my-account a {color: #000;}#jas-footer:before {background: rgba(0, 0, 0, 0.95);}.footer__bot {background: #000;}#jas-footer {color: #fff;}#jas-footer a {color: #fff;}#jas-footer a:hover {color: #b59677;}body:not(.page-id-31) .grecaptcha-badge {display: none;}.product-category h3, .woocommerce .product-category h2, .product-category h2, .woocommerce .product-category h3, .product-category h3 {position: relative;bottom: 0;left: 0;margin-bottom: 1rem;width: 100%;padding: 0.75rem;text-align: center;color: #555;}.product-category h2:after, .product-category h3:after {display: none;}/* home page tabbed content */.home .vc_tta-tab {border-bottom: 1px solid #ccc;}.home .vc_tta-tab > a {font-size: 15px;padding: 20px 10px!important;}.home .vc_tta-tab.vc_active {border-bottom-color: transparent!important;}.home .vc_tta-tab > a:hover {background-color: #ccc!important;}.home .vc_tta-tab.vc_active {border: 1px solid #ccc!important;background-color: #ccc!important;}.home .vc_tta-tab.vc_active a {color: #555!important;}.vc_tta-panels-container {margin-top: -1px;}.home .vc_tta-tabs .vc_tta-panels .vc_tta-panel-body {border-color: #ccc!important;border-top: 0;}.home .vc_tta-panel-body .wpb_content_element  {padding: 20px;}
+</style>
+<link rel='stylesheet' id='js_composer_front-css'  href='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.7' type='text/css' media='all' />
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/openswatch/assets/js/openswatch.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/openswatch/assets/js/openswatch_custom.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/openswatch/assets/js/jquery.tooltipster.min.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View basket","cart_url":"https:\/\/countrywidepianos.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.6.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=5.7'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/yith-woocommerce-popup/assets/js/jquery.cookie.min.js?ver=1.3.1'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/yith-woocommerce-popup/assets/js/jquery.yitpopup.min.js?ver=1.3.1'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/themes/gecko-child/js/readmore.js?ver=5.2'></script>
+<link rel='https://api.w.org/' href='https://countrywidepianos.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://countrywidepianos.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://countrywidepianos.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2" />
+<meta name="generator" content="WooCommerce 3.6.2" />
+<link rel="canonical" href="https://countrywidepianos.com/" />
+<link rel='shortlink' href='https://countrywidepianos.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://countrywidepianos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcountrywidepianos.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://countrywidepianos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcountrywidepianos.com%2F&#038;format=xml" />
+
+        <script type="text/javascript" >
+            var openwatch_ajax_url = "https://countrywidepianos.com/wp-admin/admin-ajax.php";
+            var openwatch_swatch_attr = "pa_color";
+        </script>	<script>
+		var JASAjaxURL = 'https://countrywidepianos.com/wp-admin/admin-ajax.php';
+		var JASSiteURL = 'https://countrywidepianos.com/index.php';
+	</script>
+	<meta itemprop="name" content="Home"/><meta itemprop="description" content=""/><meta itemprop="image" content="https://countrywidepianos.com/wp-includes/images/media/default.png"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@CountrywidePianoCentre"/><meta name="twitter:title" content="Home"/><meta name="twitter:description" content=""/><meta name="twitter:creator" content="@CountrywidePianoCentre"/><meta name="twitter:image:src" content="https://countrywidepianos.com/wp-includes/images/media/default.png"/><meta property="og:title" content="Home" /><meta property="og:url" content="https://countrywidepianos.com/" /><meta property="og:image" content="https://countrywidepianos.com/wp-includes/images/media/default.png" /><meta property="og:image:url" content="https://countrywidepianos.com/wp-includes/images/media/default.png"/>
+<meta property="og:description" content="" /><meta property="og:site_name" content="Countrywide Piano Centre" /><meta property="og:type" content="article"/>
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://countrywidepianos.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link rel="icon" href="https://countrywidepianos.com/wp-content/uploads/2017/05/favicon.png" sizes="32x32" />
+<link rel="icon" href="https://countrywidepianos.com/wp-content/uploads/2017/05/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://countrywidepianos.com/wp-content/uploads/2017/05/favicon.png" />
+<meta name="msapplication-TileImage" content="https://countrywidepianos.com/wp-content/uploads/2017/05/favicon.png" />
+		<style type="text/css" id="wp-custom-css">
+			
+		</style>
+		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1525270200325{padding-top: 50px !important;}.vc_custom_1494519736952{padding-bottom: 50px !important;background-color:#fff;}.vc_custom_1539258386946{padding-top: 50px !important;padding-bottom: 50px !important;background-color: #cccccc !important;}.vc_custom_1514895945169{margin-bottom: 0px !important;padding-bottom: 0px !important;}.vc_custom_1525271589574{background-color: #3e3e3e !important;}.vc_custom_1546433220234{background-color: #3e3e3e !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1542808053408{padding-top: 60px !important;}.vc_custom_1552506648979{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 1px !important;border-left-width: 1px !important;border-left-color: #5b5b5b !important;border-right-color: #5b5b5b !important;border-top-color: #5b5b5b !important;border-bottom-color: #5b5b5b !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style type="text/css">/** Mega Menu CSS: fs **/</style>
+	</head>
+	<body class="home page-template-default page page-id-9 woocommerce-no-js mega-menu-primary-menu yith-wcan-free jan-atc-behavior-slide wpb-js-composer js-comp-ver-5.7 vc_responsive"  itemscope="itemscope" itemtype="http://schema.org/WebPage" >
+		<div id="jas-wrapper">
+			<header id="jas-header" class="header-5"  role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader" >
+	<div class="header__top bgbl pl__30 pr__30">
+		<div class="jas-row middle-xs">
+			<div class="jas-col-md-3 jas-col-sm-6 jas-col-xs-12 flex start-md start-sm center-xs">
+									<div class="header-text mr__20"><a href="/blog" title="View our blog pages" class="social-blog-text-link">BLOG</a> <a href="/blog" title="View our blog pages" class="social-blog-link"><i class="fa fa-newspaper-o"></i></a></div>
+								<div class="jas-socials"><a class="dib br__50 tc facebook" href="https://www.facebook.com/Countrywide-Pianos-329620363784779/" target="_blank"><i class="fa fa-facebook"></i></a><a class="dib br__50 tc twitter" href="https://twitter.com/countrywpianos" target="_blank"><i class="fa fa-twitter"></i></a><a class="dib br__50 tc instagram" href="https://www.instagram.com/countrywidepianocentre/" target="_blank"><i class="fa fa-instagram"></i></a><a class="dib br__50 tc youtube" href="https://www.youtube.com/user/countrywidepianosrg8" target="_blank"><i class="fa fa-youtube"></i></a></div>			</div>
+			<div class="jas-col-md-6 hidden-sm tc">
+									<div class="header-text">194 Penn Road, Hazlemere, <strong class="upper">High Wycombe</strong>, Bucks, HP15 7NU</div>
+							</div>
+			<div class="jas-col-md-3 jas-col-sm-6 jas-col-xs-12 flex end-lg end-sm center-xs">
+									<div class="header-text mr__15">01494 813388<br />
+<span>info@countrywidepianos.co.uk</span></div>
+											</div>
+		</div><!-- .jas-row -->
+	</div><!-- .header__top -->
+
+	<div class="header__mid tc">
+		<div class="jas-row middle-xs mid__top pl__30 pr__30">
+			<div class="jas-col-md-3 jas-col-xs-3 flex start-md middle-xs">
+				<a href="javascript:void(0);" class="jas-push-menu-btn">
+					<img src="https://countrywidepianos.com/wp-content/themes/gecko/assets/images/icons/hamburger-black.svg" width="25" height="22" alt="Menu" />				</a>			
+			</div>
+			<div class="jas-col-md-6 jas-col-xs-6"><div class="jas-branding ts__05"><a class="db" href="https://countrywidepianos.com/"><img class="regular-logo" src="https://countrywidepianos.com/wp-content/uploads/2018/06/logo-web.png" width="550" height="70" alt="Countrywide Piano Centre" /><img class="retina-logo" src="https://countrywidepianos.com/wp-content/uploads/2018/06/logo-web.png" width="275" height="35" alt="Countrywide Piano Centre" /></a></div></div>
+			<div class="jas-action flex end-xs middle-xs jas-col-md-3 jas-col-xs-3">
+									<a class="sf-open cb chp hidden-xs" href="javascript:void(0);"><i class="pe-7s-search"></i></a>
+								
+							</div><!-- .jas-action -->
+		</div><!-- .jas-row -->
+		<nav class="jas-navigation flex center-xs hidden-xs" role="navigation">
+			<div id="mega-menu-wrap-primary-menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>MENU</span><span class='mega-toggle-label-open'>MENU</span></span></div></div></div><ul id="mega-menu-primary-menu" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true"><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-9 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-26' id='mega-menu-item-26'><a class="mega-menu-link" href="https://countrywidepianos.com/" tabindex="0">Home</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-3025' id='mega-menu-item-3025'><a class="mega-menu-link" href="/our-pianos/acoustic-pianos/" aria-haspopup="true" aria-expanded="false" tabindex="0">Our Pianos<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-3025-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-4-of-12' id='mega-menu-3025-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-2504' id='mega-menu-item-2504'><a class="mega-menu-link" href="https://countrywidepianos.com/kawai">Our Brands<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2506' id='mega-menu-item-2506'><a class="mega-menu-link" href="https://countrywidepianos.com/kawai/">Kawai</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2505' id='mega-menu-item-2505'><a class="mega-menu-link" href="https://countrywidepianos.com/yamaha/">Yamaha</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2802' id='mega-menu-item-2802'><a class="mega-menu-link" href="https://countrywidepianos.com/value-piano-brands/">Value Brands</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-4-of-12' id='mega-menu-3025-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-item-2394' id='mega-menu-item-2394'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/">acoustic Pianos<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2316' id='mega-menu-item-2316'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/kawai-upright-pianos/">Kawai Upright Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2319' id='mega-menu-item-2319'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/kawai-grand-pianos/">Kawai Grand Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-416' id='mega-menu-item-416'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-upright-pianos/">Second Hand Upright Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-504' id='mega-menu-item-504'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-grand-pianos/">Second Hand Grand Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-506' id='mega-menu-item-506'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/self-playing-pianos/">Self Playing Pianos / Yamaha Disklavier</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2317' id='mega-menu-item-2317'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-upright-pianos/">Yamaha Upright Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2321' id='mega-menu-item-2321'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-grand-pianos/">Yamaha Grand Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2396' id='mega-menu-item-2396'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/silent-pianos/">Silent / Hybrid pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2733' id='mega-menu-item-2733'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/value-grand-pianos/">Value Grand Pianos</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-4-of-12' id='mega-menu-3025-0-2'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-item-502' id='mega-menu-item-502'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/digital-pianos/">Digital Pianos<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2050' id='mega-menu-item-2050'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/digital-pianos/kawai-digital-pianos/">Kawai Digital Pianos</a></li>			</ul>
+</li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-593' id='mega-menu-item-593'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-tuning/" aria-haspopup="true" aria-expanded="false" tabindex="0">Services<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-594' id='mega-menu-item-594'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-tuning/">Piano Tuning</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-616' id='mega-menu-item-616'><a class="mega-menu-link" href="https://countrywidepianos.com/polyester-case-repairs/">Polyester case repairs</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-614' id='mega-menu-item-614'><a class="mega-menu-link" href="https://countrywidepianos.com/event-hire/">Event Hire</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2549' id='mega-menu-item-2549'><a class="mega-menu-link" href="https://countrywidepianos.com/rehearsal-practice-room/">Rehearsal/Practice Room</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-613' id='mega-menu-item-613'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-rental/">Piano rental</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-468' id='mega-menu-item-468'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/piano-accessories/" aria-haspopup="true" aria-expanded="false" tabindex="0">Accessories<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-469' id='mega-menu-item-469'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/piano-accessories/british-made-piano-stools/">Piano Stools</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-470' id='mega-menu-item-470'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/piano-accessories/protect-your-piano-from-underfloor-heating/">Underfloor Heating Mats</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-713' id='mega-menu-item-713'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/room-humidifiers/">Room Humidifiers</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-927' id='mega-menu-item-927'><a class="mega-menu-link" href="https://countrywidepianos.com/music/">Music</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-462' id='mega-menu-item-462'><a class="mega-menu-link" href="https://countrywidepianos.com/buying-a-piano/" aria-haspopup="true" aria-expanded="false" tabindex="0">Information<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-727' id='mega-menu-item-727'><a class="mega-menu-link" href="https://countrywidepianos.com/buying-a-piano/">A guide to buying a piano</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-461' id='mega-menu-item-461'><a class="mega-menu-link" href="https://countrywidepianos.com/faq/">FAQs</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-459' id='mega-menu-item-459'><a class="mega-menu-link" href="https://countrywidepianos.com/selling-your-piano/">Selling your piano</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-463' id='mega-menu-item-463'><a class="mega-menu-link" href="https://countrywidepianos.com/terms-and-conditions/">Terms and Conditions</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2634' id='mega-menu-item-2634'><a class="mega-menu-link" href="https://countrywidepianos.com/gdpr/">GDPR</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2951' id='mega-menu-item-2951'><a class="mega-menu-link" href="https://countrywidepianos.com/take-it-away/">Take it Away</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-458' id='mega-menu-item-458'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-removals/" aria-haspopup="true" aria-expanded="false" tabindex="0">Piano Moving<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-464' id='mega-menu-item-464'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-removals/">What we can offer</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-457' id='mega-menu-item-457'><a class="mega-menu-link" href="https://countrywidepianos.com/removals-tcs/">Removals: T&#038;Cs</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-42' id='mega-menu-item-42'><a class="mega-menu-link" href="https://countrywidepianos.com/testimonials/" tabindex="0">Testimonials</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-41' id='mega-menu-item-41'><a class="mega-menu-link" href="https://countrywidepianos.com/contact/" tabindex="0">Contact</a></li></ul></div>		</nav><!-- .jas-navigation -->
+	</div><!-- .header__mid -->
+	<form class="header__search w__100 dn pf" role="search" method="get" action="https://countrywidepianos.com/"  itemprop="potentialAction" itemscope="itemscope" itemtype="http://schema.org/SearchAction" >
+		<div class="pa">
+			<input class="w__100 jas-ajax-search" type="text" name="s" placeholder="Search for..." />
+			<input type="hidden" name="post_type" value="product">
+		</div>
+		<a id="sf-close" class="pa" href="#"><i class="pe-7s-close"></i></a>
+	</form><!-- #header__search -->
+
+	<div class="jas-canvas-menu jas-push-menu">
+		<h3 class="mg__0 tc cw bgb tu ls__2">Menu <i class="close-menu pe-7s-close pa"></i></h3>
+		<div class="jas-action flex center-xs middle-xs hidden-md hidden-sm visible-xs mt__30">
+			<a class="sf-open cb chp" href="javascript:void(0);"><i class="pe-7s-search"></i></a>
+			<div class="jas-my-account hidden-xs ts__05 pr"><a class="cb chp db" href="https://countrywidepianos.com/my-account/"><i class="pe-7s-user"></i></a><ul class="pa tc"><li><a class="db cg chp" href="https://countrywidepianos.com/my-account/">Login / Register</a></li></ul></div>		</div><!-- .jas-action -->
+		<div id="mega-menu-wrap-primary-menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'><span class='mega-toggle-label' role='button' aria-expanded='false'><span class='mega-toggle-label-closed'>MENU</span><span class='mega-toggle-label-open'>MENU</span></span></div></div></div><ul id="mega-menu-primary-menu" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="200" data-mobile-force-width="false" data-second-click="close" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true"><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-current-menu-item mega-page_item mega-page-item-9 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-26' id='mega-menu-item-26'><a class="mega-menu-link" href="https://countrywidepianos.com/" tabindex="0">Home</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-3025' id='mega-menu-item-3025'><a class="mega-menu-link" href="/our-pianos/acoustic-pianos/" aria-haspopup="true" aria-expanded="false" tabindex="0">Our Pianos<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-row' id='mega-menu-3025-0'>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-column mega-menu-columns-4-of-12' id='mega-menu-3025-0-0'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-2504' id='mega-menu-item-2504'><a class="mega-menu-link" href="https://countrywidepianos.com/kawai">Our Brands<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2506' id='mega-menu-item-2506'><a class="mega-menu-link" href="https://countrywidepianos.com/kawai/">Kawai</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2505' id='mega-menu-item-2505'><a class="mega-menu-link" href="https://countrywidepianos.com/yamaha/">Yamaha</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2802' id='mega-menu-item-2802'><a class="mega-menu-link" href="https://countrywidepianos.com/value-piano-brands/">Value Brands</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-4-of-12' id='mega-menu-3025-0-1'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-item-2394' id='mega-menu-item-2394'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/">acoustic Pianos<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2316' id='mega-menu-item-2316'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/kawai-upright-pianos/">Kawai Upright Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2319' id='mega-menu-item-2319'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/kawai-grand-pianos/">Kawai Grand Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-416' id='mega-menu-item-416'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-upright-pianos/">Second Hand Upright Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-504' id='mega-menu-item-504'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-grand-pianos/">Second Hand Grand Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-506' id='mega-menu-item-506'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/self-playing-pianos/">Self Playing Pianos / Yamaha Disklavier</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2317' id='mega-menu-item-2317'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-upright-pianos/">Yamaha Upright Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2321' id='mega-menu-item-2321'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-grand-pianos/">Yamaha Grand Pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2396' id='mega-menu-item-2396'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/silent-pianos/">Silent / Hybrid pianos</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2733' id='mega-menu-item-2733'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/acoustic-pianos/value-grand-pianos/">Value Grand Pianos</a></li>			</ul>
+</li>		</ul>
+</li><li class='mega-menu-column mega-menu-columns-4-of-12' id='mega-menu-3025-0-2'>
+		<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-menu-item-502' id='mega-menu-item-502'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/digital-pianos/">Digital Pianos<span class="mega-indicator"></span></a>
+			<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-2050' id='mega-menu-item-2050'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/digital-pianos/kawai-digital-pianos/">Kawai Digital Pianos</a></li>			</ul>
+</li>		</ul>
+</li>	</ul>
+</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-593' id='mega-menu-item-593'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-tuning/" aria-haspopup="true" aria-expanded="false" tabindex="0">Services<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-594' id='mega-menu-item-594'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-tuning/">Piano Tuning</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-616' id='mega-menu-item-616'><a class="mega-menu-link" href="https://countrywidepianos.com/polyester-case-repairs/">Polyester case repairs</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-614' id='mega-menu-item-614'><a class="mega-menu-link" href="https://countrywidepianos.com/event-hire/">Event Hire</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2549' id='mega-menu-item-2549'><a class="mega-menu-link" href="https://countrywidepianos.com/rehearsal-practice-room/">Rehearsal/Practice Room</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-613' id='mega-menu-item-613'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-rental/">Piano rental</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-468' id='mega-menu-item-468'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/piano-accessories/" aria-haspopup="true" aria-expanded="false" tabindex="0">Accessories<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-469' id='mega-menu-item-469'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/piano-accessories/british-made-piano-stools/">Piano Stools</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-470' id='mega-menu-item-470'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/piano-accessories/protect-your-piano-from-underfloor-heating/">Underfloor Heating Mats</a></li><li class='mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-product_cat mega-menu-item-713' id='mega-menu-item-713'><a class="mega-menu-link" href="https://countrywidepianos.com/our-pianos/room-humidifiers/">Room Humidifiers</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-927' id='mega-menu-item-927'><a class="mega-menu-link" href="https://countrywidepianos.com/music/">Music</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-462' id='mega-menu-item-462'><a class="mega-menu-link" href="https://countrywidepianos.com/buying-a-piano/" aria-haspopup="true" aria-expanded="false" tabindex="0">Information<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-727' id='mega-menu-item-727'><a class="mega-menu-link" href="https://countrywidepianos.com/buying-a-piano/">A guide to buying a piano</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-461' id='mega-menu-item-461'><a class="mega-menu-link" href="https://countrywidepianos.com/faq/">FAQs</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-459' id='mega-menu-item-459'><a class="mega-menu-link" href="https://countrywidepianos.com/selling-your-piano/">Selling your piano</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-463' id='mega-menu-item-463'><a class="mega-menu-link" href="https://countrywidepianos.com/terms-and-conditions/">Terms and Conditions</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2634' id='mega-menu-item-2634'><a class="mega-menu-link" href="https://countrywidepianos.com/gdpr/">GDPR</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-2951' id='mega-menu-item-2951'><a class="mega-menu-link" href="https://countrywidepianos.com/take-it-away/">Take it Away</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-458' id='mega-menu-item-458'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-removals/" aria-haspopup="true" aria-expanded="false" tabindex="0">Piano Moving<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-464' id='mega-menu-item-464'><a class="mega-menu-link" href="https://countrywidepianos.com/piano-removals/">What we can offer</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-457' id='mega-menu-item-457'><a class="mega-menu-link" href="https://countrywidepianos.com/removals-tcs/">Removals: T&#038;Cs</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-42' id='mega-menu-item-42'><a class="mega-menu-link" href="https://countrywidepianos.com/testimonials/" tabindex="0">Testimonials</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-41' id='mega-menu-item-41'><a class="mega-menu-link" href="https://countrywidepianos.com/contact/" tabindex="0">Contact</a></li></ul></div>	</div><!-- .jas-canvas-menu -->
+	
+		
+		<div class="jas-mini-cart jas-push-menu">
+			<div class="jas-mini-cart-content">
+				<h3 class="mg__0 tc cw bgb tu ls__2">Mini Cart <i class="close-cart pe-7s-close pa"></i></h3>
+				<div class="widget_shopping_cart_content"></div>
+			</div>
+		</div><!-- .jas-mini-cart -->
+	</header><!-- #jas-header -->			
+			
+<div id="jas-content">
+	
+			<div class="jas-row jas-page">
+			<div class="jas-col-md-12 jas-col-xs-12 mt__60 mb__60" role="main"  itemscope="itemscope" itemtype="http://schema.org/CreativeWork" >
+				<div class="jas-container"><div class="vc_row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1514895945169" >
+		<div class="wpb_wrapper">
+			<p><!-- &#091;metaslider id=11&#093; --><br />
+<div style="width: 100%; margin: 0 auto;" class="ml-slider-3-13-1 metaslider metaslider-flex metaslider-11 ml-slider organic-slider nav-hidden">
+    
+    <div id="metaslider_container_11">
+        <div id="metaslider_11">
+            <ul class="slides">
+                <li style="display: block; width: 100%;" class="slide-820 ms-image"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/05/img-learning-piano-1170x400.jpg" height="400" width="1170" alt="" class="lazy lazy-hidden slider-11 slide-820" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/05/img-learning-piano-1170x400.jpg" height="400" width="1170" alt="" class="slider-11 slide-820" /></noscript><div class="caption-wrap"><div class="caption"><div class="tc">
+<h3 class="tu fs__14 cw">Welcome to</h3>
+<h2 class="tu fs__50 cw">Countrywide Piano Centre</h2>
+</div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-1830 ms-image"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2018/02/slide-kawai.jpg" height="400" width="1170" alt="" class="lazy lazy-hidden slider-11 slide-1830" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2018/02/slide-kawai.jpg" height="400" width="1170" alt="" class="slider-11 slide-1830" /></noscript><div class="caption-wrap"><div class="caption"><div class="tc">
+<h3 class="tu fs__14 cw">Best prices</h3>
+<h2 class="tu fs__50 cw">Kawai Main Stockists</h2>
+</div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-918 ms-image"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/05/slide-learn-piano-1170x400.jpg" height="400" width="1170" alt="" class="lazy lazy-hidden slider-11 slide-918" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/05/slide-learn-piano-1170x400.jpg" height="400" width="1170" alt="" class="slider-11 slide-918" /></noscript><div class="caption-wrap"><div class="caption"><div class="tc">
+<h3 class="tu fs__14">The largest selection of</h3>
+<h2 class="tu fs__50">Pianos in the south of England</h2>
+</div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-765 ms-image"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/04/img-cfx-hall-1170x400.jpg" height="400" width="1170" alt="" class="lazy lazy-hidden slider-11 slide-765" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/04/img-cfx-hall-1170x400.jpg" height="400" width="1170" alt="" class="slider-11 slide-765" /></noscript><div class="caption-wrap"><div class="caption"><div class="price-guarantee"></div>
+<div class="tc">
+<h3 class="tu fs__14 cw">Best prices</h3>
+<h2 class="tu fs__50 cw">Independent New and Used<br />Yamaha piano centre</h2>
+</div></div></div></li>
+                <li style="display: none; width: 100%;" class="slide-553 ms-image"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/04/img-clavinova-1170x400.jpg" height="400" width="1170" alt="" class="lazy lazy-hidden slider-11 slide-553" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/04/img-clavinova-1170x400.jpg" height="400" width="1170" alt="" class="slider-11 slide-553" /></noscript><div class="caption-wrap"><div class="caption"><div class="tc">
+<h3 class="tu fs__14 cw">The most piano-like digitals yet</h3>
+<h2 class="tu fs__50 cw">Digital & Clavinova Pianos</h2>
+</div></div></div></li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
+
+		</div>
+	</div>
+</div></div></div></div></div><section class="vc_section ribbon"><div class="vc_row"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<div class="opening">
+<div>
+<h4>Open 6 days a week</h4>
+</div>
+</div>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<div class="free-parking">
+<div>
+<h4>Free parking on site</h4>
+</div>
+</div>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html" >
+		<div class="wpb_wrapper">
+			<a href="take-it-away/" class="take-it-away-link" title="Visit the Take It Away website"><div class="take-it-away">
+<div>
+<h4 style="line-height: 1;">Interest-free loans</h4>
+<p style="line-height: 1;"><small>0% Finance available, subject to status.</small></p>
+</div>
+</div></a>
+		</div>
+	</div>
+</div></div></div></div></section><section data-vc-parallax="1.5" class="vc_section vc_custom_1525270200325 vc_section-has-fill vc_general vc_parallax vc_parallax-content-moving"><div class="jas-container"><div class="vc_row vc_custom_1525271589574 vc_row-has-fill vc_row-o-equal-height vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-8 vc_col-md-8 vc_col-xs-12 vc_col-has-fill" style="background-position:center center!important;"><div class="vc_column-inner vc_custom_1546433220234"><div class="wpb_wrapper"><div class="vc_row vc_inner"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<div class="embed-container" style="height: 250px; background-color: #000;"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"  class="lazy lazy-hidden" data-lazy-type="iframe" data-lazy-src="&lt;iframe src=&quot;https://www.youtube.com/embed/EQxixlSyn3g&quot; width=&quot;300&quot; height=&quot;250&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;" alt=""><noscript><iframe src="https://www.youtube.com/embed/EQxixlSyn3g" width="300" height="250" frameborder="0" allowfullscreen="allowfullscreen"></iframe></noscript><noscript><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"  class="lazy lazy-hidden" data-lazy-type="iframe" data-lazy-src="&lt;iframe src=&quot;https://www.youtube.com/embed/EQxixlSyn3g&quot; width=&quot;300&quot; height=&quot;250&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;" alt=""><noscript><iframe src="https://www.youtube.com/embed/EQxixlSyn3g" width="300" height="250" frameborder="0" allowfullscreen="allowfullscreen"></iframe></noscript></noscript></div>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p style="width: 100%; background-color: #000; text-align: center;"><a href="https://countrywidepianos.com/take-it-away/"><img class="lazy lazy-hidden " src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2019/03/takeitaway_banner_.png" alt="" width="300" height="250" /><noscript><img class="" src="https://countrywidepianos.com/wp-content/uploads/2019/03/takeitaway_banner_.png" alt="" width="300" height="250" /></noscript></a></p>
+
+		</div>
+	</div>
+</div></div></div></div></div></div></div><div class="opening-hours wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 class="section-title">Opening Hours</h3>
+
+		</div>
+	</div>
+<div class="vc_row vc_inner"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p><strong>Mon to Fri:</strong><br />
+<strong>Saturday:</strong></p>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>9:00 am &#8211; 5:30<br />
+10:00 am &#8211; 5:00 pm</p>
+
+		</div>
+	</div>
+</div></div></div></div>
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<hr />
+<p>If you prefer to visit outside of the above hours please call <a class="link-inverted" href="tel:01494813388">01494 813 388</a> to make an appointment.</p>
+<p>We have <strong>free parking</strong> outside our front door!</p>
+
+		</div>
+	</div>
+</div></div></div></div></div></section><section class="vc_section vc_custom_1494519736952 vc_section-has-fill"><div class="jas-container"><div class="vc_row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="jas-sc-wc-categories "><div class="jas-row jas-masonry" data-masonry='{"selector":".product-category", "columnWidth":".grid-sizer","layoutMode":"masonry"}'><div class="grid-sizer size-3"></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/digital-pianos/kawai-digital-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/09/cat-kawai-digital.jpg" alt="" width="480" height="480" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/09/cat-kawai-digital.jpg" alt="" width="480" height="480" /></noscript></a><h3>Kawai Digital Pianos</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/kawai-grand-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/07/cat-kawai-gx.jpg" alt="" width="500" height="500" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/07/cat-kawai-gx.jpg" alt="" width="500" height="500" /></noscript></a><h3>Kawai Grand Pianos</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/kawai-upright-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/06/cat-kawai-k500.jpg" alt="" width="563" height="563" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/06/cat-kawai-k500.jpg" alt="" width="563" height="563" /></noscript></a><h3>Kawai Upright Pianos</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-grand-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/05/cat-new-grand.jpg" alt="" width="564" height="563" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/05/cat-new-grand.jpg" alt="" width="564" height="563" /></noscript></a><h3>Second Hand Grand Pianos</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-upright-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2019/05/cat-second-hand-pianos.jpg" alt="" width="500" height="500" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2019/05/cat-second-hand-pianos.jpg" alt="" width="500" height="500" /></noscript></a><h3>Second Hand Upright Pianos</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/self-playing-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/06/cat-bentley.jpg" alt="" width="450" height="450" /><noscript><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/06/cat-bentley.jpg" alt="" width="450" height="450" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/06/cat-bentley.jpg" alt="" width="450" height="450" /></noscript></noscript></a><h3>Self Playing Pianos / Yamaha Disklavier</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/silent-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2018/11/cat-kawai-anytime.jpg" alt="" width="563" height="563" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2018/11/cat-kawai-anytime.jpg" alt="" width="563" height="563" /></noscript></a><h3>Silent / Hybrid pianos</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/value-grand-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/06/cat-bentley.jpg" alt="" width="450" height="450" /><noscript><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/06/cat-bentley.jpg" alt="" width="450" height="450" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/06/cat-bentley.jpg" alt="" width="450" height="450" /></noscript></noscript></a><h3>Value Grand Pianos</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-grand-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/07/cat-yamaha-cx.jpg" alt="" width="500" height="500" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/07/cat-yamaha-cx.jpg" alt="" width="500" height="500" /></noscript></a><h3>Yamaha Grand Pianos</h3></div><div class="mt__30 pr jas-col-md-3 jas-col-sm-6 jas-col-xs-12 product-category"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-upright-pianos/"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/05/cat-yamaha-b1.jpg" alt="" width="631" height="631" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/05/cat-yamaha-b1.jpg" alt="" width="631" height="631" /></noscript></a><h3>Yamaha Upright Pianos</h3></div></div></div></div></div></div></div></div></section><section data-vc-parallax="1.5" class="vc_section vc_custom_1539258386946 vc_section-has-fill vc_general vc_parallax vc_parallax-content-moving"><div class="jas-container"><div class="vc_row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<div class="tc">
+<h2 class="fs__50 tu cb fwb mg__0 ls__1">A fantastic range of new and second hand pianos</h2>
+</div>
+
+		</div>
+	</div>
+</div></div></div></div></div><div class="jas-container"><div class="vc_row"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="margin-top: 0;">Countrywide Piano Centre</h3>
+<p class="cb fs__15">At Countrywide Piano Centre, we are a well-established family business, we are proud of our tradition of excellence. Every year, we receive awards and accolades that confirm our position as one of Britain’s top piano showrooms. The following is just a glimpse at what we offer.</p>
+<p class="cb fs__15">Countrywide Pianos provide a whole range of pianos, including <a title="view our Kawai Upright Pianos" href="our-pianos/acoustic-pianos/kawai-upright-pianos/">Kawai Upright Pianos</a>, <a title="view our Kawai Grand Pianos" href="our-pianos/acoustic-pianos/kawai-grand-pianos/">Kawai Grand Pianos</a>, <a href="https://countrywidepianos.com/our-pianos/digital-pianos/kawai-digital-pianos/">Kawai Digital Pianos</a>, <a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/silent-pianos/kawai-anytime/">Kawai AnyTime Pianos</a>, <a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-upright-pianos/">Second Hand Upright Pianos</a>, <a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-grand-pianos/">Second Hand Grand Pianos</a>,<br />
+<a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-grand-pianos/">Yamaha Grand Pianos</a>, <a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-upright-pianos/">Yamaha Upright Pianos</a>, <a href="https://countrywidepianos.com/our-pianos/digital-pianos/yamaha-digital-pianos/">Yamaha Digital Pianos</a>, <a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/self-playing-pianos/">Self Playing Pianos/Yamaha Disklaviers</a> and <a href="https://countrywidepianos.com/our-pianos/digital-pianos/casio-digital-pianos/">Casio Digital Pianos</a>, as well as <a href="https://countrywidepianos.com/our-pianos/piano-accessories/british-made-piano-stools/">Piano Stools</a>, <a href="https://countrywidepianos.com/our-pianos/piano-accessories/protect-your-piano-from-underfloor-heating/">Underfloor Heating Mats</a> and <a href="https://countrywidepianos.com/our-pianos/room-humidifiers/">Room Humidifiers</a>.</p>
+<p>All of our pianos are available for delivery Countrywide, plus we can offer a piano moving service to move your own piano from High Wycombe  to any where &#8230; Countrywide !</p>
+<p class="cb fs__15">We dedicate ourselves to providing our customers with the best quality of service and ownership experience. Our expertise and specialist knowledge , along with value for money and great product choice, makes Countrywide Pianos showroom definitely well worth a visit, Penn Road, Hazlemere, High Wycombe, Bucks. Free Parking right outside the door.</p>
+
+		</div>
+	</div>
+<div class="vc_row vc_inner"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1542808053408">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1200" height="800" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano.jpg" class="lazy lazy-hidden vc_single_image-img attachment-full" alt="" data-lazy-srcset="https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano.jpg 1200w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-300x200.jpg 300w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-768x512.jpg 768w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-1024x683.jpg 1024w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-30x20.jpg 30w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-750x500.jpg 750w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" /><noscript><img width="1200" height="800" src="https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano.jpg 1200w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-300x200.jpg 300w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-768x512.jpg 768w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-1024x683.jpg 1024w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-30x20.jpg 30w, https://countrywidepianos.com/wp-content/uploads/2016/04/img-girl-piano-750x500.jpg 750w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript></div>
+		</figure>
+	</div>
+</div></div></div></div></div></section><section class="vc_section"><div class="jas-container"><div class="vc_row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_tta-container" data-vc-action="collapse"><div class="vc_general vc_tta vc_tta-tabs vc_tta-color-mulled-wine vc_tta-style-outline vc_tta-shape-square vc_tta-spacing-1 vc_tta-o-no-fill vc_tta-tabs-position-top vc_tta-controls-align-left vc_custom_1552506648979"><div class="vc_tta-tabs-container"><ul class="vc_tta-tabs-list"><li class="vc_tta-tab" data-vc-tab><a href="#your-piano-type" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">Which is best a real new or second hand piano, digital or a hybrid of the two?</span></a></li><li class="vc_tta-tab" data-vc-tab><a href="#your-second-hand-piano" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">Why should we buy a second hand piano?</span></a></li></ul></div><div class="vc_tta-panels-container"><div class="vc_tta-panels"><div class="vc_tta-panel" id="your-piano-type" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#your-piano-type" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">Which is best a real new or second hand piano, digital or a hybrid of the two?</span></a></h4></div><div class="vc_tta-panel-body">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>If you really want to play beautiful music nothing compares to a real piano, nothing quite captures the expression and warmth of a hammer hitting a string. What you sacrifice in space, you make up for in sound. A lot of people buying real pianos also take in to consideration how the piece looks in the room.A real piano often makes the room which is especially true for a grand piano!. Real pianos gives you an authentic, acoustic sound that has a warmer, more resonant tone. You also have better control over the articulation and expression of the musical notes. If looking at new pianos we would suggest the Kawai pianos or Yamaha pianos, both are World leading piano manufacturers and offer quality pianos. At the entry level the Kawai K-15 is by far our most popular new piano whilst the Kawai GL-10 is one of our our best selling Baby grand pianos. Without doubt the Yamaha U1 and Yamaha U3 remain perennial favourites and are always in demand as second hand pianos too.</p>
+<p>The digital piano is best if space is at a premium. Likewise, if you are living in a flat or even student accommodation, the biggest benefit of a digital piano is that you can connect your headphones and play without making any sound.</p>
+<p>What the digital piano may lack in terms of raw sound, they make it up with some additional features. These features allow you to use the digital piano in more than one way, making it a more versatile instrument. For example; With the digital piano, you can produce the sound of almost any instruments, ranging from a saxophone to a choir. You can play around with the different types of sound and choose the sound that suits your music best. Digital pianos differ in types and sizes, but they are all more portable than their acoustic counterparts. Some of the portable digital pianos can be moved by easily by just one person. We choose to stock Kawai digital pianos for their reliability, sound and range of models From the Kawai ES110 to the CA98 there is definitely a Kawai digital piano waiting for you!</p>
+<p>Hybrid pianos are exactly as the next suggests a combination of both a real piano and a digital piano. The Kawai ATX anytime piano and the Yamaha Silent piano allow you to have best of both worlds a real acoustic piano plus for silent practice or for playing without other listening simply switch to digital headphone mode and your real piano becomes a silent digital piano. The Kawai ATX AnyTime and Yamaha Silent pianos are available in the showroom for you to try.</p>
+
+		</div>
+	</div>
+</div></div><div class="vc_tta-panel" id="your-second-hand-piano" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#your-second-hand-piano" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">Why should we buy a second hand piano?</span></a></h4></div><div class="vc_tta-panel-body">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>There are so many reasons why a good quality second hand piano is an ideal piano choice, often people choose a second hand piano over a new piano because of the cost. Whilst this is of course a factor, often people will choose a used piano because it can give you the choice to a buy a higher quality brand of piano over a cheaper imported new piano from a lesser known manufacturer. Second hand Yamaha U1 pianos and Second hand Yamaha U3 pianos are always sought after and hold their value very well even some 30 or 40 years after it was first purchased. Second hand grand piano are always a firm favourite we offer second hand grand pianos in all the sizes from a small baby grand piano up to the larger grand pianos for school/stage/professional performance at significant savings over buying a new grand piano.</p>
+<p>We are also seeing that people are much more aware of saving the planet and choose second hand pianos as a way of re-using the World’s resources. A good quality second hand piano which has been fully serviced and tuned here at Countrywide Pianos comes with a full guarantee for additional peace of mind. We are proud to have our own team of piano tuners, technicians and piano moving team the whole package is provided in-house. Countrywide Pianos specialise in our field of piano expertise and are not a general all- instrument store, which is why we remain a truly independent piano showroom, the best selection for new and second hand pianos.</p>
+
+		</div>
+	</div>
+</div></div></div></div></div></div></div></div></div></div></div></section><section class="vc_section"><div class="jas-container"><div class="vc_row"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html" >
+		<div class="wpb_wrapper">
+			<div class="home__tabs" style="display: none;">
+    <ul>
+        <li>Which is best a real new or second hand piano, digital or a hybrid of the two?</li>
+        <li>Why should we buy a second hand piano?</li>
+    </ul>
+    <article class="article-expand-description">
+        <p>
+            If you really want to play beautiful music nothing compares to a real piano, nothing quite captures the expression and warmth of a hammer hitting a string. What you sacrifice in space, you make up for in sound. A lot of people buying real pianos also take in to consideration how the piece looks in the room.A real piano often makes the room which is especially true for a grand piano!. Real pianos gives you an authentic, acoustic sound that has a warmer, more resonant tone. You also have better control over the articulation and expression of the musical notes. If looking at new pianos we would suggest the Kawai pianos or Yamaha pianos, both are World leading piano manufacturers and offer quality pianos. At the entry level the Kawai K-15 is by far our most popular new piano whilst the Kawai GL-10 is one of our our best selling Baby grand pianos. Without doubt the Yamaha U1 and Yamaha U3 remain perennial favourites and are always in demand as second hand pianos too.The digital piano is best if space is at a premium. Likewise, if you are living in a flat or even student accommodation, the biggest benefit of a digital piano is that you can connect your headphones and play without making any sound.
+        </p>
+        <p>
+            What the digital piano may lack in terms of raw sound, they make it up with some additional features. These features allow you to use the digital piano in more than one way, making it a more versatile instrument. For example; With the digital piano, you can produce the sound of almost any instruments, ranging from a saxophone to a choir. You can play around with the different types of sound and choose the sound that suits your music best. Digital pianos differ in types and sizes, but they are all more portable than their acoustic counterparts. Some of the portable digital pianos can be moved by easily by just one person. We choose to stock Kawai digital pianos for their reliability, sound and range of models From the Kawai ES110 to the CA98 there is definitely a Kawai digital piano waiting for you!
+        </p>
+        <p>
+            Hybrid pianos are exactly as the next suggests a combination of both a real piano and a digital piano. The Kawai ATX anytime piano and the Yamaha Silent piano allow you to have best of both worlds a real acoustic piano plus for silent practice or for playing without other listening simply switch to digital headphone mode and your real piano becomes a silent digital piano. The Kawai ATX AnyTime and Yamaha Silent pianos are available in the showroom for you to try.
+        </p>
+    </article>  
+</div>
+		</div>
+	</div>
+</div></div></div></div></div></section>
+			</div><!-- $classes -->
+			
+					</div><!-- .jas-row -->
+	</div><!-- #jas-content -->
+			<footer id="jas-footer" class="footer-1 pr cw"  role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter" >
+			<div class="footer__top pb__80 pt__80">
+			<div class="jas-container pr">
+				<div class="jas-row">
+					<div class="jas-col-md-3 jas-col-sm-6 jas-col-xs-12">
+						<aside id="woocommerce_product_categories-2" class="widget woocommerce widget_product_categories"><h3 class="widget-title tu">Product categories</h3><ul class="product-categories"><li class="cat-item cat-item-67"><a href="https://countrywidepianos.com/our-pianos/piano-accessories/">Accessories</a></li>
+<li class="cat-item cat-item-162"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/">acoustic Pianos</a></li>
+<li class="cat-item cat-item-79"><a href="https://countrywidepianos.com/our-pianos/digital-pianos/">Digital Pianos</a></li>
+<li class="cat-item cat-item-145"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/silent-pianos/kawai-anytime/">Kawai AnyTime</a></li>
+<li class="cat-item cat-item-148"><a href="https://countrywidepianos.com/our-pianos/digital-pianos/kawai-digital-pianos/">Kawai Digital Pianos</a></li>
+<li class="cat-item cat-item-140"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/kawai-grand-pianos/">Kawai Grand Pianos</a></li>
+<li class="cat-item cat-item-70"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/kawai-upright-pianos/">Kawai Upright Pianos</a></li>
+<li class="cat-item cat-item-65"><a href="https://countrywidepianos.com/our-pianos/piano-accessories/british-made-piano-stools/">Piano Stools</a></li>
+<li class="cat-item cat-item-81"><a href="https://countrywidepianos.com/our-pianos/room-humidifiers/">Room Humidifiers</a></li>
+<li class="cat-item cat-item-76"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-grand-pianos/">Second Hand Grand Pianos</a></li>
+<li class="cat-item cat-item-60"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/second-hand-upright-pianos/">Second Hand Upright Pianos</a></li>
+<li class="cat-item cat-item-78"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/self-playing-pianos/">Self Playing Pianos / Yamaha Disklavier</a></li>
+<li class="cat-item cat-item-74"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/silent-pianos/">Silent / Hybrid pianos</a></li>
+<li class="cat-item cat-item-66"><a href="https://countrywidepianos.com/our-pianos/piano-accessories/protect-your-piano-from-underfloor-heating/">Underfloor Heating Mats</a></li>
+<li class="cat-item cat-item-143"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/value-grand-pianos/">Value Grand Pianos</a></li>
+<li class="cat-item cat-item-109"><a href="https://countrywidepianos.com/our-pianos/digital-pianos/yamaha-digital-pianos/">Yamaha Digital Pianos</a></li>
+<li class="cat-item cat-item-141"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-grand-pianos/">Yamaha Grand Pianos</a></li>
+<li class="cat-item cat-item-113"><a href="https://countrywidepianos.com/our-pianos/acoustic-pianos/yamaha-upright-pianos/">Yamaha Upright Pianos</a></li>
+</ul></aside>					</div>
+					<div class="jas-col-md-3 jas-col-sm-6 jas-col-xs-12">
+						<aside id="woocommerce_products-3" class="widget woocommerce widget_products"><h3 class="widget-title tu">Products</h3><ul class="product_list_widget"><li>
+	
+	<a href="https://countrywidepianos.com/product/rieger-kloss-second-hand-modern-piano/">
+		<img width="325" height="270" src="https://countrywidepianos.com/wp-content/uploads/woocommerce-placeholder-325x270.png" class="woocommerce-placeholder wp-post-image" alt="Placeholder" />		<span class="product-title">Rieger-kloss second hand modern piano</span>
+	</a>
+
+				
+	<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>1,195.00</span>
+	</li>
+<li>
+	
+	<a href="https://countrywidepianos.com/product/kawai-cs8/">
+		<img width="325" height="270" src="https://countrywidepianos.com/wp-content/uploads/2018/04/cs8_1_1036-325x270.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />		<span class="product-title">Kawai CS 8</span>
+	</a>
+
+				
+	
+	</li>
+<li>
+	
+	<a href="https://countrywidepianos.com/product/yamaha-b2-upright-piano/">
+		<img width="325" height="270" src="https://countrywidepianos.com/wp-content/uploads/2017/05/cat-yamaha-b2-325x270.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />		<span class="product-title">Yamaha b2 upright piano</span>
+	</a>
+
+				
+	
+	</li>
+<li>
+	
+	<a href="https://countrywidepianos.com/product/knight-k10-second-hand-piano/">
+		<img width="325" height="270" src="https://countrywidepianos.com/wp-content/uploads/2019/04/20190427_134953-325x270.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />		<span class="product-title">Knight K10 second hand piano</span>
+	</a>
+
+				
+	<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>1,695.00</span>
+	</li>
+<li>
+	
+	<a href="https://countrywidepianos.com/product/reid-sohn-second-hand-piano/">
+		<img width="325" height="270" src="https://countrywidepianos.com/wp-content/uploads/2019/04/20190427_140014-325x270.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />		<span class="product-title">Reid Sohn second hand piano</span>
+	</a>
+
+				
+	<span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>2,295.00</span>
+	</li>
+</ul></aside>					</div>
+					<div class="jas-col-md-3 jas-col-sm-6 jas-col-xs-12">
+						<aside id="text-2" class="widget widget_text"><h3 class="widget-title tu">Social Media</h3>			<div class="textwidget"><div class="social-media">
+<a title="View our Twitter feed" href="https://twitter.com/countrywpianos" target="_blank" rel="noopener noreferrer"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/05/logo-twitter.png" alt="Follow us on Twitter" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/05/logo-twitter.png" alt="Follow us on Twitter" /></noscript></a><br />
+<a href="https://www.instagram.com/countrywidepianocentre/" title="Follow us on Instagram" target="_blank" rel="noopener noreferrer"><br />
+<img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2019/04/logo-instagram.png" alt="Follow us on Instagram" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2019/04/logo-instagram.png" alt="Follow us on Instagram" /></noscript><br />
+</a><br />
+<a title="'Like us' on Facebook" href="https://www.facebook.com/pages/Countrywide-Pianos/329620363784779" target="_blank" rel="noopener noreferrer"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/05/logo-facebook.png" alt="Follow us on Facebook" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/05/logo-facebook.png" alt="Follow us on Facebook" /></noscript></a><br />
+<a title="See our You Tube Channel" href="https://www.youtube.com/user/countrywidepianosrg8" target="_blank" rel="noopener noreferrer"><img class="lazy lazy-hidden" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-type="image" data-lazy-src="https://countrywidepianos.com/wp-content/uploads/2017/05/logo-youtube.png" alt="View our You Tube Channel" /><noscript><img src="https://countrywidepianos.com/wp-content/uploads/2017/05/logo-youtube.png" alt="View our You Tube Channel" /></noscript></a><br />
+<script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script><br />
+<a class="twitter-follow-button" href="https://twitter.com/countrywpianos" data-size="large" data-show-count="false">Follow @countrywpianos</a></p>
+<div id="fb-root" style="margin-top: 20px;"></div>
+<p><script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script></p>
+<div class="fb-follow" data-size="large" data-show-faces="true" data-layout="standard" data-colorscheme="dark" data-width="250" data-href="https://www.facebook.com/Countrywide-Pianos-329620363784779/"></div>
+</div>
+</div>
+		</aside>					</div>
+					<div class="jas-col-md-3 jas-col-sm-6 jas-col-xs-12">
+						<aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widget-title tu">Product tags</h3><div class="tagcloud"><a href="https://countrywidepianos.com/product-tag/adjustable-piano-stool/" class="tag-cloud-link tag-link-132 tag-link-position-1" style="font-size: 18.769230769231pt;" aria-label="adjustable piano stool (7 items)">adjustable piano stool</a>
+<a href="https://countrywidepianos.com/product-tag/baby-grand-pianos/" class="tag-cloud-link tag-link-137 tag-link-position-2" style="font-size: 11.230769230769pt;" aria-label="Baby Grand Pianos (2 items)">Baby Grand Pianos</a>
+<a href="https://countrywidepianos.com/product-tag/bentley/" class="tag-cloud-link tag-link-107 tag-link-position-3" style="font-size: 11.230769230769pt;" aria-label="Bentley (2 items)">Bentley</a>
+<a href="https://countrywidepianos.com/product-tag/concert-piano-stool/" class="tag-cloud-link tag-link-139 tag-link-position-4" style="font-size: 8pt;" aria-label="Concert piano stool (1 item)">Concert piano stool</a>
+<a href="https://countrywidepianos.com/product-tag/digital-pianos/" class="tag-cloud-link tag-link-105 tag-link-position-5" style="font-size: 16.615384615385pt;" aria-label="Digital Pianos (5 items)">Digital Pianos</a>
+<a href="https://countrywidepianos.com/product-tag/disklavier/" class="tag-cloud-link tag-link-94 tag-link-position-6" style="font-size: 15.179487179487pt;" aria-label="Disklavier (4 items)">Disklavier</a>
+<a href="https://countrywidepianos.com/product-tag/grand-pianos/" class="tag-cloud-link tag-link-99 tag-link-position-7" style="font-size: 11.230769230769pt;" aria-label="Grand Pianos (2 items)">Grand Pianos</a>
+<a href="https://countrywidepianos.com/product-tag/kawai/" class="tag-cloud-link tag-link-108 tag-link-position-8" style="font-size: 8pt;" aria-label="Kawai (1 item)">Kawai</a>
+<a href="https://countrywidepianos.com/product-tag/kawai-anytime-series/" class="tag-cloud-link tag-link-146 tag-link-position-9" style="font-size: 15.179487179487pt;" aria-label="Kawai AnyTime series (4 items)">Kawai AnyTime series</a>
+<a href="https://countrywidepianos.com/product-tag/kawai-digital/" class="tag-cloud-link tag-link-149 tag-link-position-10" style="font-size: 17.871794871795pt;" aria-label="Kawai Digital (6 items)">Kawai Digital</a>
+<a href="https://countrywidepianos.com/product-tag/kawai-gl-series/" class="tag-cloud-link tag-link-147 tag-link-position-11" style="font-size: 13.384615384615pt;" aria-label="Kawai GL Series (3 items)">Kawai GL Series</a>
+<a href="https://countrywidepianos.com/product-tag/kawai-gx-series/" class="tag-cloud-link tag-link-142 tag-link-position-12" style="font-size: 17.871794871795pt;" aria-label="Kawai GX Series (6 items)">Kawai GX Series</a>
+<a href="https://countrywidepianos.com/product-tag/kawai-k-series/" class="tag-cloud-link tag-link-117 tag-link-position-13" style="font-size: 15.179487179487pt;" aria-label="Kawai K Series (4 items)">Kawai K Series</a>
+<a href="https://countrywidepianos.com/product-tag/new-grand-pianos/" class="tag-cloud-link tag-link-93 tag-link-position-14" style="font-size: 22pt;" aria-label="New Grand Pianos (11 items)">New Grand Pianos</a>
+<a href="https://countrywidepianos.com/product-tag/new-upright-pianos/" class="tag-cloud-link tag-link-83 tag-link-position-15" style="font-size: 19.666666666667pt;" aria-label="New Upright Pianos (8 items)">New Upright Pianos</a>
+<a href="https://countrywidepianos.com/product-tag/piano-stools/" class="tag-cloud-link tag-link-102 tag-link-position-16" style="font-size: 8pt;" aria-label="Piano Stools (1 item)">Piano Stools</a>
+<a href="https://countrywidepianos.com/product-tag/room-humidifiers/" class="tag-cloud-link tag-link-103 tag-link-position-17" style="font-size: 13.384615384615pt;" aria-label="Room Humidifiers (3 items)">Room Humidifiers</a>
+<a href="https://countrywidepianos.com/product-tag/second-hand-grands/" class="tag-cloud-link tag-link-135 tag-link-position-18" style="font-size: 13.384615384615pt;" aria-label="second hand grands (3 items)">second hand grands</a>
+<a href="https://countrywidepianos.com/product-tag/second-hand-piano/" class="tag-cloud-link tag-link-118 tag-link-position-19" style="font-size: 8pt;" aria-label="second hand piano (1 item)">second hand piano</a>
+<a href="https://countrywidepianos.com/product-tag/secondhand-pianos/" class="tag-cloud-link tag-link-119 tag-link-position-20" style="font-size: 11.230769230769pt;" aria-label="secondhand pianos (2 items)">secondhand pianos</a>
+<a href="https://countrywidepianos.com/product-tag/second-hand-pianos/" class="tag-cloud-link tag-link-106 tag-link-position-21" style="font-size: 8pt;" aria-label="Second Hand Pianos (1 item)">Second Hand Pianos</a>
+<a href="https://countrywidepianos.com/product-tag/second-hand-yamaha/" class="tag-cloud-link tag-link-126 tag-link-position-22" style="font-size: 13.384615384615pt;" aria-label="second hand Yamaha (3 items)">second hand Yamaha</a>
+<a href="https://countrywidepianos.com/product-tag/second-hand-yamaha-u1/" class="tag-cloud-link tag-link-128 tag-link-position-23" style="font-size: 11.230769230769pt;" aria-label="second hand Yamaha U1 (2 items)">second hand Yamaha U1</a>
+<a href="https://countrywidepianos.com/product-tag/self-playing-pianos/" class="tag-cloud-link tag-link-101 tag-link-position-24" style="font-size: 13.384615384615pt;" aria-label="Self Playing Pianos (3 items)">Self Playing Pianos</a>
+<a href="https://countrywidepianos.com/product-tag/silent-pianos/" class="tag-cloud-link tag-link-98 tag-link-position-25" style="font-size: 17.871794871795pt;" aria-label="Silent Pianos (6 items)">Silent Pianos</a>
+<a href="https://countrywidepianos.com/product-tag/underfloor-heating-mats/" class="tag-cloud-link tag-link-104 tag-link-position-26" style="font-size: 11.230769230769pt;" aria-label="Underfloor Heating Mats (2 items)">Underfloor Heating Mats</a>
+<a href="https://countrywidepianos.com/product-tag/used-pianos/" class="tag-cloud-link tag-link-127 tag-link-position-27" style="font-size: 8pt;" aria-label="used pianos (1 item)">used pianos</a>
+<a href="https://countrywidepianos.com/product-tag/white-piano/" class="tag-cloud-link tag-link-131 tag-link-position-28" style="font-size: 11.230769230769pt;" aria-label="White piano (2 items)">White piano</a>
+<a href="https://countrywidepianos.com/product-tag/yamaha/" class="tag-cloud-link tag-link-68 tag-link-position-29" style="font-size: 21.282051282051pt;" aria-label="Yamaha (10 items)">Yamaha</a>
+<a href="https://countrywidepianos.com/product-tag/yamaha-u3/" class="tag-cloud-link tag-link-130 tag-link-position-30" style="font-size: 13.384615384615pt;" aria-label="Yamaha U3 (3 items)">Yamaha U3</a></div>
+</aside>					</div>
+				</div><!-- .jas-row -->
+			</div><!-- .jas-container -->
+		</div><!-- .footer__top -->
+		<div class="footer__bot">
+		<div class="jas-container pr tc">
+							Copyright © 2019 <span class="cp">Countrywide Piano Centre Ltd</span> all rights reserved. Website by <a href="http://www.bpm-web-design.co.uk" title="website by bpm web design">bpm web design</a>.
+<p><small>Countrywide Pianos is part of the Take it away scheme and offers interest-free credit. Credit subject to status and affordability. Terms and Conditions Apply.  is a credit broker authorised and regulated by the Financial Conduct Authority.  Credit is provided by Omni Capital Retail Finance Ltd authorised and regulated by the Financial Conduct Authority.</small></p>
+												</div>
+	</div><!-- .footer__bot -->
+</footer><!-- #jas-footer -->		</div><!-- #jas-wrapper -->
+		<a id="jas-backtop" class="pf br__50"><span class="tc bgp br__50 db cw"><i class="pr pe-7s-angle-up"></i></span></a>
+
+		<script><!-- Global site tag (gtag.js) - Google Analytics -->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3459356-1');
+
+jQuery(document).ready(function($) {
+  // readmore.js
+  $('.article-expand-description').expandddescription({
+    speed: 1000,
+    lessLink: '<a href="#">Read less</a>'
+  });
+});
+</script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<link rel='stylesheet' id='countdown_css-css'  href='https://countrywidepianos.com/wp-content/plugins/widget-countdown/includes/style/style.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://countrywidepianos.com/wp-includes/js/thickbox/thickbox.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='metaslider-flex-slider-css'  href='https://countrywidepianos.com/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.13.1' type='text/css' media='all' property='stylesheet' />
+<link rel='stylesheet' id='metaslider-public-css'  href='https://countrywidepianos.com/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.13.1' type='text/css' media='all' property='stylesheet' />
+<link rel='stylesheet' id='vc_tta_style-css'  href='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/css/js_composer_tta.min.css?ver=5.7' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/countrywidepianos.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.6.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_657daaf0c76f65e94e3a8219a73611bb","fragment_name":"wc_fragments_657daaf0c76f65e94e3a8219a73611bb","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.6.2'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LeiN4YUAAAAALP4uVnEH8trRd1bnQ0CrKul9gqM&#038;ver=3.0'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/themes/gecko/assets/vendors/slick/slick.min.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/themes/gecko/assets/vendors/magnific-popup/jquery.magnific-popup.min.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.7'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/themes/gecko/assets/vendors/scrollreveal/scrollreveal.min.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/wp-util.min.js?ver=5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your basket.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=3.6.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/wp-a11y.min.js?ver=5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JAS_Data_Js = {"load_more":"Load More","no_more_item":"No More Item To Show","days":"days","hrs":"hrs","mins":"mins","secs":"secs","popup_remove":"Removed from the cart","popup_undo":"Undo?","header_sticky":"1","live_search":null,"permalink":"","wc-single-zoom":null};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/themes/gecko/assets/js/theme.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/bj-lazy-load/js/bj-lazy-load.min.js?ver=2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/jas-addons/assets/js/3rd.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.6'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/wp-embed.min.js?ver=5.2'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/widget-countdown/includes/javascript/front_end_js.js?ver=5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/countrywidepianos.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.7'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider.min.js?ver=3.13.1'></script>
+<script type='text/javascript'>
+var metaslider_11 = function($) {$('#metaslider_11').addClass('flexslider');
+            $('#metaslider_11').flexslider({ 
+                slideshowSpeed:6600,
+                animation:"fade",
+                controlNav:false,
+                directionNav:true,
+                pauseOnHover:true,
+                direction:"horizontal",
+                reverse:false,
+                animationSpeed:600,
+                prevText:"&lt;",
+                nextText:"&gt;",
+                fadeFirstSlide:true,
+                slideshow:true
+            });
+            $(document).trigger('metaslider/initialized', '#metaslider_11');
+        };
+        var timer_metaslider_11 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_11, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_11, 1) : metaslider_11(window.jQuery);
+        };
+        timer_metaslider_11();
+</script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min.js?ver=5.7'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/lib/vc_accordion/vc-accordion.min.js?ver=5.7'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/lib/vc-tta-autoplay/vc-tta-autoplay.min.js?ver=5.7'></script>
+<script type='text/javascript' src='https://countrywidepianos.com/wp-content/plugins/js_composer/assets/lib/vc_tabs/vc-tabs.min.js?ver=5.7'></script>
+<script type="text/javascript">
+( function( grecaptcha, sitekey ) {
+
+	var wpcf7recaptcha = {
+		execute: function() {
+			grecaptcha.execute(
+				sitekey,
+				{ action: 'homepage' }
+			).then( function( token ) {
+				var forms = document.getElementsByTagName( 'form' );
+
+				for ( var i = 0; i < forms.length; i++ ) {
+					var fields = forms[ i ].getElementsByTagName( 'input' );
+
+					for ( var j = 0; j < fields.length; j++ ) {
+						var field = fields[ j ];
+
+						if ( 'g-recaptcha-response' === field.getAttribute( 'name' ) ) {
+							field.setAttribute( 'value', token );
+							break;
+						}
+					}
+				}
+			} );
+		}
+	};
+
+	grecaptcha.ready( wpcf7recaptcha.execute );
+
+	document.addEventListener( 'wpcf7submit', wpcf7recaptcha.execute, false );
+
+} )( grecaptcha, '6LeiN4YUAAAAALP4uVnEH8trRd1bnQ0CrKul9gqM' );
+</script>
+	</body>
+</html>

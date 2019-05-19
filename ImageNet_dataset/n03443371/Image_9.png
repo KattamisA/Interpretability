@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+	
+
+	<title>The Green Glass Company</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Official Site of The Green Glass Company, offering recycled glassware created from wine and beer bottles. Products available for purchase online." />
+	<meta name="keywords" content="Recycled glassware, tumblers, goblets, wine glasses, wine bottles, candles, upcycled glasses, recycled wine glasses" />
+	
+	<link rel='canonical' href='https://www.greenglass.com/' />
+	
+	
+	
+	<link href="//fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
+
+	<link rel="shortcut icon" href="https://cdn10.bigcommerce.com/s-ndfsu/product_images/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script>
+	//<![CDATA[
+		(function(){
+			// this happens before external dependencies (and dom ready) to reduce page flicker
+			var node, i;
+			for (i = window.document.childNodes.length; i--;) {
+				node = window.document.childNodes[i];
+				if (node.nodeName == 'HTML') {
+					node.className += ' javascript';
+				}
+			}
+		})();
+	//]]>
+	</script>
+
+	<link href="https://cdn9.bigcommerce.com/r-ac92bea11f30010afbe42e24254528b097a3c901/themes/__master/Styles/styles.css" type="text/css" rel="stylesheet" /><link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/iselector.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/flexslider.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/slide-show.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/styles-slide-show.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/social.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/styles.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/light.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/s-ndfsu/templates/__custom/Styles/theme.css?t=1544035777" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/grid.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/responsive.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/font-awesome.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn9.bigcommerce.com/s-ndfsu/templates/__custom/Styles/custom.css?t=1544035777" type="text/css" rel="stylesheet" /><link href="https://cdn9.bigcommerce.com/r-ac92bea11f30010afbe42e24254528b097a3c901/themes/__master/Styles/product.attributes.css" type="text/css" rel="stylesheet" /><link href="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/jquery/themes/cupertino/ui.all.css" type="text/css" rel="stylesheet" /><link href="https://cdn9.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/product.quickview.css" type="text/css" rel="stylesheet" /><link href="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/superfish/css/store.css" type="text/css" rel="stylesheet" /><link type="text/css" rel="stylesheet" href="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/jquery/plugins/imodal/imodal.css" />
+
+	<!-- Tell the browsers about our RSS feeds -->
+	<link rel="alternate" type="application/rss+xml" title="Latest News (RSS 2.0)" href="https://www.greenglass.com/rss.php?action=newblogs&amp;type=rss" />
+<link rel="alternate" type="application/atom+xml" title="Latest News (Atom 0.3)" href="https://www.greenglass.com/rss.php?action=newblogs&amp;type=atom" />
+<link rel="alternate" type="application/rss+xml" title="New Products (RSS 2.0)" href="https://www.greenglass.com/rss.php?type=rss" />
+<link rel="alternate" type="application/atom+xml" title="New Products (Atom 0.3)" href="https://www.greenglass.com/rss.php?type=atom" />
+<link rel="alternate" type="application/rss+xml" title="Popular Products (RSS 2.0)" href="https://www.greenglass.com/rss.php?action=popularproducts&amp;type=rss" />
+<link rel="alternate" type="application/atom+xml" title="Popular Products (Atom 0.3)" href="https://www.greenglass.com/rss.php?action=popularproducts&amp;type=atom" />
+
+
+	<!-- Include visitor tracking code (if any) -->
+	<!-- Start Tracking Code for analytics_googleanalytics -->
+
+<meta name="google-site-verification" content="vcGzz-Q2mXvIrNsUB2dOKw17S1XxD3i0TzQj9gfOZcA" />
+
+<!-- End Tracking Code for analytics_googleanalytics -->
+
+<!-- Start Tracking Code for analytics_visualwebsiteoptimizer -->
+
+<meta name="google-site-verification" content="vcGzz-Q2mXvIrNsUB2dOKw17S1XxD3i0TzQj9gfOZcA" />
+
+<!-- End Tracking Code for analytics_visualwebsiteoptimizer -->
+
+
+
+	
+
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://cdn10.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/menudrop.js?"></script>
+	<script src="https://cdn10.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/iselector.js?"></script>
+	<script src="https://cdn10.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/jquery/plugins/jquery.flexslider.js"></script>
+    <script src="https://cdn10.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/viewport.js?"></script>
+
+	<!-- Theme bespoke js -->
+	<script src="https://cdn10.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/matchMedia.js"></script>
+	<script src="https://cdn10.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/common.js"></script>
+	<script src="https://cdn10.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/jquery.autobox.js"></script>
+	<script src="https://cdn10.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/init.js"></script>
+	<script src="https://cdn10.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/jquery.uniform.min.js"></script>
+	<script src="https://cdn10.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/main.js?"></script>
+
+	<script>
+	//<![CDATA[
+	config.ShopPath = 'https://www.greenglass.com';
+	config.AppPath = ''; // BIG-8939: Deprecated, do not use.
+	config.FastCart = 1;
+	config.ShowCookieWarning = !!0;
+	var ThumbImageWidth = 220;
+	var ThumbImageHeight = 290;
+	//]]>
+	</script>
+	
+<script type="text/javascript">
+function beacon_deferred(beacon_api) { beacon_api.pageview({"isNew":1,"initiator":{"id":"","session_id":"c07d596a68b1bdc3370df1af63cee10eca5121ee","type":"ANONYMOUS","visit_id":"23ce3049-bf4c-43b6-8cf0-ce601a1da153","visitor_id":"1baabe0d-a6c5-4cce-86ef-1b02512a4d11"},"referer":{"url":""},"request":{"url":"https:\/\/www.greenglass.com\/store\/images\/P\/Goblet_Cobalt_FrostedAqua_Product.jpg"}}, []);}
+</script>
+<script type="text/javascript">
+(function(){var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.type='text/javascript';g.defer=true;g.src='https://cdn9.bigcommerce.com/shared/js/beacon_api-d53f0a39a11dacaa85063ca4f4aba159a609185d.js';s.parentNode.insertBefore(g,s);})();
+</script>
+<script type="text/javascript">
+ShowImageZoomer = false;
+$(document).ready(function() {
+	$(".QuickView").quickview({
+		buttonText: "Quick View",
+		buttonColor: "#f7f7f7",
+		gradientColor: "#dcdbdb",
+		textColor: "#000000"
+	});
+});
+</script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/jquery/plugins/jqueryui/1.8.18/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/jquery/plugins/validate/jquery.validate.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/product.functions.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/product.attributes.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/quickview.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/quickview.initialise.js"></script><script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/jquery/plugins/jquery.form.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/jquery/plugins/imodal/imodal.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/shared/bower/checkout-sdk/dist/checkout-button.umd-d38bbe37623b2901115943efe11f512b179cbf0e.js" defer></script>
+<script type="text/javascript">
+var BCData = {"csrf_token":"af93f213fbfbf5dd230613b1602057bbf94e88970333a5f8e851a33443cf02f2"};
+</script>
+
+	
+	<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/quicksearch.js"></script>
+	<!--[if lt IE 9]>
+	<script src="https://cdn10.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+    <body id="home">
+        
+<div id="DrawerMenu">
+    <div class="inner">
+        <div class="CategoryList" id="SideCategoryList">
+    <h3>Categories</h3>
+    <div class="BlockContent">
+        <div class="SideCategoryListFlyout">
+            <ul class="sf-menu sf-horizontal">
+<li><a href="https://www.greenglass.com/shop/">Shop</a><ul>
+<li><a href="https://www.greenglass.com/by-usage/">By usage</a></li>
+<li><a href="https://www.greenglass.com/by-color/">By color</a></li>
+<li><a href="https://www.greenglass.com/by-bottle/">By bottle</a></li>
+
+</ul>
+</li>
+<li><a href="https://www.greenglass.com/gifts/">Gifts</a><ul>
+<li><a href="https://www.greenglass.com/for-her/">For Her</a></li>
+<li><a href="https://www.greenglass.com/for-him/">For Him</a></li>
+<li><a href="https://www.greenglass.com/for-kids/">For Kids</a></li>
+<li><a href="https://www.greenglass.com/giftcertificates.php">Gift Certificates</a></li>
+
+</ul>
+</li>
+<li><a href="https://www.greenglass.com/all-products/">All Products</a></li>
+<li><a href="https://www.greenglass.com/on-sale/">Sale</a></li>
+
+</ul>
+
+        </div>
+    </div>
+</div>
+
+        <div class="Block Moveable Panel" id="SideShopByBrand" style="display:none;"></div>
+        <div class="Block Moveable Panel" id="SideCategoryShopByPrice" style="display:none;"></div>
+        <div class="AdditionalInformationList Moveable Panel slist" id="SideAdditionalInformation">
+    <h3>Additional Information</h3>
+    <div class="BlockContent">
+        <ul class="treeview">
+            <li><a href="/">Home</a></li>
+        </ul>
+        <ul class="pages-menu sf-menu sf-horizontal sf-js-enabled">
+		<li class=" ">
+		<a href="https://www.greenglass.com/international-checkout/"><span>International Checkout</span></a>
+		
+	</li>	<li class="HasSubMenu ">
+		<a href="https://www.greenglass.com/stores/"><span>Stores</span></a>
+		<ul>
+	<li><a href="https://www.greenglass.com/find-a-store/">Find a store</a></li><li><a href="https://www.greenglass.com/wholesale-information/">Wholesale Information</a></li>
+</ul>
+	</li>	<li class="HasSubMenu ">
+		<a href="https://www.greenglass.com/useful-information/"><span>Useful Information</span></a>
+		<ul>
+	<li><a href="https://www.greenglass.com/shipping-returns/">Shipping &amp; Returns</a></li><li><a href="https://www.greenglass.com/custom-orders/">Custom Orders</a></li><li><a href="https://www.greenglass.com/privacy-policy/">Privacy Policy</a></li>
+</ul>
+	</li>	<li class=" ">
+		<a href="https://www.greenglass.com/contact-us/"><span>Contact Us</span></a>
+		
+	</li>	<li class="HasSubMenu ">
+		<a href="https://www.greenglass.com/learn-more/"><span>Learn More</span></a>
+		<ul>
+	<li><a href="https://www.greenglass.com/sorting-it-out/">Sorting It Out</a></li><li><a href="https://www.greenglass.com/100-upcycled/">100% Upcycled</a></li><li><a href="https://www.greenglass.com/faqs/">FAQs</a></li>
+</ul>
+	</li>	<li class="HasSubMenu ">
+		<a href="https://www.greenglass.com/social-media/"><span>(Social) Media </span></a>
+		<ul>
+	<li><a href="https://www.greenglass.com/blog/">Blog</a></li><li><a href="https://www.greenglass.com/press/">Press</a></li>
+</ul>
+	</li>
+</ul>
+    </div>
+</div>
+
+        <div class="AccountNavigationList Moveable Panel slist" id="SideAccountNavigation">
+    <h3>Site Information</h3>
+    <div class="BlockContent js-side-account-menu">
+        <!-- Fill with content from TopMenu -->
+    </div>
+</div>
+<script>
+
+(function ($, window) {
+    'use strict';
+
+    var bcTheme = window.bcTheme || {};
+    bcTheme.mobile = bcTheme.mobile || {};
+
+    var MobileAccountMenu = function MobileAccountMenu(){};
+
+    MobileAccountMenu.prototype.init = function init ( selector ) {
+        this.$element = $(selector);
+
+        this.cloneTopMenu();
+        this.setCurrencyConvertor();
+        this.bindEvents();
+
+    };
+
+    MobileAccountMenu.prototype.cloneTopMenu = function cloneTopMenu () {
+        // Cloning from top menu as Globals don't work down here.
+        var $topMenuClone = $('.TopMenu ul').clone(),
+            $phoneNumber = $('<a />', {
+                'text': $('.js-drawermenu-store-phone-container').find('.phoneIcon').text(),
+                'href': 'tel:' + $('.js-drawermenu-store-phone-container').find('.js-drawermenu-store-phone').text()
+            });
+        //Modify the cloned menu to make phone clickable and hide stuff we don't need
+        $topMenuClone.find('.phoneIcon').replaceWith( $phoneNumber );
+        $topMenuClone.find('.js-drawermenu-cart').remove();
+        //append new menu to drawer
+        this.$element.append( $topMenuClone );
+    };
+
+    MobileAccountMenu.prototype.setCurrencyConvertor = function setCurrencyConvertor () {
+        this.$mobileCurrencyConverter = this.$element.find('.js-drawermenu-currency-converter');
+        this.$mobileSelectedCurrency = this.$mobileCurrencyConverter.find('.selected-currency');
+        this.$mobileCurrencyList = this.$mobileCurrencyConverter.find('.CurrencyList');
+    };
+
+    MobileAccountMenu.prototype.bindEvents = function bindEvents () {
+        var that = this;
+
+        this.$mobileSelectedCurrency.on('click', function(e) {
+            e.preventDefault();
+            that.$mobileSelectedCurrency.toggleClass('open');
+            that.$mobileCurrencyList.toggleClass('open');
+        });
+    };
+
+    bcTheme.mobile.accountMenu = new MobileAccountMenu();
+
+    window.bcTheme = window.bcTheme || bcTheme;
+
+}(jQuery, window));
+
+$(function () {
+    bcTheme.mobile.accountMenu.init('.js-side-account-menu');
+});
+
+</script>
+
+    </div>
+</div>
+<script>
+//<![CDATA[
+    $(function(){
+
+        //Drawer Subnavigation Accordion
+        $('#DrawerMenu li ul').addClass('drawer-subcat');
+        $('#DrawerMenu .drawer-subcat').prev('a').after('<span class="subcat-expand"></span>');
+        $('#DrawerMenu .subcat-expand').click(function(){
+            $(this).next('.drawer-subcat').toggleClass('expanded');
+            $(this).toggleClass('subcat-expanded');
+        });
+
+    });
+//]]>
+</script>
+
+
+        <div class="page">
+            <div class="header">
+	<div class="inner">
+
+		<div id="AjaxLoading">
+			<div class="ajax-loader">
+				<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/loader.png?t=1544035777" alt="" />&nbsp;Loading... Please wait...
+			</div>
+		</div>
+
+		
+		
+<div class="TopMenu">
+    <div class="inner">
+        <ul style="display:">
+<!--             <li class="js-drawermenu-store-phone-container"  >
+                <div class="phoneIcon">Call us on <span class="js-drawermenu-store-phone">+1 715 355 1897</span></div>
+            </li>
+            <li style="display:none" class="HeaderLiveChat">
+                
+            </li> -->
+            <li style="display:" class="First">
+                <a href="https://www.greenglass.com/account.php">My Account</a>
+            </li>
+<!--             <li><a href="https://www.greenglass.com/giftcertificates.php">Gift Certificates</a></li>
+            <li style="display:" class="wishLink">
+                <a href="https://www.greenglass.com/wishlist.php">Wish Lists</a>
+            </li> -->
+            <li style="display:">
+                <div><a href='https://www.greenglass.com/login.php' onclick=''>Sign in</a> or <a href='https://www.greenglass.com/login.php?action=create_account' onclick=''>Create an account</a></div>
+            </li>
+            <li class="js-drawermenu-currency-converter">
+                <div class="Block Moveable Panel" id="SideCurrencySelector" style="display:none;"></div>
+            </li>
+            <li class="last CartLink js-drawermenu-cart" style="display:">
+                <i class="icon icon-cart" title="View Cart">&nbsp;</i><a href="https://www.greenglass.com/cart.php" title="View Cart"><span></span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+		<div id="Header">
+			<div class="inner">
+					
+				<div id="ToggleMenu" class="fa fa-bars normal"></div>
+				<div class="header-logo">
+					<a href="https://www.greenglass.com/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/product_images/greenglass_logo_small_1420566415__55578.png" border="0" id="LogoImage" alt="The Green Glass Company" /></a>
+
+				</div>
+<!-- 				<div class="header-secondary">
+					<div id="SearchForm" class="cf">
+	<form action="https://www.greenglass.com/search.php" method="get" onsubmit="return check_small_search_form()">
+		<label for="search_query">Search</label>
+		<input type="text" name="search_query" id="search_query" class="Textbox autobox" value="Search" />
+		<input type="submit" class="Button" value="" name="Search" title="Search" />
+	</form>
+</div>
+
+<script type="text/javascript">
+	var QuickSearchAlignment = 'right';
+	var QuickSearchWidth = '390px';
+	lang.EmptySmallSearch = "You forgot to enter some search keywords.";
+	// uniform() is deprecated in Blueprint theme; remove binding below when removing uniform
+	$(document).ajaxComplete(function() {
+		$('input[type=checkbox], select').not('.UniApplied').uniform();
+	});
+</script> 
+				</div> -->
+				<div id="cart-amount">
+					<a href="https://www.greenglass.com/cart.php" class="Cart"><span class="bag-handle"></span><span class="total">&nbsp;</span></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="PageMenu">
+			<div class="border-wrap">
+			<div class="inner">
+				
+					<div class="CategoryList" id="SideCategoryList">
+    <h3>Categories</h3>
+    <div class="BlockContent">
+        <div class="SideCategoryListFlyout">
+            <ul class="sf-menu sf-horizontal">
+<li><a href="https://www.greenglass.com/shop/">Shop</a><ul>
+<li><a href="https://www.greenglass.com/by-usage/">By usage</a></li>
+<li><a href="https://www.greenglass.com/by-color/">By color</a></li>
+<li><a href="https://www.greenglass.com/by-bottle/">By bottle</a></li>
+
+</ul>
+</li>
+<li><a href="https://www.greenglass.com/gifts/">Gifts</a><ul>
+<li><a href="https://www.greenglass.com/for-her/">For Her</a></li>
+<li><a href="https://www.greenglass.com/for-him/">For Him</a></li>
+<li><a href="https://www.greenglass.com/for-kids/">For Kids</a></li>
+<li><a href="https://www.greenglass.com/giftcertificates.php">Gift Certificates</a></li>
+
+</ul>
+</li>
+<li><a href="https://www.greenglass.com/all-products/">All Products</a></li>
+<li><a href="https://www.greenglass.com/on-sale/">Sale</a></li>
+
+</ul>
+
+        </div>
+    </div>
+</div>
+
+					<div class="menu-search"><div id="SearchForm" class="cf">
+	<form action="https://www.greenglass.com/search.php" method="get" onsubmit="return check_small_search_form()">
+		<label for="search_query">Search</label>
+		<input type="text" name="search_query" id="search_query" class="Textbox autobox" value="Search" />
+		<input type="submit" class="Button" value="" name="Search" title="Search" />
+	</form>
+</div>
+
+<script type="text/javascript">
+	var QuickSearchAlignment = 'right';
+	var QuickSearchWidth = '390px';
+	lang.EmptySmallSearch = "You forgot to enter some search keywords.";
+	// uniform() is deprecated in Blueprint theme; remove binding below when removing uniform
+	$(document).ajaxComplete(function() {
+		$('input[type=checkbox], select').not('.UniApplied').uniform();
+	});
+</script></div>
+
+			</div>
+				</div>
+		</div>
+<!-- 		<h1 class="made-tagline">Made from recycled bottles</h1>
+ -->
+	</div>
+</div>
+            <div class="main">
+                <div class="inner">
+                    
+                    <div class="Content Widest" id="LayoutColumn1">
+                        <script type="text/javascript" src="https://cdn10.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/jquery/plugins/jquery.flexslider.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('.slide-show').flexslider({
+            slideshowSpeed: $('.slide-show').attr('data-swap-frequency') * 1000,
+            animation: "slide",
+            pauseOnHover: true,
+            video: true,
+            controlNav: true,
+            directionNav: true
+        });
+    });
+</script>
+<div class="slide-show slide-show-render slide-show-render-full flexslider Panel" data-swap-frequency="10" id="HomeSlideShow">
+	<ol class="slides">
+		<li class="slide">
+	<a href="">
+		<div class="slide-content">
+				<div class="slide-overlay">
+					<h2 class="slide-heading" style="color: #ffffff"></h2>
+					<p class="slide-text" style="color: #ffffff"></p>
+					<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff"></span></div>
+				</div>
+				<span class="slide-image-wrapper">
+					<img class="slide-image" src="https://cdn10.bigcommerce.com/s-ndfsu/product_images/theme_images/banner1.png?t=1490193588" alt="">
+				</span>
+		</div>
+	</a>
+</li><li class="slide">
+	<a href="">
+		<div class="slide-content">
+				<div class="slide-overlay">
+					<h2 class="slide-heading" style="color: #ffffff"></h2>
+					<p class="slide-text" style="color: #ffffff"></p>
+					<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff"></span></div>
+				</div>
+				<span class="slide-image-wrapper">
+					<img class="slide-image" src="https://cdn10.bigcommerce.com/s-ndfsu/product_images/theme_images/banners2d.png?t=1490193588" alt="">
+				</span>
+		</div>
+	</a>
+</li><li class="slide">
+	<a href="">
+		<div class="slide-content">
+				<div class="slide-overlay">
+					<h2 class="slide-heading" style="color: #ffffff"></h2>
+					<p class="slide-text" style="color: #ffffff"></p>
+					<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff"></span></div>
+				</div>
+				<span class="slide-image-wrapper">
+					<img class="slide-image" src="https://cdn10.bigcommerce.com/s-ndfsu/product_images/theme_images/banner3d.png?t=1490193588" alt="">
+				</span>
+		</div>
+	</a>
+</li><li class="slide">
+	<a href="">
+		<div class="slide-content">
+				<div class="slide-overlay">
+					<h2 class="slide-heading" style="color: #ffffff"></h2>
+					<p class="slide-text" style="color: #ffffff"></p>
+					<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff"></span></div>
+				</div>
+				<span class="slide-image-wrapper">
+					<img class="slide-image" src="https://cdn10.bigcommerce.com/s-ndfsu/product_images/theme_images/banners4d.png?t=1490193588" alt="">
+				</span>
+		</div>
+	</a>
+</li><li class="slide">
+	<a href="">
+		<div class="slide-content">
+				<div class="slide-overlay">
+					<h2 class="slide-heading" style="color: #ffffff"></h2>
+					<p class="slide-text" style="color: #ffffff"></p>
+					<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff"></span></div>
+				</div>
+				<span class="slide-image-wrapper">
+					<img class="slide-image" src="https://cdn10.bigcommerce.com/s-ndfsu/product_images/theme_images/banners5b__20895.png?t=1490193588" alt="">
+				</span>
+		</div>
+	</a>
+</li>
+		<!-- <li class="slide vid-slide">
+			<a href="">
+				<div class="slide-content">
+						<div class="slide-overlay">
+							<h2 class="slide-heading" style="color: #ffffff">CAROUSEL VIDEO TEST</h2>
+							<p class="slide-text" style="color: #ffffff">TEST</p>
+							<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff">TEST</span></div>
+						</div>
+						<video autoplay="autoplay">
+							<source src="http://www.normandesign.net/client/video/media/greenglass_test2.mp4" type="video/mp4"></video>
+						</video>
+				</div>
+			</a>
+		</li> -->
+	</ol>
+</div>
+<!-- //slide-show -->
+                        <div id='1689875511' class='Block BlockContent banner_home_page_top'><p><img class="__mce_add_custom__" title="bannerfans-15800983.png" src="https://cdn10.bigcommerce.com/s-ndfsu/product_images/uploaded_images/bannerfans-15800983.png?t=1433788649" alt="bannerfans-15800983.png" width="980" height="80" /></p><script></script><script></script></div>
+                        
+                        <div class="Block FeaturedProducts Moveable Panel"  id="HomeFeaturedProducts" style="display:">
+    <h3>Featured Products</h3>
+    <div class="BlockContent">
+        <ul class="ProductList">
+            <li class="Odd">
+	<div class="ProductImage QuickView" data-product="499">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-beer-spirit-made-from-bordeaux-wine-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/499/images/1565/Beer_Spirit_web772__38365.1487087068.220.290.jpg?c=2" alt="Decorated Clear Tumbler - Beer Spirit - Made From Bordeaux Wine Bottles - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-beer-spirit-made-from-bordeaux-wine-bottles-set-of-4/" class="pname">Decorated Clear Tumbler - Beer Spirit - Made From Bordeaux Wine Bottles - set of 4</a>
+	</div>
+	<em class="p-price">$30.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating0.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-beer-spirit-made-from-bordeaux-wine-bottles-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="498">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-drink-up-buttercup-made-from-bordeaux-wine-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/498/images/1564/Drink_Up_Buttercup_web772__00287.1487086988.220.290.jpg?c=2" alt="Decorated Clear Tumbler - Drink Up Buttercup  - Made From Bordeaux Wine Bottles - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-drink-up-buttercup-made-from-bordeaux-wine-bottles-set-of-4/" class="pname">Decorated Clear Tumbler - Drink Up Buttercup  - Made From Bordeaux Wine Bottles - set of 4</a>
+	</div>
+	<em class="p-price">$30.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating0.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-drink-up-buttercup-made-from-bordeaux-wine-bottles-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Odd">
+	<div class="ProductImage QuickView" data-product="492">
+		<a href="https://www.greenglass.com/tall-clear-modern-tumblers-made-from-recycled-liquor-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/492/images/1558/Opera_Highball_web772__47700.1486659389.220.290.jpg?c=2" alt="Tall Clear Modern Tumblers Made From Recycled Liquor Bottles - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/tall-clear-modern-tumblers-made-from-recycled-liquor-bottles-set-of-4/" class="pname">Tall Clear Modern Tumblers Made From Recycled Liquor Bottles - set of 4</a>
+	</div>
+	<em class="p-price">$30.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating5">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating5.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/cart.php?action=add&amp;product_id=492" class="btn icon-Add To Cart" title="Add To Cart">Add To Cart</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="446">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-recycle-made-from-bordeaux-wine-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/446/images/1438/Tumbler_Cyan_Clear_Re-cycled_1_web772__61963.1464813783.220.290.jpg?c=2" alt="Decorated Clear Tumbler - ReCycle - Made From Bordeaux Wine Bottles - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-recycle-made-from-bordeaux-wine-bottles-set-of-4/" class="pname">Decorated Clear Tumbler - ReCycle - Made From Bordeaux Wine Bottles - set of 4</a>
+	</div>
+	<em class="p-price"><strike class="RetailPriceValue">$30.00</strike> <span class="SalePrice">$26.60</span></em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating5">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating5.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-recycle-made-from-bordeaux-wine-bottles-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Odd">
+	<div class="ProductImage QuickView" data-product="238">
+		<a href="https://www.greenglass.com/tumbler-cyan-clear/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/238/images/1224/CyanTumblerCND1WWeb250__30217.1551892264.220.290.jpg?c=2" alt="Clear Tumblers Made From Recycled Wine Bottles - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/tumbler-cyan-clear/" class="pname">Clear Tumblers Made From Recycled Wine Bottles - set of 4</a>
+	</div>
+	<em class="p-price">$28.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating0.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/tumbler-cyan-clear/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="496">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-beer-on-my-side-made-from-bordeaux-wine-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/496/images/1562/Beer_On_My_Side_web772__72091.1487086816.220.290.jpg?c=2" alt="Decorated Clear Tumbler - Beer On My Side - Made From Bordeaux Wine Bottles - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-beer-on-my-side-made-from-bordeaux-wine-bottles-set-of-4/" class="pname">Decorated Clear Tumbler - Beer On My Side - Made From Bordeaux Wine Bottles - set of 4</a>
+	</div>
+	<em class="p-price">$30.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating0.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-beer-on-my-side-made-from-bordeaux-wine-bottles-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Odd">
+	<div class="ProductImage QuickView" data-product="500">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-wine-spirit-made-from-bordeaux-wine-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/500/images/1566/Wine_Spirit_web772__24814.1487087148.220.290.jpg?c=2" alt="Decorated Clear Tumbler - Wine Spirit - Made From Bordeaux Wine Bottles - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-wine-spirit-made-from-bordeaux-wine-bottles-set-of-4/" class="pname">Decorated Clear Tumbler - Wine Spirit - Made From Bordeaux Wine Bottles - set of 4</a>
+	</div>
+	<em class="p-price">$30.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating0.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/decorated-clear-tumbler-wine-spirit-made-from-bordeaux-wine-bottles-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="440">
+		<a href="https://www.greenglass.com/creamy-red-birch-beer-pop-large-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/440/images/1414/Recycled_Tumbler_Boylan_LG_Birch_1_W_Web772__13405.1551892289.220.290.jpg?c=2" alt="Large Red Birch Beer Soda Tumblers Made From Boylan Bottles - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/creamy-red-birch-beer-pop-large-set-of-4/" class="pname">Large Red Birch Beer Soda Tumblers Made From Boylan Bottles - set of 4</a>
+	</div>
+	<em class="p-price">$25.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating0.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/creamy-red-birch-beer-pop-large-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+                        <!-- <div class="Block TopSellers Moveable Panel" id="SideTopSellers" style="display:">
+    <h3>Current Top Sellers</h3>
+    <div class="BlockContent">
+        <ul class="ProductList">
+            <li class="Odd">
+	<div class="ProductImage QuickView" data-product="346">
+		<a href="https://www.greenglass.com/tumblers-made-from-recycled-beer-bottles-set-of-4-1/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/346/images/1331/RecycledTumblerCancun1Web772__57048.1417820107.220.290.jpg?c=2" alt="Tumblers Made From Recycled Beer Bottles  - set of 4" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://www.greenglass.com/tumblers-made-from-recycled-beer-bottles-set-of-4-1/" class="pname">Tumblers Made From Recycled Beer Bottles  - set of 4</a>
+	</div>
+	<em class="p-price">$25.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating0.png?t=1544035777" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://www.greenglass.com/tumblers-made-from-recycled-beer-bottles-set-of-4-1/" class="btn icon-Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+    <div class="ProductImage QuickView" data-product="390">
+        <a href="https://www.greenglass.com/tumblers-made-from-recycled-big-wheel-beer-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/390/images/1124/RecycledTumblerBumpyRide1Web772__46600.1417734625.220.290.jpg?c=2" alt="Tumblers Made From Recycled Big Wheel Beer Bottles  - set of 4" /></a>
+    </div>
+    <div class="ProductDetails">
+        <a href="https://www.greenglass.com/tumblers-made-from-recycled-big-wheel-beer-bottles-set-of-4/" class="pname">Tumblers Made From Recycled Big Wheel Beer Bottles  - set of 4</a>
+    </div>
+    <em class="p-price"><strike class="RetailPriceValue">$25.00</strike> <span class="SalePrice">$22.40</span></em>
+    <div class="ProductPriceRating">
+        <span class="Rating Rating5">
+            <img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating5.png?t=1544035777" alt="" style="" />
+        </span>
+    </div>
+    <div class="ProductActionAdd" style="display:;">
+        <a href="https://www.greenglass.com/tumblers-made-from-recycled-big-wheel-beer-bottles-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+    </div>
+</li><li class="Odd">
+    <div class="ProductImage QuickView" data-product="230">
+        <a href="https://www.greenglass.com/cobalt-tumblers-made-from-riesling-wine-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/230/images/1216/CobaltTumblerCND1WWeb250__59911.1417820050.220.290.jpg?c=2" alt="Cobalt Tumblers Made From Riesling Wine Bottles - set of 4" /></a>
+    </div>
+    <div class="ProductDetails">
+        <a href="https://www.greenglass.com/cobalt-tumblers-made-from-riesling-wine-bottles-set-of-4/" class="pname">Cobalt Tumblers Made From Riesling Wine Bottles - set of 4</a>
+    </div>
+    <em class="p-price">$28.00</em>
+    <div class="ProductPriceRating">
+        <span class="Rating Rating0">
+            <img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating0.png?t=1544035777" alt="" style="" />
+        </span>
+    </div>
+    <div class="ProductActionAdd" style="display:;">
+        <a href="https://www.greenglass.com/cobalt-tumblers-made-from-riesling-wine-bottles-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+    </div>
+</li><li class="Even">
+    <div class="ProductImage QuickView" data-product="319">
+        <a href="https://www.greenglass.com/assorted-clear-pop-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/319/images/1951/new-boylans__10928.1551892310.220.290.jpg?c=2" alt="Small Clear Assorted Soda Tumblers Made From Boylan Bottles - set of 4" /></a>
+    </div>
+    <div class="ProductDetails">
+        <a href="https://www.greenglass.com/assorted-clear-pop-set-of-4/" class="pname">Small Clear Assorted Soda Tumblers Made From Boylan Bottles - set of 4</a>
+    </div>
+    <em class="p-price">$25.00</em>
+    <div class="ProductPriceRating">
+        <span class="Rating Rating5">
+            <img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating5.png?t=1544035777" alt="" style="" />
+        </span>
+    </div>
+    <div class="ProductActionAdd" style="display:;">
+        <a href="https://www.greenglass.com/assorted-clear-pop-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+    </div>
+</li><li class="Odd">
+    <div class="ProductImage QuickView" data-product="462">
+        <a href="https://www.greenglass.com/tumblers-made-from-recycled-boneshaker-beer-bottles-set-of-4/"><img src="https://cdn10.bigcommerce.com/s-ndfsu/products/462/images/1484/Boneshaker_web772__18287.1468439210.220.290.jpg?c=2" alt="Tumblers Made From Recycled Boneshaker Beer Bottles  - set of 4" /></a>
+    </div>
+    <div class="ProductDetails">
+        <a href="https://www.greenglass.com/tumblers-made-from-recycled-boneshaker-beer-bottles-set-of-4/" class="pname">Tumblers Made From Recycled Boneshaker Beer Bottles  - set of 4</a>
+    </div>
+    <em class="p-price">$25.00</em>
+    <div class="ProductPriceRating">
+        <span class="Rating Rating5">
+            <img src="https://cdn10.bigcommerce.com/s-ndfsu/templates/__custom/images/IcoRating5.png?t=1544035777" alt="" style="" />
+        </span>
+    </div>
+    <div class="ProductActionAdd" style="display:;">
+        <a href="https://www.greenglass.com/tumblers-made-from-recycled-boneshaker-beer-bottles-set-of-4/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+    </div>
+</li>
+        </ul>
+    </div>
+</div> -->
+                        <div class="Block Moveable Panel" id="HomeNewProducts" style="display:none;"></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+    <div class="inner">
+
+        
+<div class="newsletter-subscription" id="SideNewsletterBox">
+	<div class="inner">
+		<div class="grid">
+			<div class="grid__item one-third">
+				
+				<h4>Become a Green Glass Insider</h4>
+			</div>
+			<div class="grid__item two-thirds">
+				
+				<form action="https://www.greenglass.com/subscribe.php" method="post" id="subscribe_form" class="subscribe_form" name="subscribe_form">
+					<input type="hidden" name="action" value="subscribe" />
+					<div class="grid">
+						<div class="grid__item two-fifths">
+							<label for="nl_first_name">Name</label>
+							<input class="Textbox autobox" value="Name" id="nl_first_name" name="nl_first_name" type="text" />
+						</div>
+						<div class="grid__item two-fifths">
+							<label for="nl_email">Email</label>
+							<input class="Textbox autobox" value="Email" id="nl_email" name="nl_email" type="email" />
+						</div>
+						<div class="grid__item one-fifth">
+							
+							<input value="Submit" class="btn" type="submit" />
+							
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+// <!--
+	$('#subscribe_form').submit(function() {
+		if($('#nl_first_name').val() == '') {
+			alert('You forgot to type in your first name.');
+			$('#nl_first_name').focus();
+			return false;
+		}
+
+		if($('#nl_email').val() == '') {
+			alert('You forgot to type in your email address.');
+			$('#nl_email').focus();
+			return false;
+		}
+
+		if($('#nl_email').val().indexOf('@') == -1 || $('#nl_email').val().indexOf('.') == -1) {
+			alert('Please enter a valid email address, such as john@example.com.');
+			$('#nl_email').focus();
+			$('#nl_email').select();
+			return false;
+		}
+
+		// Set the action of the form to stop spammers
+		$('#subscribe_form').append("<input type=\"hidden\" name=\"check\" value=\"1\" \/>");
+		return true;
+
+	});
+// -->
+</script>
+
+
+
+        <div class="footer-main">
+            <div class="inner">
+                <div class="footer-columns grid">
+                    <div class="grid__item one-quarter"><h4>Quick Links</h4><ul class="pages-menu sf-menu sf-horizontal sf-js-enabled">
+		<li class=" ">
+		<a href="https://www.greenglass.com/international-checkout/"><span>International Checkout</span></a>
+		
+	</li>	<li class="HasSubMenu ">
+		<a href="https://www.greenglass.com/stores/"><span>Stores</span></a>
+		<ul>
+	<li><a href="https://www.greenglass.com/find-a-store/">Find a store</a></li><li><a href="https://www.greenglass.com/wholesale-information/">Wholesale Information</a></li>
+</ul>
+	</li>	<li class="HasSubMenu ">
+		<a href="https://www.greenglass.com/useful-information/"><span>Useful Information</span></a>
+		<ul>
+	<li><a href="https://www.greenglass.com/shipping-returns/">Shipping &amp; Returns</a></li><li><a href="https://www.greenglass.com/custom-orders/">Custom Orders</a></li><li><a href="https://www.greenglass.com/privacy-policy/">Privacy Policy</a></li>
+</ul>
+	</li>	<li class=" ">
+		<a href="https://www.greenglass.com/contact-us/"><span>Contact Us</span></a>
+		
+	</li>	<li class="HasSubMenu ">
+		<a href="https://www.greenglass.com/learn-more/"><span>Learn More</span></a>
+		<ul>
+	<li><a href="https://www.greenglass.com/sorting-it-out/">Sorting It Out</a></li><li><a href="https://www.greenglass.com/100-upcycled/">100% Upcycled</a></li><li><a href="https://www.greenglass.com/faqs/">FAQs</a></li>
+</ul>
+	</li>	<li class="HasSubMenu ">
+		<a href="https://www.greenglass.com/social-media/"><span>(Social) Media </span></a>
+		<ul>
+	<li><a href="https://www.greenglass.com/blog/">Blog</a></li><li><a href="https://www.greenglass.com/press/">Press</a></li>
+</ul>
+	</li>
+</ul></div>
+                    <div class="grid__item one-quarter"><div class="Block CategoryList Panel">
+    <h4>Categories</h4>
+    <div class="BlockContent">
+        <ul class="sf-menu sf-horizontal">
+<li><a href="https://www.greenglass.com/shop/">Shop</a><ul>
+<li><a href="https://www.greenglass.com/by-usage/">By usage</a></li>
+<li><a href="https://www.greenglass.com/by-color/">By color</a></li>
+<li><a href="https://www.greenglass.com/by-bottle/">By bottle</a></li>
+
+</ul>
+</li>
+<li><a href="https://www.greenglass.com/gifts/">Gifts</a><ul>
+<li><a href="https://www.greenglass.com/for-her/">For Her</a></li>
+<li><a href="https://www.greenglass.com/for-him/">For Him</a></li>
+<li><a href="https://www.greenglass.com/for-kids/">For Kids</a></li>
+<li><a href="https://www.greenglass.com/giftcertificates.php">Gift Certificates</a></li>
+
+</ul>
+</li>
+<li><a href="https://www.greenglass.com/all-products/">All Products</a></li>
+<li><a href="https://www.greenglass.com/on-sale/">Sale</a></li>
+
+</ul>
+
+    </div>
+</div></div>
+                    <!-- <div class="grid__item one-quarter"><div class="BrandList Moveable Panel slist" id="SideShopByBrand" style="display: ">
+    <h4>Brands</h4>
+    <div class="BlockContent">
+        <ul class="treeview">
+            
+            <li><a href="https://www.greenglass.com/brands/">View all brands</a></li>
+        </ul>
+    </div>
+</div>
+</div> -->
+                    <div class="grid__item one-quarter"><div id="socnet" class="Block SocialConnect Moveable Panel">
+	<ul>
+		<li><a href="https://www.facebook.com/pages/The-Green-Glass-Company/123252527687151" target="_blank" class="icon-social icon-social-theme icon-facebook" title="Facebook">Facebook</a></li>
+<li><a href="https://www.instagram.com/thegreenglasscompany" target="_blank" class="icon-social icon-social-theme icon-instagram" title="Instagram">Instagram</a></li>
+<li><a href="https://www.pinterest.com/Greenglassco/" target="_blank" class="icon-social icon-social-theme icon-pinterest" title="Pinterest">Pinterest</a></li>
+<li><a href="https://plus.google.com/u/0/b/108211022371953384003/108211022371953384003/about" target="_blank" class="icon-social icon-social-theme icon-googleplus" title="GooglePlus">GooglePlus</a></li>
+
+	</ul>
+</div></div>
+                </div>
+                <div class="footer-copyright">
+                <span id="currencyPrices">All prices are in <span title='US Dollar'>USD</span>.</span> &copy; 2000 - 2015<!-- 2019 --> The Green Glass Company. | <a href="https://www.greenglass.com/sitemap/"><span>Sitemap</span></a>
+
+            </div>
+            </div>
+        </div>
+
+        <!-- <div class="footer-links">
+            <div class="inner">
+                <p>
+                    <span id="currencyPrices">All prices are in <span title='US Dollar'>USD</span>.</span> &copy; 2019 The Green Glass Company. <a href="https://www.greenglass.com/sitemap/"><span>Sitemap</span></a>
+
+                      <span class="powered-by">Powered by <a rel="nofollow" href="http://www.bigcommerce.com">BigCommerce</a></span>
+                </p>
+                
+            </div>
+        </div> -->
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/bc_pinstrumentation.min.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/superfish/js/jquery.bgiframe.min.js"></script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/superfish/js/superfish.js"></script>
+<script type="text/javascript">
+    $(function(){
+        if (typeof $.fn.superfish == "function") {
+            $("ul.sf-menu").superfish({
+                delay: 800,
+                dropShadows: false,
+                speed: "fast"
+            })
+            .find("ul")
+            .bgIframe();
+        }
+    })
+</script>
+<script type="text/javascript" src="https://cdn9.bigcommerce.com/r-0cec17d2b56699f03318b523e7c41d851bd027ee/javascript/visitor.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// attach fast cart event to all 'add to cart' link
+	$(".ProductActionAdd a[href*='cart.php?action=add']").click(function(event) {
+		fastCartAction($(this).attr('href'));
+		return false;
+	});
+});
+</script>
+
+<script type="text/javascript" src="//d2leqgr9fez74i.cloudfront.net/common/js/webinterpret-loader.js"></script> 
+        </div>
+    </body>
+</html>

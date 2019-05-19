@@ -1,0 +1,226 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en"> 
+<!--<![endif]--> 
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Rivercity Solutions</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		
+		<meta name="author" content="Rivercity Solutions">
+		<meta name="web_author" content="BA Creative">
+		
+		<!-- For third-generation iPad with high-resolution Retina display: -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/_/img/apple-touch-icon-144x144.png">
+		<!-- For iPhone with high-resolution Retina display: -->
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/_/img/apple-touch-icon-114x114.png">
+		<!-- For first- and second-generation iPad: -->
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/_/img/apple-touch-icon-72x72.png">
+		<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+		<link rel="apple-touch-icon-precomposed" href="/_/img/apple-touch-icon.png">
+		
+				
+		<!-- jQuery -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>		
+		<script type="text/javascript">window.jQuery || document.write('<script src="/_/js/jquery.1.7.2.min.js"><\/script>')</script>
+		<script type="text/javascript" src="/_/js/modernizr.2.6.1.js"></script>
+		
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+		
+		<!-- FRAMEWORK - Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="/_/css/bootstrap.css">
+		<!-- Custom Site CSS -->
+		<link rel="stylesheet" type="text/css" href="/_/css/site.css">
+		<!-- Media Queries -->
+		<link rel="stylesheet" type="text/css" href="/_/css/media.css">
+		
+		<!-- Google Analytics Tracking Code -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-7617880-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		<!-- TO DO -->
+		<script type="text/javascript">
+			// Back to top & Gentle scroll to anchors
+			/*
+			function goToByScroll(id){
+				$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+			}*/
+			
+			$(document).ready(function() {
+				
+				var navbarOffset = $('header').next().offset().top - 20;
+				
+				$('#navbar').parent().parent().affix({
+					offset: navbarOffset
+				});
+				
+				$('#navbar a').on('click', function(event) {
+					
+					// get href of clicked anchor
+					var id = $(this).attr('href');
+					
+					if(!$(id).length) {
+						// element does not exist, so must not be an in-page link, navigate to link
+					} else {
+						// prevent default jump to url
+						event.preventDefault();
+						// Jump to anchor
+						$('html, body').animate({scrollTop: ($(id).offset().top - 10)},'slow');
+					}
+				});
+				
+				// Initialise Scrollspy
+				$(window).scrollspy({
+					wrap: $('#wrap')[0]
+				});
+				
+			});
+		</script>
+		<meta name="google-site-verification" content="3Ntdf6SNutzEoJdSYqFV3lcuaqeBd9eYoix5BzseKWs" />
+	</head>
+	<body data-spy="scroll" data-target="#navbar">
+		<div id="wrap">
+	<header class="container">
+	<div class="row">
+		<div class="span8">
+			<div class="navbar">
+				<a class="brand" href="/"><img src="/_/img/logo.png"></a>
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				
+				<div class="nav-collapse">
+					<ul class="nav pull-right">
+						<li class="relative"><a href="/about">About</a><div class="ribbon "></div></li>
+						<li class="relative"><a href="/services">Services</a><div class="ribbon "></div></li>
+						<li class="relative"><a href="/news">News</a><div class="ribbon "></div></li>
+						<li class="relative"><a href="/support">Support</a><div class="ribbon "></div></li>
+						<li class="relative"><a href="/contact">Contact</a><div class="ribbon "></div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<a id="side-sticky-support" class="hidden-phone" href="/consultation"><img src="/_/img/no-charge.png"></a>
+<a id="side-sticky-support" class="chat hidden-phone" href="https://control.rivercity.net.au:4433"><img src="/_/img/support-live-chat.png"></a>
+		
+			<div class="container relative">
+				<div class="row">
+					<div class="span8">
+						<div class="box inset-max gutter">
+							<h1>Run your business. <br class="hidden-desktop"><em class="strong">We'll run your IT.</em></h1>
+							<p>At Rivercity we promise to deliver the very best in client service experience, technical expertise and commitment to your business. We have an empathetic view in partnering with our clients, meaning that we predict the impact of any technology change or innovation on the things that matter most - productivity, reliability, security and budget.</p>
+<p>Technology is always evolving and requires continuous care and consideration. We provide the process and the people to ensure you get carefully considered business outcomes.</p>
+						</div>
+						<div class="inverse box-inverse inset-max clearfix gutter">
+							<div class="pull-left phone-center">
+								<a href="/services"><img src="/_/img/services.png" class="support-graphic"></a>
+							</div>
+							<h2 class="h1"><strong>Accountable</strong> technology</h2>
+							<p>Our comprehensive range of services means we can keep your IT plan current and your business technology productive for you.</p>
+<p>We offer <a href="/service/customer-support-services">Customer Support Services</a>, <a href="/service/technology-consulting">Technology Consulting</a>, <a href="/service/network-administration">Network Administration</a> and <a href="/service/proactive-technology-management">Proactive Technology Management</a>.</p>
+
+<p>To get enterprise IT capabilities for a fraction of the cost, take advantage of our no-charge IT Consultation service.</p><h5><a href="news/post/owner-message" title="Owner Message" style="font-weight: normal;">Click Here -&nbsp;An invitation from our owners</a></h5>
+						</div>
+						
+						
+							
+							<div class="box inset-max clearfix">
+								<h1>Take our IT Security Survey. <br /><em class="strong">Let us know what you think.</em></h1>
+						        <script type="text/javascript" id="ryc-insert-script" src="https://tool.reframeyourclients.com/js/insertfill.js?survey=z3d43734d-6b60-42fb-b60f-d2ce9af9add9&font=ffffff&background=048381"></script>
+					        </div>
+					    	
+					</div>
+				</div>
+			</div>
+			<div id="people" class="hidden-phone">
+				<div class="cycle-slideshow"
+				data-cycle-speed="2000" 
+				data-cycle-timeout="10000"
+				>
+				<div class="cycle-overlay"></div>
+					
+						
+							<img src="/images/remote/http_rivercity.net.au.s157704.gridserver.com/content/uploads/team/jamie.png" data-cycle-desc="Jamie Powter, Owner" data-cycle-title="Assisting our clients is a privilege we earn."  />
+						
+					
+						
+							<img src="/images/remote/http_rivercity.net.au.s157704.gridserver.com/content/uploads/team/david.png" data-cycle-desc="David Schulz, Owner" data-cycle-title="The more problems we can prevent, the fewer we have to solve."  />
+						
+					
+						
+							<img src="/images/remote/http_rivercity.net.au.s157704.gridserver.com/content/uploads/team/tawney.png" data-cycle-desc="Tawney Follett, Networks Manager" data-cycle-title="We make the time to stop preventable issues - with no short cuts, ever!"  />
+						
+					
+						
+							<img src="/images/remote/http_rivercity.net.au.s157704.gridserver.com/content/uploads/team/steve.png" data-cycle-desc="Steve Bell, Client Support" data-cycle-title="Responsive, accountable and friendly – that’s us! "  />
+						
+					
+				</div>
+				<script type="text/javascript">
+					function calcPeopleSize(element) {
+						var height = $(window).height() * 0.85;
+						element.height(height);
+						element.find('img').height(height);
+					}
+					
+					$(document).ready(function(){
+						var element = $('#people');
+						
+						calcPeopleSize(element);
+						
+						$(window).resize(function(){calcPeopleSize(element);});
+					});
+				</script>
+			</div>
+		
+	<div class="break gutter-max"></div>
+</div>
+
+<footer class="inverse">
+	<div class="container clearfix">
+		<div class="row">
+			<div class="span12 pull-right">
+				<ul class="social-icons pull-right text-right">
+					<li>
+						<a href="http://www.facebook.com/pages/Rivercity-Solutions/164861743544235"><img src="/_/img/icons-facebook.png"></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/rivercitysol"><img src="/_/img/icons-twitter.png"></a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/company/rivercity-solutions"><img src="/_/img/icons-linkedin.png"></a>
+					</li>
+				</ul>
+				<h2 class="h1">CALL <strong>1300 438 727</strong></h2>
+				<p class="pull-right">&copy; 2012 Rivercity Solutions | All rights reserved | <a href="http://rivercity.net.au/content/uploads/misc/Internet_Merchant_Policy.pdf">Rivercity Privacy Policy</a> | Website by <a href="http://www.bacreative.com.au">BA Creative</a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+		<div class="body-overlay"></div><!--/body-overlay -->
+		<!-- Bootstrap -->
+		<script type="text/javascript" src="/_/js/bootstrap.js"></script>
+		<!-- jQuery Cycle2 -->
+		<script src="/_/js/jquery.cycle2.min.js"></script>
+	</body>
+</html>

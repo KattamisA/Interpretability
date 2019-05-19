@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>A Community for Dog Showers &amp; Breeders</title>
+	<meta content="An online community for dog breeders and dog showing providing information and advice, business and breeder directories, dog products and more." name="description">
+	<meta content="animals, pets, cats, dogs, fish, horses, reptiles" name="keywords">
+	<style type="text/css" media="screen">
+	@import "/css/common.css";
+	@import "/css/default.css";
+	@import "/css/redmond/jquery-ui-1.11.0.min.css";
+	</style>
+	<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="/js/jquery-ui-1.11.0.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.corner.js"></script>
+	<style type="text/css">
+   		#topbox-inner{}
+   		#foot-con-in{}
+	</style>
+</head>
+
+<body>
+<div id="topbox"><div id="topbox-inner"><span> </span><span id="topbox-refs"> : <a href="/index.php" alt="Home">Home</a> : <a href="/login.php" alt="My Account">My Account</a></span></div></div>
+
+<div class="clearfix"></div>
+<div id="master-con">
+<div id="master-out">
+<div id="master-in"><style type="text/css" media="all">
+<!--
+#logo { text-align:center; vertical-align: middle; height: 200px; width: 100%; margin-top: 120px; margin-bottom: 20px; }
+#logo img{border:2px solid #fff;} 
+-->
+</style>
+	
+<div id="logo"><img src="/images/logos/showdogscomau-lg.jpg" alt=""  /></div>
+<div class="clearer"></div>
+<div class="al-center">
+</div><div class="clearer"></div>
+</div> <!-- // master-in -->
+</div> <!-- // master-out -->
+
+<div id="foot-con">
+<div id="foot-con-in" class="cornerbox2">
+<div id="foot" >
+	<span id="version">SHOWDOG V1.1</span>
+		<span id="foot-links"><a href="/aboutus/">About Us</a> | <a href="/privacy">Privacy</a> | <a href="/terms">Terms of Use</a></span>
+	
+</div>
+</div>
+
+
+
+</div><!-- // foot-con -->
+
+</div> <!-- // master-con -->
+</body>
+</html>
+

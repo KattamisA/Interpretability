@@ -1,0 +1,2866 @@
+
+
+
+	<!DOCTYPE html>
+	<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de">
+		
+			<head>
+				
+						
+					<!--
+			
+					=========================================================
+					Shopsoftware by Gambio GmbH (c) 2005-2019 [www.gambio.de]
+					=========================================================
+			
+					Gambio GmbH offers you highly scalable E-Commerce-Solutions and Services.
+					The Shopsoftware is redistributable under the GNU General Public License (Version 2) [http://www.gnu.org/licenses/gpl-2.0.html].
+					based on: E-Commerce Engine Copyright (c) 2006 xt:Commerce, created by Mario Zanier & Guido Winger and licensed under GNU/GPL.
+					Information and contribution at http://www.xt-commerce.com
+			
+					=========================================================
+					Please visit our website: www.gambio.de
+					=========================================================
+			
+					-->
+				
+
+                
+
+	
+
+                    
+                
+	
+				
+					<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+				
+	
+				
+					<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="language" content="de" />
+		<title>Kultbag Alarm – #thisbagisonfire – Taschen aus Feuerwehr-Textil - Kultbag</title>
+		<meta name="keywords" content="Kultbag Alarm, Taschen, Feuerwehr Textil" />
+		<meta name="description" content="Von wegen kalte Schulter – Feuer &amp; Flamme! Kultbag Alarm ist immer im Privat-Einsatz. Für Dich und Deine Siebensachen. Aus brandneuem, extra widerstandsfähigem original Feuerwehr-Textil. Dein robuster Begleiter durch den Alltag, in dem die Funken sprühen. Robust und strapazierfähig und immer mit Reflektor-Streifen, damit Du auf der Straße und im Klub nicht zu übersehen bist. Jetzt nichts mehr anbrennen lassen!" />
+
+				
+
+								
+									
+
+				
+					<base href="https://www.kultbag.de/" />
+				
+	
+				
+											
+							<link rel="shortcut icon" href="https://www.kultbag.de/images/logos/favicon.ico" type="image/x-icon" />
+						
+									
+	
+				
+									
+	
+				
+											
+							<link id="main-css" type="text/css" rel="stylesheet" href="templates/Honeygrid/main.min.css?bust=1557849257" />
+						
+									
+	
+				
+					<meta name="robots" content="index,follow" />
+		<link rel="canonical" href="https://www.kultbag.de/de/" />
+		<meta property="og:url" content="https://www.kultbag.de/de/">
+		
+				
+	
+				
+									
+				
+				
+									
+			
+			</head>
+		
+		
+			<body class="page-index page-index-type-gm_boosted_category page-index-type-language"
+				  data-gambio-namespace="https://www.kultbag.de/templates/Honeygrid/assets/javascript/engine"
+				  data-jse-namespace="https://www.kultbag.de/JSEngine/build"
+				  data-gambio-controller="initialize"
+				  data-gambio-widget="input_number responsive_image_loader transitions header image_maps modal history dropdown core_workarounds anchor"
+				  data-input_number-separator=","
+					>
+		
+				
+					
+				
+		
+
+
+
+
+	
+
+
+	
+	
+		<div id="outer-wrapper" >
+			
+				<header id="header" class="navbar">
+					
+					
+																													
+																
+						
+
+
+
+
+
+	<div id="topbar-container">
+								
+		
+					
+		
+		
+			<div class="navbar-topbar">
+				
+					<nav data-gambio-widget="menu link_crypter" data-menu-switch-element-position="false" data-menu-events='{"desktop": ["click"], "mobile": ["click"]}' data-menu-ignore-class="dropdown-menu">
+						<ul class="nav navbar-nav navbar-right">
+
+														
+							
+															
+							
+							
+															
+							
+							
+															
+
+							
+															
+
+							
+															
+
+														
+							
+																	
+										<li class="dropdown navbar-topbar-item first">
+											<a title="Anmeldung" href="/de/#" class="dropdown-toggle" data-toggle-hover="dropdown"><span class="fa fa-user-o"></span>&nbsp;Kundenlogin</a>
+											
+
+
+
+
+	<ul class="dropdown-menu dropdown-menu-login arrow-top">
+		
+			<li class="arrow"></li>
+		
+		
+		
+			<li class="dropdown-header hidden-xs">Kundenlogin</li>
+		
+		
+		
+			<li>
+				<form action="https://www.kultbag.de/de/login.php?action=process" method="post" class="form-horizontal">
+					<input type="hidden" name="return_url" value="https://www.kultbag.de/de/">
+					<input type="hidden" name="return_url_hash" value="2de8760a405010d6b6a54360f4004fca6704b4810e62f67d496b9560b4411de0">
+					
+						<div class="form-group">
+							<input autocomplete="username" type="email" id="box-login-dropdown-login-username" class="form-control" placeholder="E-Mail" name="email_address" />
+						</div>
+					
+					
+						<div class="form-group">
+							<input autocomplete="current-password" type="password" id="box-login-dropdown-login-password" class="form-control" placeholder="Passwort" name="password" />
+						</div>
+					
+					
+						<div class="dropdown-footer row">
+							
+								
+									<input type="submit" class="btn btn-primary btn-block" value="Anmelden" />
+								
+								<ul>
+									
+										<li>
+											<a title="Konto erstellen" href="https://www.kultbag.de/de/login.php">
+												Konto erstellen
+											</a>
+										</li>
+									
+									
+										<li>
+											<a title="Passwort vergessen?" href="https://www.kultbag.de/de/password_double_opt.php">
+												Passwort vergessen?
+											</a>
+										</li>
+									
+								</ul>
+							
+	
+
+	
+						</div>
+					
+				</form>
+			</li>
+		
+	</ul>
+
+
+										</li>
+									
+															
+
+							
+															
+
+							
+						</ul>
+						
+					</nav>
+				
+			</div>
+		
+	</div>
+
+
+					
+			
+					
+						<div class="inside">
+				
+							<div class="row">
+					
+								
+																																									
+									<div class="navbar-header" data-gambio-widget="mobile_menu">
+																					
+													
+		<div id="navbar-brand" class="navbar-brand">
+			<a href="https://www.kultbag.de/de/" title="Kultbag">
+				<img class="img-responsive" src="https://www.kultbag.de/images/logos/kultbag-alarm-taschen-logo_temp_logo.png" alt="Kultbag-Logo">
+			</a>
+		</div>
+	
+											
+																				
+											
+	
+	
+			
+	
+		<button type="button" class="navbar-toggle" data-mobile_menu-target="#categories .navbar-collapse"
+		        data-mobile_menu-body-class="categories-open" data-mobile_menu-toggle-content-visibility>
+			<i class="gm-menu"></i>
+		</button>
+	
+	
+	
+		<button type="button" class="navbar-toggle cart-icon" data-mobile_menu-location="shopping_cart.php">
+			<i class="gm-cart-basket"></i>
+			<span class="cart-products-count hidden">
+				0
+			</span>
+		</button>
+	
+	
+	
+										
+									</div>
+								
+								
+								
+																			
+																	
+							
+								
+																			
+											
+	<div class="custom-container">
+		
+			<div class="inside">
+				
+											
+							<!--&nbsp;-->
+						
+									
+			</div>
+		
+	</div>
+										
+																	
+							
+								
+																			
+																						
+
+
+	<nav id="cart-container" class="navbar-cart" data-gambio-widget="menu cart_dropdown" data-menu-switch-element-position="false">
+		
+			<ul class="cart-container-inner">
+				
+					<li>
+						<a href="https://www.kultbag.de/de/shopping_cart.php" class="dropdown-toggle">
+							
+								<i class="gm-cart-basket"></i>
+								<span class="cart">
+									Ihr Warenkorb<br />
+									<span class="products">
+										 0,00 EUR
+									</span>
+								</span>
+							
+							
+																	<span class="cart-products-count hidden">
+										
+									</span>
+															
+						</a>
+						
+						
+
+
+
+	<ul class="dropdown-menu arrow-top cart-dropdown cart-empty">
+		
+			<li class="arrow"></li>
+		
+	
+		
+					
+	
+		
+			<li class="cart-dropdown-inside">
+		
+				
+									
+				
+									
+						<div class="cart-empty">
+							Sie haben noch keine Artikel in Ihrem Warenkorb.
+						</div>
+					
+								
+			</li>
+		
+	</ul>
+
+					</li>
+				
+			</ul>
+		
+	</nav>
+
+										
+																	
+				
+							</div>
+							
+						</div>
+					
+			
+					
+					
+					
+
+	
+		<div class="row cookie-bar top"
+			 style="background-color: #c7c7c7; opacity: 1"
+			 data-gambio-widget="cookie_bar">
+			
+				<span class="col-sm-9 col-md-10 content">
+					
+						Diese Webseite nutzt Cookies, um die Nutzung der Webseite zu erleichtern. Durch die Nutzung dieser Webseite erkl&auml;ren Sie sich mit der Verwendung von Cookies einverstanden.
+					
+				</span>
+			
+			
+			
+				<span class="col-sm-3 col-md-2 close-button">
+					
+						<a href="#"
+						   style="background-color: #2196F3; color: #ffffff; margin-right: 15px;"
+						   class="btn btn-default btn-sm close-button">
+															Ok
+													</a>
+					
+
+					
+													<span class="fa-stack">
+								<i class="fa fa-circle fa-inverse fa-stack-2x"></i>
+								<i class="fa fa-close fa-stack-1x"></i>
+							</span>
+											
+				</span>
+			
+		</div>
+	
+
+
+					
+						<noscript>
+							<div class="alert alert-danger noscript-notice">
+								JavaScript ist in Ihrem Browser deaktiviert. Aktivieren Sie JavaScript, um alle Funktionen des Shops nutzen und alle Inhalte sehen zu können.
+							</div>
+						</noscript>
+					
+					
+					
+													
+																
+
+
+	<div id="categories">
+		<div class="navbar-collapse collapse">
+			
+				<nav class="navbar-default navbar-categories" data-gambio-widget="menu">
+					
+						<ul class="level-1 nav navbar-nav">
+															
+									<li class="level-1-child" data-id="3">
+										
+											<a class="dropdown-toggle" href="https://www.kultbag.de/de/damenhandtaschen/" title="Damenhandtaschen">
+												
+													Damenhandtaschen
+												
+																							</a>
+										
+										
+										
+																					
+										
+									</li>
+								
+															
+									<li class="level-1-child" data-id="5">
+										
+											<a class="dropdown-toggle" href="https://www.kultbag.de/de/umhaengetaschen/" title="Umhängetaschen">
+												
+													Umhängetaschen
+												
+																							</a>
+										
+										
+										
+																					
+										
+									</li>
+								
+															
+									<li class="level-1-child" data-id="2">
+										
+											<a class="dropdown-toggle" href="https://www.kultbag.de/de/notebooktaschen/" title="Notebooktaschen">
+												
+													Notebooktaschen
+												
+																							</a>
+										
+										
+										
+																					
+										
+									</li>
+								
+															
+									<li class="level-1-child" data-id="4">
+										
+											<a class="dropdown-toggle" href="https://www.kultbag.de/de/sport-freizeittaschen/" title="Sport- / Freizeittaschen">
+												
+													Sport- / Freizeittaschen
+												
+																							</a>
+										
+										
+										
+																					
+										
+									</li>
+								
+															
+									<li class="level-1-child" data-id="20">
+										
+											<a class="dropdown-toggle" href="https://www.kultbag.de/de/accessoires/" title="Accessoires">
+												
+													Accessoires
+												
+																							</a>
+										
+										
+										
+																					
+										
+									</li>
+								
+														
+							
+							
+							
+								<li class="dropdown dropdown-more" style="display: none">
+									<a class="dropdown-toggle" href="#" title="">
+										Weitere
+									</a>
+									<ul class="level-2 dropdown-menu ignore-menu"></ul>
+								</li>
+							
+			
+						</ul>
+					
+				</nav>
+			
+		</div>
+	</div>
+
+							
+											
+			
+				</header>
+			
+		
+			
+				
+			
+			<div id="stage" data-gambio-widget="slider_flyover">
+				<div id="slider"
+				     data-gambio-widget="slider_responsive"
+				     data-slider_responsive-source="#json-serialized-slider"
+				     data-slider_responsive-effect="fade"
+				     data-slider_responsive-speed="600">
+					
+	<div class="swiper-container" data-gambio-widget="swiper" data-swiper-disable-translucence-fix="true" data-swiper-breakpoints='[{"breakpoint": 100, "usePreviewBullets": true, "slidesPerView": 1}]' data-swiper-slider-options='{"effect": "fade", "speed": 600, "nextButton": ".js-teaser-slider-next", "prevButton": ".js-teaser-slider-prev", "autoplay": }'>
+		<div class="swiper-wrapper">
+					</div>
+		<div class="swiper-pagination"></div>
+		<div class="js-teaser-slider-prev swiper-button-prev"></div>
+		<div class="js-teaser-slider-next swiper-button-next"></div>
+	</div>
+	
+				
+	<script type="application/json" id="json-serialized-slider">{
+    "id": 1,
+    "name": "Startseite",
+    "speed": 3,
+    "showOnStartPage": true,
+    "slides": [
+        {
+            "id": 7,
+            "languageId": 2,
+            "thumbnail": "",
+            "title": "Umh\u00e4ngetaschen",
+            "altText": "Kultbag Alarm Umh\u00e4ngetaschen",
+            "url": "/de/umhaengetaschen/",
+            "urlTarget": "_self",
+            "images": [
+                {
+                    "id": 25,
+                    "languageId": 2,
+                    "breakpoint": "xs",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Umhaengetaschen-Smartphone.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 26,
+                    "languageId": 2,
+                    "breakpoint": "sm",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Umhaengetaschen-Tablet-Portrait.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 27,
+                    "languageId": 2,
+                    "breakpoint": "md",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Umhaengetaschen-Tablet-Landscape.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 28,
+                    "languageId": 2,
+                    "breakpoint": "lg",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Umhaengetaschen-Desktop.jpg",
+                    "areas": []
+                }
+            ],
+            "sortOrder": 1
+        },
+        {
+            "id": 11,
+            "languageId": 1,
+            "thumbnail": "",
+            "title": "Shoulder Bags",
+            "altText": "Kultbag Alarm Shoulder Bags",
+            "url": "/en/shoulder-bags/",
+            "urlTarget": "_self",
+            "images": [
+                {
+                    "id": 41,
+                    "languageId": 1,
+                    "breakpoint": "xs",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Umhaengetaschen-Smartphone.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 42,
+                    "languageId": 1,
+                    "breakpoint": "sm",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Umhaengetaschen-Tablet-Portrait.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 43,
+                    "languageId": 1,
+                    "breakpoint": "md",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Umhaengetaschen-Tablet-Landscape.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 44,
+                    "languageId": 1,
+                    "breakpoint": "lg",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Umhaengetaschen-Desktop.jpg",
+                    "areas": []
+                }
+            ],
+            "sortOrder": 1
+        },
+        {
+            "id": 5,
+            "languageId": 2,
+            "thumbnail": "",
+            "title": "Sport- / Freizeitaschen",
+            "altText": "Kultbag Alarm Sport- / Freizeitaschen",
+            "url": "/de/sport-freizeittaschen/",
+            "urlTarget": "_self",
+            "images": [
+                {
+                    "id": 17,
+                    "languageId": 2,
+                    "breakpoint": "xs",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Sporttaschen-Smartphone.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 18,
+                    "languageId": 2,
+                    "breakpoint": "sm",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Sporttaschen-Tablet-Portrait.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 19,
+                    "languageId": 2,
+                    "breakpoint": "md",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Sporttaschen-Tablet-Landscape.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 20,
+                    "languageId": 2,
+                    "breakpoint": "lg",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Sporttaschen-Desktop.jpg",
+                    "areas": []
+                }
+            ],
+            "sortOrder": 2
+        },
+        {
+            "id": 12,
+            "languageId": 1,
+            "thumbnail": "",
+            "title": "Sports / Leisure Bags",
+            "altText": "Kultbag Alarm Sports / Leisure Bags",
+            "url": "/en/sports-leisure-bags/",
+            "urlTarget": "_self",
+            "images": [
+                {
+                    "id": 45,
+                    "languageId": 1,
+                    "breakpoint": "xs",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Sporttaschen-Smartphone.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 46,
+                    "languageId": 1,
+                    "breakpoint": "sm",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Sporttaschen-Tablet-Portrait.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 47,
+                    "languageId": 1,
+                    "breakpoint": "md",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Sporttaschen-Tablet-Landscape.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 48,
+                    "languageId": 1,
+                    "breakpoint": "lg",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Sporttaschen-Desktop.jpg",
+                    "areas": []
+                }
+            ],
+            "sortOrder": 2
+        },
+        {
+            "id": 8,
+            "languageId": 2,
+            "thumbnail": "",
+            "title": "Notebooktaschen",
+            "altText": "Kultbag Alarm Notebooktaschen",
+            "url": "/de/notebooktaschen/",
+            "urlTarget": "_self",
+            "images": [
+                {
+                    "id": 29,
+                    "languageId": 2,
+                    "breakpoint": "xs",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Notebooktaschen-Smartphone.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 30,
+                    "languageId": 2,
+                    "breakpoint": "sm",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Notebooktaschen-Tablet-Portrait.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 31,
+                    "languageId": 2,
+                    "breakpoint": "md",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Notebooktaschen-Tablet-Landscape.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 32,
+                    "languageId": 2,
+                    "breakpoint": "lg",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Notebooktaschen-Desktop.jpg",
+                    "areas": []
+                }
+            ],
+            "sortOrder": 3
+        },
+        {
+            "id": 10,
+            "languageId": 1,
+            "thumbnail": "",
+            "title": "Notebook Bags",
+            "altText": "Kultbag Alarm Notebook Bags",
+            "url": "/en/notebook-bags/",
+            "urlTarget": "_self",
+            "images": [
+                {
+                    "id": 37,
+                    "languageId": 1,
+                    "breakpoint": "xs",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Notebooktaschen-Smartphone.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 38,
+                    "languageId": 1,
+                    "breakpoint": "sm",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Notebooktaschen-Tablet-Portrait.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 39,
+                    "languageId": 1,
+                    "breakpoint": "md",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Tablet-Landscape.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 40,
+                    "languageId": 1,
+                    "breakpoint": "lg",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Notebooktaschen-Desktop.jpg",
+                    "areas": []
+                }
+            ],
+            "sortOrder": 3
+        },
+        {
+            "id": 1,
+            "languageId": 2,
+            "thumbnail": "",
+            "title": "Damenhandtaschen",
+            "altText": "Kultbag Alarm Damenhandtaschen",
+            "url": "/de/damenhandtaschen/",
+            "urlTarget": "_self",
+            "images": [
+                {
+                    "id": 1,
+                    "languageId": 2,
+                    "breakpoint": "xs",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Smartphone.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 2,
+                    "languageId": 2,
+                    "breakpoint": "sm",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Tablet-Portrait.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 3,
+                    "languageId": 2,
+                    "breakpoint": "md",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Tablet-Landscape.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 4,
+                    "languageId": 2,
+                    "breakpoint": "lg",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Desktop.jpg",
+                    "areas": []
+                }
+            ],
+            "sortOrder": 4
+        },
+        {
+            "id": 9,
+            "languageId": 1,
+            "thumbnail": "",
+            "title": "Women's Handbags",
+            "altText": "Kultbag Alarm Women's Handbags",
+            "url": "/en/women-s-handbags/",
+            "urlTarget": "_self",
+            "images": [
+                {
+                    "id": 33,
+                    "languageId": 1,
+                    "breakpoint": "xs",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Smartphone.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 34,
+                    "languageId": 1,
+                    "breakpoint": "sm",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Tablet-Portrait.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 35,
+                    "languageId": 1,
+                    "breakpoint": "md",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Tablet-Landscape.jpg",
+                    "areas": []
+                },
+                {
+                    "id": 36,
+                    "languageId": 1,
+                    "breakpoint": "lg",
+                    "image": "Kultbag-Alarm-Taschen-Slider-Start-Damenhandtaschen-Desktop.jpg",
+                    "areas": []
+                }
+            ],
+            "sortOrder": 4
+        }
+    ]
+}</script>
+	<script type="application/json" id="json-placeholder-slide">{"baseUrl":"https:\/\/www.kultbag.de\/images\/slider_images\/","languageId":"2"}</script>
+	<script>
+		// Render the correct placeholder image depending the viewport width.
+		(function() {
+			var slider = JSON.parse(document.getElementById('json-serialized-slider').innerHTML);
+			var placeholderSlide = JSON.parse(document.getElementById('json-placeholder-slide').innerHTML);
+			var breakpoint;
+			
+			if (window.innerWidth <= 768) {
+				breakpoint = 'xs'
+			} else if (window.innerWidth <= 992) {
+				breakpoint = 'sm';
+			} else if (window.innerWidth <= 1200) {
+				breakpoint = 'md';
+			} else {
+				breakpoint = 'lg';
+			}
+			
+			loop:
+			for (var index in slider.slides) {
+				var slide = slider.slides[index];
+				
+				if (slide.languageId !== +placeholderSlide.languageId) { // + converts value to int
+					continue;
+				}
+				
+				for (var imageIndex in slide.images) {
+					var slideImage = slide.images[imageIndex];
+					
+					if (slideImage.breakpoint === breakpoint && slideImage.image) {
+						var slide = document.createElement('div');
+						slide.className = 'swiper-slide';
+						
+						var image = document.createElement('img');
+						image.className = 'placeholder-image img-responsive center-block';
+						image.setAttribute('src', placeholderSlide.baseUrl + slideImage.image);
+						image.setAttribute('alt', 'Placeholder Image');
+						
+						slide.appendChild(image);
+						
+						document.querySelector('#slider .swiper-container .swiper-wrapper').appendChild(slide);
+						
+						break loop;
+					}
+				}
+			}
+		})();
+	</script>
+	
+				</div>
+			</div>
+		
+				
+		
+			
+				<div id="wrapper">
+					<div class="row">
+						
+						
+							<div id="main">
+								<div class="main-inside">
+									
+										
+	
+			
+			<div id="breadcrumb_navi" itemscope itemtype="http://schema.org/BreadcrumbList">
+									<span class="breadcrumbEntry" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+													<a href="https://www.kultbag.de/" class="headerNavigation" itemprop="item">
+								<span itemprop="name">Startseite</span>
+							</a>
+												<meta itemprop="position" content="1">
+					</span>
+												</div>
+		
+	
+
+									
+									
+																			
+									
+	
+		
+	
+	
+	
+					
+				<div class="content-page-index">
+										
+						<div class="linke-spalte col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	<p class="first">
+		<img alt="" class="pic-04" src="images/NEUE-ICON-HEADLINES_1.svg" />
+	</p>
+
+	<p class="red-alarm second">
+		<strong>KULTBAG&trade; ALARM</strong> ist immer im Privat-Einsatz.<br />
+		F&uuml;r dich und Deine Siebensachen.
+	</p>
+
+	<p class="third">
+		Aus brandneuem, extra widerstandsf&auml;higem original Feuerwehr-Textil. <strong>Dein robuster Begleiter durch einen Alltag, in dem die Funken spr&uuml;hen!</strong>
+	</p>
+</div>
+
+<div class="rechte-spalte col-xs-12 col-sm-12 col-md-6 col-lg-6">
+	<p class="first">
+		<img alt="" class="pic-01" src="images/NEUE-ICON-HEADLINES_2.svg" />
+	</p>
+
+	<p class="second">
+		<img alt="" class="pic-02" src="images/Kultbag-Alarm_ICON_REFLECTION_BLACK_NEW.svg" />&nbsp;<img alt="" class="pic-03" src="images/Kultbag-Alarm_ICON_SHIELD_BLACK_NEW.svg" />
+	</p>
+</div>
+
+<div style="clear:both;">
+	&nbsp;
+</div>
+
+					
+				</div>
+			
+			
+
+	
+	
+	
+					
+				<div class="content-page-index">
+											
+							<h1>- Shop -</h1>
+						
+										
+							<div class="row show-categories">
+			<div class="show-category-description">
+					</div>
+
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/agni"><img src="https://www.kultbag.de/images/categories/KULTBAG-ALARM-AGNI-01_MOOD05.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/agni">Agni</a>
+			</div>
+
+		</div>
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/alexandria-48-b-c"><img src="https://www.kultbag.de/images/categories/KULTBAG-ALARM-ALEXANDRIA48BC-01_MOODS1.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/alexandria-48-b-c">Alexandria 48 b.c</a>
+			</div>
+
+		</div>
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/chicago-1871"><img src="https://www.kultbag.de/images/categories/KULTBAG-ALARM-CHICAGO1871-MOODS1.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/chicago-1871">Chicago 1871</a>
+			</div>
+
+		</div>
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/florian"><img src="https://www.kultbag.de/images/categories/Kultbag_Alarm_Taschen_Moodshots_0048 Kopie.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/florian">Florian</a>
+			</div>
+
+		</div>
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/loki"><img src="https://www.kultbag.de/images/categories/KULTBAG-ALARM-LOKI-01_MOOD01.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/loki">Loki</a>
+			</div>
+
+		</div>
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/london-1666"><img src="https://www.kultbag.de/images/categories/KULTBAG-ALARM-LONDON1666-08_MOODS2.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/london-1666">London 1666</a>
+			</div>
+
+		</div>
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/luebeck-1276"><img src="https://www.kultbag.de/images/categories/KULTBAG-ALARM-LUEBECK1276-01_MOODS1.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/luebeck-1276">Lübeck 1276</a>
+			</div>
+
+		</div>
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/vesta-unterkategorie"><img src="https://www.kultbag.de/images/categories/KULTBAG-ALARM-VESTA-01_MOOD02.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/vesta-unterkategorie">Vesta</a>
+			</div>
+
+		</div>
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 show-category-item">
+			<div class="show-category-image">
+						<a href="https://www.kultbag.de/de/wupp-trupp"><img src="https://www.kultbag.de/images/categories/KULTBAG-ALARM-WUPP-TRUPP-01_MOODS4.jpg" class="img-responsive category-image"></a>
+						</div>
+			<div class="show-category-name">
+			<a href="https://www.kultbag.de/de/wupp-trupp">Wupp-Trupp</a>
+			</div>
+
+		</div>
+		</div>
+
+					
+				</div>
+			
+			
+	
+	
+	
+		
+	
+
+	
+		
+
+	
+		
+			<h2>- Taschenauswahl -</h2>
+		
+	
+		
+			
+	<div class="productlist productlist-viewmode productlist-viewmode-grid row" data-gambio-widget="product_hover">
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-10">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-10_img">
+											
+																													
+							<span title="Wupp-Trupp #1" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/sport-freizeittaschen/wupp-trupp/wupp-trupp-1.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-WUPP-TRUPP-01_FRONT.jpg" alt="Wupp-Trupp #1">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/sport-freizeittaschen/wupp-trupp/wupp-trupp-1.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+								Wupp-Trupp #1
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ...">
+								
+									<a href="https://www.kultbag.de/de/sport-freizeittaschen/wupp-trupp/wupp-trupp-1.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+										 249,00 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 3-4 Tage (Ausland: + 3 Tage)
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-WUPP-TRUPP-01_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-WUPP-TRUPP-01_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Wupp-Trupp #1"										 title="Wupp-Trupp #1"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-WUPP-TRUPP-01_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-WUPP-TRUPP-01_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Wupp-Trupp #1"										 title="Wupp-Trupp #1"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-56">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-56_img">
+											
+																													
+							<span title="Loki #5" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/umhaengetaschen/loki/loki-1-blue-red-56.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-LOKI-05_FRONT.jpg" alt="Loki #5">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/umhaengetaschen/loki/loki-1-blue-red-56.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+								Loki #5
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ...">
+								
+									<a href="https://www.kultbag.de/de/umhaengetaschen/loki/loki-1-blue-red-56.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+										 189,00 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 3-4 Tage (Ausland: + 3 Tage)
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-LOKI-05_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-LOKI-05_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Loki #5"										 title="Loki #5"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-LOKI-05_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-LOKI-05_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Loki #5"										 title="Loki #5"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-82">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-82_img">
+											
+																													
+							<span title="Florian #2" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/umhaengetaschen/florian/florian-1-82.html" title="We manufacture bags for women and men from the original textiles Nomex and ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-FLORIAN-01_FRONT.jpg" alt="Florian #2">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/umhaengetaschen/florian/florian-1-82.html" title="We manufacture bags for women and men from the original textiles Nomex and ..." class="product-url ">
+								Florian #2
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="We manufacture bags for women and men from the original textiles Nomex and ...">
+								
+									<a href="https://www.kultbag.de/de/umhaengetaschen/florian/florian-1-82.html" title="We manufacture bags for women and men from the original textiles Nomex and ..." class="product-url ">
+										 75,00 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 3-4 Tage (Ausland: + 3 Tage)
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-FLORIAN-01_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-FLORIAN-01_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Florian #2"										 title="Florian #2"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-FLORIAN-01_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-FLORIAN-01_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Florian #2"										 title="Florian #2"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-5">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-5_img">
+											
+																													
+							<span title="Vesta #1" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/damenhandtaschen/vesta-unterkategorie/vesta-1-red.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-VESTA-01_FRONT.jpg" alt="Vesta #1">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/damenhandtaschen/vesta-unterkategorie/vesta-1-red.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+								Vesta #1
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ...">
+								
+									<a href="https://www.kultbag.de/de/damenhandtaschen/vesta-unterkategorie/vesta-1-red.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+										 159,90 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 3-4 Tage (Ausland: + 3 Tage)
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-VESTA-01_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-VESTA-01_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Vesta #1"										 title="Vesta #1"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-VESTA-01_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-VESTA-01_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Damenhandtasche Vesta Rückseite"										 title="Vesta #1"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-35">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-35_img">
+											
+																													
+							<span title="Lübeck 1276 #1" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/notebooktaschen/luebeck-1276/Luebeck-1276-1-gold-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-LUEBECK1276-01_FRONT.jpg" alt="Lübeck 1276 #1">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/notebooktaschen/luebeck-1276/Luebeck-1276-1-gold-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+								Lübeck 1276 #1
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ...">
+								
+									<a href="https://www.kultbag.de/de/notebooktaschen/luebeck-1276/Luebeck-1276-1-gold-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+										 249,00 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 3-4 Tage (Ausland: + 3 Tage)
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-LUEBECK1276-01_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-LUEBECK1276-01_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Lübeck 1276 #1"										 title="Lübeck 1276 #1"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-LUEBECK1276-01_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-LUEBECK1276-01_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Lübeck 1276 #1"										 title="Lübeck 1276 #1"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-48">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-48_img">
+											
+																													
+							<span title="Agni #2" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/damenhandtaschen/agni/agni-2-blue-gold-48.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-AGNI-02_FRONT.jpg" alt="Agni #2">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/damenhandtaschen/agni/agni-2-blue-gold-48.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+								Agni #2
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ...">
+								
+									<a href="https://www.kultbag.de/de/damenhandtaschen/agni/agni-2-blue-gold-48.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+										 129,00 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 2 Wochen
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-AGNI-02_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-AGNI-02_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Agni #2"										 title="Agni #2"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-AGNI-02_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-AGNI-02_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Agni #2"										 title="Agni #2"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-3">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-3_img">
+											
+																													
+							<span title="London 1666 #1" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/notebooktaschen/london-1666/london-1666-1-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-LONDON1666-01_FRONT.jpg" alt="London 1666 #1">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/notebooktaschen/london-1666/london-1666-1-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+								London 1666 #1
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ...">
+								
+									<a href="https://www.kultbag.de/de/notebooktaschen/london-1666/london-1666-1-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+										 249,00 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 3-4 Tage (Ausland: + 3 Tage)
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-LONDON1666-01_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-LONDON1666-01_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="London 1666 #1"										 title="London 1666 #1"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-LONDON1666-01_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-LONDON1666-01_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="London 1666 #1"										 title="London 1666 #1"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-50">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-50_img">
+											
+																													
+							<span title="Alexandria 48 b.c.  #1" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/umhaengetaschen/alexandria-48-b-c/alexandria-48-b-c-1-gold-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-ALEXANDRIA48BC-01_FRONT.jpg" alt="Alexandria 48 b.c.  #1">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/umhaengetaschen/alexandria-48-b-c/alexandria-48-b-c-1-gold-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+								Alexandria 48 b.c.  #1
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ...">
+								
+									<a href="https://www.kultbag.de/de/umhaengetaschen/alexandria-48-b-c/alexandria-48-b-c-1-gold-blue.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+										 219,00 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 3-4 Tage (Ausland: + 3 Tage)
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-ALEXANDRIA48BC-01_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-ALEXANDRIA48BC-01_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Alexandria 48 b.c.  #1"										 title="Alexandria 48 b.c.  #1"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-ALEXANDRIA48BC-01_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-ALEXANDRIA48BC-01_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Alexandria 48 b.c.  #1"										 title="Alexandria 48 b.c.  #1"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+					
+				
+			
+			
+				
+			
+		
+			
+				
+
+
+
+
+
+
+	
+		
+	
+	
+	<div class="product-container swiper-slide  has-gallery"
+		 data-index="new-products-34">
+		
+		
+
+
+
+		<form class="product-tile">
+			
+				<figure class="image" id="new-products-34_img">
+											
+																													
+							<span title="Chicago 1871  #1" class="product-hover-main-image product-image">
+								
+								<a href="https://www.kultbag.de/de/notebooktaschen/chicago-1871/chicago-1871-1-blue-red.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+									<img src="images/product_images/info_images/KULTBAG-ALARM-CHICAGO1871-01_FRONT.jpg" alt="Chicago 1871  #1">
+								</a>
+							</span>
+						
+					
+					
+					
+									</figure>
+			
+
+			
+				<div class="title-description ">
+					
+						<div class="title">
+							<a href="https://www.kultbag.de/de/notebooktaschen/chicago-1871/chicago-1871-1-blue-red.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+								Chicago 1871  #1
+							</a>
+						</div>
+					
+
+					
+						
+					
+					
+				</div><!-- // .title-description -->
+			
+
+			
+							
+			
+
+			
+				<div class="price-tax">
+
+					
+						<div class="price">
+							
+								<span class="current-price-container" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ...">
+								
+									<a href="https://www.kultbag.de/de/notebooktaschen/chicago-1871/chicago-1871-1-blue-red.html" title="Wir stellen Taschen für Damen und Herren aus den original Textilien Nomex ..." class="product-url ">
+										 299,00 EUR
+									</a>
+								
+									
+																			<br />
+										<span class="gm_products_vpe products-vpe">
+																							&nbsp;
+																					</span>
+																	</span>
+							
+						</div>
+					
+
+					
+						<div class="additional-container">
+							<!-- Use this if you want to add something to the product tiles -->
+							
+							inkl. 19% MwSt.  zzgl. 
+				<a class="gm_shipping_link lightbox_iframe" href="https://www.kultbag.de/de/popup/Versand-und-Zahlungsbedingungen.html" 
+						target="_self" 
+						data-modal-settings='{"title":"Versand", "sectionSelector": ".content_text", "bootstrapClass": "modal-lg"}'>
+					<span style="text-decoration:underline">Versand</span>
+		        </a>
+						</div>
+					
+					
+				
+					
+
+					
+					
+					
+
+											
+							 <!-- <div class="shipping hidden-grid">
+								
+																	
+								<div class="shipping-info-short">
+									
+										Lieferzeit:
+									
+																													
+											ca. 3-4 Tage (Ausland: + 3 Tage)
+										
+																	</div>
+							</div> -->  <!-- // .shipping -->
+						
+					
+					<div class="cart-error-msg alert alert-danger hidden" role="alert"></div>
+				</div><!-- // .price-tax -->
+			
+		</form>
+
+
+	
+					
+				<ul class="gallery">
+							
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-CHICAGO1871-01_FRONT.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-CHICAGO1871-01_FRONT.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Chicago 1871  #1"										 title="Chicago 1871  #1"								/>
+							
+						</li>
+		
+							
+								
+																					
+						<li class="thumbnails" >
+							<span class="align-helper"></span>
+							
+								<img class="img-responsive spinner"
+										 data-src="images/product_images/info_images/KULTBAG-ALARM-CHICAGO1871-01_BACK.jpg"										 data-thumb-src="images/product_images/thumbnail_images/KULTBAG-ALARM-CHICAGO1871-01_BACK.jpg"									 src="templates/Honeygrid/assets/images/loading.gif"
+										 alt="Chicago 1871  #1"										 title="Chicago 1871  #1"								/>
+							
+						</li>
+		
+									</ul>
+			
+			
+	</div><!-- // .product-container -->
+			
+			
+		
+			<script type="text/mustache">
+				<template>
+										
+						{{#.}}
+							<div class="swiper-slide {{className}}">
+								<div class="swiper-slide-inside">
+									<img class="img-responsive" {{{srcattr}}} alt="{{title}}" title="{{title}}" data-magnifier-src="{{src}}" />
+								</div>
+							</div>
+						{{/.}}
+					
+									</template>
+			</script>
+		
+	</div>
+
+		
+	
+	
+
+	
+	
+	
+		
+
+
+
+
+	
+						
+	<!-- #BOF YOOCHOOSE -->
+	
+			
+	
+			
+	<!-- #EOF YOOCHOOSE -->
+
+	
+		 
+
+
+
+	
+	
+	
+			
+
+								</div>
+							</div>
+						
+			
+						
+							<aside id="left">
+								
+																	
+								
+																	
+							</aside>
+						
+			
+						
+							<aside id="right">
+								
+																			
+																	
+							</aside>
+						
+			
+					</div>
+				</div>
+			
+			
+			
+	<footer id="footer">
+					
+				<div class="footer-header">
+					<p class="first">
+	<img alt="" src="images/Kultbag_Alarm_Taschen_Footer_02.jpg" />
+</p>
+
+<p class="second">
+	<strong>THIS BAG IS ON FIRE &gt;&gt;&gt;</strong>
+</p>
+
+				</div>
+			
+				
+		
+			<div class="inside">
+				<div class="row">
+					
+						<div class="footer-col-1">
+
+
+	<div class="box box-content panel panel-default">
+		
+			<div class="panel-heading">
+				
+					<span class="panel-title">Rechtliches</span>
+				
+			</div>
+		
+		
+			<div class="panel-body">
+				
+					<nav>
+						
+							<ul class="nav">
+																	
+										<li>
+											
+												<a href="https://www.kultbag.de/de/info/allgemeine-geschaeftsbedingungen.html" title="AGB">
+													AGB
+												</a>
+											
+										</li>
+									
+																	
+										<li>
+											
+												<a href="https://www.kultbag.de/de/info/impressum.html" title="Impressum">
+													Impressum
+												</a>
+											
+										</li>
+									
+																	
+										<li>
+											
+												<a href="https://www.kultbag.de/de/info/Widerrufsrecht-und-Muster-Widerrufsformular.html" title="Widerrufsrecht & Muster-Widerrufsformular">
+													Widerrufsrecht & Muster-Widerrufsformular
+												</a>
+											
+										</li>
+									
+																	
+										<li>
+											
+												<a href="https://www.kultbag.de/de/info/privatsphaere-und-datenschutz.html" title="Privatsphäre und Datenschutz">
+													Privatsphäre und Datenschutz
+												</a>
+											
+										</li>
+									
+															</ul>
+						
+					</nav>
+				
+			</div>
+		
+	</div>
+</div>
+					
+					
+					<div class="footer-col-2">						<div class="box box-content panel panel-default">
+							<div class="panel-heading">
+								<div class="panel-title">
+									<h4>Information</h4>
+								</div>
+							</div>
+							<div class="panel-body">
+								<ul>
+	<li><a href="/de/info/mein-kontakt.html">Kontakt</a></li>
+	<li><a href="/de/info/Versand-und-Zahlungsbedingungen.html">Versand- &amp; Zahlungsbedingungen</a></li>
+</ul>
+
+<p>
+	&nbsp;
+</p>
+
+<h4>Besucht uns auch auf</h4>
+&nbsp;
+
+<p>
+	<a href="https://www.facebook.com/kultbag/" target="_blank"><img alt="" src="images/f_logo_RGB-Blue_100.png" style="width: 40px; height: 40px;" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/kultbag/" target="_blank"><img alt="" src="images/Instagram_AppIcon_Aug2017.png" style="width: 40px; height: 40px;" /></a>
+</p>
+<p>
+	<a href="https://www.youtube.com/user/KultbagTM" target="_blank"><img alt="" class="youtube" src="images/yt_logo_rgb_light.png" style="width: 134px; height: 30px;" /></a>
+</p>
+
+							</div>
+						</div>					</div>
+					
+					
+						<div class="footer-col-3">							<div class="box box-content panel panel-default">
+								<div class="panel-heading">
+									<div class="panel-title">
+										<h4>Sicher bezahlen</h4>
+									</div>
+								</div>
+								<div class="panel-body">
+									<p>
+	<img alt="" src="images/paypal.png" style="width: 70px; height: 50px;" />&nbsp;<img alt="" src="images/text-vorkasse.png" style="width: 70px; height: 50px;" />
+</p>
+
+<p>
+	&nbsp;
+</p>
+
+<h4 style="padding-top:8px;">Wir versenden mit</h4>
+&nbsp;
+
+<p>
+	<img alt="" src="images/DPD_logo_redgrad_rgb.png" style="width: 112px; height: 50px;" />
+</p>
+
+								</div>
+							</div>						</div>
+					
+					
+						<div class="footer-col-4"><p>Diesen Text k&ouml;nnen Sie im Gambio Admin unter Content Manager -&gt; Elemente -&gt; Footer -&gt; Footer 4. Spalte bearbeiten.</p>						</div>
+					
+				</div>
+			</div>
+		
+		
+		
+			<div class="footer-bottom">&copy;  2019 - KULTBAG&trade; ALARM BY BERND D&Ouml;RR</div>
+		
+	</footer>
+
+	
+			
+							
+			
+		</div>
+	
+
+
+
+			
+				
+
+
+	<a class="pageup" data-gambio-widget="pageup" title="Nach oben" href="#">
+		
+	</a>
+			
+			
+				
+	<div class="layer" style="display: none;">
+	
+		
+	
+			<div id="magnific_wrapper">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						{{#title}}
+						<div class="modal-header">
+							<span class="modal-title">{{title}}</span>
+						</div>
+						{{/title}}
+		
+						<div class="modal-body">
+							{{{items.src}}}
+						</div>
+		
+						{{#showButtons}}
+						<div class="modal-footer">
+							{{#buttons}}
+							<button type="button" id="button_{{index}}_{{uid}}" data-index="{{index}}" class="btn {{class}}" >{{name}}</button>
+							{{/buttons}}
+						</div>
+						{{/showButtons}}
+					</div>
+				</div>
+			</div>
+		
+		
+			<div id="modal_prompt">
+				<div>
+					{{#content}}
+					<div class="icon">&nbsp;</div>
+					<p>{{.}}</p>
+					{{/content}}
+					<form name="prompt" action="#">
+						<input type="text" name="input" value="{{value}}" autocomplete="off" />
+					</form>
+				</div>
+			</div>
+		
+			<div id="modal_alert">
+				<div class="white-popup">
+					{{#content}}
+					<div class="icon">&nbsp;</div>
+					<p>{{{.}}}</p>
+					{{/content}}
+				</div>
+			</div>
+	
+		
+		
+	</div>
+			
+
+			<script src="templates/Honeygrid/assets/javascript/init-de.min.js?bust=eefd4e317f822358a70abc15dc5e6813" data-page-token="6545e796fcc49730c19a13a0685f5e11" id="init-js"></script>
+		<script src="gm_javascript.js.php?page=Index&amp;current_template=Honeygrid"></script>
+		<script async type="text/javascript" src="/gm/javascript/GMCounter.js"></script>
+
+			
+							
+
+			
+							
+		</body>
+	</html>

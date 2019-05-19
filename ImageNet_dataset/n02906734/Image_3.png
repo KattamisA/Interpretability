@@ -1,0 +1,2511 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <script>
+    window.gdprConsent = false;
+(function(id) {
+    function append(scriptid, url, async) {
+        var d = document,
+            sn = 'script',
+            f = d.getElementsByTagName(sn)[0];
+        if (!f) f = d.head;
+        var s = d.createElement(sn);
+        s.async = typeof async != "undefined" ? async : !0;
+        s.id = scriptid;
+        s.src = url;
+        f.parentNode.insertBefore(s, f)
+    }
+
+    function getRootDomain() {
+        var parts = window.location.hostname.split('.');
+        if (parts.length === 2) rootDomain = parts[0];
+        else if (parts.length > 2) {
+            var part = parts[parts.length - 2];
+            if (part === 'com' || part === 'co') {
+                rootDomain = parts[parts.length - 3]
+            } else {
+                rootDomain = part
+            }
+        }
+        return rootDomain
+    }
+    window.evidon = {};
+	window.evidon.id = id;
+	window.Utility = window.Utility || {consent:{callbacks:[]},onCanTrack:function(callback){window.Utility.consent.callbacks.push(callback)}};
+    var cdn = '//c.evidon.com/',
+        rootDomain = getRootDomain(),
+        noticecdn = cdn + 'sitenotice/';
+    append('evidon-notice', noticecdn + 'evidon-sitenotice-tag.js');
+    append('evidon-location', cdn + 'geo/country.js', !1);
+    append('evidon-themes', noticecdn + id + '/snthemes.js');
+    if (rootDomain) append('evidon-settings', noticecdn + id + '/' + rootDomain + '/settings.js');
+    window.evidon.priorConsentCallback = function() {
+        window.gdprConsent = true;
+        document.dispatchEvent(new Event("pcm.consent.given"));
+    }
+    window.evidon.closeCallback = function() {}
+    window.evidon.consentWithdrawnCallback = function() {
+        window.gdprConsent = false;
+        document.dispatchEvent(new Event("pcm.consent.revoked"));
+
+    }
+})(425)
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Comic Book</title>
+        <meta name="description" content="Comic Book Movies, News, & Digital Comic Books">
+        <meta name="keywords" content="comic book, comic books, comic book movies">
+                        <meta property="fb:pages" content="225096980839858"> <!-- popculturedotcom -->
+        <meta property="fb:pages" content="141429379522097"> <!-- womanista -->
+        <meta property="fb:pages" content="246355889101131"> <!-- popculturetv -->
+        <meta property="fb:pages" content="274776652662732"> <!-- Trendingonpopculture -->
+        <meta property="fb:pages" content="102131167054395"> <!-- popculturenetflix -->
+        <meta property="fb:pages" content="161493941062558"> <!-- popculturerealitytv -->
+        <meta property="fb:pages" content="863855543714162"> <!-- PopCultureMovies -->
+        <meta property="fb:pages" content="1270246982997461"> <!-- PopCultureWWE -->
+        <meta property="fb:pages" content="349297838806820">  <!-- popculturecountrymusic -->
+        <meta property="fb:pages" content="1852744561604682">  <!-- PopCultureHorror -->
+        <meta property="fb:pages" content="39795225543"> <!-- ComicBook -->
+        <meta property="fb:pages" content="177641815726000"> <!-- DC/Marvel -->
+        <meta property="fb:pages" content="1491451041161527"> <!-- TWD -->
+        <meta property="fb:pages" content="1853563724911883"> <!-- ANIME -->
+        <meta property="fb:pages" content="1875766922697125"> <!-- PR -->
+        <meta property="fb:pages" content="1421666984767587"> <!-- POKEMON -->
+        <meta property="fb:pages" content="1319137071504286"> <!-- TREK -->
+        <meta property="fb:pages" content="1688576428052667"> <!-- WWG BLACK -->
+        <meta property="fb:pages" content="766536783448699"> <!-- WWG YELLOW -->
+        <meta property="fb:pages" content="1808136129509732"> <!-- TOYS  -->
+        <meta property="fb:pages" content="1075190092524035"> <!-- STAR WARS -->
+        <meta name="p:domain_verify" content="5ad45d41467dc74340d8100ffa0f2a73"/>  <!-- Pinterest -->
+        <meta name="google-site-verification" content="x7hVrjifSfYWJfj0-FWACv2DSoXFbHhXgJ62RjFIkgs" />
+        <meta name="uc" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5,user-scalable=0"/>
+    
+                                    <link rel="canonical" href="https://comicbook.com">
+                    
+                <link rel="apple-touch-icon" href="//media.comicbook.com/img/comicbook/cbtouch.png?v=490" />
+    <link rel="shortcut icon" href="https://asset.comicbook.com/img/comicbook/favicon.ico?v=1" type="image/x-icon">
+    <link rel="icon" href="https://asset.comicbook.com/img/comicbook/favicon.ico?v=1" type="image/x-icon">
+    <link href='//fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://use.typekit.net/gra1kun.css">
+        <link href='https://asset.comicbook.com/dist/comicbook/public.min.css?v=490'  rel="stylesheet" type="text/css" />
+<link href='https://asset.comicbook.com/dist/comicbook/public-uncritical.min.css?v=490'  rel="preload" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link href='https://asset.comicbook.com/dist/comicbook/public-uncritical.min.css?v=490'  rel="stylesheet" type="text/css" />
+</noscript>
+        
+
+        <script>
+            var googletagaccount = '1203931';
+            var comscoreID = '14409343';
+            var competeID = 'a694309fba9b3e994014838bb3ff347f';
+            var competeScript = '//c.compete.com/bootstrap/s/a694309fba9b3e994014838bb3ff347f/comicbook-com/bootstrap.js';
+    </script>
+
+    <script>
+      var cbc_page_stamp = "home";
+            // var keywords = [];
+            // if (document.querySelectorAll('[data-tags]').length) {
+            //     keywords = document.querySelectorAll('[data-tags]')[0].attributes['data-tags'].value.split("+");
+            // }
+            
+            var BidBarrel = BidBarrel || {};
+            BidBarrel.queue = BidBarrel.queue || [];
+            var pageType = cbc_page_stamp;
+            var referralDomain = "";
+            if (typeof document.referrer !== 'undefined' && document.referrer != '') {
+                if (document.referrer.match(/^https?:\/\/([^\/]+\.)?facebook\.com(\/|$)/i)) {
+                    referralDomain = "facebook";
+                } else {
+                    var referrer = document.referrer.match(/:\/\/([^\/:]+)(:\d+)?\//)[1];
+                    if (referrer != "localhost") {
+                        referralDomain = referrer.match(/.*?([^.]+)[.][^.]+$/)[1];
+                    } else {
+                        referralDomain = referrer;
+                    }
+                }
+            }
+            var updateNewsletter = function () {
+              var preUpdateStatus = $cbc.Guest.Newsletter;
+                if ($cbc.Guest.EmailSubscriptions === null) {
+                    $cbc.Guest.EmailSubscriptions = [];
+                }
+
+                if ($cbc.Guest.Newsletter === null) {
+                    $cbc.Guest.Newsletter = "Unsubscribed";
+                }
+
+                if ($cbc.Guest.Newsletter === "Unsubscribed") {
+                    var hasSubscribed = false;
+                    for (newsletter in $cbc.CurrentSite.EmailSubscriptions) {
+                        if ($cbc.Guest.EmailSubscriptions.indexOf($cbc.CurrentSite.EmailSubscriptions[newsletter]) > -1) {
+                            hasSubscribed = true;
+                            break;
+                        }
+                    }
+
+                    if (hasSubscribed) {
+                        $cbc.Guest.Newsletter = "Subscribed";
+                    }
+                }
+
+                // if ($(location).attr('pathname').toLowerCase() === '/newsletter/signup') {
+                //     $cbc.Guest.Newsletter = "OptedOut";
+                // }
+            };
+            var pbjs = pbjs || {};
+            pbjs.que = pbjs.que || [];
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+              pbjs.que.push(updateNewsletter);
+            var cbc_screen_size = "large";
+      window.width =  Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+            if (window.width < 768) {
+                cbc_screen_size = "small";
+            };
+        </script>
+    <script>
+		var $cbc = {"CurrentSite":{"Key":"1","Name":"Comicbook.com","DomainExtension":"","Property":"comicbook.com","Site":"comicbook.com","PageType":"home","PageSubType":"unknown","AdPageType":"home","Topic":"comicbook.com","HasTakeover":"0","AdSiteName":"Comicbook.com","MediaVersion":"490","Keywords":[],"EmailSubscriptions":[1],"AssetServer":"https:\/\/asset.comicbook.com\/","AssetConfigType":3,"RelativeSVGs":true,"Env":"3","Twitter":"ComicBook","PremiumAds":[["OOP1","MOOP1"]],"DynamicPlacements":{"FC1":1,"MC1":1,"MC2":5,"MC3":8}},"User":{"Key":null,"Alias":null,"Avatar":"https:\/\/media.comicbook.com\/files\/avatars\/default-200x200.jpg","Name":"","Status":"Guest","Activated":"False","PremiumLevel":0,"AgeRange":"18-24","Email":null,"FirstName":null,"LastName":null,"Points":null},"Guest":{"Email":"","EmailSubscriptions":[],"Newsletter":"Unsubscribed","IsEnrolled":false},"Model":{"IsHotTopic":false}};
+		$cbc.CurrentSite.AdConfig = {
+prefix: 'aw-comicbook',
+googleTagID: 8264,
+gumgumId: 'db99b661',
+playbuzz: {
+	siteId: 'mcd-sdk-jssdk_CBS_comicbook.com',
+	embedId: '807c90d7-0c00-4f14-abef-27d6609a233c'
+}
+};        
+var cbcAdUnits = {
+    "oas_x96": {
+        "code": "oas_x96",
+        "screen": "small",
+        "pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door",
+			"unknown"
+        ]
+    },
+    "oas_BC0": {
+        "code": "oas_BC0",
+        "screen": "small",
+        "pageTypes": ["news_article", "article", "slideshow", "image_gallery"]
+    },
+    "oas_Top": {
+        "code": "oas_Top",
+        "screen": "large",
+        "pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door",
+			"unknown"
+        ]
+    },
+    "oas_Middle1": {
+        "code": "oas_Middle1",
+        "screen": "large",
+        "pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door",
+			"unknown"
+        ]
+    },
+    "oas_Middle2": {
+        "code": "oas_Middle2",
+        "screen": "large",
+        "pageTypes": [
+            "home",
+            "news_door",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door",
+			"unknown"
+        ]
+    },
+    "oas_Middle3": {
+        "code": "oas_Middle3",
+        "screen": "large",
+        "pageTypes": [
+            "home",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+			"unknown"
+        ]
+    },
+    "oas_Bottom": {
+        "code": "oas_Bottom",
+        "screen": "large",
+        "pageTypes": ["listing", "ranking", "schedule"]
+    },
+    "oas_OOP1": {
+        "code": "oas_OOP1",
+        "screen": "large",
+        "pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door",
+			"unknown"
+        ]
+    },
+    "oas_MOOP1": {
+        "code": "oas_MOOP1",
+        "screen": "small",
+        "pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door",
+			"unknown"
+        ]
+    },
+	"oas_MC": {
+		"code": "oas_MC",
+		"screen": "small",
+		"pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door"
+		]
+	},
+	"oas_FC": {
+		"code": "oas_FC",
+		"screen": "large",
+		"pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door"
+		]
+	},
+	"oas_DesktopComments": {
+		"code": "oas_DesktopComments",
+		"screen": "large",
+		"pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door"
+		]
+	},
+	"oas_Comments": {
+		"code": "oas_Comments",
+		"screen": "small",
+		"pageTypes": [
+            "home",
+            "news_article",
+            "article",
+            "slideshow",
+            "image_gallery",
+            "news_door",
+            "category_news",
+            "platform_door",
+            "topic_main",
+            "category_door",
+            "listing",
+            "ranking",
+            "schedule",
+            "topic_door"
+		]
+	},
+	"oas_BC": {
+		"code": "oas_BC",
+		"screen": "small",
+		"pageTypes": [
+			"news_article",
+			"article",
+			"slideshow",
+			"image_gallery"
+		]
+	}
+}</script>
+<script>
+
+	var pageCount = 1;
+	var pageCurrent = 1;
+				popCultureAnalyticsConfig = {
+		defaults: {
+			value: 1
+		},
+		eventsToTrack: [
+		], // inside declare the element selector (i.e. window) with an object of event names and their object values
+		observables: [
+			// {
+			// 	variable: "document.querySelector('interaction[data-token]').innerHTML",
+			// 	when: "document.querySelector('interaction[data-token]').innerHTML != ''",
+			// 	once: true,
+			// 	report: {
+			// 		metric: "nondfpadimpression",
+			// 		value: 1,
+			// 		dimensions: {
+			// 			"advertisername": "Apester",
+			// 			"adtype": "Interactive"
+			// 		}
+			// 	}
+			// // },
+			{
+				variable: "document.querySelector('.contentset.footer-set > main [plid]').innerHTML",
+				once: true,
+				report: {
+					metric: "nondfpadimpression",
+					value: 1,
+					dimensions: {
+						"advertisername": "TripleLift",
+						"adtype": "Native"
+					}
+				}
+			},
+			// {
+			// 	variable: "document.querySelector('#content-footer-extra').innerHTML",
+			// 	when: "document.querySelector('#content-footer-extra').innerHTML != ''",
+			// 	once: true,
+			// 	report: {
+			// 		metric: "nondfpadimpression",
+			// 		value: 1,
+			// 		dimensions: {
+			// 			"advertisername": "Connatix",
+			// 			"adtype": "Interactive"
+			// 		}
+			// 	}
+			// },
+			{
+				variable: "Object.keys(Utility.objects.keysLike(GUMGUM,/ad_is_/i)).length",
+				report: {
+					metric: "nondfpadimpression",
+					dimensions: {
+						"advertisername": "GumGum",
+						"adtype": "Display"
+					},
+					eval: {
+						value: "parent.diff"
+					}
+				}
+			}//,
+			// {
+			// 	variable: "Nativo.ads.length",
+			// 	value: 1,
+			// 	report: {
+			// 		metric: "nondfpadimpression",
+			// 		dimensions: {
+			// 			"advertisername": "Nativo",
+			// 			"adtype": "Native"
+			// 		}
+			// 	}
+			// }
+		],
+		ga: {
+			identifier: 'UA-2754597-1',
+					},
+		fbPixel: {
+			identifier: "342239506206499"
+		},
+		quantcast: {
+			identifier: "p-ab4nkVmIb9Bmo"
+		},
+		comscore: {
+			identifier: "14409343"
+		},
+		compete: {
+			identifier: "a694309fba9b3e994014838bb3ff347f"
+		},
+		alexa: {
+			identifier: "PluEo1IWx810em",
+			domain: "comicbook.com",
+			dynamic: true
+		},
+		oneByAOL: {
+			events: [
+				{
+					interface: "AD_START",
+					report: {
+						metric: 'nondfpadimpression',
+						value: 1,
+						// when: "!PopColtureAnalytics.handlers.oneByAOL.registeredEvents.iterable.AD_END[args.currentIndex].reported",
+						dimensions: {
+							"advertisername": "ONE By AOL",
+							"adtype": "Video"
+						}
+					}
+				}//,
+				// {
+				// 	interface: "AD_END",
+				// 	iterable: true,
+				// 	report: {
+				// 		metric: 'nondfpadimpression',
+				// 		value: 1,
+				// 		when: "!PopColtureAnalytics.handlers.oneByAOL.registeredEvents.iterable.AD_START[args.currentIndex].reported",
+				// 		dimensions: {
+				// 			"advertisername": "ONE By AOL",
+				// 			"adtype": "Video"
+				// 		}
+				// 	}
+				// }
+			]
+		},
+		surge: {
+			params: {
+                "siteId" : 642392372,
+                "categories": [
+                    {
+                        "id": "CB-Comicbook.com",
+                        "name": "CB-Comicbook.com"
+                    }
+                ],
+                "pluginVersion" : "1.2.25",
+                                "postType" : "home",
+                                                /* keep this the same every time */
+			}
+		}
+	}
+</script>
+    <script>
+
+            if (pageType == 'article') {
+                if ($cbc.CurrentSite.PageSubType == "photogallery") {
+                    pageType = 'photogallery';
+                } else if($cbc.CurrentSite.PageSubType == "slideshow") {
+                    pageType = 'slideshow';
+                }
+            }
+    </script>
+                          <script>
+        function loadTakeOver(data) {
+          adFlow.applyTakeover(data);
+        }
+        function changeAdhesionSize(size, margin) {
+          $( ".adhesion-block").height(size);
+          $(".body").css("margin-top", margin + 'px' );
+        }
+      </script>
+        
+    </head>
+  <body class="gdpr-no-consent gdpr-in-eu pcm-public body site homepage ">
+    <!-- <div class="adhesion-block">
+	<div id="oas_x96" class="oas ad_blk small" data-width="320" data-height="50" data-js="adhesion"></div>
+			                                        <div id="oas_Top" class="oas_desktop_banner" data-width="728" data-height="90" data-js="adhesion"></div>
+	</div> -->
+<div id="oas_x96" class="oas small" data-width="320" data-height="50" data-js="adhesion"></div>
+<div id="oas_Top" class="oas_desktop_banner" data-width="728" data-height="90" data-js="adhesion"></div>
+<header id="header" class="topnav">
+	<nav class="channel-nav clearfix">
+    <ul class="channels">
+			<li>
+				<a href="http://comicbook.com">
+					ComicBook.com
+				</a>
+				<a href="http://popculture.com">
+					PopCulture.com
+				</a>
+				<a href="https://gamespot.com/">
+					Gamespot.com
+				</a>
+			</li>
+		</ul>
+					<ul class="social">
+				<li class="social"><a href="https://facebook.com/comicbookdotcom" target="_blank" title="Join Us on Facebook" rel="noopener"><svg role="presentation" title="facebook" aria-hidden="true"><use xlink:href="/img/svg-defs.svg?v=490#facebook"/></svg></a></li>
+				<li class="social"><a href="https://twitter.com/ComicBook" target="_blank" title="Follow Us on Twitter"><svg role="presentation" title="twitter" rel="noopener"><use xlink:href="/img/svg-defs.svg?v=490#twitter"/></svg></a></li>
+				<li class="social youtube"><a href="https://www.youtube.com/user/ComicBookCom/playlists" target="_blank" title="Follow Us on Youtube" rel="noopener"><svg role="presentation" title="YouTube" aria-hidden="true"><use xlink:href="/img/svg-defs.svg?v=490#youtube"/></svg></a></li>
+				<li class="social"><a href="https://www.instagram.com/comicbook/" target="_blank" title="Follow Us on Instagram" rel="noopener"><svg role="presentation" title="Instagram" aria-hidden="true"><use xlink:href="/img/svg-defs.svg?v=490#instagram"/></svg></a></li>
+			</ul>
+			</nav>
+	<nav class="full-nav">
+		<a href="/" class=""><svg role="presentation" title="Comicbook.com logo"><use xlink:href="/img/svg-defs.svg?v=490#comicbook-logo-1"/></svg></a>
+		<a href="https://comicbook.com" class="channel-link ">
+					</a>
+		<div class="site-nav">
+			<ul>
+								<li>
+					<!-- Mobile Search -->
+					<div id="SearchMobile">
+						<div class="search">
+							<form id="SearchFormMobile" action="/site/search" method="get">
+								<fieldset class="googlesearch_fds">
+									<input type="hidden" name="View" value="Search" />
+									<label class="hidden">Search</label>
+									<input name="q" type="search"  placeholder="Search Comicbook.com" />
+									<button>
+										<svg role="presentation" title="Search Icon"><use xlink:href="/img/svg-defs.svg?v=490#search"></svg>
+										<span class="visuallyhidden">Search</span>
+									</button>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</li>
+													<li class="pc-media-link">
+						<a href="http://www.popculture.com">Pop Culture Media <svg role="presentation" Title="Arrow Down" class="mobile"><use xlink:href="/img/svg-defs.svg?v=490#arrow-right"/></svg><svg role="presentation" Title="Down Arrow Solid" class="desktop"><use xlink:href="/img/svg-defs.svg?v=490#arrow-down-solid"></svg></a>
+						<section id="AllFranchises" class="dropdown">
+							<ul>
+								<li><a href="http://comicbook.com">ComicBook.com</a></li>
+								<li><a href="http://popculture.com">PopCulture.com</a></li>
+								<li><a href="http://popculture.com/page/about">About</a></li>
+								<li><a href="http://popculture.com/page/advertising">Advertise</a></li>
+								<li><a href="http://popculture.com/page/contact">Contact</a></li>
+							</ul>
+						</section>
+					</li>
+					<li>
+						<a>Franchises <svg role="presentation" Title="Arrow Down" class="mobile"><use xlink:href="/img/svg-defs.svg?v=490#arrow-right"/></svg><svg role="presentation" Title="Down Arrow Solid" class="desktop"><use xlink:href="/img/svg-defs.svg?v=490#arrow-down-solid"></svg></a>
+						<section id="Franchises" class="dropdown">
+							<ul>
+																<li><a href="/dc/">DC</a></li>
+								<li><a href="/marvel/">Marvel</a></li>
+								<li><a href="/thewalkingdead/">The Walking Dead</a></li>
+								<li><a href="/starwars/">Star Wars</a></li>
+								<li><a href="/startrek/">Star Trek</a></li>
+								<li><a href="/anime/">Anime</a></li>
+								<li><a href="/horror/">Horror</a></li>
+								<li><a href="/powerrangers/">Power Rangers</a></li>
+								<li><a href="/wwe">WWE</a></li>
+								<li><a href="http://popculture.com/streaming">Streaming</a></li>
+							</ul>
+						</section>
+					</li>
+																									<li>
+								<a href="/movies">Movies <svg role="presentation" Title="Arrow Down" class="mobile"><use xlink:href="/img/svg-defs.svg?v=490#arrow-right"/></svg><svg role="presentation" Title="Down Arrow Solid" class="desktop"><use xlink:href="/img/svg-defs.svg?v=490#arrow-down-solid"/></svg></a>
+								<section class="dropdown">
+									<ul>
+																			<li><a href='/movies/news'>Movie News</a></li>
+										<li><a href='/movie/database'>Database</a></li>
+										<li><a href='/list/comicbook-com-top-metacritic-comic-movies-'>Metacritic Rankings</a></li>
+										<li><a href='/list/franchise-movies-release-schedule'>Release Schedule</a></li>
+										<li><a href='/list/comicbook-com-anticipated-rankings-comic-book-movies'>Anticipation Rankings</a></li>
+										<li><a href='/list/top-grossing-comic-book-movies-worldwide-'>Top Grossing Comic Movies</a></li>
+																		<li><a href="/category/avengers-endgame">Avengers: Endgame</a></li><li><a href="/category/star-wars-episode-ix">Star Wars Episode IX</a></li><li><a href="/category/wonder-woman-2">Wonder Woman 1984</a></li><li><a href="/category/captain-marvel">Captain Marvel</a></li><li><a href="/category/spider-man-2-2019-">Spider-Man: Far From Home</a></li><li><a href="/category/x-men-dark-phoenix">X-Men: Dark Phoenix</a></li>																		</ul>
+								</section>
+							</li>
+																																	<li>
+								<a href="/tv-shows">TV <svg role="presentation" Title="Arrow Down" class="mobile"><use xlink:href="/img/svg-defs.svg?v=490#arrow-right"/></svg><svg role="presentation" Title="Down Arrow Solid" class="desktop"><use xlink:href="/img/svg-defs.svg?v=490#arrow-down-solid"/></svg></a>
+								<section class="dropdown">
+									<ul>
+																			<li><a href='/tv-shows/news'>TV News</a></li>
+										<li><a href='/tv/database'>Database</a></li>
+										<li><a href='/list/comicbook-com-top-metacritic-tvshows-'>Metacritic Rankings</a></li>
+										<li><a href='/list/upcoming-tv-episodes'>Upcoming Episodes</a></li>
+																		<li><a href="/category/the-walking-dead">The Walking Dead</a></li><li><a href="/category/game-of-thrones">Game Of Thrones</a></li><li><a href="/category/marvels-agents-of-s-h-i-e-l-d-">Agents of S.H.I.E.L.D.</a></li><li><a href="/category/arrow">Arrow</a></li><li><a href="/category/cws-the-flash">The Flash</a></li>																			<li><a href='http://popculture.com/category/game-of-thrones'>Game of Thrones</a></li>
+																		</ul>
+								</section>
+							</li>
+																																	<li>
+								<a href="/comics">Comics <svg role="presentation" Title="Arrow Down" class="mobile"><use xlink:href="/img/svg-defs.svg?v=490#arrow-right"/></svg><svg role="presentation" Title="Down Arrow Solid" class="desktop"><use xlink:href="/img/svg-defs.svg?v=490#arrow-down-solid"/></svg></a>
+								<section class="dropdown">
+									<ul>
+																			<li><a href='/comics/news'>Comic News</a></li>
+										<li><a href='/comic/database'>Database</a></li>
+																		<li><a href="/category/-marvel-comics">Marvel</a></li><li><a href="/category/dc-comics">DC</a></li><li><a href="/category/image-comics">Image</a></li><li><a href="/category/-boom-studios">BOOM! Studios</a></li>																		</ul>
+								</section>
+							</li>
+																																	<li>
+								<a href="/gaming">Gaming <svg role="presentation" Title="Arrow Down" class="mobile"><use xlink:href="/img/svg-defs.svg?v=490#arrow-right"/></svg><svg role="presentation" Title="Down Arrow Solid" class="desktop"><use xlink:href="/img/svg-defs.svg?v=490#arrow-down-solid"/></svg></a>
+								<section class="dropdown">
+									<ul>
+																			<li><a href='http://comicbook.com/gaming'>Gaming News</a></li>
+																		<li><a href="/category/nintendo">Nintendo</a></li><li><a href="/category/xbox">Xbox</a></li><li><a href="/category/playstation">Playstation</a></li><li><a href="/category/mobile-games">Mobile</a></li><li><a href="/category/pc">PC</a></li>																		</ul>
+								</section>
+							</li>
+																																	<li>
+								<a href="/anime">Anime <svg role="presentation" Title="Arrow Down" class="mobile"><use xlink:href="/img/svg-defs.svg?v=490#arrow-right"/></svg><svg role="presentation" Title="Down Arrow Solid" class="desktop"><use xlink:href="/img/svg-defs.svg?v=490#arrow-down-solid"/></svg></a>
+								<section class="dropdown">
+									<ul>
+																			<li><a href='/anime/news'>Anime News</a></li>
+																		<li><a href="/category/dragon-ball-super">Dragon Ball Super</a></li><li><a href="/category/pokemon-tvshow">Pokemon</a></li><li><a href="/category/attack-on-titan">Attack on Titan</a></li><li><a href="/category/boruto">Boruto</a></li><li><a href="/category/my-hero-academia">My Hero Academia</a></li><li><a href="/category/one-piece">One Piece</a></li>																		</ul>
+								</section>
+							</li>
+																		<li><a href="/list/top-100-ultimate-users">Community <svg role="presentation" class="mobile"><title>Arrow Down</title><use xlink:href="/img/svg-defs.svg?v=490#arrow-right"></svg><svg role="presentation" class="desktop"><title>Down Arrow Solid</title><use xlink:href="/img/svg-defs.svg?v=490#arrow-down-solid"/></svg></a>
+						<section id="Community" class="dropdown">
+							<ul>
+								<li><a href="/list/top-100-ultimate-users">Comicbook Top 100 Ultimate Users</a></li>
+								<li><a href="/list/ultimate-staff">Comicbook Ultimate Staff</a></li>
+								<li><a href="/hottopics">Top 10 Hot Topics</a></li>
+							</ul>
+						</section>
+					</li>
+											<!-- CB playlists page -->
+						<li><a href="https://www.youtube.com/user/ComicBookCom/playlists?sort=lad&view=1&flow=grid">Video</a></li>
+					
+								<li>
+					<div class="navsocial_blk"><!--
+						<div class="newsletter">
+							<a href="/newsletter/landing">Sign Up For Free Newsletter</a>
+						</div>-->
+                                                                            <div>
+                                <div class="socialnav_blk">
+                                    <a class="social-link" href="https://twitter.com/ComicBook" data-size="medium">
+                                        <svg role="presentation">
+                                            <title>Twitter Icon</title>
+                                            <use xlink:href="/img/svg-defs.svg?v=490#twitter" />
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                                                                            <div>
+                                <div class="socialnav_blk">
+                                    <a class="social-link" href="https://facebook.com/comicbookdotcom" target="_blank" title="Join Us on Facebook" rel="noopener">
+                                        <svg role="presentation">
+                                            <title>Facebook Icon</title>
+                                            <use xlink:href="/img/svg-defs.svg?v=490#facebook" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                                                                            <div>
+                                <div class="socialnav_blk">
+                                    <a class="social-link" href="https://www.youtube.com/user/ComicBookCom/playlists target="_blank" title="Join Us on YouTube" rel="noopener">
+                                        <svg role="presentation">
+                                            <title>Video Icon</title>
+                                            <use xlink:href="/img/svg-defs.svg?v=490#video" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                                            </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="user-nav">
+                            <li class="log-in">
+                    <a class="user_nav">
+                        <svg role="presentation">
+                            <title>User Icon</title>
+                            <use xlink:href="/img/svg-defs.svg?v=490#user3" />
+                        </svg><svg class="login-menu-caret" role="presentation">
+                            <title>Arrow Down</title>
+                            <use xlink:href="/img/svg-defs.svg?v=490#arrow-down">
+                        </svg>
+                    </a>
+                    <section class="dropdown">
+                        <header>
+                            <h2>Sign in using your account with:</h2>
+                            <ul class="soclogin_lst">
+                                <li>
+                                    <a href="https://www.facebook.com/v2.0/dialog/oauth?client_id=231517050198188&redirect_uri=https%3A%2F%2Fcomicbook.com%2Fsinglesignon%3Ftype%3DFB&state=0b3c8b31338073b4a80b246e7d2c22a3&sdk=php-sdk-4.0.8&scope=email"><svg role="presentation">
+                                            <title>Facebook Icon</title>
+                                            <use xlink:href="/img/svg-defs.svg?v=490#facebook" />
+                                        </svg></a>
+                                </li>
+                            </ul>
+                            <h2>or sign in with your Comicbook.com ID:</h2>
+                        </header>
+
+						<form method="Post" action="/login" class="login_frm">
+							<fieldset>
+								<label class="visuallyhidden">Email</label>
+								<input id="Email" name="Email" type="text" placeholder="Email">
+								<label class="visuallyhidden">Password</label>
+								<input id="Password" name="Password" type="password" placeholder="Password">
+							</fieldset>
+							<button type="submit" class="btn">Login</button>
+							<fieldset class="remember_fds">
+								<input checked="checked" id="RememberMe" name="RememberMe" type="checkbox" value="true">
+								<label>Remember me on this computer</label>
+							</fieldset>
+						</form>
+						<div class="login_blk">
+							<p><a href="/user/new"><b>Register</b></a> - <a href="/forgot-password"><b>Forgot Password</b></a></p>
+						</div>
+						<div class="login_blk skn2">
+							<p>By creating an account, you verify that you are at least 13 years of age, and have read and agree to the Comicbook.com <a href="/page/termsofservice"><b>Terms of Service</b></a> and <a href="/page/privacy"><b>Privacy Policy</b></a></p>
+						</div>
+					</section>
+				</li>
+			
+            <li class="menu">
+                <a class="menu-icon"><span></span></a>
+            </li>
+            <li class="search">
+                <a><svg role="presentation">
+                        <title>Search Icon</title>
+                        <use xlink:href="/img/svg-defs.svg?v=490#search">
+                    </svg></a>
+                <section id="Search" class="dropdown">
+                    <form id="SearchForm" action="/site/search" method="get">
+                        <fieldset class="googlesearch_fds">
+                            <input type="hidden" name="View" value="Search" />
+                            <label class="hidden">Search</label>
+                            <input name="q" type="search" placeholder="Search Comicbook.com" />
+                            <button>
+                                <svg role="presentation">
+                                    <title>Search Icon</title>
+                                    <use xlink:href="/img/svg-defs.svg?v=490#search">
+                                </svg>
+                                <span class="visuallyhidden">Search</span>
+                            </button>
+                        </fieldset>
+                    </form>
+                    <a class="close">
+                        <svg role="presentation">
+                            <title>Close</title>
+                            <use xlink:href="/img/svg-defs.svg?v=490#close">
+                        </svg>
+                    </a>
+                </section>
+            </li>
+        </ul>
+    </nav>
+</header>        <section class="main clearfix" data-exp="">
+      
+
+<section id="slotted-content">
+    <article class="main-article">
+                    <a itemprop="url" href="https://comicbook.com/tv-shows/2019/05/19/she-ra-and-the-princesses-of-power-graphic-novel-legend-of-the-fire-princess/">
+            <!-- <a href="https://comicbook.com/tv-shows/2019/05/19/she-ra-and-the-princesses-of-power-graphic-novel-legend-of-the-fire-princess/"> -->
+                    <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/she-ra-and-the-princesses-of-power-legend-of-the-fire-princess-1171652.jpeg?auto=webp" data-alt="she ra and the princesses of power legend of the fire princess">
+        <source media="(min-width: 1001px)" srcset="https://media.comicbook.com/2019/05/she-ra-and-the-princesses-of-power-legend-of-the-fire-princess-1171652.jpeg?auto=webp&crop=2:1&width=640&height=320">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/she-ra-and-the-princesses-of-power-legend-of-the-fire-princess-1171652.jpeg?auto=webp&crop=2:1&width=480&height=240">
+        <source media="(min-width: 421px)" srcset="https://media.comicbook.com/2019/05/she-ra-and-the-princesses-of-power-legend-of-the-fire-princess-1171652.jpeg?auto=webp&crop=2:1&width=640&height=320">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/she-ra-and-the-princesses-of-power-legend-of-the-fire-princess-1171652.jpeg?auto=webp&crop=2:1&width=420&height=210">
+    <noscript><img src="https://media.comicbook.com/2019/05/she-ra-and-the-princesses-of-power-legend-of-the-fire-princess-1171652.jpeg?auto=webp" alt="she ra and the princesses of power legend of the fire princess"></noscript>
+        
+    </picture>
+                <span class="channel-tag">She-Ra and the Princesses of Power</span>
+            </a>
+                <div class="headline-box">
+            <h1><a itemprop="url" href="https://comicbook.com/tv-shows/2019/05/19/she-ra-and-the-princesses-of-power-graphic-novel-legend-of-the-fire-princess/">She-Ra and the Princesses of Power to Get Original Graphic Novel</a></h1>
+            <p class="meta">
+                <span>Jenna Anderson</span>
+                <time>
+                                            9 minutes ago                                    </time>
+            </p>
+        </div>
+    </article>
+    <div class="secondary-articles">
+        <article>
+                        <a itemprop="url" href="https://comicbook.com/marvel/2019/05/19/avengers-endgame-thanos-time-travel-differences/">
+            <!-- <a href="https://comicbook.com/marvel/2019/05/19/avengers-endgame-thanos-time-travel-differences/"> -->
+                                <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/04/avengers-endgame-thanos-1168755.jpeg?auto=webp" data-alt="Avengers Endgame Thanos">
+        <source media="(min-width: 1001px)" srcset="https://media.comicbook.com/2019/04/avengers-endgame-thanos-1168755.jpeg?auto=webp&crop=4:3&width=275&height=205">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/04/avengers-endgame-thanos-1168755.jpeg?auto=webp&crop=4:3&width=210&height=156">
+        <source media="(min-width: 421px)" srcset="https://media.comicbook.com/2019/04/avengers-endgame-thanos-1168755.jpeg?auto=webp&crop=2:1&width=400&height=200">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/04/avengers-endgame-thanos-1168755.jpeg?auto=webp&crop=2:1&width=171&height=86">
+    <noscript><img src="https://media.comicbook.com/2019/04/avengers-endgame-thanos-1168755.jpeg?auto=webp" alt="Avengers Endgame Thanos"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Avengers: Endgame</span>
+            </a>
+            <div class="headline-box">
+                <span class="channel-tag"><a href="category/avengers-endgame">Avengers: Endgame</a></span>
+                <h2>
+                    <a itemprop="url" href="https://comicbook.com/marvel/2019/05/19/avengers-endgame-thanos-time-travel-differences/">Avengers: Endgame VFX Supervisor Breaks Down the Difference Between Two Versions of Thanos</a>
+                </h2>
+                <p class="meta">
+                    <span>Jamie Lovett</span>
+                <time>
+                                            21 minutes ago                                    </time>
+                </p>
+            </div>
+        </article>
+        <article>
+                        <!-- <a href="https://comicbook.com/tv-shows/2019/05/19/game-of-thrones-season-8-episode-6-series-finale-final-episode-spoilers-air-date-time-hbo/"> -->
+            <a itemprop="url" href="https://comicbook.com/tv-shows/2019/05/19/game-of-thrones-season-8-episode-6-series-finale-final-episode-spoilers-air-date-time-hbo/">
+                                <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/game-of-thrones-series-finale-1-1171111.jpeg?auto=webp" data-alt="game of thrones series finale 1">
+        <source media="(min-width: 1001px)" srcset="https://media.comicbook.com/2019/05/game-of-thrones-series-finale-1-1171111.jpeg?auto=webp&crop=4:3&width=275&height=205">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/game-of-thrones-series-finale-1-1171111.jpeg?auto=webp&crop=4:3&width=210&height=156">
+        <source media="(min-width: 421px)" srcset="https://media.comicbook.com/2019/05/game-of-thrones-series-finale-1-1171111.jpeg?auto=webp&crop=2:1&width=400&height=200">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/game-of-thrones-series-finale-1-1171111.jpeg?auto=webp&crop=2:1&width=171&height=86">
+    <noscript><img src="https://media.comicbook.com/2019/05/game-of-thrones-series-finale-1-1171111.jpeg?auto=webp" alt="game of thrones series finale 1"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Game of Thrones</span>
+            </a>
+             <div class="headline-box">
+                <span class="channel-tag"><a href="category/game-of-thrones">Game of Thrones</a></span>
+                <h2>
+                    <a itemprop="url" href="https://comicbook.com/tv-shows/2019/05/19/game-of-thrones-season-8-episode-6-series-finale-final-episode-spoilers-air-date-time-hbo/">What Time Does the Game of Thrones Series Finale Air?</a>
+                </h2>
+                <p class="meta">
+                    <span>Jenna Anderson</span>
+                    <time>
+                                                    25 minutes ago                                            </time>
+                </p>
+            </div>
+        </article>
+    </div>
+</section><aside class="sidebar sidebar-list-module leftrail">
+    <!-- <div data-js="sticky"> -->
+		<section>
+			<header>
+				<h2>Trending Now</h2>
+			</header>
+			<main>
+				<ul class="link-list trending">
+					<li>
+					<div>1.</div>
+					<a href="https://comicbook.com/marvel/2019/05/17/avengers-endgame-avatar-box-office-predictions/">
+						Avengers: Endgame&#39;s Ability to Beat Avatar at Worldwide Box Office Now Being Called Into Question					</a>
+				</li>
+								<li>
+					<div>2.</div>
+					<a href="https://comicbook.com/dc/2019/05/17/robert-pattinson-cast-as-batman-in-new-reboot/">
+						Robert Pattinson Cast as Batman in New Reboot					</a>
+				</li>
+								<li>
+					<div>3.</div>
+					<a href="https://comicbook.com/wwe/2019/05/17/wwe-ashley-massaro-apparent-suicide-depression-affidavit/">
+						WWE: Ashley Massaro&#39;s Cause of Death Reportedly Revealed					</a>
+				</li>
+								<li>
+					<div>4.</div>
+					<a href="https://comicbook.com/marvel/2019/05/16/spider-man-far-from-home-incredible-hulk-mcu-connections-martin-starr-roger-harrington/">
+						Kevin Feige Confirms Two Marvel Cinematic Universe Characters Are Actually the Same Person					</a>
+				</li>
+								<li>
+					<div>5.</div>
+					<a href="https://comicbook.com/marvel/2019/05/18/marvel-avengers-endgame-photo-captain-america-mjolnir-thor-hammer/">
+						Marvel Releases Official Avengers: Endgame Photo of Captain America Wielding Mjolnir					</a>
+				</li>
+				</ul>			</main>
+		</section>
+    	<section>
+	    	<header>
+	    		<h2>Franchises</h2>
+	    	</header>
+	    	<main>
+	    		<ul class="link-list">
+	    			<li>
+	    				<a href="/dc">DC</a>
+	    			</li>
+	    			<li>
+	    				<a href="/marvel">Marvel</a>
+	    			</li>
+	    			<li>
+	    				<a href="/thewalkingdead">The Walking Dead</a>
+	    			</li>
+	    			<li>
+	    				<a href="/starwars">Star Wars</a>
+	    			</li>
+	    			<li>
+	    				<a href="/gaming">Gaming</a>
+	    			</li>
+	    			<li>
+	    				<a href="/anime">Anime</a>
+	    			</li>
+	    			<li>
+	    				<a href="/category/toys">Toys</a>
+	    			</li>
+	    		</ul>
+	    	</main>
+    	</section>
+    	<section>
+	    	<header>
+	    		<h2>Follow Us</h2>
+	    	</header>
+	    	<main>
+	    		<ul class="link-list">
+	    			<li>
+	    				<a href="https://www.facebook.com/comicbookdotcom" target="_blank" rel="noopener"><svg role="presentation" title="Facebook"><use xlink:href="/img/svg-defs.svg?v=490#facebook"></svg>&nbsp;&nbsp;Facebook</a>
+					</li>
+	    			<li>
+	    				<a href="https://twitter.com/ComicBook" target="_blank" rel="noopener"><svg role="presentation" title="Twitter"><use xlink:href="/img/svg-defs.svg?v=490#twitter"></svg>&nbsp;&nbsp;Twitter</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/comicbook/?hl=en" target="_blank" rel="noopener"><svg role="presentation" title="Instagram"><use xlink:href="/img/svg-defs.svg?v=490#instagram"></svg>&nbsp;&nbsp;Instagram</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/user/ComicBookCom/playlists" target="_blank" title="Follow Us on Youtube" rel="noopener"><svg role="presentation" title="YouTube" aria-hidden="true"><use xlink:href="/img/svg-defs.svg?v=490#youtube"></svg>&nbsp;&nbsp;YouTube</a>
+					</li>
+	    		</ul>
+	    	</main>
+    	</section>
+    <!-- </div> -->
+</aside><div class="main_content" data-var="A">
+                    <section class="contentgroup generic">
+            <header>
+                <h2>Latest</h2>
+            </header>
+                <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/19/code-vein-network-test-release-date/">Code Vein Network Test Scheduled for End of Month</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/code-vein">Code Vein</a></span>
+                <span class="author">Tanner Dedmon</span>
+                <time>
+                                            12 minutes ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/19/code-vein-network-test-release-date/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2018/02/code-vein-1082978.jpeg?auto=webp" data-alt="Code Vein">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2018/02/code-vein-1082978.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2018/02/code-vein-1082978.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2018/02/code-vein-1082978.jpeg?auto=webp" alt="Code Vein"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Code Vein</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/wwe/2019/05/19/bray-wyatt-jojo-offerman-first-child-knash-photos/">Photo: Bray Wyatt, JoJo Offerman Welcome First Child</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/bray-wyatt">Bray Wyatt (WWE)</a></span>
+                <span class="author">Connor Casey</span>
+                <time>
+                                            42 minutes ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/wwe/2019/05/19/bray-wyatt-jojo-offerman-first-child-knash-photos/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2018/09/bray-wyatt-jojo-offerman-wwe-1133805.jpeg?auto=webp" data-alt="bray wyatt jojo offerman wwe">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2018/09/bray-wyatt-jojo-offerman-wwe-1133805.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2018/09/bray-wyatt-jojo-offerman-wwe-1133805.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2018/09/bray-wyatt-jojo-offerman-wwe-1133805.jpeg?auto=webp" alt="bray wyatt jojo offerman wwe"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Bray Wyatt (WWE)</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/movies/2019/05/19/john-wick-3-opening-weekend-box-office/">John Wick: Chapter 3 -- Parabellum Has Series High Opening Weekend</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/john-wick-character">John Wick</a></span>
+                <span class="author">Jamie Lovett</span>
+                <time>
+                                            45 minutes ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/movies/2019/05/19/john-wick-3-opening-weekend-box-office/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/john-wick-chapter-3-1171651.jpeg?auto=webp" data-alt="John Wick Chapter 3">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/john-wick-chapter-3-1171651.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/john-wick-chapter-3-1171651.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/john-wick-chapter-3-1171651.jpeg?auto=webp" alt="John Wick Chapter 3"></noscript>
+        
+    </picture>
+                <span class="channel-tag">John Wick</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/19/jaimie-alexander-injury-torn-acl-thor-blindspot-lady-sif/">Thor Star Jaimie Alexander Shares Photos From Recent Surgery</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/jaimie-alexander">Jaimie Alexander</a></span>
+                <span class="author">Jenna Anderson</span>
+                <time>
+                                            1 hour ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/19/jaimie-alexander-injury-torn-acl-thor-blindspot-lady-sif/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2018/05/lady-sif-1109143.jpeg?auto=webp" data-alt="Lady Sif">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2018/05/lady-sif-1109143.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2018/05/lady-sif-1109143.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2018/05/lady-sif-1109143.jpeg?auto=webp" alt="Lady Sif"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Jaimie Alexander</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/19/rainbow-six-siege-glaz-rework/">Rainbow Six Siege Previews Glaz Rework</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/rainbow-six-siege">Rainbow Six Siege</a></span>
+                <span class="author">Tanner Dedmon</span>
+                <time>
+                                            1 hour ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/19/rainbow-six-siege-glaz-rework/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp" data-alt="Rainbow Six Siege Glaz">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp" alt="Rainbow Six Siege Glaz"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Rainbow Six Siege</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/tv-shows/2019/05/19/who-dies-in-game-of-thrones-finale-season-8-episode-6/">Who Dies In the Game of Thrones Finale?</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/game-of-thrones">Game of Thrones</a></span>
+                <span class="author">Jamie Lovett</span>
+                <time>
+                                            1 hour ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/tv-shows/2019/05/19/who-dies-in-game-of-thrones-finale-season-8-episode-6/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/game-of-thrones-tyrion-lannister-1171649.jpeg?auto=webp" data-alt="Game of Thrones Tyrion Lannister">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/game-of-thrones-tyrion-lannister-1171649.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/game-of-thrones-tyrion-lannister-1171649.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/game-of-thrones-tyrion-lannister-1171649.jpeg?auto=webp" alt="Game of Thrones Tyrion Lannister"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Game of Thrones</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/19/skyrim-mods-game-of-thrones-starbucks-cup/">Skyrim Mods Make Fun of Game of Thrones&#39; Starbucks Slip-Up</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/game-of-thrones">Game of Thrones</a></span>
+                <span class="author">Tanner Dedmon</span>
+                <time>
+                                            2 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/19/skyrim-mods-game-of-thrones-starbucks-cup/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/skyrim-game-of-thrones-mod-1171646.jpeg?auto=webp" data-alt="Skyrim Game of Thrones Mod">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/skyrim-game-of-thrones-mod-1171646.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/skyrim-game-of-thrones-mod-1171646.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/skyrim-game-of-thrones-mod-1171646.jpeg?auto=webp" alt="Skyrim Game of Thrones Mod"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Game of Thrones</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/19/captain-marvel-featurette-armed-forces-day-air-force/">Captain Marvel Celebrates Armed Forces Day With New Featurette</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/captain-marvel">Captain Marvel</a></span>
+                <span class="author">Jamie Lovett</span>
+                <time>
+                                            2 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/19/captain-marvel-featurette-armed-forces-day-air-force/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/captain-marvel-air-force-1171645.jpeg?auto=webp" data-alt="Captain Marvel Air Force">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/captain-marvel-air-force-1171645.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/captain-marvel-air-force-1171645.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/captain-marvel-air-force-1171645.jpeg?auto=webp" alt="Captain Marvel Air Force"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Captain Marvel</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/19/marvel-mutant-x-men-introduction-scarlet-witch-time-travel-theory/">Marvel Fan Theory Suggests Scarlet Witch Will Create Mutants in the MCU</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/marvel-cinematic-universe">Marvel Cinematic Universe</a></span>
+                <span class="author">Charlie Ridgely</span>
+                <time>
+                                            11 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/19/marvel-mutant-x-men-introduction-scarlet-witch-time-travel-theory/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/04/scarlet-witch-age-of-ultron-1168249.jpeg?auto=webp" data-alt="scarlet witch age of ultron">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/04/scarlet-witch-age-of-ultron-1168249.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/04/scarlet-witch-age-of-ultron-1168249.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/04/scarlet-witch-age-of-ultron-1168249.jpeg?auto=webp" alt="scarlet witch age of ultron"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Marvel Cinematic Universe</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/19/avengers-endgame-paul-rudd-marvel-role-ant-man-jerk-snl-saturday-night-live-monologue/">Avengers: Endgame Star Paul Rudd Jokes Marvel Fame Made Him a Jerk in SNL Monologue </a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/avengers-endgame">Avengers: Endgame</a></span>
+                <span class="author">Cameron Bonomolo</span>
+                <time>
+                                            11 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/19/avengers-endgame-paul-rudd-marvel-role-ant-man-jerk-snl-saturday-night-live-monologue/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/paul-rudd-ant-man-1171644.jpeg?auto=webp" data-alt="Paul Rudd Ant-Man">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/paul-rudd-ant-man-1171644.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/paul-rudd-ant-man-1171644.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/paul-rudd-ant-man-1171644.jpeg?auto=webp" alt="Paul Rudd Ant-Man"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Avengers: Endgame</span>
+            </a>
+    </article>
+    
+                <a data-js="load-more" class="more-link" href="/?Page=1" data-params="nobutton=1&legacy=1" data-url="/site/seemore" data-page="1" data-exclude="272842,272843,272838,272841,272840,272839,272836,272837,272835,272834,272833,272831,272832"><span>More stories <svg role="presentation" title="small arrow"><use xlink:href="/img/svg-defs.svg?v=490#little-arrow-right"></svg></span></a>
+        </section>
+
+        <section class="contentgroup trending-now">
+            <header>
+                <h2>Trending Now</h2>
+            </header>
+            <main>
+                <ul class="link-list trending">
+					<li>
+					<div>1.</div>
+					<a href="https://comicbook.com/marvel/2019/05/17/avengers-endgame-avatar-box-office-predictions/">
+						Avengers: Endgame&#39;s Ability to Beat Avatar at Worldwide Box Office Now Being Called Into Question					</a>
+				</li>
+								<li>
+					<div>2.</div>
+					<a href="https://comicbook.com/dc/2019/05/17/robert-pattinson-cast-as-batman-in-new-reboot/">
+						Robert Pattinson Cast as Batman in New Reboot					</a>
+				</li>
+								<li>
+					<div>3.</div>
+					<a href="https://comicbook.com/wwe/2019/05/17/wwe-ashley-massaro-apparent-suicide-depression-affidavit/">
+						WWE: Ashley Massaro&#39;s Cause of Death Reportedly Revealed					</a>
+				</li>
+								<li>
+					<div>4.</div>
+					<a href="https://comicbook.com/marvel/2019/05/16/spider-man-far-from-home-incredible-hulk-mcu-connections-martin-starr-roger-harrington/">
+						Kevin Feige Confirms Two Marvel Cinematic Universe Characters Are Actually the Same Person					</a>
+				</li>
+								<li>
+					<div>5.</div>
+					<a href="https://comicbook.com/marvel/2019/05/18/marvel-avengers-endgame-photo-captain-america-mjolnir-thor-hammer/">
+						Marvel Releases Official Avengers: Endgame Photo of Captain America Wielding Mjolnir					</a>
+				</li>
+				</ul>            </main>
+        </section>
+        <div id="oas_x91" class="oas oas_mobile_banner" data-width="320" data-height="50"></div>
+        <section class="contentgroup channel">
+            <header>
+                <h2>Gear</h2>
+            </header>
+                <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/17/dungeons-and-dragons-owlbear-red-dragon-figurines-of-adorable-power/">Dungeons & Dragons Figurines of Adorable Power Are Here</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/dungeons-and-dragons">Dungeons and Dragons</a></span>
+                <span class="author">Sean Fallon</span>
+                <time>
+                                            05/17/2019 02:49 pm                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/17/dungeons-and-dragons-owlbear-red-dragon-figurines-of-adorable-power/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/dungeond-and-dragons-figurines-of-adorable-power-top-1171460.jpeg?auto=webp" data-alt="dungeond-and-dragons-figurines-of-adorable-power-top">
+        <source media="(min-width: 1260px)" srcset="https://media.comicbook.com/2019/05/dungeond-and-dragons-figurines-of-adorable-power-top-1171460.jpeg?auto=webp&crop=2:1&width=509&height=255">
+        <source media="(min-width: 1022px)" srcset="https://media.comicbook.com/2019/05/dungeond-and-dragons-figurines-of-adorable-power-top-1171460.jpeg?auto=webp&crop=1:1&width=565&height=565">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/dungeond-and-dragons-figurines-of-adorable-power-top-1171460.jpeg?auto=webp&crop=1:1&width=492&height=492">
+        <source media="(min-width: 555px)" srcset="https://media.comicbook.com/2019/05/dungeond-and-dragons-figurines-of-adorable-power-top-1171460.jpeg?auto=webp&crop=2:1&width=860&height=430">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/dungeond-and-dragons-figurines-of-adorable-power-top-1171460.jpeg?auto=webp&crop=2:1&width=514&height=257">
+    <noscript><img src="https://media.comicbook.com/2019/05/dungeond-and-dragons-figurines-of-adorable-power-top-1171460.jpeg?auto=webp" alt="dungeond-and-dragons-figurines-of-adorable-power-top"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Dungeons and Dragons</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/anime/2019/05/17/dragon-ball-z-jade-shenron-6-inch-funko-pop-figure-is-live/">The Dragon Ball Z Jade Shenron 6-Inch Funko Pop Figure Exclusive is Available Now</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/dragon-ball-z">Dragon Ball Z</a></span>
+                <span class="author">Sean Fallon</span>
+                <time>
+                                            05/17/2019 08:31 am                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/anime/2019/05/17/dragon-ball-z-jade-shenron-6-inch-funko-pop-figure-is-live/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/funko-dbz-jade-shenron-pop-figure-top-1171424.jpeg?auto=webp" data-alt="funko-dbz-jade-shenron-pop-figure-top">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/funko-dbz-jade-shenron-pop-figure-top-1171424.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/funko-dbz-jade-shenron-pop-figure-top-1171424.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/funko-dbz-jade-shenron-pop-figure-top-1171424.jpeg?auto=webp" alt="funko-dbz-jade-shenron-pop-figure-top"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Dragon Ball Z</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/17/dungeons-and-dragons-ghosts-of-saltmarsh-book-pre-order/">Last Call to Save 40% on the Dungeons & Dragons Ghosts of Saltmarsh Pre-Order</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/dungeons-and-dragons">Dungeons and Dragons</a></span>
+                <span class="author">Sean Fallon</span>
+                <time>
+                                            05/17/2019 08:09 am                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/17/dungeons-and-dragons-ghosts-of-saltmarsh-book-pre-order/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/03/dnd-ghosts-of-saltmarsh-top-1160835.jpeg?auto=webp" data-alt="dnd-ghosts-of-saltmarsh-top">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/03/dnd-ghosts-of-saltmarsh-top-1160835.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/03/dnd-ghosts-of-saltmarsh-top-1160835.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/03/dnd-ghosts-of-saltmarsh-top-1160835.jpeg?auto=webp" alt="dnd-ghosts-of-saltmarsh-top"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Dungeons and Dragons</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/movies/2019/05/16/funko-yule-ball-fawkes-harry-potter-pop-figures/">Funko Casts a Spell for More Harry Potter Pop Figures</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/harry-potter">Harry Potter</a></span>
+                <span class="author">Sean Fallon</span>
+                <time>
+                                            05/16/2019 01:00 pm                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/movies/2019/05/16/funko-yule-ball-fawkes-harry-potter-pop-figures/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/harry-potter-funko-pop-figures-top-1171303.jpeg?auto=webp" data-alt="harry-potter-funko-pop-figures-top">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/harry-potter-funko-pop-figures-top-1171303.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/harry-potter-funko-pop-figures-top-1171303.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/harry-potter-funko-pop-figures-top-1171303.jpeg?auto=webp" alt="harry-potter-funko-pop-figures-top"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Harry Potter</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/anime/2019/05/16/funko-dragon-ball-z-jade-shenron-6-inch-pop-figure-hot-topic/">Funko&#39;s Dragon Ball Z Jade Shenron 6-Inch Pop Figure Exclusive Arrives Tonight</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/dragon-ball-z">Dragon Ball Z</a></span>
+                <span class="author">Sean Fallon</span>
+                <time>
+                                            05/17/2019 08:11 am                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/anime/2019/05/16/funko-dragon-ball-z-jade-shenron-6-inch-pop-figure-hot-topic/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/dragon-ball-z-jade-shenron-hot-topic-exclusive-top-1171266.jpeg?auto=webp" data-alt="dragon-ball-z-jade-shenron-hot-topic-exclusive-top">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/dragon-ball-z-jade-shenron-hot-topic-exclusive-top-1171266.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/dragon-ball-z-jade-shenron-hot-topic-exclusive-top-1171266.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/dragon-ball-z-jade-shenron-hot-topic-exclusive-top-1171266.jpeg?auto=webp" alt="dragon-ball-z-jade-shenron-hot-topic-exclusive-top"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Dragon Ball Z</span>
+            </a>
+    </article>
+    
+                <a data-js="load-more" class="more-link" href="https://comicbook.com/gear/?Page=1" data-params="nobutton=1&legacy=1" data-url="https://comicbook.com/gear/site/seemore" data-exclude="272615,272593,272592,272486,272466" data-page="1">More stories about <span>Gear <svg role="presentation" title="small arrow"><use xlink:href="/img/svg-defs.svg?v=490#little-arrow-right"></svg></span></a>
+        </section>
+        <section class="contentgroup channel">
+            <header>
+                <h2>Anime</h2>
+            </header>
+                <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/anime/2019/05/18/my-hero-academia-dub-season-3-episode-50-recap-spoilers-toonami/">My Hero Academia Recap: &#34;End of the Beginning, Beginning of the End&#34; </a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/my-hero-academia">My Hero Academia</a></span>
+                <span class="author">Nick Valdez</span>
+                <time>
+                                            12 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/anime/2019/05/18/my-hero-academia-dub-season-3-episode-50-recap-spoilers-toonami/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2018/06/bakugo-mom-mha-1117953.jpeg?auto=webp" data-alt="Bakugo-Mom-MHA">
+        <source media="(min-width: 1260px)" srcset="https://media.comicbook.com/2018/06/bakugo-mom-mha-1117953.jpeg?auto=webp&crop=2:1&width=509&height=255">
+        <source media="(min-width: 1022px)" srcset="https://media.comicbook.com/2018/06/bakugo-mom-mha-1117953.jpeg?auto=webp&crop=1:1&width=565&height=565">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2018/06/bakugo-mom-mha-1117953.jpeg?auto=webp&crop=1:1&width=492&height=492">
+        <source media="(min-width: 555px)" srcset="https://media.comicbook.com/2018/06/bakugo-mom-mha-1117953.jpeg?auto=webp&crop=2:1&width=860&height=430">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2018/06/bakugo-mom-mha-1117953.jpeg?auto=webp&crop=2:1&width=514&height=257">
+    <noscript><img src="https://media.comicbook.com/2018/06/bakugo-mom-mha-1117953.jpeg?auto=webp" alt="Bakugo-Mom-MHA"></noscript>
+        
+    </picture>
+                <span class="channel-tag">My Hero Academia</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/anime/2019/05/18/dragon-ball-super-dub-episode-111-recap-spoilers-toonami/">Dragon Ball Super Dub Episode 111 Recap with Spoilers</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/dragon-ball-super">Dragon Ball Super</a></span>
+                <span class="author">Nick Valdez</span>
+                <time>
+                                            12 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/anime/2019/05/18/dragon-ball-super-dub-episode-111-recap-spoilers-toonami/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/dragon-ball-super-episode-111-1171634.jpeg?auto=webp" data-alt="Dragon-Ball-Super-Episode-111">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/dragon-ball-super-episode-111-1171634.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/dragon-ball-super-episode-111-1171634.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/dragon-ball-super-episode-111-1171634.jpeg?auto=webp" alt="Dragon-Ball-Super-Episode-111"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Dragon Ball Super</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/anime/2019/05/19/one-piece-zoro-genderbend-anime-fan-art/">One Piece Fan-Art Gives Zoro Slick Genderbent Spin </a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/one-piece">One Piece</a></span>
+                <span class="author">Nick Valdez</span>
+                <time>
+                                            13 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/anime/2019/05/19/one-piece-zoro-genderbend-anime-fan-art/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/one-piece-zoro-1171630.jpeg?auto=webp" data-alt="One-Piece-Zoro">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/one-piece-zoro-1171630.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/one-piece-zoro-1171630.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/one-piece-zoro-1171630.jpeg?auto=webp" alt="One-Piece-Zoro"></noscript>
+        
+    </picture>
+                <span class="channel-tag">One Piece</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/anime/2019/05/18/my-hero-academia-vigilantes-chapter-53-captain-celebrity-final-words/">My Hero Academia Shares a Favorite Hero&#39;s Final Words</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/my-hero-academia-vigilante">My Hero Academia: Vigilantes</a></span>
+                <span class="author">Nick Valdez</span>
+                <time>
+                                            15 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/anime/2019/05/18/my-hero-academia-vigilantes-chapter-53-captain-celebrity-final-words/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/my-hero-academia-vigilantes-53-1171620.jpeg?auto=webp" data-alt="My-Hero-Academia-Vigilantes-53">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/my-hero-academia-vigilantes-53-1171620.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/my-hero-academia-vigilantes-53-1171620.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/my-hero-academia-vigilantes-53-1171620.jpeg?auto=webp" alt="My-Hero-Academia-Vigilantes-53"></noscript>
+        
+    </picture>
+                <span class="channel-tag">My Hero Academia: Vigilantes</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/anime/2019/05/18/one-piece-why-brook-can-cry-skeleton-tears-manga/">One Piece Creator Reveals Heartwarming Fact About Brook&#39;s Tears</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/one-piece">One Piece</a></span>
+                <span class="author">Nick Valdez</span>
+                <time>
+                                            16 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/anime/2019/05/18/one-piece-why-brook-can-cry-skeleton-tears-manga/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/one-piece-brook-1171618.jpeg?auto=webp" data-alt="One-Piece-Brook">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/one-piece-brook-1171618.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/one-piece-brook-1171618.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/one-piece-brook-1171618.jpeg?auto=webp" alt="One-Piece-Brook"></noscript>
+        
+    </picture>
+                <span class="channel-tag">One Piece</span>
+            </a>
+    </article>
+    
+                <a data-js="load-more" class="more-link" href="https://comicbook.com/anime/?Page=1" data-params="nobutton=1&legacy=1" data-url="https://comicbook.com/anime/site/seemore" data-exclude="272768,272762,272823,272813,272808" data-page="1">More stories about <span>Anime <svg role="presentation" title="small arrow"><use xlink:href="/img/svg-defs.svg?v=490#little-arrow-right"></svg></span></a>
+        </section>
+        <div id="oas_x92" class="oas oas_mobile_banner" data-width="320" data-height="50"></div>
+        <section class="contentgroup channel">
+            <header>
+                <h2>The Walking Dead</h2>
+            </header>
+                <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/thewalkingdead/2019/05/17/the-walking-dead-andrew-lincoln-grumpy-cat/">The Walking Dead Shares Andrew Lincoln With Grumpy Cat Photo</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/the-walking-dead">The Walking Dead</a></span>
+                <span class="author">Brandon Davis</span>
+                <time>
+                                            05/17/2019 05:12 pm                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/thewalkingdead/2019/05/17/the-walking-dead-andrew-lincoln-grumpy-cat/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/lincoln-grumpy-cat-1171486.jpeg?auto=webp" data-alt="lincoln_grumpy_Cat">
+        <source media="(min-width: 1260px)" srcset="https://media.comicbook.com/2019/05/lincoln-grumpy-cat-1171486.jpeg?auto=webp&crop=2:1&width=509&height=255">
+        <source media="(min-width: 1022px)" srcset="https://media.comicbook.com/2019/05/lincoln-grumpy-cat-1171486.jpeg?auto=webp&crop=1:1&width=565&height=565">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/lincoln-grumpy-cat-1171486.jpeg?auto=webp&crop=1:1&width=492&height=492">
+        <source media="(min-width: 555px)" srcset="https://media.comicbook.com/2019/05/lincoln-grumpy-cat-1171486.jpeg?auto=webp&crop=2:1&width=860&height=430">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/lincoln-grumpy-cat-1171486.jpeg?auto=webp&crop=2:1&width=514&height=257">
+    <noscript><img src="https://media.comicbook.com/2019/05/lincoln-grumpy-cat-1171486.jpeg?auto=webp" alt="lincoln_grumpy_Cat"></noscript>
+        
+    </picture>
+                <span class="channel-tag">The Walking Dead</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/thewalkingdead/2019/05/16/the-walking-dead-atlanta-overgrown-photo/">Iconic The Walking Dead Location Reimagined Years Later</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/the-walking-dead">The Walking Dead</a></span>
+                <span class="author">Brandon Davis</span>
+                <time>
+                                            05/16/2019 06:29 pm                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/thewalkingdead/2019/05/16/the-walking-dead-atlanta-overgrown-photo/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/atlanta-walking-dead-1171386.jpeg?auto=webp" data-alt="atlanta_walking_dead">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/atlanta-walking-dead-1171386.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/atlanta-walking-dead-1171386.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/atlanta-walking-dead-1171386.jpeg?auto=webp" alt="atlanta_walking_dead"></noscript>
+        
+    </picture>
+                <span class="channel-tag">The Walking Dead</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/thewalkingdead/2019/05/16/the-walking-dead-pike-shade-tweet-joke/">The Walking Dead Star Roasts Pike Victim With Hilarious Tweet</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/the-walking-dead">The Walking Dead</a></span>
+                <span class="author">Brandon Davis</span>
+                <time>
+                                            05/16/2019 03:51 pm                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/thewalkingdead/2019/05/16/the-walking-dead-pike-shade-tweet-joke/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/pike-roast-1171351.jpeg?auto=webp" data-alt="pike_roast">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/pike-roast-1171351.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/pike-roast-1171351.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/pike-roast-1171351.jpeg?auto=webp" alt="pike_roast"></noscript>
+        
+    </picture>
+                <span class="channel-tag">The Walking Dead</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/16/comicbook-nation-podcast-game-thrones-season-8-episode-5-reactions-daenerys-mad-queen-controversy/">ComicBook Nation Episode 31: Marvel’s New X-Men Plans & Game of Thrones Episode 5 Reactions</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/comicbook-nation-podcast">Comicbook Nation Podcast</a></span>
+                <span class="author">Kofi Outlaw</span>
+                <time>
+                                            05/16/2019 10:55 am                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/16/comicbook-nation-podcast-game-thrones-season-8-episode-5-reactions-daenerys-mad-queen-controversy/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/comicbook-nation-podcast-game-thrones-season-8-episode-5-daenery-1171253.jpeg?auto=webp" data-alt="Comicbook Nation Podcast Game Thrones Season 8 Episode 5 Daenerys Mad Queen Reactions Controversy">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/comicbook-nation-podcast-game-thrones-season-8-episode-5-daenery-1171253.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/comicbook-nation-podcast-game-thrones-season-8-episode-5-daenery-1171253.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/comicbook-nation-podcast-game-thrones-season-8-episode-5-daenery-1171253.jpeg?auto=webp" alt="Comicbook Nation Podcast Game Thrones Season 8 Episode 5 Daenerys Mad Queen Reactions Controversy"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Comicbook Nation Podcast</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/thewalkingdead/2019/05/15/the-walking-dead-rick-grimes-final-death-issue-variant/">The Walking Dead Adds Blank Variant For Rick&#39;s Final Issue</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/the-walking-dead">The Walking Dead</a></span>
+                <span class="author">Brandon Davis</span>
+                <time>
+                                            05/15/2019 05:15 pm                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/thewalkingdead/2019/05/15/the-walking-dead-rick-grimes-final-death-issue-variant/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/the-walking-dead-191-rick-1169611.jpeg?auto=webp" data-alt="The Walking Dead 191_Rick">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/the-walking-dead-191-rick-1169611.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/the-walking-dead-191-rick-1169611.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/the-walking-dead-191-rick-1169611.jpeg?auto=webp" alt="The Walking Dead 191_Rick"></noscript>
+        
+    </picture>
+                <span class="channel-tag">The Walking Dead</span>
+            </a>
+    </article>
+    
+                <a data-js="load-more" class="more-link" href="https://comicbook.com/thewalkingdead/?Page=1" data-params="nobutton=1&legacy=1" data-url="https://comicbook.com/thewalkingdead/site/seemore" data-exclude="272647,272555,272521,272460,272378" data-page="1">More stories about <span>The Walking Dead <svg role="presentation" title="small arrow"><use xlink:href="/img/svg-defs.svg?v=490#little-arrow-right"></svg></span></a>
+        </section>
+        <div id="oas_x93" class="oas oas_mobile_banner" data-width="320" data-height="50"></div>
+        <section class="contentgroup channel">
+            <header>
+                <h2>Star Wars</h2>
+            </header>
+                <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/starwars/2019/05/18/disneyland-star-wars-galaxys-edge-reservation-time-limit-stormtroopers/">Stormtroopers Will Help Enforce Reservation Time Limits at Disneyland’s Star Wars: Galaxy’s Edge</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/star-wars-galaxys-edge">Star Wars: Galaxy's Edge</a></span>
+                <span class="author">Cameron Bonomolo</span>
+                <time>
+                                            18 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/starwars/2019/05/18/disneyland-star-wars-galaxys-edge-reservation-time-limit-stormtroopers/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/star-wars-stormtroopers-first-order-1171602.jpeg?auto=webp" data-alt="Star Wars Stormtroopers First Order">
+        <source media="(min-width: 1260px)" srcset="https://media.comicbook.com/2019/05/star-wars-stormtroopers-first-order-1171602.jpeg?auto=webp&crop=2:1&width=509&height=255">
+        <source media="(min-width: 1022px)" srcset="https://media.comicbook.com/2019/05/star-wars-stormtroopers-first-order-1171602.jpeg?auto=webp&crop=1:1&width=565&height=565">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/star-wars-stormtroopers-first-order-1171602.jpeg?auto=webp&crop=1:1&width=492&height=492">
+        <source media="(min-width: 555px)" srcset="https://media.comicbook.com/2019/05/star-wars-stormtroopers-first-order-1171602.jpeg?auto=webp&crop=2:1&width=860&height=430">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/star-wars-stormtroopers-first-order-1171602.jpeg?auto=webp&crop=2:1&width=514&height=257">
+    <noscript><img src="https://media.comicbook.com/2019/05/star-wars-stormtroopers-first-order-1171602.jpeg?auto=webp" alt="Star Wars Stormtroopers First Order"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Star Wars: Galaxy's Edge</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/18/star-wars-jedi-fallen-order-cameron-monaghan-behind-scenes-video/">Star Wars Jedi: Fallen Order&#39;s Cameron Monaghan Shares Behind-the-Scenes Video</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/star-wars-jedi-fallen-order">Star Wars Jedi: Fallen Order</a></span>
+                <span class="author">Tanner Dedmon</span>
+                <time>
+                                            18 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/18/star-wars-jedi-fallen-order-cameron-monaghan-behind-scenes-video/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/04/star-was-jedi-fallen-order-1166963.jpeg?auto=webp" data-alt="star was jedi fallen order">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/04/star-was-jedi-fallen-order-1166963.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/04/star-was-jedi-fallen-order-1166963.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/04/star-was-jedi-fallen-order-1166963.jpeg?auto=webp" alt="star was jedi fallen order"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Star Wars Jedi: Fallen Order</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/starwars/2019/05/18/agents-of-shield-brett-dalton-wants-star-wars-role/">Agents of SHIELD&#39;s Brett Dalton Wants a Star Wars Role </a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/brett-dalton">Brett Dalton</a></span>
+                <span class="author">Jamie Jirak</span>
+                <time>
+                                            22 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/starwars/2019/05/18/agents-of-shield-brett-dalton-wants-star-wars-role/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/brett-dalton-1171571.jpeg?auto=webp" data-alt="brett dalton">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/brett-dalton-1171571.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/brett-dalton-1171571.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/brett-dalton-1171571.jpeg?auto=webp" alt="brett dalton"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Brett Dalton</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/starwars/2019/05/17/star-wars-star-mark-hamill-tribute-grumpy-cat/">Star Wars Star Mark Hamill Pays Tribute To Grumpy Cat</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/mark-hamill">Mark Hamill</a></span>
+                <span class="author">Matthew Aguilar</span>
+                <time>
+                                            05/17/2019 07:33 pm                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/starwars/2019/05/17/star-wars-star-mark-hamill-tribute-grumpy-cat/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/mark-hamill-grumpy-cat-1171518.jpeg?auto=webp" data-alt="Mark-Hamill-Grumpy-Cat">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/mark-hamill-grumpy-cat-1171518.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/mark-hamill-grumpy-cat-1171518.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/mark-hamill-grumpy-cat-1171518.jpeg?auto=webp" alt="Mark-Hamill-Grumpy-Cat"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Mark Hamill</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/starwars/2019/05/17/star-wars-episode-9-the-rise-of-skywalker-flashback-scene/">Star Wars: The Rise of Skywalker Flashback Sequence Possibly Revealed</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/star-wars-episode-ix">Star Wars: The Rise of Skywalker</a></span>
+                <span class="author">Patrick Cavanaugh</span>
+                <time>
+                                            05/17/2019 02:34 pm                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/starwars/2019/05/17/star-wars-episode-9-the-rise-of-skywalker-flashback-scene/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2018/11/star-wars-luke-han-leia-1977-movie-1146563.jpeg?auto=webp" data-alt="star wars luke han leia 1977 movie">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2018/11/star-wars-luke-han-leia-1977-movie-1146563.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2018/11/star-wars-luke-han-leia-1977-movie-1146563.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2018/11/star-wars-luke-han-leia-1977-movie-1146563.jpeg?auto=webp" alt="star wars luke han leia 1977 movie"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Star Wars: The Rise of Skywalker</span>
+            </a>
+    </article>
+    
+                <a data-js="load-more" class="more-link" href="https://comicbook.com/starwars/?Page=1" data-params="nobutton=1&legacy=1" data-url="https://comicbook.com/starwars/site/seemore" data-exclude="272791,272785,272746,272689,272627" data-page="1">More stories about <span>Star Wars <svg role="presentation" title="small arrow"><use xlink:href="/img/svg-defs.svg?v=490#little-arrow-right"></svg></span></a>
+        </section>       
+        <div id="oas_x94" class="oas oas_mobile_banner" data-width="320" data-height="50"></div>
+        <section class="contentgroup channel">
+            <header>
+                <h2>Comics</h2>
+            </header>
+                <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/19/spider-man-9-year-old-sidekick-spider-bite/">Spider-Man Gets 9-Year-Old Sidekick Named Spider-Bite </a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/spider-man-character">Spider-Man</a></span>
+                <span class="author">Cameron Bonomolo</span>
+                <time>
+                                            12 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/19/spider-man-9-year-old-sidekick-spider-bite/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/spider-man-spider-bite-1171642.jpeg?auto=webp" data-alt="Spider-Man Spider-Bite">
+        <source media="(min-width: 1260px)" srcset="https://media.comicbook.com/2019/05/spider-man-spider-bite-1171642.jpeg?auto=webp&crop=2:1&width=509&height=255">
+        <source media="(min-width: 1022px)" srcset="https://media.comicbook.com/2019/05/spider-man-spider-bite-1171642.jpeg?auto=webp&crop=1:1&width=565&height=565">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/spider-man-spider-bite-1171642.jpeg?auto=webp&crop=1:1&width=492&height=492">
+        <source media="(min-width: 555px)" srcset="https://media.comicbook.com/2019/05/spider-man-spider-bite-1171642.jpeg?auto=webp&crop=2:1&width=860&height=430">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/spider-man-spider-bite-1171642.jpeg?auto=webp&crop=2:1&width=514&height=257">
+    <noscript><img src="https://media.comicbook.com/2019/05/spider-man-spider-bite-1171642.jpeg?auto=webp" alt="Spider-Man Spider-Bite"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Spider-Man</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/19/savage-avengers-frank-castle-punisher-family-corpses-stolen/">The Corpses of Punisher’s Family Stolen in Twisted Scheme</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/the-punisher">The Punisher</a></span>
+                <span class="author">Cameron Bonomolo</span>
+                <time>
+                                            15 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/19/savage-avengers-frank-castle-punisher-family-corpses-stolen/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/savage-avengers-punisher-1171624.jpeg?auto=webp" data-alt="Savage Avengers Punisher">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/savage-avengers-punisher-1171624.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/savage-avengers-punisher-1171624.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/savage-avengers-punisher-1171624.jpeg?auto=webp" alt="Savage Avengers Punisher"></noscript>
+        
+    </picture>
+                <span class="channel-tag">The Punisher</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/18/war-of-realms-war-avengers-captain-marvel-black-widow-deadpool-venom/">Captain Marvel Leads a New Team of Avengers That Includes Deadpool and Venom </a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/the-war-of-the-realms">The War of the Realms</a></span>
+                <span class="author">Cameron Bonomolo</span>
+                <time>
+                                            17 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/18/war-of-realms-war-avengers-captain-marvel-black-widow-deadpool-venom/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/war-avengers-1171611.jpeg?auto=webp" data-alt="War Avengers">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/war-avengers-1171611.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/war-avengers-1171611.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/war-avengers-1171611.jpeg?auto=webp" alt="War Avengers"></noscript>
+        
+    </picture>
+                <span class="channel-tag">The War of the Realms</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/18/silver-surfer-new-cosmic-threat-marvel-comics/">Silver Surfer Faces Off Against Marvel&#39;s Newest Cosmic Threat</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/marvel-comics-comic">Marvel Comics</a></span>
+                <span class="author">Adam Barnhardt</span>
+                <time>
+                                            17 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/18/silver-surfer-new-cosmic-threat-marvel-comics/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/silver-surfer-prodigal-sun-1171608.jpeg?auto=webp" data-alt="silver-surfer-prodigal-sun">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/silver-surfer-prodigal-sun-1171608.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/silver-surfer-prodigal-sun-1171608.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/silver-surfer-prodigal-sun-1171608.jpeg?auto=webp" alt="silver-surfer-prodigal-sun"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Marvel Comics</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/marvel/2019/05/18/iron-man-makes-odin-suit-of-armor/">Iron Man Makes Odin His Own Suit of Armor</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/marvel-comics-comic">Marvel Comics</a></span>
+                <span class="author">Matthew Aguilar</span>
+                <time>
+                                            20 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/marvel/2019/05/18/iron-man-makes-odin-suit-of-armor/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/odin-iron-man-armor-war-of-the-realms-spoiler-header-1171583.jpeg?auto=webp" data-alt="Odin-Iron-Man-Armor-War-of-the-Realms-Spoiler-Header">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/odin-iron-man-armor-war-of-the-realms-spoiler-header-1171583.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/odin-iron-man-armor-war-of-the-realms-spoiler-header-1171583.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/odin-iron-man-armor-war-of-the-realms-spoiler-header-1171583.jpeg?auto=webp" alt="Odin-Iron-Man-Armor-War-of-the-Realms-Spoiler-Header"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Marvel Comics</span>
+            </a>
+    </article>
+    
+                <a data-js="load-more" class="more-link" href="https://comicbook.com/comics/?Page=1" data-params="nobutton=1&legacy=1" data-url="https://comicbook.com/comics/site/seemore" data-exclude="272842,272829,272812,272798,272797,272765" data-page="1">More stories about <span>Comics <svg role="presentation" title="small arrow"><use xlink:href="/img/svg-defs.svg?v=490#little-arrow-right"></svg></span></a>
+        </section>
+
+        <section class="contentgroup channel">
+            <header>
+                <h2><svg role="presentation" title="WWG Shield logo" class="inline"><use xlink:href="/img/svg-defs.svg?v=490#comicbook-gaming-shield"></svg>WorldWide Gaming</h2>
+            </header>
+                <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/19/rainbow-six-siege-glaz-rework/">Rainbow Six Siege Previews Glaz Rework</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/rainbow-six-siege">Rainbow Six Siege</a></span>
+                <span class="author">Tanner Dedmon</span>
+                <time>
+                                            1 hour ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/19/rainbow-six-siege-glaz-rework/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp" data-alt="Rainbow Six Siege Glaz">
+        <source media="(min-width: 1260px)" srcset="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp&crop=2:1&width=509&height=255">
+        <source media="(min-width: 1022px)" srcset="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp&crop=1:1&width=565&height=565">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp&crop=1:1&width=492&height=492">
+        <source media="(min-width: 555px)" srcset="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp&crop=2:1&width=860&height=430">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp&crop=2:1&width=514&height=257">
+    <noscript><img src="https://media.comicbook.com/2019/05/rainbow-six-siege-glaz-1171650.jpeg?auto=webp" alt="Rainbow Six Siege Glaz"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Rainbow Six Siege</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/19/skyrim-mods-game-of-thrones-starbucks-cup/">Skyrim Mods Make Fun of Game of Thrones&#39; Starbucks Slip-Up</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/game-of-thrones">Game of Thrones</a></span>
+                <span class="author">Tanner Dedmon</span>
+                <time>
+                                            2 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/19/skyrim-mods-game-of-thrones-starbucks-cup/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/skyrim-game-of-thrones-mod-1171646.jpeg?auto=webp" data-alt="Skyrim Game of Thrones Mod">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/skyrim-game-of-thrones-mod-1171646.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/skyrim-game-of-thrones-mod-1171646.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/skyrim-game-of-thrones-mod-1171646.jpeg?auto=webp" alt="Skyrim Game of Thrones Mod"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Game of Thrones</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/19/battlefield-v-ps4-xbox-pc-dinosaur-mode/">Battlefield V May Be Getting Dinosaurs</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/battlefield-v">Battlefield V</a></span>
+                <span class="author">Tyler Fischer </span>
+                <time>
+                                            13 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/19/battlefield-v-ps4-xbox-pc-dinosaur-mode/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/battlefield-1171629.jpeg?auto=webp" data-alt="battlefield">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/battlefield-1171629.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/battlefield-1171629.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/battlefield-1171629.jpeg?auto=webp" alt="battlefield"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Battlefield V</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/19/call-of-duty-black-ops-5-single-player-campaign/">Call of Duty: Black Ops 5 Will Reportedly Have A Single-Player Campaign</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/call-of-duty">Call of Duty</a></span>
+                <span class="author">Tyler Fischer </span>
+                <time>
+                                            14 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/19/call-of-duty-black-ops-5-single-player-campaign/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/02/call-of-duty-1158867.jpeg?auto=webp" data-alt="call of duty">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/02/call-of-duty-1158867.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/02/call-of-duty-1158867.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/02/call-of-duty-1158867.jpeg?auto=webp" alt="call of duty"></noscript>
+        
+    </picture>
+                <span class="channel-tag">Call of Duty</span>
+            </a>
+    </article>
+    
+        <article>
+                <div class="headline-box">
+            <h3><a href="https://comicbook.com/gaming/2019/05/19/john-wick-game-nintendo-nes/">Here&#39;s What A NES John Wick Game Would Look Like</a></h3>
+            <p class="meta">
+                <span class="channel-tag"><a href="category/john-wick">John Wick</a></span>
+                <span class="author">Tyler Fischer </span>
+                <time>
+                                            14 hours ago                                    </time>
+            </p>
+        </div>
+                    <a href="https://comicbook.com/gaming/2019/05/19/john-wick-game-nintendo-nes/">
+                                                        <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/jw-1171623.jpeg?auto=webp" data-alt="jw">
+        <source media="(min-width: 900px)" srcset="https://media.comicbook.com/2019/05/jw-1171623.jpeg?auto=webp&width=170&height=100">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/jw-1171623.jpeg?auto=webp&crop=1:1&width=120&height=120">
+    <noscript><img src="https://media.comicbook.com/2019/05/jw-1171623.jpeg?auto=webp" alt="jw"></noscript>
+        
+    </picture>
+                <span class="channel-tag">John Wick</span>
+            </a>
+    </article>
+    
+                <a data-js="load-more" class="more-link" href="https://comicbook.com/gaming/?Page=1" data-params="nobutton=1&legacy=1" data-url="https://comicbook.com/gaming/site/seemore" data-exclude="272841,272837,272834,272826,272820,272816" data-page="1">More stories from <span>WorldWide Gaming <svg role="presentation" title="small arrow"><use xlink:href="/img/svg-defs.svg?v=490#little-arrow-right"></svg></span></a>
+        </section>
+                    <section class="contentgroup channel">
+                <header>
+                    <h2><svg role="presentation" title="PopCulture Channel Logo" class="popculture-logo"><use xlink:href="/img/svg-defs.svg?v=490#popculture-logo-1a"></svg></h2>
+                </header>
+                                <article>
+                    <div class="headline-box">
+                        <h3><a href="https://popculture.com/2019/05/19/snl-leslie-jones-controversial-abortion-law-weekend-update-social-media/">'SNL': Leslie Jones' Controversial Abortion Law Segment on 'Weekend Update' Stirs Social Media</a></h3>
+                        <p class="meta">
+                            <span class="channel-tag">Saturday Night Live</span>
+                            <span class="author">Michael Hein</span>
+                            <time></time>
+                        </p>
+                    </div>
+                                        <a href="https://popculture.com/2019/05/19/snl-leslie-jones-controversial-abortion-law-weekend-update-social-media/">
+
+                        <picture class="lozad" data-iesrc="https://media.popculture.com/2019/05/snl-leslie-jones-weekend-update-20061254.jpeg?auto=webp" data-alt="'SNL': Leslie Jones' Controversial Abortion Law Segment on 'Weekend Update' Stirs Social Media") ?>
+                                                            <source media="(min-width: 1260px)" srcset="https://media.popculture.com/2019/05/snl-leslie-jones-weekend-update-20061254.jpeg?auto=webp&crop=2:1&height=255&width=509">
+                                <source media="(min-width: 1022px)" srcset="https://media.popculture.com/2019/05/snl-leslie-jones-weekend-update-20061254.jpeg?auto=webp&crop=1:1&height=565&width=565">
+                                <source media="(min-width: 900px)" srcset="https://media.popculture.com/2019/05/snl-leslie-jones-weekend-update-20061254.jpeg?auto=webp&crop=1:1&height=492&width=492">
+                                <source media="(min-width: 555px)" srcset="https://media.popculture.com/2019/05/snl-leslie-jones-weekend-update-20061254.jpeg?auto=webp&crop=2:1&height=430&width=860">
+                                <source media="(min-width: 0px)" srcset="https://media.popculture.com/2019/05/snl-leslie-jones-weekend-update-20061254.jpeg?auto=webp&crop=2:1&height=257&width=514">
+                                                        <noscript><img src="https://media.popculture.com/2019/05/snl-leslie-jones-weekend-update-20061254.jpeg?auto=webp" alt="'SNL': Leslie Jones' Controversial Abortion Law Segment on 'Weekend Update' Stirs Social Media"></noscript>
+                        </picture>
+                        <span class="channel-tag">Saturday Night Live</span>
+                    </a>
+                </article>
+                                            <article>
+                    <div class="headline-box">
+                        <h3><a href="https://popculture.com/2019/05/19/prince-harry-meghan-markle-1-year-anniversary-never-before-seen-photos/">Prince Harry and Meghan Markle Celebrate 1-Year Anniversary With New Wedding Photos</a></h3>
+                        <p class="meta">
+                            <span class="channel-tag">Prince Harry</span>
+                            <span class="author">Tania Hussain</span>
+                            <time></time>
+                        </p>
+                    </div>
+                                        <a href="https://popculture.com/2019/05/19/prince-harry-meghan-markle-1-year-anniversary-never-before-seen-photos/">
+
+                        <picture class="lozad" data-iesrc="https://media.popculture.com/2018/05/meghan-markle-prince-harry-getty-20035365.jpeg?auto=webp" data-alt="Prince Harry and Meghan Markle Celebrate 1-Year Anniversary With New Wedding Photos") ?>
+                                                            <source media="(min-width: 900px)" srcset="https://media.popculture.com/2018/05/meghan-markle-prince-harry-getty-20035365.jpeg?auto=webp&height=100&width=170">
+                                <source media="(min-width: 0px)" srcset="https://media.popculture.com/2018/05/meghan-markle-prince-harry-getty-20035365.jpeg?auto=webp&crop=1:1&height=120&width=120">
+                                                        <noscript><img src="https://media.popculture.com/2018/05/meghan-markle-prince-harry-getty-20035365.jpeg?auto=webp" alt="Prince Harry and Meghan Markle Celebrate 1-Year Anniversary With New Wedding Photos"></noscript>
+                        </picture>
+                        <span class="channel-tag">Prince Harry</span>
+                    </a>
+                </article>
+                                            <article>
+                    <div class="headline-box">
+                        <h3><a href="https://popculture.com/2019/05/19/game-of-thrones-grey-worm-jacob-anderson-responds-season-8-fan-petition/">'Game of Thrones': Grey Worm Actor Jacob Anderson Responds to Season 8 Fan Petition</a></h3>
+                        <p class="meta">
+                            <span class="channel-tag">Game of Thrones</span>
+                            <span class="author">Michael Hein</span>
+                            <time></time>
+                        </p>
+                    </div>
+                                        <a href="https://popculture.com/2019/05/19/game-of-thrones-grey-worm-jacob-anderson-responds-season-8-fan-petition/">
+
+                        <picture class="lozad" data-iesrc="https://media.popculture.com/2019/05/game-of-thrones-grey-worm-messandei-20060323.jpeg?auto=webp" data-alt="'Game of Thrones': Grey Worm Actor Jacob Anderson Responds to Season 8 Fan Petition") ?>
+                                                            <source media="(min-width: 900px)" srcset="https://media.popculture.com/2019/05/game-of-thrones-grey-worm-messandei-20060323.jpeg?auto=webp&height=100&width=170">
+                                <source media="(min-width: 0px)" srcset="https://media.popculture.com/2019/05/game-of-thrones-grey-worm-messandei-20060323.jpeg?auto=webp&crop=1:1&height=120&width=120">
+                                                        <noscript><img src="https://media.popculture.com/2019/05/game-of-thrones-grey-worm-messandei-20060323.jpeg?auto=webp" alt="'Game of Thrones': Grey Worm Actor Jacob Anderson Responds to Season 8 Fan Petition"></noscript>
+                        </picture>
+                        <span class="channel-tag">Game of Thrones</span>
+                    </a>
+                </article>
+                                            <article>
+                    <div class="headline-box">
+                        <h3><a href="https://popculture.com/2019/05/19/james-hinchcliffe-indy-500-qualifying-race-crash/">'DWTS' Alum James Hinchcliffe Suffers 'Nightmare' Crash After Indy 500 Qualifying Wreck</a></h3>
+                        <p class="meta">
+                            <span class="channel-tag">Indy 500</span>
+                            <span class="author">Tania Hussain</span>
+                            <time></time>
+                        </p>
+                    </div>
+                                        <a href="https://popculture.com/2019/05/19/james-hinchcliffe-indy-500-qualifying-race-crash/">
+
+                        <picture class="lozad" data-iesrc="https://media.popculture.com/2019/05/james-hinchcliffe-indy-500-qualifying-20061252.jpeg?auto=webp" data-alt="'DWTS' Alum James Hinchcliffe Suffers 'Nightmare' Crash After Indy 500 Qualifying Wreck") ?>
+                                                            <source media="(min-width: 900px)" srcset="https://media.popculture.com/2019/05/james-hinchcliffe-indy-500-qualifying-20061252.jpeg?auto=webp&height=100&width=170">
+                                <source media="(min-width: 0px)" srcset="https://media.popculture.com/2019/05/james-hinchcliffe-indy-500-qualifying-20061252.jpeg?auto=webp&crop=1:1&height=120&width=120">
+                                                        <noscript><img src="https://media.popculture.com/2019/05/james-hinchcliffe-indy-500-qualifying-20061252.jpeg?auto=webp" alt="'DWTS' Alum James Hinchcliffe Suffers 'Nightmare' Crash After Indy 500 Qualifying Wreck"></noscript>
+                        </picture>
+                        <span class="channel-tag">Indy 500</span>
+                    </a>
+                </article>
+                                            <article>
+                    <div class="headline-box">
+                        <h3><a href="https://popculture.com/2019/05/19/game-of-thrones-who-will-take-iron-throne-series-finale/">'Game of Thrones': Who Will Take the Iron Throne in Series Finale?</a></h3>
+                        <p class="meta">
+                            <span class="channel-tag">Game of Thrones</span>
+                            <span class="author">Michael Hein</span>
+                            <time></time>
+                        </p>
+                    </div>
+                                        <a href="https://popculture.com/2019/05/19/game-of-thrones-who-will-take-iron-throne-series-finale/">
+
+                        <picture class="lozad" data-iesrc="https://media.popculture.com/2019/05/game-of-thrones-daenerys-hbo-20061251.jpeg?auto=webp" data-alt="'Game of Thrones': Who Will Take the Iron Throne in Series Finale?") ?>
+                                                            <source media="(min-width: 900px)" srcset="https://media.popculture.com/2019/05/game-of-thrones-daenerys-hbo-20061251.jpeg?auto=webp&height=100&width=170">
+                                <source media="(min-width: 0px)" srcset="https://media.popculture.com/2019/05/game-of-thrones-daenerys-hbo-20061251.jpeg?auto=webp&crop=1:1&height=120&width=120">
+                                                        <noscript><img src="https://media.popculture.com/2019/05/game-of-thrones-daenerys-hbo-20061251.jpeg?auto=webp" alt="'Game of Thrones': Who Will Take the Iron Throne in Series Finale?"></noscript>
+                        </picture>
+                        <span class="channel-tag">Game of Thrones</span>
+                    </a>
+                </article>
+                                        <a class="more-link" href="//popculture.com" target="_blank" rel="noopener">More Stories from <span>PopCulture.com <svg role="presentation" title="small arrow"><use xlink:href="/img/svg-defs.svg?v=490#little-arrow-right"></svg></span></a>
+        </section>
+            </div><aside class="sidebar sidebar-sticky">
+    <div data-js="sticky">
+        <div id="oas_Middle1" class="ad_blk oas large" data-rotate="true">
+        </div>
+
+                <section class="sidebar-list-module hot-topics">
+            <header>
+                <h2>Hot Topics <svg role="presentation" Title="Hot Topic Flame"><use xlink:href="/img/svg-defs.svg?v=490#hot-topic-flame"></svg></h2>
+            </header>
+            <main>
+                
+<ul class="link-list hot-topics">
+	        <li>
+            <span class="comment-count">
+                <svg role="presentation" Title="Arrow Down"><use xlink:href="/img/svg-defs.svg?v=490#comment-bubble"></svg>
+                <span class="reply-count">42</span>
+            </span>           
+            <a href="https://comicbook.com/dc/2019/05/17/robert-pattinson-cast-as-batman-in-new-reboot/">Robert Pattinson Cast as Batman in New Reboot</a>
+        </li>
+        
+                <li>
+            <span class="comment-count">
+                <svg role="presentation" Title="Arrow Down"><use xlink:href="/img/svg-defs.svg?v=490#comment-bubble"></svg>
+                <span class="reply-count">21</span>
+            </span>           
+            <a href="https://comicbook.com/dc/2019/05/17/the-batman-robert-pattinson-cast-petitions-remove-replace/">Multiple Petitions to Replace Robert Pattinson as Batman Have Already Been Launched</a>
+        </li>
+        
+                <li>
+            <span class="comment-count">
+                <svg role="presentation" Title="Arrow Down"><use xlink:href="/img/svg-defs.svg?v=490#comment-bubble"></svg>
+                <span class="reply-count">9</span>
+            </span>           
+            <a href="https://comicbook.com/dc/2019/05/17/crisis-on-infinite-earths-arrowverse-crossover-2019-air-date-2020/">More Details on &#34;Crisis on Infinite Earths&#34; Crossover Schedule Revealed</a>
+        </li>
+        
+                <li>
+            <span class="comment-count">
+                <svg role="presentation" Title="Arrow Down"><use xlink:href="/img/svg-defs.svg?v=490#comment-bubble"></svg>
+                <span class="reply-count">9</span>
+            </span>           
+            <a href="https://comicbook.com/marvel/2019/05/17/avengers-endgame-avatar-box-office-predictions/">Avengers: Endgame&#39;s Ability to Beat Avatar at Worldwide Box Office Now Being Called Into Question</a>
+        </li>
+        
+                <li>
+            <span class="comment-count">
+                <svg role="presentation" Title="Arrow Down"><use xlink:href="/img/svg-defs.svg?v=490#comment-bubble"></svg>
+                <span class="reply-count">8</span>
+            </span>           
+            <a href="https://comicbook.com/marvel/2019/05/18/is-captain-america-in-falcon-winter-soldier-series/">Could Captain America Be in Falcon and The Winter Soldier?</a>
+        </li>
+        
+        </ul>            </main>
+            <footer>
+                <a href="/hottopics" class="text-uppercase">See Top 10</a>
+            </footer>  
+        </section>
+        <!--    <section class="emailnewsletter_cmp cmp">
+            <header>
+                <h2>Email Newsletter</h2>
+            </header>
+            <section>
+                <form id="e2ma_signup" class="form_blk">
+                    <fieldset>
+                        <div class="error" style="display:none;"><strong>Error.</strong> Something went wrong. Please try again.</div>
+                        <div class="success" style="display:none;"><strong>Success!</strong> You should recieve an email shortly to verify.</div>
+                        <input type="text" id="id_email" name="email" placeholder="Enter Email Address" value="">
+                        <div class="error-email" style="display:none;"><strong>Error.</strong> This email is not valid.</div>
+                        <ul id="id_member_field_what-are-you-most-interested-in">
+                            <li>
+                                <label for="id_member_field_what-are-you-most-interested-in_0">
+                                    <input field_id="926562" id="id_member_field_what-are-you-most-interested-in_0" name="member_field_what-are-you-most-interested-in" type="checkbox" value="Marvel"/>
+                                        Marvel
+                                </label>
+                            </li>
+                            <li>
+                                <label for="id_member_field_what-are-you-most-interested-in_1">
+                                    <input field_id="926562" id="id_member_field_what-are-you-most-interested-in_1" name="member_field_what-are-you-most-interested-in" type="checkbox" value="Walking Dead"/>
+                                        Walking Dead
+                                </label>
+                            </li>
+                            <li>
+                                <label for="id_member_field_what-are-you-most-interested-in_2">
+                                    <input field_id="926562" id="id_member_field_what-are-you-most-interested-in_2" name="member_field_what-are-you-most-interested-in" type="checkbox" value="Star Wars"/>
+                                        Star Wars
+                                </label>
+                            </li>
+                            <li>
+                                <label for="id_member_field_what-are-you-most-interested-in_3">
+                                    <input field_id="926562" id="id_member_field_what-are-you-most-interested-in_3" name="member_field_what-are-you-most-interested-in" type="checkbox" value="WWE"/>
+                                        WWE
+                                </label>
+                            </li>
+                            <li>
+                                <label for="id_member_field_what-are-you-most-interested-in_4">
+                                    <input field_id="926562" id="id_member_field_what-are-you-most-interested-in_4" name="member_field_what-are-you-most-interested-in" type="checkbox" value="Anime"/>
+                                        Anime
+                                </label>
+                            </li>
+                            <li>
+                                <label for="id_member_field_what-are-you-most-interested-in_5">
+                                    <input field_id="926562" id="id_member_field_what-are-you-most-interested-in_5" name="member_field_what-are-you-most-interested-in" type="checkbox" value="DC"/>
+                                        DC
+                                </label>
+                            </li>
+                        </ul>
+                        <input type="submit" value="Free Sign Up" class="enroll_btn btn">
+                    </fieldset>
+                </form>
+            </section>
+        </section> -->
+                    <section class="sidebar-list-module upcominglisting_cmp pcm-upcoming-movies">
+                <header>
+                    <h2>Upcoming Movies</h2>
+                </header>
+                                                <div>
+                                <div class="cover-image">
+                                    <a href="/category/detective-pikachu" title="Pokemon: Detective Pikachu">
+                                            <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/02/detective-pikachu-default3-1160381.jpeg?auto=webp" data-alt="detective_pikachu_default3">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/02/detective-pikachu-default3-1160381.jpeg?auto=webp&width=37&height=56">
+    <noscript><img src="https://media.comicbook.com/2019/02/detective-pikachu-default3-1160381.jpeg?auto=webp" alt="detective_pikachu_default3"></noscript>
+        
+    </picture>
+                                    </a>
+                                </div>
+                                <div class="meta-data">
+                                                                            <span class="in-theaters">In Theaters</span>
+                                                                        <span
+                                        class="date">May 9, 2019</span>
+                                    <h2 class="title">
+                                        <a href="/category/detective-pikachu" title="Pokemon: Detective Pikachu">Pokemon: Detective Pikachu</a>
+                                    </h2>
+                                    <div>
+                                        <span class=" entity-rating " data-rating="0" data-entity-rating="1026953">
+										<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+						</span>                                    </div>
+                                </div>
+                            </div>
+                                                    <div>
+                                <div class="cover-image">
+                                    <a href="/category/tolkien-noncomicmovie" title="Tolkien">
+                                            <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/01/tolkien-temp-default-1154416.jpeg?auto=webp" data-alt="tolkien_temp_default">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/01/tolkien-temp-default-1154416.jpeg?auto=webp&width=37&height=56">
+    <noscript><img src="https://media.comicbook.com/2019/01/tolkien-temp-default-1154416.jpeg?auto=webp" alt="tolkien_temp_default"></noscript>
+        
+    </picture>
+                                    </a>
+                                </div>
+                                <div class="meta-data">
+                                                                        <span
+                                        class="date">May 10, 2019</span>
+                                    <h2 class="title">
+                                        <a href="/category/tolkien-noncomicmovie" title="Tolkien">Tolkien</a>
+                                    </h2>
+                                    <div>
+                                        <span class=" entity-rating " data-rating="0" data-entity-rating="1142987">
+										<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+						</span>                                    </div>
+                                </div>
+                            </div>
+                                                    <div>
+                                <div class="cover-image">
+                                    <a href="/category/batman-vs-teenage-mutant-ninja-turtles" title="Batman vs. Teenage Mutant Ninja Turtles">
+                                            <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/03/batman-vs-teenage-mutant-ninja-turtles-default2-1163106.jpeg?auto=webp" data-alt="batman_vs_teenage_mutant_ninja_turtles_default2">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/03/batman-vs-teenage-mutant-ninja-turtles-default2-1163106.jpeg?auto=webp&width=37&height=56">
+    <noscript><img src="https://media.comicbook.com/2019/03/batman-vs-teenage-mutant-ninja-turtles-default2-1163106.jpeg?auto=webp" alt="batman_vs_teenage_mutant_ninja_turtles_default2"></noscript>
+        
+    </picture>
+                                    </a>
+                                </div>
+                                <div class="meta-data">
+                                                                            <span class="in-theaters">Direct to Movie</span>
+                                                                        <span
+                                        class="date">May 14, 2019</span>
+                                    <h2 class="title">
+                                        <a href="/category/batman-vs-teenage-mutant-ninja-turtles" title="Batman vs. Teenage Mutant Ninja Turtles">Batman vs. Teenage Mutant Ninja Turtles</a>
+                                    </h2>
+                                    <div>
+                                        <span class=" entity-rating " data-rating="0" data-entity-rating="1149619">
+										<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+						</span>                                    </div>
+                                </div>
+                            </div>
+                                                    <div>
+                                <div class="cover-image">
+                                    <a href="/category/john-wick-chapter-3" title="John Wick: Chapter 3 - Parabellum">
+                                            <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/03/john-wick-iii-default4-1163984.jpeg?auto=webp" data-alt="john_wick_iii_default4">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/03/john-wick-iii-default4-1163984.jpeg?auto=webp&width=37&height=56">
+    <noscript><img src="https://media.comicbook.com/2019/03/john-wick-iii-default4-1163984.jpeg?auto=webp" alt="john_wick_iii_default4"></noscript>
+        
+    </picture>
+                                    </a>
+                                </div>
+                                <div class="meta-data">
+                                                                            <span class="in-theaters">In Theaters</span>
+                                                                        <span
+                                        class="date">May 16, 2019</span>
+                                    <h2 class="title">
+                                        <a href="/category/john-wick-chapter-3" title="John Wick: Chapter 3 - Parabellum">John Wick: Chapter 3 - Parabellum</a>
+                                    </h2>
+                                    <div>
+                                        <span class=" entity-rating " data-rating="0" data-entity-rating="1056231">
+										<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+						</span>                                    </div>
+                                </div>
+                            </div>
+                                                    <div>
+                                <div class="cover-image">
+                                    <a href="/category/aniara" title="Aniara">
+                                            <picture class="lozad" data-iesrc="https://media.comicbook.com/2019/05/aniara-default-1169550.jpeg?auto=webp" data-alt="aniara_default">
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/05/aniara-default-1169550.jpeg?auto=webp&width=37&height=56">
+    <noscript><img src="https://media.comicbook.com/2019/05/aniara-default-1169550.jpeg?auto=webp" alt="aniara_default"></noscript>
+        
+    </picture>
+                                    </a>
+                                </div>
+                                <div class="meta-data">
+                                                                        <span
+                                        class="date">May 17, 2019</span>
+                                    <h2 class="title">
+                                        <a href="/category/aniara" title="Aniara">Aniara</a>
+                                    </h2>
+                                    <div>
+                                        <span class=" entity-rating " data-rating="0" data-entity-rating="1152652">
+										<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+															<a class="rating-link" href="/login"><svg class="rating-icon" viewBox="0 0 32 32" data-rating="0"><title>Star</title><path d="M32 12.408l-11.056-1.607-4.944-10.018-4.944 10.018-11.056 1.607 8 7.798-1.889 11.011 9.889-5.199 9.889 5.199-1.889-11.011 8-7.798z"></path></svg></a>
+						</span>                                    </div>
+                                </div>
+                            </div>
+                                        <footer>
+                    <a class="text-uppercase" href="/list/franchise-movies-release-schedule">Full List</a>
+                </footer>
+            </section>
+                <div id="oas_Middle2" class="ad_blk oas large" data-rotate="true"></div>
+                        <section class="sidebar-list-module upcominglisting_cmp pcm-upcoming-tv-episodes">
+                    <header><h2>Upcoming Episodes</h2></header>
+                                                                    <div>
+                            <div class="cover-image">
+                                <a href="/category/supergirl-cw-the-quest-for-peace" title="The Quest for Peace">
+                                            <picture >
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2018/09/supergirl-s4-default-1134168.jpeg?auto=webp&width=37&height=56">
+        <img src="https://media.comicbook.com/2018/09/supergirl-s4-default-1134168.jpeg?auto=webp" alt="supergirl_s4_default">
+        
+    </picture>
+                                </a>
+                            </div>
+                            <div class="meta-data">
+                                <span class="date">May 19, 2019</span>
+                                <h2>
+                                    <a href="/category/supergirl-cw-the-quest-for-peace" title="The Quest for Peace">
+										<span class="title">Supergirl (CW)</span>
+                                    </a>
+								</h2>
+								<div class="pcm-episode-name">
+									<a href="/category/supergirl-cw-the-quest-for-peace" title="The Quest for Peace">
+                                        <span>The Quest for Peace</span>
+                                    </a>
+								</div>
+                            </div>
+                        </div>
+                                                                    <div>
+                            <div class="cover-image">
+                                <a href="/category/game-of-thrones-episode-6" title="Episode 6">
+                                            <picture >
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/04/game-of-thrones-s8-default3-1165571.jpeg?auto=webp&width=37&height=56">
+        <img src="https://media.comicbook.com/2019/04/game-of-thrones-s8-default3-1165571.jpeg?auto=webp" alt="game_of_thrones_s8_default3">
+        
+    </picture>
+                                </a>
+                            </div>
+                            <div class="meta-data">
+                                <span class="date">May 19, 2019</span>
+                                <h2>
+                                    <a href="/category/game-of-thrones-episode-6" title="Episode 6">
+										<span class="title">Game of Thrones</span>
+                                    </a>
+								</h2>
+								<div class="pcm-episode-name">
+									<a href="/category/game-of-thrones-episode-6" title="Episode 6">
+                                        <span>Episode 6</span>
+                                    </a>
+								</div>
+                            </div>
+                        </div>
+                                                                    <div>
+                            <div class="cover-image">
+                                <a href="/category/charmed-the-source-awakens" title="The Source Awakens">
+                                            <picture >
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2018/08/charmed-default3-1130714.jpeg?auto=webp&width=37&height=56">
+        <img src="https://media.comicbook.com/2018/08/charmed-default3-1130714.jpeg?auto=webp" alt="charmed_default3">
+        
+    </picture>
+                                </a>
+                            </div>
+                            <div class="meta-data">
+                                <span class="date">May 19, 2019</span>
+                                <h2>
+                                    <a href="/category/charmed-the-source-awakens" title="The Source Awakens">
+										<span class="title">Charmed</span>
+                                    </a>
+								</h2>
+								<div class="pcm-episode-name">
+									<a href="/category/charmed-the-source-awakens" title="The Source Awakens">
+                                        <span>The Source Awakens</span>
+                                    </a>
+								</div>
+                            </div>
+                        </div>
+                                                                    <div>
+                            <div class="cover-image">
+                                <a href="/category/l-a-s-finest-episode-4" title="Episode 4">
+                                            <picture >
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/02/las-finest-temp-default-1157401.jpeg?auto=webp&width=37&height=56">
+        <img src="https://media.comicbook.com/2019/02/las-finest-temp-default-1157401.jpeg?auto=webp" alt="las_finest_temp_default">
+        
+    </picture>
+                                </a>
+                            </div>
+                            <div class="meta-data">
+                                <span class="date">May 20, 2019</span>
+                                <h2>
+                                    <a href="/category/l-a-s-finest-episode-4" title="Episode 4">
+										<span class="title">L.A.'s Finest</span>
+                                    </a>
+								</h2>
+								<div class="pcm-episode-name">
+									<a href="/category/l-a-s-finest-episode-4" title="Episode 4">
+                                        <span>Episode 4</span>
+                                    </a>
+								</div>
+                            </div>
+                        </div>
+                                                                    <div>
+                            <div class="cover-image">
+                                <a href="/category/teen-titans-go-whats-opera-titans-" title="What's Opera Titans?">
+                                            <picture >
+        <source media="(min-width: 0px)" srcset="https://media.comicbook.com/2019/02/teen-titans-go-tv-default-1157037.jpeg?auto=webp&width=37&height=56">
+        <img src="https://media.comicbook.com/2019/02/teen-titans-go-tv-default-1157037.jpeg?auto=webp" alt="teen_titans_go_tv_default">
+        
+    </picture>
+                                </a>
+                            </div>
+                            <div class="meta-data">
+                                <span class="date">May 20, 2019</span>
+                                <h2>
+                                    <a href="/category/teen-titans-go-whats-opera-titans-" title="What's Opera Titans?">
+										<span class="title">Teen Titans Go!</span>
+                                    </a>
+								</h2>
+								<div class="pcm-episode-name">
+									<a href="/category/teen-titans-go-whats-opera-titans-" title="What's Opera Titans?">
+                                        <span>What's Opera Titans?</span>
+                                    </a>
+								</div>
+                            </div>
+                        </div>
+                                                                <footer>
+                        <a class="text-uppercase" href="/list/upcoming-tv-episodes">Full List</a>
+                    </footer>
+                </section>
+                    <div id="oas_Middle3" class="ad_blk oas large" data-rotate="true"></div>
+    </div>
+</aside>
+    </section>
+
+                    <footer class="pc-site-footer">
+
+
+      <small>
+        PLEASE NOTE:  Effective as of November 22, 2018 your use and our operation of this website will no longer be subject to the Privacy Policy and Terms of Service posted in the footer below, and will instead be subject to the standard <a href="https://legalterms.cbsinteractive.com/privacy">CBS Interactive Privacy Policy</a> and <a href="https://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a>.
+      </small>
+
+      <div class="site-links">
+          <ul>
+              <li><a href="https://popculture.com/entertainment">Entertainment</a></li>
+              <li><a href="https://popculture.com/celebrity">Celebrity</a></li>
+              <li><a href="https://comicbook.com">Comicbook</a></li>
+              <li><a href="https://comicbook.com/gaming">Gaming</a></li>
+              <li><a href="https://popculture.com/lifestyle">Lifestyle</a></li>
+          </ul>
+          <ul>
+              <li>
+                  <a href="https://comicbook.com/page/about">About</a>
+              </li>
+              <li>
+                  <a href="https://comicbook.com/page/contact">Contact</a>
+              </li>
+              <li>
+                  <a href="https://popculture.com/page/advertising">Advertising</a>
+              </li>
+              <li>
+                  <a href="https://popculture.com/page/jobs">Careers</a>
+              </li>
+          </ul>
+          <ul>
+              <li>
+                  <a href="https://popculture.com/page/privacy">Privacy</a>
+              </li>
+              <li>
+                  <a href="https://popculture.com/page/dmca">DMCA</a>
+              </li>
+              <li>
+                  <a href="https://popculture.com/page/termsofservice">Terms of Service</a>
+              </li>
+          </ul>
+          <ul>
+              <li>
+                  <a href="https://popculture.com/user/new">Register</a>
+              </li>
+              <li>
+                  <a href="https://popculture.com/login">Login</a>
+              </li>
+          </ul>
+      </div>
+      <div class="about">
+          <div>
+              <a href="/">
+                  <svg role="presentation"><title>Comicbook.com logo</title><use xlink:href="/img/svg-defs.svg?v=490#comicbook-logo-1"/></svg>              </a>
+              <a href="https://popculture.com/">
+                  <svg role="presentation"><title>PopCulture.com logo</title><use xlink:href="/img/svg-defs.svg?v=490#popculture-logo-1"/></svg>              </a>
+          </div>
+          <p><img src="https://www.gamespot.com/bundles/phoenixsite/images/core/loose/logo-gamespot-clear.png"> Copyright 2018 ComicBook.com. All rights reserved.</p>
+      </div>
+      <div class="server_blk">
+                        <!-- 10.10.9.172-->                </div>
+        </footer>
+        <div id="oas_OOP1"></div>
+        <div id="oas_OOP2"></div>
+        <div id="oas_MOOP1"></div>
+        <div id="oas_MOOP2"></div>
+
+    <script src='https://asset.comicbook.com/dist/comicbook/public.min.js?v=490' ></script>
+    <script>
+	  document.dispatchEvent(new Event("pcm.content.loaded"));	
+    </script>
+  </body>
+</html>
+
