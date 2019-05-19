@@ -24,7 +24,7 @@ for i in range(0, len(classids), 2):
     if ranks_rec[0,0] == int(classids[i]):
         defence_rec = defence_rec + 1
     print("Results after {}: Defence: {} --- No defence: {}"
-          .format(num, float(defence_rec)/num, float(no_defence_rec)/num), end='\r')
+          .format(num, defence_rec, no_defence_rec, end='\r')
 
 w.write("FGSM2: {} {}\n".format(2.0*float(defence_rec)/len(classids), 2.0*float(no_defence_rec)/len(classids)))
 
