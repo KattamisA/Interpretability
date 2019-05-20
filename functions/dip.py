@@ -344,7 +344,7 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
     glparam.noise = net_input.detach().clone()
     
     # Compute number of parameters
-    # param_numbers  = sum([np.prod(list(p.size())) for p in glparam.net.parameters()])
+    param_numbers  = sum([np.prod(list(p.size())) for p in glparam.net.parameters()])
     # print ('Number of params: %d' % param_numbers)
 
     # Loss function

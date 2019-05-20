@@ -4,15 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Defence.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/denoising.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/Architecture/Plotting_archs.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Denoising/Architecture/Plotting_archs.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/depth_tests/Plotting_depth.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Denoising/depth_tests/Plotting_depth.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Denoising/skip_connections/Plotting_skip.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Denoising/skip_connections/Plotting_skip.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
-    </list>
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="176" column="29" lean-forward="true" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="347" column="12" selection-start-line="347" selection-start-column="12" selection-end-line="347" selection-end-column="12" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -111,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/denoising.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -131,7 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cuda</find>
       <find>plt</find>
       <find>transforms</find>
       <find>pre</find>
@@ -161,6 +152,7 @@
       <find>name</find>
       <find>iteration</find>
       <find>ince</find>
+      <find>depth7</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -212,10 +204,10 @@
         <option value="$PROJECT_DIR$/downloadutils.py" />
         <option value="$PROJECT_DIR$/Defence.py" />
         <option value="$PROJECT_DIR$/correctly_classified_images.py" />
-        <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/defence_datasets_generation.py" />
         <option value="$PROJECT_DIR$/testing.py" />
         <option value="$PROJECT_DIR$/denoising.py" />
+        <option value="$PROJECT_DIR$/functions/dip.py" />
       </list>
     </option>
   </component>
@@ -753,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/denoising.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -763,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="176" column="29" lean-forward="true" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="347" column="12" selection-start-line="347" selection-start-column="12" selection-end-line="347" selection-end-column="12" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
