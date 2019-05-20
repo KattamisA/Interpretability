@@ -4,7 +4,7 @@ from functions.adversarial import *
 from functions.dip import *
 import cv2
 
-f = open("Class_labels.txt", 'r')
+f = open("data/ImageNet_Dataset/Class_labels.txt", 'r')
 classids = f.read()
 classids= classids.split()
 

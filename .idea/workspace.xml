@@ -2001,12 +2001,6 @@
       <change beforePath="$PROJECT_DIR$/ImageNet_dataset/n12768682/Image_7.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageNet_dataset/n12768682/Image_8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageNet_dataset/n12768682/Image_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results_BI10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results_FGSM10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results_FGSM2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results_FGSM5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Results_LLCI10.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Wnid_convertion.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/correctly_classified_dataset/Image_0.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/correctly_classified_dataset/Image_1.png" beforeDir="false" />
@@ -6589,8 +6583,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/defence_datasets_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -7313,8 +7307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/defence_datasets_generation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
