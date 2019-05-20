@@ -3,7 +3,7 @@ close all
 
 img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale','dolphin','spider','labrador','snake','flamingo_animal','canoe','car_wheel','fountain','football_helmet','hourglass','refrigirator','knife','rope'];
 
-common = 'Arch%d/%s_Normalised.txt';
+common = 'Arch%d/%s_PSNR.txt';
 Value = zeros(51,20);
 Average = zeros(51,6);
 standard_deviation = zeros(51,6);
@@ -12,17 +12,18 @@ for j=1:6
     for i=1:size(img_names,2)
         path = sprintf(common,j,img_names(i));
         s = load(path);
-        Value(:,i) = s(1:51,1);
+        Value(:,i) = smooth(s(1:51,1),3);
     end
     Average(:,j) = mean(Value,2);
     standard_deviation(:,j) = std(Value,0,2);
 end
 
 figure
-plot(0:100:5000, Average, 'linewidth', 1)
+plot(0:100:5000, Average, 'linewidth', 1.3)
 xlabel('DIP iterations')
 ylabel('PSNR')
 grid on
+ylim([10 32])
 legend('Constant Feature Maps per layer - # parameters ~150k', 'Changing Feature Maps per layer - # parameters ~150k', 'Constant Feature Maps per layer - # parameters ~600k', 'Changing Feature Maps per layer - # parameters ~600k', 'Constant Feature Maps per layer - # parameters ~2200k (Baseline)', 'Changing Feature Maps per layer - # parameters ~2200k')
 
 figure

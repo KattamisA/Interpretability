@@ -1,16 +1,20 @@
-from functions.adversarial import *
+from skimage.measure import compare_psnr
 import cv2
+import numpy as np
 
-image = cv2.imread("ImageNet_dataset/n02226429/Image_4.png")[..., ::-1]
-_, ranks_adv = classification(image, sort=True, show=False, model_name='resnet18', cuda=False)
-print(ranks_adv[0, 0])
-adv, _, _ = adversarial_examples("ImageNet_dataset/n02226429/Image_4.png", eps=0.01, show=False)
-_, ranks_adv = classification(adv, sort=True, show=False, model_name='resnet18', cuda=False)
-print(ranks_adv[0, 0])
 
-# classification(image)
-# adv, orig, pert = adversarial_examples("data/goldfish.jpg", eps=2/0.226)
-# adv = adv.astype(np.int8)
-# print(pert)
-# print(np.max(adv))
-# print(np.min(adv))
+### Observing multiple images
+image_dataset = ['panda.jpg', 'peacock.jpg', 'F16_GT.png', 'monkey.jpg', 'zebra_GT.png', 'goldfish.jpg', 'whale.jpg',
+                 'dolphin.jpg', 'spider.jpg', 'labrador.jpg', 'snake.jpg', 'flamingo_animal.JPG', 'canoe.jpg',
+                 'car_wheel.jpg', 'fountain.jpg', 'football_helmet.jpg', 'hourglass.jpg', 'refrigirator.jpg',
+                 'rope.jpeg', 'knife.jpg']
+PSNR = np.ones([20, 1])
+for i in range(len(image_dataset)):
+    image_path = image_dataset[i]
+    image_name = '{}'.format(image_path.split('.')[0])
+    orig = cv2.imread('data/{}'.format(image_path))[..., ::-1]
+    orig = cv2.resize(orig, (224,224))
+    img_noisy = cv2.imread('results/Denoising/dataset/{}_noisy.png'.format(image_name))[..., ::-1]
+    PSNR[i, 0] = compare_psnr(orig/255.0, img_noisy/255.0).astype(np.float32)
+
+print(np.average(PSNR))

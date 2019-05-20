@@ -12,22 +12,23 @@ for j=1:6
     for i=1:size(img_names,2)
         path = sprintf(common,j,img_names(i));
         s = load(path);
-        Value(:,i) = s(1:51,1);
+        Value(:,i) = smooth(s(1:51,1),3);
     end
     Average(:,j) = mean(Value,2);
     standard_deviation(:,j) = std(Value,0,2);
 end
 
 figure
-plot(0:100:5000, Average, 'linewidth', 1)
+plot(0:100:5000, Average, 'linewidth', 1.3)
 xlabel('DIP iterations')
 ylabel('PSNR')
 grid on
 legend('Depth = 1','Depth = 2','Depth = 3', 'Depth = 4','Depth = 5 (Baseline)','Depth = 6')
+ylim([10 32])
 
-figure
-plot(0:100:5000, standard_deviation, 'linewidth', 1)
-xlabel('DIP iterations')
-ylabel('PSNR standard deviation')
-grid on
-legend('Depth = 1','Depth = 2','Depth = 3', 'Depth = 4','Depth = 5 (Baseline)','Depth = 6')
+% figure
+% plot(0:100:5000, standard_deviation, 'linewidth', 1)
+% xlabel('DIP iterations')
+% ylabel('PSNR standard deviation')
+% grid on
+% legend('Depth = 1','Depth = 2','Depth = 3', 'Depth = 4','Depth = 5 (Baseline)','Depth = 6')

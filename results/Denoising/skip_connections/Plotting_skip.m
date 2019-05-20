@@ -19,7 +19,7 @@ for j=1:7
 end
 
 figure
-plot(0:100:5000, Average, 'linewidth', 1)
+plot(0:100:5000, Average, 'linewidth', 1.3)
 xlabel('DIP iterations')
 ylabel('PSNR')
 grid on
