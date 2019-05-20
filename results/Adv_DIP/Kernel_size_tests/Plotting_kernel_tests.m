@@ -7,7 +7,7 @@ img_names = ["panda", "peacock", "F16_GT", "monkey",'zebra_GT','goldfish','whale
 Confidence = zeros(51,size(img_names,2));
 common = 'Adam/%s/%s_Normalised.txt';
 
-tests = [1, 2, 3];
+tests = [1, 2, 3, 4];
 Averaged= zeros(51,size(tests,2));
 Std = zeros(51,size(tests,2));
 Peak_iterations = zeros(size(tests,2),size(img_names,2));
@@ -54,7 +54,7 @@ hold on
 plot(t,Averaged,'LineWidth',1.3)
 % plot(t,[Averaged+Std, Averaged-Std],'--b','LineWidth',0.2,'HandleVisibility','off')
 % legend('Adam optimizer - average')
-legend('Kernel size - 1-by-1','Kernel size - 3-by-3 (Baseline)', 'Kernel size - 5-by-5')
+legend('Kernel size - 1-by-1','Kernel size - 3-by-3 (Baseline)', 'Kernel size - 5-by-5', 'Kernel size - 7-by-7')
 xlabel('DIP iterations')
 ylabel('True Class Confidence')
 xlim([0 5000])
