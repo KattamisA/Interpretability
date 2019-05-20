@@ -28,7 +28,7 @@ for i in range(0, len(classids), 3):
 
 w.write("FGSM2: {} {}\n".format(float(defence_rec)/num, float(no_defence_rec)/num))
 
-print('\nFGSM - 5')
+print('\n\nFGSM - 5')
 
 # for i in range(len(classids)):
 #

@@ -14,12 +14,14 @@ from functions.utils.common_utils import torch_to_np
 
 import matplotlib.pyplot as plt
 import numpy as np
+import warnings
 
 torch.backends.cudnn.enabled = True
 torch.backends.cudnn.benchmark =True
 dtype = torch.cuda.FloatTensor
 # dtype = torch.FloatTensor
 
+warnings.filterwarnings("ignore")
 
 def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, exp_weight=0.99, INPUT='noise',
         save=False, save_path='', plot=True, input_depth=None, name="", loss_fn="MSE", OPTIMIZER="adam", pad='zero',
