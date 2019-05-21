@@ -16,14 +16,14 @@ for i in range(0, len(classids), 3):
     num = num + 1
     orig = cv2.imread("data/ImageNet_Dataset/correctly_classified_dataset/Image_{}.png".format(i))[..., ::-1]
     orig = cv2.resize(orig, (224,224))
-    output = dip(orig, 'complex', 0.01, 501, save=False, plot=False)
+    output = dip(orig, 'complex', 0.01, 1001, save=False, plot=False, save=True, save_path = 'results/Defence', name = "Image_{}".format(i))
     _, ranks_rec = classification(output*255.0, sort=True, show=False, model_name='resnet18', cuda=True)
     if ranks_rec[0,0] == int(classids[i]):
         correct = correct + 1
     print("Results after {:>3}: DIP: {:>7.3f}".format(num, float(correct)/num), end='\r')
 
 w = open("results/Defence/Results_clean.txt",'w+')
-w.write("Clean: {:>10.5f} {:>10.5f}\n".format(float(defence_rec)/num, float(no_defence_rec)/num))
+w.write("Clean: {:>10.5f} {:>10.5f}\n".format(float(correct)/num, float(correct)/num))
 
 
 no_defence_rec = 0
