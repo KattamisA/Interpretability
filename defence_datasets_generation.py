@@ -16,7 +16,7 @@ for i in range(0, len(classids), 3):
     num = num + 1
     orig = cv2.imread("data/ImageNet_Dataset/correctly_classified_dataset/Image_{}.png".format(i))[..., ::-1]
     orig = cv2.resize(orig, (224,224))
-    output = dip(orig, 'complex', 0.01, 1001, save=False, plot=False, save=True, save_path = 'results/Defence', name = "Image_{}".format(i))
+    output = dip(orig, 'complex', 0.01, 1001, plot=False, save=True, save_path = 'results/Defence', name = "Image_{}".format(i))
     _, ranks_rec = classification(output*255.0, sort=True, show=False, model_name='resnet18', cuda=True)
     if ranks_rec[0,0] == int(classids[i]):
         correct = correct + 1
