@@ -7,13 +7,13 @@ eps = [1, 5, 25, 100];
 
 
 
-Average = zeros(51,4);
+Average = zeros(51,5);
 Max = zeros(20,4);
 Maxconfs = zeros(20,4);
 Std = zeros(51,4);
 Std = zeros(51, 4);
 
-k=4;
+k=3;
 
 %% Least-likely class iterative
 common = 'LLCI_eps%d/%s_Normalised.txt';
@@ -80,14 +80,23 @@ Max(:,4) = I*100;
 [M2, I2] = max(Average(:,4));
 Maxconfs(:,4) = confidences(I2,:);
 
+common = 'Original/%s_Normalised.txt';
+confidences = zeros(51,20);
+for i=1:size(img_names,2)
+    path = sprintf(common,img_names(i));
+    s = load(path);
+    confidences(:,i) = s(1:51,1);
+end
+Average(:,5) = smooth(mean(confidences,2),1);
+
 figure
-plot(t,Std, 'linewidth',1.5)
+plot(t,Average, 'linewidth',1.5)
 grid on
-ylim([0 0.5])
+ylim([0 1.2])
 xlabel('DIP iterations')
-% ylabel('True Class Confidence')
-ylabel('True Class Confidence Standard Deviation')
-legend('FGSM','BI','LLCI', 'JSMA-SG')
+ylabel('True Class Confidence')
+% ylabel('True Class Confidence Standard Deviation')
+legend('FGSM','BI','LLCI', 'JSMA-SG', 'Clean Image')
 
 % figure
 % for q = 1:4

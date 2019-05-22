@@ -76,17 +76,17 @@ import matplotlib.pyplot as plt
 # plt.imsave("results/Saliency/Dataset/sal_knife_ig.png", np.uint8(np.concatenate([ig, blank_hor, ig2], 0)), format="png")
 # plt.imsave("results/Saliency/Dataset/sal_knife_migsg.png", np.uint8(np.concatenate([migsg, blank_hor, migsg2], 0)), format="png")
 
-save_path = 'results/Adv_DIP/Depth_tests/Adam/'
+save_path = 'results/Adv_DIP/Std_investigation/Adam/'
 
-up1 = cv2.imread(save_path + 'depth1/goldfish_1000it.png')[..., ::-1]
-up2 = cv2.imread(save_path + 'depth1/goldfish_3000it.png')[..., ::-1]
-up3 = cv2.imread(save_path + 'depth1/goldfish_5000it.png')[..., ::-1]
+up1 = cv2.imread(save_path + 'test1/whale_1000it.png')[..., ::-1]
+up2 = cv2.imread(save_path + 'test1/whale_3000it.png')[..., ::-1]
+up3 = cv2.imread(save_path + 'test1/whale_5000it.png')[..., ::-1]
 
-down1 = cv2.imread(save_path + 'depth2/goldfish_1000it.png')[..., ::-1]
-down2 = cv2.imread(save_path + 'depth2/goldfish_3000it.png')[..., ::-1]
-down3 = cv2.imread(save_path + 'depth2/goldfish_5000it.png')[..., ::-1]
+down1 = cv2.imread(save_path + 'test7/whale_1000it.png')[..., ::-1]
+down2 = cv2.imread(save_path + 'test7/whale_3000it.png')[..., ::-1]
+down3 = cv2.imread(save_path + 'test7/whale_5000it.png')[..., ::-1]
 
 blank_hor = np.ones((8, 224, 3), dtype=np.uint8) * 255
-plt.imsave(save_path + "depth1-2_1000it_goldfish.png", np.uint8(np.concatenate([up1, blank_hor, down1], 0)), format="png")
-plt.imsave(save_path + "depth1-2_3000it_goldfish.png", np.uint8(np.concatenate([up2, blank_hor, down2], 0)), format="png")
-plt.imsave(save_path + "depth1-2_5000it_goldfish.png", np.uint8(np.concatenate([up3, blank_hor, down3], 0)), format="png")
+plt.imsave(save_path + "test1-7_1000it_whale.png", np.uint8(np.concatenate([up1, blank_hor, down1], 0)), format="png")
+plt.imsave(save_path + "test1-7_3000it_whale.png", np.uint8(np.concatenate([up2, blank_hor, down2], 0)), format="png")
+plt.imsave(save_path + "test1-7_5000it_whale.png", np.uint8(np.concatenate([up3, blank_hor, down3], 0)), format="png")

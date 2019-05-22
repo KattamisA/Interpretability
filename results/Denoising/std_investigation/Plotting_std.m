@@ -19,9 +19,10 @@ for j=1:7
 end
 
 figure
-plot(0:100:5000, Average, 'linewidth', 1)
+plot(0:100:5000, Average, 'linewidth', 1.3)
 xlabel('DIP iterations')
 ylabel('PSNR')
+ylim([10 32])
 grid on
 legend('Iteration noise = 1/128','Iteration noise = 1/64','Iteration noise = 1/32','Iteration noise = 1/16','Iteration noise = 1/8','Iteration noise = 1/4','Iteration noise = 1/2')
 

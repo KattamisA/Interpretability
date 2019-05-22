@@ -24,7 +24,7 @@ xlabel('DIP iterations')
 ylabel('PSNR')
 grid on
 ylim([10 32])
-legend('Constant Feature Maps per layer - # parameters ~150k', 'Changing Feature Maps per layer - # parameters ~150k', 'Constant Feature Maps per layer - # parameters ~600k', 'Changing Feature Maps per layer - # parameters ~600k', 'Constant Feature Maps per layer - # parameters ~2200k (Baseline)', 'Changing Feature Maps per layer - # parameters ~2200k')
+legend('Scenario 1','Scenario 2', 'Scenario 3', 'Scenario 4','Scenario 5 - Baseline','Scenario 6')
 
 figure
 plot(0:100:5000, standard_deviation, 'linewidth', 1)
