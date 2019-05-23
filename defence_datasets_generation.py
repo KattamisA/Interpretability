@@ -11,7 +11,7 @@ classids= classids.split()
 defence_rec = 0
 num = 0
 print('\nJSMA - 10')
-for i in range(0, len(classids), 3):
+for i in range(648, len(classids), 3):
     num = num + 1
     adv, _, _ = adversarial_examples("data/ImageNet_Dataset/correctly_classified_dataset/Image_{}.png".format(i), eps=10, show=False, method='JSMA', cuda=True)
     output = dip(adv, 'complex', 0.01, 1001, plot=False, save=True, save_path = 'results/Defence/JSMA10', name = "Image_{}".format(i))
