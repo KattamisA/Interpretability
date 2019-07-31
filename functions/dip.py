@@ -24,7 +24,7 @@ dtype = torch.cuda.FloatTensor
 warnings.filterwarnings("ignore")
 
 def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, exp_weight=0.99, INPUT='noise',
-        save=False, save_path='', plot=True, input_depth=None, name="", loss_fn="MSE", OPTIMIZER="adam", pad='zero',
+        save=False, save_path='', plot=False, input_depth=None, name="", loss_fn="MSE", OPTIMIZER="adam", pad='zero',
         OPT_OVER='net'):
     
     glparam = global_parameters()
@@ -353,9 +353,9 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
     if loss_fn == 'KLDiv':
         criterion = torch.nn.KLDivLoss().type(dtype)
         
-    # if save == True:
-        # f = open("{}/{}_stats.txt".format(save_path, name),"w+")
-        # # f.write("{:>11}{:>12}{:>12}{:>20}\n".format('Iterations','Total_Loss','PSNR', 'Average gradient'))
+    if save == True:
+        f = open("{}/{}_stats.txt".format(save_path, name),"w+")
+        f.write("{:>11}{:>12}{:>12}\n".format('Iterations','Total_Loss','PSNR'))
         # save_net_details(save_path, arch, param_numbers, pad, OPT_OVER, OPTIMIZER, input_depth,
         #          loss_fn = loss_fn, LR = LR, num_iter = num_iter, exp_weight = glparam.exp,
         #          reg_noise_std = reg_noise_std, INPUT = 'INPUT', net = glparam.net)
@@ -381,8 +381,8 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
         total_loss.backward()
 
         glparam.psnr_noisy = compare_psnr(glparam.img_np, out.detach().cpu().numpy()[0]).astype(np.float32)
-        # print('DIP Iteration {:>11}   PSNR_noisy {:>5.4f} '.format(
-        #     iter_value, glparam.psnr_noisy), end='\r')
+        print('DIP Iteration {:>11}   PSNR_noisy {:>5.4f} '.format(
+            iter_value, glparam.psnr_noisy), end='\r')
         
         ## Backtracking   
         if (glparam.psnr_noisy_last - glparam.psnr_noisy) > 5.0:
@@ -435,15 +435,15 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
                 plt.imshow(glparam.img_np.transpose(1, 2, 0))
                 plt.show()
                 
-            # if glparam.save:
-            #     f = open("{}/{}_stats.txt".format(save_path, name),"a")
-            #     f.write("{:>11}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy))
-            #     plt.imsave("{}/it_{}.png".format(save_path, iter_value),
-            #            np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
+        if glparam.save:
+            f = open("{}/{}_stats.txt".format(save_path, name),"a")
+            f.write("{:>11}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy))
+            # plt.imsave("{}/it_{}.png".format(save_path, iter_value),
+            #        np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
 
-        if (iter_value % 250) == 0 and glparam.save:
-            plt.imsave("{}/{}_{}it.png".format(save_path, name, iter_value),
-                       np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
+        # if (iter_value % 250) == 0 and glparam.save:
+        #     plt.imsave("{}/{}_{}it.png".format(save_path, name, iter_value),
+        #                np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
         return total_loss
         
     ### Optimize
@@ -461,7 +461,7 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
         for j in range(num_iter):
             glparam.optimizer.zero_grad()
             glparam.optimizer.step(j, closure, glparam.net, criterion)    
-    # print('\n')
+    print('\n')
     
     # out = glparam.net(net_input)
     # glparam.out_avg = glparam.out_avg * glparam.exp + out.detach() * (1 - glparam.exp)
