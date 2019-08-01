@@ -11,7 +11,7 @@ data_path = "data/non_robust_CIFAR"
 train_labels = ch.cat(ch.load(os.path.join(data_path, "CIFAR_lab")))
 print(train_labels)
 train_labels = train_labels.numpy()
-print(train_labels)
+print(train_labels[1])
 num_iter = 5001
 for i in range(10):
     print("############# Working on image: {}/500".format(i+1))
