@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 data_path = "data/non_robust_CIFAR"
 
 train_labels = ch.cat(ch.load(os.path.join(data_path, "CIFAR_lab")))
-num_iter = 5000
+num_iter = 5001
 for i in range(10):
     print("############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
@@ -20,7 +20,7 @@ for i in range(10):
 data_path = "data/robust_CIFAR"
 
 train_labels = ch.cat(ch.load(os.path.join(data_path, "CIFAR_lab")))
-num_iter = 5000
+num_iter = 5001
 for i in range(10):
     print("############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
