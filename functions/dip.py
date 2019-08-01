@@ -353,9 +353,9 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
     if loss_fn == 'KLDiv':
         criterion = torch.nn.KLDivLoss().type(dtype)
         
-    if save == True:
-        f = open("{}/{}_stats.txt".format(save_path, name),"w+")
-        f.write("{:>11}{:>12}{:>12}\n".format('Iterations','Total_Loss','PSNR'))
+    # if save == True:
+        # f = open("{}/{}_stats.txt".format(save_path, name),"w+")
+        # f.write("{:>11}{:>12}{:>12}\n".format('Iterations','Total_Loss','PSNR'))
         # save_net_details(save_path, arch, param_numbers, pad, OPT_OVER, OPTIMIZER, input_depth,
         #          loss_fn = loss_fn, LR = LR, num_iter = num_iter, exp_weight = glparam.exp,
         #          reg_noise_std = reg_noise_std, INPUT = 'INPUT', net = glparam.net)
@@ -435,9 +435,9 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
                 plt.imshow(glparam.img_np.transpose(1, 2, 0))
                 plt.show()
                 
-        if glparam.save:
-            f = open("{}/{}_stats.txt".format(save_path, name),"a")
-            f.write("{:>11}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy))
+            if glparam.save:
+                f = open("{}/{}_stats.txt".format(save_path, name),"a")
+                f.write("{:>11}{:>12.8f}{:>12.8f}\n".format(iter_value, total_loss.item(), glparam.psnr_noisy))
             # plt.imsave("{}/it_{}.png".format(save_path, iter_value),
             #        np.clip(torch_to_np(glparam.out_avg), 0, 1).transpose(1, 2, 0), format="png")
 

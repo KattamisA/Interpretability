@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Madrys_datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Madrys_datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/0_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/0_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/1_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/1_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/2_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/2_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/3_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/3_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/4_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/4_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/5_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/5_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/6_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/6_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/7_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/7_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/8_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/8_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/9_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/non_robust/9_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/0_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/0_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/1_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/1_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/2_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/2_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/3_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/3_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/4_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/4_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/5_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/5_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/6_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/6_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/7_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/7_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/8_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/8_stats.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/9_stats.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/robust/9_stats.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="404" column="34" lean-forward="true" selection-start-line="404" selection-start-column="34" selection-end-line="404" selection-end-column="34" />
+            <state relative-caret-position="298">
+              <caret line="356" column="10" selection-start-line="356" selection-start-column="10" selection-end-line="356" selection-end-column="10" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -58,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/dip_multiple.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="71" />
+              <caret line="20" column="71" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="71" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -66,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -101,7 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pre</find>
       <find>pre_process</find>
       <find>cv2</find>
       <find>pre_proc</find>
@@ -131,6 +150,7 @@
       <find>depth7</find>
       <find>save</find>
       <find>save_path</find>
+      <find>show_every</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,12 +202,12 @@
         <option value="$PROJECT_DIR$/correctly_classified_images.py" />
         <option value="$PROJECT_DIR$/testing.py" />
         <option value="$PROJECT_DIR$/denoising.py" />
-        <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/splitting_images.py" />
         <option value="$PROJECT_DIR$/classifying_defence_results.py" />
         <option value="$PROJECT_DIR$/defence_datasets_generation.py" />
         <option value="$PROJECT_DIR$/functions/generate_results.py" />
         <option value="$PROJECT_DIR$/Madrys_datasets.py" />
+        <option value="$PROJECT_DIR$/functions/dip.py" />
       </list>
     </option>
   </component>
@@ -631,16 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/splitting_images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -651,20 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="404" column="34" lean-forward="true" selection-start-line="404" selection-start-column="34" selection-end-line="404" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dip_multiple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="71" />
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="71" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -673,10 +673,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="356" column="10" selection-start-line="356" selection-start-column="10" selection-end-line="356" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
