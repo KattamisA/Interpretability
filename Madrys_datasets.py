@@ -12,7 +12,7 @@ train_labels = ch.cat(ch.load(os.path.join(data_path, "CIFAR_lab")))
 print(train_labels)
 train_labels = train_labels.tolist()
 print(train_labels[1])
-num_iter = 5001
+num_iter = 1001
 for i in range(10):
     print("############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
