@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 data_path = "data/non_robust_CIFAR"
 
 train_labels = ch.cat(ch.load(os.path.join(data_path, "CIFAR_lab")))
+train_labels = train_labels.numpy()
 num_iter = 5001
 for i in range(10):
     print("############# Working on image: {}/500".format(i+1))

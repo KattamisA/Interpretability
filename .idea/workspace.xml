@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Madrys_datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Madrys_datasets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/generate_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_results.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/features_plotting.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/features_plotting.m" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="441" column="27" selection-start-line="441" selection-start-column="27" selection-end-line="441" selection-end-column="27" />
+            <state relative-caret-position="1300">
+              <caret line="375" column="13" lean-forward="true" selection-start-line="375" selection-start-column="13" selection-end-line="375" selection-end-column="13" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -49,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splitting_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
+            <state relative-caret-position="756">
               <caret line="91" column="9" selection-start-line="91" selection-end-line="92" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -70,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+            <state relative-caret-position="187">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -189,9 +185,9 @@
         <option value="$PROJECT_DIR$/splitting_images.py" />
         <option value="$PROJECT_DIR$/classifying_defence_results.py" />
         <option value="$PROJECT_DIR$/defence_datasets_generation.py" />
-        <option value="$PROJECT_DIR$/Madrys_datasets.py" />
         <option value="$PROJECT_DIR$/functions/generate_results.py" />
         <option value="$PROJECT_DIR$/functions/dip.py" />
+        <option value="$PROJECT_DIR$/Madrys_datasets.py" />
       </list>
     </option>
   </component>
@@ -625,16 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splitting_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="91" column="9" selection-start-line="91" selection-end-line="92" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/adversarial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -645,12 +631,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+        <state relative-caret-position="1300">
+          <caret line="375" column="13" lean-forward="true" selection-start-line="375" selection-start-column="13" selection-end-line="375" selection-end-column="13" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,12 +661,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+    <entry file="file://$PROJECT_DIR$/splitting_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="441" column="27" selection-start-line="441" selection-start-column="27" selection-end-line="441" selection-end-column="27" />
+        <state relative-caret-position="756">
+          <caret line="91" column="9" selection-start-line="91" selection-end-line="92" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
