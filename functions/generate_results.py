@@ -5,10 +5,11 @@ from functions.utils.common_utils import *
 from skimage.measure import compare_psnr
 
 
-def generate_result_files(path, adv, orig, num_iter, name, cuda=False, model='resnet18'):
+def generate_result_files(path, adv, orig, num_iter, name, cuda=False, model='resnet18', label=None):
     ## Find original class
     P, R = classification(orig, model_name = 'resnet18', sort = True, show=False)
     original_class = R[0, 0]
+    original_class = label
     original_confidence = P[0, 0].detach().numpy()
     ## Find final set of classes
     _, R = classification(adv, model_name = 'resnet18', sort = True, show=False)
