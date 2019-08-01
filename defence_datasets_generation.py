@@ -21,4 +21,4 @@ for i in range(1242, len(classids), 3):
     print("Results after {:>3}: Defence: {:>7.3f}".format(num, float(defence_rec)/num), end='\r')
 
 # w = open("Results_JSMA10_dip1000.txt",'w+')
-# w.write("JSMA10: {:>10.5f} {:>10.5f}\n".format(float(defence_rec)/num, float(no_defence_rec)/num))
+# w.write("JSMA10: {:>10.5f} {:>10.5f}\n".format(float(defence_rec)/num, float(no_de''fence_rec)/num))
