@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cifar-10/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cifar-10/src/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +58,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cifar-10/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+            <state relative-caret-position="363">
+              <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cifar-10/src/attack/fast_gradient_sign_untargeted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="108" column="63" selection-start-line="108" selection-start-column="63" selection-end-line="108" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -107,9 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>download_file</find>
-      <find>replace</find>
-      <find>rubber</find>
       <find>plt.</find>
       <find>open</find>
       <find>name</find>
@@ -128,15 +135,18 @@
       <find>attack.p</find>
       <find>attack.perturb</find>
       <find>adv_data</find>
-      <find>attack</find>
       <find>attac</find>
       <find>atta</find>
       <find>pickle</find>
       <find>tr_loader</find>
       <find>dataloader</find>
       <find>trainer</find>
-      <find>main</find>
       <find>adv_train</find>
+      <find>perturb</find>
+      <find>attack</find>
+      <find>reduction4loss</find>
+      <find>red</find>
+      <find>main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/saliency.py" />
         <option value="$PROJECT_DIR$/functions/main.py" />
         <option value="$PROJECT_DIR$/functions/utils.py" />
         <option value="$PROJECT_DIR$/functions/models/__init__.py" />
@@ -195,6 +204,7 @@
         <option value="$PROJECT_DIR$/Madrys_datasets.py" />
         <option value="$PROJECT_DIR$/functions/Adversarial_training.py" />
         <option value="$PROJECT_DIR$/cifar-10/src/utils/utils.py" />
+        <option value="$PROJECT_DIR$/cifar-10/src/attack/fast_gradient_sign_untargeted.py" />
         <option value="$PROJECT_DIR$/cifar-10/src/main.py" />
       </list>
     </option>
@@ -647,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cifar-10/src/attack/fast_gradient_sign_untargeted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/splitting_images.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
@@ -708,10 +711,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cifar-10/src/attack/fast_gradient_sign_untargeted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="108" column="63" selection-start-line="108" selection-start-column="63" selection-end-line="108" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cifar-10/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        <state relative-caret-position="363">
+          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
