@@ -46,7 +46,7 @@ class Trainer():
                     # When training, the adversarial example is created from a random 
                     # close point to the original data point. If in evaluation mode, 
                     # just start from the original data point.
-                    adv_data = self.attack.perturb(data, label, None, True)
+                    adv_data = self.attack.perturb(data, label, 'mean', True)
                     output = model(adv_data, _eval=False)
                 else:
                     output = model(data, _eval=False)
