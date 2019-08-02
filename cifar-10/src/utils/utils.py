@@ -45,10 +45,10 @@ def one_hot(ids, n_class):
     # author：ke1th 
     # source：CSDN 
     # artical：https://blog.csdn.net/u012436149/article/details/77017832 
-    b"""
-    ids: (list, ndarray) shape:[batch_size]
-    out_tensor:FloatTensor shape:[batch_size, depth]
-    """
+    # b"""
+    # ids: (list, ndarray) shape:[batch_size]
+    # out_tensor:FloatTensor shape:[batch_size, depth]
+    # """
 
     assert len(ids.shape) == 1, 'the ids should be 1-D'
     # ids = torch.LongTensor(ids).view(-1,1) 
