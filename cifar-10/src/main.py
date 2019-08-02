@@ -155,7 +155,7 @@ class Trainer():
                 if adv_test:
                     # use predicted label as target label
                     with torch.enable_grad():
-                        adv_data = self.attack.perturb(data, pred, 'mean', False)
+                        adv_data = self.attack.perturb(data, pred, 'elementwise_mean', False)
 
                     adv_output = model(adv_data, _eval=True)
 

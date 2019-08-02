@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cifar-10/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="80" column="38" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+            <state relative-caret-position="312">
+              <caret line="75" column="85" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="85" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -116,7 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>plt.</find>
       <find>open</find>
       <find>name</find>
       <find>iteration</find>
@@ -146,6 +145,7 @@
       <find>reduction4loss</find>
       <find>red</find>
       <find>main</find>
+      <find>mean</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -719,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar-10/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="80" column="38" lean-forward="true" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        <state relative-caret-position="312">
+          <caret line="75" column="85" selection-start-line="75" selection-start-column="81" selection-end-line="75" selection-end-column="85" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
