@@ -28,7 +28,7 @@ class Model(nn.Module):
         self.flatten = Expression(lambda tensor: tensor.view(tensor.shape[0], -1))
         self.fc1 = nn.Linear(7 * 7 * 64, 1024, bias=True)
         self.fc2 = nn.Linear(1024, n_c)
-        self.sm = nn.Softmax()
+        self.sm = nn.Softmax(n_c)
 
     def forward(self, x_i, _eval=False):
 
