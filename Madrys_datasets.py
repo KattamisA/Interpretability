@@ -22,7 +22,7 @@ for i in range(10):
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
     save_path = 'results/Features/non_robust'
     output = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
-    generate_results_cifar(save_path, output, image, num_iter, str(i))
+    generate_result_files_cifar(save_path, output, image, num_iter, str(i))
 
 
 data_path = "data/robust_CIFAR"

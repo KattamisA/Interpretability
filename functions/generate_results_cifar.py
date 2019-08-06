@@ -7,7 +7,7 @@ from skimage.measure import compare_psnr
 import torch.nn as nn
 
 
-def generate_result_files(path, orig, num_iter, name, label=None):
+def generate_result_files_cifar(path, orig, num_iter, name, label=None):
     sm = nn.Softmax()
 
     model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
