@@ -32,6 +32,7 @@ for i in range(10):
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
     save_path = 'results/Features/non_robust'
     output = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
+    output = np.transpose(output,[2,0,1])
     confidences = model(np_to_torch(output))
     print(confidences)
 
