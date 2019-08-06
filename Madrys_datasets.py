@@ -17,15 +17,16 @@ data_path = "data/non_robust_CIFAR"
 save_path = 'results/Features/non_robust'
 
 train_labels = torch.cat(torch.load(os.path.join(data_path, "CIFAR_lab")))
+labels = train_labels.detach().numpy()
+np.savetxt(save_path + "/labels.txt", labels)
+
 num_iter = 1001
 for i in range(10):
     print("############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
     _ = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
     generate_result_files_cifar(save_path, image, num_iter, str(i))
-    labels = train_labels.detach().numpy()
 
-np.savetxt(save_path + "/labels.txt", labels)
 
 data_path = "data/robust_CIFAR"
 save_path = 'results/Features/robust'
