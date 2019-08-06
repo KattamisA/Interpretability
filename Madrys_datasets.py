@@ -8,14 +8,14 @@ import numpy as np
 
 from torch.utils.data import DataLoader
 
-from utils import makedirs, tensor2cuda, load_model, LabelDict
-from model import WideResNet
+from cifar-10.utils import makedirs, tensor2cuda, load_model, LabelDict
+from cifar-10.model import WideResNet
 
 import matplotlib.pyplot as plt
 
 model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
 
-load_model(model, args.load_checkpoint)
+load_model(model, "checkpoint/cifar-10_default/checkpoint_12000.pth")
 
 if torch.cuda.is_available():
     model.cuda()
