@@ -20,6 +20,7 @@ def generate_result_files_cifar(path, orig, num_iter, name, label=None):
     for i in range(num_images):
         loaded_image = cv2.imread('{}/it_{}.png'.format(path,i *100))[..., ::-1]
         img = loaded_image.copy().astype(np.float32)
+        img = np.transpose(img, [2,0,1])
         img = np_to_torch(img)
         output_layer = model(img)
         Probs = sm(output_layer)
