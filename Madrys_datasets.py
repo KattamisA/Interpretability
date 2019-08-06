@@ -1,18 +1,13 @@
 from functions.dip import *
-# from functions.generate_results_cifar import *
+from functions.generate_results_cifar import *
+
 from cifar_10.src.model.model import *
 from cifar_10.src.utils.utils import *
-from functions.utils.common_utils import np_to_torch
 
-import matplotlib.pyplot as plt
 import os
 import torch
 import numpy as np
 import cv2
-from torch.utils.data import DataLoader
-
-
-import matplotlib.pyplot as plt
 
 model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
 
