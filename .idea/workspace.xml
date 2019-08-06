@@ -6,108 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Madrys_datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Madrys_datasets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/generate_results_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_results_cifar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/0_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/0_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/0_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/0_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/0_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/1_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/1_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/1_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/1_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/1_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/2_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/2_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/2_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/2_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/2_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/3_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/3_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/3_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/3_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/3_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/4_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/4_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/4_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/4_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/4_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/5_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/5_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/5_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/5_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/5_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/6_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/6_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/6_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/6_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/6_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/7_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/7_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/7_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/7_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/7_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/8_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/8_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/8_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/8_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/8_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/9_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/9_Normalised.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/9_PSNR.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/9_Ranks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/9_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_2900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_3900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_4900.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_5000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_600.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_900.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="425">
+              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -789,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="425">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>

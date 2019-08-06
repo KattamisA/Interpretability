@@ -23,7 +23,7 @@ for i in range(10):
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
     _ = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
     generate_result_files_cifar(save_path, image, num_iter, str(i))
-    labels = train_labels.detach().numpy()[0]
+    labels = train_labels.detach().numpy()
 
 np.savetxt(save_path + "/labels.txt", labels)
 
