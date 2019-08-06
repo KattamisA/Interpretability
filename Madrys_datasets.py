@@ -20,9 +20,6 @@ model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
 
 load_model(model, "checkpoint/cifar_10_default/checkpoint_12000.pth")
 
-if torch.cuda.is_available():
-    model.cuda()
-
 data_path = "data/non_robust_CIFAR"
 
 train_labels = torch.cat(torch.load(os.path.join(data_path, "CIFAR_lab")))
