@@ -461,7 +461,7 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
         for j in range(num_iter):
             glparam.optimizer.zero_grad()
             glparam.optimizer.step(j, closure, glparam.net, criterion)    
-    print('\n')
+    # print('\n')
     
     # out = glparam.net(net_input)
     # glparam.out_avg = glparam.out_avg * glparam.exp + out.detach() * (1 - glparam.exp)

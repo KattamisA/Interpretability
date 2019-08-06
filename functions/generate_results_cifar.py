@@ -29,4 +29,4 @@ def generate_result_files_cifar(path, orig, num_iter, name):
 
     np.savetxt('{}/{}_Confidences.txt'.format(path, name), Confidence)
 
-    print('Results have been generated and stored in {}\n'.format(path))
+    print('\nResults have been generated and stored in {}'.format(path))
