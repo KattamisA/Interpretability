@@ -1,5 +1,5 @@
 from functions.dip import *
-# from functions.generate_results import *
+# from functions.generate_results_cifar import *
 from cifar_10.src.model.model import *
 from cifar_10.src.utils.utils import *
 from functions.utils.common_utils import np_to_torch
@@ -8,11 +8,9 @@ import matplotlib.pyplot as plt
 import os
 import torch
 import numpy as np
-import torch.nn as nn
 import cv2
 from torch.utils.data import DataLoader
 
-sm = nn.Softmax()
 
 import matplotlib.pyplot as plt
 
@@ -23,16 +21,14 @@ load_model(model, "checkpoint/cifar_10_default/checkpoint_12000.pth")
 data_path = "data/non_robust_CIFAR"
 
 train_labels = torch.cat(torch.load(os.path.join(data_path, "CIFAR_lab")))
-num_iter = 101
+num_iter = 1001
 for i in range(10):
     print("############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
     save_path = 'results/Features/non_robust'
     output = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
-    output = np.transpose(output,[2,0,1])
-    last_layer = model(np_to_torch(output))
-    confidences = sm(last_layer)
-    print(confidences)
+    generate_results_cifar(save_path, output, image, num_iter, str(i))
+
 
 data_path = "data/robust_CIFAR"
 
