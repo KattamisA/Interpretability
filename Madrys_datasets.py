@@ -24,7 +24,7 @@ if torch.cuda.is_available():
 
 data_path = "data/non_robust_CIFAR"
 
-train_labels = ch.cat(ch.load(os.path.join(data_path, "CIFAR_lab")))
+train_labels = torch.cat(torch.load(os.path.join(data_path, "CIFAR_lab")))
 num_iter = 101
 for i in range(10):
     print("############# Working on image: {}/500".format(i+1))
