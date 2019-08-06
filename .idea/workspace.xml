@@ -5,8 +5,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/generate_results_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_results_cifar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/features_plotting.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/features_plotting.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/non_robust/it_900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/0_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/0_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/0_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/1_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/1_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/1_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/2_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/2_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/2_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/3_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/3_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/3_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/4_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/4_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/4_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/5_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/5_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/5_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/6_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/6_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/6_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/7_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/7_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/7_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/8_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/8_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/8_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/9_Normalised.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/9_PSNR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/9_Ranks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_1900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_2900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_3900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_4900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_5000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/robust/it_900.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -47,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="705">
-              <caret line="464" column="4" lean-forward="true" selection-start-line="464" selection-start-column="4" selection-end-line="464" selection-end-column="4" />
+              <caret line="464" column="4" selection-start-line="464" selection-start-column="4" selection-end-line="464" selection-end-column="4" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -59,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/functions/utils/common_utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="138" column="43" lean-forward="true" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+              <caret line="138" column="43" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -67,11 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_results_cifar.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -80,10 +172,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cifar_10/src/argument.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cifar_10/src/attack/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar_10/src/model/model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="82">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+              <caret line="5" column="8" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -182,12 +292,12 @@
         <option value="$PROJECT_DIR$/cifar-10/src/utils/utils.py" />
         <option value="$PROJECT_DIR$/cifar-10/src/attack/fast_gradient_sign_untargeted.py" />
         <option value="$PROJECT_DIR$/cifar-10/src/main.py" />
-        <option value="$PROJECT_DIR$/cifar_10/src/attack/__init__.py" />
         <option value="$PROJECT_DIR$/cifar_10/src/model/model.py" />
         <option value="$PROJECT_DIR$/functions/generate_results.py" />
         <option value="$PROJECT_DIR$/Madrys_datasets.py" />
         <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/functions/generate_results_cifar.py" />
+        <option value="$PROJECT_DIR$/cifar_10/src/attack/__init__.py" />
       </list>
     </option>
   </component>
@@ -223,6 +333,13 @@
               <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
               <item name="cifar_10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
+              <item name="cifar_10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="attack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
@@ -343,16 +460,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/noise_adv_recovery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/integrated_gradients.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -629,9 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cifar_10/src/attack/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/models/downsampler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1360">
@@ -651,29 +755,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cifar_10/src/model/model.py">
+    <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/generate_results_cifar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/utils/common_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="138" column="43" lean-forward="true" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
+          <caret line="138" column="43" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,10 +788,17 @@
     <entry file="file://$PROJECT_DIR$/functions/dip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
-          <caret line="464" column="4" lean-forward="true" selection-start-line="464" selection-start-column="4" selection-end-line="464" selection-end-column="4" />
+          <caret line="464" column="4" selection-start-line="464" selection-start-column="4" selection-end-line="464" selection-end-column="4" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar_10/src/model/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="5" column="8" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -698,13 +812,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_results_cifar.py">
+    <entry file="file://$PROJECT_DIR$/cifar_10/src/argument.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="561">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar_10/src/attack/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
