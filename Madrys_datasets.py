@@ -8,8 +8,8 @@ import numpy as np
 
 from torch.utils.data import DataLoader
 
-from cifar-10.utils import makedirs, tensor2cuda, load_model, LabelDict
-from cifar-10.model import WideResNet
+from cifar_10.utils import makedirs, tensor2cuda, load_model, LabelDict
+from cifar_10.model import WideResNet
 
 import matplotlib.pyplot as plt
 
@@ -29,7 +29,8 @@ for i in range(10):
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
     save_path = 'results/Features/non_robust'
     output = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
-    q, i = model(output)
+    confidences = model(output)
+    print(confidences)
 
 data_path = "data/robust_CIFAR"
 
