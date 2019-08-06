@@ -1,5 +1,5 @@
 from functions.dip import *
-from functions.generate_results import *
+# from functions.generate_results import *
 from cifar_10.src.model.model import *
 from cifar_10.src.utils.utils import *
 
