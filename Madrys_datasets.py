@@ -1,7 +1,7 @@
 from functions.dip import *
 from functions.generate_results import *
-from cifar_10.src.model import WideResNet
-from cifar_10.src.utils import load_model
+from cifar_10.src.model.model import WideResNet
+from cifar_10.src.utils.utils import load_model
 
 import matplotlib.pyplot as plt
 import os
