@@ -28,8 +28,7 @@ class Model(nn.Module):
         self.flatten = Expression(lambda tensor: tensor.view(tensor.shape[0], -1))
         self.fc1 = nn.Linear(7 * 7 * 64, 1024, bias=True)
         self.fc2 = nn.Linear(1024, n_c)
-        self.sgm = nn.Sigmoid()
-
+        self.sm = nn.Softmax()
 
     def forward(self, x_i, _eval=False):
 
@@ -53,7 +52,7 @@ class Model(nn.Module):
 
         self.train()
 
-        return self.sgm(self.fc2(x_o))
+        return self.sm(self.fc2(x_o))
 
 
 
