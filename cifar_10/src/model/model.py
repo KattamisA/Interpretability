@@ -28,7 +28,7 @@ class Model(nn.Module):
         self.flatten = Expression(lambda tensor: tensor.view(tensor.shape[0], -1))
         self.fc1 = nn.Linear(7 * 7 * 64, 1024, bias=True)
         self.fc2 = nn.Linear(1024, n_c)
-        self.sm = nn.Softmax(n_c)
+
 
     def forward(self, x_i, _eval=False):
 
@@ -50,10 +50,9 @@ class Model(nn.Module):
 
         x_o = torch.relu(self.fc1(x_o))
 
-        # self.train()
-        x_o = self.fc2(x_o)
+        self.train()
 
-        return self.sm(x_o)
+        return self.fc2(x_o)
 
 
 

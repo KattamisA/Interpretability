@@ -7,8 +7,8 @@ from functions.utils.common_utils import np_to_torch
 import matplotlib.pyplot as plt
 import os
 import torch
-import torchvision as tv
 import numpy as np
+import torch.nn as nn
 import cv2
 from torch.utils.data import DataLoader
 
@@ -30,7 +30,8 @@ for i in range(10):
     save_path = 'results/Features/non_robust'
     output = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
     output = np.transpose(output,[2,0,1])
-    confidences = model(np_to_torch(output))
+    last_layer = model(np_to_torch(output))
+    confidences = nn.Softmax(last_layer)
     print(confidences)
 
 data_path = "data/robust_CIFAR"
