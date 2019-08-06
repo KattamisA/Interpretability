@@ -7,7 +7,7 @@ from skimage.measure import compare_psnr
 import torch.nn as nn
 
 
-def generate_result_files_cifar(path, orig, num_iter, name, label=None):
+def generate_result_files_cifar(path, orig, num_iter, name):
     sm = nn.Softmax()
 
     model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
@@ -26,11 +26,7 @@ def generate_result_files_cifar(path, orig, num_iter, name, label=None):
         Probs = sm(output_layer)
         Probs_np = torch_to_np(Probs)
         Confidence[i, :] = Probs_np
-            
-    # normalised_confidence = Confidence[:, 0]/original_confidence
+
     np.savetxt('{}/{}_Confidences.txt'.format(path, name), Confidence)
-    # np.savetxt('{}/{}_Ranks.txt'.format(path, name), Ranks_matrix)
-    # np.savetxt('{}/{}_Normalised.txt'.format(path, name), normalised_confidence)
-    # np.savetxt('{}/{}_PSNR.txt'.format(path, name), PSNR)
 
     print('\nResults have been generated and stored in {}'.format(path))
