@@ -8,7 +8,7 @@ import numpy as np
 
 from torch.utils.data import DataLoader
 
-from cifar_10.src.utils import makedirs, tensor2cuda, load_model, LabelDict
+from cifar_10.src.utils import load_model
 from cifar_10.src.model import WideResNet
 
 import matplotlib.pyplot as plt
