@@ -1,7 +1,9 @@
 from functions.dip import *
+from
 # from functions.generate_results import *
 from cifar_10.src.model.model import *
 from cifar_10.src.utils.utils import *
+from functions.utils.common_utils import np_to_torch
 
 import matplotlib.pyplot as plt
 import os
@@ -31,7 +33,7 @@ for i in range(10):
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
     save_path = 'results/Features/non_robust'
     output = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
-    confidences = model(output)
+    confidences = model(np_to_torch(output))
     print(confidences)
 
 data_path = "data/robust_CIFAR"
