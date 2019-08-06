@@ -1,5 +1,8 @@
 from functions.dip import *
 from functions.generate_results import *
+from cifar_10.src.utils import load_model
+from cifar_10.src.model import WideResNet
+
 import matplotlib.pyplot as plt
 import os
 import torch
@@ -8,8 +11,7 @@ import numpy as np
 
 from torch.utils.data import DataLoader
 
-from cifar_10.src.utils import load_model
-from cifar_10.src.model import WideResNet
+
 
 import matplotlib.pyplot as plt
 
