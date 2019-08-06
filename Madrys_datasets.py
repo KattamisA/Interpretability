@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
 
-load_model(model, "checkpoint/cifar-10_default/checkpoint_12000.pth")
+load_model(model, "checkpoint/cifar_10_default/checkpoint_12000.pth")
 
 if torch.cuda.is_available():
     model.cuda()
