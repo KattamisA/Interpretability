@@ -50,9 +50,10 @@ class Model(nn.Module):
 
         x_o = torch.relu(self.fc1(x_o))
 
-        self.train()
+        # self.train()
+        x_o = self.fc2(x_o)
 
-        return self.sm(self.fc2(x_o))
+        return self.sm(x_o)
 
 
 
