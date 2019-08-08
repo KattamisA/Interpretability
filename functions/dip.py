@@ -361,7 +361,7 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
         #          reg_noise_std = reg_noise_std, INPUT = 'INPUT', net = glparam.net)
                 
     def closure(iter_value):
-        show_every = 100
+        show_every = 10
         figsize = 4
         
         ## Initialiaze/ Update variables

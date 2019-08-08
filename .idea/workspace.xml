@@ -4,55 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/functions/models/__init__.py" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/generate_results_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_results_cifar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/features_plotting.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/features_plotting.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/0_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/0_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/1_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/1_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/2_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/2_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/3_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/3_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/4_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/4_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/5_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/5_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/6_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/6_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/7_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/7_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/8_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/8_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/9_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/9_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/init.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/non_robust - Copy/labels.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/0_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/0_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/1_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/1_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/2_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/2_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/3_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/3_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/4_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/4_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/5_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/5_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/6_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/6_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/7_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/7_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/8_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/8_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/9_Confidences.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/9_stats.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/init.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Features/robust - Copy/labels.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -88,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7871">
-              <caret line="464" column="4" selection-start-line="464" selection-start-column="4" selection-end-line="464" selection-end-column="4" />
+            <state relative-caret-position="264">
+              <caret line="362" column="28" lean-forward="true" selection-start-line="362" selection-start-column="28" selection-end-line="362" selection-end-column="28" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -116,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/functions/generate_results_cifar.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -162,7 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>adv_data</find>
       <find>attac</find>
       <find>atta</find>
       <find>pickle</find>
@@ -192,6 +143,7 @@
       <find>model</find>
       <find>nump</find>
       <find>w</find>
+      <find>100</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -247,10 +199,10 @@
         <option value="$PROJECT_DIR$/cifar-10/src/main.py" />
         <option value="$PROJECT_DIR$/cifar_10/src/model/model.py" />
         <option value="$PROJECT_DIR$/functions/generate_results.py" />
-        <option value="$PROJECT_DIR$/functions/dip.py" />
         <option value="$PROJECT_DIR$/cifar_10/src/attack/__init__.py" />
         <option value="$PROJECT_DIR$/Madrys_datasets.py" />
         <option value="$PROJECT_DIR$/functions/generate_results_cifar.py" />
+        <option value="$PROJECT_DIR$/functions/dip.py" />
       </list>
     </option>
   </component>
@@ -659,16 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7871">
-          <caret line="464" column="4" selection-start-line="464" selection-start-column="4" selection-end-line="464" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/utils/common_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2159">
@@ -703,7 +645,7 @@
     <entry file="file://$PROJECT_DIR$/functions/generate_results_cifar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -713,9 +655,19 @@
     <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="362" column="28" lean-forward="true" selection-start-line="362" selection-start-column="28" selection-end-line="362" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
