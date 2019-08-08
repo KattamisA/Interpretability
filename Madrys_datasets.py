@@ -11,7 +11,7 @@ import cv2
 
 model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
 
-load_model(model, "cifar_model/cifar_10_default/checkpoint_12000.pth")
+load_model(model, "cifar_model/cifar-10_default/checkpoint_12000.pth")
 
 data_path = "data/non_robust_CIFAR"
 save_path = 'results/Features/non_robust'
