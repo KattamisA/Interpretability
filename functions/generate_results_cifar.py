@@ -12,7 +12,7 @@ def generate_result_files_cifar(path, orig, num_iter, name):
 
     model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
 
-    load_model(model, "cifar_model/cifar-10_default/checkpoint_12000.pth")
+    load_model(model, "cifar_model/cifar-10_default/checkpoint_8000.pth")
     num_images = int((num_iter-1)/10 + 1)
 
     Confidence = np.ones([num_images, 10])
