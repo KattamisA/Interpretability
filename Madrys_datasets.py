@@ -11,7 +11,7 @@ import cv2
 
 model = WideResNet(depth=34, num_classes=10, widen_factor=10, dropRate=0.0)
 
-load_model(model, "cifar_model/cifar-10_default/checkpoint_8000.pth")
+load_model(model, "checkpoint/cifar-10_default/checkpoint_12000.pth")
 
 data_path = "data/non_robust_CIFAR"
 save_path = 'results/Features/non_robust'
@@ -24,7 +24,7 @@ num_iter = 1001
 for i in range(10):
     print("\n############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
-    _ = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
+    _ = dip(image, 'simple', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
     generate_result_files_cifar(save_path, image, num_iter, str(i))
 
 
@@ -39,6 +39,6 @@ num_iter = 1001
 for i in range(10):
     print("\n############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
-    _ = dip(image, 'depth3', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
+    _ = dip(image, 'simple', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
     generate_result_files_cifar(save_path, image, num_iter, str(i))
 

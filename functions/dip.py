@@ -329,10 +329,10 @@ def dip(img_np, arch='default', LR=0.01, num_iter=1000, reg_noise_std=1.0/30, ex
 
     elif arch == 'simple':
         if input_depth == None:
-            input_depth = 3 
+            input_depth = 32
         glparam.net = get_net(input_depth,'skip', pad,
-                skip_n33d=16, 
-                skip_n33u=16, 
+                skip_n33d=32,
+                skip_n33u=32,
                 skip_n11=0, 
                 num_scales=3,
                 upsample_mode='bilinear').type(dtype)
