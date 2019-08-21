@@ -6,9 +6,107 @@
   <component name="ChangeListManager">
     <list default="true" id="d7249a6d-01b3-4f1d-8178-41d99001f7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Madrys_datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Madrys_datasets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/dip.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/dip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/generate_results_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/generate_results_cifar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_10000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_10200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_10400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_10600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_10800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_11000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_11200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_11400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_11600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_11800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_1200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_12000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_12200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_12400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_12600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_12800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_13000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_13200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_13400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_13600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_13800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_1400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_14000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_14200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_14400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_14600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_14800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_15000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_15200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_15400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_15600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_15800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_1600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_16000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_16200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_16400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_16600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_16800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_17000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_17200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_17400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_17600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_17800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_1800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_18000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_18200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_18400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_18600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_18800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_19000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_19200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_19400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_19600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_2000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_2200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_2400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_2600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_2800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_3000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_3200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_3400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_3600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_3800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_4000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_4200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_4400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_4600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_4800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_5000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_5200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_5400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_5600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_5800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_6000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_6200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_6400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_6600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_6800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_7000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_7200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_7400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_7600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_7800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_8000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_8200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_8400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_8600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_8800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_9000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_9200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_9400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_9600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/DIP_aero/it_9800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Features/features_plotting.m" beforeDir="false" afterPath="$PROJECT_DIR$/results/Features/features_plotting.m" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="272">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -34,10 +132,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frequency_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saliency_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="374">
+              <caret line="26" column="80" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="80" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -48,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/dip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="327" column="46" selection-start-line="327" selection-start-column="46" selection-end-line="327" selection-end-column="46" />
+            <state relative-caret-position="7480">
+              <caret line="441" column="96" selection-start-line="440" selection-start-column="16" selection-end-line="441" selection-end-column="96" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -60,7 +179,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/utils/common_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="2159">
               <caret line="138" column="43" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -72,7 +191,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/generate_results_cifar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="136">
               <caret line="14" column="33" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -119,7 +238,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>attac</find>
       <find>atta</find>
       <find>pickle</find>
       <find>tr_loader</find>
@@ -149,6 +267,7 @@
       <find>nump</find>
       <find>w</find>
       <find>100</find>
+      <find>imsave</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,7 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/functions/saliency_utils.py" />
         <option value="$PROJECT_DIR$/results/Classification tests.py" />
         <option value="$PROJECT_DIR$/generate_results.py" />
         <option value="$PROJECT_DIR$/functions/integrated_gradients.py" />
@@ -207,6 +325,7 @@
         <option value="$PROJECT_DIR$/cifar_10/src/attack/__init__.py" />
         <option value="$PROJECT_DIR$/functions/generate_results_cifar.py" />
         <option value="$PROJECT_DIR$/functions/dip.py" />
+        <option value="$PROJECT_DIR$/frequency_tests.py" />
         <option value="$PROJECT_DIR$/Madrys_datasets.py" />
       </list>
     </option>
@@ -231,42 +350,6 @@
             <path>
               <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
-              <item name="cifar_10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
-              <item name="cifar_10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
-              <item name="cifar_10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="attack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
-              <item name="cifar_10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interpretability" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interpretability" type="462c0819:PsiDirectoryNode" />
-              <item name="functions" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,16 +453,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/functions/saliency/integrated_gradients.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/saliency/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -491,16 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classifying_defence_results.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -606,16 +669,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cifar_10/src/argument.py">
+    <entry file="file://$PROJECT_DIR$/saliency_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="80" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/dip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7480">
+          <caret line="441" column="96" selection-start-line="440" selection-start-column="16" selection-end-line="441" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/utils/common_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="2159">
           <caret line="138" column="43" selection-start-line="138" selection-start-column="43" selection-end-line="138" selection-end-column="43" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -623,10 +709,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cifar_10/src/model/model.py">
+    <entry file="file://$PROJECT_DIR$/functions/generate_results_cifar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" selection-start-line="5" selection-end-line="6" />
+        <state relative-caret-position="136">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar_10/src/argument.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -637,40 +733,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_results_cifar.py">
+    <entry file="file://$PROJECT_DIR$/cifar_10/src/model/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/generate_results.py">
+    <entry file="file://$PROJECT_DIR$/frequency_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/dip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="327" column="46" selection-start-line="327" selection-start-column="46" selection-end-line="327" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Madrys_datasets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
