@@ -24,7 +24,7 @@ num_iter = 1001
 for i in range(10):
     print("\n############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
-    _ = dip(image, 'simple', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
+    _ = dip(image, 'simple', num_iter=num_iter, save=True, save_path=save_path, name=str(i), LR=0.001)
     generate_result_files_cifar(save_path, image, num_iter, str(i))
 
 
@@ -39,6 +39,6 @@ num_iter = 1001
 for i in range(10):
     print("\n############# Working on image: {}/500".format(i+1))
     image = cv2.imread(data_path + '/' + str(i) + '.png')[..., ::-1]
-    _ = dip(image, 'simple', num_iter=num_iter, save=True, save_path=save_path, name=str(i))
+    _ = dip(image, 'simple', num_iter=num_iter, save=True, save_path=save_path, name=str(i), LR=0.001)
     generate_result_files_cifar(save_path, image, num_iter, str(i))
 
